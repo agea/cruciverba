@@ -1,0 +1,1343 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+<meta name="theme-color" content="#E9E3D6" />
+<title>Cruciverba</title>
+<style>
+  :root{
+    --paper:#E9E3D6; --paper-2:#F4EFE4; --board:#DED6C4;
+    --ink:#2A2722; --ink-soft:#766E60; --line:#C9C0AE;
+    --hl-word:#F3DCA0; --hl-cell:#E9B85C; --accent:#C77A2B;
+    --wrong:#C24A36; --right:#5E8C53;
+    --font-ui:-apple-system,system-ui,"Segoe UI",Roboto,sans-serif;
+    --font-cell:ui-rounded,"SF Pro Rounded",system-ui,sans-serif;
+    --font-mono:ui-monospace,"SF Mono",Menlo,monospace;
+    --cell:34px; --radius:10px;
+    --kbd-h:0px;
+  }
+  *{box-sizing:border-box; -webkit-tap-highlight-color:transparent;}
+  html,body{height:100%; margin:0;}
+  body{
+    font-family:var(--font-ui); color:var(--ink); background:var(--paper);
+    overflow:hidden; -webkit-text-size-adjust:100%; user-select:none; -webkit-user-select:none;
+    display:flex; flex-direction:column;
+    padding:env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+  }
+
+  /* ---------- masthead ---------- */
+  header{
+    display:flex; align-items:center; gap:16px; padding:10px 16px 8px;
+    border-bottom:1px solid var(--line); flex:0 0 auto;
+  }
+  .brand{display:flex; align-items:baseline; gap:10px; min-width:0;}
+  .brand h1{
+    margin:0; font-size:clamp(20px,3.4vw,30px); font-weight:800;
+    letter-spacing:-0.04em; line-height:1; white-space:nowrap;
+  }
+  .brand h1 .dot{color:var(--accent);}
+  .brand .sub{
+    font-family:var(--font-mono); font-size:11px; letter-spacing:.12em;
+    text-transform:uppercase; color:var(--ink-soft); white-space:nowrap;
+  }
+  .spacer{flex:1 1 auto;}
+  .timer{
+    font-family:var(--font-mono); font-size:15px; font-variant-numeric:tabular-nums;
+    color:var(--ink-soft); padding:4px 8px; border:1px solid var(--line);
+    border-radius:8px; background:var(--paper-2);
+  }
+  .timer.solved{color:var(--right); border-color:var(--right);}
+
+  .seg{display:flex; border:1px solid var(--line); border-radius:9px; overflow:hidden; background:var(--paper-2);}
+  .seg button{
+    font-family:var(--font-ui); font-size:13px; font-weight:600; color:var(--ink-soft);
+    background:transparent; border:0; padding:7px 11px; cursor:pointer;
+  }
+  .seg button[aria-pressed="true"]{background:var(--ink); color:var(--paper);}
+  .seg button + button{border-left:1px solid var(--line);}
+
+  .btn{
+    font-family:var(--font-ui); font-size:14px; font-weight:600; cursor:pointer;
+    color:var(--ink); background:var(--paper-2); border:1px solid var(--line);
+    border-radius:9px; padding:8px 14px; white-space:nowrap;
+  }
+  .btn:active{transform:translateY(1px);}
+  .btn.primary{background:var(--ink); color:var(--paper); border-color:var(--ink);}
+  .btn:focus-visible, .seg button:focus-visible{outline:2px solid var(--accent); outline-offset:2px;}
+
+  .menu-wrap{position:relative;}
+  .menu{
+    position:absolute; right:0; top:calc(100% + 6px); z-index:30;
+    background:var(--paper-2); border:1px solid var(--line); border-radius:12px;
+    box-shadow:0 12px 30px rgba(42,39,34,.18); padding:6px; min-width:190px; display:none;
+  }
+  .menu.open{display:block;}
+  .menu button{
+    display:block; width:100%; text-align:left; font-size:14px; font-weight:500;
+    background:transparent; border:0; border-radius:8px; padding:9px 11px; cursor:pointer; color:var(--ink);
+  }
+  .menu button:hover{background:var(--board);}
+  .menu .sep{height:1px; background:var(--line); margin:5px 4px;}
+  .menu button.danger{color:var(--wrong);}
+
+  /* ---------- main ---------- */
+  main{flex:1 1 auto; display:flex; min-height:0; overflow:hidden;}
+  .grid-pane{
+    flex:1 1 auto; min-width:0; display:flex; align-items:center; justify-content:center;
+    padding:14px; overflow:hidden;
+  }
+  .board{
+    display:grid; gap:2px; background:transparent;
+    grid-auto-rows:var(--cell); justify-content:center;
+  }
+  .cell{
+    width:var(--cell); height:var(--cell); position:relative;
+    background:var(--paper-2); border:1px solid var(--line); border-radius:5px;
+    display:flex; align-items:center; justify-content:center; cursor:pointer;
+    font-family:var(--font-cell); font-weight:600; color:var(--ink);
+    font-size:calc(var(--cell)*0.56); line-height:1;
+  }
+  .cell.void{background:transparent; border:0; cursor:default; pointer-events:none;}
+  .cell .num{
+    position:absolute; top:1px; left:3px; font-family:var(--font-mono);
+    font-size:calc(var(--cell)*0.27); color:var(--ink-soft); font-weight:500; pointer-events:none;
+  }
+  .cell.hl-word{background:var(--hl-word);}
+  .cell.hl-cell{background:var(--hl-cell); box-shadow:inset 0 0 0 2px var(--accent);}
+  .cell.wrong{color:var(--wrong);}
+  .cell.wrong::after{
+    content:""; position:absolute; inset:0; border-radius:5px;
+    box-shadow:inset 0 0 0 2px var(--wrong);
+  }
+  .cell.revealed{color:var(--accent);}
+  .cell .ltr{transition:transform .08s ease;}
+  @media (prefers-reduced-motion:reduce){ .cell .ltr{transition:none;} }
+  .cell.pop .ltr{transform:scale(1.18);}
+
+  /* ---------- clue panel (lato destro, landscape) ---------- */
+  .clue-pane{
+    flex:0 0 clamp(280px,30%,400px); border-left:1px solid var(--line);
+    display:flex; flex-direction:column; min-height:0; background:var(--paper);
+  }
+  .clue-cols{flex:1 1 auto; display:flex; min-height:0;}
+  .clue-col{flex:1 1 50%; display:flex; flex-direction:column; min-height:0; min-width:0;}
+  .clue-col + .clue-col{border-left:1px solid var(--line);}
+  .clue-col h2{
+    margin:0; font-family:var(--font-mono); font-size:11px; letter-spacing:.14em;
+    text-transform:uppercase; color:var(--ink-soft); padding:10px 12px 8px;
+    border-bottom:1px solid var(--line); flex:0 0 auto;
+  }
+  .clue-list{flex:1 1 auto; overflow-y:auto; -webkit-overflow-scrolling:touch; padding:4px 0;}
+  .clue-item{
+    display:flex; gap:8px; padding:7px 12px; cursor:pointer; font-size:13.5px; line-height:1.3;
+    border-left:3px solid transparent;
+  }
+  .clue-item .cn{font-family:var(--font-mono); font-weight:600; color:var(--ink-soft); flex:0 0 auto; min-width:18px;}
+  .clue-item.done .ct{color:var(--ink-soft); text-decoration:line-through;}
+  .clue-item.active{background:var(--hl-word); border-left-color:var(--accent);}
+  .clue-item:active{background:var(--board);}
+
+  /* ---------- current clue bar + keyboard ---------- */
+  .dock{flex:0 0 auto; border-top:1px solid var(--line); background:var(--paper);}
+  .cluebar{
+    display:flex; align-items:center; gap:10px; padding:10px 12px;
+    border-bottom:1px solid var(--line);
+  }
+  .cluebar .nav{
+    flex:0 0 auto; width:38px; height:38px; border-radius:9px; border:1px solid var(--line);
+    background:var(--paper-2); font-size:18px; color:var(--ink); cursor:pointer;
+    display:flex; align-items:center; justify-content:center;
+  }
+  .cluebar .nav:active{transform:translateY(1px);}
+  .cluebar .cur{flex:1 1 auto; min-width:0;}
+  .cluebar .cur .meta{
+    font-family:var(--font-mono); font-size:11px; letter-spacing:.1em; text-transform:uppercase;
+    color:var(--accent); margin-bottom:1px;
+  }
+  .cluebar .cur .txt{
+    font-size:16px; font-weight:600; line-height:1.25;
+    overflow:hidden; text-overflow:ellipsis; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical;
+  }
+
+  .keyboard{padding:7px 6px 9px; display:flex; flex-direction:column; gap:6px;}
+  .krow{display:flex; gap:5px; justify-content:center;}
+  .key{
+    flex:1 1 0; max-width:46px; height:clamp(40px,6.2vh,52px);
+    border-radius:9px; border:1px solid var(--line); background:var(--paper-2);
+    font-family:var(--font-cell); font-size:18px; font-weight:600; color:var(--ink);
+    display:flex; align-items:center; justify-content:center; cursor:pointer;
+    box-shadow:0 2px 0 var(--line);
+  }
+  .key:active{transform:translateY(2px); box-shadow:0 0 0 var(--line); background:var(--board);}
+  .key.wide{flex:1.6 1 0; max-width:74px; font-size:16px;}
+  .key.act{background:var(--ink); color:var(--paper); border-color:var(--ink); box-shadow:0 2px 0 #000;}
+  .key:focus-visible{outline:2px solid var(--accent); outline-offset:2px;}
+
+  /* ---------- overlay loading + win ---------- */
+  .overlay{
+    position:fixed; inset:0; z-index:50; display:none; align-items:center; justify-content:center;
+    background:rgba(233,227,214,.82); backdrop-filter:blur(2px);
+  }
+  .overlay.show{display:flex;}
+  .card{
+    background:var(--paper-2); border:1px solid var(--line); border-radius:18px;
+    padding:26px 30px; text-align:center; box-shadow:0 18px 50px rgba(42,39,34,.2); max-width:340px;
+  }
+  .card h3{margin:0 0 6px; font-size:22px; letter-spacing:-0.02em;}
+  .card p{margin:0 0 16px; color:var(--ink-soft); font-size:14px; line-height:1.4;}
+  .spinner{
+    width:34px; height:34px; margin:0 auto 14px; border-radius:50%;
+    border:3px solid var(--line); border-top-color:var(--accent); animation:spin 1s linear infinite;
+  }
+  @keyframes spin{to{transform:rotate(360deg);}}
+  @media (prefers-reduced-motion:reduce){ .spinner{animation:none;} }
+
+  .toast{
+    position:fixed; left:50%; bottom:calc(var(--kbd-h) + 18px); transform:translateX(-50%) translateY(20px);
+    background:var(--ink); color:var(--paper); padding:10px 16px; border-radius:10px; font-size:14px;
+    opacity:0; transition:opacity .2s, transform .2s; z-index:40; pointer-events:none; white-space:nowrap;
+  }
+  .toast.show{opacity:1; transform:translateX(-50%) translateY(0);}
+
+  /* ---------- responsive: portrait / stretto ---------- */
+  .clue-toggle{display:none;}
+  @media (max-aspect-ratio:1/1), (max-width:760px){
+    main{flex-direction:column;}
+    .clue-pane{
+      flex:0 0 auto; border-left:0; border-top:1px solid var(--line);
+      position:fixed; left:0; right:0; bottom:0; top:0; z-index:45;
+      transform:translateY(100%); transition:transform .25s ease; background:var(--paper);
+    }
+    .clue-pane.open{transform:translateY(0);}
+    .clue-pane .closebar{
+      display:flex; align-items:center; justify-content:space-between; padding:12px 14px;
+      border-bottom:1px solid var(--line);
+    }
+    .clue-pane .closebar strong{font-size:16px;}
+    .clue-toggle{display:flex;}
+  }
+  @media not all and (max-aspect-ratio:1/1){
+    @media (min-width:761px){ .clue-pane .closebar{display:none;} }
+  }
+  .clue-pane .closebar{display:none;}
+</style>
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <h1>Cruciverba<span class="dot">.</span></h1>
+      <span class="sub">schema libero</span>
+    </div>
+    <div class="spacer"></div>
+    <div class="timer" id="timer">00:00</div>
+    <div class="seg" id="difficulty" role="group" aria-label="Difficolta">
+      <button data-diff="facile" aria-pressed="false">Facile</button>
+      <button data-diff="medio" aria-pressed="true">Medio</button>
+      <button data-diff="difficile" aria-pressed="false">Difficile</button>
+    </div>
+    <button class="btn clue-toggle" id="clueToggle">Definizioni</button>
+    <button class="btn primary" id="newBtn">Nuovo</button>
+    <div class="menu-wrap">
+      <button class="btn" id="helpBtn" aria-haspopup="true">Aiuto ▾</button>
+      <div class="menu" id="helpMenu" role="menu">
+        <button data-act="check">Verifica</button>
+        <button data-act="reveal-letter">Rivela lettera</button>
+        <button data-act="reveal-word">Rivela parola</button>
+        <div class="sep"></div>
+        <button data-act="solve">Mostra soluzione</button>
+        <button data-act="clear" class="danger">Cancella tutto</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="grid-pane">
+      <div class="board" id="board" role="grid" aria-label="Griglia del cruciverba"></div>
+    </div>
+    <aside class="clue-pane" id="cluePane">
+      <div class="closebar">
+        <strong>Definizioni</strong>
+        <button class="btn" id="clueClose">Chiudi</button>
+      </div>
+      <div class="clue-cols">
+        <div class="clue-col">
+          <h2>Orizzontali</h2>
+          <div class="clue-list" id="acrossList"></div>
+        </div>
+        <div class="clue-col">
+          <h2>Verticali</h2>
+          <div class="clue-list" id="downList"></div>
+        </div>
+      </div>
+    </aside>
+  </main>
+
+  <div class="dock">
+    <div class="cluebar">
+      <button class="nav" id="prevClue" aria-label="Definizione precedente">‹</button>
+      <div class="cur">
+        <div class="meta" id="curMeta">—</div>
+        <div class="txt" id="curTxt">Premi “Nuovo” per generare un cruciverba</div>
+      </div>
+      <button class="nav" id="nextClue" aria-label="Definizione successiva">›</button>
+    </div>
+    <div class="keyboard" id="keyboard"></div>
+  </div>
+
+  <div class="overlay" id="overlay">
+    <div class="card" id="overlayCard">
+      <div class="spinner" id="spinner"></div>
+      <h3 id="ovTitle">Genero il cruciverba…</h3>
+      <p id="ovText">Sto incastrando le parole. Ci vuole solo un istante.</p>
+      <button class="btn primary" id="ovBtn" style="display:none">Nuovo cruciverba</button>
+    </div>
+  </div>
+
+  <div class="toast" id="toast"></div>
+
+  <!-- ===================== GENERATORE (Web Worker, off-thread) ===================== -->
+  <script id="worker-src" type="javascript/worker">
+// Generatore di cruciverba a schema libero (free-form).
+// Costruisce sia la griglia sia gli incroci a partire da un insieme di parole.
+// Algoritmo: piazzamento greedy con incroci validati + multi-tentativo, si tiene la griglia migliore.
+
+// ---------- utilità ----------
+function stripAccents(s) {
+  return s.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+}
+function normalizeAnswer(s) {
+  return stripAccents(String(s)).toUpperCase().replace(/[^A-Z]/g, "");
+}
+function mulberry32(seed) {
+  let a = seed >>> 0;
+  return function () {
+    a |= 0; a = (a + 0x6D2B79F5) | 0;
+    let t = Math.imul(a ^ (a >>> 15), 1 | a);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+function shuffleInPlace(arr, rnd) {
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(rnd() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
+
+// Griglia sparsa: chiave "r,c" -> { ch, count }  (count = quante parole ci passano)
+function makeKey(r, c) { return r + "," + c; }
+
+// ---------- piazzamento ----------
+// dir: 0 = orizzontale (across), 1 = verticale (down)
+function canPlace(grid, word, r, c, dir) {
+  const dr = dir === 1 ? 1 : 0;
+  const dc = dir === 0 ? 1 : 0;
+  let crossings = 0;
+
+  // la cella prima dell'inizio e dopo la fine devono essere vuote (niente parole appiccicate)
+  const beforeKey = makeKey(r - dr, c - dc);
+  const afterKey = makeKey(r + dr * word.length, c + dc * word.length);
+  if (grid.has(beforeKey)) return null;
+  if (grid.has(afterKey)) return null;
+
+  for (let i = 0; i < word.length; i++) {
+    const cr = r + dr * i;
+    const cc = c + dc * i;
+    const cell = grid.get(makeKey(cr, cc));
+    if (cell) {
+      if (cell.ch !== word[i]) return null; // conflitto di lettera
+      crossings++;
+    } else {
+      // cella nuova: i vicini perpendicolari devono essere vuoti
+      // (altrimenti creiamo parole parallele non volute)
+      const p1 = makeKey(cr + dc, cc + dr); // un lato perpendicolare
+      const p2 = makeKey(cr - dc, cc - dr); // lato opposto
+      if (grid.has(p1) || grid.has(p2)) return null;
+    }
+  }
+  return { crossings };
+}
+
+function placeWord(grid, placements, entry, r, c, dir) {
+  const word = entry.answer;
+  const dr = dir === 1 ? 1 : 0;
+  const dc = dir === 0 ? 1 : 0;
+  for (let i = 0; i < word.length; i++) {
+    const key = makeKey(r + dr * i, c + dc * i);
+    const cell = grid.get(key);
+    if (cell) cell.count++;
+    else grid.set(key, { ch: word[i], count: 1 });
+  }
+  placements.push({ answer: word, clue: entry.clue, row: r, col: c, dir });
+}
+
+function bounds(grid) {
+  let minR = Infinity, maxR = -Infinity, minC = Infinity, maxC = -Infinity;
+  for (const key of grid.keys()) {
+    const [r, c] = key.split(",").map(Number);
+    if (r < minR) minR = r; if (r > maxR) maxR = r;
+    if (c < minC) minC = c; if (c > maxC) maxC = c;
+  }
+  return { minR, maxR, minC, maxC, w: maxC - minC + 1, h: maxR - minR + 1 };
+}
+
+function tryBuild(entries, rnd, maxSide) {
+  const grid = new Map();
+  const placements = [];
+  const pool = entries.slice();
+  // prima parola: una lunga, al centro, orizzontale
+  pool.sort((a, b) => b.answer.length - a.answer.length);
+  const firstPick = pool.splice(Math.floor(rnd() * Math.min(5, pool.length)), 1)[0];
+  placeWord(grid, placements, firstPick, 0, 0, 0);
+
+  // ordino i rimanenti in modo pseudo-casuale ma con leggera preferenza ai piu lunghi
+  shuffleInPlace(pool, rnd);
+
+  for (const entry of pool) {
+    const word = entry.answer;
+    let best = null;
+    // provo a incrociare ogni lettera della parola con celle gia presenti
+    for (let i = 0; i < word.length; i++) {
+      const ch = word[i];
+      for (const [key, cell] of grid) {
+        if (cell.ch !== ch) continue;
+        const [r, c] = key.split(",").map(Number);
+        // provo entrambe le direzioni: la parola passa per (r,c) con la lettera i
+        for (let dir = 0; dir <= 1; dir++) {
+          const sr = dir === 1 ? r - i : r;
+          const sc = dir === 0 ? c - i : c;
+          const res = canPlace(grid, word, sr, sc, dir);
+          if (!res) continue;
+          // punteggio: piu incroci e griglia piu compatta/quadrata
+          const tmpKeys = [];
+          for (let k = 0; k < word.length; k++) {
+            tmpKeys.push([sr + (dir === 1 ? k : 0), sc + (dir === 0 ? k : 0)]);
+          }
+          let minR = Infinity, maxR = -Infinity, minC = Infinity, maxC = -Infinity;
+          for (const key2 of grid.keys()) {
+            const [rr, cc] = key2.split(",").map(Number);
+            if (rr < minR) minR = rr; if (rr > maxR) maxR = rr;
+            if (cc < minC) minC = cc; if (cc > maxC) maxC = cc;
+          }
+          for (const [rr, cc] of tmpKeys) {
+            if (rr < minR) minR = rr; if (rr > maxR) maxR = rr;
+            if (cc < minC) minC = cc; if (cc > maxC) maxC = cc;
+          }
+          const w = maxC - minC + 1, h = maxR - minR + 1;
+          if (maxSide && (w > maxSide || h > maxSide)) continue; // rispetta il limite di lato
+          const aspect = Math.abs(w - h);
+          const score = res.crossings * 100 - (w + h) - aspect * 2 + rnd() * 3;
+          if (!best || score > best.score) best = { sr, sc, dir, score };
+        }
+      }
+    }
+    if (best) placeWord(grid, placements, entry, best.sr, best.sc, best.dir);
+  }
+  return { grid, placements };
+}
+
+// ---------- finalizzazione: normalizza coordinate, costruisce matrice, numera ----------
+// Le definizioni vengono ricavate dalle SEQUENZE reali della griglia: ogni run >=2
+// lettere viene cercato nel dizionario answer->clue. Se una sequenza non e' una
+// parola nota -> e' una "parola fantasma" e la griglia viene segnalata come invalida.
+function finalize(grid, placements, answerToClue) {
+  const b = bounds(grid);
+  const H = b.h, W = b.w;
+  const cells = Array.from({ length: H }, () => Array.from({ length: W }, () => null));
+  for (const [key, cell] of grid) {
+    const [r, c] = key.split(",").map(Number);
+    cells[r - b.minR][c - b.minC] = { ch: cell.ch, num: 0 };
+  }
+
+  let num = 0;
+  const across = [];
+  const down = [];
+  const ghosts = [];
+
+  const readRun = (r, c, dir) => {
+    const dr = dir === 1 ? 1 : 0, dc = dir === 0 ? 1 : 0;
+    let s = "";
+    let rr = r, cc = c;
+    while (rr < H && cc < W && cells[rr][cc]) { s += cells[rr][cc].ch; rr += dr; cc += dc; }
+    return s;
+  };
+
+  for (let r = 0; r < H; r++) {
+    for (let c = 0; c < W; c++) {
+      if (!cells[r][c]) continue;
+      const leftEmpty = c === 0 || !cells[r][c - 1];
+      const rightFilled = c + 1 < W && cells[r][c + 1];
+      const upEmpty = r === 0 || !cells[r - 1][c];
+      const downFilled = r + 1 < H && cells[r + 1][c];
+      const startsAcross = leftEmpty && rightFilled;
+      const startsDown = upEmpty && downFilled;
+      if (startsAcross || startsDown) {
+        num++;
+        cells[r][c].num = num;
+        if (startsAcross) {
+          const word = readRun(r, c, 0);
+          const clue = answerToClue.get(word);
+          if (clue == null) ghosts.push(word);
+          across.push({ num, clue: clue || "(?)", answer: word, row: r, col: c, len: word.length });
+        }
+        if (startsDown) {
+          const word = readRun(r, c, 1);
+          const clue = answerToClue.get(word);
+          if (clue == null) ghosts.push(word);
+          down.push({ num, clue: clue || "(?)", answer: word, row: r, col: c, len: word.length });
+        }
+      }
+    }
+  }
+  return { width: W, height: H, cells, across, down, wordCount: across.length + down.length, ghosts };
+}
+
+// ---------- API principale ----------
+function generateCrossword(rawEntries, opts = {}) {
+  const { attempts = 60, seed = (Date.now() >>> 0), maxWords = 9999, maxSide = 0, minLen = 2, maxLen = 99 } = opts;
+  // normalizza e deduplica + costruisci dizionario answer->clue (per scovare le parole fantasma)
+  const map = new Map();
+  const answerToClue = new Map();
+  for (const [answer, clue] of rawEntries) {
+    const a = normalizeAnswer(answer);
+    if (a.length < 2) continue;
+    if (!answerToClue.has(a)) answerToClue.set(a, clue);
+    if (a.length < minLen || a.length > maxLen) continue;
+    if (!map.has(a)) map.set(a, { answer: a, clue });
+  }
+  let entries = Array.from(map.values());
+
+  let best = null;
+  for (let t = 0; t < attempts; t++) {
+    const rnd = mulberry32((seed + t * 2654435761) >>> 0);
+    const sample = shuffleInPlace(entries.slice(), rnd).slice(0, maxWords);
+    const { grid, placements } = tryBuild(sample, rnd, maxSide);
+    if (placements.length < 2) continue;
+    const result = finalize(grid, placements, answerToClue);
+    const b = bounds(grid);
+    const area = b.w * b.h;
+    const density = grid.size / area;
+    // penalizza pesantemente le parole fantasma: una griglia pulita batte sempre una sporca
+    const ghostPenalty = result.ghosts.length * 100000;
+    const score = result.wordCount * 1000 + density * 500 - (b.w + b.h) - ghostPenalty;
+    if (!best || score > best.score) best = { result, score, clean: result.ghosts.length === 0 };
+  }
+  if (!best) return null;
+  return best.result;
+}
+
+
+onmessage = function(e){
+  var entries = e.data.entries, opts = e.data.opts || {};
+  try{
+    var t0 = Date.now();
+    var puzzle = generateCrossword(entries, opts);
+    postMessage({ ok:true, puzzle:puzzle, ms: Date.now()-t0 });
+  }catch(err){
+    postMessage({ ok:false, error: String(err && err.message || err) });
+  }
+};
+  </script>
+
+  <!-- ===================== DATABASE DEFINIZIONI ===================== -->
+  <script>
+// Database di definizioni in italiano per il cruciverba.
+// Formato: [ "SOLUZIONE", "definizione" ]
+// Le soluzioni sono in MAIUSCOLO, senza accenti/spazi (normalizzate altrove comunque).
+// Pensato per essere esteso: aggiungi righe qui. Vedi README per come arrivare a migliaia.
+
+const CRUCI_DB = [
+  // --- 2 lettere (collante per gli incroci) ---
+  ["RE", "Sovrano sulla scacchiera"],
+  ["RO", "Lettera greca dopo il pi"],
+  ["DO", "La prima nota musicale"],
+  ["LA", "La nota del diapason"],
+  ["MI", "Nota tra il re e il fa"],
+  ["TE", "Bevanda delle cinque"],
+  ["OK", "Va bene, all'americana"],
+  ["NO", "Risposta negativa"],
+  ["SI", "Risposta affermativa"],
+  ["VIA", "Strada cittadina"],
+  ["ORA", "Sessanta minuti"],
+  ["ARA", "Pappagallo colorato del Sudamerica"],
+  ["ASO", "...ad un passo dalla vetta (lat.)"],
+
+  // --- 3 lettere ---
+  ["MARE", "Distesa d'acqua salata"],
+  ["SOLE", "La stella del nostro sistema"],
+  ["LUNA", "Il satellite della Terra"],
+  ["NEVE", "Cade bianca d'inverno"],
+  ["RANA", "Anfibio che gracida"],
+  ["APE", "Insetto che produce miele"],
+  ["OCA", "Volatile da cortile starnazzante"],
+  ["UVA", "Frutto della vite"],
+  ["ALA", "Permette il volo agli uccelli"],
+  ["ARTE", "La pittura ne fa parte"],
+  ["ASSE", "Il carro ci gira intorno"],
+  ["ETA", "Numero degli anni"],
+  ["ERA", "Lunga epoca geologica"],
+  ["IRA", "Collera improvvisa"],
+  ["EVA", "La prima donna, secondo la Bibbia"],
+  ["OLIO", "Condimento dell'insalata"],
+  ["RIO", "Piccolo corso d'acqua"],
+  ["NEO", "Piccola macchia sulla pelle"],
+  ["EGO", "L'io in psicologia"],
+  ["TRE", "Numero dopo il due"],
+  ["SEI", "Il numero del cubo nei dadi"],
+  ["DUE", "La coppia in cifre"],
+  ["ORO", "Metallo prezioso giallo"],
+  ["GAS", "Si usa per cucinare"],
+  ["BAR", "Ci si prende il caffe"],
+  ["ZIO", "Il fratello del padre"],
+  ["ALI", "Servono a volare (plur.)"],
+  ["ANNO", "Dura dodici mesi"],
+  ["ESCA", "Inganna il pesce all'amo"],
+  ["ASIA", "Il continente piu vasto"],
+  ["AROMA", "Il profumo del caffe"],
+
+  // --- 4 lettere ---
+  ["CANE", "Il migliore amico dell'uomo"],
+  ["GATTO", "Felino domestico che fa le fusa"],
+  ["LUPO", "Predatore che ulula alla luna"],
+  ["ORSO", "Plantigrado che va in letargo"],
+  ["LEONE", "Il re della savana"],
+  ["TIGRE", "Felino a strisce dell'Asia"],
+  ["VELA", "Spinge la barca col vento"],
+  ["REMO", "Serve a far avanzare la barca"],
+  ["NIDO", "La casa degli uccellini"],
+  ["ROSA", "Fiore con le spine"],
+  ["PINO", "Albero sempreverde da pinoli"],
+  ["FARO", "Guida le navi con la sua luce"],
+  ["RISO", "Cereale dei risotti"],
+  ["PANE", "Si fa con farina e lievito"],
+  ["VINO", "Bevanda dell'uva fermentata"],
+  ["LATTE", "Bianco, dalla mucca"],
+  ["UOVA", "Le depone la gallina"],
+  ["MELA", "Quella di Newton cadde"],
+  ["PERA", "Frutto a forma di goccia"],
+  ["FICO", "Frutto estivo dolcissimo"],
+  ["NOCE", "Frutto secco del noce"],
+  ["RAMO", "Si protende dal tronco"],
+  ["FOGLIA", "Cade in autunno dagli alberi"],
+  ["RADICE", "Ancora la pianta al terreno"],
+  ["SEME", "Da cui nasce la pianta"],
+  ["LAGO", "Specchio d'acqua dolce"],
+  ["FIUME", "Scorre verso il mare"],
+  ["MONTE", "Rilievo molto elevato"],
+  ["ISOLA", "Terra circondata dal mare"],
+  ["COSTA", "Dove il mare incontra la terra"],
+  ["NAVE", "Grande imbarcazione"],
+  ["AEREO", "Vola portando passeggeri"],
+  ["TRENO", "Viaggia sui binari"],
+  ["AUTO", "Veicolo a quattro ruote"],
+  ["RUOTA", "Gira sotto l'automobile"],
+  ["MOTO", "Veicolo a due ruote a motore"],
+  ["PORTO", "Approdo per le navi"],
+  ["PONTE", "Collega le due rive"],
+  ["TORRE", "Pezzo degli scacchi a forma di castello"],
+  ["MURO", "Divide due ambienti"],
+  ["TETTO", "Copre la casa in alto"],
+  ["PORTA", "Si apre per entrare"],
+  ["LETTO", "Ci si dorme la notte"],
+  ["SEDIA", "Mobile su cui ci si siede"],
+  ["TAVOLO", "Ci si mangia sopra"],
+  ["VASO", "Contiene i fiori"],
+  ["LIBRO", "Si legge pagina dopo pagina"],
+  ["PENNA", "Strumento per scrivere a inchiostro"],
+  ["CARTA", "Si ricava dalla cellulosa"],
+  ["RETE", "Quella del calcio si gonfia"],
+  ["PALLA", "Sferica, si calcia o si lancia"],
+  ["GIOCO", "Passatempo divertente"],
+  ["ROMA", "La capitale d'Italia"],
+  ["MILANO", "Capitale della moda italiana"],
+  ["NAPOLI", "Patria della pizza"],
+  ["TORINO", "Citta della Mole Antonelliana"],
+  ["ETNA", "Vulcano attivo siciliano"],
+  ["ALPI", "La catena montuosa del nord Italia"],
+  ["PESCE", "Nuota con le pinne"],
+  ["SQUALO", "Predatore dei mari con denti aguzzi"],
+  ["DELFINO", "Mammifero marino intelligente"],
+  ["BALENA", "Il piu grande mammifero marino"],
+  ["GALLO", "Canta all'alba nel pollaio"],
+  ["AQUILA", "Rapace simbolo di maesta"],
+  ["CIGNO", "Elegante uccello acquatico bianco"],
+  ["TOPO", "Roditore piccolo e grigio"],
+  ["VOLPE", "Furba abitante del bosco"],
+  ["CERVO", "Ha i palchi sulla testa"],
+  ["MUCCA", "Ci da il latte"],
+  ["CAVALLO", "Galoppa nella prateria"],
+  ["ASINO", "Parente del cavallo dalle orecchie lunghe"],
+  ["MAIALE", "Animale rosa della fattoria"],
+  ["PECORA", "Ci da la lana"],
+  ["CAPRA", "Bela e si arrampica sui monti"],
+
+  // --- 5 lettere ---
+  ["FIORE", "Sboccia in primavera"],
+  ["FRUTTO", "Prodotto dolce dell'albero"],
+  ["CAMPO", "Distesa coltivata"],
+  ["BOSCO", "Distesa fitta di alberi"],
+  ["PRATO", "Distesa d'erba verde"],
+  ["NUBE", "Massa di vapore nel cielo"],
+  ["PIOGGIA", "Acqua che cade dal cielo"],
+  ["VENTO", "Aria in movimento"],
+  ["FUOCO", "Brucia e riscalda"],
+  ["TERRA", "Il nostro pianeta"],
+  ["CIELO", "Sopra le nostre teste"],
+  ["STELLA", "Brilla nella notte"],
+  ["NOTTE", "Quando il sole tramonta"],
+  ["GIORNO", "L'opposto della notte"],
+  ["ALBA", "Il sorgere del sole"],
+  ["SERA", "Quando cala la luce"],
+  ["TEMPO", "Lo misura l'orologio"],
+  ["FESTA", "Occasione di allegria"],
+  ["MUSICA", "Arte dei suoni"],
+  ["CANTO", "Melodia con la voce"],
+  ["DANZA", "Movimento a ritmo di musica"],
+  ["TEATRO", "Vi si recita uno spettacolo"],
+  ["CINEMA", "Sala dei film"],
+  ["FILM", "Pellicola da proiettare"],
+  ["ATTORE", "Recita una parte"],
+  ["SCENA", "Parte di un'opera teatrale"],
+  ["POESIA", "Componimento in versi"],
+  ["VERSO", "Riga di una poesia"],
+  ["FRASE", "Insieme di parole con senso compiuto"],
+  ["LETTERA", "Si invia per posta"],
+  ["PAROLA", "Unita del discorso"],
+  ["LINGUA", "Sia l'italiano sia un organo della bocca"],
+  ["VOCE", "Esce dalla gola quando si parla"],
+  ["SUONO", "Lo percepisce l'orecchio"],
+  ["COLORE", "Il rosso ne e uno"],
+  ["VERDE", "Il colore dell'erba"],
+  ["ROSSO", "Il colore del sangue"],
+  ["GIALLO", "Il colore del limone"],
+  ["NERO", "Il colore del carbone"],
+  ["BIANCO", "Il colore della neve"],
+  ["VIOLA", "Colore tra il blu e il rosso"],
+  ["FORMA", "Il quadrato ne e una"],
+  ["CERCHIO", "Figura geometrica perfettamente tonda"],
+  ["QUADRATO", "Ha quattro lati uguali"],
+  ["LINEA", "Unisce due punti"],
+  ["PUNTO", "Chiude la frase"],
+  ["NUMERO", "Lo zero ne e uno"],
+  ["SOMMA", "Risultato dell'addizione"],
+  ["CONTO", "Da pagare al ristorante"],
+  ["DENARO", "Serve per comprare"],
+  ["BANCA", "Custodisce i risparmi"],
+  ["LAVORO", "Occupazione quotidiana"],
+  ["UFFICIO", "Luogo dove si lavora alla scrivania"],
+  ["SCUOLA", "Vi si studia da bambini"],
+  ["MAESTRO", "Insegna ai bambini"],
+  ["ALUNNO", "Lo studente delle elementari"],
+  ["LEZIONE", "Spiegazione dell'insegnante"],
+  ["STORIA", "Studia il passato"],
+  ["MEDICO", "Cura i malati"],
+  ["MALATO", "Chi ha bisogno di cure"],
+  ["SALUTE", "Lo stato di chi sta bene"],
+  ["CUORE", "Pompa il sangue"],
+  ["TESTA", "Sopra il collo"],
+  ["MANO", "Ha cinque dita"],
+  ["DITO", "Ce ne sono cinque per mano"],
+  ["PIEDE", "Termina con le dita in fondo alla gamba"],
+  ["GAMBA", "Serve a camminare"],
+  ["BRACCIO", "Arto con la mano in fondo"],
+  ["OCCHIO", "Organo della vista"],
+  ["NASO", "Organo dell'olfatto"],
+  ["BOCCA", "Si usa per mangiare e parlare"],
+  ["DENTE", "Serve a masticare"],
+  ["CAPELLO", "Cresce sulla testa"],
+  ["PELLE", "Riveste il corpo"],
+  ["SANGUE", "Scorre nelle vene"],
+  ["OSSO", "Sostiene il corpo"],
+
+  // --- nomi, geografia, cultura ---
+  ["DANTE", "Autore della Divina Commedia"],
+  ["VERDI", "Compositore dell'Aida"],
+  ["GIOTTO", "Pittore degli affreschi di Assisi"],
+  ["NERONE", "Imperatore che vide bruciare Roma"],
+  ["CESARE", "Conquistatore della Gallia"],
+  ["EUROPA", "Il continente dell'Italia"],
+  ["AFRICA", "Il continente del Sahara"],
+  ["PARIGI", "La capitale della Francia"],
+  ["LONDRA", "La capitale del Regno Unito"],
+  ["MADRID", "La capitale della Spagna"],
+  ["BERLINO", "La capitale della Germania"],
+  ["ATENE", "La capitale della Grecia"],
+  ["TEVERE", "Il fiume di Roma"],
+  ["PO", "Il fiume piu lungo d'Italia"],
+  ["ARNO", "Il fiume di Firenze"],
+  ["SICILIA", "La regione dell'Etna"],
+  ["VENEZIA", "La citta dei canali"],
+  ["FIRENZE", "La culla del Rinascimento"],
+  ["GENOVA", "Citta portuale della Liguria"],
+  ["PISA", "Citta della torre pendente"],
+
+  // --- verbi e aggettivi comuni utili ---
+  ["AMARE", "Voler bene profondamente"],
+  ["VEDERE", "Percepire con gli occhi"],
+  ["SENTIRE", "Percepire con l'udito"],
+  ["PARLARE", "Comunicare con le parole"],
+  ["DORMIRE", "Riposare di notte"],
+  ["MANGIARE", "Nutrirsi di cibo"],
+  ["BERE", "Assumere liquidi"],
+  ["LEGGERE", "Scorrere un testo con gli occhi"],
+  ["SCRIVERE", "Tracciare parole con la penna"],
+  ["CORRERE", "Andare di gran fretta a piedi"],
+  ["SALTARE", "Spiccare un balzo"],
+  ["VOLARE", "Muoversi nell'aria"],
+  ["NUOTARE", "Muoversi nell'acqua"],
+  ["CANTARE", "Emettere una melodia con la voce"],
+  ["RIDERE", "Manifestare allegria"],
+  ["PIANGERE", "Versare lacrime"],
+  ["GRANDE", "Di notevoli dimensioni"],
+  ["PICCOLO", "Di dimensioni ridotte"],
+  ["ALTO", "Di grande statura"],
+  ["BASSO", "Di poca altezza"],
+  ["LUNGO", "Di notevole lunghezza"],
+  ["CORTO", "Di poca lunghezza"],
+  ["NUOVO", "Appena fatto, mai usato"],
+  ["VECCHIO", "Avanti negli anni"],
+  ["CALDO", "Di alta temperatura"],
+  ["FREDDO", "Di bassa temperatura"],
+  ["BELLO", "Piacevole alla vista"],
+  ["BRUTTO", "Sgradevole all'occhio"],
+  ["BUONO", "Di sapore gradevole"],
+  ["DOLCE", "Sapore dello zucchero"],
+  ["AMARO", "Il sapore del caffe senza zucchero"],
+  ["SALATO", "Il sapore del sale"],
+  ["RAPIDO", "Veloce, in fretta"],
+  ["LENTO", "Che procede piano"],
+  ["FORTE", "Dotato di grande vigore"],
+  ["DEBOLE", "Privo di forza"],
+  ["RICCO", "Pieno di denaro"],
+  ["POVERO", "Privo di mezzi"],
+  ["FELICE", "Pieno di gioia"],
+  ["TRISTE", "Pieno di malinconia"],
+
+  // --- oggetti quotidiani ---
+  ["OROLOGIO", "Segna le ore"],
+  ["SPECCHIO", "Riflette l'immagine"],
+  ["CHIAVE", "Apre la serratura"],
+  ["SCARPA", "Si calza al piede"],
+  ["CAPPELLO", "Copre la testa"],
+  ["GUANTO", "Copre la mano"],
+  ["BORSA", "Ci si mettono gli oggetti da portare"],
+  ["VALIGIA", "Si riempie per il viaggio"],
+  ["OMBRELLO", "Ripara dalla pioggia"],
+  ["BOTTIGLIA", "Contiene il vino o l'acqua"],
+  ["BICCHIERE", "Si beve da questo"],
+  ["PIATTO", "Si mangia da questo"],
+  ["FORCHETTA", "Posata con i rebbi"],
+  ["CUCCHIAIO", "Posata per la minestra"],
+  ["COLTELLO", "Lama per tagliare"],
+  ["PADELLA", "Si usa per friggere"],
+  ["FORNO", "Cuoce le pietanze al calore"],
+  ["FRIGO", "Tiene i cibi al fresco"],
+  ["LAMPADA", "Fa luce nella stanza"],
+  ["CANDELA", "Fa luce con la fiamma"],
+  ["TELEFONO", "Serve a chiamare a distanza"],
+  ["RADIO", "Trasmette musica e notizie"],
+  ["MACCHINA", "Sinonimo di automobile"],
+  ["MOTORE", "Da forza al veicolo"],
+  ["BENZINA", "Carburante dell'auto"],
+  ["STRADA", "Via per i veicoli"],
+  ["SEMAFORO", "Regola il traffico coi colori"],
+
+  // --- sport e tempo libero ---
+  ["CALCIO", "Sport del pallone piu amato in Italia"],
+  ["TENNIS", "Sport con racchetta e pallina"],
+  ["NUOTO", "Sport che si pratica in piscina"],
+  ["SCI", "Si pratica sulla neve"],
+  ["GOL", "Rete segnata nel calcio"],
+  ["ARBITRO", "Fischia i falli in campo"],
+  ["SQUADRA", "Gruppo di giocatori"],
+  ["STADIO", "Impianto per le partite"],
+  ["MEDAGLIA", "Premio dell'atleta vincente"],
+  ["VITTORIA", "Esito favorevole della gara"],
+  ["GARA", "Competizione tra atleti"],
+
+  // --- cibo italiano ---
+  ["PIZZA", "Specialita napoletana col pomodoro"],
+  ["PASTA", "Spaghetti, penne e maccheroni"],
+  ["SUGO", "Condimento della pasta"],
+  ["POMODORO", "Ortaggio rosso del sugo"],
+  ["FORMAGGIO", "Si grattugia sulla pasta"],
+  ["GELATO", "Dolce freddo estivo"],
+  ["CAFFE", "La bevanda del bar al mattino"],
+  ["ZUCCHERO", "Rende dolce il caffe"],
+  ["SALE", "Insaporisce le pietanze"],
+  ["PEPE", "Spezia piccante macinata"],
+  ["BURRO", "Grasso da spalmare sul pane"],
+  ["MIELE", "Lo producono le api"],
+  ["TORTA", "Dolce per il compleanno"],
+  ["BISCOTTO", "Dolcetto da inzuppare nel latte"],
+  ["CIOCCOLATO", "Dolce di cacao"],
+  ["INSALATA", "Verdura cruda da condire"],
+  ["MINESTRA", "Piatto caldo col brodo"],
+  ["BRODO", "Liquido caldo di carne o verdure"],
+  ["CARNE", "Alimento dalla macelleria"],
+  ["VERDURA", "Ortaggio del contorno"],
+
+  // --- natura e animali extra ---
+  ["FARFALLA", "Insetto dalle ali colorate"],
+  ["FORMICA", "Insetto laborioso del formicaio"],
+  ["RAGNO", "Tesse la tela"],
+  ["MOSCA", "Insetto fastidioso che ronza"],
+  ["ZANZARA", "Insetto che punge d'estate"],
+  ["GRILLO", "Insetto che canta d'estate"],
+  ["LUCERTOLA", "Rettile che prende il sole"],
+  ["SERPENTE", "Rettile senza zampe"],
+  ["TARTARUGA", "Rettile lento col guscio"],
+  ["RONDINE", "Torna in primavera"],
+  ["PASSERO", "Comune uccellino di citta"],
+  ["GUFO", "Rapace notturno saggio"],
+  ["CORVO", "Uccello nero gracchiante"],
+  ["PAVONE", "Fa la ruota con la coda"],
+  ["STRUZZO", "Grande uccello che non vola"],
+  ["GIRAFFA", "Ha il collo lunghissimo"],
+  ["ELEFANTE", "Pachiderma dalla proboscide"],
+  ["SCIMMIA", "Si arrampica sugli alberi"],
+  ["CANGURO", "Marsupiale che salta"],
+  ["COCCODRILLO", "Rettile delle acque tropicali"],
+
+  // --- astratti / utili per incroci medi ---
+  ["IDEA", "Pensiero improvviso"],
+  ["SOGNO", "Si fa dormendo"],
+  ["PACE", "L'opposto della guerra"],
+  ["AMORE", "Sentimento del cuore"],
+  ["ODIO", "Forte avversione"],
+  ["PAURA", "Si prova davanti al pericolo"],
+  ["GIOIA", "Grande felicita"],
+  ["DOLORE", "Sofferenza fisica o morale"],
+  ["VERITA", "L'opposto della menzogna"],
+  ["FORZA", "Capacita di compiere uno sforzo"],
+  ["LUCE", "Permette di vedere"],
+  ["OMBRA", "Si proietta al sole"],
+  ["VITA", "L'esistenza"],
+  ["MONDO", "Il globo terrestre"],
+  ["CASA", "Dove si abita"],
+  ["FAMIGLIA", "Genitori e figli"],
+  ["AMICO", "Persona cara non parente"],
+  ["MADRE", "La mamma"],
+  ["PADRE", "Il papa"],
+  ["FIGLIO", "Il discendente diretto"],
+  ["FRATELLO", "Figlio degli stessi genitori"],
+  ["NONNO", "Il padre del padre"],
+  ["CITTA", "Grande centro abitato"],
+  ["PAESE", "Piccolo centro abitato"],
+  ["POPOLO", "Insieme di cittadini"],
+  ["MONDIALE", "Di tutto il pianeta"],
+];
+
+  </script>
+
+  <!-- ===================== APP (thread principale) ===================== -->
+  <script>
+  "use strict";
+  (function(){
+    var $ = function(id){ return document.getElementById(id); };
+
+    // --- avvio worker da Blob (resta tutto in un unico file, anche offline / file://) ---
+    var workerSrc = $("worker-src").textContent;
+    var worker = new Worker(URL.createObjectURL(new Blob([workerSrc], {type:"text/javascript"})));
+
+    var DIFF = {
+      facile:   { maxSide:11, maxWords:22, attempts:70, minLen:2, maxLen:8 },
+      medio:    { maxSide:15, maxWords:30, attempts:60, minLen:2, maxLen:9 },
+      difficile:{ maxSide:19, maxWords:40, attempts:55, minLen:2, maxLen:12 }
+    };
+    var difficulty = "medio";
+
+    var puzzle = null;          // { width,height,cells,across,down }
+    var userGrid = null;        // matrice di lettere inserite
+    var checked = null;         // matrice bool: cella verificata sbagliata
+    var revealed = null;        // matrice bool: cella rivelata
+    var active = null;          // { r, c, dir }  dir: 0 oriz, 1 vert
+    var words = [];             // tutte le parole, ognuna con .cells [{r,c}]
+    var cellEls = [];           // riferimenti DOM
+    var cellWords = [];         // per ogni cella: { 0:wordAcross, 1:wordDown }
+    var solved = false;
+    var timer = { start:0, elapsed:0, id:null };
+
+    // ---------- timer ----------
+    function fmt(ms){ var s=Math.floor(ms/1000); var m=Math.floor(s/60); s=s%60; return (m<10?"0":"")+m+":"+(s<10?"0":"")+s; }
+    function startTimer(){ stopTimer(); timer.start=Date.now()-timer.elapsed; timer.id=setInterval(function(){ timer.elapsed=Date.now()-timer.start; $("timer").textContent=fmt(timer.elapsed); },500); }
+    function stopTimer(){ if(timer.id){ clearInterval(timer.id); timer.id=null; } }
+    function resetTimer(){ stopTimer(); timer.elapsed=0; $("timer").textContent="00:00"; $("timer").classList.remove("solved"); }
+
+    // ---------- generazione ----------
+    function showOverlay(loading){
+      var ov=$("overlay"); ov.classList.add("show");
+      $("spinner").style.display = loading? "block":"none";
+      $("ovBtn").style.display = loading? "none":"inline-block";
+    }
+    function hideOverlay(){ $("overlay").classList.remove("show"); }
+
+    function newPuzzle(){
+      showOverlay(true);
+      $("ovTitle").textContent="Genero il cruciverba…";
+      $("ovText").textContent="Sto incastrando le parole. Ci vuole solo un istante.";
+      var opts = Object.assign({ seed:(Date.now()>>>0) }, DIFF[difficulty]);
+      // il lavoro pesante avviene nel worker: il thread principale resta fluido
+      worker.postMessage({ entries: CRUCI_DB, opts: opts });
+    }
+
+    worker.onmessage = function(e){
+      var d = e.data;
+      if(!d.ok || !d.puzzle){
+        $("ovTitle").textContent="Qualcosa non ha funzionato";
+        $("ovText").textContent="Non sono riuscito a comporre la griglia. Riprova.";
+        showOverlay(false);
+        return;
+      }
+      puzzle = d.puzzle;
+      buildState();
+      buildBoard();
+      buildClueLists();
+      hideOverlay();
+      resetTimer(); startTimer();
+      solved=false;
+      // seleziona la prima definizione orizzontale
+      var first = puzzle.across[0] || puzzle.down[0];
+      if(first) selectWord(findWord(first.row, first.col, puzzle.across.indexOf(first)>=0?0:1), 0);
+      save();
+    };
+    worker.onerror = function(){
+      $("ovTitle").textContent="Errore nel generatore";
+      $("ovText").textContent="Riprova a generare un nuovo cruciverba.";
+      showOverlay(false);
+    };
+
+    // ---------- costruzione stato ----------
+    function buildState(){
+      var H=puzzle.height, W=puzzle.width;
+      userGrid=[]; checked=[]; revealed=[];
+      for(var r=0;r<H;r++){ userGrid.push(new Array(W).fill("")); checked.push(new Array(W).fill(false)); revealed.push(new Array(W).fill(false)); }
+      // costruisci elenco parole con celle e mappa cella->parola
+      words=[]; cellWords=[];
+      for(var r2=0;r2<H;r2++){ cellWords.push([]); for(var c2=0;c2<W;c2++) cellWords[r2].push({}); }
+      function addWords(list, dir){
+        list.forEach(function(w){
+          var cells=[];
+          for(var k=0;k<w.len;k++){
+            var rr=w.row+(dir===1?k:0), cc=w.col+(dir===0?k:0);
+            cells.push({r:rr,c:cc});
+            cellWords[rr][cc][dir]=w;
+          }
+          w.dir=dir; w.cells=cells;
+          words.push(w);
+        });
+      }
+      addWords(puzzle.across,0);
+      addWords(puzzle.down,1);
+    }
+
+    function findWord(r,c,dir){ return (cellWords[r] && cellWords[r][c]) ? cellWords[r][c][dir] : null; }
+
+    // ---------- griglia ----------
+    function fitCell(){
+      if(!puzzle) return;
+      var pane=document.querySelector(".grid-pane");
+      var availW=pane.clientWidth-28, availH=pane.clientHeight-28;
+      var gap=2;
+      var byW=Math.floor((availW-(puzzle.width-1)*gap)/puzzle.width);
+      var byH=Math.floor((availH-(puzzle.height-1)*gap)/puzzle.height);
+      var size=Math.max(20, Math.min(byW, byH, 58));
+      document.documentElement.style.setProperty("--cell", size+"px");
+    }
+
+    function buildBoard(){
+      var board=$("board"); board.innerHTML="";
+      board.style.gridTemplateColumns="repeat("+puzzle.width+", var(--cell))";
+      cellEls=[];
+      for(var r=0;r<puzzle.height;r++){
+        cellEls.push([]);
+        for(var c=0;c<puzzle.width;c++){
+          var cellData=puzzle.cells[r][c];
+          var el=document.createElement("div");
+          if(!cellData){ el.className="cell void"; }
+          else{
+            el.className="cell";
+            if(cellData.num){ var n=document.createElement("span"); n.className="num"; n.textContent=cellData.num; el.appendChild(n); }
+            var ltr=document.createElement("span"); ltr.className="ltr"; el.appendChild(ltr);
+            (function(rr,cc){ el.addEventListener("click", function(){ onCellTap(rr,cc); }); })(r,c);
+          }
+          board.appendChild(el);
+          cellEls[r].push(el);
+        }
+      }
+      fitCell();
+      renderLetters();
+    }
+
+    function renderLetters(){
+      for(var r=0;r<puzzle.height;r++) for(var c=0;c<puzzle.width;c++){
+        if(!puzzle.cells[r][c]) continue;
+        var el=cellEls[r][c]; var ltr=el.querySelector(".ltr");
+        ltr.textContent=userGrid[r][c]||"";
+        el.classList.toggle("wrong", !!checked[r][c]);
+        el.classList.toggle("revealed", !!revealed[r][c] && !checked[r][c]);
+      }
+    }
+
+    // ---------- selezione ----------
+    function onCellTap(r,c){
+      if(!puzzle || !puzzle.cells[r][c]) return;
+      var hasA=!!cellWords[r][c][0], hasD=!!cellWords[r][c][1];
+      var dir;
+      if(active && active.r===r && active.c===c){ dir = (active.dir===0 && hasD)?1:((active.dir===1 && hasA)?0:active.dir); }
+      else { dir = active ? (cellWords[r][c][active.dir]?active.dir:(hasA?0:1)) : (hasA?0:1); }
+      if(dir===0 && !hasA) dir=1; if(dir===1 && !hasD) dir=0;
+      active={r:r,c:c,dir:dir};
+      refreshHighlight();
+    }
+
+    function selectWord(w, cellIndex){
+      if(!w) return;
+      var idx = (typeof cellIndex==="number")? cellIndex : firstEmptyIndex(w);
+      var cell=w.cells[Math.max(0,idx)];
+      active={r:cell.r,c:cell.c,dir:w.dir};
+      refreshHighlight();
+    }
+
+    function firstEmptyIndex(w){
+      for(var i=0;i<w.cells.length;i++){ var cl=w.cells[i]; if(!userGrid[cl.r][cl.c]) return i; }
+      return 0;
+    }
+
+    function currentWord(){ return active? cellWords[active.r][active.c][active.dir] : null; }
+
+    function refreshHighlight(){
+      // pulisci
+      for(var r=0;r<puzzle.height;r++) for(var c=0;c<puzzle.width;c++){
+        if(!puzzle.cells[r][c]) continue;
+        cellEls[r][c].classList.remove("hl-word","hl-cell");
+      }
+      var w=currentWord();
+      if(w){ w.cells.forEach(function(cl){ cellEls[cl.r][cl.c].classList.add("hl-word"); }); }
+      if(active){ cellEls[active.r][active.c].classList.remove("hl-word"); cellEls[active.r][active.c].classList.add("hl-cell"); }
+      updateClueBar();
+      highlightClueItem();
+      scrollClueIntoView();
+    }
+
+    // ---------- barra definizione corrente + liste ----------
+    function updateClueBar(){
+      var w=currentWord();
+      if(!w){ $("curMeta").textContent="—"; $("curTxt").textContent="Tocca una casella"; return; }
+      $("curMeta").textContent = w.num+" "+(w.dir===0?"Orizzontale":"Verticale")+" · "+w.len+" lettere";
+      $("curTxt").textContent = w.clue;
+    }
+
+    function buildClueLists(){
+      var aL=$("acrossList"), dL=$("downList"); aL.innerHTML=""; dL.innerHTML="";
+      function row(w, list){
+        var it=document.createElement("div"); it.className="clue-item"; it.dataset.dir=w.dir; it.dataset.num=w.num;
+        it.innerHTML='<span class="cn">'+w.num+'</span><span class="ct">'+escapeHtml(w.clue)+'</span>';
+        it.addEventListener("click", function(){ selectWord(w); closeCluePaneMobile(); });
+        list.appendChild(it);
+        w._el=it;
+      }
+      puzzle.across.forEach(function(w){ row(w,aL); });
+      puzzle.down.forEach(function(w){ row(w,dL); });
+    }
+
+    function highlightClueItem(){
+      words.forEach(function(w){ if(w._el) w._el.classList.remove("active"); });
+      var w=currentWord(); if(w && w._el) w._el.classList.add("active");
+    }
+    function scrollClueIntoView(){
+      var w=currentWord(); if(w && w._el && w._el.scrollIntoView) w._el.scrollIntoView({block:"nearest"});
+    }
+
+    function markDoneClues(){
+      words.forEach(function(w){
+        if(!w._el) return;
+        var full=w.cells.every(function(cl){ return userGrid[cl.r][cl.c]===puzzle.cells[cl.r][cl.c].ch; });
+        w._el.classList.toggle("done", full);
+      });
+    }
+
+    // ---------- input ----------
+    function typeLetter(ch){
+      if(!active || solved) return;
+      var r=active.r, c=active.c;
+      userGrid[r][c]=ch; checked[r][c]=false; revealed[r][c]=false;
+      var el=cellEls[r][c]; var ltr=el.querySelector(".ltr"); ltr.textContent=ch;
+      el.classList.remove("wrong","revealed");
+      el.classList.add("pop"); setTimeout(function(){ el.classList.remove("pop"); },90);
+      advance();
+      afterChange();
+    }
+    function advance(){
+      var w=currentWord(); if(!w) return;
+      var i=indexInWord(w, active.r, active.c);
+      for(var k=i+1;k<w.cells.length;k++){ var cl=w.cells[k]; active={r:cl.r,c:cl.c,dir:w.dir}; refreshHighlight(); return; }
+      // fine parola: resta sull'ultima
+      refreshHighlight();
+    }
+    function backspace(){
+      if(!active || solved) return;
+      var r=active.r, c=active.c;
+      if(userGrid[r][c]){ userGrid[r][c]=""; cellEls[r][c].querySelector(".ltr").textContent=""; checked[r][c]=false; cellEls[r][c].classList.remove("wrong","revealed"); }
+      else {
+        var w=currentWord(); if(w){ var i=indexInWord(w,r,c); if(i>0){ var cl=w.cells[i-1]; active={r:cl.r,c:cl.c,dir:w.dir}; userGrid[cl.r][cl.c]=""; cellEls[cl.r][cl.c].querySelector(".ltr").textContent=""; checked[cl.r][cl.c]=false; cellEls[cl.r][cl.c].classList.remove("wrong","revealed"); } }
+      }
+      refreshHighlight(); afterChange();
+    }
+    function indexInWord(w,r,c){ for(var i=0;i<w.cells.length;i++) if(w.cells[i].r===r && w.cells[i].c===c) return i; return 0; }
+
+    function afterChange(){ markDoneClues(); checkWin(); save(); }
+
+    // ---------- navigazione definizioni ----------
+    function gotoClue(delta){
+      var w=currentWord(); var idx = w? words.indexOf(w) : -1;
+      var ordered = puzzle.across.concat(puzzle.down);
+      var oi = w? ordered.indexOf(w) : -1;
+      var ni = (oi + delta + ordered.length) % ordered.length;
+      selectWord(ordered[ni]);
+    }
+
+    // ---------- verifica / rivela ----------
+    function doCheck(){
+      if(!puzzle) return; var wrong=0, any=false;
+      for(var r=0;r<puzzle.height;r++) for(var c=0;c<puzzle.width;c++){
+        if(!puzzle.cells[r][c]) continue;
+        if(userGrid[r][c]){ any=true; checked[r][c]=(userGrid[r][c]!==puzzle.cells[r][c].ch); if(checked[r][c]) wrong++; }
+      }
+      renderLetters();
+      toast(!any? "Compila qualche casella" : (wrong===0? "Tutto corretto finora!" : (wrong+" "+(wrong===1?"lettera sbagliata":"lettere sbagliate"))));
+    }
+    function revealCells(cells){
+      cells.forEach(function(cl){ userGrid[cl.r][cl.c]=puzzle.cells[cl.r][cl.c].ch; revealed[cl.r][cl.c]=true; checked[cl.r][cl.c]=false; });
+      renderLetters(); afterChange();
+    }
+    function revealLetter(){ if(active) revealCells([{r:active.r,c:active.c}]); }
+    function revealWord(){ var w=currentWord(); if(w) revealCells(w.cells); }
+    function solveAll(){
+      var all=[]; for(var r=0;r<puzzle.height;r++) for(var c=0;c<puzzle.width;c++) if(puzzle.cells[r][c]) all.push({r:r,c:c});
+      revealCells(all);
+    }
+    function clearAll(){
+      for(var r=0;r<puzzle.height;r++) for(var c=0;c<puzzle.width;c++){ if(!puzzle.cells[r][c]) continue; userGrid[r][c]=""; checked[r][c]=false; revealed[r][c]=false; }
+      renderLetters(); markDoneClues(); save(); toast("Griglia svuotata");
+    }
+
+    function checkWin(){
+      if(solved || !puzzle) return;
+      for(var r=0;r<puzzle.height;r++) for(var c=0;c<puzzle.width;c++){
+        if(!puzzle.cells[r][c]) continue;
+        if(userGrid[r][c]!==puzzle.cells[r][c].ch) return;
+      }
+      solved=true; stopTimer(); $("timer").classList.add("solved");
+      $("ovTitle").textContent="Completato! 🎉";
+      $("ovText").textContent="Hai risolto il cruciverba in "+fmt(timer.elapsed)+".";
+      showOverlay(false);
+    }
+
+    // ---------- tastiera su schermo ----------
+    function buildKeyboard(){
+      var rows=[["Q","W","E","R","T","Y","U","I","O","P"],["A","S","D","F","G","H","J","K","L"],["Z","X","C","V","B","N","M"]];
+      var kb=$("keyboard"); kb.innerHTML="";
+      rows.forEach(function(row, ri){
+        var rd=document.createElement("div"); rd.className="krow";
+        if(ri===2){ var dirk=mkKey("⇄","wide"); dirk.addEventListener("click", toggleDir); rd.appendChild(dirk); }
+        row.forEach(function(ch){ var k=mkKey(ch,""); k.addEventListener("click", function(){ typeLetter(ch); }); rd.appendChild(k); });
+        if(ri===2){ var bk=mkKey("⌫","wide"); bk.addEventListener("click", backspace); rd.appendChild(bk); }
+        kb.appendChild(rd);
+      });
+      requestAnimationFrame(setKbHeightVar);
+    }
+    function mkKey(label, cls){ var k=document.createElement("button"); k.className="key"+(cls?(" "+cls):""); k.type="button"; k.textContent=label; return k; }
+    function toggleDir(){ if(!active) return; var r=active.r,c=active.c; var other=active.dir===0?1:0; if(cellWords[r][c][other]){ active.dir=other; refreshHighlight(); } }
+    function setKbHeightVar(){ var dock=document.querySelector(".dock"); if(dock) document.documentElement.style.setProperty("--kbd-h", dock.offsetHeight+"px"); }
+
+    // tastiera fisica (utile su iPad con Magic Keyboard / desktop)
+    window.addEventListener("keydown", function(e){
+      if($("overlay").classList.contains("show") && $("ovBtn").style.display==="none") return;
+      var k=e.key;
+      if(/^[a-zA-Z]$/.test(k)){ typeLetter(k.toUpperCase()); e.preventDefault(); }
+      else if(k==="Backspace"){ backspace(); e.preventDefault(); }
+      else if(k==="ArrowLeft"||k==="ArrowRight"||k==="ArrowUp"||k==="ArrowDown"){ moveArrow(k); e.preventDefault(); }
+      else if(k==="Tab"){ gotoClue(e.shiftKey?-1:1); e.preventDefault(); }
+      else if(k===" "){ toggleDir(); e.preventDefault(); }
+    });
+    function moveArrow(k){
+      if(!active) return; var r=active.r,c=active.c;
+      var dr=k==="ArrowUp"?-1:k==="ArrowDown"?1:0, dc=k==="ArrowLeft"?-1:k==="ArrowRight"?1:0;
+      var nr=r+dr, nc=c+dc;
+      while(nr>=0&&nr<puzzle.height&&nc>=0&&nc<puzzle.width){
+        if(puzzle.cells[nr][nc]){ var wantDir=(dr!==0)?1:0; active={r:nr,c:nc,dir:cellWords[nr][nc][wantDir]?wantDir:(cellWords[nr][nc][0]?0:1)}; refreshHighlight(); return; }
+        nr+=dr; nc+=dc;
+      }
+    }
+
+    // ---------- persistenza (best-effort) ----------
+    function save(){
+      try{
+        if(!puzzle) return;
+        var data={ puzzle:puzzle, userGrid:userGrid, revealed:revealed, elapsed:timer.elapsed, difficulty:difficulty, solved:solved };
+        localStorage.setItem("cruci_state", JSON.stringify(data));
+      }catch(e){}
+    }
+    function load(){
+      try{
+        var raw=localStorage.getItem("cruci_state"); if(!raw) return false;
+        var data=JSON.parse(raw); if(!data || !data.puzzle) return false;
+        difficulty=data.difficulty||"medio"; syncDiffButtons();
+        puzzle=data.puzzle; buildState();
+        userGrid=data.userGrid||userGrid; revealed=data.revealed||revealed;
+        buildBoard(); buildClueLists(); renderLetters(); markDoneClues();
+        timer.elapsed=data.elapsed||0; $("timer").textContent=fmt(timer.elapsed);
+        solved=!!data.solved; if(solved) $("timer").classList.add("solved"); else startTimer();
+        var first=puzzle.across[0]||puzzle.down[0]; if(first) selectWord(first);
+        return true;
+      }catch(e){ return false; }
+    }
+
+    // ---------- util ----------
+    function escapeHtml(s){ return String(s).replace(/[&<>"]/g,function(m){ return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[m]; }); }
+    var toastT=null;
+    function toast(msg){ var t=$("toast"); t.textContent=msg; t.classList.add("show"); clearTimeout(toastT); toastT=setTimeout(function(){ t.classList.remove("show"); },1700); }
+    function syncDiffButtons(){ Array.prototype.forEach.call($("difficulty").children, function(b){ b.setAttribute("aria-pressed", b.dataset.diff===difficulty? "true":"false"); }); }
+
+    function closeCluePaneMobile(){ $("cluePane").classList.remove("open"); }
+
+    // ---------- eventi UI ----------
+    $("newBtn").addEventListener("click", newPuzzle);
+    $("ovBtn").addEventListener("click", newPuzzle);
+    $("prevClue").addEventListener("click", function(){ gotoClue(-1); });
+    $("nextClue").addEventListener("click", function(){ gotoClue(1); });
+    $("clueToggle").addEventListener("click", function(){ $("cluePane").classList.add("open"); });
+    $("clueClose").addEventListener("click", closeCluePaneMobile);
+
+    Array.prototype.forEach.call($("difficulty").children, function(b){
+      b.addEventListener("click", function(){ difficulty=b.dataset.diff; syncDiffButtons(); });
+    });
+
+    var helpBtn=$("helpBtn"), helpMenu=$("helpMenu");
+    helpBtn.addEventListener("click", function(e){ e.stopPropagation(); helpMenu.classList.toggle("open"); });
+    document.addEventListener("click", function(){ helpMenu.classList.remove("open"); });
+    helpMenu.addEventListener("click", function(e){
+      var act=e.target.dataset.act; if(!act) return; helpMenu.classList.remove("open");
+      if(act==="check") doCheck();
+      else if(act==="reveal-letter") revealLetter();
+      else if(act==="reveal-word") revealWord();
+      else if(act==="solve") solveAll();
+      else if(act==="clear") clearAll();
+    });
+
+    window.addEventListener("resize", function(){ fitCell(); setKbHeightVar(); });
+    window.addEventListener("orientationchange", function(){ setTimeout(function(){ fitCell(); setKbHeightVar(); }, 300); });
+
+    // ---------- avvio ----------
+    buildKeyboard();
+    syncDiffButtons();
+    if(!load()){ newPuzzle(); }
+  })();
+  </script>
+</body>
+</html>
