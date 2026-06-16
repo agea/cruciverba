@@ -116,6 +116,58 @@ function makePattern(W, H, blackProb, rnd, maxRun) {
   return black;
 }
 
+function analyzePattern(black, W, H) {
+  var r, c;
+  var whiteTotal = 0;
+  var firstWhite = null;
+  var blackSquares = 0;
+
+  for (r = 0; r < H; r++) {
+    for (c = 0; c < W; c++) {
+      if (!black[r][c]) {
+        whiteTotal++;
+        if (!firstWhite) firstWhite = { r: r, c: c };
+      }
+      if (r + 1 < H && c + 1 < W &&
+          black[r][c] && black[r + 1][c] && black[r][c + 1] && black[r + 1][c + 1]) {
+        blackSquares++;
+      }
+    }
+  }
+
+  var connectedWhite = 0;
+  if (firstWhite) {
+    var seen = {};
+    var q = [firstWhite];
+    seen[firstWhite.r + "," + firstWhite.c] = true;
+    while (q.length) {
+      var cur = q.shift();
+      connectedWhite++;
+      var ns = [
+        { r: cur.r - 1, c: cur.c },
+        { r: cur.r + 1, c: cur.c },
+        { r: cur.r, c: cur.c - 1 },
+        { r: cur.r, c: cur.c + 1 }
+      ];
+      for (var i = 0; i < ns.length; i++) {
+        var n = ns[i];
+        var key = n.r + "," + n.c;
+        if (n.r < 0 || n.r >= H || n.c < 0 || n.c >= W) continue;
+        if (black[n.r][n.c] || seen[key]) continue;
+        seen[key] = true;
+        q.push(n);
+      }
+    }
+  }
+
+  return {
+    whiteTotal: whiteTotal,
+    blackTotal: W * H - whiteTotal,
+    whiteConnected: whiteTotal > 0 && connectedWhite === whiteTotal,
+    blackSquares: blackSquares
+  };
+}
+
 // ---------- estrazione slot ----------
 // slot = { id, dir(0=across,1=down), r, c, len, cells:[idx...] }
 // cellId = r*W + c
@@ -366,6 +418,9 @@ function attemptDense(bank, W, H, blackProb, maxRun, patternAttempts, fillBudget
     var rnd = mulberry32(seed + att * 2654435761);
     var bp = blackProb + (rnd() - 0.5) * 0.05;
     var black = makePattern(W, H, bp, rnd, maxRun);
+    var quality = analyzePattern(black, W, H);
+    var maxBlackSquares = W >= 13 ? 3 : 1;
+    if (!quality.whiteConnected || quality.blackSquares > maxBlackSquares) continue;
     var ex = extractSlots(black, W, H);
     if (ex.slots.length < 6) continue;
     var feasible = true;
@@ -377,7 +432,7 @@ function attemptDense(bank, W, H, blackProb, maxRun, patternAttempts, fillBudget
     var filled = fillSlots(ex.slots, bank, W, H, rnd, fillBudget);
     if (filled) {
       var res = finalizeDense(black, filled.letters, W, H, bank.answerToClue);
-      var score = res.wordCount * 1000 - res.ghosts.length * 100000;
+      var score = res.wordCount * 1000 - quality.blackTotal * 12 - quality.blackSquares * 800 - res.ghosts.length * 100000;
       if (!best || score > best.score) best = { result: res, score: score };
       if (res.ghosts.length === 0) return res;
     }
@@ -403,14 +458,14 @@ function generateDenseCrossword(rawEntries, opts) {
   // cascata di configurazioni: dalla richiesta a fallback via via piu facili
   var plans = [
     { W: W, H: H, bp: blackProb, mr: maxRun, att: patternAttempts, bud: fillBudget },
-    { W: W, H: H, bp: blackProb + 0.03, mr: maxRun, att: patternAttempts, bud: fillBudget + 4000 },
-    { W: W, H: H, bp: blackProb + 0.05, mr: 5, att: patternAttempts, bud: fillBudget + 6000 }
+    { W: W, H: H, bp: blackProb + 0.01, mr: maxRun, att: patternAttempts, bud: fillBudget + 5000 },
+    { W: W, H: H, bp: blackProb + 0.02, mr: maxRun, att: patternAttempts, bud: fillBudget + 8000 }
   ];
   // riduzione dimensione come ultima spiaggia
   var rW = Math.max(9, W - 2), rH = Math.max(9, H - 2);
   if (rW < W || rH < H) {
-    plans.push({ W: rW, H: rH, bp: blackProb + 0.02, mr: 6, att: patternAttempts, bud: fillBudget });
-    plans.push({ W: rW, H: rH, bp: blackProb + 0.05, mr: 5, att: patternAttempts, bud: fillBudget + 4000 });
+    plans.push({ W: rW, H: rH, bp: blackProb + 0.01, mr: maxRun, att: patternAttempts, bud: fillBudget + 4000 });
+    plans.push({ W: rW, H: rH, bp: blackProb + 0.02, mr: maxRun, att: patternAttempts, bud: fillBudget + 7000 });
   }
 
   for (var p = 0; p < plans.length; p++) {

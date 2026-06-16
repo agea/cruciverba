@@ -332,9 +332,9 @@
     var worker = new Worker("./gen_dense.js");
 
     var DIFF = {
-      facile:   { width:9,  height:9,  blackProb:0.25, maxRun:5, patternAttempts:180, fillBudget:9000,  minLen:2, maxLen:9 },
-      medio:    { width:11, height:11, blackProb:0.24, maxRun:6, patternAttempts:220, fillBudget:14000, minLen:2, maxLen:11 },
-      difficile:{ width:13, height:13, blackProb:0.23, maxRun:6, patternAttempts:260, fillBudget:20000, minLen:2, maxLen:11 }
+      facile:   { width:9,  height:9,  blackProb:0.18, maxRun:6, patternAttempts:260, fillBudget:10000, minLen:2, maxLen:9 },
+      medio:    { width:11, height:11, blackProb:0.17, maxRun:7, patternAttempts:320, fillBudget:16000, minLen:2, maxLen:11 },
+      difficile:{ width:13, height:13, blackProb:0.24, maxRun:7, patternAttempts:120, fillBudget:7000, minLen:2, maxLen:11 }
     };
     var difficulty = "medio";
 
