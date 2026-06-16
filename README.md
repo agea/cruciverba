@@ -25,7 +25,7 @@ Tre componenti disaccoppiati:
 2. **Generatore di schema** (`gen_dense.js`) — algoritmo di costruzione della griglia; gira in un **Web Worker** per non bloccare l'interfaccia.
 3. **Interfaccia** (file HTML) — rendering della griglia, input, aiuti, persistenza.
 
-Il Worker viene avviato da un Blob creato a runtime dal sorgente incorporato: questo consente di mantenere il funzionamento offline anche aprendo il file via `file://` su Safari/iPad.
+Il Worker viene caricato da `gen_dense.js`, che viene precacheato dal service worker insieme al database per il funzionamento PWA offline.
 
 ---
 
@@ -92,21 +92,15 @@ Produce schemi densi in stile Settimana Enigmistica: griglia rettangolare piena 
 | `cruciverba_db.json` | Database generato, 2080 voci | **Completo** |
 | `gen_dense.js` | Generatore denso | **Completo e validato** |
 | `builddb.js` | Script di build del DB | Completo |
-| `cruciverba.html` | App giocabile | **v1** (free-form, DB esterno con fallback inline) |
+| `index.html` | App giocabile PWA | **Completo** |
+| `cruciverba.html` | Alias dell'app giocabile | **Completo** |
 
 ---
 
-## 6. Stato attuale e prossimi passi
+## 6. Stato attuale
 
-Il **database** e il **generatore denso** sono pronti e collaudati. L'`cruciverba.html` attuale è la **versione 1**: usa il generatore a schema libero con il database incorporato e funziona offline.
+L'app usa `gen_dense.js` come Web Worker principale e genera schemi densi all'italiana con caselle nere. Il database viene generato da `voci.csv`, caricato da `cruciverba_db.json` e salvato offline dal service worker.
 
-**Da completare** per la versione densa con DB esterno:
+### Nota sull'uso offline
 
-1. Integrare `gen_dense.js` nell'HTML al posto del generatore free-form.
-2. Caricare `cruciverba_db.json` esterno via `fetch`, con **fallback a selezione file** (`input file`) per l'uso via `file://` su iPad, dove Safari blocca le richieste a file locali.
-3. Rendere le **caselle nere** nella griglia (oggi le celle vuote sono trasparenti).
-4. Ricalibrare i parametri dei tre livelli di difficoltà sul nuovo generatore.
-
-### Nota sull'uso offline del JSON esterno
-
-Separando il database in un file `.json` caricato via `fetch`, l'apertura diretta via `file://` su Safari/iPad ne blocca la lettura per policy di sicurezza. Soluzioni previste: il **fallback a selezione manuale del file** (si sceglie il JSON una volta), oppure servire i due file tramite un piccolo server locale. In alternativa resta disponibile la versione "tutto-in-uno" con il database incorporato.
+L'uso offline completo richiede di aprire almeno una volta l'app servita da GitHub Pages, così il service worker puo salvare `index.html`, `gen_dense.js`, `cruciverba_db.json` e gli altri asset nella cache PWA. L'apertura diretta via `file://` non e il target principale, perche i browser limitano `fetch` e service worker fuori da un'origine HTTP/HTTPS.

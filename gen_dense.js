@@ -426,3 +426,17 @@ if (typeof module !== "undefined" && module.exports) {
   module.exports = { generateDenseCrossword: generateDenseCrossword, buildBank: buildBank,
                      makePattern: makePattern, extractSlots: extractSlots };
 }
+
+if (typeof self !== "undefined" && typeof self.postMessage === "function") {
+  self.onmessage = function (e) {
+    var entries = e.data.entries;
+    var opts = e.data.opts || {};
+    var t0 = Date.now();
+    try {
+      var puzzle = generateDenseCrossword(entries, opts);
+      self.postMessage({ ok: !!puzzle, puzzle: puzzle, ms: Date.now() - t0 });
+    } catch (err) {
+      self.postMessage({ ok: false, error: String(err && err.message || err) });
+    }
+  };
+}

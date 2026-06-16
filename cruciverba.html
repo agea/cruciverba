@@ -105,7 +105,7 @@
     font-family:var(--font-cell); font-weight:600; color:var(--ink);
     font-size:calc(var(--cell)*0.56); line-height:1;
   }
-  .cell.void{background:transparent; border:0; cursor:default; pointer-events:none;}
+  .cell.void{background:var(--ink); border-color:var(--ink); cursor:default; pointer-events:none;}
   .cell .num{
     position:absolute; top:1px; left:3px; font-family:var(--font-mono);
     font-size:calc(var(--cell)*0.27); color:var(--ink-soft); font-weight:500; pointer-events:none;
@@ -249,7 +249,7 @@
   <header>
     <div class="brand">
       <h1>Cruciverba<span class="dot">.</span></h1>
-      <span class="sub">schema libero</span>
+      <span class="sub">schema italiano</span>
     </div>
     <div class="spacer"></div>
     <div class="timer" id="timer">00:00</div>
@@ -322,656 +322,18 @@
     <button type="button" id="updateBtn">Aggiorna</button>
   </div>
 
-  <!-- ===================== GENERATORE (Web Worker, off-thread) ===================== -->
-  <script id="worker-src" type="javascript/worker">
-// Generatore di cruciverba a schema libero (free-form).
-// Costruisce sia la griglia sia gli incroci a partire da un insieme di parole.
-// Algoritmo: piazzamento greedy con incroci validati + multi-tentativo, si tiene la griglia migliore.
-
-// ---------- utilità ----------
-function stripAccents(s) {
-  return s.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-}
-function normalizeAnswer(s) {
-  return stripAccents(String(s)).toUpperCase().replace(/[^A-Z]/g, "");
-}
-function mulberry32(seed) {
-  let a = seed >>> 0;
-  return function () {
-    a |= 0; a = (a + 0x6D2B79F5) | 0;
-    let t = Math.imul(a ^ (a >>> 15), 1 | a);
-    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
-    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
-  };
-}
-function shuffleInPlace(arr, rnd) {
-  for (let i = arr.length - 1; i > 0; i--) {
-    const j = Math.floor(rnd() * (i + 1));
-    [arr[i], arr[j]] = [arr[j], arr[i]];
-  }
-  return arr;
-}
-
-// Griglia sparsa: chiave "r,c" -> { ch, count }  (count = quante parole ci passano)
-function makeKey(r, c) { return r + "," + c; }
-
-// ---------- piazzamento ----------
-// dir: 0 = orizzontale (across), 1 = verticale (down)
-function canPlace(grid, word, r, c, dir) {
-  const dr = dir === 1 ? 1 : 0;
-  const dc = dir === 0 ? 1 : 0;
-  let crossings = 0;
-
-  // la cella prima dell'inizio e dopo la fine devono essere vuote (niente parole appiccicate)
-  const beforeKey = makeKey(r - dr, c - dc);
-  const afterKey = makeKey(r + dr * word.length, c + dc * word.length);
-  if (grid.has(beforeKey)) return null;
-  if (grid.has(afterKey)) return null;
-
-  for (let i = 0; i < word.length; i++) {
-    const cr = r + dr * i;
-    const cc = c + dc * i;
-    const cell = grid.get(makeKey(cr, cc));
-    if (cell) {
-      if (cell.ch !== word[i]) return null; // conflitto di lettera
-      crossings++;
-    } else {
-      // cella nuova: i vicini perpendicolari devono essere vuoti
-      // (altrimenti creiamo parole parallele non volute)
-      const p1 = makeKey(cr + dc, cc + dr); // un lato perpendicolare
-      const p2 = makeKey(cr - dc, cc - dr); // lato opposto
-      if (grid.has(p1) || grid.has(p2)) return null;
-    }
-  }
-  return { crossings };
-}
-
-function placeWord(grid, placements, entry, r, c, dir) {
-  const word = entry.answer;
-  const dr = dir === 1 ? 1 : 0;
-  const dc = dir === 0 ? 1 : 0;
-  for (let i = 0; i < word.length; i++) {
-    const key = makeKey(r + dr * i, c + dc * i);
-    const cell = grid.get(key);
-    if (cell) cell.count++;
-    else grid.set(key, { ch: word[i], count: 1 });
-  }
-  placements.push({ answer: word, clue: entry.clue, row: r, col: c, dir });
-}
-
-function bounds(grid) {
-  let minR = Infinity, maxR = -Infinity, minC = Infinity, maxC = -Infinity;
-  for (const key of grid.keys()) {
-    const [r, c] = key.split(",").map(Number);
-    if (r < minR) minR = r; if (r > maxR) maxR = r;
-    if (c < minC) minC = c; if (c > maxC) maxC = c;
-  }
-  return { minR, maxR, minC, maxC, w: maxC - minC + 1, h: maxR - minR + 1 };
-}
-
-function tryBuild(entries, rnd, maxSide) {
-  const grid = new Map();
-  const placements = [];
-  const pool = entries.slice();
-  // prima parola: una lunga, al centro, orizzontale
-  pool.sort((a, b) => b.answer.length - a.answer.length);
-  const firstPick = pool.splice(Math.floor(rnd() * Math.min(5, pool.length)), 1)[0];
-  placeWord(grid, placements, firstPick, 0, 0, 0);
-
-  // ordino i rimanenti in modo pseudo-casuale ma con leggera preferenza ai piu lunghi
-  shuffleInPlace(pool, rnd);
-
-  for (const entry of pool) {
-    const word = entry.answer;
-    let best = null;
-    // provo a incrociare ogni lettera della parola con celle gia presenti
-    for (let i = 0; i < word.length; i++) {
-      const ch = word[i];
-      for (const [key, cell] of grid) {
-        if (cell.ch !== ch) continue;
-        const [r, c] = key.split(",").map(Number);
-        // provo entrambe le direzioni: la parola passa per (r,c) con la lettera i
-        for (let dir = 0; dir <= 1; dir++) {
-          const sr = dir === 1 ? r - i : r;
-          const sc = dir === 0 ? c - i : c;
-          const res = canPlace(grid, word, sr, sc, dir);
-          if (!res) continue;
-          // punteggio: piu incroci e griglia piu compatta/quadrata
-          const tmpKeys = [];
-          for (let k = 0; k < word.length; k++) {
-            tmpKeys.push([sr + (dir === 1 ? k : 0), sc + (dir === 0 ? k : 0)]);
-          }
-          let minR = Infinity, maxR = -Infinity, minC = Infinity, maxC = -Infinity;
-          for (const key2 of grid.keys()) {
-            const [rr, cc] = key2.split(",").map(Number);
-            if (rr < minR) minR = rr; if (rr > maxR) maxR = rr;
-            if (cc < minC) minC = cc; if (cc > maxC) maxC = cc;
-          }
-          for (const [rr, cc] of tmpKeys) {
-            if (rr < minR) minR = rr; if (rr > maxR) maxR = rr;
-            if (cc < minC) minC = cc; if (cc > maxC) maxC = cc;
-          }
-          const w = maxC - minC + 1, h = maxR - minR + 1;
-          if (maxSide && (w > maxSide || h > maxSide)) continue; // rispetta il limite di lato
-          const aspect = Math.abs(w - h);
-          const score = res.crossings * 100 - (w + h) - aspect * 2 + rnd() * 3;
-          if (!best || score > best.score) best = { sr, sc, dir, score };
-        }
-      }
-    }
-    if (best) placeWord(grid, placements, entry, best.sr, best.sc, best.dir);
-  }
-  return { grid, placements };
-}
-
-// ---------- finalizzazione: normalizza coordinate, costruisce matrice, numera ----------
-// Le definizioni vengono ricavate dalle SEQUENZE reali della griglia: ogni run >=2
-// lettere viene cercato nel dizionario answer->clue. Se una sequenza non e' una
-// parola nota -> e' una "parola fantasma" e la griglia viene segnalata come invalida.
-function finalize(grid, placements, answerToClue) {
-  const b = bounds(grid);
-  const H = b.h, W = b.w;
-  const cells = Array.from({ length: H }, () => Array.from({ length: W }, () => null));
-  for (const [key, cell] of grid) {
-    const [r, c] = key.split(",").map(Number);
-    cells[r - b.minR][c - b.minC] = { ch: cell.ch, num: 0 };
-  }
-
-  let num = 0;
-  const across = [];
-  const down = [];
-  const ghosts = [];
-
-  const readRun = (r, c, dir) => {
-    const dr = dir === 1 ? 1 : 0, dc = dir === 0 ? 1 : 0;
-    let s = "";
-    let rr = r, cc = c;
-    while (rr < H && cc < W && cells[rr][cc]) { s += cells[rr][cc].ch; rr += dr; cc += dc; }
-    return s;
-  };
-
-  for (let r = 0; r < H; r++) {
-    for (let c = 0; c < W; c++) {
-      if (!cells[r][c]) continue;
-      const leftEmpty = c === 0 || !cells[r][c - 1];
-      const rightFilled = c + 1 < W && cells[r][c + 1];
-      const upEmpty = r === 0 || !cells[r - 1][c];
-      const downFilled = r + 1 < H && cells[r + 1][c];
-      const startsAcross = leftEmpty && rightFilled;
-      const startsDown = upEmpty && downFilled;
-      if (startsAcross || startsDown) {
-        num++;
-        cells[r][c].num = num;
-        if (startsAcross) {
-          const word = readRun(r, c, 0);
-          const clue = answerToClue.get(word);
-          if (clue == null) ghosts.push(word);
-          across.push({ num, clue: clue || "(?)", answer: word, row: r, col: c, len: word.length });
-        }
-        if (startsDown) {
-          const word = readRun(r, c, 1);
-          const clue = answerToClue.get(word);
-          if (clue == null) ghosts.push(word);
-          down.push({ num, clue: clue || "(?)", answer: word, row: r, col: c, len: word.length });
-        }
-      }
-    }
-  }
-  return { width: W, height: H, cells, across, down, wordCount: across.length + down.length, ghosts };
-}
-
-// ---------- API principale ----------
-function generateCrossword(rawEntries, opts = {}) {
-  const { attempts = 60, seed = (Date.now() >>> 0), maxWords = 9999, maxSide = 0, minLen = 2, maxLen = 99 } = opts;
-  // normalizza e deduplica + costruisci dizionario answer->clue (per scovare le parole fantasma)
-  const map = new Map();
-  const answerToClue = new Map();
-  for (const [answer, clue] of rawEntries) {
-    const a = normalizeAnswer(answer);
-    if (a.length < 2) continue;
-    if (!answerToClue.has(a)) answerToClue.set(a, clue);
-    if (a.length < minLen || a.length > maxLen) continue;
-    if (!map.has(a)) map.set(a, { answer: a, clue });
-  }
-  let entries = Array.from(map.values());
-
-  let best = null;
-  for (let t = 0; t < attempts; t++) {
-    const rnd = mulberry32((seed + t * 2654435761) >>> 0);
-    const sample = shuffleInPlace(entries.slice(), rnd).slice(0, maxWords);
-    const { grid, placements } = tryBuild(sample, rnd, maxSide);
-    if (placements.length < 2) continue;
-    const result = finalize(grid, placements, answerToClue);
-    const b = bounds(grid);
-    const area = b.w * b.h;
-    const density = grid.size / area;
-    // penalizza pesantemente le parole fantasma: una griglia pulita batte sempre una sporca
-    const ghostPenalty = result.ghosts.length * 100000;
-    const score = result.wordCount * 1000 + density * 500 - (b.w + b.h) - ghostPenalty;
-    if (!best || score > best.score) best = { result, score, clean: result.ghosts.length === 0 };
-  }
-  if (!best) return null;
-  return best.result;
-}
-
-
-onmessage = function(e){
-  var entries = e.data.entries, opts = e.data.opts || {};
-  try{
-    var t0 = Date.now();
-    var puzzle = generateCrossword(entries, opts);
-    postMessage({ ok:true, puzzle:puzzle, ms: Date.now()-t0 });
-  }catch(err){
-    postMessage({ ok:false, error: String(err && err.message || err) });
-  }
-};
-  </script>
-
-  <!-- ===================== DATABASE DEFINIZIONI ===================== -->
-  <script>
-// Database di definizioni in italiano per il cruciverba.
-// Formato: [ "SOLUZIONE", "definizione" ]
-// Le soluzioni sono in MAIUSCOLO, senza accenti/spazi (normalizzate altrove comunque).
-// Pensato per essere esteso: aggiungi righe qui. Vedi README per come arrivare a migliaia.
-
-const CRUCI_DB = [
-  // --- 2 lettere (collante per gli incroci) ---
-  ["RE", "Sovrano sulla scacchiera"],
-  ["RO", "Lettera greca dopo il pi"],
-  ["DO", "La prima nota musicale"],
-  ["LA", "La nota del diapason"],
-  ["MI", "Nota tra il re e il fa"],
-  ["TE", "Bevanda delle cinque"],
-  ["OK", "Va bene, all'americana"],
-  ["NO", "Risposta negativa"],
-  ["SI", "Risposta affermativa"],
-  ["VIA", "Strada cittadina"],
-  ["ORA", "Sessanta minuti"],
-  ["ARA", "Pappagallo colorato del Sudamerica"],
-  ["ASO", "...ad un passo dalla vetta (lat.)"],
-
-  // --- 3 lettere ---
-  ["MARE", "Distesa d'acqua salata"],
-  ["SOLE", "La stella del nostro sistema"],
-  ["LUNA", "Il satellite della Terra"],
-  ["NEVE", "Cade bianca d'inverno"],
-  ["RANA", "Anfibio che gracida"],
-  ["APE", "Insetto che produce miele"],
-  ["OCA", "Volatile da cortile starnazzante"],
-  ["UVA", "Frutto della vite"],
-  ["ALA", "Permette il volo agli uccelli"],
-  ["ARTE", "La pittura ne fa parte"],
-  ["ASSE", "Il carro ci gira intorno"],
-  ["ETA", "Numero degli anni"],
-  ["ERA", "Lunga epoca geologica"],
-  ["IRA", "Collera improvvisa"],
-  ["EVA", "La prima donna, secondo la Bibbia"],
-  ["OLIO", "Condimento dell'insalata"],
-  ["RIO", "Piccolo corso d'acqua"],
-  ["NEO", "Piccola macchia sulla pelle"],
-  ["EGO", "L'io in psicologia"],
-  ["TRE", "Numero dopo il due"],
-  ["SEI", "Il numero del cubo nei dadi"],
-  ["DUE", "La coppia in cifre"],
-  ["ORO", "Metallo prezioso giallo"],
-  ["GAS", "Si usa per cucinare"],
-  ["BAR", "Ci si prende il caffe"],
-  ["ZIO", "Il fratello del padre"],
-  ["ALI", "Servono a volare (plur.)"],
-  ["ANNO", "Dura dodici mesi"],
-  ["ESCA", "Inganna il pesce all'amo"],
-  ["ASIA", "Il continente piu vasto"],
-  ["AROMA", "Il profumo del caffe"],
-
-  // --- 4 lettere ---
-  ["CANE", "Il migliore amico dell'uomo"],
-  ["GATTO", "Felino domestico che fa le fusa"],
-  ["LUPO", "Predatore che ulula alla luna"],
-  ["ORSO", "Plantigrado che va in letargo"],
-  ["LEONE", "Il re della savana"],
-  ["TIGRE", "Felino a strisce dell'Asia"],
-  ["VELA", "Spinge la barca col vento"],
-  ["REMO", "Serve a far avanzare la barca"],
-  ["NIDO", "La casa degli uccellini"],
-  ["ROSA", "Fiore con le spine"],
-  ["PINO", "Albero sempreverde da pinoli"],
-  ["FARO", "Guida le navi con la sua luce"],
-  ["RISO", "Cereale dei risotti"],
-  ["PANE", "Si fa con farina e lievito"],
-  ["VINO", "Bevanda dell'uva fermentata"],
-  ["LATTE", "Bianco, dalla mucca"],
-  ["UOVA", "Le depone la gallina"],
-  ["MELA", "Quella di Newton cadde"],
-  ["PERA", "Frutto a forma di goccia"],
-  ["FICO", "Frutto estivo dolcissimo"],
-  ["NOCE", "Frutto secco del noce"],
-  ["RAMO", "Si protende dal tronco"],
-  ["FOGLIA", "Cade in autunno dagli alberi"],
-  ["RADICE", "Ancora la pianta al terreno"],
-  ["SEME", "Da cui nasce la pianta"],
-  ["LAGO", "Specchio d'acqua dolce"],
-  ["FIUME", "Scorre verso il mare"],
-  ["MONTE", "Rilievo molto elevato"],
-  ["ISOLA", "Terra circondata dal mare"],
-  ["COSTA", "Dove il mare incontra la terra"],
-  ["NAVE", "Grande imbarcazione"],
-  ["AEREO", "Vola portando passeggeri"],
-  ["TRENO", "Viaggia sui binari"],
-  ["AUTO", "Veicolo a quattro ruote"],
-  ["RUOTA", "Gira sotto l'automobile"],
-  ["MOTO", "Veicolo a due ruote a motore"],
-  ["PORTO", "Approdo per le navi"],
-  ["PONTE", "Collega le due rive"],
-  ["TORRE", "Pezzo degli scacchi a forma di castello"],
-  ["MURO", "Divide due ambienti"],
-  ["TETTO", "Copre la casa in alto"],
-  ["PORTA", "Si apre per entrare"],
-  ["LETTO", "Ci si dorme la notte"],
-  ["SEDIA", "Mobile su cui ci si siede"],
-  ["TAVOLO", "Ci si mangia sopra"],
-  ["VASO", "Contiene i fiori"],
-  ["LIBRO", "Si legge pagina dopo pagina"],
-  ["PENNA", "Strumento per scrivere a inchiostro"],
-  ["CARTA", "Si ricava dalla cellulosa"],
-  ["RETE", "Quella del calcio si gonfia"],
-  ["PALLA", "Sferica, si calcia o si lancia"],
-  ["GIOCO", "Passatempo divertente"],
-  ["ROMA", "La capitale d'Italia"],
-  ["MILANO", "Capitale della moda italiana"],
-  ["NAPOLI", "Patria della pizza"],
-  ["TORINO", "Citta della Mole Antonelliana"],
-  ["ETNA", "Vulcano attivo siciliano"],
-  ["ALPI", "La catena montuosa del nord Italia"],
-  ["PESCE", "Nuota con le pinne"],
-  ["SQUALO", "Predatore dei mari con denti aguzzi"],
-  ["DELFINO", "Mammifero marino intelligente"],
-  ["BALENA", "Il piu grande mammifero marino"],
-  ["GALLO", "Canta all'alba nel pollaio"],
-  ["AQUILA", "Rapace simbolo di maesta"],
-  ["CIGNO", "Elegante uccello acquatico bianco"],
-  ["TOPO", "Roditore piccolo e grigio"],
-  ["VOLPE", "Furba abitante del bosco"],
-  ["CERVO", "Ha i palchi sulla testa"],
-  ["MUCCA", "Ci da il latte"],
-  ["CAVALLO", "Galoppa nella prateria"],
-  ["ASINO", "Parente del cavallo dalle orecchie lunghe"],
-  ["MAIALE", "Animale rosa della fattoria"],
-  ["PECORA", "Ci da la lana"],
-  ["CAPRA", "Bela e si arrampica sui monti"],
-
-  // --- 5 lettere ---
-  ["FIORE", "Sboccia in primavera"],
-  ["FRUTTO", "Prodotto dolce dell'albero"],
-  ["CAMPO", "Distesa coltivata"],
-  ["BOSCO", "Distesa fitta di alberi"],
-  ["PRATO", "Distesa d'erba verde"],
-  ["NUBE", "Massa di vapore nel cielo"],
-  ["PIOGGIA", "Acqua che cade dal cielo"],
-  ["VENTO", "Aria in movimento"],
-  ["FUOCO", "Brucia e riscalda"],
-  ["TERRA", "Il nostro pianeta"],
-  ["CIELO", "Sopra le nostre teste"],
-  ["STELLA", "Brilla nella notte"],
-  ["NOTTE", "Quando il sole tramonta"],
-  ["GIORNO", "L'opposto della notte"],
-  ["ALBA", "Il sorgere del sole"],
-  ["SERA", "Quando cala la luce"],
-  ["TEMPO", "Lo misura l'orologio"],
-  ["FESTA", "Occasione di allegria"],
-  ["MUSICA", "Arte dei suoni"],
-  ["CANTO", "Melodia con la voce"],
-  ["DANZA", "Movimento a ritmo di musica"],
-  ["TEATRO", "Vi si recita uno spettacolo"],
-  ["CINEMA", "Sala dei film"],
-  ["FILM", "Pellicola da proiettare"],
-  ["ATTORE", "Recita una parte"],
-  ["SCENA", "Parte di un'opera teatrale"],
-  ["POESIA", "Componimento in versi"],
-  ["VERSO", "Riga di una poesia"],
-  ["FRASE", "Insieme di parole con senso compiuto"],
-  ["LETTERA", "Si invia per posta"],
-  ["PAROLA", "Unita del discorso"],
-  ["LINGUA", "Sia l'italiano sia un organo della bocca"],
-  ["VOCE", "Esce dalla gola quando si parla"],
-  ["SUONO", "Lo percepisce l'orecchio"],
-  ["COLORE", "Il rosso ne e uno"],
-  ["VERDE", "Il colore dell'erba"],
-  ["ROSSO", "Il colore del sangue"],
-  ["GIALLO", "Il colore del limone"],
-  ["NERO", "Il colore del carbone"],
-  ["BIANCO", "Il colore della neve"],
-  ["VIOLA", "Colore tra il blu e il rosso"],
-  ["FORMA", "Il quadrato ne e una"],
-  ["CERCHIO", "Figura geometrica perfettamente tonda"],
-  ["QUADRATO", "Ha quattro lati uguali"],
-  ["LINEA", "Unisce due punti"],
-  ["PUNTO", "Chiude la frase"],
-  ["NUMERO", "Lo zero ne e uno"],
-  ["SOMMA", "Risultato dell'addizione"],
-  ["CONTO", "Da pagare al ristorante"],
-  ["DENARO", "Serve per comprare"],
-  ["BANCA", "Custodisce i risparmi"],
-  ["LAVORO", "Occupazione quotidiana"],
-  ["UFFICIO", "Luogo dove si lavora alla scrivania"],
-  ["SCUOLA", "Vi si studia da bambini"],
-  ["MAESTRO", "Insegna ai bambini"],
-  ["ALUNNO", "Lo studente delle elementari"],
-  ["LEZIONE", "Spiegazione dell'insegnante"],
-  ["STORIA", "Studia il passato"],
-  ["MEDICO", "Cura i malati"],
-  ["MALATO", "Chi ha bisogno di cure"],
-  ["SALUTE", "Lo stato di chi sta bene"],
-  ["CUORE", "Pompa il sangue"],
-  ["TESTA", "Sopra il collo"],
-  ["MANO", "Ha cinque dita"],
-  ["DITO", "Ce ne sono cinque per mano"],
-  ["PIEDE", "Termina con le dita in fondo alla gamba"],
-  ["GAMBA", "Serve a camminare"],
-  ["BRACCIO", "Arto con la mano in fondo"],
-  ["OCCHIO", "Organo della vista"],
-  ["NASO", "Organo dell'olfatto"],
-  ["BOCCA", "Si usa per mangiare e parlare"],
-  ["DENTE", "Serve a masticare"],
-  ["CAPELLO", "Cresce sulla testa"],
-  ["PELLE", "Riveste il corpo"],
-  ["SANGUE", "Scorre nelle vene"],
-  ["OSSO", "Sostiene il corpo"],
-
-  // --- nomi, geografia, cultura ---
-  ["DANTE", "Autore della Divina Commedia"],
-  ["VERDI", "Compositore dell'Aida"],
-  ["GIOTTO", "Pittore degli affreschi di Assisi"],
-  ["NERONE", "Imperatore che vide bruciare Roma"],
-  ["CESARE", "Conquistatore della Gallia"],
-  ["EUROPA", "Il continente dell'Italia"],
-  ["AFRICA", "Il continente del Sahara"],
-  ["PARIGI", "La capitale della Francia"],
-  ["LONDRA", "La capitale del Regno Unito"],
-  ["MADRID", "La capitale della Spagna"],
-  ["BERLINO", "La capitale della Germania"],
-  ["ATENE", "La capitale della Grecia"],
-  ["TEVERE", "Il fiume di Roma"],
-  ["PO", "Il fiume piu lungo d'Italia"],
-  ["ARNO", "Il fiume di Firenze"],
-  ["SICILIA", "La regione dell'Etna"],
-  ["VENEZIA", "La citta dei canali"],
-  ["FIRENZE", "La culla del Rinascimento"],
-  ["GENOVA", "Citta portuale della Liguria"],
-  ["PISA", "Citta della torre pendente"],
-
-  // --- verbi e aggettivi comuni utili ---
-  ["AMARE", "Voler bene profondamente"],
-  ["VEDERE", "Percepire con gli occhi"],
-  ["SENTIRE", "Percepire con l'udito"],
-  ["PARLARE", "Comunicare con le parole"],
-  ["DORMIRE", "Riposare di notte"],
-  ["MANGIARE", "Nutrirsi di cibo"],
-  ["BERE", "Assumere liquidi"],
-  ["LEGGERE", "Scorrere un testo con gli occhi"],
-  ["SCRIVERE", "Tracciare parole con la penna"],
-  ["CORRERE", "Andare di gran fretta a piedi"],
-  ["SALTARE", "Spiccare un balzo"],
-  ["VOLARE", "Muoversi nell'aria"],
-  ["NUOTARE", "Muoversi nell'acqua"],
-  ["CANTARE", "Emettere una melodia con la voce"],
-  ["RIDERE", "Manifestare allegria"],
-  ["PIANGERE", "Versare lacrime"],
-  ["GRANDE", "Di notevoli dimensioni"],
-  ["PICCOLO", "Di dimensioni ridotte"],
-  ["ALTO", "Di grande statura"],
-  ["BASSO", "Di poca altezza"],
-  ["LUNGO", "Di notevole lunghezza"],
-  ["CORTO", "Di poca lunghezza"],
-  ["NUOVO", "Appena fatto, mai usato"],
-  ["VECCHIO", "Avanti negli anni"],
-  ["CALDO", "Di alta temperatura"],
-  ["FREDDO", "Di bassa temperatura"],
-  ["BELLO", "Piacevole alla vista"],
-  ["BRUTTO", "Sgradevole all'occhio"],
-  ["BUONO", "Di sapore gradevole"],
-  ["DOLCE", "Sapore dello zucchero"],
-  ["AMARO", "Il sapore del caffe senza zucchero"],
-  ["SALATO", "Il sapore del sale"],
-  ["RAPIDO", "Veloce, in fretta"],
-  ["LENTO", "Che procede piano"],
-  ["FORTE", "Dotato di grande vigore"],
-  ["DEBOLE", "Privo di forza"],
-  ["RICCO", "Pieno di denaro"],
-  ["POVERO", "Privo di mezzi"],
-  ["FELICE", "Pieno di gioia"],
-  ["TRISTE", "Pieno di malinconia"],
-
-  // --- oggetti quotidiani ---
-  ["OROLOGIO", "Segna le ore"],
-  ["SPECCHIO", "Riflette l'immagine"],
-  ["CHIAVE", "Apre la serratura"],
-  ["SCARPA", "Si calza al piede"],
-  ["CAPPELLO", "Copre la testa"],
-  ["GUANTO", "Copre la mano"],
-  ["BORSA", "Ci si mettono gli oggetti da portare"],
-  ["VALIGIA", "Si riempie per il viaggio"],
-  ["OMBRELLO", "Ripara dalla pioggia"],
-  ["BOTTIGLIA", "Contiene il vino o l'acqua"],
-  ["BICCHIERE", "Si beve da questo"],
-  ["PIATTO", "Si mangia da questo"],
-  ["FORCHETTA", "Posata con i rebbi"],
-  ["CUCCHIAIO", "Posata per la minestra"],
-  ["COLTELLO", "Lama per tagliare"],
-  ["PADELLA", "Si usa per friggere"],
-  ["FORNO", "Cuoce le pietanze al calore"],
-  ["FRIGO", "Tiene i cibi al fresco"],
-  ["LAMPADA", "Fa luce nella stanza"],
-  ["CANDELA", "Fa luce con la fiamma"],
-  ["TELEFONO", "Serve a chiamare a distanza"],
-  ["RADIO", "Trasmette musica e notizie"],
-  ["MACCHINA", "Sinonimo di automobile"],
-  ["MOTORE", "Da forza al veicolo"],
-  ["BENZINA", "Carburante dell'auto"],
-  ["STRADA", "Via per i veicoli"],
-  ["SEMAFORO", "Regola il traffico coi colori"],
-
-  // --- sport e tempo libero ---
-  ["CALCIO", "Sport del pallone piu amato in Italia"],
-  ["TENNIS", "Sport con racchetta e pallina"],
-  ["NUOTO", "Sport che si pratica in piscina"],
-  ["SCI", "Si pratica sulla neve"],
-  ["GOL", "Rete segnata nel calcio"],
-  ["ARBITRO", "Fischia i falli in campo"],
-  ["SQUADRA", "Gruppo di giocatori"],
-  ["STADIO", "Impianto per le partite"],
-  ["MEDAGLIA", "Premio dell'atleta vincente"],
-  ["VITTORIA", "Esito favorevole della gara"],
-  ["GARA", "Competizione tra atleti"],
-
-  // --- cibo italiano ---
-  ["PIZZA", "Specialita napoletana col pomodoro"],
-  ["PASTA", "Spaghetti, penne e maccheroni"],
-  ["SUGO", "Condimento della pasta"],
-  ["POMODORO", "Ortaggio rosso del sugo"],
-  ["FORMAGGIO", "Si grattugia sulla pasta"],
-  ["GELATO", "Dolce freddo estivo"],
-  ["CAFFE", "La bevanda del bar al mattino"],
-  ["ZUCCHERO", "Rende dolce il caffe"],
-  ["SALE", "Insaporisce le pietanze"],
-  ["PEPE", "Spezia piccante macinata"],
-  ["BURRO", "Grasso da spalmare sul pane"],
-  ["MIELE", "Lo producono le api"],
-  ["TORTA", "Dolce per il compleanno"],
-  ["BISCOTTO", "Dolcetto da inzuppare nel latte"],
-  ["CIOCCOLATO", "Dolce di cacao"],
-  ["INSALATA", "Verdura cruda da condire"],
-  ["MINESTRA", "Piatto caldo col brodo"],
-  ["BRODO", "Liquido caldo di carne o verdure"],
-  ["CARNE", "Alimento dalla macelleria"],
-  ["VERDURA", "Ortaggio del contorno"],
-
-  // --- natura e animali extra ---
-  ["FARFALLA", "Insetto dalle ali colorate"],
-  ["FORMICA", "Insetto laborioso del formicaio"],
-  ["RAGNO", "Tesse la tela"],
-  ["MOSCA", "Insetto fastidioso che ronza"],
-  ["ZANZARA", "Insetto che punge d'estate"],
-  ["GRILLO", "Insetto che canta d'estate"],
-  ["LUCERTOLA", "Rettile che prende il sole"],
-  ["SERPENTE", "Rettile senza zampe"],
-  ["TARTARUGA", "Rettile lento col guscio"],
-  ["RONDINE", "Torna in primavera"],
-  ["PASSERO", "Comune uccellino di citta"],
-  ["GUFO", "Rapace notturno saggio"],
-  ["CORVO", "Uccello nero gracchiante"],
-  ["PAVONE", "Fa la ruota con la coda"],
-  ["STRUZZO", "Grande uccello che non vola"],
-  ["GIRAFFA", "Ha il collo lunghissimo"],
-  ["ELEFANTE", "Pachiderma dalla proboscide"],
-  ["SCIMMIA", "Si arrampica sugli alberi"],
-  ["CANGURO", "Marsupiale che salta"],
-  ["COCCODRILLO", "Rettile delle acque tropicali"],
-
-  // --- astratti / utili per incroci medi ---
-  ["IDEA", "Pensiero improvviso"],
-  ["SOGNO", "Si fa dormendo"],
-  ["PACE", "L'opposto della guerra"],
-  ["AMORE", "Sentimento del cuore"],
-  ["ODIO", "Forte avversione"],
-  ["PAURA", "Si prova davanti al pericolo"],
-  ["GIOIA", "Grande felicita"],
-  ["DOLORE", "Sofferenza fisica o morale"],
-  ["VERITA", "L'opposto della menzogna"],
-  ["FORZA", "Capacita di compiere uno sforzo"],
-  ["LUCE", "Permette di vedere"],
-  ["OMBRA", "Si proietta al sole"],
-  ["VITA", "L'esistenza"],
-  ["MONDO", "Il globo terrestre"],
-  ["CASA", "Dove si abita"],
-  ["FAMIGLIA", "Genitori e figli"],
-  ["AMICO", "Persona cara non parente"],
-  ["MADRE", "La mamma"],
-  ["PADRE", "Il papa"],
-  ["FIGLIO", "Il discendente diretto"],
-  ["FRATELLO", "Figlio degli stessi genitori"],
-  ["NONNO", "Il padre del padre"],
-  ["CITTA", "Grande centro abitato"],
-  ["PAESE", "Piccolo centro abitato"],
-  ["POPOLO", "Insieme di cittadini"],
-  ["MONDIALE", "Di tutto il pianeta"],
-];
-
-  </script>
-
   <!-- ===================== APP (thread principale) ===================== -->
   <script>
   "use strict";
   (function(){
     var $ = function(id){ return document.getElementById(id); };
-
-    // --- avvio worker da Blob (resta tutto in un unico file, anche offline / file://) ---
-    var workerSrc = $("worker-src").textContent;
-    var worker = new Worker(URL.createObjectURL(new Blob([workerSrc], {type:"text/javascript"})));
+    // --- generatore denso in Web Worker ---
+    var worker = new Worker("./gen_dense.js");
 
     var DIFF = {
-      facile:   { maxSide:11, maxWords:22, attempts:70, minLen:2, maxLen:8 },
-      medio:    { maxSide:15, maxWords:30, attempts:60, minLen:2, maxLen:9 },
-      difficile:{ maxSide:19, maxWords:40, attempts:55, minLen:2, maxLen:12 }
+      facile:   { width:9,  height:9,  blackProb:0.25, maxRun:5, patternAttempts:180, fillBudget:9000,  minLen:2, maxLen:9 },
+      medio:    { width:11, height:11, blackProb:0.24, maxRun:6, patternAttempts:220, fillBudget:14000, minLen:2, maxLen:11 },
+      difficile:{ width:13, height:13, blackProb:0.23, maxRun:6, patternAttempts:260, fillBudget:20000, minLen:2, maxLen:11 }
     };
     var difficulty = "medio";
 
@@ -987,6 +349,7 @@ const CRUCI_DB = [
     var timer = { start:0, elapsed:0, id:null };
     var dbEntries = null;
     var dbPromise = null;
+    var STATE_KEY = "cruci_state_dense_v1";
 
     // ---------- timer ----------
     function fmt(ms){ var s=Math.floor(ms/1000); var m=Math.floor(s/60); s=s%60; return (m<10?"0":"")+m+":"+(s<10?"0":"")+s; }
@@ -1016,9 +379,9 @@ const CRUCI_DB = [
           dbEntries = entries;
           return dbEntries;
         })
-        .catch(function(){
-          dbEntries = CRUCI_DB;
-          return dbEntries;
+        .catch(function(err){
+          dbPromise = null;
+          throw err;
         });
       return dbPromise;
     }
@@ -1031,6 +394,10 @@ const CRUCI_DB = [
       loadDb().then(function(entries){
         // il lavoro pesante avviene nel worker: il thread principale resta fluido
         worker.postMessage({ entries: entries, opts: opts });
+      }).catch(function(){
+        $("ovTitle").textContent="Database non disponibile";
+        $("ovText").textContent="Apri l app una volta online per salvare le voci offline.";
+        showOverlay(false);
       });
     }
 
@@ -1329,12 +696,12 @@ const CRUCI_DB = [
       try{
         if(!puzzle) return;
         var data={ puzzle:puzzle, userGrid:userGrid, revealed:revealed, elapsed:timer.elapsed, difficulty:difficulty, solved:solved };
-        localStorage.setItem("cruci_state", JSON.stringify(data));
+        localStorage.setItem(STATE_KEY, JSON.stringify(data));
       }catch(e){}
     }
     function load(){
       try{
-        var raw=localStorage.getItem("cruci_state"); if(!raw) return false;
+        var raw=localStorage.getItem(STATE_KEY); if(!raw) return false;
         var data=JSON.parse(raw); if(!data || !data.puzzle) return false;
         difficulty=data.difficulty||"medio"; syncDiffButtons();
         puzzle=data.puzzle; buildState();

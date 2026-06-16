@@ -30,7 +30,7 @@ jobs:
       - name: Prepare static site
         run: |
           mkdir _site
-          cp index.html cruciverba.html cruciverba_db.json gen_dense.js cruciverba_README.md manifest.webmanifest sw.js version.json _site/
+          cp index.html cruciverba.html cruciverba_db.json gen_dense.js README.md manifest.webmanifest sw.js version.json _site/
           cp -R icons _site/icons
           printf '{"version":"%s","builtAt":"%s"}\n' "$GITHUB_SHA" "$(date -u +%Y-%m-%dT%H:%M:%SZ)" > _site/version.json
 

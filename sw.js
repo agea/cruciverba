@@ -8,7 +8,7 @@ const APP_SHELL = [
   "./icons/icon.svg",
   "./cruciverba_db.json",
   "./gen_dense.js",
-  "./cruciverba_README.md"
+  "./README.md"
 ];
 
 self.addEventListener("install", (event) => {
