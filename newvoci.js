@@ -1,479 +1,549 @@
-// Nuove voci per il DB cruciverba. Stile Settimana Enigmistica:
-// caselle corte = sigle, targhe, note, simboli; abbondanza di parole 2-5 lettere.
+// Voci per il DB cruciverba - versione piu difficile e ampliata.
+// Definizioni rese meno immediate: piu seconde accezioni, indizi laterali, cultura generale e ambiguita controllata.
+// Risposte senza accenti; definizioni in stile ASCII per compatibilita.
 const NEW = [];
 
-// ===================== 2 LETTERE =====================
-NEW.push(
-  ["TO","Torino sulle targhe"],["RM","Roma sulle vecchie targhe"],
-  ["BO","Bologna automobilistica"],["GE","Genova sulle targhe"],
-  ["PA","Palermo in sigla"],["BA","Bari sulle targhe"],
-  ["CA","Cagliari automobilistica"],["AT","Asti sulle targhe"],
-  ["AL","Alessandria in sigla"],["CO","Como sulle targhe"],
-  ["PI","Pisa automobilistica"],["VR","Verona sulle targhe"],
-  ["PD","Padova in sigla"],["TS","Trieste sulle targhe"],
-  ["SO","Sondrio automobilistica"],["FA","La nota dopo il mi"],
-  ["SI","La settima nota"],["IO","Il pronome di chi parla"],
-  ["TU","Il pronome dell'amico"],["NE","Particella pronominale"],
-  ["PO","Il maggior fiume italiano"],["SU","Il contrario di giu"],
-  ["FE","Il ferro del chimico"],["CU","Il rame degli elementi"],
-  ["AU","Simbolo chimico dell'oro"],["TV","La si guarda in salotto"],
-  ["CD","Disco audio in sigla"],["GO","Gioco da tavolo orientale"],
-  ["BR","Brindisi sulle targhe"],["UE","L'Unione dei 27, in sigla"]
-);
+// ===================== 2 LETTERE (96 voci) =====================
+NEW.push(["AL", "Tra Tanaro e Bormida, sulle targhe"],["AN", "Ancona ridotta a targa"],["AP", "Ascoli Piceno in due caselle automobilistiche"],["AQ", "L'Aquila quando si fa sigla"]);
+NEW.push(["AT", "Asti, quando occupa due caselle"],["AU", "L'oro nelle tavole, non in gioielleria"],["AV", "Irpinia sulle targhe"],["BA", "Il capoluogo pugliese in formato minimo"]);
+NEW.push(["BI", "Biella in formato automobilistico"],["BN", "Benevento in due lettere"],["BO", "Coppia di lettere felsinee"],["BR", "Citta brindisina che sembra gia un brindisi"]);
+NEW.push(["CA", "La citta del Casteddu sulle targhe"],["CB", "Campobasso sul paraurti"],["CD", "Un disco ormai un po' d'epoca"],["CE", "Caserta senza reggia, sulle targhe"]);
+NEW.push(["CH", "Chieti in due lettere da auto"],["CL", "Caltanissetta accorciata al massimo"],["CO", "Lario in sigla automobilistica"],["CR", "Cremona, quando diventa sigla"]);
+NEW.push(["CS", "Cosenza in targa"],["CT", "Etna e Catania in due lettere"],["CU", "Il rame senza alchimie"],["CZ", "Catanzaro in formato minimo"]);
+NEW.push(["EN", "Enna sulle auto dell'entroterra siciliano"],["FA", "Nota che non ha bisogno di diesis per seguire il mi"],["FC", "Forli-Cesena in sigla"],["FE", "Il ferro quando parla il chimico"]);
+NEW.push(["FG", "Foggia sulle targhe"],["FI", "Dante e l'Arno in due lettere"],["FR", "Frosinone in sigla automobilistica"],["GE", "La Superba, ridotta a targa"]);
+NEW.push(["GO", "Antico gioco con pietre bianche e nere"],["IM", "Imperia senza riviera, in targa"],["IO", "Il soggetto piu ingombrante, in due lettere"],["IS", "Isernia per automobilisti"]);
+NEW.push(["KR", "Crotone con sigla moderna"],["LA", "Nota o articolo: due caselle ambigue"],["LC", "Lecco sulle targhe del Lario"],["LE", "Salento in due lettere"]);
+NEW.push(["LI", "Livorno in forma minima"],["LT", "Latina sulle auto"],["LU", "Lucca entro due caselle"],["MC", "Macerata in sigla"]);
+NEW.push(["ME", "Messina sul paraurti"],["MI", "La Madonnina da paraurti"],["MN", "Mantova in sigla d'auto"],["MO", "Modena in formato targa"]);
+NEW.push(["MS", "Massa-Carrara sulle targhe"],["MT", "Matera ridotta a due lettere"],["NA", "Partenope in sigla"],["NE", "Particella che puo valere di cio"]);
+NEW.push(["NO", "Novara, ma sembra una negazione"],["NU", "Nuoro sulle targhe sarde"],["OR", "Oristano in due lettere"],["PA", "Due lettere panormite"]);
+NEW.push(["PC", "Piacenza come una sigla informatica"],["PD", "La citta del Santo in sigla"],["PE", "Pescara senza mare, in targa"],["PG", "Perugia sulle targhe umbre"]);
+NEW.push(["PI", "La citta della torre quando diventa targa"],["PN", "Pordenone in breve automobilistico"],["PO", "Fiume breve di nome, lungo di corso"],["PR", "Parma da paraurti"]);
+NEW.push(["PT", "Pistoia in sigla"],["PV", "Pavia sulle targhe"],["PZ", "Potenza in due lettere"],["RA", "Ravenna in sigla, ma pare un dio egizio"]);
+NEW.push(["RC", "Reggio Calabria in targa"],["RE", "Reggio Emilia e una nota musicale"],["RI", "Rieti in due caselle"],["RM", "La Roma che entrava nelle vecchie sigle automobilistiche"]);
+NEW.push(["RN", "Rimini sulle targhe romagnole"],["RO", "Rovigo in sigla"],["SA", "Salerno in targa"],["SI", "Nota e assenso: due caselle bastano"]);
+NEW.push(["SO", "Valtellina sulle automobili"],["SP", "La Spezia in formato breve"],["SR", "Siracusa sulle targhe"],["SU", "Direzione da ascensore"]);
+NEW.push(["SV", "Savona da paraurti"],["TA", "Taranto in due lettere"],["TE", "Teramo in sigla"],["TO", "Due lettere sabaude da paraurti"]);
+NEW.push(["TS", "Bora e porto in due lettere"],["TU", "Un interlocutore senza cerimonie"],["TV", "Schermo domestico in due lettere"],["UD", "Udine in targa friulana"]);
+NEW.push(["UE", "Ventisette in due lettere"],["VA", "Varese, ma anche voce del verbo andare"],["VB", "Verbano-Cusio-Ossola in sigla"],["VC", "Vercelli in targa"]);
+NEW.push(["VE", "Venezia senza gondole, in sigla"],["VI", "Vicenza in due caselle"],["VR", "Arena ridotta a due lettere"],["VT", "Viterbo sulle targhe laziali"]);
 
-// ===================== 3 LETTERE =====================
-NEW.push(
-  ["ALI","Le ha l'aereo"],["AMO","Lo abbocca il pesce"],["AVO","Antenato, nonno"],
-  ["BAR","Ci si beve il caffe"],["BIS","Richiesta a teatro"],["BOA","Grosso serpente che stritola"],
-  ["BUE","Rumina nella stalla"],["DEA","Divinita femminile"],["DEI","Gli abitanti dell'Olimpo"],
-  ["DIO","L'Onnipotente"],["DUE","Il numero della coppia"],["ECO","Rimbalza tra i monti"],
-  ["EGO","L'io secondo Freud"],["EMU","Grosso uccello australiano"],["ENI","Colosso energetico italiano"],
-  ["ESA","L'agenzia spaziale europea"],["FAN","Tifoso entusiasta"],["FEZ","Copricapo con nappa"],
-  ["FIO","Pagare il... per una colpa"],["GAS","Esce dai fornelli"],["GEL","Fissa i capelli"],
-  ["GRU","Uccello dal lungo collo"],["IVA","Imposta sui consumi"],["KIT","Set di montaggio"],
-  ["LEI","Pronome di cortesia"],["LUI","Pronome maschile"],["MAI","In nessun tempo"],
-  ["NOI","Pronome di prima plurale"],["ODE","Poesia lirica solenne"],["OHM","Unita di resistenza elettrica"],
-  ["ORO","Metallo dei lingotti"],["PIO","Devoto e religioso"],["RAI","La tv di Stato"],
-  ["REO","Il colpevole, per il giudice"],["ROC","Uccello gigante delle leggende"],["SUD","Punto cardinale caldo"],
-  ["SET","Una partita del tennis"],["TAO","Principio del taoismo"],["TRE","Numero dispari dopo il due"],
-  ["UFO","Oggetto volante misterioso"],["UNO","Il primo dei numeri"],["USO","Consuetudine, abitudine"],
-  ["ZEN","Buddismo giapponese"],["ZIA","Sorella del genitore"],["ZOO","Parco con animali esotici"],
-  ["AVE","Saluto dell'antica Roma"],["CIA","Servizi segreti americani"],["DAI","Forza, coraggio!"],
-  ["FBI","Polizia federale USA"],["NON","Avverbio di negazione"],["ONU","Il Palazzo di Vetro la ospita"],
-  ["PER","Preposizione della moltiplicazione"],["PIU","Il segno dell'addizione"],["POI","In un secondo momento"],
-  ["QUA","In questo luogo"],["RAP","Genere musicale ritmato e parlato"],["RUM","Liquore dei pirati"],
-  ["TAC","Esame radiologico, in sigla"],["TIR","Grosso camion da trasporto"],["TRA","Preposizione, in mezzo"],
-  ["WEB","La rete internet"],["YEN","Moneta del Giappone"],["ZAR","Imperatore russo d'altri tempi"],
-  ["VAN","Furgoncino per il trasporto"],["URL","Indirizzo di un sito web"],["NEO","Piccola macchia cutanea"],
-  ["TEO","...rema: dimostrazione (parte)"],["ALE","...gria: gioia (parte)"],["OSA","Chi non risica non..."],
-  ["APO","..strofo: segno tipografico (parte)"],["ICO","..na: immagine sacra (parte)"],["EMO","..globina del sangue (parte)"],
-  ["SOL","La nota dopo il fa"],["MEA","..culpa: ammissione (lat.)"],["RES","Cosa, in latino"],
-  ["AIA","Lo spiazzo della fattoria"],["BEA","Rende felici (verbo)"],["DUO","Coppia di musicisti"],
-  ["FIE","..vole, debole (parte)"],["NEA","..politano: di Napoli (parte)"],["OVA","Le uova dei pesci"],
-  ["REA","Colpevole, al femminile"],["TEA","Una varieta di rosa"],["VIE","Le strade, al plurale"],
-  ["ASE","..ttico, sterile (parte)"],["IDE","..ale, perfetto (parte)"],["UDO","Sento (verbo udire)"]
-);
+// ===================== 3 LETTERE (176 voci) =====================
+NEW.push(["ABI", "Codice bancario italiano in tre lettere"],["ACE", "Servizio che non si ribatte"],["ADA", "Nome breve e linguaggio di programmazione"],["ADE", "Regno oscuro dei Greci"]);
+NEW.push(["AGO", "Entra dove il filo lo segue"],["AIA", "Cortile rustico da trebbiatura"],["ALA", "Fianco che puo volare"],["ALE", "Fa allegria solo se le manca il resto"]);
+NEW.push(["ALI", "Le cercano Icaro e ogni velivolo"],["AMA", "Vuole bene in terza persona"],["AMO", "Inganna chi abbocca"],["APO", "Prima parte di apostrofo"]);
+NEW.push(["ARA", "Altare antico o pappagallo colorato"],["ARE", "Misura agraria di cento metri quadrati"],["ASA", "Sigla dell'aspirina in chimica farmaceutica"],["ASE", "Sterile se gli metti davanti la a"]);
+NEW.push(["AVA", "Nome da diva Gardner"],["AVE", "Saluto romano prima d'essere preghiera"],["AVI", "Formato video di vecchia fortuna"],["AVO", "Un nonno risalito di qualche generazione"]);
+NEW.push(["BAR", "Ha banco, ma non sempre carte"],["BEA", "Rende felice in forma letteraria"],["BIO", "Prefisso che promette naturalezza"],["BIS", "Si chiede quando l'applauso non basta"]);
+NEW.push(["BOA", "Anello galleggiante o serpente da leggenda"],["BOB", "Scivola sul ghiaccio in squadra"],["BOH", "Risposta di chi non sa"],["BUA", "Piccolo male detto ai bambini"]);
+NEW.push(["BUE", "Lo aggioga il contadino d'altri tempi"],["CEO", "Capo aziendale in sigla anglosassone"],["CIA", "A Langley la scrivono cosi"],["CIS", "Diesis al contrario, per il musicista"]);
+NEW.push(["COL", "Preposizione fusa con l'articolo"],["CON", "Preposizione di compagnia o mezzo"],["CUI", "Pronome da complemento"],["DAI", "Incitamento da panchina o da tavolo"]);
+NEW.push(["DAL", "Da piu articolo in una sillaba"],["DEA", "Una che sull'Olimpo non invecchia"],["DEI", "Plurale da Olimpo"],["DEL", "Articolo partitivo o preposizione articolata"]);
+NEW.push(["DIO", "Nome altissimo in tre caselle"],["DOC", "Garantito, o medico nei film americani"],["DON", "Titolo ecclesiastico o boss da cinema"],["DOP", "Marchio alimentare protetto"]);
+NEW.push(["DOS", "Vecchio sistema prima delle finestre"],["DUE", "Basta per fare coppia, non folla"],["DUO", "Coppia che suona"],["ECO", "Risposta che non pensa"]);
+NEW.push(["EGO", "L'io quando si mette in analisi"],["EMO", "Sangue in forma di prefisso"],["EMU", "Corre in Australia senza prendere il volo"],["ENI", "Sigla energetica con sei zampe nel marchio"]);
+NEW.push(["ERA", "Tempo lungo o voce del verbo essere"],["ERO", "Fui, in tre lettere"],["ESA", "Spazio europeo in tre lettere"],["ETA", "Si conta senza fermarla"]);
+NEW.push(["FAI", "Agisci o sigla dei beni culturali"],["FAN", "Vive di idoli e autografi"],["FAX", "Documento arrivato con un fischio d'epoca"],["FBI", "Indaga a stelle e strisce"]);
+NEW.push(["FEZ", "Copricapo che porta una nappa"],["FIE", "Debole, se la completi"],["FIO", "Si paga per espiare"],["GAS", "Puo uscire da un fornello o da una risata"]);
+NEW.push(["GEL", "Tiene in riga i capelli"],["GIA", "Avverbio che arriva prima del previsto"],["GIN", "Alcolico caro al tonic"],["GOL", "Rete senza inglesismi"]);
+NEW.push(["GRU", "Uccello o macchina da cantiere"],["ICO", "In icona, senza inizio e fine"],["IDE", "Apre l'ideale senza raggiungerlo"],["IRA", "Collera breve e latina"]);
+NEW.push(["IRI", "Vecchia sigla dell'industria pubblica italiana"],["ISO", "Standard internazionale in tre lettere"],["IVA", "La percentuale che gonfia lo scontrino"],["KIT", "Occorre prima di montare"]);
+NEW.push(["LAO", "Lingua e popolo del Sud-est asiatico"],["LEI", "Distanza di cortesia in tre lettere"],["LEO", "Leone accorciato a nome"],["LIA", "Nome breve da romanzo"]);
+NEW.push(["LOG", "Registro tecnico o tronco inglese"],["LUI", "Maschile quando non si nomina il nome"],["LUX", "Unita di illuminamento"],["MAI", "Tempo negato"]);
+NEW.push(["MEA", "Confessione latina prima di culpa"],["MIA", "Possessivo femminile in tre caselle"],["MIO", "Possessivo geloso e breve"],["NEA", "Apre il napoletano senza Napoli"]);
+NEW.push(["NEL", "Dentro, con articolo incorporato"],["NEO", "Macchia, difetto o prefisso del nuovo"],["NET", "Rete in inglese, ma non sempre web"],["NOI", "L'io quando si allarga"]);
+NEW.push(["NON", "La sillaba che rovescia il senso"],["OCA", "Animale proverbiale per sciocchezza"],["ODE", "Versi solenni, spesso poco quotidiani"],["OHM", "Resistenza scritta senza opporsi"]);
+NEW.push(["OLE", "Esclamazione da arena spagnola"],["OMO", "Uomo in forma antica o prefisso uguale"],["ONU", "Assemblea mondiale in tre lettere"],["OPA", "Offerta pubblica in Borsa"]);
+NEW.push(["OPS", "Scusa in tre lettere"],["ORA", "Adesso o sessanta minuti"],["ORE", "Pluralizza il tempo dell'orologio"],["ORO", "Metallo che fa gola e medaglie"]);
+NEW.push(["OSA", "Invito proverbiale a rischiare"],["OVA", "Uova ittiche, piu da scienza che da cucina"],["PAN", "Tutto, come prefisso greco"],["PER", "Si mette fra fattori e prodotti"]);
+NEW.push(["PIA", "Devota al femminile"],["PIN", "Codice che apre senza chiave"],["PIO", "Devoto, anche quando diventa nome"],["PIU", "Segno che aggiunge senza parlare"]);
+NEW.push(["POI", "Tempo che rinvia"],["PRO", "A favore, in tre lettere"],["QUA", "Qui, ma con altra vocale"],["RAI", "Tre lettere davanti al canone"]);
+NEW.push(["RAP", "Rime su base battente"],["REA", "Colpevole declinata al femminile"],["REM", "Fase del sonno che muove gli occhi"],["REO", "Uno che il giudice non assolve"]);
+NEW.push(["RES", "La cosa dei giuristi latini"],["RIO", "Corso d'acqua o citta brasiliana abbreviata"],["ROC", "Uccello favoloso da Mille e una notte"],["RUM", "Caraibico nel bicchiere"]);
+NEW.push(["SAN", "Titolo davanti a molti nomi sacri"],["SCI", "Ha lamine e discese"],["SEI", "Numero o verbo essere"],["SEN", "Titolo da parlamento abbreviato"]);
+NEW.push(["SER", "Titolo antico spagnolo o inizio di serpente"],["SET", "Un parziale che non e solo nel tennis"],["SIA", "Congiunzione che raddoppia spesso"],["SIR", "Titolo britannico in tre lettere"]);
+NEW.push(["SOL", "Nota che illumina anche senza sole"],["SOS", "Richiesta d'aiuto senza parole"],["STA", "Rimane o si trova"],["STO", "Questo, in forma tronca"]);
+NEW.push(["SUD", "Il punto che sui mappamondi scende"],["SUE", "Possessivo di terza al femminile plurale"],["SUI", "Su piu articolo plurale"],["SUL", "Sopra, con articolo incorporato"]);
+NEW.push(["TAC", "Scatto di serratura o esame per immagini"],["TAN", "Tangente abbreviata dai matematici"],["TAO", "Via orientale piu che strada"],["TAR", "Tribunale amministrativo in tre lettere"]);
+NEW.push(["TEA", "Rosa da salotto inglese"],["TEE", "Supporto minuscolo del golfista"],["TEL", "Telefono in rubrica abbreviata"],["TEO", "In testa a un teorema"]);
+NEW.push(["TIC", "Scatto nervoso e ripetuto"],["TIR", "Bestione autostradale"],["TOP", "Il massimo, in inglese entrato nell'uso"],["TOT", "Quantita imprecisa ma fissata"]);
+NEW.push(["TRA", "Sta in mezzo anche quando e preposizione"],["TRE", "Il primo dispari dopo l'unita composta"],["UDO", "Sento in un verbo poco quotidiano"],["UFO", "Appare nei cieli di chi non sa identificarlo"]);
+NEW.push(["UNO", "Numero, carta o pronome impersonale"],["URL", "Indirizzo che non arriva per posta"],["USO", "Consuetudine che diventa diritto"],["UTE", "Veicolo utilitario australiano"]);
+NEW.push(["UVA", "Prima del vino, se non resta frutto"],["VAI", "Invito a muoversi senza indugio"],["VAL", "Vale, se gli togli l'ultima lettera"],["VAN", "Mezzo chiuso, spesso da trasloco"]);
+NEW.push(["VIA", "Strada o ordine di partenza"],["VIE", "Strade al plurale, ma anche vie di fuga"],["VIP", "Persona importante per acronimo"],["VOL", "Volume abbreviato in biblioteca"]);
+NEW.push(["WEB", "Rete che non pesca"],["WOK", "Padella orientale dal fondo concavo"],["YEN", "Denaro di Tokyo"],["YES", "Assenso inglese in tre caselle"]);
+NEW.push(["ZAR", "Autocrate in tre lettere"],["ZEN", "Silenzio giapponese da meditazione"],["ZIA", "Parente che non fa da genitore"],["ZOO", "Raccolta di fauna dietro recinti"]);
 
-// ===================== 4 LETTERE (parte 1) =====================
-NEW.push(
-  ["ALBA","Il sorgere del sole"],["ALCE","Cervo nordico dalle grandi corna"],["ALGA","Pianta del mare"],
-  ["ANCA","Articolazione del fianco"],["ANNO","Dura dodici mesi"],["ARCO","Scocca le frecce"],
-  ["ARIA","Si respira"],["ARMA","Spada o fucile"],["ARSO","Bruciato dal fuoco"],
-  ["ASIA","Il continente piu vasto"],["ASSO","Vale piu del re nelle carte"],["ATTO","Parte di una commedia"],
-  ["AUTO","La si guida"],["BACO","La larva della seta"],["BARA","Accoglie il defunto"],
-  ["BASE","Il fondamento di tutto"],["BENE","Il contrario di male"],["BILE","Liquido amaro del fegato"],
-  ["BOIA","L'antico esecutore"],["BORA","Vento freddo di Trieste"],["BRIO","Vivacita allegra"],
-  ["BUIO","Assenza di luce"],["CALO","Diminuzione, ribasso"],["CANE","Il migliore amico dell'uomo"],
-  ["CAPO","Chi comanda l'ufficio"],["CARO","Costoso oppure amato"],["CASA","La nostra dimora"],
-  ["CASO","Combinazione fortuita"],["CAVO","Vuoto dentro / filo elettrico"],["CECI","Legumi da hummus"],
-  ["CENA","Il pasto serale"],["CERA","Quella delle api / dei lumini"],["CIAO","Saluto informale"],
-  ["CIBO","Si mette in tavola"],["CIMA","La vetta del monte"],["CINA","Il paese del dragone"],
-  ["COLA","Filtra il brodo"],["CONO","Quello del gelato"],["CORO","Cantano insieme"],
-  ["COSA","Oggetto qualsiasi"],["COVO","Tana del bandito"],["CUBO","Solido a sei facce"],
-  ["DADO","Si lancia col gioco dell'oca"],["DAMA","Gioco con le pedine"],["DARE","Il contrario di avere"],
-  ["DATA","Giorno, mese e anno"],["DIVO","Star del cinema"],["DOGE","L'antico capo di Venezia"],
-  ["DOPO","In seguito"],["DOSE","La quantita di medicina"],["DOTE","La qualita di una persona"],
-  ["DUCA","Titolo nobiliare"],["DUNA","Collina di sabbia"],["DURO","Non cede sotto pressione"],
-  ["EDEN","Il paradiso terrestre"],["EMIR","Principe arabo"],["ENTE","Organismo pubblico"],
-  ["ERBA","Verde sul prato"],["EROE","Protagonista coraggioso"],["ESCA","Attira il pesce"],
-  ["ETNA","Vulcano siciliano"],["EURO","La nostra moneta"],["FAMA","La celebrita"],
-  ["FARE","Agire, operare"],["FARO","Guida le navi di notte"],["FASE","Tappa di un processo"],
-  ["FATA","Creatura magica con la bacchetta"],["FATO","Il destino segnato"],["FAVA","Legume primaverile"],
-  ["FEDE","L'anello nuziale / la fiducia"],["FETO","Il nascituro nel grembo"],["FICO","Frutto dolce estivo"],
-  ["FIDO","Cane fedele per antonomasia"],["FILA","Coda di persone"],["FILO","Per cucire"],
-  ["FINE","Il termine, la conclusione"],["FOCA","Mammifero dei mari freddi"],["FOTO","Scatto fotografico"],
-  ["FUGA","Evasione precipitosa"],["FUMO","Esce dal camino"],["FUNE","Robusta corda"],
-  ["FUSO","Per filare la lana"],["GALA","Serata di gala"],["GARA","Competizione sportiva"],
-  ["GELO","Freddo intenso"],["GENE","Unita dell'eredita"],["GIRO","Il... d'Italia in bici"],
-  ["GITA","Breve viaggio di piacere"],["GOAL","La rete nel calcio"],["GOLA","Il collo internamente"],
-  ["GOLF","Sport con buche e mazze"],["GONG","Suona la fine del round"],["GUAI","Brutti pasticci"],
-  ["GUFO","Rapace notturno"],["GURU","Maestro spirituale"],["IBIS","Uccello sacro agli egizi"],
-  ["IDEA","Lampo di genio"],["ILEO","Tratto dell'intestino tenue"],["INCA","Antico popolo del Peru"],
-  ["IRAN","Stato del Medio Oriente"],["IRTO","Pieno di spine"],["ITER","Il percorso burocratico"],
-  ["IUTA","Fibra per i sacchi"],["JEEP","Fuoristrada robusto"],["JUDO","Arte marziale giapponese"]
-);
+// ===================== 4 LETTERE (413 voci) =====================
+NEW.push(["ADDA", "Fiume lombardo caro ai cruciverba"],["AGIO", "Comodita o vantaggio di cambio"],["AGRO", "Aspro e campagna romana"],["AIDA", "Eroina verdiana sulle rive del Nilo"]);
+NEW.push(["ALBA", "Il momento in cui il buio comincia a cedere"],["ALCE", "Cervide che porta un palco senza teatro"],["ALFA", "Prima lettera greca e marchio d'auto"],["ALGA", "Verde sommerso che non e insalata"]);
+NEW.push(["ALPE", "Rilievo alpino in forma singolare"],["AMBA", "Numero secco al lotto"],["AMBO", "Coppia vincente sulla ruota"],["AMEN", "Chiusura liturgica in quattro lettere"]);
+NEW.push(["ANCA", "Giuntura laterale da ballerino e ortopedico"],["ANNO", "Un giro completo del calendario"],["ANSA", "Curva di fiume o agenzia stampa"],["ANTE", "Battenti che non battono"]);
+NEW.push(["APSE", "Spazio sacro dietro l'altare"],["ARCO", "Tende la corda o unisce due pilastri"],["AREA", "Superficie da misurare o zona"],["ARGO", "Cane fedele e nave mitica"]);
+NEW.push(["ARIA", "Manca quando si boccheggia"],["ARMA", "Ha bisogno d'una mano e d'un bersaglio"],["ARNO", "Attraversa Firenze senza entrar nei musei"],["ARSO", "Ridotto dal calore a memoria di fuoco"]);
+NEW.push(["ARTE", "Fa mestiere del bello e del difficile"],["ASIA", "Oriente vastissimo su carte scolastiche"],["ASSO", "Carta che puo valere uno o piu del re"],["ATTO", "Ha scene, ma anche valore notarile"]);
+NEW.push(["AURA", "Atmosfera che circonda senza toccare"],["AUTO", "Veicolo che nel prefisso fa da se"],["AZIO", "Sconfitta navale di Antonio e Cleopatra"],["BACO", "Filatore prima di essere farfalla"]);
+NEW.push(["BAIA", "Riparo marino che invita all'ancora"],["BAIO", "Cavallo di mantello rossiccio"],["BALI", "Isola indonesiana da templi e surf"],["BARA", "Ultimo contenitore di chi non viaggia piu"]);
+NEW.push(["BASE", "Sostegno o punto di partenza"],["BENE", "Lo si oppone al male e lo si vuole"],["BETA", "Seconda lettera greca e versione provvisoria"],["BICE", "Nome femminile che sa di romanzo ottocentesco"]);
+NEW.push(["BILE", "Amarezza organica e figurata"],["BIRO", "Penna che porta il nome dell'inventore"],["BOIA", "Faceva lavoro di morte per legge"],["BORA", "Soffia triestina e tagliente"]);
+NEW.push(["BRIO", "Vivacita che frizza"],["BUCA", "La cerca il golfista, la teme l'automobilista"],["BUCO", "Vuoto concreto o debito informale"],["BUIO", "Regno dove gli occhi lavorano male"]);
+NEW.push(["CACO", "Frutto arancione, meno elegante di kaki"],["CALO", "Ribasso che alleggerisce numeri o peso"],["CANE", "Abbaia, ma sta anche nelle armi antiche"],["CANI", "Pluralita che abbaia"]);
+NEW.push(["CAPI", "Comandano o si indossano"],["CAPO", "Estremita, promontorio o superiore"],["CARI", "Amati o costosi"],["CARO", "Amato oppure poco conveniente"]);
+NEW.push(["CASA", "Puo essere editrice, regnante o di abitazione"],["CASO", "Lo invoca chi non trova una causa"],["CAVE", "Miniere a cielo aperto"],["CAVI", "Fili con anima di metallo"]);
+NEW.push(["CAVO", "Vuoto, oppure filo pieno di corrente"],["CECI", "Legumi che diventano purea mediorientale"],["CECO", "Slavo di Praga, non cieco"],["CENA", "Pasto che arriva quando il giorno finisce"]);
+NEW.push(["CERA", "Dalle api ai pavimenti lucidi"],["CIAO", "Saluto buono all'arrivo e alla partenza"],["CIBO", "La materia prima del convivio"],["CILE", "Lungo Paese sul Pacifico"]);
+NEW.push(["CIMA", "Punto alto, in montagna o in marina"],["CINA", "Impero di mezzo nei libri di storia"],["CITO", "Richiamo testualmente o convoco in giudizio"],["COLA", "Lascia passare il liquido, non il solido"]);
+NEW.push(["CONO", "Solido del gelataio e del geometra"],["CORO", "Molte voci che fanno una sola parte"],["COSA", "Nome rifugio quando manca il nome"],["COVO", "Rifugio piu da banditi che da eremiti"]);
+NEW.push(["CUBO", "Ha sei facce e poca fantasia"],["CURE", "Attenzioni mediche e premurose"],["DADI", "Cubetti da brodo o da gioco"],["DADO", "Si getta per affidarsi alla sorte"]);
+NEW.push(["DALI", "Baffi surrealisti in quattro lettere"],["DAMA", "Gioco a pedine o signora d'altri tempi"],["DARE", "Verbo generoso o commerciale"],["DATA", "Numeri che collocano un giorno"]);
+NEW.push(["DINO", "Nome proprio e diminutivo da dinosauro"],["DITA", "Finiscono la mano e iniziano le impronte"],["DIVO", "Vive di schermi e ammiratori"],["DODO", "Uccello estinto che non volava lontano"]);
+NEW.push(["DOGE", "Serenissimo titolo veneziano"],["DOPO", "Avverbio che prende tempo"],["DOSE", "La misura che puo curare o nuocere"],["DOTE", "Qualita innata o corredo nuziale"]);
+NEW.push(["DUCA", "Nobile sotto il principe, sopra il marchese"],["DUNA", "Onda ferma del deserto"],["DURO", "Resiste, o manca di tenerezza"],["EDEN", "Giardino perduto per un frutto"]);
+NEW.push(["EIRE", "Irlanda in forma poetica e politica"],["ELBA", "Isola napoleonica del Tirreno"],["ELFO", "Piccolo essere da boschi nordici"],["ELMO", "Copre il capo prima della corona"]);
+NEW.push(["EMIR", "Titolo arabo da palazzo"],["ENNA", "Citta alta nel cuore della Sicilia"],["ENTE", "Soggetto giuridico senza corpo"],["ERBA", "La calpestano mucche e calciatori"]);
+NEW.push(["ERMO", "Solitario, come il colle leopardiano"],["EROE", "Fa imprese che altri raccontano"],["EROS", "Amore con nome greco"],["ESCA", "Inganno commestibile per pesci"]);
+NEW.push(["ESSE", "Lettera sinuosa"],["ETNA", "Fuma sopra la Sicilia orientale"],["EURO", "Moneta comune a molte tasche europee"],["FADO", "Canto portoghese pieno di saudade"]);
+NEW.push(["FAMA", "Corre piu dei suoi protagonisti"],["FARE", "Verbo che trasforma intenzioni in atti"],["FARO", "Occhio costiero per chi naviga"],["FASE", "Passaggio di luna o di progetto"]);
+NEW.push(["FATA", "Dispensa incanti nelle fiabe"],["FATO", "Destino con tono antico"],["FAVA", "Legume che ha nome anche in proverbi"],["FAVO", "Opera geometrica delle api"]);
+NEW.push(["FEBE", "Titano lunare dal nome luminoso"],["FEBO", "Apollo in veste luminosa"],["FEDE", "Si porta all'anulare o nel cuore"],["FETO", "Vita non ancora venuta alla luce"]);
+NEW.push(["FICO", "Frutto, albero e complimento colloquiale"],["FIDO", "Nome da cane affidabile"],["FILA", "Coda che non scodinzola"],["FILO", "Unisce stoffe o pensieri sottili"]);
+NEW.push(["FINE", "Conclusione, ma anche scopo"],["FOCA", "Nuota nei mari freddi con baffi da circo"],["FOCI", "Sbocchi di fiumi, non bocche qualunque"],["FOGA", "Impeto che dimentica la misura"]);
+NEW.push(["FOLK", "Popolare in musica"],["FORO", "Piazza antica, tribunale o buco"],["FOTO", "Memoria fissata dalla luce"],["FRAC", "Abito maschile da cerimonia severa"]);
+NEW.push(["FUGA", "Scappa, ma in musica segue regole severe"],["FUMO", "Segnale di fuoco e vizio"],["FUNE", "Corda da pozzo o da acrobata"],["FUSO", "Serve alla filatrice e al fuso orario"]);
+NEW.push(["GAIA", "Lieta, ma anche Terra primordiale"],["GALA", "Serata che pretende abiti importanti"],["GARA", "Confronto in cui conta l'arrivo"],["GELO", "Freddo che fa tacere anche il terreno"]);
+NEW.push(["GENE", "Unita ereditaria invisibile"],["GIRO", "Viaggio in tondo o corsa rosa"],["GITA", "Viaggio breve, spesso senza valigia grande"],["GOAL", "Rete che non si pesca"]);
+NEW.push(["GOLA", "Tra voce e appetito"],["GOLF", "Sport di buche e nome da maglione"],["GONG", "Dichiara concluso il round"],["GOTO", "Barbaro che entro nella storia di Roma"]);
+NEW.push(["GUAI", "Arrivano quando i conti non tornano"],["GUFO", "Notturno che secondo alcuni porta sfortuna"],["GURU", "Maestro che attira discepoli"],["IBIS", "Sacro sulle rive del Nilo antico"]);
+NEW.push(["IDEA", "Scintilla prima dell'azione"],["IDRA", "Mostro dalle teste ricrescenti"],["ILEO", "Tratto intestinale da anatomisti"],["INCA", "Popolo andino prima dei conquistadores"]);
+NEW.push(["IRAN", "Antica Persia sulle carte moderne"],["IRIS", "Fiore, occhio o messaggera divina"],["IRTO", "Pieno di punte o difficolta"],["ISBA", "Casa russa di legno"]);
+NEW.push(["ISEO", "Lago lombardo meno citato del Como"],["ITER", "Percorso di pratiche e approvazioni"],["IUTA", "Fibra da sacchi ruvidi"],["JEEP", "Fuoristrada entrato nel linguaggio comune"]);
+NEW.push(["JUDO", "Arte di leve e cadute"],["KAKI", "Frutto arancione che matura tardi"],["KIWI", "Uccello o frutto con lo stesso nome"],["LAGO", "Specchio d'acqua che non riflette sempre"]);
+NEW.push(["LAMA", "Taglia, o sputa sulle Ande"],["LANA", "Fibra che fa caldo prima del maglione"],["LARI", "Dei domestici della Roma antica"],["LATO", "Non e il centro del poligono"]);
+NEW.push(["LAVA", "Roccia che corre prima di indurire"],["LEGA", "Unisce metalli, squadre o Stati"],["LEVA", "Alza pesi o chiama soldati"],["LIDO", "Spiaggia con cabine e ombrelloni"]);
+NEW.push(["LIMA", "Capitale andina e utensile abrasivo"],["LINO", "Fibra estiva da lenzuola"],["LIRA", "Moneta scomparsa e strumento antico"],["LITE", "Discussione che alza i toni"]);
+NEW.push(["LOBO", "Parte molle o sezione anatomica"],["LODE", "Parola di approvazione o voto pieno"],["LODI", "Citta lombarda e plurale di elogi"],["LOGO", "Volto grafico di un marchio"]);
+NEW.push(["LORO", "Appartiene ad altri"],["LOTO", "Fiore orientale e gioco di numeri"],["LUCE", "La cerca chi brancola"],["LUME", "Lampada d'altri tempi e intelletto"]);
+NEW.push(["LUNA", "Satellite che cambia faccia"],["LUNE", "Capricci d'umore in forma plurale"],["LUPO", "Animale da fiaba e da branco"],["MAGO", "Fa sparire piu che spiegare"]);
+NEW.push(["MAIA", "Madre di Hermes e nome primaverile"],["MALE", "Dolore o contrario morale"],["MANI", "Strumenti del tatto e del furto"],["MANO", "Aiuta, firma, prende e si alza"]);
+NEW.push(["MARE", "Distesa che separa e unisce"],["MARI", "Pluralita di acque vaste"],["MELA", "Cadde a Newton, almeno nel racconto"],["MENO", "Segno che sottrae e avverbio comparativo"]);
+NEW.push(["MENU", "Promette piatti prima che arrivino"],["META", "Arrivo del viaggio o del rugby"],["MIAO", "Verso domestico in quattro lettere"],["MICA", "Nega senza sembrare un no"]);
+NEW.push(["MILO", "Isola della Venere senza braccia"],["MIMO", "Recita tacendo"],["MINA", "Puo stare sotto terra o in una matita"],["MIRA", "La prende chi vuole centrare"]);
+NEW.push(["MITE", "Dolce di carattere, non di temperatura estrema"],["MITO", "Racconto antico o idolo moderno"],["MODA", "Passa proprio quando sembra imporsi"],["MODO", "Maniera, grammaticale o quotidiana"]);
+NEW.push(["MOLA", "Macina o dente posteriore"],["MOLO", "Braccio di pietra nel porto"],["MORA", "Frutto del rovo o ritardo nei pagamenti"],["MORE", "Frutti del rovo e brune al plurale"]);
+NEW.push(["MORO", "Scuro di capelli o personaggio storico"],["MOTO", "Due ruote e movimento"],["MULO", "Ibrido tenace da soma"],["MURO", "Divide, protegge o si salta"]);
+NEW.push(["MUSA", "Ispiratrice che non scrive"],["MUTO", "Privo di voce o di parole"],["NANO", "Piccolo, ma anche stella densa"],["NASO", "Organo che fiuta e si immischia"]);
+NEW.push(["NATO", "Alleanza atlantica o participio venuto al mondo"],["NAVE", "Casa che galleggia"],["NERO", "Colore, cronaca o caffe senza latte"],["NEVE", "Acqua che cade in silenzio bianco"]);
+NEW.push(["NIDO", "Culla sospesa degli uccelli"],["NIKE", "Vittoria greca e marchio moderno"],["NOCE", "Guscio duro, albero e parte della mano"],["NODO", "Stringe corde e problemi"]);
+NEW.push(["NOIA", "Tempo che pesa"],["NOLO", "Affitto di mezzi, non di case"],["NOME", "Identita in poche lettere"],["NORD", "Dove punta l'ago"]);
+NEW.push(["NOTA", "Segno musicale o appunto"],["NOVE", "Numero che rovesciato inganna"],["NUBE", "Nuvola con tono poetico"],["NUCA", "Dietro la testa, sotto i capelli"]);
+NEW.push(["NUDO", "Senza veli, anche in pittura"],["OASI", "Promessa d'acqua nel deserto"],["OBOE", "Legno d'orchestra dal timbro nasale"],["OCRA", "Giallo terroso da pittori"]);
+NEW.push(["ODIN", "Dio nordico con corvi al seguito"],["ODIO", "Amore capovolto e avvelenato"],["OGAM", "Antico alfabeto irlandese"],["OGNI", "Distributivo che non lascia fuori nessuno"]);
+NEW.push(["OLMO", "Albero caro ai viali"],["ONDA", "Si muove senza andare lontano"],["OPUS", "Opera in latino e in musica"],["ORCA", "Cetaceo che porta un nome ingiusto"]);
+NEW.push(["ORCO", "Mostro delle fiabe e spauracchio"],["ORDA", "Folla piu minacciosa che ordinata"],["ORLO", "Confine di stoffa o precipizio"],["ORMA", "Firma lasciata dal passo"]);
+NEW.push(["ORSA", "Costellazione e femmina del plantigrado"],["ORSO", "Plantigrado e uomo poco socievole"],["ORTO", "Piccolo regno di zappe"],["ORZO", "Cereale da zuppe e caffe senza caffe"]);
+NEW.push(["OSSO", "Resta quando la polpa se ne va"],["OSTE", "Padrone di tavole e vino"],["OTTO", "Numero con due pance"],["PACE", "Assenza preziosa di conflitto"]);
+NEW.push(["PAGA", "Arriva a fine mese, non sempre abbastanza"],["PAIO", "Due che fanno un'unita"],["PALA", "Ha un manico o gira nel vento"],["PALI", "Sostegni verticali e plurale da calcio"]);
+NEW.push(["PALO", "Sta ritto: in campo puo negare il gol"],["PANE", "Cibo quotidiano e metafora di lavoro"],["PAPA", "Sovrano senza corona terrena"],["PARE", "Sembra o uguaglia"]);
+NEW.push(["PARI", "Uguale o divisibile per due"],["PECE", "Nera e appiccicosa da calafati"],["PELO", "Puo stare sull'animale o sullo stomaco"],["PENA", "Castigo o compassione"]);
+NEW.push(["PEPE", "Piccantezza da macinare"],["PERA", "Frutto con forma da lampadina"],["PERO", "Albero che porta un frutto a campana"],["PESO", "Lo sente chi porta o chi misura"]);
+NEW.push(["PINO", "Conifera da pinoli e resina"],["POCO", "Quantita avara"],["POLO", "Estremo terrestre, sport o maglia"],["POMO", "Mela in lingua poetica"]);
+NEW.push(["POSA", "Atteggiamento da ritratto o da pavimento"],["PRUA", "Davanti della nave, dove l'acqua si apre"],["PUMA", "Felino americano da salto"],["PUPA", "Bambola o ragazza in voce familiare"]);
+NEW.push(["PURO", "Senza miscele ne macchie"],["QUIZ", "Domanda che promette premio"],["RAGU", "Sugo che richiede pazienza"],["RAID", "Incursione rapida e improvvisa"]);
+NEW.push(["RAME", "Metallo rosso dei fili e dei paioli"],["RAMO", "Braccio d'albero o di famiglia"],["RAPA", "Radice da minestra povera"],["RARO", "Scarso, quindi ricercato"]);
+NEW.push(["RASO", "Tessuto liscio o barba appena fatta"],["RATA", "Quota che torna ogni mese"],["RECA", "Porta con se in lingua formale"],["RENA", "Sabbia, con parola da lido antico"]);
+NEW.push(["RENE", "Filtro naturale doppio"],["RENO", "Fiume d'Europa e fiume d'Emilia"],["RETE", "Cattura pesci, gol e dati"],["RIGA", "Linea, citta baltica o disciplina"]);
+NEW.push(["RIMA", "Accordo finale tra versi"],["RISO", "Cereale che ride nel doppio senso"],["RITO", "Cerimonia fissata dalla tradizione"],["RIVA", "Confine fra acqua e terra"]);
+NEW.push(["ROBA", "Cose senza catalogo"],["ROCK", "Chitarre, batteria e amplificatori"],["ROGO", "Fuoco che consuma in pubblico"],["ROMA", "Caput mundi in quattro lettere"]);
+NEW.push(["ROSA", "Fiore, colore o elenco di nomi"],["ROVO", "Pianta spinosa da more"],["RUDE", "Ruvido nei modi"],["RUGA", "Segno del tempo sul volto"]);
+NEW.push(["RUNA", "Lettera nordica da magia antica"],["SAGA", "Racconto lungo di stirpi e destini"],["SAIO", "Veste ruvida da frate"],["SALA", "Ambiente ampio, da cinema o palazzo"]);
+NEW.push(["SALE", "Insaporisce e conserva"],["SANO", "Integro nel corpo o nel giudizio"],["SARI", "Abito femminile indiano"],["SCIA", "Traccia liquida, aerea o luminosa"]);
+NEW.push(["SEBO", "Grasso cutaneo, non cucina"],["SEDE", "Luogo ufficiale o parte su cui si siede"],["SEGA", "Taglia, ma puo essere anche un cruccio"],["SEME", "Inizio botanico e carta da gioco"]);
+NEW.push(["SENO", "Curve anatomiche e trigonometria"],["SERA", "Ora in cui la luce si ritira"],["SERI", "Poco inclini allo scherzo"],["SETA", "Fibra regale venuta dal baco"]);
+NEW.push(["SETE", "Desiderio d'acqua o di potere"],["SILO", "Torre di grano"],["SITO", "Luogo reale o pagina in rete"],["SODA", "Acqua con bollicine, o caustica"]);
+NEW.push(["SOFA", "Divano con nome un po' francese"],["SOIA", "Legume orientale da salsa e latte"],["SOLE", "Astro che non ha bisogno di lampioni"],["SOLO", "Senza compagnia o pezzo da virtuoso"]);
+NEW.push(["STAR", "Stella importata dallo spettacolo"],["STOP", "Ordine breve che ferma"],["SUMO", "Lotta in cui il peso e disciplina"],["SURF", "Tavola che cavalca onde"]);
+NEW.push(["TABU", "Divieto non sempre scritto"],["TALE", "Individuo non precisato"],["TANA", "Rifugio di chi si nasconde"],["TARA", "Peso che non conta"]);
+NEW.push(["TECA", "Custodia trasparente da museo"],["TELA", "La prepara il ragno e la usa il pittore"],["TEMA", "Argomento da svolgere o motivo musicale"],["TESO", "Stirato o nervoso"]);
+NEW.push(["TIFO", "Febbre da stadio o malattia storica"],["TIMO", "Aroma mediterraneo e ghiandola"],["TINO", "Vasca da cantina"],["TIPO", "Individuo generico o modello"]);
+NEW.push(["TIRO", "Colpo, lancio o scherzo"],["TOGA", "Abito di foro e antica Roma"],["TONO", "Altezza della voce o sfumatura"],["TOPO", "Roditore e informatore in gergo"]);
+NEW.push(["TORO", "Segno, bovino e piazza finanziaria"],["TOSI", "Ragazzi in parlata veneta"],["TRAM", "Rotaie urbane in breve"],["TRIO", "Tre che fanno gruppo"]);
+NEW.push(["TUBA", "Cappello alto o basso strumento"],["TUBO", "Cilindro che porta acqua, gas o suoni"],["TUFO", "Pietra leggera nata dal fuoco"],["TUOI", "Possessivo plurale da confidenza"]);
+NEW.push(["TUTA", "Abito intero da lavoro o palestra"],["UNNO", "Barbaro al seguito di Attila"],["UOVO", "Promessa di pulcino o ingrediente"],["URBE", "Citta con maiuscola latina"]);
+NEW.push(["URLO", "Voce senza misura"],["URNA", "Contiene voti o ceneri"],["URTO", "Incontro brusco fra corpi"],["VAGO", "Impreciso o errante"]);
+NEW.push(["VAIO", "Malattia scomparsa dai calendari vaccinali comuni"],["VALE", "Conta, costa o e diminutivo di Valentina"],["VANI", "Stanze o inutili"],["VANO", "Stanza o tentativo inutile"]);
+NEW.push(["VARO", "Primo contatto della nave con l'acqua"],["VASI", "Recipienti o canali del corpo"],["VASO", "Sta sul davanzale o nel corpo"],["VATE", "Poeta con tono profetico"]);
+NEW.push(["VEGA", "Stella della Lira e nome da fantascienza"],["VELA", "Tessuto che sfrutta il vento"],["VELO", "Copre senza nascondere del tutto"],["VENA", "Strada del sangue e dell'ispirazione"]);
+NEW.push(["VERI", "Non falsi al plurale"],["VERO", "Non finto, ma spesso da provare"],["VETO", "No con forza istituzionale"],["VILE", "Basso di prezzo o d'animo"]);
+NEW.push(["VINO", "Nasce dall'uva e migliora racconti"],["VISA", "Carta o visto, secondo la lingua"],["VISO", "Parte che tradisce emozioni"],["VITA", "Biografia, esistenza o filettatura"]);
+NEW.push(["VITE", "Pianta da grappoli o piccola spirale"],["VIVO", "Acceso, presente o non morto"],["VOCE", "Suono umano e voce di elenco"],["VOCI", "Elementi d'elenco o suoni umani"]);
+NEW.push(["VOGA", "Remo in movimento e moda passeggera"],["VOLO", "Viaggio senza toccare terra"],["VOTO", "Scelta in cabina o promessa religiosa"],["YOGA", "Disciplina che piega il corpo e il respiro"]);
+NEW.push(["ZARA", "Citta dalmata e nome commerciale"],["ZELO", "Impegno che puo diventare eccesso"],["ZERO", "Numero che conta quando manca"],["ZEUS", "Padre olimpico con fulmini"]);
+NEW.push(["ZONA", "Area con confini spesso incerti"]);
 
-// ===================== 4 LETTERE (parte 2) =====================
-NEW.push(
-  ["KAKI","Frutto arancione autunnale"],["KIWI","Frutto verde e peloso"],["LAGO","Specchio d'acqua dolce"],
-  ["LAMA","Il filo del coltello"],["LANA","La da la pecora"],["LATO","Ciascun bordo del quadrato"],
-  ["LAVA","Fuoriesce dal vulcano"],["LEGA","Unione tra Stati o squadre"],["LIDO","Spiaggia attrezzata"],
-  ["LINO","Tessuto fresco estivo"],["LIRA","La vecchia moneta italiana"],["LITE","Aspro litigio"],
-  ["LOBO","Parte dell'orecchio"],["LODE","Il massimo dei voti"],["LOGO","Il marchio aziendale"],
-  ["LORO","Pronome di terza plurale"],["LUCE","Illumina la stanza"],["LUME","Vecchia lampada a olio"],
-  ["LUPO","Ulula alla luna"],["MAGO","Fa giochi di prestigio"],["MALE","Il contrario di bene"],
-  ["MANO","Ha cinque dita"],["MELA","Frutto di Newton"],["MENO","Il segno della sottrazione"],
-  ["MENU","La lista dei piatti"],["META","Il traguardo da raggiungere"],["MICA","Affatto, per niente"],
-  ["MIMO","Recita senza parlare"],["MINA","Carica esplosiva nascosta"],["MIRA","Si prende col fucile"],
-  ["MITO","Antica leggenda"],["MODA","Tendenza del momento"],["MODO","La maniera di fare"],
-  ["MOLO","Per l'ormeggio delle barche"],["MORA","Frutto del rovo"],["MORO","Bruno di carnagione"],
-  ["MOTO","La due ruote a motore"],["MULO","Incrocio tra asino e cavalla"],["MURO","Divide due stanze"],
-  ["MUSA","Ispira il poeta"],["MUTO","Non parla"],["NANO","Piccolissimo di statura"],
-  ["NASO","Sente gli odori"],["NAVE","Solca i mari"],["NERO","Il colore del carbone"],
-  ["NIDO","La casa degli uccellini"],["NOCE","Frutto secco a guscio duro"],["NODO","Si fa con la corda"],
-  ["NOIA","Tedio, monotonia"],["NOME","Lo si scrive sul documento"],["NORD","Punto cardinale freddo"],
-  ["NOTA","Annotazione a margine"],["NOVE","Il numero prima del dieci"],["NUCA","Dietro la testa"],
-  ["NUDO","Senza vestiti"],["OASI","Verde nel deserto"],["OBOE","Strumento a fiato dell'orchestra"],
-  ["OCRA","Colore giallo-bruno"],["ODIO","Sentimento opposto all'amore"],["OLMO","Albero ombroso"],
-  ["ONDA","Si infrange sulla spiaggia"],["ORDA","Folla tumultuosa"],["ORLO","Il bordo del vestito"],
-  ["ORTO","Vi crescono le verdure"],["OSSO","Lo rosicchia il cane"],["OSTE","Gestisce l'osteria"],
-  ["OTTO","Il numero del polpo"],["PACE","Il contrario della guerra"],["PAGA","Lo stipendio"],
-  ["PALA","Quella del fornaio o dell'eolico"],["PALO","Sostiene la rete del campo"],["PANE","Si fa con la farina"],
-  ["PAPA","Il vescovo di Roma"],["PARI","Numero divisibile per due"],["PELO","Copre il gatto"],
-  ["PENA","Punizione per il reo"],["PEPE","Spezia che pizzica"],["PERA","Frutto dolce a campana"],
-  ["PERO","Albero della pera"],["PESO","Si misura sulla bilancia"],["POCO","Una piccola quantita"],
-  ["POLO","Sport a cavallo / capo d'abbigliamento"],["POMO","La mela, poeticamente"],["POSA","Posizione per la foto"],
-  ["PUMA","Felino delle Americhe"],["PUPA","Bambola, ragazza"],["PURO","Senza impurita"],
-  ["QUIZ","Gioco a domande"],["RAGU","Sugo di carne"],["RAID","Incursione improvvisa"],
-  ["RAMO","Si dirama dal tronco"],["RAPA","Ortaggio bianco e viola"],["RARO","Difficile da trovare"],
-  ["RASO","Tessuto lucido e liscio"],["RATA","Pagamento periodico"],["RENA","La sabbia del lido"],
-  ["RENE","Filtra il sangue"],["RIGA","Linea dritta sul foglio"],["RIMA","Fine di versi che suonano uguali"],
-  ["RISO","Cereale dei risotti / la risata"],["RITO","Cerimonia solenne"],["ROBA","Insieme di cose"],
-  ["ROCK","Genere musicale con la chitarra"],["ROGO","Grande falo"],["ROMA","La Citta Eterna"],
-  ["ROSA","Fiore con le spine"],["RUDE","Rozzo e brusco"],["RUGA","Solco del viso"],
-  ["RUNA","Antico segno nordico"],["SAGA","Lunga storia di famiglia"],["SALA","Stanza ampia"],
-  ["SALE","Condisce e conserva"],["SANO","In buona salute"],["SCIA","La lascia la barca"],
-  ["SEDE","La sede centrale"],["SEGA","Taglia il legno"],["SEME","Da cui nasce la pianta"],
-  ["SENO","Funzione trigonometrica"],["SERA","Scende dopo il tramonto"],["SETA","Tessuto pregiato e lucente"],
-  ["SETE","Voglia di bere"],["SILO","Deposito per il grano"],["SITO","Pagina su internet"],
-  ["SODA","L'acqua... frizzante"],["SOFA","Comodo divano"],["SOLO","Senza compagnia"],
-  ["SUMO","Lotta giapponese tra giganti"],["TABU","Argomento proibito"],["TALE","Quel tal individuo"],
-  ["TANA","Il rifugio dell'animale"],["TARA","Il peso dell'imballaggio"],["TELA","Il pittore vi dipinge"],
-  ["TEMA","Argomento del compito"],["TIMO","Erba aromatica"],["TINO","Recipiente per il vino"],
-  ["TIRO","Lancio verso il bersaglio"],["TOGA","La veste dell'avvocato"],["TONO","Sfumatura di colore o voce"],
-  ["TOPO","Roditore inseguito dal gatto"],["TORO","Segno zodiacale di aprile"],["TRAM","Va su rotaie in citta"],
-  ["TRIO","Gruppo di tre musicisti"],["TUBA","Cappello a cilindro / ottone"],["TUBO","Conduttura cilindrica"],
-  ["TUFO","Roccia vulcanica porosa"],["TUTA","Abito comodo da ginnastica"],["UNNO","Il popolo di Attila"],
-  ["UOVO","Lo depone la gallina"],["URBE","La citta, in latino"],["URNA","Si vota infilando la scheda"],
-  ["URTO","Brusca collisione"],["VAGO","Indefinito, impreciso"],["VANO","Inutile / stanza"],
-  ["VARO","Battesimo della nave"],["VASO","Contiene i fiori"],["VATE","Poeta solenne"],
-  ["VELA","Spinge la barca col vento"],["VELO","Copre il viso della sposa"],["VENA","Porta il sangue al cuore"],
-  ["VERO","Conforme alla realta"],["VETO","Il diritto di opporsi"],["VILE","Vigliacco e codardo"],
-  ["VINO","Si ricava dall'uva"],["VISO","Il volto"],["VITA","Il dono piu prezioso"],
-  ["VITE","La pianta dell'uva / fissa col cacciavite"],["VIVO","Pieno di vita"],["VOCE","Esce dalle corde vocali"],
-  ["VOLO","Tragitto in aereo"],["VOTO","Si esprime alle elezioni"],["ZERO","Nulla assoluto"],
-  ["ZONA","Area, settore"],["ZELO","Diligenza scrupolosa"],["LODI","Citta della Lombardia"]
-);
+// ===================== 5 LETTERE (642 voci) =====================
+NEW.push(["ABACO", "Calcolatore prima del calcolo elettronico"],["ABATE", "Superiore con saio e autorita"],["ABETE", "Conifera che finisce spesso addobbata"],["ABILE", "Sa fare senza far rumore"]);
+NEW.push(["ACIDO", "Lo e il limone, ma anche un commento corrosivo"],["ACUTO", "Angolo non ottuso e ingegno pronto"],["ADONE", "Bello per antonomasia mitologica"],["AEREO", "Mezzo che ha pista ma non ruote come fine"]);
+NEW.push(["AFIDE", "Piccolo nemico delle piante tenere"],["AGAVE", "Succulenta che puo finire in distillato messicano"],["AGILE", "Si muove senza far sentire il peso"],["AGONE", "Lotta, gara o pesce di lago"]);
+NEW.push(["AIACE", "Eroe omerico dal nome breve"],["ALATO", "Dotato di cio che manca ai serpenti"],["ALBUM", "Raccolta da sfogliare o ascoltare"],["ALCOL", "Spirito che non e fantasma"]);
+NEW.push(["ALIBI", "Altrove che salva l'imputato"],["ALITO", "Respiro quando diventa percepibile"],["ALONE", "Cerchio di luce o macchia"],["ALTRO", "Diverso, ma non necessariamente opposto"]);
+NEW.push(["AMARO", "Sapore da espresso senza zucchero, o destino"],["AMBRA", "Resina fossile che imprigiona insetti"],["AMENO", "Piacevole in modo da cartolina"],["AMICO", "Alleato della vita privata"]);
+NEW.push(["AMORE", "Ha fatto scrivere piu versi che contratti"],["ANETO", "Erba aromatica da cucina nordica"],["ANICE", "Profumo da sambuca"],["ANIMA", "Parte invisibile che i filosofi discutono"]);
+NEW.push(["ANIMO", "Coraggio quando precede un punto esclamativo"],["ANODO", "Polo positivo, non sempre intuitivo"],["ANTRO", "Cavita che promette ombre"],["AORTA", "Grande via d'uscita dal cuore"]);
+NEW.push(["APICE", "Punto alto che non e sempre fisico"],["APNEA", "Respiro sospeso per scelta o pericolo"],["ARENA", "Spazio di lotta, spettacolo o polemica"],["ARGON", "Gas nobile che non ama reagire"]);
+NEW.push(["ARIEL", "Spirito shakespeariano e nome da satellite"],["AROMA", "Profumo che anticipa il gusto"],["ARPIA", "Mostro e insulto con ali antiche"],["ASCIA", "Ferro da taglio con manico lungo"]);
+NEW.push(["ASILO", "Rifugio o scuola dei piu piccoli"],["ASINO", "Quadrupede paziente e insulto scolastico"],["ASOLA", "Occhiello in cui entra un bottone"],["ASPRO", "Poco dolce, al gusto o al carattere"]);
+NEW.push(["ASSAI", "Molto, con sapore un po' letterario"],["ASTRO", "Brilla anche quando e solo una celebrita"],["ATENA", "Dea nata armata dalla testa di Zeus"],["ATOMO", "Unita minima prima che la fisica la complicasse"]);
+NEW.push(["ATRIO", "Ambiente d'ingresso, tra fuori e dentro"],["AVARO", "Fa economia anche di sorrisi"],["AVENA", "Cereale da colazioni nordiche"],["AVIDO", "Vuole piu di quanto basti"]);
+NEW.push(["AVVIO", "Primo impulso di un processo"],["AZOTO", "Gas che riempie l'aria senza farsi notare"],["BACCA", "Piccolo frutto da bosco o botanico"],["BAGNO", "Stanza, immersione o folla compatta"]);
+NEW.push(["BALIA", "Nutrice e tutela temporanea"],["BALLO", "Lo si apre con le danze"],["BALZA", "Salto o fascia d'abito"],["BANCO", "Sta a scuola, in banca o al mercato"]);
+NEW.push(["BARCA", "Ha chiglia e non ama l'asfalto"],["BARDO", "Poeta celtico da nebbie antiche"],["BASCO", "Copricapo piatto o abitante dei Pirenei"],["BEATO", "Felice in terra, ufficiale in cielo"]);
+NEW.push(["BEFFA", "Inganno con sorriso amaro"],["BELLO", "Categoria estetica e complimento facile"],["BELVA", "Animale feroce e persona crudele"],["BENDA", "Nasconde una ferita o un occhio"]);
+NEW.push(["BERTA", "Uccello marino e nome femminile d'altri tempi"],["BETTA", "Pesce combattente da acquario"],["BILIA", "Pallina da tavolo verde e umore antico"],["BIMBO", "Bambino detto con tenerezza"]);
+NEW.push(["BIOMA", "Grande ambiente naturale"],["BIRRA", "Schiuma nel boccale"],["BISCA", "Gioco d'azzardo poco raccomandabile"],["BIVIO", "Due strade e una decisione"]);
+NEW.push(["BOMBA", "Fa rumore, anche quando e una notizia"],["BORGO", "Paese dentro mura o fuori dal centro"],["BORSA", "Contiene oggetti o quotazioni"],["BOSCO", "Molti alberi senza viali"]);
+NEW.push(["BOTTE", "Contenitore di vino o percosse"],["BRACE", "Fuoco che non fa piu fiamma"],["BRADO", "Libero nei campi, detto di bestiame"],["BRAVO", "Applauso o aggettivo da scolaro"]);
+NEW.push(["BRIGA", "Fastidio che qualcuno si prende"],["BRINA", "Gelo sottile sul mattino"],["BRODO", "Base calda che consola malati e risotti"],["BRUNO", "Scuro, ma non nero"]);
+NEW.push(["BUFFO", "Strano al punto da far sorridere"],["BURRO", "Grasso che si scioglie in padella"],["CACAO", "Seme amaro prima del cioccolato"],["CAIRO", "Metropoli sul Nilo"]);
+NEW.push(["CALCE", "Piede del foglio o materiale da muratore"],["CALMO", "Tranquillo come mare senza vento"],["CALVO", "Privo di chioma, non di idee"],["CALZA", "Indumento che sale dal piede"]);
+NEW.push(["CAMPO", "Terreno di gioco, studio o battaglia"],["CANNA", "Pianta cava, misura o parte d'arma"],["CANTO", "Voce ordinata in melodia"],["CAPRA", "Rumina, si arrampica e diventa insulto scolastico"]);
+NEW.push(["CARIE", "Scavo indesiderato nel dente"],["CARNE", "Materia da macello e da teatro"],["CARPA", "Pesce d'acqua dolce e paziente"],["CARRO", "Veicolo che precede il motore"]);
+NEW.push(["CARTA", "Foglio, mappa o promessa scritta"],["CASCO", "Protegge chi cade, o cade a fagiolo"],["CASTA", "Gruppo chiuso o donna illibata"],["CAUSA", "Motivo, processo o origine"]);
+NEW.push(["CAVIA", "Animale da laboratorio e vittima di esperimenti"],["CELLA", "Piccolo vano, da monaco o detenuto"],["CERTO", "Sicuro, ma non sempre interessante"],["CERVO", "Porta corna senza colpa"]);
+NEW.push(["CESTO", "Vimini che contiene"],["CHILO", "Mille grammi in parola comune"],["CHINA", "Inchiostro orientale o discesa"],["CICCA", "Residuo di fumo o cosa da poco"]);
+NEW.push(["CIECO", "Non vede, ma puo guidare una fiducia"],["CIFRA", "Numero, somma o stile personale"],["CINTA", "Recinto, mura o cintura abbreviata"],["CIRCO", "Tenda di acrobati e pagliacci"]);
+NEW.push(["CIUCO", "Asino in voce familiare"],["CLERO", "Corpo degli uomini d'altare"],["CLIMA", "Tempo medio, anche fra le persone"],["CLORO", "Elemento verde-giallo da piscine e chimici"]);
+NEW.push(["COBRA", "Serpente che allarga il collo"],["COCCO", "Frutto duro e prediletto di qualcuno"],["COLLE", "Altura gentile, non ancora monte"],["COLLO", "Stringe camicie e bottiglie"]);
+NEW.push(["COLMO", "Pieno al limite o battuta paradossale"],["COLPO", "Botta, tiro o impresa improvvisa"],["CONTE", "Nobile titolato sotto il marchese"],["CONTO", "Si paga, si tiene, si fa"]);
+NEW.push(["COPPA", "Trofeo, bicchiere o salume"],["CORDA", "Si tende in musica, sport o nodo"],["CORNO", "Spunta sulla testa o suona in orchestra"],["CORPO", "Materia fisica e parte di testo"]);
+NEW.push(["CORSA", "Competizione contro tempo o avversari"],["CORSO", "Viale, lezione o andamento"],["CORTE", "Palazzo regale o tribunale"],["CORVO", "Uccello nero da presagi letterari"]);
+NEW.push(["COSMO", "Ordine universale in cinque lettere"],["COSTA", "Riva del mare e osso del torace"],["COSTO", "Prezzo non sempre monetario"],["CRETA", "Isola di Minosse e materiale da modellare"]);
+NEW.push(["CROMO", "Metallo lucente da cromature"],["CRUDO", "Non passato dal fuoco, o brutale"],["CULLA", "Primo letto e origine"],["CUNEO", "Citta piemontese e solido a punta"]);
+NEW.push(["CUOCO", "Professionista che regge fuochi"],["CUORE", "Muscolo, centro e simbolo sentimentale"],["CURVA", "Linea che rifiuta la rettitudine"],["DANNO", "Perdita che puo chiedere risarcimento"]);
+NEW.push(["DANTE", "Sommo che fece parlare l'aldila in terzine"],["DANZA", "Movimento che obbedisce al ritmo"],["DARDO", "Freccia breve e aggressiva"],["DARIO", "Nome da re persiano e da amico qualunque"]);
+NEW.push(["DELTA", "Lettera greca e foce ramificata"],["DENTE", "Taglia, morde, ingrana"],["DISCO", "Gira in musica e in geometria"],["DITTA", "Impresa col nome in insegna"]);
+NEW.push(["DOGMA", "Verita che non gradisce discussioni"],["DOLCE", "Non amaro: puo chiudere il pasto"],["DONNA", "Figura femminile: nei romanzi spesso protagonista"],["DRAGO", "Mostro che custodisce e brucia"]);
+NEW.push(["DUOMO", "Chiesa maggiore che da nome alla piazza"],["EBANO", "Legno nero da mobili preziosi"],["EDERA", "Rampicante ostinata sui muri"],["ELICA", "Gira per spingere aria o acqua"]);
+NEW.push(["ELITE", "Pochi scelti, spesso molto visibili"],["EPOCA", "Periodo riconoscibile a posteriori"],["EREMO", "Solitudine abitata da preghiera"],["ESAME", "Prova che fa sudare anche da seduti"]);
+NEW.push(["ESILE", "Sottile fino alla fragilita"],["ESITO", "Risultato quando la prova finisce"],["ESODO", "Partenza collettiva e libro biblico"],["ESTRO", "Capriccio creativo"]);
+NEW.push(["ETICA", "Morale organizzata in filosofia"],["FABIO", "Nome proprio latino e familiare"],["FALCO", "Rapace addestrato per la caccia"],["FALDA", "Strato nascosto, di acqua o tessuto"]);
+NEW.push(["FALSO", "Contraffatto o menzognero"],["FANGO", "Terra liquida che sporca e trattiene"],["FARSA", "Commedia o situazione ridicola"],["FASTO", "Lusso esibito nelle cerimonie"]);
+NEW.push(["FAUNA", "Popolazione animale d'un luogo"],["FELCE", "Pianta antica senza fiori vistosi"],["FERMO", "Immobile, ma anche comune marchigiano"],["FERRO", "Metallo, attrezzo o cavallo da stiro"]);
+NEW.push(["FESSO", "Sciocco in modo poco elegante"],["FESTA", "Giorno diverso dagli altri"],["FETTA", "Parte tagliata prima di servire"],["FIABA", "Narrativa con prove, magie e lieto fine"]);
+NEW.push(["FIATO", "Serve a parlare e a resistere"],["FIBRA", "Filamento, tessuto o tenacia"],["FICUS", "Pianta da appartamento e da botanici"],["FIENO", "Erba secca da stalla"]);
+NEW.push(["FIERA", "Mercato espositivo o belva orgogliosa"],["FINTO", "Recitato come vero"],["FIORE", "Organo vegetale e complimento"],["FIRMA", "Nome che vincola"]);
+NEW.push(["FIUME", "Acqua che non resta ferma"],["FLORA", "Popolazione vegetale d'un luogo"],["FOLLA", "Molti corpi, poca distanza"],["FOLLE", "Senza ragione, ma con slancio"]);
+NEW.push(["FOLTO", "Fitto, detto di capelli o boschi"],["FONDO", "Base, parte remota o denaro accantonato"],["FONTE", "Origine d'acqua o d'informazione"],["FORCA", "Attrezzo agricolo o patibolo"]);
+NEW.push(["FORMA", "Aspetto, stampo o condizione fisica"],["FORNO", "Camera calda da pane e ceramica"],["FORTE", "Robusto, intenso o costruzione militare"],["FORZA", "Energia, potere o invito"]);
+NEW.push(["FOSCO", "Scuro e poco rassicurante"],["FOSSA", "Scavo che inghiotte"],["FRANA", "La montagna quando cede"],["FRATE", "Religioso in saio"]);
+NEW.push(["FRENO", "Trattiene ruote e impulsi"],["FRODE", "Inganno con vantaggio illecito"],["FUOCO", "Elemento che scalda, brucia e concentra"],["FURBO", "Capisce dove altri inciampano"]);
+NEW.push(["FURIA", "Impetuosita che perde misura"],["FUSTO", "Tronco, bidone o bel tipo"],["GAMBA", "Arto e sostegno"],["GARBO", "Eleganza dei modi"]);
+NEW.push(["GATTO", "Felino domestico che non obbedisce"],["GELSO", "Albero caro ai bachi da seta"],["GEMMA", "Pietra o promessa di foglia"],["GENIO", "Talento raro o spirito della lampada"]);
+NEW.push(["GENOA", "Squadra ligure con nome inglese"],["GESSO", "Scrive alla lavagna e blocca le fratture"],["GESTO", "Movimento che parla"],["GETTO", "Flusso improvviso o colata"]);
+NEW.push(["GHIRO", "Dormiglione proverbiale"],["GIADA", "Pietra verde d'Oriente"],["GIARA", "Grande vaso da olio o novelle"],["GILDA", "Associazione di mestiere e donna da cinema"]);
+NEW.push(["GIOCO", "Ha regole anche quando diverte"],["GIOIA", "Allegrezza che puo diventare gioiello"],["GLOBO", "Sfera terrestre in miniatura"],["GNOMO", "Piccolo abitante di fiabe sotterranee"]);
+NEW.push(["GOBBO", "Curvo di schiena o suggeritore teatrale"],["GOMMA", "Cancella, rimbalza o sigilla"],["GONNA", "Indumento che non ha gambe"],["GORGO", "Vortice che inghiotte"]);
+NEW.push(["GRADO", "Misura, rango o gradino"],["GRAFO", "Rete di nodi per matematici"],["GRANO", "Cereale e vecchia unita di peso"],["GRECO", "Lingua, popolo e caffe ristretto"]);
+NEW.push(["GRETO", "Letto asciutto di torrente"],["GRIDO", "Voce che rompe il silenzio"],["GRIFO", "Creatura con aquila e leone"],["GUADO", "Passaggio dove l'acqua concede"]);
+NEW.push(["GUSTO", "Senso che giudica sapori e stile"],["IBERO", "Antico abitante di Spagna e Portogallo"],["IDOLO", "Oggetto di culto o di fan"],["IGLOO", "Casa di ghiaccio da immaginario polare"]);
+NEW.push(["IMAGO", "Figura adulta dell'insetto, per entomologi"],["IMENE", "Dio nuziale o termine anatomico"],["INANE", "Vuoto d'efficacia, in tono letterario"],["INDIA", "Subcontinente di spezie e monsoni"]);
+NEW.push(["IODIO", "Elemento da disinfettanti e tiroide"],["IRENE", "Nome che significa pace"],["IRIDE", "Arcobaleno nell'occhio"],["ISOLA", "Terra che il mare separa"]);
+NEW.push(["JOLLY", "Carta senza ruolo fisso"],["LADRO", "Prende cio che non gli spetta"],["LAGNA", "Lamento che si allunga"],["LAMPO", "Luce brevissima prima del tuono"]);
+NEW.push(["LAPIS", "Matita in parola scolastica antica"],["LARDO", "Grasso conservato in conca"],["LARGO", "Ampio, lento in musica"],["LARVA", "Forma provvisoria d'insetto"]);
+NEW.push(["LASER", "Luce disciplinata in un raggio"],["LATTE", "Liquido bianco, non solo di mucca"],["LAURO", "Alloro da poeti e arrosti"],["LAUTO", "Ricco, detto spesso del pasto"]);
+NEW.push(["LEGGE", "Comanda anche senza voce"],["LEGNO", "Materia viva diventata tavola"],["LEMBO", "Parte marginale di stoffa o terra"],["LEMMA", "Voce di dizionario e oggetto matematico"]);
+NEW.push(["LENTO", "Opposto di rapido, ma anche tempo musicale"],["LEONE", "Felino e segno di fuoco"],["LESTO", "Rapido con sapore antico"],["LIBRO", "Oggetto che si apre per entrare altrove"]);
+NEW.push(["LIETO", "Sereno, spesso in fine"],["LINEA", "Tratto, condotta o forma"],["LINFA", "Sangue vegetale, se si puo dire"],["LISCA", "Ostacolo sottile nel pesce"]);
+NEW.push(["LISTA", "Elenco, striscia o candidatura"],["LITIO", "Metallo leggero da batterie"],["LIUTO", "Corde da musica antica"],["LOIRA", "Fiume dei castelli francesi"]);
+NEW.push(["LOTTA", "Scontro regolato o quotidiano"],["LOTTO", "Gioco di numeri e terreno edificabile"],["LUCIA", "Nome manzoniano e luminosa santa"],["LUMEN", "Misura di luce o cavita anatomica"]);
+NEW.push(["LUNGO", "Esteso, anche nel caffe"],["LUPUS", "Lupo latino e malattia autoimmune"],["LUSSO", "Superfluo costoso"],["LUTTO", "Dolore con abiti scuri"]);
+NEW.push(["MACAO", "Citta del gioco alla foce del Fiume delle Perle"],["MACRO", "Grande come prefisso fotografico e informatico"],["MADIA", "Mobile rustico per pane e farina"],["MADRE", "Origine familiare e linguistica"]);
+NEW.push(["MAGIA", "Effetto senza spiegazione apparente"],["MAGMA", "Roccia prima di diventare pietra"],["MAGRO", "Poco grasso o poco ricco"],["MALGA", "Alpeggio con latte e formaggi"]);
+NEW.push(["MALTO", "Cereale germinato da birrai"],["MAMBO", "Ritmo caraibico da ballare"],["MAMMA", "Nome che spesso si impara per primo"],["MANGO", "Frutto tropicale e non manico"]);
+NEW.push(["MANIA", "Fissazione che occupa la mente"],["MANTO", "Copertura regale o animale"],["MAORI", "Popolo polinesiano di Aotearoa"],["MARCA", "Confine, griffe o regione storica"]);
+NEW.push(["MAREA", "Respiro periodico del mare"],["MARIO", "Nome comune e antico console romano"],["MARMO", "Pietra che gli scultori liberano"],["MARRA", "Zappa robusta da campi"]);
+NEW.push(["MARTA", "Nome proprio e piccolo mustelide"],["MARZO", "Mese di vento e idi"],["MASSA", "Quantita, folla o proprieta fisica"],["MATTO", "Fuori di senno o finale degli scacchi"]);
+NEW.push(["MAZZA", "Bastone da colpire o mazzo pesante"],["MEDIO", "Sta tra due estremi"],["MENSA", "Tavola comune e servizio aziendale"],["MENTA", "Profuma gomme, liquori e giardini"]);
+NEW.push(["MENTO", "Parte del volto che si alza con orgoglio"],["MERCE", "Viaggia, si compra, si vende"],["MERLO", "Uccello nero o profilo di castello"],["MESSE", "Raccolto o funzioni religiose"]);
+NEW.push(["MESTO", "Triste senza clamore"],["METRO", "Misura, verso o ferrovia sotterranea"],["MIELE", "Dolcezza fabbricata da api"],["MILZA", "Organo che pochi nominano volentieri"]);
+NEW.push(["MIOPE", "Vede corto, anche in senso figurato"],["MIRRA", "Resina da re magi e profumi antichi"],["MIRTO", "Arbusto mediterraneo e liquore sardo"],["MISTO", "Non puro, non unico"]);
+NEW.push(["MOGIO", "Triste e senza slancio"],["MOLLA", "Si comprime per reagire"],["MOLTO", "Quantita abbondante in una parola"],["MONDO", "Tutto cio che sta sotto il cielo"]);
+NEW.push(["MONTE", "Rilievo, somma o mazzo di carte"],["MORBO", "Malattia con nome solenne"],["MORSA", "Stringe pezzi sul banco"],["MORSO", "Segno dei denti o pezzo del freno"]);
+NEW.push(["MORTE", "Ultima soglia dei viventi"],["MOSCA", "Insetto e capitale"],["MOSSA", "Passaggio di gioco o astuzia"],["MOSTO", "Vino prima di diventarlo"]);
+NEW.push(["MOTTO", "Frase breve che pretende memoria"],["MUCCA", "Ruminante da latte quotidiano"],["MUFFA", "Vita verde dove il cibo invecchia male"],["MULTA", "Prezzo d'una infrazione"]);
+NEW.push(["MUSEO", "Dove il passato non dovrebbe prendere polvere"],["NADIR", "Punto opposto allo zenit"],["NANNA", "Sonno in lingua infantile"],["NAPPA", "Fiocco ornamentale o pelle pregiata"]);
+NEW.push(["NEPAL", "Stato himalayano fra giganti"],["NERBO", "Vigore che sostiene"],["NETTO", "Pulito, chiaro o senza tara"],["NINFA", "Creatura d'acque e boschi"]);
+NEW.push(["NOBEL", "Premio e dinamitardo svedese"],["NONNA", "Madre di un genitore"],["NONNO", "Padre di un genitore"],["NORMA", "Regola e opera di Bellini"]);
+NEW.push(["NOTTE", "Meta oscura del giorno"],["NUORA", "Entra in famiglia sposando un figlio"],["NUOTO", "Sport senza appoggi"],["NUOVO", "Non ancora consumato dal tempo"]);
+NEW.push(["OBESO", "Eccessivamente pesante, clinicamente"],["ODEON", "Piccolo teatro antico o cinema d'epoca"],["OMERO", "Poeta cieco e osso del braccio"],["OMINO", "Piccolo uomo disegnato"]);
+NEW.push(["ONERE", "Peso piu giuridico che fisico"],["OPACO", "Non lascia passare chiaramente la luce"],["OPALE", "Pietra dai lampi lattiginosi"],["OPERA", "Lavoro, teatro o prodotto d'artista"]);
+NEW.push(["ORATA", "Pesce dal nome dorato"],["ORFEO", "Cantore che scese agli inferi"],["ORICE", "Antilope dalle corna lunghe"],["OSCAR", "Premio che pesa poco ma vale molto"]);
+NEW.push(["OSSEO", "Di scheletro"],["OSTIA", "Lido romano e particola consacrata"],["OVEST", "Punto dove il sole si congeda"],["OVILE", "Casa lanosa, per cosi dire"]);
+NEW.push(["OVULO", "Cellula femminile o forma farmaceutica"],["OZONO", "Tre atomi d'ossigeno in quota"],["PADRE", "Genitore, frate o origine"],["PALCO", "Scena rialzata o corna di cervo"]);
+NEW.push(["PALIO", "Drappo conteso da contrade"],["PALLA", "Sfera da gioco o bugia"],["PALMA", "Pianta da datteri e mano aperta"],["PALMO", "Misura a mano aperta"]);
+NEW.push(["PANDA", "Bianco e nero senza essere scacchiera"],["PANNA", "Crema dolce da montare"],["PANNO", "Stoffa, ma anche questione nei panni"],["PARCO", "Giardino pubblico o moderato nello spendere"]);
+NEW.push(["PAREO", "Telo da spiaggia che si annoda"],["PARMA", "Citta di prosciutto e teatro"],["PASSO", "Andatura, valico o brano"],["PASTA", "Impasto, carattere o primo piatto"]);
+NEW.push(["PATIO", "Cortile spagnolo entrato nelle case"],["PAURA", "Emozione che stringe prima del pericolo"],["PAUSA", "Intervallo in cui il tempo respira"],["PEGNO", "Garanzia lasciata in cambio"]);
+NEW.push(["PELLE", "Confine sensibile del corpo"],["PENNA", "Scrive, vola o finisce sul cappello"],["PERLA", "Goccia preziosa d'ostrica"],["PESCA", "Frutto o attivita con lenza"]);
+NEW.push(["PESCE", "Animale che sa stare a galla senza saperlo"],["PESTE", "Male storico o condimento ligure"],["PETTO", "Parte anteriore che si gonfia d'orgoglio"],["PEZZO", "Parte, brano o articolo"]);
+NEW.push(["PIAGA", "Ferita aperta o flagello sociale"],["PIANO", "Strumento, progetto o livello"],["PIAVE", "Fiume sacro alla patria"],["PIEDE", "Base del corpo e del verso"]);
+NEW.push(["PIEGA", "Svolta del tessuto o dei capelli"],["PIENO", "Senza vuoti, anche troppo"],["PILAF", "Riso cotto all'orientale"],["PINNA", "Arto del nuoto senza dita"]);
+NEW.push(["PINZA", "Stringe senza abbracciare"],["PIOLO", "Gradino minuto da scala"],["PIREX", "Vetro che sopporta il forno"],["PISTA", "Traccia da seguire o luogo da correre"]);
+NEW.push(["PIZZA", "Disco da forno con infinite varianti"],["PLEBE", "Popolo romano senza patriziato"],["PODIO", "Tre gradini per pochi"],["POEMA", "Versi lunghi e ambiziosi"]);
+NEW.push(["POETA", "Mestiere di chi fa parlare i versi"],["POLIO", "Malattia combattuta dai vaccini"],["POLLO", "Animale da arrosto e ingenuo"],["POLPA", "Parte morbida e utile"]);
+NEW.push(["POLPO", "Ha tentacoli e memoria inattesa"],["POLSO", "Dove il battito si lascia interrogare"],["POMPA", "Spinge liquidi e gonfia solennita"],["PONTE", "Unisce rive, denti o giorni festivi"]);
+NEW.push(["PORCO", "Maiale in forma ruvida"],["PORRO", "Ortaggio a strati e escrescenza cutanea"],["PORTA", "Varco, ruolo calcistico o mano di carte"],["PORTO", "Rifugio di navi e bicchiere liquoroso"]);
+NEW.push(["POSTA", "Lettere, puntata o posizione"],["POSTO", "Luogo occupabile o lavoro"],["POZZO", "Buca verticale in cerca d'acqua"],["PRATO", "Erba distesa, anche in Toscana"]);
+NEW.push(["PREDA", "Chi e cercato dal cacciatore"],["PREGO", "Cortesia dopo un grazie"],["PRESA", "Attacco, corrente o conquista"],["PRETE", "Uomo d'altare"]);
+NEW.push(["PRIMO", "Davanti a tutti o piatto iniziale"],["PRODE", "Coraggioso con sapore epico"],["PROSA", "Scrittura che non va a capo per canto"],["PROVA", "Tentativo che puo diventare esame"]);
+NEW.push(["PUGNO", "Mano chiusa, colpo o quantita"],["PULCE", "Insetto saltatore e dubbio mentale"],["PUNTA", "Estremita, ballerina o attaccante"],["PUNTO", "Segno minimo che puo chiudere"]);
+NEW.push(["PUZZA", "Odore che denuncia"],["QUOTA", "Parte assegnata o altezza"],["RADAR", "Occhio che vede con onde"],["RADIO", "Parla senza farsi vedere"]);
+NEW.push(["RAGIA", "Resina che profuma di bosco"],["RAGNO", "Tessitore con otto zampe"],["RAMEN", "Zuppa giapponese da sorbire"],["RAMPA", "Salita che aiuta o affatica"]);
+NEW.push(["RANCH", "Fattoria da immaginario western"],["RANGO", "Grado sociale o militare"],["RASPA", "Lima grossolana da falegname"],["RATTO", "Rapimento o roditore, secondo contesto"]);
+NEW.push(["RAZZA", "Specie, stirpe o pesce piatto"],["RAZZO", "Sale con fuoco sotto"],["REALE", "Da re o autentico"],["REBUS", "Enigma fatto d'immagini e sillabe"]);
+NEW.push(["REGIA", "Direzione dietro le quinte"],["REGNO", "Territorio di corona o natura"],["RESTO", "Avanzo e spiccioli"],["RETTA", "Linea senza esitazioni"]);
+NEW.push(["RICCO", "Ha molto, non solo denaro"],["RIONE", "Quartiere con identita propria"],["RISMA", "Pacco da ufficio, non carattere"],["ROBOT", "Macchina che obbedisce a istruzioni"]);
+NEW.push(["ROCCA", "Fortezza e utensile della filatrice"],["RODEO", "Spettacolo dove il cavallo non collabora"],["RONDO", "Forma musicale che ritorna"],["ROSEO", "Ottimistico in tinta chiara"]);
+NEW.push(["ROSPO", "Anfibio poco principesco"],["ROSSO", "Colore di sangue, stop e vergogna"],["ROTTA", "Percorso nautico o cosa spezzata"],["RUGBY", "Sport con palla ovale"]);
+NEW.push(["RULLO", "Cilindro che comprime o fa rumore"],["RUOLO", "Parte assegnata a teatro e nella vita"],["RUOTA", "Gira, sostiene e decide la fortuna"],["RUSPA", "Macchina che spiana e sposta"]);
+NEW.push(["SACCO", "Contenitore, quantita o saccheggio"],["SAGRA", "Festa di paese con profumo di cucina"],["SALDO", "Pagamento finale o sconto stagionale"],["SALMA", "Corpo quando la vita e assente"]);
+NEW.push(["SALMO", "Canto biblico numerato"],["SALSA", "Condimento e ritmo latino"],["SALTO", "Interruzione o balzo"],["SAMBA", "Ritmo brasiliano da carnevale"]);
+NEW.push(["SANTO", "Ha aureola e calendario"],["SARTO", "Costruisce abiti su corpi reali"],["SASSO", "Pietra piccola ma contundente"],["SAUNA", "Caldo secco preso per benessere"]);
+NEW.push(["SCALA", "Sale, misura e organizza note"],["SCALO", "Fermata di viaggio o porto secondario"],["SCENA", "Parte del teatro e della vita"],["SCOPA", "Pulisce o si gioca a carte"]);
+NEW.push(["SCOPO", "Fine che orienta i mezzi"],["SCUDO", "Difesa antica e moneta scomparsa"],["SECCO", "Senza acqua o senza replica"],["SEDIA", "Mobile con schienale e quattro zampe"]);
+NEW.push(["SEGNO", "Traccia, simbolo o destino zodiacale"],["SELVA", "Bosco fitto e dantesco"],["SENSO", "Direzione, significato o facolta"],["SERPE", "Rettile strisciante in veste poetica"]);
+NEW.push(["SERVO", "Domestico senza liberta"],["SETTE", "Numero da nani, colli e note"],["SETTO", "Parete divisoria, anche nel naso"],["SFERA", "Solido senza spigoli"]);
+NEW.push(["SFIDA", "Invito a misurarsi"],["SIEPE", "Confine verde che Leopardi guardava"],["SIGLA", "Nome accorciato in iniziali"],["SIRIO", "Stella del Cane, luminosissima"]);
+NEW.push(["SOGNO", "Visione notturna o desiderio"],["SOLCO", "Traccia lasciata dall'aratro o dal tempo"],["SOLDO", "Moneta minima e vecchio stipendio"],["SONDA", "Esplora dove l'uomo non arriva"]);
+NEW.push(["SONNO", "Debito che non si paga in banca"],["SORBO", "Albero dai frutti aspri"],["SORDO", "Non sente, o non fa rumore"],["SORGO", "Cereale resistente al secco"]);
+NEW.push(["SORTE", "Destino o estrazione"],["SOSTA", "Fermata senza fine viaggio"],["SPADA", "Lama nobile da duello"],["SPAGO", "Filo rustico da pacchi e cucina"]);
+NEW.push(["SPESA", "Costo o carrello pieno"],["SPIGA", "Orecchio del grano"],["SPINA", "Punge, collega corrente o sta nel pesce"],["SPOLA", "Correva nel telaio"]);
+NEW.push(["SPORT", "Gioco serio con classifiche"],["SPOSA", "Protagonista in bianco, almeno per tradizione"],["SPUMA", "Schiuma piu elegante"],["STILE", "Modo personale e colonna sottile"]);
+NEW.push(["STIVA", "Ventre della nave per il carico"],["STOLA", "Fascia sacra o elegante"],["STRIA", "Linea sottile e lunga"],["STUFA", "Riscalda, ma come aggettivo si e stancata"]);
+NEW.push(["SUINO", "Relativo al maiale"],["SUONO", "Vibrazione che l'orecchio traduce"],["SUORA", "Donna di velo e convento"],["SVAGO", "Tempo sottratto al dovere"]);
+NEW.push(["TACCO", "Rialza scarpe e colpisce nel calcio"],["TAIGA", "Foresta fredda di conifere"],["TANGO", "Ballo nato sul Rio de la Plata"],["TARDO", "Lento ad arrivare o capire"]);
+NEW.push(["TARGA", "Nome metallico dell'auto o del premio"],["TARLO", "Rode legno e pensieri"],["TASCA", "Piccolo nascondiglio cucito"],["TASSO", "Animale, albero o percentuale"]);
+NEW.push(["TASTO", "Si preme per musica o lettere"],["TEINA", "La caffeina quando sta nel te"],["TEMPO", "Passa, si misura, si perde"],["TENDA", "Riparo di tela o cortina domestica"]);
+NEW.push(["TERME", "Acque calde e relax romano"],["TERNO", "Tre numeri fortunati al lotto"],["TERRA", "Pianeta, suolo o elemento"],["TERZO", "Viene dopo due, ma puo essere estraneo"]);
+NEW.push(["TESTA", "Comanda il corpo e apre le classifiche"],["TETTO", "Copre la casa e limita la spesa"],["TIGRE", "Felino rigato e aggressivo"],["TILDE", "Segno ondulato sopra certe lettere"]);
+NEW.push(["TINTA", "Colore steso o naturale"],["TIRSO", "Bastone sacro a Dioniso"],["TOLDO", "Copertura di tela su barche e terrazze"],["TOMBA", "Casa finale e verbo che precipita"]);
+NEW.push(["TONDO", "Circolare, ma anche segno grafico"],["TONFO", "Caduta che si sente"],["TONNO", "Pesce grande che finisce in scatola"],["TOPPA", "Riparo di stoffa o errore rimediato male"]);
+NEW.push(["TORBA", "Terra scura da paludi e giardinieri"],["TORRE", "Si arrocca negli scacchi o pende a Pisa"],["TORTA", "Dolce da candeline e fette"],["TORTO", "Ragione perduta"]);
+NEW.push(["TOSSE", "Rumore del raffreddore"],["TRAMA", "Intreccio di fili o di storia"],["TRAVE", "Sostegno orizzontale e pagliuzza evangelica"],["TRENO", "Serpente di vagoni"]);
+NEW.push(["TRIBU", "Comunita regolata da parentela"],["TRONO", "Sedia che vale un regno"],["TROTA", "Pesce da torrente e lenza"],["TULLE", "Velo leggerissimo da spose e teatri"]);
+NEW.push(["TUONO", "Voce del temporale"],["TURBA", "Folla agitata o disturbo"],["TURNO", "Quota di tempo in ordine"],["UDITO", "Senso che lavora nel silenzio"]);
+NEW.push(["UGOLA", "Pendolo in fondo alla bocca"],["ULIVO", "Albero di pace e olio"],["UMORE", "Stato d'animo o liquido corporeo"],["USURA", "Interesse che consuma chi deve"]);
+NEW.push(["UTILE", "Serve, o resta dopo i costi"],["VALCO", "Passaggio fra monti"],["VALLE", "Depressione fra rilievi"],["VANGA", "Attrezzo che entra nella terra"]);
+NEW.push(["VARCO", "Apertura che consente il passaggio"],["VARIO", "Non uguale a se stesso"],["VELIA", "Nome antico e citta della Magna Grecia"],["VENTO", "Aria quando decide di muoversi"]);
+NEW.push(["VERBO", "Parola che porta l'azione"],["VERDE", "Colore di erba, speranza e semaforo"],["VERGA", "Bastone, ramo o scrittore siciliano"],["VERME", "Abitante del terreno e del dubbio"]);
+NEW.push(["VERSO", "Riga poetica, direzione o grido animale"],["VESPA", "Punge, ronza o corre su due ruote"],["VESTE", "Abito, ma anche funzione"],["VETRO", "Solido trasparente e fragile"]);
+NEW.push(["VETTA", "Cima che non concede oltre"],["VIALE", "Strada con alberi e passeggio"],["VIDEO", "Immagine in movimento, non per forza film"],["VIGNA", "Filari da vendemmia"]);
+NEW.push(["VILLA", "Casa signorile fuori dal rumore"],["VINCA", "Pianta ornamentale e forma di vincere"],["VIOLA", "Colore, fiore o strumento"],["VIRGO", "Costellazione zodiacale latina"]);
+NEW.push(["VIRUS", "Minuscolo invasore di cellule e computer"],["VISTA", "Senso e panorama"],["VIZIO", "Abitudine cattiva o difetto giuridico"],["VOLTO", "Faccia che si legge"]);
+NEW.push(["ZAINO", "Compagno sulle spalle"],["ZAMPA", "Arto non umano"],["ZANNA", "Dente che sporge come arma"],["ZAPPA", "Attrezzo che rompe la terra"]);
+NEW.push(["ZEBRA", "Cavallo in pigiama a righe"],["ZENIT", "Punto piu alto sopra la testa"],["ZINCO", "Metallo contro ruggine e carenze"],["ZOLFO", "Elemento giallo dall'odore infernale"]);
+NEW.push(["ZORRO", "Maschera con firma a zeta"],["ZUPPA", "Piatto liquido che accoglie pane"]);
 
-// ===================== 5 LETTERE (parte 1) =====================
-NEW.push(
-  ["ACIDO","Sapore del limone"],["ACUTO","Angolo minore di 90 gradi"],["AEREO","Vola con i passeggeri"],
-  ["AGAVE","Pianta grassa da tequila"],["AGILE","Scattante e flessibile"],["ALATO","Provvisto di ali"],
-  ["ALBUM","Raccolta di foto o canzoni"],["ALTRO","Diverso da questo"],["AMARO","Sapore del caffe senza zucchero"],
-  ["AMENO","Piacevole e ridente"],["AMICO","Compagno fidato"],["AMORE","Sentimento tra innamorati"],
-  ["ANICE","Aroma del liquore trasparente"],["ANIMA","Lo spirito dell'uomo"],["ANIMO","Coraggio, animo!"],
-  ["ANTRO","Caverna oscura"],["APICE","Il punto piu alto"],["ARENA","Anfiteatro romano"],
-  ["AROMA","Profumo gradevole del cibo"],["ARPIA","Mostro mitologico alato"],["ASCIA","Spacca la legna"],
-  ["ASILO","Scuola dei piccolissimi"],["ASOLA","Buco per il bottone"],["ASPRO","Aspro e pungente"],
-  ["ASSAI","Molto, parecchio"],["ASTRO","Corpo celeste"],["ATOMO","La piu piccola parte"],
-  ["ATRIO","Ingresso del palazzo"],["AVARO","Tiene stretti i soldi"],["AVENA","Cereale del porridge"],
-  ["AZOTO","Gas dell'aria, simbolo N"],["BACCA","Piccolo frutto del bosco"],["BAGNO","La stanza con la vasca"],
-  ["BALLO","Si fa a ritmo di musica"],["BANCO","Quello di scuola"],["BARCA","Galleggia sull'acqua"],
-  ["BASCO","Copricapo piatto"],["BEATO","Felice e sereno"],["BELLO","Gradevole alla vista"],
-  ["BENDA","Fascia la ferita"],["BIRRA","Bevanda con la schiuma"],["BOMBA","Ordigno esplosivo"],
-  ["BORSA","Vi si mette il portafoglio"],["BOSCO","Fitto di alberi"],["BOTTE","Contiene il vino"],
-  ["BRACE","Le braci del barbecue"],["BRAVO","Applauso al cantante"],["BRINA","Gelo bianco del mattino"],
-  ["BRODO","Caldo, col dado"],["BRUNO","Castano scuro"],["BUFFO","Fa ridere"],
-  ["BURRO","Si spalma sul pane"],["CACAO","Da cui nasce il cioccolato"],["CALMO","Tranquillo e sereno"],
-  ["CALVO","Senza capelli"],["CAMPO","Dove gioca la squadra"],["CANTO","Melodia con la voce"],
-  ["CARNE","La mangia il carnivoro"],["CARRO","Lo tira il bue"],["CARTA","Su cui si scrive"],
-  ["CASCO","Protegge la testa del motociclista"],["CAUSA","Il motivo, la ragione"],["CAVIA","Roditore da laboratorio"],
-  ["CELLA","Stanzetta del carcere"],["CERTO","Sicuro, indubbio"],["CESTO","Contenitore di vimini"],
-  ["CHINA","Pendio, discesa"],["CICCA","Mozzicone di sigaretta"],["CIECO","Privo della vista"],
-  ["CIFRA","Una delle dieci da 0 a 9"],["CINTA","Le mura della citta"],["CIRCO","Quello con i pagliacci"],
-  ["CIUCO","L'asino, familiarmente"],["CLIMA","Il tempo di una regione"],["COBRA","Serpente col cappuccio"],
-  ["COLLE","Piccola altura"],["COLLO","Unisce testa e tronco"],["COLMO","Pieno fino all'orlo"],
-  ["COLPO","Botta improvvisa"],["CONTE","Titolo nobiliare"],["CONTO","Da pagare al ristorante"],
-  ["CORDA","Per legare o saltare"],["CORNO","Quello del toro"],["CORPO","Il fisico umano"],
-  ["CORSA","Gara di velocita"],["CORSO","Lezione o viale principale"],["CORTE","Quella del re"],
-  ["COSTA","Il litorale marino"],["COSTO","Il prezzo da pagare"],["CRUDO","Non cotto"],
-  ["CUNEO","Citta del Piemonte"],["CUOCO","Comanda in cucina"],["CUORE","Pompa il sangue"],
-  ["CURVA","Non e dritta"],["DANNO","Guasto, perdita"],["DANZA","Il ballo, elegante"],
-  ["DARDO","Freccia sottile"],["DELTA","La foce a ventaglio del Po"],["DENTE","Si lava con lo spazzolino"],
-  ["DISCO","Il vinile della musica"],["DITTA","Azienda commerciale"],["DOGMA","Verita indiscutibile"],
-  ["DOLCE","Il fine pasto zuccherato"],["DONNA","Femmina adulta"],["DUOMO","La cattedrale della citta"],
-  ["EBANO","Legno nero pregiato"],["ELICA","Gira sull'aereo a pistoni"],["EPOCA","Lungo periodo storico"]
-);
+// ===================== 6 LETTERE (260 voci) =====================
+NEW.push(["ABISSO", "Profondita che fa perdere la misura"],["ACERBO", "Non maturo, anche nel giudizio"],["ACULEO", "Punta naturale da difesa"],["ADAGIO", "Lento in musica e proverbio breve"]);
+NEW.push(["AIRONE", "Uccello d'acqua dal collo paziente"],["ALCOVA", "Letto nascosto con parola antica"],["ALISEO", "Vento regolare da naviganti oceanici"],["ALLORO", "Corona di poeti e aroma da arrosto"]);
+NEW.push(["AMBITO", "Campo circoscritto, non sempre recintato"],["AMLETO", "Principe del dubbio teatrale"],["ANCORA", "Tiene ferma una nave e, in grammatica, rinvia"],["ANELLO", "Cerchio da dito, catena o sport"]);
+NEW.push(["ANFORA", "Vaso antico con due braccia"],["ANGELO", "Messaggero con ali nelle immagini sacre"],["ANGINA", "Male di gola dal nome medico"],["ANGOLO", "Dove due linee smettono di essere parallele"]);
+NEW.push(["AQUILA", "Rapace imperiale e citta abruzzese"],["ARALDO", "Annuncia prima che parlino i potenti"],["ARDORE", "Calore che passa dai fuochi agli animi"],["ARGINE", "Limite che il fiume non dovrebbe superare"]);
+NEW.push(["ARIETE", "Segno zodiacale e macchina d'assedio"],["ARNESE", "Attrezzo, ma detto anche di persona poco raccomandabile"],["ATENEO", "Universita con nome greco"],["AURORA", "Luce prima del giorno pieno"]);
+NEW.push(["AVORIO", "Bianco prezioso e controverso"],["AVVISO", "Segnale che precede guai o notizie"],["AZALEA", "Fiorisce in vaso piu che nei romanzi"],["AZIONE", "Mossa, atto o quota societaria"]);
+NEW.push(["BACINO", "Parte del corpo o conca d'acqua"],["BALENA", "Enorme cetaceo che in Pinocchio fa paura"],["BANANA", "Frutto curvo da buccia scivolosa"],["BARILE", "Misura da petrolio e contenitore"]);
+NEW.push(["BIANCO", "Colore che sulla pagina aspetta parole"],["BIFORA", "Finestra medievale divisa in due"],["BILICO", "Equilibrio che non rassicura"],["BISCIA", "Serpente modesto, spesso innocuo"]);
+NEW.push(["BREZZA", "Vento che non vuole fare paura"],["BROCCA", "Recipiente con manico e beccuccio"],["BRONZO", "Terzo gradino del podio e lega antica"],["BUFALO", "Bovino da mozzarella campana"]);
+NEW.push(["CACCIA", "Insegue prede, o velivoli nemici"],["CALCIO", "Sport popolare e elemento chimico"],["CAMINO", "Focolare con via d'uscita per il fumo"],["CANALE", "Acqua guidata o emittente televisiva"]);
+NEW.push(["CAROTA", "Radice arancione e promessa al somaro"],["CATENA", "Serie di anelli, monti o obblighi"],["CENERE", "Quel che resta del fuoco"],["CHIAVE", "Apre serrature e soluzioni"]);
+NEW.push(["CHIESA", "Edificio, istituzione o comunita di fedeli"],["CHIODO", "Tiene appeso o si fissa in testa"],["CINEMA", "Arte che si guarda al buio"],["CIUFFO", "Capelli che sfuggono all'ordine"]);
+NEW.push(["CODICE", "Sistema di segni, norme o segreti"],["COFANO", "Copre motori o custodisce oggetti"],["COLORE", "Non esiste al buio, ma si nomina sempre"],["COMETA", "Astro con coda scenografica"]);
+NEW.push(["COMODO", "Confortevole o privo di fatica"],["CORONA", "Sta sul capo, nel rosario o in numismatica"],["COTONE", "Fibra bianca da campi e armadi"],["CUCINA", "Luogo, arte e tradizione gastronomica"]);
+NEW.push(["DECORO", "Dignita delle forme e dei comportamenti"],["DENARO", "Mezzo di scambio e vecchio seme di carte"],["DERIVA", "Spostamento senza governo"],["DIESEL", "Motore e carburante dal nome d'inventore"]);
+NEW.push(["DOGANA", "Confine dove le merci dichiarano"],["DOMINO", "Tessere che cadono anche per effetto"],["DRAPPO", "Stoffa solenne da cerimonia"],["EFFIGE", "Immagine ufficiale da moneta o medaglia"]);
+NEW.push(["ELEGIA", "Canto malinconico da antichi poeti"],["ELISIR", "Liquido miracoloso da alchimisti"],["ENIGMA", "Domanda che si difende dalla risposta"],["ENZIMA", "Lavora nelle cellule senza consumarsi"]);
+NEW.push(["ERCOLE", "Forza mitologica in sei lettere"],["ERESIA", "Idea religiosa fuori dal solco"],["ERMETE", "Dio dei messaggi e delle soglie"],["ERRORE", "Deviazione dalla risposta giusta"]);
+NEW.push(["ESTATE", "Stagione che promette ferie e zanzare"],["FABBRO", "Batte il ferro finche e caldo"],["FAGGIO", "Albero montano da boschi freschi"],["FALENA", "Farfalla notturna attratta dal lume"]);
+NEW.push(["FANALE", "Occhio di veicolo o porto"],["FARINA", "Polvere che diventa pane"],["FATICA", "Sforzo che pesa sui muscoli"],["FAVOLA", "Racconto breve con morale finale"]);
+NEW.push(["FEBBRE", "Calore che il termometro denuncia"],["FENICE", "Uccello che fa della cenere un ritorno"],["FERITA", "Apertura dolorosa nella pelle o nell'orgoglio"],["FIASCO", "Bottiglia panciuta o insuccesso"]);
+NEW.push(["FIBBIA", "Tiene ferma la cintura"],["FIGURA", "Forma, immagine o brutta impressione"],["FINALE", "Ultimo atto o partita decisiva"],["FIONDA", "Lancia sassi senza polvere da sparo"]);
+NEW.push(["FISICA", "Studia materia, energia e imprevisti scolastici"],["FLAUTO", "Fiato che canta diritto"],["FOGLIA", "Pagina vegetale"],["FRONDA", "Ramo con foglie, spesso da riparo"]);
+NEW.push(["GABBIA", "Limite a sbarre"],["GALERA", "Nave antica o carcere"],["GELATO", "Dolce che teme il sole"],["GENERE", "Categoria, sesso grammaticale o stile"]);
+NEW.push(["GHETTO", "Quartiere imposto dalla storia"],["GIACCA", "Capo che completa un abito"],["GIRINO", "Rana prima di avere zampe"],["GIUGNO", "Mese che apre l'estate scolastica"]);
+NEW.push(["GOMITO", "Piega del braccio e colpo scorretto"],["GRAPPA", "Distillato che nasce dalle vinacce"],["GRILLO", "Insetto canterino e coscienza di Pinocchio"],["GROTTA", "Cavita naturale da stalattiti"]);
+NEW.push(["GRUPPO", "Insieme piu organizzato della folla"],["GUAINA", "Rivestimento che protegge e contiene"],["GUANTO", "Indumento a dita"],["IGUANA", "Rettile da teca tropicale"]);
+NEW.push(["IMBUTO", "Fa entrare il largo nello stretto"],["INCISO", "Frase laterale o segno scavato"],["INDACO", "Blu profondo fra cielo e viola"],["INERTE", "Non reagisce, in chimica o nella vita"]);
+NEW.push(["LACCIO", "Stringe scarpe e trappole"],["LAGUNA", "Acqua bassa tra terra e mare"],["LATITA", "Manca mentre dovrebbe esserci"],["LECCIO", "Quercia sempreverde mediterranea"]);
+NEW.push(["LEGAME", "Vincolo che tiene insieme"],["LEGGIO", "Supporto da lettori in piedi"],["LIMONE", "Agrume aspro e colore chiaro"],["LINGUA", "Organo, idioma e confine culturale"]);
+NEW.push(["LUCCIO", "Predatore d'acqua dolce"],["LUMACA", "Viaggia lenta lasciando firma lucida"],["MAGLIA", "Indumento, rete o punto lavorato"],["MANICA", "Parte del vestito e cerchia di complici"]);
+NEW.push(["MANTRA", "Formula ripetuta fino a diventare ritmo"],["MEDUSA", "Mostro che pietrifica e animale urticante"],["MELONE", "Frutto estivo che si sceglie a colpi"],["METODO", "Ordine applicato al fare"]);
+NEW.push(["MIMOSA", "Fiore giallo simbolico a marzo"],["MISURA", "Limite, taglia o operazione col metro"],["MOBILE", "Arredo, o non fisso"],["MONACO", "Religioso e abitante di un principato"]);
+NEW.push(["MONILE", "Gioiello da collo o da polso"],["MORALE", "Insegnamento finale o disciplina dei costumi"],["MOTORE", "Trasforma energia in movimento"],["MULINO", "Casa delle macine"]);
+NEW.push(["NEBBIA", "Fa sparire il paesaggio senza portarlo via"],["NEMICO", "Avversario senza sportivita"],["NIENTE", "Vuoto in forma di parola"],["NINFEO", "Fontana monumentale d'ispirazione antica"]);
+NEW.push(["NIPOTE", "Parente che puo confondere generazioni"],["NOMADE", "Non mette radici in un indirizzo"],["NUVOLA", "Acqua sospesa che viaggia in cielo"],["OCEANO", "Mare che ha superato ogni misura"]);
+NEW.push(["OFFESA", "Ferita fatta con parole"],["ORDITO", "La parte ferma della tela"],["ORTICA", "Pianta che punisce chi la sfiora"],["OSCURO", "Poco illuminato o poco chiaro"]);
+NEW.push(["OTTONE", "Lega gialla da strumenti e maniglie"],["PALUDE", "Acqua che ristagna e trattiene"],["PANINO", "Due fette con qualcosa in mezzo"],["PARETE", "Confine verticale di una stanza o di roccia"]);
+NEW.push(["PAROLA", "Unita minima del discorso con senso"],["PATATA", "Tubero da campo e da frittura"],["PAVONE", "Fa ruota per vanita naturale"],["PEDALE", "Lo spinge il ciclista e il pianista"]);
+NEW.push(["PEDINA", "Piccolo pezzo che puo decidere la partita"],["PEPITA", "Oro ancora rozzo"],["PETALO", "Foglia colorata del fiore"],["PIANTA", "Vegetale, mappa o lamento"]);
+NEW.push(["PIATTO", "Stoviglia, portata o poco mosso"],["PIAZZA", "Vuoto urbano dove la citta si incontra"],["PIETRA", "Materiale duro e memoria incisa"],["PILOTA", "Guida mezzi che non sempre toccano terra"]);
+NEW.push(["PINOLO", "Seme piccolo da pesto e dolci"],["PIRATA", "Fuorilegge di mare e di copie"],["PIROGA", "Canoa scavata in un tronco"],["PITONE", "Serpente che stringe piu che mordere"]);
+NEW.push(["POMATA", "Unguento da spalmare"],["POTERE", "Facolta, autorita o verbo irregolare"],["PRANZO", "Pasto che spezza la giornata"],["PRISMA", "Solido che divide la luce"]);
+NEW.push(["PUGILE", "Professionista dei guanti chiusi"],["QUADRO", "Dipinto, schema o situazione"],["QUIETE", "Calma che puo precedere la tempesta"],["RABBIA", "Collera e malattia trasmessa da morsi"]);
+NEW.push(["RAPACE", "Predatore con ali e artigli"],["RASOIO", "Lama quotidiana da barba"],["REDINE", "Cinghia che guida il cavallo"],["REGOLA", "Norma, strumento e ciclo"]);
+NEW.push(["REMORA", "Pesce che si attacca e freno morale"],["RICAMO", "Disegno fatto col filo"],["RICCIO", "Punge a terra o in mare, si arriccia in testa"],["RIPOSO", "Intervallo che restituisce forza"]);
+NEW.push(["RISATA", "Scoppio sonoro di buonumore"],["RIVALE", "Avversario con lo stesso obiettivo"],["ROCCIA", "Pietra compatta e carattere saldo"],["ROVERE", "Quercia da botti e mobili"]);
+NEW.push(["ROVINA", "Crollo, resto antico o disastro"],["RUMORE", "Suono senza discrezione"],["SABBIA", "Terra finissima che misura clessidre"],["SAGOMA", "Contorno riconoscibile senza dettagli"]);
+NEW.push(["SALAME", "Insaccato e ingenuo in gergo"],["SALICE", "Albero che piange senza dolore"],["SALONE", "Sala grande, spesso da esposizione"],["SALUTO", "Gesto che apre o chiude un incontro"]);
+NEW.push(["SAPONE", "Fa schiuma contro lo sporco"],["SAPORE", "Giudizio della lingua e della memoria"],["SCATTO", "Balzo, foto o aumento improvviso"],["SCHEDA", "Supporto di dati, voto o gioco"]);
+NEW.push(["SCIAME", "Folla alata e compatta"],["SEDANO", "Costa verde da soffritto"],["SESAMO", "Seme e parola magica con apriti"],["SFINGE", "Enigma con corpo di leone"]);
+NEW.push(["SILURO", "Pesce elettrico o arma navale"],["SIRENA", "Chiama i marinai o avverte in strada"],["SLITTA", "Veicolo che preferisce neve e renne"],["SOFFIO", "Respiro leggero o impulso improvviso"]);
+NEW.push(["SOGLIA", "Limite da varcare"],["SOLAIO", "Piano alto, spesso pieno di cose vecchie"],["SPALLA", "Sostegno, lato o aiutante comico"],["SPECIE", "Categoria dei viventi o avverbio incerto"]);
+NEW.push(["SQUALO", "Predatore marino e finanziario"],["STAGNO", "Acqua ferma o metallo saldato"],["STALLA", "Alloggio bovino e memoria natalizia"],["STANZA", "Vano domestico o strofa"]);
+NEW.push(["STELLA", "Luce celeste e fama terrena"],["STORIA", "Racconto, passato o relazione"],["STRADA", "Percorso materiale e modo per riuscire"],["STREGA", "Figura da rogo, fiaba e scopa"]);
+NEW.push(["STUCCO", "Riempie crepe e imita marmi"],["SUDORE", "Sale sulla pelle per caldo o sforzo"],["TEGAME", "Parente largo della pentola"],["TEMPIO", "Luogo sacro di dei o muscoli"]);
+NEW.push(["TENORE", "Voce alta maschile e contenuto"],["TEORIA", "Fila, ipotesi o sistema"],["TESORO", "Ricchezza nascosta e vezzeggiativo"],["TIMONE", "Guida barche e direzioni"]);
+NEW.push(["TIMORE", "Paura con educazione"],["TONACA", "Abito religioso lungo"],["TORACE", "Gabbia che custodisce cuore e polmoni"],["TORERO", "Si veste di luce davanti al toro"]);
+NEW.push(["TORNEO", "Competizione di molti incontri"],["TORNIO", "Macchina che modella girando"],["TROFEO", "Oggetto che ricorda una vittoria"],["TROMBA", "Fiato squillante e vortice d'aria"]);
+NEW.push(["TROPPO", "Eccedenza in una parola"],["TRUFFA", "Inganno con tornaconto"],["TUMORE", "Crescita patologica da diagnosticare"],["TUNICA", "Veste semplice e lunga"]);
+NEW.push(["TUTORE", "Sostegno, legale o ortopedico"],["UNIONE", "Somma di parti che provano a restare insieme"],["VAGONE", "Stanza mobile su rotaie"],["VALORE", "Prezzo, coraggio o numero"]);
+NEW.push(["VAPORE", "Acqua diventata aria"],["VEDOVA", "Donna dopo la perdita del marito"],["VELENO", "Sostanza che nuoce gia in piccole dosi"],["VELOCE", "Rapido, ma non sempre frettoloso"]);
+NEW.push(["VENERE", "Dea, pianeta e canone di bellezza"],["VERMUT", "Aperitivo aromatizzato da Torino"],["VICINO", "Prossimo nello spazio o nella casa accanto"],["VIGILE", "Sorveglia o dirige il traffico"]);
+NEW.push(["VIGORE", "Forza piena e vitale"],["VIMINI", "Rami flessibili da intreccio"],["ZEFIRO", "Vento leggero d'Occidente"],["ZIGOMO", "Osso che disegna lo spigolo della guancia"]);
 
-// ===================== 5 LETTERE (parte 2) =====================
-NEW.push(
-  ["ESAME","Prova da superare a scuola"],["ESILE","Sottile e gracile"],["ESITO","Il risultato finale"],
-  ["ESTRO","Ispirazione creativa"],["ETICA","La morale"],["FALCO","Rapace dalla vista acuta"],
-  ["FALDA","Strato d'acqua sotterraneo"],["FALSO","Non autentico"],["FANGO","Terra e acqua mescolate"],
-  ["FARSA","Commedia buffa"],["FAUNA","Gli animali di un luogo"],["FELCE","Pianta del sottobosco"],
-  ["FERMO","Immobile, che non si muove"],["FESTA","Ricorrenza allegra"],["FETTA","Porzione di torta"],
-  ["FIABA","Storia per bambini"],["FIATO","Il respiro"],["FIBRA","Filamento del tessuto"],
-  ["FIENO","Foraggio secco per i cavalli"],["FIERA","Esposizione commerciale"],["FINTO","Falso, simulato"],
-  ["FIORE","Sboccia in primavera"],["FIRMA","Si mette in fondo al documento"],["FIUME","Scorre verso il mare"],
-  ["FLORA","Le piante di un luogo"],["FOLLA","Gran quantita di gente"],["FOLLE","Pazzo, insensato"],
-  ["FONDO","La parte piu bassa"],["FONTE","Sorgente d'acqua"],["FORCA","Attrezzo a denti del contadino"],
-  ["FORMA","La sagoma di un oggetto"],["FORNO","Cuoce il pane"],["FORTE","Robusto e vigoroso"],
-  ["FORZA","La potenza fisica"],["FOSSA","Buca profonda"],["FRANA","Smottamento di terreno"],
-  ["FRATE","Religioso col saio"],["FRENO","Ferma l'automobile"],["FRODE","Inganno, truffa"],
-  ["FUOCO","Brucia e scalda"],["FURBO","Astuto e scaltro"],["FURIA","Rabbia violenta"],
-  ["FUSTO","Il tronco della pianta"],["GAMBA","L'arto per camminare"],["GARBO","Gentilezza nei modi"],
-  ["GELSO","Albero del baco da seta"],["GEMMA","Pietra preziosa"],["GENIO","Mente geniale"],
-  ["GESSO","Per scrivere alla lavagna"],["GESTO","Movimento della mano"],["GIADA","Pietra verde orientale"],
-  ["GIOCO","Passatempo divertente"],["GIOIA","Grande felicita"],["GLOBO","Il mappamondo"],
-  ["GNOMO","Folletto del bosco"],["GOMMA","Cancella la matita"],["GONNA","Capo femminile"],
-  ["GRADO","Unita di temperatura"],["GRANO","Cereale del pane"],["GRECO","Di Atene"],
-  ["GRIDO","Urlo improvviso"],["GUADO","Punto per attraversare il fiume"],["GUSTO","Il sapore percepito"],
-  ["IDOLO","Beniamino adorato"],["IGLOO","Casa di ghiaccio degli eschimesi"],["IMENE","Il dio greco delle nozze"],
-  ["INDIA","Patria del curry"],["IODIO","Disinfettante per ferite"],["IRIDE","Parte colorata dell'occhio"],
-  ["ISOLA","Terra circondata dal mare"],["JOLLY","La carta che vale tutto"],["LAGNA","Lamento noioso"],
-  ["LARDO","Grasso del maiale"],["LARGO","Ampio, spazioso"],["LARVA","Lo stadio del bruco"],
-  ["LASER","Raggio di luce concentrato"],["LATTE","Lo da la mucca"],["LAUTO","Abbondante, ricco"],
-  ["LEGGE","La norma da rispettare"],["LEGNO","Materiale dell'albero"],["LEONE","Il re della savana"],
-  ["LESTO","Veloce e svelto"],["LIBRO","Si legge pagina dopo pagina"],["LIETO","Contento, felice"],
-  ["LINEA","Tratto sottile e dritto"],["LISCA","La spina del pesce"],["LIUTO","Strumento a corde antico"],
-  ["LOTTA","Combattimento corpo a corpo"],["LUNGO","Esteso nello spazio"],["LUSSO","Sfarzo e ricchezza"],
-  ["LUTTO","Dolore per un defunto"],["MADRE","La mamma"],["MAGIA","Incantesimo"],
-  ["MAGMA","Roccia fusa del vulcano"],["MAGRO","Senza grasso"],["MAMMA","La madre, affettuosamente"],
-  ["MANGO","Frutto tropicale dolce"],["MANIA","Fissazione ossessiva"],["MANTO","Mantello che copre"],
-  ["MARCA","La griffe del prodotto"],["MARMO","Pietra di Carrara"],["MARZO","Il mese di primavera"],
-  ["MASSA","Grande quantita"],["MATTO","Pazzo, folle"],["MAZZA","Bastone da baseball"],
-  ["MENSA","Si pranza in comune"],["MERLO","Uccello nero dal becco giallo"],["MESTO","Triste e malinconico"],
-  ["METRO","Unita di lunghezza"],["MIELE","Dolce dono delle api"],["MIRTO","Liquore sardo"],
-  ["MISTO","Mescolato"],["MOLLA","Si comprime e scatta"],["MOLTO","In gran quantita"],
-  ["MONDO","Il pianeta Terra"],["MONTE","Grande rilievo"],["MORSO","Boccone dei denti"],
-  ["MORTE","La fine della vita"],["MOSCA","Insetto fastidioso"],["MOSSA","Una mossa degli scacchi"]
-);
+// ===================== 7 LETTERE (245 voci) =====================
+NEW.push(["ACCENTO", "Segno che cambia suono e talvolta senso"],["AGNELLO", "Piccolo ovino e simbolo pasquale"],["ALBATRO", "Grande uccello oceanico da poesia"],["ALBERGO", "Casa temporanea con reception"]);
+NEW.push(["ALCIONE", "Uccello marino e mito di bonaccia"],["ALLEGRO", "Veloce in musica, lieto nel carattere"],["ANTENNA", "Sente segnali che gli occhi ignorano"],["APIARIO", "Quartiere ordinato delle arnie"]);
+NEW.push(["ARANCIO", "Albero, colore e frutto in una parola"],["ARBITRO", "Fischia perche gli altri non litighino troppo"],["ARGENTO", "Metallo secondo sul podio e primo in posate"],["ARMADIO", "Nasconde abiti e talvolta scheletri"]);
+NEW.push(["ARMENIA", "Paese caucasico fra Oriente e Occidente"],["ATLANTE", "Regge il mondo nei miti e le mappe in libreria"],["AUTUNNO", "Stagione che fa cadere cio che primavera aveva promesso"],["BACHECA", "Vetrina per avvisi e trofei"]);
+NEW.push(["BALCONE", "Sporgenza domestica con vista"],["BAMBINO", "Essere umano prima delle scuse adulte"],["BANDITO", "Fuori legge o annunciato pubblicamente"],["BARATTO", "Scambio prima del prezzo"]);
+NEW.push(["BARBONE", "Ha riccioli da cane o strada da senzatetto"],["BARCONE", "Imbarcazione grande e spesso carica"],["BATTITO", "Ritmo del cuore o d'ali"],["BIVACCO", "Riparo provvisorio da montagna"]);
+NEW.push(["BOTTEGA", "Negozio che conserva mani artigiane"],["BOTTONE", "Tiene insieme due lembi con un piccolo varco"],["BRACCIO", "Arto, leva o tratto di mare"],["BRAMITO", "Voce d'amore del cervo"]);
+NEW.push(["BRIVIDO", "Freddo che corre sulla pelle"],["BUSSARE", "Chiedere ingresso con le nocche"],["BUSSOLA", "Ago che cerca il nord"],["CANTINA", "Sotterraneo dove il vino riposa"]);
+NEW.push(["CAPANNA", "Rifugio povero e rurale"],["CARAFFA", "Versa acqua con eleganza semplice"],["CARCERE", "Luogo dove la liberta ha muri"],["CARDINE", "Perno che fa girare l'uscio; punto essenziale"]);
+NEW.push(["CARDONE", "Ortaggio parente del carciofo"],["CAROGNA", "Corpo morto o persona spregevole"],["CARRUBA", "Frutto mediterraneo da farina dolce"],["CARTONE", "Materiale da scatole e film disegnati"]);
+NEW.push(["CASCATA", "Acqua che cade con spettacolo"],["CAVALLO", "Corre, salta e negli scacchi fa una L"],["CAVERNA", "Grotta profonda da preistoria"],["CAVIALE", "Uova nere da lusso freddo"]);
+NEW.push(["CEMENTO", "Pietra artificiale che lega"],["CHIMERA", "Mostro antico e desiderio irraggiungibile"],["CICOGNA", "Uccello accusato di portare neonati"],["CINGHIA", "Striscia che stringe o trasmette"]);
+NEW.push(["CIPOLLA", "Bulbo che commuove il cuoco"],["CIVETTA", "Rapace notturno e richiamo da vetrina"],["CLARINO", "Fiato di legno dal suono limpido"],["COLLINA", "Rilievo che non osa diventare monte"]);
+NEW.push(["COLOMBA", "Uccello pasquale e simbolo pacifico"],["COLONNA", "Sostegno architettonico e rubrica"],["CONFINE", "Linea che divide senza avere spessore"],["CORALLO", "Animale marino che sembra minerale"]);
+NEW.push(["CORNICE", "Bordo che nobilita il quadro"],["CORTILE", "Spazio interno tra muri"],["COSTUME", "Abito da spiaggia o abitudine sociale"],["CRATERE", "Bocca di vulcano o coppa antica"]);
+NEW.push(["CROTALO", "Serpente che avverte prima di mordere"],["CUSCINO", "Morbidezza tra capo e letto"],["DARSENA", "Specchio d'acqua riparato per barche"],["DELFINO", "Mammifero che sorride nel mare"]);
+NEW.push(["DESERTO", "Luogo dove l'acqua diventa notizia"],["DIADEMA", "Corona piu da regina che da re"],["DILEMMA", "Due vie, nessuna davvero comoda"],["DIPLOMA", "Carta che certifica un percorso"]);
+NEW.push(["DRAGONE", "Mostro araldico da fuoco"],["EDICOLA", "Vende giornali o custodisce santi"],["EMPORIO", "Negozio dove si trova un po' di tutto"],["ERBARIO", "Raccolta di piante pressate"]);
+NEW.push(["ESPERTO", "Ne sa abbastanza da sembrare prudente"],["ETRUSCO", "Antico abitante dell'Italia centrale"],["FAGIANO", "Selvatico piumato da caccia"],["FALANGE", "Schiera compatta o osso delle dita"]);
+NEW.push(["FANTINO", "Piccolo cavaliere da palio"],["FASCINO", "Attrazione che non si misura"],["FERETRO", "Contenitore dell'ultimo viaggio"],["FERMATA", "Punto in cui il mezzo concede ingresso"]);
+NEW.push(["FILANDA", "Fabbrica della seta d'altri tempi"],["FINEZZA", "Sottigliezza elegante"],["FOLGORE", "Lampo che colpisce"],["FONTANA", "Architettura dell'acqua in piazza"]);
+NEW.push(["FORBICE", "Taglia sempre in coppia"],["FORMICA", "Piccola lavoratrice che insegna previdenza alla cicala"],["FORTINO", "Difesa in miniatura"],["FOSSILE", "Resto che il tempo ha pietrificato"]);
+NEW.push(["FRAGOLA", "Rosso dolce che matura basso"],["FRAGORE", "Rumore che riempie lo spazio"],["FRECCIA", "Messaggio appuntito dell'arco o della strada"],["FUMETTO", "Racconto disegnato che parla in nuvolette"]);
+NEW.push(["GALLINA", "Fa uova, non voli memorabili"],["GALOPPO", "Andatura che scuote sella e fantino"],["GAMBERO", "Crostaceo famoso per il passo all'indietro"],["GEMELLO", "Nato insieme, non sempre identico"]);
+NEW.push(["GENTILE", "Cortese o appartenente a genti non ebraiche"],["GERANIO", "Fiore da balcone resistente"],["GHIANDA", "Frutto della quercia e promessa di bosco"],["GIUNGLA", "Vegetazione dove perdersi e metafora d'ufficio"]);
+NEW.push(["GLICINE", "Rampicante violaceo e profumato"],["GOBELIN", "Arazzo francese da parete nobile"],["GONDOLA", "Barca veneziana senza motore"],["GORILLA", "Primato enorme e guardia del corpo"]);
+NEW.push(["GRADINO", "Passo architettonico verso l'alto"],["GRAFITE", "Carbonio che lascia tracce nella matita"],["GRIFONE", "Creatura araldica meta aquila e meta leone"],["INCANTO", "Meraviglia o vendita al miglior offerente"]);
+NEW.push(["INSEGNA", "Fa riconoscere un negozio o un reparto"],["INVERNO", "Stagione di cappotti e giornate corte"],["INVIDIA", "Desiderio verde per il bene altrui"],["ISTANTE", "Tempo troppo breve per diventare storia"]);
+NEW.push(["ISTRICE", "Roditore armato di aculei"],["LACRIMA", "Acqua salata dell'occhio"],["LAMPADA", "Oggetto che addomestica il buio"],["LAMPONE", "Frutto rosso da rovo elegante"]);
+NEW.push(["LASAGNA", "Strati di pasta che fanno domenica"],["LAVAGNA", "Superficie nera o bianca da cancellare"],["LETARGO", "Sonno animale contro l'inverno"],["LEVANTE", "Oriente del sole e vento"]);
+NEW.push(["LIBRAIO", "Mercante di pagine"],["LICHENE", "Unione tenace di fungo e alga"],["LIQUORE", "Dolce alcolico da fine pasto"],["LUCERNA", "Lampada antica da olio"]);
+NEW.push(["MACELLO", "Luogo di carne e sinonimo di disordine"],["MAGNETE", "Attira senza mani"],["MALARIA", "Febbre di palude e zanzare"],["MALIZIA", "Intelligenza con doppio fondo"]);
+NEW.push(["MANETTA", "Tiene i polsi o apre gas"],["MAREMMA", "Terra toscana di butteri e paludi bonificate"],["MARGINE", "Bordo del foglio e spazio di manovra"],["MATTONE", "Pezzo d'edificio e noia pesante"]);
+NEW.push(["MENSOLA", "Piccola terrazza per libri e vasi"],["MERINGA", "Dolce fatto quasi d'aria e zucchero"],["METEORA", "Brilla un attimo e sparisce"],["MIDOLLO", "Parte interna dell'osso e sostanza"]);
+NEW.push(["MIGNOLO", "Il piu piccolo della mano"],["MISTERO", "Quel che resiste alla spiegazione"],["MONTONE", "Maschio lanoso e colpo di testa"],["MUSCOLO", "Si contrae senza discutere"]);
+NEW.push(["NARCISO", "Si specchia troppo, per mito"],["NETTARE", "Bevanda divina e succo floreale"],["OCARINA", "Piccolo fiato d'argilla"],["ODISSEA", "Viaggio lunghissimo e poema"]);
+NEW.push(["OFFERTA", "Proposta, sconto o dono all'altare"],["ORACOLO", "Rispondeva oscuro per mestiere"],["ORIGANO", "Erba che sa di pizza e Mediterraneo"],["ORIGINE", "Punto da cui tutto comincia"]);
+NEW.push(["OSPIZIO", "Ricovero d'altri tempi"],["PADELLA", "Contenitore basso per friggere"],["PADRONE", "Possiede, comanda o ospita"],["PALAZZO", "Edificio importante e ambiente di potere"]);
+NEW.push(["PANTERA", "Felino nero nell'immaginario"],["PARANZA", "Barca da pesca e frittura di pesci piccoli"],["PASSATO", "Tempo trascorso e verdura setacciata"],["PASSERO", "Uccello urbano di piccola taglia"]);
+NEW.push(["PASTORE", "Guida greggi o anime"],["PENTOLA", "Sta sul fuoco e nasconde coperchi proverbiali"],["PERTICA", "Asta lunga da salti e misure"],["PIANETA", "Corpo errante intorno a una stella"]);
+NEW.push(["PICCONE", "Attrezzo che apre terra e roccia"],["PIOGGIA", "Acqua che cade senza rubinetti"],["PISELLO", "Legume in baccello e fiaba sul materasso"],["PISTOLA", "Arma corta, anche da starter"]);
+NEW.push(["POLENTA", "Granturco che diventa piatto giallo"],["POLLAIO", "Casa rumorosa di galline"],["POLVERE", "Materia minuta che torna sempre"],["PORFIDO", "Pietra dura da strade e piazze"]);
+NEW.push(["PORTICO", "Cammino coperto da colonne"],["PORTONE", "Ingresso piu solenne della porta"],["PRESEPE", "Scena natalizia in miniatura"],["PRIMATO", "Record o superiorita"]);
+NEW.push(["PRIMULA", "Fiore che anticipa la primavera"],["PROFILO", "Contorno del volto e pagina personale"],["PROFUMO", "Presenza invisibile che resta nell'aria"],["PRONOME", "Sostituisce il nome senza farsene accorgere"]);
+NEW.push(["PULCINO", "Neonato con piumino giallo"],["PULPITO", "Alto luogo da cui si predica"],["QUERCIA", "Albero da ghiande e longevita"],["RICETTA", "Formula di cucina o farmacia"]);
+NEW.push(["RIFUGIO", "Riparo di montagna e di paura"],["RIMEDIO", "Soluzione pratica al malanno"],["RISOTTO", "Riso che chiede brodo e pazienza"],["RONDINE", "Uccello proverbiale di primavera"]);
+NEW.push(["ROSARIO", "Preghiera contata a grani"],["RUGIADA", "Gocce del mattino senza pioggia"],["SALOTTO", "Stanza di conversazione e televisore"],["SANDALO", "Scarpa aperta o legno profumato"]);
+NEW.push(["SARDINA", "Piccolo pesce da scatola e banco"],["SCALINO", "Un gradino quando si fa quotidiano"],["SCARICO", "Vuoto, stanco o tubo d'uscita"],["SCATOLA", "Contenitore che promette sorpresa"]);
+NEW.push(["SCETTRO", "Bastone che comanda"],["SCHIENA", "Parte che porta pesi e tradimenti"],["SCIALLE", "Abbraccio di stoffa sulle spalle"],["SCOPPIO", "Rumore breve di esplosione"]);
+NEW.push(["SCORCIO", "Vista parziale o finale di stagione"],["SCRIGNO", "Piccola cassa da segreti preziosi"],["SIGNORE", "Uomo distinto, titolo di cortesia"],["SIMBOLO", "Segno che vale piu di se stesso"]);
+NEW.push(["SIPARIO", "Tela che decide quando comincia lo spettacolo"],["SOLDATO", "Pedina in divisa"],["SORELLA", "Parente dello stesso ceppo familiare"],["SORRISO", "Curva del viso che disarma"]);
+NEW.push(["SOSPIRO", "Respiro che dice piu di una parola"],["SPETTRO", "Fantasma o gamma di colori"],["SPINACI", "Verdura resa famosa da un marinaio"],["SPIRALE", "Linea che gira senza chiudersi subito"]);
+NEW.push(["SPIRITO", "Anima, alcol o prontezza di battuta"],["STATUTO", "Legge fondamentale di un ente"],["TALENTO", "Dote che chiede esercizio"],["TAMBURO", "Pelle tesa che parla a colpi"]);
+NEW.push(["TAPPETO", "Pavimento morbido e oggetto da favola"],["TARTUFO", "Tesoro sotterraneo da fiuto"],["TEMPERA", "Colore da scuola e tecnica pittorica"],["TERMINE", "Fine, parola o scadenza"]);
+NEW.push(["TERRORE", "Paura portata al massimo"],["TIRANNO", "Governa con paura, non con consenso"],["TORNADO", "Vortice che alza tetti e polvere"],["TRALCIO", "Ramo della vite"]);
+NEW.push(["TRAPANO", "Fa buchi girando"],["TRIBUNA", "Posto rialzato per guardare o parlare"],["TRINCEA", "Fossa dove la guerra si ferma"],["UCCELLO", "Animale piumato: talvolta parola-tranello"]);
+NEW.push(["UFFICIO", "Stanza di pratiche e scrivanie"],["URAGANO", "Tempesta con nome proprio"],["VASSOIO", "Porta bicchieri senza bere"],["VEDETTA", "Sorveglia da lontano"]);
+NEW.push(["VELIERO", "Nave che obbedisce al vento"],["VELLUTO", "Stoffa che invita la mano"],["VERBENA", "Pianta odorosa da giardino e infusi"],["VESCOVO", "Pastore di diocesi e pezzo degli scacchi"]);
+NEW.push(["VESUVIO", "Vulcano che domina Napoli"],["VETRINA", "Mostra merce senza venderla ancora"],["VIAGGIO", "Movimento nello spazio e nella mente"],["VIBRATO", "Oscillazione espressiva del suono"]);
+NEW.push(["VIGNETO", "Vigna organizzata in filari"],["VIOLINO", "Quattro corde sotto l'archetto"],["VORTICE", "Giro che risucchia"],["VULCANO", "Montagna che respira fuoco"]);
+NEW.push(["ZAFFIRO", "Gemma blu da anelli e corone"],["ZATTERA", "Imbarcazione minima e provvisoria"],["ZENZERO", "Radice piccante da tisana e cucina"],["ZOCCOLO", "Calzatura di legno, base o unghia"]);
+NEW.push(["ZODIACO", "Cerchio di segni per astrologi"]);
 
-// ===================== 5 LETTERE (parte 3) =====================
-NEW.push(
-  ["MOSTO","Succo d'uva da vinificare"],["MOTTO","Frase celebre"],["MUCCA","Da il latte"],
-  ["MUFFA","Verde sul formaggio dimenticato"],["MULTA","Sanzione per il divieto"],["MUSEO","Custodisce le opere d'arte"],
-  ["NANNA","Il sonno dei bimbi"],["NAPPA","Pelle morbida e pregiata"],["NERBO","Vigore, energia"],
-  ["NINFA","Spirito femminile dei boschi"],["NONNA","La mamma del genitore"],["NONNO","Il papa del genitore"],
-  ["NOTTE","Buia, dopo la sera"],["NUORA","La moglie del figlio"],["NUOTO","Sport in piscina"],
-  ["NUOVO","Appena fatto"],["OBESO","Molto in sovrappeso"],["OMERO","Osso del braccio / poeta greco"],
-  ["ONERE","Peso, gravame"],["OPALE","Pietra dai riflessi cangianti"],["OPACO","Non trasparente"],
-  ["OPERA","Capolavoro lirico"],["ORATA","Pesce pregiato del Mediterraneo"],["OSCAR","Statuetta del cinema"],
-  ["OSSEO","Relativo alle ossa"],["OSTIA","Citta della Lombardia? no, lido di Roma"],["OVEST","Dove tramonta il sole"],
-  ["OVILE","Il ricovero delle pecore"],["OZONO","Strato che ci protegge dai raggi UV"],["PALCO","Il palcoscenico"],
-  ["PALMA","Albero dei datteri"],["PALMO","La mano aperta"],["PALLA","Rotola e rimbalza"],
-  ["PANDA","Orso bianco e nero"],["PANNA","Quella montata sul dolce"],["PANNO","Pezzo di stoffa"],
-  ["PARCO","Verde pubblico in citta"],["PASSO","Andatura del cammino"],["PASTA","Spaghetti e maccheroni"],
-  ["PAUSA","Breve interruzione"],["PELLE","Riveste il corpo"],["PENNA","Scrive a inchiostro"],
-  ["PERLA","Nasce nell'ostrica"],["PESCA","Frutto vellutato estivo"],["PESCE","Nuota con le pinne"],
-  ["PESTE","Antica epidemia"],["PETTO","Il torace"],["PEZZO","Frammento, parte"],
-  ["PIANO","Lo strumento a tasti"],["PIEDE","Termina con le dita"],["PIENO","Colmo, riempito"],
-  ["PINNA","Permette al pesce di nuotare"],["PINZA","Attrezzo per stringere"],["PIOLO","Gradino della scala a mano"],
-  ["PISTA","Quella da ballo o da sci"],["PIZZA","Margherita o capricciosa"],["PLEBE","Il popolo minuto"],
-  ["POEMA","Lunga composizione poetica"],["POETA","Compone versi"],["POLLO","Il galletto da arrosto"],
-  ["POLPA","La parte morbida del frutto"],["POLSO","Si tasta per il battito"],["POMPA","Spinge l'acqua"],
-  ["PONTE","Unisce le due rive"],["PORCO","Il maiale"],["PORTA","Si apre e si chiude"],
-  ["PORTO","Approdo delle navi"],["POSTA","Recapita le lettere"],["POSTO","Sedia o luogo"],
-  ["POZZO","Da cui si attinge acqua"],["PRATO","Distesa d'erba"],["PREDA","La caccia il predatore"],
-  ["PRESA","Vi si infila la spina"],["PREGO","Risposta a grazie"],["PRETE","Celebra la messa"],
-  ["PRIMO","Il numero uno"],["PRODE","Valoroso in battaglia"],["PROSA","Scrittura non in versi"],
-  ["PROVA","Tentativo, esperimento"],["PUGNO","Colpo della mano chiusa"],["PULCE","Insetto che salta"],
-  ["PUNTA","L'estremita aguzza"],["PUNTO","Segno alla fine della frase"],["PUZZA","Cattivo odore"],
-  ["QUOTA","Altitudine / parte dovuta"],["RADAR","Rileva aerei e navi"],["RADIO","Trasmette musica e notizie"],
-  ["RAGNO","Tesse la tela"],["RAMPA","Salita ripida"],["RAZZA","Specie di animale"],
-  ["RAZZO","Va nello spazio"],["REALE","Del re / autentico"],["REGNO","Il dominio del sovrano"],
-  ["RESTO","Cio che avanza"],["RETTA","Linea senza curve"],["RISMA","Pacco di fogli"],
-  ["ROBOT","Macchina automatica"],["ROCCA","Fortezza in cima al colle"],["RODEO","Spettacolo dei cowboy"],
-  ["ROSEO","Color rosa tenue"],["ROSSO","Il colore del sangue"],["ROTTA","La via della nave"],
-  ["RUOLO","La parte dell'attore"],["RUOTA","Gira sull'asse"],["SACCO","Contiene la patate"],
-  ["SAGRA","Festa di paese col cibo"],["SALDO","Lo sconto dei negozi"],["SALSA","Condimento denso"],
-  ["SALTO","Balzo verso l'alto"],["SANTO","Venerato in paradiso"],["SARTO","Confeziona abiti su misura"],
-  ["SASSO","Piccola pietra"],["SAUNA","Bagno di calore secco"],["SCALA","Per salire ai piani"],
-  ["SCENA","Parte di un atto teatrale"],["SCOPA","Spazza il pavimento / gioco di carte"],["SCOPO","Il fine, l'obiettivo"],
-  ["SCUDO","Difende il guerriero"],["SECCO","Privo di umidita"],["SEDIA","Ci si siede"],
-  ["SEGNO","Marchio, traccia"],["SELVA","Bosco fitto e selvaggio"],["SENSO","Vista, udito, tatto..."],
-  ["SERPE","Il serpente, poeticamente"],["SERVO","Domestico al servizio"],["SETTE","Numero fortunato"],
-  ["SFERA","Solido perfettamente rotondo"],["SFIDA","Provocazione a competere"],["SIEPE","Cespuglio di confine"],
-  ["SIGLA","Insieme di iniziali"],["SOGNO","Si fa dormendo"],["SOLCO","La traccia dell'aratro"],
-  ["SOLDO","Spicciolo, moneta"],["SONNO","Voglia di dormire"],["SORTE","Il destino, la fortuna"],
-  ["SOSTA","Breve fermata"],["SPADA","Arma da scherma"],["SPESA","Acquisti al supermercato"],
-  ["SPIGA","Quella del grano"],["SPINA","Punge sulla rosa"],["SPORT","Attivita fisica agonistica"],
-  ["SPOSA","La donna il giorno delle nozze"],["STILE","Modo personale e elegante"],["STOLA","Sciarpa elegante"],
-  ["STUFA","Riscalda la stanza"],["SUONO","Lo percepisce l'orecchio"],["SUORA","Religiosa col velo"],
-  ["SVAGO","Passatempo rilassante"],["TACCO","Quello a spillo della scarpa"],["TANGO","Ballo argentino"],
-  ["TARGA","Identifica l'auto"],["TARLO","Rode il legno / dubbio fisso"],["TASCA","Cucita nei pantaloni"],
-  ["TASTO","Quello del pianoforte"],["TEMPO","Passa inesorabile"],["TENDA","Riparo del campeggio"],
-  ["TERRA","Il nostro pianeta"],["TERZO","Dopo il secondo"],["TESTA","Il capo"],
-  ["TIGRE","Felino a strisce"],["TINTA","Colore, tinteggiatura"],["TOMBA","Custodisce il defunto"],
-  ["TONDO","Rotondo"],["TONNO","Pesce in scatola"],["TORTA","Si taglia a fette al compleanno"],
-  ["TORTO","Il contrario della ragione"],["TORRE","Quella di Pisa pende"],["TOSSE","Sintomo del raffreddore"],
-  ["TRAVE","Sostiene il tetto"],["TRENO","Viaggia sui binari"],["TRIBU","Comunita di un capo"],
-  ["TRONO","Il seggio del re"],["TROTA","Pesce di torrente"],["TUONO","Segue il lampo"],
-  ["TURNO","Si fa a rotazione"],["UDITO","Il senso dell'orecchio"],["UGOLA","Pende in fondo alla gola"],
-  ["UMORE","Lo stato d'animo"],["VALLE","Tra due montagne"],
-  ["VARCO","Passaggio, apertura"],["VENTO","Aria in movimento"],["VERBO","La parola che indica azione"],
-  ["VERDE","Il colore dell'erba"],["VERME","Striscia nella terra"],["VERSO","Riga di una poesia"],
-  ["VESPA","Insetto con il pungiglione"],["VESTE","L'abito"],["VETRO","Trasparente e fragile"],
-  ["VIALE","Strada alberata"],["VIDEO","Filmato da guardare"],["VIGNA","Filari di viti"],
-  ["VILLA","Casa signorile col giardino"],["VIOLA","Colore tra blu e rosso"],["VIRUS","Causa l'influenza"],
-  ["VISTA","Il senso degli occhi"],["VIZIO","Cattiva abitudine"],["VOLTO","Il viso, il volto"],
-  ["ZAINO","Si porta sulle spalle"],["ZAMPA","La gamba dell'animale"],["ZANNA","Il dente dell'elefante"],
-  ["ZAPPA","Lavora la terra dell'orto"],["ZEBRA","Equino a strisce"],["ZUPPA","Minestra densa"]
-);
+// ===================== 8 LETTERE (172 voci) =====================
+NEW.push(["ACQUARIO", "Vasca domestica o segno d'aria che porta acqua"],["AFFRESCO", "Pittura che nasce sull'intonaco umido"],["ALABARDA", "Arma in asta da guardie solenni"],["ALLODOLA", "Uccello mattiniero che canta in alto"]);
+NEW.push(["ALTALENA", "Gioco che vive di salite e discese"],["AMBIENTE", "Cio che circonda e condiziona"],["ANGUILLA", "Pesce-serpente da acque dolci e misteri"],["ANTILOPE", "Erbivoro veloce da savana"]);
+NEW.push(["ARCHIVIO", "Memoria ordinata di carte e file"],["ARMATURA", "Difesa metallica che rende lento il cavaliere"],["ARTIGLIO", "Unghia d'offesa dei rapaci"],["ASPARAGO", "Turione verde da primavera"]);
+NEW.push(["ASTUCCIO", "Piccolo custode di penne"],["BAGAGLIO", "Peso che il viaggiatore dichiara o nasconde"],["BANDIERA", "Identita che sventola"],["BASILICA", "Chiesa grande e forma romana antica"]);
+NEW.push(["BASILICO", "Foglia ligure per eccellenza"],["BISACCIA", "Doppia sacca da viaggio povero"],["BISCOTTO", "Secco, dolce e pronto all'inzuppo"],["BRACIERE", "Contiene fuoco senza camino"]);
+NEW.push(["BRIGANTE", "Fuorilegge da montagne e leggende"],["BRINDISI", "Citta pugliese o gesto coi calici"],["CALAMARO", "Mollusco che sa d'inchiostro"],["CALAMITA", "Attira ferro e curiosita"]);
+NEW.push(["CAMOSCIO", "Agile montanaro con corna"],["CAMPIONE", "Vincitore, esemplare o assaggio"],["CANTANTE", "Usa la voce come mestiere"],["CANTIERE", "Luogo dove l'incompiuto e normale"]);
+NEW.push(["CAPRIOLO", "Salto elegante o piccolo cervide"],["CARABINA", "Arma lunga piu precisa che rumorosa"],["CAROVANA", "Fila lenta da piste e deserti"],["CARRELLO", "Porta spesa, bagagli o attrezzi"]);
+NEW.push(["CASTAGNA", "Frutto in riccio e colpo d'errore"],["CASTELLO", "Dimora fortificata e incastro di carte"],["CENTAURO", "Creatura doppia: busto umano e corpo equino"],["CERNIERA", "Unisce aprendo e chiudendo"]);
+NEW.push(["CERVELLO", "Materia che pensa se stessa"],["CETRIOLO", "Ortaggio allungato da insalata"],["CICERONE", "Guida che spiega troppo bene"],["CILINDRO", "Solido, cappello o parte del motore"]);
+NEW.push(["CISTERNA", "Grande recipiente d'acqua nascosta"],["CLAUSOLA", "Piccolo patto dentro un contratto"],["COCOMERO", "Estate rossa sotto buccia verde"],["COLOSSEO", "Anfiteatro che Roma porta come simbolo"]);
+NEW.push(["CONIGLIO", "Animale pauroso e prolifico"],["CONTESSA", "Nobile al femminile"],["CORNETTA", "Ricevitore telefonico e brioche regionale"],["CROSTATA", "Dolce a griglia di pasta"]);
+NEW.push(["CUCCIOLO", "Piccolo che addolcisce il nome dell'animale"],["DENTISTA", "Professionista che fa aprire la bocca"],["DIAMANTE", "Pietra durissima e campo da baseball"],["DIAPASON", "Da il la senza cantare"]);
+NEW.push(["DINASTIA", "Famiglia che eredita il potere"],["ELASTICO", "Torna indietro quando lo tiri"],["ELEFANTE", "Pachiderma dalla memoria proverbiale"],["EMISFERO", "Meta di globo o di cervello"]);
+NEW.push(["EPIGRAFE", "Parole incise per durare"],["ESERCITO", "Forza armata di terra"],["ESTUARIO", "Foce larga dove il fiume incontra il mare"],["EVASIONE", "Fuga o distrazione fiscale"]);
+NEW.push(["FANTASMA", "Presenza che appare mancando"],["FARFALLA", "Insetto e stile di nuoto"],["FATTORIA", "Casa di campagna con produzione"],["FELICITA", "Pienezza che spesso dura poco"]);
+NEW.push(["FENDENTE", "Colpo di lama dall'alto"],["FENOMENO", "Fatto osservabile o persona eccezionale"],["FERROVIA", "Strada di rotaie"],["FINESTRA", "Taglio nel muro da cui entra luce"]);
+NEW.push(["FOCACCIA", "Pane basso che profuma di olio"],["FRASSINO", "Albero da manici e boschi"],["FRATELLO", "Maschio nato dagli stessi genitori"],["FRONTONE", "Triangolo di tempio sopra colonne"]);
+NEW.push(["GABBIANO", "Bianco frequentatore di porti"],["GALASSIA", "Citta di stelle"],["GALLERIA", "Strada sotto monte o sala d'arte"],["GAROFANO", "Fiore da occhiello e garibaldini"]);
+NEW.push(["GAZZELLA", "Antilope leggera e pattuglia veloce"],["GHIACCIO", "Acqua irrigidita dal freddo"],["GIARDINO", "Spazio dove la natura e addomesticata"],["GIORNALE", "Carta quotidiana, sempre meno quotidiana"]);
+NEW.push(["GIRASOLE", "Fiore che sembra inseguire il giorno"],["GRANDINE", "Ghiaccio che cade a chicchi"],["GRANELLO", "Minima parte di sabbia, sale o dubbio"],["INCUDINE", "Resiste ai colpi del fabbro"]);
+NEW.push(["INDOVINO", "Risponde prima che accada"],["INFANZIA", "Eta in cui tutto sembra piu grande"],["LAMPIONE", "Albero di luce stradale"],["LEOPARDO", "Felino maculato da savana e foresta"]);
+NEW.push(["LEVRIERO", "Cane fatto per correre"],["LIBECCIO", "Vento di sud-ovest, spesso umido"],["MACCHINA", "Dispositivo, automobile o complotto"],["MAIALINO", "Piccolo suino da fiaba o fattoria"]);
+NEW.push(["MANDORLA", "Seme dolce dentro guscio duro"],["MANTELLO", "Copre spalle, animali e supereroi"],["MARMOTTA", "Dormigliona delle Alpi"],["MARTELLO", "Colpisce chiodi e incudini"]);
+NEW.push(["MASCHERA", "Nasconde il volto o lo interpreta"],["MEDAGLIA", "Metallo che ricorda merito"],["MERLUZZO", "Pesce che da anche baccala"],["METAFORA", "Trasferisce senso senza traslocare"]);
+NEW.push(["MINESTRA", "Piatto caldo da cucchiaio"],["MIRAGGIO", "Inganno d'acqua nel caldo"],["MONTAGNA", "Rilievo che costringe a salire"],["MUGHETTO", "Campanellini bianchi profumati"]);
+NEW.push(["NASTRINO", "Piccola striscia da pacco o uniforme"],["NAUFRAGO", "Sopravvissuto che il mare ha respinto"],["NEVICATA", "Caduta bianca che zittisce le strade"],["NOCCIOLO", "Albero e parte dura della questione"]);
+NEW.push(["NOSTROMO", "Marinaio d'autorita sul ponte"],["NOTTURNO", "Vive o suona quando il giorno tace"],["OCCHIALE", "Aiuta la vista senza essere occhio"],["OFFICINA", "Luogo dove il guasto diventa lavoro"]);
+NEW.push(["OMBRELLO", "Piccolo tetto portatile"],["OPIFICIO", "Stabilimento produttivo in parola antica"],["ORCHIDEA", "Fiore elegante dai nomi esotici"],["ORTOLANO", "Coltiva verdure piu che fiori"]);
+NEW.push(["OSPEDALE", "Citta dei malati e dei turni"],["PAGLIAIO", "Montagna rustica dove cercare aghi proverbiali"],["PANCETTA", "Maiale in strati, amato dalla carbonara"],["PANCHINA", "Sedile pubblico e destino delle riserve"]);
+NEW.push(["PARABOLA", "Racconto esemplare e curva matematica"],["PENSIERO", "Cosa invisibile che pesa"],["PIANISTA", "Interprete che usa dieci dita e molti tasti"],["PILASTRO", "Sostegno materiale o morale"]);
+NEW.push(["PINGUINO", "Uccello in frac che non vola"],["PIRAMIDE", "Solido e tomba faraonica"],["POLTRONA", "Sedia comoda e incarico ambito"],["PRESEPIO", "Nativita in scala domestica"]);
+NEW.push(["QUADERNO", "Pagine legate per appunti e compiti"],["RAPSODIA", "Composizione libera e appassionata"],["RELIQUIA", "Resto sacro custodito"],["RETICOLO", "Rete di linee o di nervi"]);
+NEW.push(["RIFLESSO", "Immagine di ritorno o reazione rapida"],["RIGATONE", "Pasta che trattiene il sugo"],["RUSCELLO", "Acqua piccola ma in cammino"],["SARACENO", "Arabo medievale nelle cronache cristiane"]);
+NEW.push(["SARGASSO", "Mare famoso per alghe galleggianti"],["SCANDALO", "Rumore morale e pubblico"],["SCARABEO", "Coleottero sacro e gioco di lettere"],["SCARPONE", "Calzatura che non teme sentieri"]);
+NEW.push(["SCIROPPO", "Dolce rimedio da cucchiaio"],["SCULTURA", "Arte che toglie o aggiunge materia"],["SEGGIOLA", "Sedia con nome familiare"],["SENTIERO", "Strada stretta che non vuole asfalto"]);
+NEW.push(["SEPOLCRO", "Tomba con tono solenne"],["SERENATA", "Canto sotto una finestra, almeno in teoria"],["SERPENTE", "Animale senza zampe che cambia pelle"],["SMERALDO", "Verde prezioso da gioielleria"]);
+NEW.push(["SOFFITTO", "Cielo domestico"],["SORGENTE", "Punto da cui l'acqua comincia"],["SPAVENTO", "Paura che arriva di colpo"],["SPIAGGIA", "Confine sabbioso fra terra e mare"]);
+NEW.push(["STECCATO", "Recinto di legno o divisione ideale"],["TACCHINO", "Volatile natalizio e tripletta nel bowling"],["TASTIERA", "File di tasti per musica o lettere"],["TELAMONE", "Figura maschile che regge l'architettura"]);
+NEW.push(["TELEFONO", "Voce a distanza, anche senza filo"],["TEMPESTA", "Disordine violento del cielo e del mare"],["TENAGLIA", "Strumento che afferra con due becchi"],["TERRAZZA", "Esterno domestico sopra il suolo"]);
+NEW.push(["TRAMONTO", "Momento in cui il giorno si spegne"],["TRAPEZIO", "Figura geometrica e attrezzo da acrobati"],["TRATTORE", "Motore lento che lavora la terra"],["TRIDENTE", "Forcone a tre punte di Nettuno"]);
+NEW.push(["TROMBONE", "Ottone che scorre per cambiare nota"],["UNICORNO", "Cavallo impossibile con un solo corno"],["USIGNOLO", "Cantore notturno dei poeti"],["VASCELLO", "Nave antica da romanzi di mare"]);
+NEW.push(["VENDETTA", "Giustizia privata, spesso peggiore del torto"],["ZABAIONE", "Crema di uova, zucchero e vino"],["ZAMPILLO", "Acqua che sale per cadere"],["ZUCCHINA", "Ortaggio verde, femminile del diminutivo"]);
 
-// ===================== 6 LETTERE =====================
-NEW.push(
-  ["AMBITO","Campo, settore"],["ANCORA","Tiene ferma la nave"],["ANELLO","Si porta al dito"],
-  ["ANGELO","Creatura celeste con le ali"],["ANGINA","Infiammazione della gola"],["ANGOLO","Lo formano due lati"],
-  ["AQUILA","Rapace simbolo di Roma"],["ARDORE","Passione ardente"],["ARGINE","Trattiene il fiume"],
-  ["ARNESE","Attrezzo da lavoro"],["AVORIO","La zanna dell'elefante"],["AZALEA","Pianta dai fiori rosa"],
-  ["AZIONE","Quota di una societa"],["BACINO","Insenatura o anca"],["BALENA","Il piu grande dei mammiferi"],
-  ["BANANA","Frutto giallo allungato"],["BARILE","Contiene il petrolio"],["BRONZO","Lega di rame e stagno"],
-  ["BUFALO","Da la mozzarella"],["CACCIA","Va a prede"],["CALCIO","Sport con il pallone"],
-  ["CAMINO","Il focolare di casa"],["CANALE","Corso d'acqua artificiale"],["CAROTA","Ortaggio arancione"],
-  ["CENERE","Resta dopo il fuoco"],["CHIAVE","Apre la serratura"],["CHIESA","Edificio di culto"],
-  ["CINEMA","Si proiettano i film"],["CIUFFO","Ciocca di capelli"],["CODICE","Insieme di regole"],
-  ["COLORE","Rosso, blu o giallo"],["COMETA","Astro con la coda"],["COMODO","Confortevole"],
-  ["CORONA","Cinge il capo del re"],["COTONE","Fibra naturale per magliette"],["CUCINA","Vi si preparano i pasti"],
-  ["DIESEL","Carburante del camion"],["DOMINO","Gioco con le tessere"],["EFFIGE","Immagine, ritratto"],
-  ["ENZIMA","Catalizzatore biologico"],["ERRORE","Sbaglio, svista"],["ESTATE","La stagione calda"],
-  ["FABBRO","Lavora il ferro"],["FAGGIO","Albero dei boschi montani"],["FANALE","Faro dell'auto"],
-  ["FARINA","Si macina dal grano"],["FATICA","Sforzo intenso"],["FAVOLA","Racconto con la morale"],
-  ["FEBBRE","Temperatura alta del corpo"],["FENICE","Risorge dalle sue ceneri"],["FERITA","Taglio sulla pelle"],
-  ["FIBBIA","Chiude la cintura"],["FIGURA","Forma, sagoma"],["FINALE","L'ultima partita"],
-  ["FORMICA","Insetto operoso"],["GABBIA","Rinchiude l'uccellino"],["GALERA","La prigione"],
-  ["GELATO","Dolce freddo estivo"],["GENERE","Tipo, categoria"],["GHETTO","Quartiere segregato"],
-  ["GIACCA","Capo sopra la camicia"],["GIRINO","La larva della rana"],["GIUGNO","Il mese dell'estate"],
-  ["GOMITO","Piega il braccio"],["GRAPPA","Distillato di vinacce"],["GROTTA","Cavita naturale"],
-  ["GRUPPO","Insieme di persone"],["GUANTO","Copre la mano"],["IGUANA","Grosso rettile tropicale"],
-  ["INDACO","Blu intenso"],["INERTE","Immobile, inattivo"],["LAGUNA","Quella di Venezia"],
-  ["LEGAME","Vincolo, rapporto"],["LIMONE","Agrume giallo e aspro"],["LINGUA","Idioma o organo del gusto"],
-  ["LUMACA","Lascia la bava lenta"],["MAGLIA","Indumento di lana"],["MANICA","Avvolge il braccio"],
-  ["MANTRA","Formula da ripetere"],["MELONE","Frutto estivo dolce"],["METODO","Modo ordinato di fare"],
-  ["MIMOSA","Fiore giallo dell'8 marzo"],["MISURA","Si prende col metro"],["MOBILE","Tavolo o armadio"],
-  ["MONACO","Vive in convento"],["MORALE","L'insegnamento della favola"],["MOTORE","Muove l'automobile"],
-  ["MULINO","Macina il grano"],["NEMICO","L'avversario"],["NIENTE","Nulla del tutto"],
-  ["NIPOTE","Il figlio del figlio"],["NUVOLA","Porta la pioggia"],["OFFESA","Insulto, ingiuria"],
-  ["OSCURO","Buio, tenebroso"],["OTTONE","Lega di rame e zinco"],["PALUDE","Terreno acquitrinoso"],
-  ["PANINO","Imbottito col prosciutto"],["PARETE","Il muro della stanza"],["PAROLA","Insieme di lettere"],
-  ["PATATA","Tubero da friggere"],["PAVONE","Fa la ruota colorata"],["PEDALE","Si spinge in bici"],
-  ["PEPITA","Pezzo d'oro grezzo"],["PETALO","Parte colorata del fiore"],["PIANTA","Vegetale con radici"],
-  ["PIATTO","Vi si mette il cibo"],["PIAZZA","Spazio aperto in citta"],["PILOTA","Guida l'aereo"],
-  ["PINOLO","Seme della pigna"],["PIRATA","Bucaniere dei mari"],["PITONE","Grosso serpente costrittore"],
-  ["POMATA","Crema medicinale"],["POTERE","Autorita, facolta"],["PRANZO","Il pasto di mezzogiorno"],
-  ["PUGILE","Tira pugni sul ring"],["QUADRO","Dipinto appeso al muro"],["QUIETE","Calma e tranquillita"],
-  ["RABBIA","Collera furiosa"],["RAPACE","Uccello predatore"],["REGOLA","Norma da seguire"],
-  ["RICAMO","Decorazione cucita"],["RICCIO","Punge col suo manto / di mare"],["RIPOSO","Pausa per riprendersi"],
-  ["RISATA","Scoppio di ilarita"],["RIVALE","L'avversario in gara"],["ROCCIA","Masso di pietra dura"],
-  ["ROVERE","Robusta quercia"],["ROVINA","Crollo, disastro"],["RUMORE","Suono fastidioso"],
-  ["SALAME","Insaccato a fette"],["SALICE","Albero piangente"],["SALONE","Grande sala"],
-  ["SALUTO","Ciao o arrivederci"],["SAPONE","Per lavarsi le mani"],["SAPORE","Dolce, salato, amaro"],
-  ["SCHEDA","Cartoncino con dati"],["SEDANO","Ortaggio a coste verdi"],["SESAMO","Apriti...!"],
-  ["SFINGE","Mostro con corpo di leone"],["SILURO","Arma subacquea"],["SIRENA","Donna-pesce ammaliatrice"],
-  ["SOGLIA","L'ingresso della porta"],["SPALLA","Sostiene il braccio"],["SPECIE","Categoria di esseri viventi"],
-  ["SQUALO","Predatore del mare"],["STAGNO","Piccolo lago fermo"],["STALLA","Ricovero delle mucche"],
-  ["STANZA","Vano della casa"],["STELLA","Brilla nel cielo notturno"],["STORIA","Racconto del passato"],
-  ["STRADA","La percorrono le auto"],["STREGA","Vola sulla scopa"],["SUDORE","Esce con la fatica"],
-  ["TEMPIO","Luogo sacro antico"],["TENORE","Voce maschile acuta"],["TEORIA","Insieme di ipotesi"],
-  ["TESORO","Forziere di ricchezze"],["TIMORE","Paura, apprensione"],["TONACA","La veste del frate"],
-  ["TORACE","Il petto"],["TORERO","Affronta il toro"],["TORNEO","Competizione a eliminazione"],
-  ["TROFEO","La coppa del vincitore"],["TROPPO","Piu del necessario"],["TRUFFA","Raggiro, inganno"],
-  ["TUMORE","Massa di cellule malata"],["TUNICA","Veste lunga e ampia"],["TUTORE","Sostiene la pianta / il minore"],
-  ["UNIONE","Insieme, alleanza"],["VAGONE","Carrozza del treno"],["VALORE","Quanto vale qualcosa"],
-  ["VAPORE","Acqua che bolle"],["VEDOVA","Ha perso il marito"],["VELENO","Sostanza letale"],
-  ["VELOCE","Rapido, svelto"],["VENERE","La dea della bellezza"],["VERMUT","Vino aromatizzato da aperitivo"],
-  ["VICINO","Non lontano / il dirimpettaio"],["VIGILE","Dirige il traffico"],["VIGORE","Forza ed energia"],
-  ["VIMINI","Per le sedie intrecciate"],["ZEFIRO","Vento leggero di ponente"]
-);
+// ===================== 9 LETTERE (57 voci) =====================
+NEW.push(["AEROPORTO", "Citta delle partenze e degli arrivi"],["ASTERISCO", "Stellina che rimanda in nota"],["ATLANTICO", "Oceano fra vecchio e nuovo mondo"],["BABILONIA", "Citta di torri, esili e confusione"]);
+NEW.push(["BALLERINA", "Sta sulle punte per mestiere"],["BELVEDERE", "Luogo fatto per guardare bene"],["BERSAGLIO", "Punto che attira frecce e colpi"],["BOSCHETTO", "Piccolo bosco quasi domestico"]);
+NEW.push(["CAVALIERE", "Titolo, ordine o combattente a cavallo"],["CERBIATTO", "Giovane cervo da occhi grandi"],["CERIMONIA", "Forma solenne data agli eventi"],["CINGHIALE", "Selvatico con zanne e setole"]);
+NEW.push(["COMIGNOLO", "Piccola uscita del fumo sul tetto"],["CREPACCIO", "Ferita profonda nel ghiaccio"],["CRISALIDE", "Attesa immobile prima delle ali"],["CRISTALLO", "Vetro nobile e struttura ordinata"]);
+NEW.push(["ECLETTICO", "Sceglie da piu stili senza fissarsi"],["FORMAGGIO", "Latte diventato forma e stagionatura"],["GIACIGLIO", "Letto povero, spesso improvvisato"],["GRANCASSA", "Tamburo grande e propaganda esagerata"]);
+NEW.push(["IPPOCAMPO", "Cavalluccio marino e parte del cervello"],["IPPOGRIFO", "Creatura fantastica da poema cavalleresco"],["LABIRINTO", "Strada che si moltiplica per confondere"],["LATITANTE", "Assente per sfuggire alla legge"]);
+NEW.push(["LIBELLULA", "Insetto volante che sembra un piccolo elicottero"],["LUCIGNOLO", "Stoppino e cattivo compagno di Pinocchio"],["MADRIGALE", "Componimento poetico e musicale antico"],["MAESTRALE", "Vento di nord-ovest e guida marinaresca"]);
+NEW.push(["MANDARINO", "Agrume, lingua e funzionario imperiale"],["MELAGRANA", "Frutto dai molti semi rubini"],["MERIDIANA", "Orologio che chiede il sole"],["ORECCHINO", "Gioiello sospeso al lobo"]);
+NEW.push(["ORIZZONTE", "Linea irraggiungibile dello sguardo"],["ORNAMENTO", "Aggiunta che abbellisce senza reggere"],["PALAFITTA", "Casa sollevata sull'acqua"],["PARADOSSO", "Verita travestita da assurdo"]);
+NEW.push(["PELLICCIA", "Abito caldo e questione etica"],["PROVINCIA", "Territorio intermedio fra comune e regione"],["RAGANELLA", "Piccola rana o strumento rumoroso"],["RAGNATELA", "Opera geometrica del ragno"]);
+NEW.push(["RAVANELLO", "Radice rossa dal morso piccante"],["RICCHEZZA", "Abbondanza che non e solo denaro"],["SALMERINO", "Pesce d'acqua fredda da torrente"],["SCALPELLO", "Lama dello scultore e del chirurgo"]);
+NEW.push(["SCORPIONE", "Artropode con coda armata e segno zodiacale"],["SOLITARIO", "Solo, o gioco con carte e pazienza"],["SPLENDORE", "Luce portata al massimo"],["STAMBECCO", "Capra alpina da corna arcuate"]);
+NEW.push(["STRUMENTO", "Mezzo per fare o far musica"],["TALISMANO", "Oggetto che promette fortuna"],["TARANTOLA", "Ragno peloso da paure e pizzica"],["TARTARUGA", "Lenta corazza vivente"]);
+NEW.push(["TERRICCIO", "Terra pronta per vasi e semi"],["TRAGHETTO", "Nave breve fra due rive"],["TRIANGOLO", "Tre lati bastano a chiuderlo"],["VENTAGLIO", "Apre e muove aria a mano"]);
+NEW.push(["VIANDANTE", "Camminatore da strade antiche"]);
 
-// ===================== 7 LETTERE =====================
-NEW.push(
-  ["ALBERGO","Ci si pernotta in viaggio"],["ALLEGRO","Di buon umore"],["ARANCIO","Albero degli agrumi"],
-  ["ARMADIO","Custodisce i vestiti"],["ATLANTE","Raccolta di carte geografiche"],["AUTUNNO","Cadono le foglie"],
-  ["BACHECA","Vi si appendono gli avvisi"],["BALCONE","Sporge dalla facciata"],["BAMBINO","Piccolo di eta"],
-  ["BARBONE","Cane riccioluto / senzatetto"],["BARCONE","Grossa imbarcazione"],["BATTITO","Il pulsare del cuore"],
-  ["BOTTEGA","Piccolo negozio artigiano"],["BOTTONE","Si cuce sulla camicia"],["BRACCIO","Arto superiore"],
-  ["BRINDISI","Si fa coi calici"],["BUSSOLA","Indica il nord"],["CANTINA","Si conserva il vino"],
-  ["CAPANNA","Rifugio rustico"],["CARDINE","Su cui gira la porta"],["CARTONE","La scatola di imballo"],
-  ["CASCATA","Salto d'acqua"],["CAVALLO","Galoppa nella prateria"],["CAVERNA","Grotta profonda"],
-  ["CAVIALE","Uova di storione pregiate"],["CEMENTO","Lega i mattoni"],["CHIMERA","Sogno irrealizzabile"],
-  ["CICOGNA","Porta i bambini, si dice"],["CINGHIA","Cintura di cuoio"],["CIPOLLA","Fa lacrimare in cucina"],
-  ["CLARINO","Strumento a fiato di legno"],["COLLINA","Rilievo dolce"],["COLOMBA","Simbolo della pace"],
-  ["COLONNA","Sostiene il tempio greco"],["CORALLO","Rosso, cresce nei mari caldi"],["CORTILE","Spazio interno del palazzo"],
-  ["COSTUME","Si indossa al mare"],["CRATERE","La bocca del vulcano"],["CUSCINO","Sotto la testa nel letto"],
-  ["DELFINO","Mammifero marino intelligente"],["DESERTO","Distesa di sabbia arida"],["DIADEMA","Corona preziosa femminile"],
-  ["DIPLOMA","Si ottiene a fine scuola"],["DRAGONE","Mostro sputafuoco"],["FAGIANO","Uccello dal piumaggio vistoso"],
-  ["FANTINO","Cavalca nel palio"],["FERMATA","Dove sale l'autobus"],["FORBICE","Taglia la carta"],
-  ["FORTINO","Piccola fortezza"],["FOSSILE","Resto pietrificato antico"],["FRAGOLA","Frutto rosso primaverile"],
-  ["FRECCIA","Scoccata dall'arco"],["FUMETTO","Storia a nuvolette"],["GALLINA","Depone le uova"],
-  ["GALOPPO","Corsa veloce del cavallo"],["GAMBERO","Cammina all'indietro"],["GEMELLO","Nato nello stesso parto"],
-  ["GENTILE","Cortese e garbato"],["GERANIO","Fiore da balcone"],["GIUNGLA","Foresta tropicale fitta"],
-  ["GONDOLA","La barca di Venezia"],["GORILLA","La scimmia piu grande"],["GRAFITE","La mina della matita"],
-  ["INSEGNA","Cartello del negozio"],["INVERNO","La stagione fredda"],["ISTANTE","Un attimo brevissimo"],
-  ["ISTRICE","Roditore con gli aculei"],["LAMPADA","Fa luce sulla scrivania"],["LAMPONE","Frutto rosso del bosco"],
-  ["LASAGNA","Pasta al forno a strati"],["LAVAGNA","Si scrive col gesso"],["LIBRAIO","Vende libri"],
-  ["LIQUORE","Bevanda alcolica dolce"],["MACELLO","Vi si abbattono le bestie"],["MARGINE","Bordo del foglio"],
-  ["MATTONE","Si usa per murare"],["METEORA","Stella cadente"],["MIDOLLO","Dentro le ossa"],
-  ["MIGNOLO","Il dito piu piccolo"],["MONTONE","Il maschio della pecora"],["MUSCOLO","Si contrae e muove l'osso"],
-  ["NETTARE","Bevanda degli dei"],["OCARINA","Piccolo strumento a fiato"],["OFFERTA","Proposta vantaggiosa"],
-  ["ORACOLO","Predice il futuro"],["ORIGANO","Aroma della pizza"],["PADELLA","Per friggere"],
-  ["PADRONE","Il proprietario"],["PALAZZO","Grande edificio"],["PASSERO","Uccellino di citta"],
-  ["PASTORE","Custodisce il gregge"],["PENTOLA","Bolle sul fuoco"],["PIANETA","Orbita intorno al sole"],
-  ["PICCONE","Attrezzo del minatore"],["PISELLO","Legume verde nel baccello"],["PISTOLA","Arma da fuoco corta"],
-  ["POLLAIO","La casa delle galline"],["PORTONE","Il grande portale d'ingresso"],["PRESEPE","Natale: grotta e pastori"],
-  ["PRIMULA","Fiorellino di inizio primavera"],["PROFUMO","Fragranza gradevole"],["PULCINO","Il piccolo della gallina"],
-  ["QUERCIA","Albero della ghianda"],["RICETTA","Le istruzioni del piatto"],["RIMEDIO","La cura del male"],
-  ["RONDINE","Torna a primavera"],["ROSARIO","Si recita con i grani"],["SARDINA","Pesciolino in scatola"],
-  ["SCATOLA","Contenitore di cartone"],["SCHIENA","La parte dorsale"],["SCOPPIO","Esplosione fragorosa"],
-  ["SIGNORE","Uomo distinto"],["SIMBOLO","Segno che rappresenta"],["SIPARIO","Si apre sul palco"],
-  ["SOLDATO","Veste la divisa militare"],["SORELLA","La figlia degli stessi genitori"],["SORRISO","Espressione lieta"],
-  ["SPINACI","Verdura di Braccio di Ferro"],["SPIRITO","L'anima / il fantasma"],["TACCHINO","Si mangia a Natale"],
-  ["TALENTO","Dote naturale"],["TAMBURO","Si suona con le bacchette"],["TAPPETO","Copre il pavimento"],
-  ["TARTUFO","Fungo pregiato sotterraneo"],["TERMINE","La fine, la scadenza"],["TERRORE","Paura estrema"],
-  ["TIRANNO","Despota crudele"],["TORNADO","Tromba d'aria devastante"],["TRAPANO","Fa i buchi nel muro"],
-  ["UCCELLO","Vola con le ali e il becco"],["UFFICIO","Vi si lavora alla scrivania"],["VESCOVO","Guida la diocesi"],
-  ["VETRINA","Espone la merce del negozio"],["VIAGGIO","Spostamento lontano"],["VIOLINO","Si suona con l'archetto"],
-  ["VULCANO","Erutta lava"],["ZAFFIRO","Pietra preziosa blu"],["ZENZERO","Radice piccante orientale"],
-  ["ZOCCOLO","Calzatura di legno"]
-);
+// ===================== 10 LETTERE (15 voci) =====================
+NEW.push(["CAVALLETTA", "Insetto saltatore e sostegno da pittore"],["CITTADELLA", "Fortezza dentro o accanto alla citta"],["COCCINELLA", "Coleottero rosso portafortuna"],["DROMEDARIO", "Ha una gobba e molta pazienza desertica"]);
+NEW.push(["ELICOTTERO", "Velivolo che si solleva girando"],["FRINGUELLO", "Uccello minuto dei fringillidi"],["GONDOLIERE", "Conduce senza motore nei canali veneziani"],["INCHIOSTRO", "Liquido che rende visibili le parole"]);
+NEW.push(["LENTICCHIA", "Piccolo legume portafortuna"],["LOCOMOTIVA", "Tira il convoglio stando davanti"],["PERDIZIONE", "Rovina morale o amore fatale"],["SALAMANDRA", "Anfibio legato per mito al fuoco"]);
+NEW.push(["SCOIATTOLO", "Roditore arboricolo che fa scorte"],["SINGHIOZZO", "Interruzione ritmica del respiro"],["TAMBURELLO", "Piccolo tamburo e sport da piazza"]);
 
-// ===================== 8 LETTERE =====================
-NEW.push(
-  ["ACQUARIO","Vasca per i pesci"],["ALLODOLA","Uccello canterino dei campi"],["ALTALENA","Va su e giu al parco"],
-  ["AMBIENTE","Cio che ci circonda"],["ANTILOPE","Erbivoro veloce africano"],["ARMATURA","Difesa del cavaliere"],
-  ["ASPARAGO","Ortaggio a turione"],["ASTUCCIO","Custodisce le penne"],["BAGAGLIO","La valigia del viaggio"],
-  ["BANDIERA","Sventola sul pennone"],["BASILICO","Aroma del pesto"],["BISCOTTO","Si inzuppa nel latte"],
-  ["CALAMARO","Mollusco coi tentacoli"],["CALAMITA","Attira il ferro"],["CAMOSCIO","Capra delle Alpi"],
-  ["CAMPIONE","Il vincitore assoluto"],["CANTANTE","Interpreta canzoni"],["CANTIERE","Dove si costruisce"],
-  ["CARABINA","Fucile da caccia"],["CAROVANA","Fila di carri nel deserto"],["CARRELLO","Spinge la spesa"],
-  ["CASTELLO","Maniero medievale"],["CENTAURO","Mezzo uomo e mezzo cavallo"],["CERVELLO","Sede del pensiero"],
-  ["CETRIOLO","Ortaggio verde da insalata"],["COCOMERO","L'anguria"],["COLOSSEO","Anfiteatro di Roma"],
-  ["CONIGLIO","Roditore dalle lunghe orecchie"],["CONTESSA","Moglie del conte"],["CORNETTA","La parte del telefono"],
-  ["CRISTALLO","Vetro pregiato"],["CROSTATA","Torta con la marmellata"],["CUCCIOLO","Il piccolo del cane"],
-  ["DENTISTA","Cura i denti"],["DIAMANTE","La piu dura delle pietre"],["ELEFANTE","Pachiderma con la proboscide"],
-  ["ESERCITO","Le forze armate di terra"],["FANTASMA","Spettro che appare di notte"],["FARFALLA","Vola coi colori sulle ali"],
-  ["FELICITA","Stato di gioia piena"],["FINESTRA","Si apre per arieggiare"],["FRATELLO","Il figlio maschio dei genitori"],
-  ["FRONTONE","Timpano del tempio"],["GABBIANO","Volteggia sul porto"],["GALASSIA","Insieme di miliardi di stelle"],
-  ["GIARDINO","Vi crescono i fiori"],["GIORNALE","Si legge ogni mattina"],["GIRASOLE","Segue il sole nel campo"],
-  ["GRANDINE","Chicchi di ghiaccio dal cielo"],["GRANELLO","Minuscolo frammento"],["INCUDINE","Su cui batte il fabbro"],
-  ["LAMPIONE","Illumina la strada"],["LEOPARDO","Felino maculato"],["MACCHINA","L'automobile"],
-  ["MANTELLO","Mantella che copre le spalle"],["MARTELLO","Pianta i chiodi"],["MERLUZZO","Pesce dal quale l'olio"],
-  ["MINESTRA","Brodo con verdure"],["MONTAGNA","Alto rilievo roccioso"],["MUGHETTO","Fiorellini bianchi a campanella"],
-  ["NOCCIOLO","L'albero della nocciola"],["OFFICINA","Si riparano le auto"],["OMBRELLO","Ripara dalla pioggia"],
-  ["ORCHIDEA","Fiore elegante ed esotico"],["OSPEDALE","Vi si curano i malati"],["PANCETTA","Insaccato per la carbonara"],
-  ["PANCHINA","Per sedersi al parco"],["PIANISTA","Suona il pianoforte"],["PINGUINO","Uccello che non vola, dei poli"],
-  ["PIRAMIDE","Tomba dei faraoni"],["POLTRONA","Comoda con i braccioli"],["PRESEPIO","Natività natalizia"],
-  ["QUADERNO","Per gli appunti di scuola"],["RISOTTO","Piatto di riso mantecato"],["SALOTTO","Stanza con il divano"],
-  ["SCARABEO","Coleottero sacro agli egizi"],["SCARPONE","Calzatura da montagna"],["SCIROPPO","Medicina dolce e liquida"],
-  ["SCULTURA","Statua dell'artista"],["SEGGIOLA","La sedia, familiarmente"],["SENTIERO","Stretto cammino di montagna"],
-  ["SERPENTE","Striscia senza zampe"],["SOFFITTO","La parte alta della stanza"],["SORGENTE","Da cui sgorga l'acqua"],
-  ["SPAVENTO","Paura improvvisa"],["SPIAGGIA","Sabbia in riva al mare"],["TASTIERA","Si digita al computer"],
-  ["TELEFONO","Si compone il numero"],["TEMPESTA","Burrasca violenta"],["TERRAZZA","Ampio balcone panoramico"],
-  ["TRAMONTO","Il sole cala all'orizzonte"],["TRAPEZIO","Quadrilatero / attrezzo del circo"],["TRATTORE","Lavora nei campi"],
-  ["TROMBONE","Ottone con la coulisse"],["USIGNOLO","Canta melodioso di notte"],["ZUCCHINA","Ortaggio verde allungato"]
-);
-
-// ===================== 9+ LETTERE =====================
-NEW.push(
-  ["COCCINELLA","Rossa a pois neri, porta fortuna"],["COCCODRILLO","Rettile delle paludi africane"],
-  ["ELICOTTERO","Vola con le pale rotanti"],["FENICOTTERO","Trampoliere rosa"],
-  ["LIBELLULA","Insetto con quattro ali trasparenti"],["LOCOMOTIVA","Traina i vagoni"],
-  ["MANDARINO","Agrume facile da sbucciare"],["ORECCHINO","Pende dal lobo"],
-  ["PROVINCIA","Suddivisione della regione"],["RICCHEZZA","Abbondanza di beni"],
-  ["SCOIATTOLO","Roditore con la coda folta"],["SCORPIONE","Punge con la coda"],
-  ["TARTARUGA","Lenta, con il guscio"],["TRIANGOLO","Poligono a tre lati"],
-  ["VENTAGLIO","Fa aria nelle giornate calde"],["BALLERINA","Danza sulle punte"],
-  ["AEROPORTO","Decollano gli aerei"],["CAVALIERE","Combatte in armatura"]
-);
+// ===================== 11 LETTERE (4 voci) =====================
+NEW.push(["COCCODRILLO", "Rettilone da lacrime proverbiali"],["FENICOTTERO", "Uccello rosa su zampe sottili"],["MONGOLFIERA", "Pallone che sale scaldando aria"],["PUNGIGLIONE", "Ago naturale di chi punge"]);
 
 module.exports = NEW;
