@@ -1,0 +1,20 @@
+{
+  "name": "Cruciverba",
+  "short_name": "Cruciverba",
+  "description": "Cruciverba italiano giocabile anche offline.",
+  "lang": "it",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#E9E3D6",
+  "theme_color": "#E9E3D6",
+  "icons": [
+    {
+      "src": "./icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

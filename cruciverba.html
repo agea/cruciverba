@@ -5,7 +5,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+<meta name="apple-mobile-web-app-title" content="Cruciverba" />
 <meta name="theme-color" content="#E9E3D6" />
+<meta name="description" content="Cruciverba italiano giocabile anche offline." />
+<link rel="manifest" href="./manifest.webmanifest" />
+<link rel="icon" href="./icons/icon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="./icons/icon.svg" />
 <title>Cruciverba</title>
 <style>
   :root{
@@ -202,6 +207,21 @@
   }
   .toast.show{opacity:1; transform:translateX(-50%) translateY(0);}
 
+  .update-bar{
+    position:fixed; left:50%; bottom:calc(var(--kbd-h) + 18px); z-index:60;
+    transform:translateX(-50%) translateY(20px); display:flex; align-items:center; gap:10px;
+    max-width:min(92vw,420px); padding:10px 10px 10px 14px;
+    background:var(--ink); color:var(--paper); border:1px solid rgba(244,239,228,.28);
+    border-radius:12px; box-shadow:0 12px 30px rgba(42,39,34,.24);
+    opacity:0; pointer-events:none; transition:opacity .2s, transform .2s;
+  }
+  .update-bar.show{opacity:1; transform:translateX(-50%) translateY(0); pointer-events:auto;}
+  .update-bar span{font-size:14px; font-weight:600; line-height:1.25;}
+  .update-bar button{
+    border:1px solid var(--paper); border-radius:9px; background:var(--paper); color:var(--ink);
+    padding:7px 10px; font:600 13px var(--font-ui); cursor:pointer; white-space:nowrap;
+  }
+
   /* ---------- responsive: portrait / stretto ---------- */
   .clue-toggle{display:none;}
   @media (max-aspect-ratio:1/1), (max-width:760px){
@@ -297,6 +317,10 @@
   </div>
 
   <div class="toast" id="toast"></div>
+  <div class="update-bar" id="updateBar" role="status" aria-live="polite">
+    <span>Nuova versione disponibile</span>
+    <button type="button" id="updateBtn">Aggiorna</button>
+  </div>
 
   <!-- ===================== GENERATORE (Web Worker, off-thread) ===================== -->
   <script id="worker-src" type="javascript/worker">
@@ -1306,6 +1330,64 @@ const CRUCI_DB = [
 
     function closeCluePaneMobile(){ $("cluePane").classList.remove("open"); }
 
+    // ---------- PWA / aggiornamenti ----------
+    function setupPwa(){
+      var refreshing=false;
+      var updateBar=$("updateBar");
+      var updateBtn=$("updateBtn");
+      var waitingWorker=null;
+      var updateReady=false;
+
+      function showUpdate(worker){
+        if(worker) waitingWorker=worker;
+        updateReady=true;
+        updateBar.classList.add("show");
+      }
+      function applyUpdate(){
+        if(waitingWorker) waitingWorker.postMessage({ type:"SKIP_WAITING" });
+        else if(updateReady) window.location.reload();
+      }
+      function checkVersion(){
+        fetch("./version.json?t="+Date.now(), { cache:"no-store" })
+          .then(function(res){ return res.ok ? res.json() : null; })
+          .then(function(info){
+            if(!info || !info.version) return;
+            var last=localStorage.getItem("cruci_app_version");
+            if(last && last!==info.version) showUpdate(null);
+            localStorage.setItem("cruci_app_version", info.version);
+          })
+          .catch(function(){});
+      }
+
+      updateBtn.addEventListener("click", applyUpdate);
+      checkVersion();
+      setInterval(checkVersion, 30*60*1000);
+
+      if(!("serviceWorker" in navigator)) return;
+
+      navigator.serviceWorker.addEventListener("controllerchange", function(){
+        if(refreshing) return;
+        refreshing=true;
+        window.location.reload();
+      });
+
+      navigator.serviceWorker.register("./sw.js").then(function(reg){
+        if(reg.waiting && navigator.serviceWorker.controller) showUpdate(reg.waiting);
+
+        reg.addEventListener("updatefound", function(){
+          var worker=reg.installing;
+          if(!worker) return;
+          worker.addEventListener("statechange", function(){
+            if(worker.state==="installed" && navigator.serviceWorker.controller) showUpdate(worker);
+          });
+        });
+
+        function checkForUpdate(){ reg.update().catch(function(){}); }
+        checkForUpdate();
+        setInterval(checkForUpdate, 30*60*1000);
+      }).catch(function(){});
+    }
+
     // ---------- eventi UI ----------
     $("newBtn").addEventListener("click", newPuzzle);
     $("ovBtn").addEventListener("click", newPuzzle);
@@ -1336,6 +1418,7 @@ const CRUCI_DB = [
     // ---------- avvio ----------
     buildKeyboard();
     syncDiffButtons();
+    setupPwa();
     if(!load()){ newPuzzle(); }
   })();
   </script>

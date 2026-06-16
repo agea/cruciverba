@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="96" fill="#e9e3d6"/>
+  <rect x="74" y="74" width="364" height="364" rx="28" fill="#2a2722"/>
+  <g fill="#f4efe4">
+    <rect x="104" y="104" width="66" height="66" rx="8"/>
+    <rect x="171" y="104" width="66" height="66" rx="8"/>
+    <rect x="238" y="104" width="66" height="66" rx="8"/>
+    <rect x="305" y="104" width="66" height="66" rx="8"/>
+    <rect x="104" y="171" width="66" height="66" rx="8"/>
+    <rect x="238" y="171" width="66" height="66" rx="8"/>
+    <rect x="372" y="171" width="36" height="66" rx="8"/>
+    <rect x="104" y="238" width="66" height="66" rx="8"/>
+    <rect x="171" y="238" width="66" height="66" rx="8"/>
+    <rect x="238" y="238" width="66" height="66" rx="8"/>
+    <rect x="305" y="238" width="66" height="66" rx="8"/>
+    <rect x="104" y="305" width="66" height="66" rx="8"/>
+    <rect x="238" y="305" width="66" height="66" rx="8"/>
+    <rect x="372" y="305" width="36" height="66" rx="8"/>
+    <rect x="104" y="372" width="66" height="36" rx="8"/>
+    <rect x="171" y="372" width="66" height="36" rx="8"/>
+    <rect x="238" y="372" width="66" height="36" rx="8"/>
+  </g>
+  <g fill="#c77a2b" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="54">
+    <text x="121" y="153">C</text>
+    <text x="189" y="153">R</text>
+    <text x="257" y="153">U</text>
+  </g>
+</svg>
