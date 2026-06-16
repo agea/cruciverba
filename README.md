@@ -89,7 +89,7 @@ Produce schemi densi in stile Settimana Enigmistica: griglia rettangolare piena 
 | File | Ruolo | Stato |
 |---|---|---|
 | `voci.csv` | Sorgente del database | **Completo** |
-| `cruciverba_db.json` | Database generato, 2080 voci | **Completo** |
+| `cruciverba_db.json` | Database generato da `builddb.js` | **Non versionato** |
 | `gen_dense.js` | Generatore denso | **Completo e validato** |
 | `builddb.js` | Script di build del DB | Completo |
 | `index.html` | App giocabile PWA | **Completo** |
