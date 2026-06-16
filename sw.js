@@ -49,7 +49,10 @@ self.addEventListener("fetch", (event) => {
         }).catch(() => cached || caches.match("./index.html"));
       }
 
-      if (url.origin === self.location.origin && url.pathname.endsWith("/version.json")) {
+      if (
+        url.origin === self.location.origin &&
+        (url.pathname.endsWith("/version.json") || url.pathname.endsWith("/cruciverba_db.json"))
+      ) {
         return fetch(request).then((response) => {
           if (response && response.status === 200) {
             const copy = response.clone();

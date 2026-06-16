@@ -985,6 +985,8 @@ const CRUCI_DB = [
     var cellWords = [];         // per ogni cella: { 0:wordAcross, 1:wordDown }
     var solved = false;
     var timer = { start:0, elapsed:0, id:null };
+    var dbEntries = null;
+    var dbPromise = null;
 
     // ---------- timer ----------
     function fmt(ms){ var s=Math.floor(ms/1000); var m=Math.floor(s/60); s=s%60; return (m<10?"0":"")+m+":"+(s<10?"0":"")+s; }
@@ -1000,13 +1002,36 @@ const CRUCI_DB = [
     }
     function hideOverlay(){ $("overlay").classList.remove("show"); }
 
+    function loadDb(){
+      if(dbEntries) return Promise.resolve(dbEntries);
+      if(dbPromise) return dbPromise;
+
+      dbPromise = fetch("./cruciverba_db.json", { cache:"no-store" })
+        .then(function(res){
+          if(!res.ok) throw new Error("DB non disponibile");
+          return res.json();
+        })
+        .then(function(entries){
+          if(!Array.isArray(entries) || !entries.length) throw new Error("DB non valido");
+          dbEntries = entries;
+          return dbEntries;
+        })
+        .catch(function(){
+          dbEntries = CRUCI_DB;
+          return dbEntries;
+        });
+      return dbPromise;
+    }
+
     function newPuzzle(){
       showOverlay(true);
       $("ovTitle").textContent="Genero il cruciverba…";
       $("ovText").textContent="Sto incastrando le parole. Ci vuole solo un istante.";
       var opts = Object.assign({ seed:(Date.now()>>>0) }, DIFF[difficulty]);
-      // il lavoro pesante avviene nel worker: il thread principale resta fluido
-      worker.postMessage({ entries: CRUCI_DB, opts: opts });
+      loadDb().then(function(entries){
+        // il lavoro pesante avviene nel worker: il thread principale resta fluido
+        worker.postMessage({ entries: entries, opts: opts });
+      });
     }
 
     worker.onmessage = function(e){

@@ -24,6 +24,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Build database
+        run: node builddb.js
+
       - name: Prepare static site
         run: |
           mkdir _site

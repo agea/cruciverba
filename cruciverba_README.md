@@ -33,19 +33,19 @@ Il Worker viene avviato da un Blob creato a runtime dal sorgente incorporato: qu
 
 `cruciverba_db.json` — array JSON compatto di coppie `["SOLUZIONE", "definizione"]`.
 
-- **1451 voci** totali. Soluzioni in maiuscolo, solo lettere A–Z (accenti e spazi rimossi in fase di build).
+- **2080 voci** totali. Soluzioni in maiuscolo, solo lettere A–Z (accenti e spazi rimossi in fase di build).
 - Distribuzione per lunghezza, calibrata per gli incroci fitti (abbondanza di parole corte):
 
 | Lettere | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Voci | 38 | 104 | 301 | 463 | 237 | 171 | 111 | 19 | 5 | 2 |
+| Voci | 96 | 176 | 413 | 642 | 260 | 245 | 172 | 57 | 15 | 4 |
 
 Le caselle corte (2–3 lettere) sfruttano lo stile classico della Settimana Enigmistica: sigle, targhe automobilistiche, note musicali e simboli chimici.
 
 ### Come estendere il database
 
-1. Aggiungere righe in `newvoci.js` (raggruppate per lunghezza).
-2. Eseguire `node builddb.js`: unisce le voci esistenti e le nuove, **normalizza** (NFD, maiuscolo, solo A–Z), **deduplica** (prima occorrenza vince), **scarta** voci non valide, ordina e riscrive `cruciverba_db.json`.
+1. Aggiungere righe in `voci.csv`, con intestazione `soluzione,definizione`.
+2. Eseguire `node builddb.js`: legge il CSV, **normalizza** (NFD, maiuscolo, solo A–Z), **deduplica** (prima occorrenza vince), **scarta** voci non valide, ordina e riscrive `cruciverba_db.json`.
 
 ---
 
@@ -88,11 +88,11 @@ Produce schemi densi in stile Settimana Enigmistica: griglia rettangolare piena 
 
 | File | Ruolo | Stato |
 |---|---|---|
-| `cruciverba_db.json` | Database, 1451 voci | **Completo** |
+| `voci.csv` | Sorgente del database | **Completo** |
+| `cruciverba_db.json` | Database generato, 2080 voci | **Completo** |
 | `gen_dense.js` | Generatore denso | **Completo e validato** |
-| `newvoci.js` | Sorgente voci (per estendere il DB) | Completo |
 | `builddb.js` | Script di build del DB | Completo |
-| `cruciverba.html` | App giocabile | **v1** (free-form, DB inline) |
+| `cruciverba.html` | App giocabile | **v1** (free-form, DB esterno con fallback inline) |
 
 ---
 
