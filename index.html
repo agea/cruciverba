@@ -628,15 +628,19 @@
       renderLetters();
       toast(!any? "Compila qualche casella" : (wrong===0? "Tutto corretto finora!" : (wrong+" "+(wrong===1?"lettera sbagliata":"lettere sbagliate"))));
     }
-    function revealCells(cells){
+    function revealCells(cells, opts){
       cells.forEach(function(cl){ userGrid[cl.r][cl.c]=puzzle.cells[cl.r][cl.c].ch; revealed[cl.r][cl.c]=true; checked[cl.r][cl.c]=false; });
-      renderLetters(); afterChange();
+      renderLetters();
+      if(opts && opts.skipWin){ markDoneClues(); save(); }
+      else afterChange();
     }
     function revealLetter(){ if(active) revealCells([{r:active.r,c:active.c}]); }
     function revealWord(){ var w=currentWord(); if(w) revealCells(w.cells); }
     function solveAll(){
       var all=[]; for(var r=0;r<puzzle.height;r++) for(var c=0;c<puzzle.width;c++) if(puzzle.cells[r][c]) all.push({r:r,c:c});
-      revealCells(all);
+      revealCells(all, { skipWin:true });
+      solved=true; stopTimer(); $("timer").classList.add("solved");
+      toast("Soluzione mostrata");
     }
     function clearAll(){
       for(var r=0;r<puzzle.height;r++) for(var c=0;c<puzzle.width;c++){ if(!puzzle.cells[r][c]) continue; userGrid[r][c]=""; checked[r][c]=false; revealed[r][c]=false; }
