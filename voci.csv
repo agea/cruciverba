@@ -256,7 +256,7 @@ TIR,Bestione autostradale
 TOP,"Il massimo, in inglese entrato nell'uso"
 TOT,Quantità imprecisa ma fissata
 TRA,Sta in mezzo anche quando è preposizione
-TRE,Il primo dispari dopo l'unità composta
+TRE,Numero dispari dopo il due
 UDO,Sento in un verbo poco quotidiano
 UFO,Appare nei cieli di chi non sa identificarlo
 UNO,"Numero, carta o pronome impersonale"
@@ -291,7 +291,7 @@ ALCE,Cervide che porta un palco senza teatro
 ALFA,Prima lettera greca e marchio d'auto
 ALGA,Pianta acquatica semplice
 ALPE,Rilievo alpino in forma singolare
-AMBA,Numero secco al lotto
+AMBA,Altura isolata dell’altopiano etiopico
 AMBO,Coppia vincente sulla ruota
 AMEN,Chiusura liturgica in quattro lettere
 ANCA,Giuntura laterale da ballerino e ortopedico
@@ -443,7 +443,7 @@ GOAL,Rete che non si pesca
 GOLA,Tra voce e appetito
 GOLF,Sport di buche e maglione sportivo
 GONG,Dichiara concluso il round
-GOTO,Barbaro che entro nella storia di Roma
+GOTO,Barbaro entrato nella storia di Roma
 GRUS,Costellazione australe della Gru
 GUAI,Arrivano quando i conti non tornano
 GUAM,Isola del Pacifico legata agli Stati Uniti
@@ -487,8 +487,8 @@ LOBO,Parte molle o sezione anatomica
 LODE,Parola di approvazione o voto pieno
 LODI,Città lombarda sull'Adda
 LOGO,Volto grafico di un marchio
-LORO,Appartiene ad altri
-LOTO,Fiore orientale e gioco di numeri
+LORO,Possessivo di terza persona plurale
+LOTO,Fiore sacro all’Oriente
 LUCE,La cerca chi brancola
 LUME,Lampada d'altri tempi e intelletto
 LUNA,Satellite della Terra
@@ -652,7 +652,7 @@ SOLE,Astro che non ha bisogno di lampioni
 SOLO,Senza compagnia o pezzo da virtuoso
 STAR,Stella importata dallo spettacolo
 STOP,Ordine breve che ferma
-SUMO,Lotta in cui il peso e disciplina
+SUMO,Lotta giapponese in cui peso e disciplina contano
 SURF,Tavola che cavalca onde
 TABU,Divieto non sempre scritto
 TALE,Individuo non precisato
@@ -1030,7 +1030,7 @@ ISIDE,La grande dea egizia sposa di Osiride
 ISOLA,Terra circondata dall'acqua
 ISTMO,Stretta terra fra due acque
 JOLLY,Carta senza ruolo fisso
-KENYA,Paese africano dei safari e del Kilimangiaro vicino
+KENYA,Paese africano di Nairobi e dei safari
 LADRO,Prende ciò che non gli spetta
 LAGNA,Lamento che si allunga
 LAMPO,Luce brevissima prima del tuono
@@ -1067,7 +1067,7 @@ LOIRA,Fiume dei castelli francesi
 LOTTA,Scontro regolato o quotidiano
 LOTTO,Gioco di numeri e terreno edificabile
 LUCIA,Nome manzoniano e luminosa santa
-LUMEN,Misura di luce o cavita anatomica
+LUMEN,Misura di luce o cavità anatomica
 LUNGO,"Esteso, anche nel caffè"
 LUPUS,Lupo latino e malattia autoimmune
 LUSSO,Superfluo costoso
@@ -1098,7 +1098,7 @@ MARZO,Mese di vento e idi
 MASSA,"Quantità, folla o proprietà fisica"
 MATTO,Fuori di senno o finale degli scacchi
 MAZZA,Bastone da colpire o mazzo pesante
-MEDEA,Aiuto Giasone e poi si vendico
+MEDEA,Aiutò Giasone e poi si vendicò
 MEDIO,Sta tra due estremi
 MENSA,Tavola comune e servizio aziendale
 MENTA,"Profuma gomme, liquori e giardini"
@@ -1233,7 +1233,7 @@ POZZO,Buco profondo per l'acqua
 PRADA,La Miuccia della moda italiana
 PRAGA,Capitale ceca sulla Moldava
 PRATO,Distesa d'erba
-PREDA,Chi e cercato dal cacciatore
+PREDA,Chi è braccato dal cacciatore
 PREGO,Cortesia dopo un grazie
 PRESA,"Attacco, corrente o conquista"
 PRETE,Uomo d'altare
@@ -1289,7 +1289,7 @@ RUSPA,Macchina che spiana e sposta
 SACCO,Contenitore di tela
 SAGRA,Festa di paese con profumo di cucina
 SALDO,Pagamento finale o sconto stagionale
-SALMA,Corpo quando la vita e assente
+SALMA,Corpo da cui la vita è assente
 SALMO,Canto biblico numerato
 SALSA,Condimento e ritmo latino
 SALTO,Interruzione o balzo
@@ -1625,7 +1625,7 @@ GOMITO,Piega del braccio e colpo scorretto
 GRAPPA,Distillato che nasce dalle vinacce
 GRECIA,Terra dell'Acropoli e delle isole egee
 GRILLO,Insetto canterino
-GROTTA,Cavita naturale da stalattiti
+GROTTA,Cavità naturale da stalattiti
 GRUPPO,Insieme più organizzato della folla
 GUAINA,Rivestimento che protegge e contiene
 GUANTO,Riveste la mano
@@ -1921,7 +1921,7 @@ BASALTO,Roccia vulcanica scura
 BATTITO,Ritmo del cuore o d'ali
 BELLINI,Il Vincenzo della Norma
 BEMOLLE,Abbassa una nota senza far rumore
-BENIGNI,Il Roberto de La vita e bella
+BENIGNI,Il Roberto de La vita è bella
 BERILLO,Pietra che cambia pregio con il colore
 BERMUDA,Arcipelago atlantico del celebre triangolo
 BERNINI,Il Gian Lorenzo del colonnato di San Pietro
@@ -2080,7 +2080,7 @@ GENTILE,Cortese o appartenente a genti non ebraiche
 GEORGIA,Paese caucasico con capitale Tbilisi
 GERANIO,Fiore da balcone resistente
 GHIANDA,Frutto della quercia e promessa di bosco
-GIASONE,Guido gli Argonauti alla conquista del vello
+GIASONE,Guidò gli Argonauti alla conquista del vello
 GIBBOSO,Sporgente come una gobba
 GINECEO,Parte femminile del fiore o casa greca
 GIUNGLA,Vegetazione dove perdersi e metafora d'ufficio
@@ -2178,7 +2178,7 @@ NAMIBIA,Paese africano del deserto del Namib
 NARCISO,Fiore e giovane del mito innamorato di sé
 NARTECE,Ingresso di basilica antica
 NEFANDO,Turpe con parola da tragedia
-NEFRONE,Unita funzionale del rene
+NEFRONE,Unità funzionale del rene
 NEOFITA,Nuovo arrivato in una fede o pratica
 NEPENTE,Oblio in forma di bevanda mitica
 NESTORE,Il vecchio saggio dell'Iliade
@@ -2242,7 +2242,7 @@ PULCINO,Piccolo della gallina
 PULPITO,Alto luogo da cui si predica
 QUERCIA,Albero robusto delle ghiande
 QUERULO,Si lamenta per vocazione
-RADIANE,Unita angolare naturale della circonferenza
+RADIANE,Unità angolare naturale della circonferenza
 RAPSODO,Cantore epico prima dei libri
 RAVELLO,Terrazza amalfitana amata da Wagner
 RAVENNA,Città dei mosaici e di Dante
@@ -2496,7 +2496,7 @@ EMISFERO,Metà di globo o di cervello
 EMPIRICO,Si affida all'esperienza prima che alla teoria
 ENTROPIA,Disordine che ha dignità fisica
 EPIGRAFE,Parole incise per durare
-EPITELIO,Tessuto che riveste superfici e cavita
+EPITELIO,Tessuto che riveste superfici e cavità
 EQUATORE,Il parallelo massimo della Terra
 EQUULEUS,Il Cavallino fra le costellazioni
 ERRATICO,Vaga senza rotta o arriva col ghiacciaio
@@ -3359,7 +3359,7 @@ VIETNAM,Paese lungo la costa indocinese
 HANOI,Capitale del Vietnam
 MALESIA,Paese tra penisola e Borneo
 KUALALUMPUR,Capitale malese con torri celebri
-SINGAPORE,Citta-stato asiatica dei grattacieli
+SINGAPORE,Città-stato asiatica dei grattacieli
 GIACARTA,Capitale indonesiana tradizionale
 FILIPPINE,Arcipelago asiatico di migliaia di isole
 MANILA,Capitale delle Filippine
@@ -3379,7 +3379,7 @@ TEGUCIGALPA,Capitale honduregna
 MANAGUA,Capitale nicaraguense
 SANJOSE,"Capitale costaricana, ma anche città californiana"
 PANAMA,"Istmo, canale e Stato"
-AVANA,Capitale cubana con malecon
+AVANA,Capitale cubana con il Malecón
 KINGSTON,Capitale giamaicana
 PORTAUPRINCE,Capitale haitiana
 NASSAU,Capitale delle Bahamas
@@ -3468,7 +3468,7 @@ NUMA,"Secondo re di Roma, più sacerdote che guerriero"
 NERONE,Imperatore associato all'incendio di Roma
 TRAIANO,Imperatore delle massime conquiste romane
 CARLOMAGNO,Imperatore incoronato nell'800
-CAVOUR,Il conte artefice dell'Unita d'Italia
+CAVOUR,Il conte artefice dell’Unità d’Italia
 MAZZINI,Il Giuseppe della Giovine Italia
 PETRARCA,Il Francesco del Canzoniere
 MANZONI,L'Alessandro dei Promessi sposi
@@ -3478,8 +3478,8 @@ PASCOLI,Poeta del nido e del fanciullino
 DANNUNZIO,Vate di imprese e parole preziose
 SVEVO,Triestino della coscienza di Zeno
 MONTALE,L'Eugenio di Ossi di seppia
-CALVINO,L'Italo delle Citta invisibili
-PAVESE,Il Cesare della Luna e i falo
+CALVINO,L’Italo delle Città invisibili
+PAVESE,Il Cesare della Luna e i falò
 MORANTE,Autrice di romanzi familiari e storici
 MORAVIA,L'Alberto degli Indifferenti
 SHAKESPEARE,Il William dell'Amleto
@@ -3960,7 +3960,7 @@ PRAGMATISMO,Filosofia o atteggiamento che guarda ai risultati
 PRETORIO,Del magistrato romano o del palazzo comunale
 PROCELLARIA,Uccello marino delle tempeste
 PRODIGIO,Evento che sembra oltre natura
-PROLESSI,Anticipo narrativo di ciò che verra
+PROLESSI,Anticipo narrativo di ciò che verrà
 PROMONTORIO,Terra alta che avanza nel mare
 PROPOLI,Resina delle api usata come difesa
 PROSODIA,Musica interna della lingua
@@ -4108,7 +4108,7 @@ TRACHEA,Tubo dell'aria verso i polmoni
 TRACOMA,Malattia infettiva dell'occhio
 TRANSENNA,Barriera provvisoria da folla
 TRAPEZISTA,Acrobata sospeso
-TRAVERTINO,Pietra chiara di molte Roma
+TRAVERTINO,Pietra chiara di tanti monumenti romani
 TREBUCHET,Macchina d'assedio medievale
 TRICLINIO,Sala da pranzo romana con letti
 TRILOBITE,Fossile a tre lobi
@@ -4118,7 +4118,7 @@ TURCHESE,Pietra azzurra e colore
 TURIBOLO,Brucia incenso nelle funzioni
 ULIVETO,Campo di alberi da olio
 UNCINO,Ferro ricurvo che aggancia
-UPUPA,Uccello crestato dal nome palindromo quasi
+UPUPA,Uccello crestato dal verso inconfondibile
 URETERE,Condotto fra rene e vescica
 URTICANTE,Che irrita come ortica
 VACUO,Vuoto anche di pensiero
@@ -4157,7 +4157,7 @@ ZAMPOGNA,Strumento pastorale a sacco
 ZANZARIERA,Rete contro piccoli vampiri estivi
 ZARZUELA,Teatro musicale spagnolo
 ZIBALDONE,Miscellanea di pensieri e appunti
-CIRCONFLESSO,Segno d accento a cappello
+CIRCONFLESSO,Segno d’accento a cappello
 ZOCCOLI,Calzature di legno o piedi d'animale
 ZOOTECNIA,Tecnica dell'allevamento animale
 ZUFOLO,Flauto pastorale semplice
@@ -4202,10 +4202,10 @@ ACCENNEREI,Farei capire appena
 ACCENNAI,Feci capire appena
 ACCUSARE,Attribuire una colpa
 ACCUSANDO,Attribuendo una colpa
-ACCUSATO,"Attribuire una colpa, a fatto compiuto"
-ACCUSO,Attribuo una colpa
-ACCUSA,Attribue una colpa
-ACCUSANO,Attribuono una colpa
+ACCUSATO,Incolpato
+ACCUSO,Attribuisco una colpa
+ACCUSA,Attribuisce una colpa
+ACCUSANO,Attribuiscono una colpa
 ACCUSIAMO,Attribuiamo una colpa
 ACCUSAVO,Attribuivo una colpa
 ACCUSAVA,Attribuiva una colpa
@@ -4942,7 +4942,7 @@ FATICANDO,Spendendo molto sforzo
 FATICATO,"Spendere molto sforzo, a fatto compiuto"
 FATICO,Spendo molto sforzo
 FATICANO,Spendono molto sforzo
-FATICIAMO,Spendiamo molto sforzo
+FATICHIAMO,Spendiamo molto sforzo
 FATICAVO,Spendevo molto sforzo
 FATICAVA,Spendeva molto sforzo
 FATICAVANO,Spendevano molto sforzo
@@ -5074,7 +5074,7 @@ GIOCANDO,Mettendosi al gioco
 GIOCATO,"Mettersi al gioco, a fatto compiuto"
 GIOCA,Si mette al gioco
 GIOCANO,Si mettono al gioco
-GIOCIAMO,Ci mettiamo al gioco
+GIOCHIAMO,Ci mettiamo al gioco
 GIOCAVO,Mi mettevo al gioco
 GIOCAVA,Si metteva al gioco
 GIOCAVANO,Si mettevano al gioco
@@ -5200,7 +5200,7 @@ INDAGATO,"Cercare prove con metodo, a fatto compiuto"
 INDAGO,Cerco prove con metodo
 INDAGA,Cerca prove con metodo
 INDAGANO,Cercano prove con metodo
-INDAGIAMO,Cerchiamo prove con metodo
+INDAGHIAMO,Cerchiamo prove con metodo
 INDAGAVO,Cercavo prove con metodo
 INDAGAVA,Cercava prove con metodo
 INDAGAVANO,Cercavano prove con metodo
@@ -5315,7 +5315,7 @@ LITIGATO,"Scontrarsi a parole, a fatto compiuto"
 LITIGO,Mi scontro a parole
 LITIGA,Si scontra a parole
 LITIGANO,Si scontrano a parole
-LITIGIAMO,Ci scontriamo a parole
+LITIGHIAMO,Ci scontriamo a parole
 LITIGAVO,Mi scontravo a parole
 LITIGAVA,Si scontrava a parole
 LITIGAVANO,Si scontravano a parole
@@ -5439,7 +5439,7 @@ NAVIGATO,"Andare per acqua o in rete, a fatto compiuto"
 NAVIGO,Vado per acqua o in rete
 NAVIGA,Va per acqua o in rete
 NAVIGANO,Vanno per acqua o in rete
-NAVIGIAMO,Andiamo per acqua o in rete
+NAVIGHIAMO,Andiamo per acqua o in rete
 NAVIGAVO,Andavo per acqua o in rete
 NAVIGAVA,Andava per acqua o in rete
 NAVIGAVANO,Andavano per acqua o in rete
@@ -5551,7 +5551,7 @@ PAGANDO,Saldando un conto
 PAGATO,"Saldare un conto, a fatto compiuto"
 PAGO,Saldo un conto
 PAGANO,Saldano un conto
-PAGIAMO,Saldiamo un conto
+PAGHIAMO,Saldiamo un conto
 PAGAVO,Saldavo un conto
 PAGAVA,Saldava un conto
 PAGAVANO,Saldavano un conto
@@ -5645,16 +5645,16 @@ PITTURERO,Coprirò di colore
 PITTUREREI,Coprirei di colore
 PITTURAI,Coprii di colore
 PORTARE,Reggere e trasferire
-PORTANDO,Reggendo e trasferire
-PORTATO,"Reggere e trasferire, a fatto compiuto"
-PORTANO,Reggono e trasferire
-PORTIAMO,Reggiamo e trasferire
-PORTAVO,Reggevo e trasferire
-PORTAVA,Reggeva e trasferire
-PORTAVANO,Reggevano e trasferire
-PORTERO,Reggerò e trasferire
-PORTEREI,Reggerei e trasferire
-PORTAI,Ressi e trasferire
+PORTANDO,Reggendo e trasferendo
+PORTATO,Retto e trasferito
+PORTANO,Reggono e trasferiscono
+PORTIAMO,Reggiamo e trasferiamo
+PORTAVO,Reggevo e trasferivo
+PORTAVA,Reggeva e trasferiva
+PORTAVANO,Reggevano e trasferivano
+PORTERO,Reggerò e trasferirò
+PORTEREI,Reggerei e trasferirei
+PORTAI,Ressi e trasferii
 POSARE,Mettere giù o stare per una foto
 POSANDO,Mettendo giù o stando per una foto
 POSATO,"Mettere giù o stare per una foto, a fatto compiuto"
@@ -5746,10 +5746,10 @@ RAGIONEREI,Seguirei un filo logico
 RAGIONAI,Seguii un filo logico
 RALLENTARE,Diminuire la velocità
 RALLENTANDO,Diminuendo la velocità
-RALLENTATO,"Diminuire la velocità, a fatto compiuto"
-RALLENTO,Diminuo la velocità
-RALLENTA,Diminue la velocità
-RALLENTANO,Diminuono la velocità
+RALLENTATO,Reso meno veloce
+RALLENTO,Diminuisco la velocità
+RALLENTA,Diminuisce la velocità
+RALLENTANO,Diminuiscono la velocità
 RALLENTIAMO,Diminuiamo la velocità
 RALLENTAVO,Diminuivo la velocità
 RALLENTAVA,Diminuiva la velocità
@@ -6099,7 +6099,7 @@ GABER,Il Giorgio del teatro-canzone
 DALLA,Il Lucio di Caruso
 DEANDRE,Il Fabrizio di Bocca di rosa
 JANNACCI,L'Enzo di Vengo anch'io
-RINO,Il Gaetano di Ma il cielo e sempre piu blu
+RINO,Il Gaetano di Ma il cielo è sempre più blu
 DEGASPERI,L'Alcide statista trentino
 COSSIGA,Il Francesco presidente sardo
 SCALFARO,L'Oscar Luigi presidente piemontese
@@ -6877,7 +6877,7 @@ AFFITTEREBBE,Darebbe o prenderebbe in locazione
 AFFOLLARE,Riempire di gente
 AFFOLLO,Riempo di gente
 AFFOLLA,Riempe di gente
-AFFOLLANO,Riempono di gente
+AFFOLLANO,Riempiono di gente
 AFFOLLANDO,Riempendo di gente
 AFFOLLATO,"Riempire di gente, a fatto compiuto"
 AFFOLLAVO,Riempivo di gente
@@ -7052,11 +7052,11 @@ AMMALEREBBE,Farebbe perdere salute
 AMMIRERA,Guarderà con stima
 AMMIREREBBE,Guarderebbe con stima
 AMMOBILIARE,Fornire di mobili
-AMMOBILIO,Forno di mobili
-AMMOBILIA,Forne di mobili
-AMMOBILIANO,Fornono di mobili
+AMMOBILIO,Insieme dei mobili di una casa
+AMMOBILIA,Fornisce di mobili
+AMMOBILIANO,Forniscono di mobili
 AMMOBILIANDO,Fornendo di mobili
-AMMOBILIATO,"Fornire di mobili, a fatto compiuto"
+AMMOBILIATO,Fornito di mobili
 AMMOBILIAVO,Fornivo di mobili
 AMMOBILIAVA,Forniva di mobili
 AMMOBILIAVANO,Fornivano di mobili
@@ -7074,11 +7074,11 @@ AMMUCCHIAVANO,Mettevano in mucchio
 AMMUCCHIERA,Metterà in mucchio
 AMMUCCHIEREBBE,Metterebbe in mucchio
 ANNACQUARE,Diluire con acqua
-ANNACQUO,Diluo con acqua
-ANNACQUA,Dilue con acqua
-ANNACQUANO,Diluono con acqua
+ANNACQUO,Diluisco con acqua
+ANNACQUA,Diluisce con acqua
+ANNACQUANO,Diluiscono con acqua
 ANNACQUANDO,Diluendo con acqua
-ANNACQUATO,"Diluire con acqua, a fatto compiuto"
+ANNACQUATO,Diluito con acqua
 ANNACQUAVO,Diluivo con acqua
 ANNACQUAVA,Diluiva con acqua
 ANNACQUAVANO,Diluivano con acqua
@@ -7166,21 +7166,21 @@ ARCHIVIAVANO,Mettevano in archivio
 ARCHIVIERA,Metterà in archivio
 ARCHIVIEREBBE,Metterebbe in archivio
 ARMARE,Fornire d'armi
-ARMO,Forno d'armi
-ARMANO,Fornono d'armi
+ARMO,Fornisco d’armi
+ARMANO,Forniscono d’armi
 ARMANDO,Fornendo d'armi
-ARMATO,"Fornire d'armi, a fatto compiuto"
+ARMATO,Fornito d’armi
 ARMAVO,Fornivo d'armi
 ARMAVA,Forniva d'armi
 ARMAVANO,Fornivano d'armi
 ARMERA,Fornirà d'armi
 ARMEREBBE,Fornirebbe d'armi
 ARREDARE,Fornire di mobili
-ARREDO,Forno di mobili
-ARREDA,Forne di mobili
-ARREDANO,Fornono di mobili
+ARREDO,Complesso di mobili d’un ambiente
+ARREDA,Fornisce di mobili
+ARREDANO,Forniscono di mobili
 ARREDANDO,Fornendo di mobili
-ARREDATO,"Fornire di mobili, a fatto compiuto"
+ARREDATO,Fornito di mobili
 ARREDAVO,Fornivo di mobili
 ARREDAVA,Forniva di mobili
 ARREDAVANO,Fornivano di mobili
@@ -7233,11 +7233,11 @@ ASCIUGHEREBBE,Toglierebbe l'umido
 ASCOLTERA,Presterà orecchio
 ASCOLTEREBBE,Presterebbe orecchio
 ASSEGNARE,Attribuire
-ASSEGNO,Attribuo
-ASSEGNA,Attribue
-ASSEGNANO,Attribuono
+ASSEGNO,Attribuisco
+ASSEGNA,Attribuisce
+ASSEGNANO,Attribuiscono
 ASSEGNANDO,Attribuendo
-ASSEGNATO,"Attribuire, a fatto compiuto"
+ASSEGNATO,Attribuito
 ASSEGNAVO,Attribuivo
 ASSEGNAVA,Attribuiva
 ASSEGNAVANO,Attribuivano
@@ -7415,7 +7415,7 @@ BASTEREBBE,Sarebbe sufficiente
 BATTERE,Colpire ripetutamente
 BATTO,Colpo ripetutamente
 BATTE,Colpe ripetutamente
-BATTONO,Colpono ripetutamente
+BATTONO,Colpiscono ripetutamente
 BATTENDO,Colpendo ripetutamente
 BATTEVO,Colpivo ripetutamente
 BATTEVA,Colpiva ripetutamente
@@ -7499,10 +7499,10 @@ BUTTAVANO,Gettavano via
 BUTTERA,Getterà via
 BUTTEREBBE,Getterebbe via
 CALARE,Scendere o diminuire
-CALA,Scende o diminue
-CALANO,Scendono o diminuono
+CALA,Scende o diminuisce
+CALANO,Scendono o diminuiscono
 CALANDO,Scendendo o diminuendo
-CALATO,"Scendere o diminuire, a fatto compiuto"
+CALATO,Sceso o diminuito
 CALAVO,Scendevo o diminuivo
 CALAVA,Scendeva o diminuiva
 CALAVANO,Scendevano o diminuivano
@@ -7712,7 +7712,7 @@ COMMENTEREBBE,Spiegherebbe con osservazioni
 COMPILARE,Riempire un modulo
 COMPILO,Riempo un modulo
 COMPILA,Riempe un modulo
-COMPILANO,Riempono un modulo
+COMPILANO,Scrivono i dati in un modulo
 COMPILANDO,Riempendo un modulo
 COMPILATO,"Riempire un modulo, a fatto compiuto"
 COMPILAVO,Riempivo un modulo
@@ -7764,11 +7764,11 @@ CONCEDEVANO,Davano per favore o diritto
 CONCEDERA,Darà per favore o diritto
 CONCEDEREBBE,Darebbe per favore o diritto
 CONDIRE,Insaporire il cibo
-CONDISCO,Insaporo il cibo
-CONDISCE,Insapore il cibo
-CONDISCONO,Insaporono il cibo
+CONDISCO,Insaporisco il cibo
+CONDISCE,Insaporisce il cibo
+CONDISCONO,Insaporiscono il cibo
 CONDENDO,Insaporendo il cibo
-CONDITO,"Insaporire il cibo, a fatto compiuto"
+CONDITO,Insaporito
 CONDIVO,Insaporivo il cibo
 CONDIVA,Insaporiva il cibo
 CONDIVANO,Insaporivano il cibo
@@ -7797,9 +7797,9 @@ CONGELAVANO,Facevano diventare ghiaccio
 CONGELERA,Farà diventare ghiaccio
 CONGELEREBBE,Farebbe diventare ghiaccio
 CONSERVARE,Mantenere intatto
-CONSERVO,Manteno intatto
+CONSERVO,Mantengo intatto
 CONSERVA,Mantene intatto
-CONSERVANO,Mantenono intatto
+CONSERVANO,Mantengono intatto
 CONSERVANDO,Mantenendo intatto
 CONSERVATO,"Mantenere intatto, a fatto compiuto"
 CONSERVAVO,Mantenevo intatto
@@ -7865,9 +7865,9 @@ COSTRUIVANO,Edificavano
 COSTRUIRA,Edificherà
 COSTRUIREBBE,Edificherebbe
 CREDERE,Ritenere vero
-CREDO,Riteno vero
+CREDO,Ritengo vero
 CREDE,Ritene vero
-CREDONO,Ritenono vero
+CREDONO,Ritengono vero
 CREDENDO,Ritenendo vero
 CREDEVO,Ritenevo vero
 CREDEVA,Riteneva vero
@@ -8071,11 +8071,11 @@ EMIGREREBBE,Lascerebbe il proprio Paese
 ENTRERA,Andrà dentro
 ENTREREBBE,Andrebbe dentro
 EQUIPAGGIARE,Fornire il necessario
-EQUIPAGGIO,Forno il necessario
-EQUIPAGGIA,Forne il necessario
-EQUIPAGGIANO,Fornono il necessario
+EQUIPAGGIO,Personale di bordo
+EQUIPAGGIA,Fornisce il necessario
+EQUIPAGGIANO,Forniscono il necessario
 EQUIPAGGIANDO,Fornendo il necessario
-EQUIPAGGIATO,"Fornire il necessario, a fatto compiuto"
+EQUIPAGGIATO,Fornito del necessario
 EQUIPAGGIAVO,Fornivo il necessario
 EQUIPAGGIAVA,Forniva il necessario
 EQUIPAGGIAVANO,Fornivano il necessario
@@ -8206,7 +8206,7 @@ GIREREBBE,Volgerebbe in tondo
 GONFIARE,Riempire d'aria
 GONFIO,Riempo d'aria
 GONFIA,Riempe d'aria
-GONFIANO,Riempono d'aria
+GONFIANO,Riempiono d’aria
 GONFIANDO,Riempendo d'aria
 GONFIATO,"Riempire d'aria, a fatto compiuto"
 GONFIAVO,Riempivo d'aria
@@ -8620,10 +8620,10 @@ OFFRIVANO,Mettevano a disposizione
 OFFRIRA,Metterà a disposizione
 OFFRIREBBE,Metterebbe a disposizione
 OPERARE,Agire o eseguire un intervento
-OPERO,Ago o eseguo un intervento
-OPERANO,Agono o eseguono un intervento
+OPERO,Agisco o eseguo un intervento
+OPERANO,Agiscono o eseguono un intervento
 OPERANDO,Agendo o eseguendo un intervento
-OPERATO,"Agire o eseguire un intervento, a fatto compiuto"
+OPERATO,Eseguito come intervento
 OPERAVO,Agivo o eseguivo un intervento
 OPERAVA,Agiva o eseguiva un intervento
 OPERAVANO,Agivano o eseguivano un intervento
@@ -8712,8 +8712,8 @@ PILOTERA,Guiderà un aereo o una nave
 PILOTEREBBE,Guiderebbe un aereo o una nave
 PITTURERA,Dipingerà una superficie
 PITTUREREBBE,Dipingerebbe una superficie
-PORTERA,Reggerà e trasferire
-PORTEREBBE,Reggerebbe e trasferire
+PORTERA,Reggerà e trasferirà
+PORTEREBBE,Reggerebbe e trasferirebbe
 POSERA,Metterà giù con cura
 POSEREBBE,Metterebbe giù con cura
 PREMERE,Schiacciare
@@ -8831,16 +8831,16 @@ REGISTREREBBE,Inciderebbe o annoterebbe
 REGNERA,Porterà la corona
 REGNEREBBE,Porterebbe la corona
 RESPIRARE,Prendere e mandare aria
-RESPIRO,Prendo e mandare aria
-RESPIRA,Prende e mandare aria
-RESPIRANO,Prendono e mandare aria
-RESPIRANDO,Prendendo e mandare aria
-RESPIRATO,"Prendere e mandare aria, a fatto compiuto"
-RESPIRAVO,Prendevo e mandare aria
-RESPIRAVA,Prendeva e mandare aria
-RESPIRAVANO,Prendevano e mandare aria
-RESPIRERA,Prenderà e mandare aria
-RESPIREREBBE,Prenderebbe e mandare aria
+RESPIRO,Prendo e mando aria
+RESPIRA,Prende e manda aria
+RESPIRANO,Prendono e mandano aria
+RESPIRANDO,Prendendo e mandando aria
+RESPIRATO,Inspirato ed espirato
+RESPIRAVO,Prendevo e mandavo aria
+RESPIRAVA,Prendeva e mandava aria
+RESPIRAVANO,Prendevano e mandavano aria
+RESPIRERA,Prenderà e manderà aria
+RESPIREREBBE,Prenderebbe e manderebbe aria
 RESTERA,Rimanerà
 RESTEREBBE,Rimanerebbe
 RIFINIRE,Dare l'ultimo tocco
