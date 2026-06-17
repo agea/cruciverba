@@ -1,106 +1,120 @@
-# Cruciverba — Documentazione tecnica e funzionale
+# Cruciverba 🇮🇹
 
-Generatore e gioco di cruciverba in italiano, interamente lato browser (HTML/JS), senza backend né dipendenze esterne. Pensato per l'uso su iPad e desktop.
+A generator and player for **Italian crosswords**, running entirely in the browser. No backend, no build step, no external dependencies — just HTML and vanilla JavaScript. Installable as a PWA and fully playable **offline**, tuned for iPad and desktop.
 
----
-
-## 1. Descrizione funzionale
-
-L'applicazione genera schemi di parole crociate in italiano e permette di risolverli direttamente nel browser:
-
-- **Generazione automatica** di schemi con tre livelli di difficoltà (facile / medio / difficile), corrispondenti a griglie di dimensione e densità crescenti.
-- **Risoluzione interattiva**: selezione della definizione, inserimento lettere da tastiera fisica o tastiera virtuale su schermo, evidenziazione della parola attiva e dell'incrocio.
-- **Aiuti**: verifica delle lettere errate, rivelazione di una cella/parola, cancellazione.
-- **Persistenza**: lo stato della partita viene salvato in `localStorage`, così si può riprendere dove si era rimasti.
-- **Timer** di gioco e rilevamento automatico del completamento.
-- Design "matita su carta", ottimizzato per il tocco e per il funzionamento **offline**.
+**▶️ Play it: https://agea.github.io/cruciverba/**
 
 ---
 
-## 2. Architettura tecnica
+## ✨ Features
 
-Tre componenti disaccoppiati:
-
-1. **Database delle definizioni** (`cruciverba_db.json`) — dati puri, separati dalla logica.
-2. **Generatore di schema** (`gen_dense.js`) — algoritmo di costruzione della griglia; gira in un **Web Worker** per non bloccare l'interfaccia.
-3. **Interfaccia** (file HTML) — rendering della griglia, input, aiuti, persistenza.
-
-Il Worker viene caricato da `gen_dense.js`, che viene precacheato dal service worker insieme al database per il funzionamento PWA offline.
-
----
-
-## 3. Il database
-
-`cruciverba_db.json` — array JSON compatto di coppie `["SOLUZIONE", "definizione"]`.
-
-- **2080 voci** totali. Soluzioni in maiuscolo, solo lettere A–Z (accenti e spazi rimossi in fase di build).
-- Distribuzione per lunghezza, calibrata per gli incroci fitti (abbondanza di parole corte):
-
-| Lettere | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Voci | 96 | 176 | 413 | 642 | 260 | 245 | 172 | 57 | 15 | 4 |
-
-Le caselle corte (2–3 lettere) sfruttano lo stile classico della Settimana Enigmistica: sigle, targhe automobilistiche, note musicali e simboli chimici.
-
-### Come estendere il database
-
-1. Aggiungere righe in `voci.csv`, con intestazione `soluzione,definizione`.
-2. Eseguire `node builddb.js`: legge il CSV, **normalizza** (NFD, maiuscolo, solo A–Z), **deduplica** (prima occorrenza vince), **scarta** voci non valide, ordina e riscrive `cruciverba_db.json`.
+- **Automatic generation** of dense, *Settimana Enigmistica*–style grids with black squares, at three difficulty levels (easy / medium / hard) of increasing size and density.
+- **Interactive solving**: pick a clue, type with the physical or on-screen keyboard, with highlighting of the active word and crossing cell.
+- **Helpers**: check wrong letters, reveal a cell or a whole word, clear.
+- **Persistence**: the game state is saved in `localStorage`, so you can pick up where you left off.
+- **Game timer** and automatic completion detection.
+- **"Pencil-on-paper" design**, touch-friendly and **offline-first** (PWA with a service worker).
 
 ---
 
-## 4. Il generatore denso (`gen_dense.js`)
+## 🏗️ Architecture
 
-Produce schemi densi in stile Settimana Enigmistica: griglia rettangolare piena con **caselle nere**, in cui ogni sequenza bianca di lunghezza ≥ 2 (orizzontale o verticale) è una parola del database con relativa definizione.
+Three decoupled components:
+
+1. **Clue database** — [`cruciverba_db.json`](cruciverba_db.json): pure data, kept separate from logic.
+2. **Grid generator** — [`gen_dense.js`](gen_dense.js): the grid-construction algorithm, run inside a **Web Worker** so the UI never blocks.
+3. **UI** — the HTML app: grid rendering, input, helpers, persistence.
+
+The worker loads `gen_dense.js`, which is precached by the service worker together with the database for offline PWA use.
+
+---
+
+## 🗂️ The database
+
+[`cruciverba_db.json`](cruciverba_db.json) is a compact JSON array of `["SOLUTION", "clue"]` pairs.
+
+- **15,016 entries.** Solutions are uppercase, letters **A–Z only** (accents and spaces stripped at build time).
+- Length distribution is deliberately skewed toward short words, which feed the dense crossings:
+
+| Letters | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14+ |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Entries | 178 | 248 | 829 | 1705 | 2265 | 3018 | 2366 | 2018 | 1232 | 665 | 306 | 134 | 52 |
+
+Short slots (2–3 letters) lean on the classic Italian-puzzle style: initialism, car plates, musical notes and chemical symbols.
+
+### Extending the database
+
+1. Add rows to [`voci.csv`](voci.csv), under the header `soluzione,definizione`. Wrap a clue in double quotes if it contains a comma.
+2. Run `node builddb.js`. It reads the CSV, **normalizes** (NFD → uppercase → A–Z only), **deduplicates** (first occurrence wins), **drops** invalid entries, sorts, and rewrites `cruciverba_db.json`.
+
+> 💡 Solutions shorter than 2 letters or without a clue are discarded automatically. Duplicate solutions keep the first clue seen.
+
+---
+
+## ⚙️ The dense generator (`gen_dense.js`)
+
+Produces dense grids in the Italian style: a filled rectangular grid with **black squares**, where every white run of length ≥ 2 (across or down) is a database word with its clue.
 
 **Pipeline:**
 
-1. **Word bank** — il DB viene indicizzato per lunghezza e per (posizione, lettera), per recuperare in fretta i candidati di uno slot parzialmente riempito.
-2. **Pattern di caselle nere** — generazione casuale con densità controllata; i run bianchi troppo lunghi vengono spezzati (`maxRun`) per privilegiare slot di 3–6 lettere, dove il vocabolario è più ricco; le caselle bianche isolate vengono eliminate.
-3. **Estrazione degli slot** — tutte le sequenze bianche ≥ 2, orizzontali e verticali, con la mappa cella → slot.
-4. **Riempimento (backtracking)** — assegnazione con selezione dello slot più vincolato (propagazione dagli slot già riempiti + seme statico sui più incrociati), **forward-checking** sugli incroci e parole non ripetute.
-5. **Cascata di fallback** — se una configurazione non si completa, si ritenta con più caselle nere e slot più corti, e in ultima istanza con griglia ridotta: garantisce che venga sempre restituito uno schema valido.
+1. **Word bank** — the DB is indexed by length and by `(position, letter)`, to quickly fetch candidates for a partially filled slot.
+2. **Black-square pattern** — randomly generated with controlled density; over-long white runs are split (`maxRun`) to favor 3–6 letter slots where the vocabulary is richest; isolated white cells are removed.
+3. **Slot extraction** — all white runs ≥ 2, across and down, plus a cell → slot map.
+4. **Filling (backtracking)** — most-constrained-slot selection (propagation from already-filled slots + a static seed on the most-crossed ones), **forward-checking** on crossings, no repeated words.
+5. **Fallback cascade** — if a configuration can't be completed, it retries with more black squares and shorter slots, and finally with a smaller grid: a valid grid is always returned.
 
-**Prestazioni** (misurate in Node sul DB reale, 100% di successo, zero parole prive di definizione):
+**Benchmarks** (Node, on the real 15k DB, 100% success, zero clueless words):
 
-| Difficoltà | Griglia | Tempo medio | Parole |
+| Difficulty | Grid | Avg time | Words |
 |---|---|---|---|
-| Facile | 9×9 | ~0,2 s | ~29 |
-| Medio | 11×11 | ~1,1 s | ~43 |
-| Difficile | 13×13 | ~3,4 s (max ~6 s) | ~54 |
+| Easy | 9×9 | ~0.05 s | ~30 |
+| Medium | 11×11 | ~1.3 s (peaks up to ~6 s) | ~42 |
+| Hard | 13×13 | ~0.3 s | ~61 |
 
-### Struttura dati prodotta
+### Output structure
 
-```
+```js
 {
   width, height,
-  cells: [[ null | { ch, num } , ... ], ...],  // null = casella nera
+  cells: [[ null | { ch, num }, ... ], ...],  // null = black square
   across: [{ num, clue, answer, row, col, len }, ...],
   down:   [{ num, clue, answer, row, col, len }, ...],
   wordCount,
-  ghosts  // parole senza definizione (atteso: 0)
+  ghosts  // words without a clue (expected: 0)
 }
 ```
 
 ---
 
-## 5. File del progetto
+## 📁 Project structure
 
-| File | Ruolo | Stato |
-|---|---|---|
-| `voci.csv` | Sorgente del database | **Completo** |
-| `cruciverba_db.json` | Database generato da `builddb.js` | **Non versionato** |
-| `gen_dense.js` | Generatore denso | **Completo e validato** |
-| `builddb.js` | Script di build del DB | Completo |
-| `index.html` | App giocabile PWA | **Completo** |
-| `cruciverba.html` | Alias dell'app giocabile | **Completo** |
+| File | Role |
+|---|---|
+| [`voci.csv`](voci.csv) | Database source (`soluzione,definizione`) |
+| [`builddb.js`](builddb.js) | Build script: CSV → JSON |
+| `cruciverba_db.json` | Generated database (rebuilt in CI) |
+| [`gen_dense.js`](gen_dense.js) | Dense generator (Web Worker) |
+| [`index.html`](index.html) | Playable PWA app |
+| [`cruciverba.html`](cruciverba.html) | Alias of the app |
+| `sw.js` · `manifest.webmanifest` · `icons/` | PWA assets |
 
 ---
 
-## 6. Stato attuale
+## 🚀 Development
 
-L'app usa `gen_dense.js` come Web Worker principale e genera schemi densi all'italiana con caselle nere. Il database viene generato da `voci.csv`, caricato da `cruciverba_db.json` e salvato offline dal service worker.
+No toolchain required.
 
-### Nota sull'uso offline
+```bash
+# rebuild the database after editing voci.csv
+node builddb.js
 
-L'uso offline completo richiede di aprire almeno una volta l'app servita da GitHub Pages, così il service worker puo salvare `index.html`, `gen_dense.js`, `cruciverba_db.json` e gli altri asset nella cache PWA. L'apertura diretta via `file://` non e il target principale, perche i browser limitano `fetch` e service worker fuori da un'origine HTTP/HTTPS.
+# serve locally (a service worker needs an HTTP origin)
+python3 -m http.server 8000
+# then open http://localhost:8000
+```
+
+Pushing to `main` triggers the GitHub Actions workflow, which rebuilds the database and deploys the static site to **GitHub Pages**.
+
+### Offline use
+
+Full offline use requires opening the app at least once from GitHub Pages (or any HTTP origin), so the service worker can cache `index.html`, `gen_dense.js`, `cruciverba_db.json` and the other assets. Opening directly via `file://` is not the main target, because browsers restrict `fetch` and service workers outside an HTTP/HTTPS origin.
