@@ -4163,7 +4163,7 @@ ZOOTECNIA,Tecnica dell'allevamento animale
 ZUFOLO,Flauto pastorale semplice
 ABITARE,Prendere dimora
 ABITANDO,Prendendo dimora
-ABITATO,"Prendere dimora, a fatto compiuto"
+ABITATO,"Dimorato"
 ABITO,Prendo dimora
 ABITA,Prende dimora
 ABITANO,Prendono dimora
@@ -4176,7 +4176,7 @@ ABITEREI,Prenderei dimora
 ABITAI,Presi dimora
 ACCETTARE,Dire sì a una proposta
 ACCETTANDO,Dicendo sì a una proposta
-ACCETTATO,"Dire sì a una proposta, a fatto compiuto"
+ACCETTATO,"Detto sì a una proposta"
 ACCETTO,Dico sì a una proposta
 ACCETTA,Dice sì a una proposta
 ACCETTANO,Dicono sì a una proposta
@@ -4189,7 +4189,7 @@ ACCETTEREI,Direi sì a una proposta
 ACCETTAI,Dissi sì a una proposta
 ACCENNARE,Far capire appena
 ACCENNANDO,Facendo capire appena
-ACCENNATO,"Far capire appena, a fatto compiuto"
+ACCENNATO,"Fatto capire appena"
 ACCENNO,Faccio capire appena
 ACCENNA,Fa capire appena
 ACCENNANO,Fanno capire appena
@@ -4215,7 +4215,7 @@ ACCUSEREI,Attribuirei una colpa
 ACCUSAI,Attribuii una colpa
 ADORARE,Amare con devozione
 ADORANDO,Amando con devozione
-ADORATO,"Amare con devozione, a fatto compiuto"
+ADORATO,"Amato con devozione"
 ADORO,Amo con devozione
 ADORA,Ama con devozione
 ADORANO,Amano con devozione
@@ -4228,7 +4228,7 @@ ADOREREI,Amerei con devozione
 ADORAI,Amai con devozione
 AFFIDARE,Consegnare alla fiducia
 AFFIDANDO,Consegnando alla fiducia
-AFFIDATO,"Consegnare alla fiducia, a fatto compiuto"
+AFFIDATO,"Consegnato alla fiducia"
 AFFIDO,Consegno alla fiducia
 AFFIDA,Consegna alla fiducia
 AFFIDANO,Consegnano alla fiducia
@@ -4241,7 +4241,7 @@ AFFIDEREI,Consegnerei alla fiducia
 AFFIDAI,Consegnai alla fiducia
 AFFINARE,Rendere più sottile o preciso
 AFFINANDO,Rendendo più sottile o preciso
-AFFINATO,"Rendere più sottile o preciso, a fatto compiuto"
+AFFINATO,"Reso più sottile o preciso"
 AFFINO,Rendo più sottile o preciso
 AFFINA,Rende più sottile o preciso
 AFFINANO,Rendono più sottile o preciso
@@ -4254,7 +4254,7 @@ AFFINEREI,Renderei più sottile o preciso
 AFFINAI,Resi più sottile o preciso
 AGITARE,Mettere in movimento inquieto
 AGITANDO,Mettendo in movimento inquieto
-AGITATO,"Mettere in movimento inquieto, a fatto compiuto"
+AGITATO,"Messo in movimento inquieto"
 AGITO,Metto in movimento inquieto
 AGITA,Mette in movimento inquieto
 AGITANO,Mettono in movimento inquieto
@@ -4267,7 +4267,7 @@ AGITEREI,Metterei in movimento inquieto
 AGITAI,Misi in movimento inquieto
 AIUTARE,Dare una mano
 AIUTANDO,Dando una mano
-AIUTATO,"Dare una mano, a fatto compiuto"
+AIUTATO,"Soccorso"
 AIUTO,Do una mano
 AIUTA,Dà una mano
 AIUTANO,Danno una mano
@@ -4280,7 +4280,7 @@ AIUTEREI,Darei una mano
 AIUTAI,Diedi una mano
 ALLENARE,Preparare con esercizio
 ALLENANDO,Preparando con esercizio
-ALLENATO,"Preparare con esercizio, a fatto compiuto"
+ALLENATO,"Preparato con esercizio"
 ALLENO,Preparo con esercizio
 ALLENA,Prepara con esercizio
 ALLENANO,Preparano con esercizio
@@ -4293,7 +4293,7 @@ ALLENEREI,Preparerei con esercizio
 ALLENAI,Preparai con esercizio
 ALLENTARE,Rendere meno teso
 ALLENTANDO,Rendendo meno teso
-ALLENTATO,"Rendere meno teso, a fatto compiuto"
+ALLENTATO,"Reso meno teso"
 ALLENTO,Rendo meno teso
 ALLENTA,Rende meno teso
 ALLENTANO,Rendono meno teso
@@ -4306,7 +4306,7 @@ ALLENTEREI,Renderei meno teso
 ALLENTAI,Resi meno teso
 ALLEVARE,Far crescere con cura
 ALLEVANDO,Facendo crescere con cura
-ALLEVATO,"Far crescere con cura, a fatto compiuto"
+ALLEVATO,"Fatto crescere con cura"
 ALLEVO,Faccio crescere con cura
 ALLEVA,Fa crescere con cura
 ALLEVANO,Fanno crescere con cura
@@ -4319,7 +4319,7 @@ ALLEVEREI,Farei crescere con cura
 ALLEVAI,Feci crescere con cura
 ALLINEARE,Mettere sulla stessa linea
 ALLINEANDO,Mettendo sulla stessa linea
-ALLINEATO,"Mettere sulla stessa linea, a fatto compiuto"
+ALLINEATO,"Messo sulla stessa linea"
 ALLINEO,Metto sulla stessa linea
 ALLINEA,Mette sulla stessa linea
 ALLINEANO,Mettono sulla stessa linea
@@ -4332,7 +4332,7 @@ ALLINEEREI,Metterei sulla stessa linea
 ALLINEAI,Misi sulla stessa linea
 ALTERNARE,Far succedere a turno
 ALTERNANDO,Facendo succedere a turno
-ALTERNATO,"Far succedere a turno, a fatto compiuto"
+ALTERNATO,"Fatto succedere a turno"
 ALTERNO,Faccio succedere a turno
 ALTERNA,Fa succedere a turno
 ALTERNANO,Fanno succedere a turno
@@ -4345,7 +4345,7 @@ ALTERNEREI,Farei succedere a turno
 ALTERNAI,Feci succedere a turno
 AMARE,Volere bene con intensità
 AMANDO,Volendo bene con intensità
-AMATO,"Volere bene con intensità, a fatto compiuto"
+AMATO,"Voluto bene con intensità"
 AMANO,Vogliono bene con intensità
 AMIAMO,Vogliamo bene con intensità
 AMAVO,Volevo bene con intensità
@@ -4356,7 +4356,7 @@ AMEREI,Vorrei bene con intensità
 AMAI,Volli bene con intensità
 AMMIRARE,Guardare con stima
 AMMIRANDO,Guardando con stima
-AMMIRATO,"Guardare con stima, a fatto compiuto"
+AMMIRATO,"Guardato con stima"
 AMMIRO,Guardo con stima
 AMMIRA,Guarda con stima
 AMMIRANO,Guardano con stima
@@ -4369,7 +4369,7 @@ AMMIREREI,Guarderei con stima
 AMMIRAI,Guardai con stima
 ANNODARE,Fare un nodo
 ANNODANDO,Facendo un nodo
-ANNODATO,"Fare un nodo, a fatto compiuto"
+ANNODATO,"Fatto un nodo"
 ANNODO,Faccio un nodo
 ANNODA,Fa un nodo
 ANNODANO,Fanno un nodo
@@ -4382,7 +4382,7 @@ ANNODEREI,Farei un nodo
 ANNODAI,Feci un nodo
 ANNOTARE,Segnare a margine
 ANNOTANDO,Segnando a margine
-ANNOTATO,"Segnare a margine, a fatto compiuto"
+ANNOTATO,"Segnato a margine"
 ANNOTO,Segno a margine
 ANNOTA,Segna a margine
 ANNOTANO,Segnano a margine
@@ -4395,7 +4395,7 @@ ANNOTEREI,Segnerei a margine
 ANNOTAI,Segnai a margine
 ANNULLARE,Rendere privo di effetto
 ANNULLANDO,Rendendo privo di effetto
-ANNULLATO,"Rendere privo di effetto, a fatto compiuto"
+ANNULLATO,"Reso privo di effetto"
 ANNULLO,Rendo privo di effetto
 ANNULLA,Rende privo di effetto
 ANNULLANO,Rendono privo di effetto
@@ -4408,7 +4408,7 @@ ANNULLEREI,Renderei privo di effetto
 ANNULLAI,Resi privo di effetto
 APPURARE,Accertare con pazienza
 APPURANDO,Accertando con pazienza
-APPURATO,"Accertare con pazienza, a fatto compiuto"
+APPURATO,"Accertato con pazienza"
 APPURO,Accerto con pazienza
 APPURA,Accerta con pazienza
 APPURANO,Accertano con pazienza
@@ -4421,7 +4421,7 @@ APPUREREI,Accerterei con pazienza
 APPURAI,Accertai con pazienza
 ARGINARE,Contenere come un fiume
 ARGINANDO,Contenendo come un fiume
-ARGINATO,"Contenere come un fiume, a fatto compiuto"
+ARGINATO,"Contenuto come un fiume"
 ARGINO,Contengo come un fiume
 ARGINA,Contiene come un fiume
 ARGINANO,Contengono come un fiume
@@ -4434,7 +4434,7 @@ ARGINEREI,Conterrei come un fiume
 ARGINAI,Contenni come un fiume
 ARRIVARE,Giungere a destinazione
 ARRIVANDO,Giungendo a destinazione
-ARRIVATO,"Giungere a destinazione, a fatto compiuto"
+ARRIVATO,"Giunto a destinazione"
 ARRIVO,Giungo a destinazione
 ARRIVA,Giunge a destinazione
 ARRIVANO,Giungono a destinazione
@@ -4447,7 +4447,7 @@ ARRIVEREI,Giungerei a destinazione
 ARRIVAI,Giunsi a destinazione
 ASCOLTARE,Prestare orecchio
 ASCOLTANDO,Prestando orecchio
-ASCOLTATO,"Prestare orecchio, a fatto compiuto"
+ASCOLTATO,"Udito"
 ASCOLTO,Presto orecchio
 ASCOLTA,Presta orecchio
 ASCOLTANO,Prestano orecchio
@@ -4460,7 +4460,7 @@ ASCOLTEREI,Presterei orecchio
 ASCOLTAI,Prestai orecchio
 ASPETTARE,Restare in attesa
 ASPETTANDO,Restando in attesa
-ASPETTATO,"Restare in attesa, a fatto compiuto"
+ASPETTATO,"Restato in attesa"
 ASPETTO,Resto in attesa
 ASPETTA,Resta in attesa
 ASPETTANO,Restano in attesa
@@ -4473,7 +4473,7 @@ ASPETTEREI,Resterei in attesa
 ASPETTAI,Restai in attesa
 ASPIRARE,Tendere a qualcosa o tirare aria
 ASPIRANDO,Tendendo a qualcosa o tirando aria
-ASPIRATO,"Tendere a qualcosa o tirare aria, a fatto compiuto"
+ASPIRATO,"Desiderato o inalato"
 ASPIRO,Tendo a qualcosa o tiro aria
 ASPIRA,Tende a qualcosa o tira aria
 ASPIRANO,Tendono a qualcosa o tirano aria
@@ -4486,7 +4486,7 @@ ASPIREREI,Tenderei a qualcosa o tirerei aria
 ASPIRAI,Tendei a qualcosa o tirai aria
 AZZARDARE,Tentare rischiando
 AZZARDANDO,Tentando rischiando
-AZZARDATO,"Tentare rischiando, a fatto compiuto"
+AZZARDATO,"Tentato rischiando"
 AZZARDA,Tenta rischiando
 AZZARDANO,Tentano rischiando
 AZZARDIAMO,Tentiamo rischiando
@@ -4498,7 +4498,7 @@ AZZARDEREI,Tenterei rischiando
 AZZARDAI,Tentai rischiando
 BALLARE,Muoversi a ritmo
 BALLANDO,Muovendosi a ritmo
-BALLATO,"Muoversi a ritmo, a fatto compiuto"
+BALLATO,"Danzato"
 BALLANO,Si muovono a ritmo
 BALLIAMO,Ci muoviamo a ritmo
 BALLAVO,Mi muovevo a ritmo
@@ -4509,7 +4509,7 @@ BALLEREI,Mi muoverei a ritmo
 BALLAI,Mi mossi a ritmo
 BAGNARE,Rendere umido
 BAGNANDO,Rendendo umido
-BAGNATO,"Rendere umido, a fatto compiuto"
+BAGNATO,"Reso umido"
 BAGNA,Rende umido
 BAGNANO,Rendono umido
 BAGNIAMO,Rendiamo umido
@@ -4521,7 +4521,7 @@ BAGNEREI,Renderei umido
 BAGNAI,Resi umido
 BARRARE,Chiudere con una linea
 BARRANDO,Chiudendo con una linea
-BARRATO,"Chiudere con una linea, a fatto compiuto"
+BARRATO,"Chiuso con una linea"
 BARRO,Chiudo con una linea
 BARRA,Chiude con una linea
 BARRANO,Chiudono con una linea
@@ -4534,7 +4534,7 @@ BARREREI,Chiuderei con una linea
 BARRAI,Chiusi con una linea
 BASARE,Fondare su un appoggio
 BASANDO,Fondando su un appoggio
-BASATO,"Fondare su un appoggio, a fatto compiuto"
+BASATO,"Fondato su un appoggio"
 BASO,Fondo su un appoggio
 BASA,Fonda su un appoggio
 BASANO,Fondano su un appoggio
@@ -4547,7 +4547,7 @@ BASEREI,Fonderei su un appoggio
 BASAI,Fondai su un appoggio
 BASTARE,Essere sufficiente
 BASTANDO,Essendo sufficiente
-BASTATO,"Essere sufficiente, a fatto compiuto"
+BASTATO,"Risultato sufficiente"
 BASTO,Sono sufficiente
 BASTA,È sufficiente
 BASTANO,Sono sufficienti
@@ -4560,7 +4560,7 @@ BASTEREI,Sarei sufficiente
 BASTAI,Fui sufficiente
 BRILLARE,Mandare luce o distinguersi
 BRILLANDO,Mandando luce o distinguendosi
-BRILLATO,"Mandare luce o distinguersi, a fatto compiuto"
+BRILLATO,"Mandato luce o emerso"
 BRILLO,Mando luce o mi distinguo
 BRILLA,Manda luce o si distingue
 BRILLANO,Mandano luce o si distinguono
@@ -4573,7 +4573,7 @@ BRILLEREI,Manderei luce o mi distinguerei
 BRILLAI,Mandai luce o mi distinguei
 CALMARE,Rendere meno agitato
 CALMANDO,Rendendo meno agitato
-CALMATO,"Rendere meno agitato, a fatto compiuto"
+CALMATO,"Reso meno agitato"
 CALMA,Rende meno agitato
 CALMANO,Rendono meno agitato
 CALMIAMO,Rendiamo meno agitato
@@ -4585,7 +4585,7 @@ CALMEREI,Renderei meno agitato
 CALMAI,Resi meno agitato
 CAMBIARE,Rendere diverso
 CAMBIANDO,Rendendo diverso
-CAMBIATO,"Rendere diverso, a fatto compiuto"
+CAMBIATO,"Reso diverso"
 CAMBIO,Rendo diverso
 CAMBIA,Rende diverso
 CAMBIANO,Rendono diverso
@@ -4598,7 +4598,7 @@ CAMBIEREI,Renderei diverso
 CAMBIAI,Resi diverso
 CAMMINARE,Procedere a passi
 CAMMINANDO,Procedendo a passi
-CAMMINATO,"Procedere a passi, a fatto compiuto"
+CAMMINATO,"Proceduto a passi"
 CAMMINO,Procedo a passi
 CAMMINA,Procede a passi
 CAMMINANO,Procedono a passi
@@ -4611,7 +4611,7 @@ CAMMINEREI,Procederei a passi
 CAMMINAI,Procedei a passi
 CANTARE,Dare voce a una melodia
 CANTANDO,Dando voce a una melodia
-CANTATO,"Dare voce a una melodia, a fatto compiuto"
+CANTATO,"Intonato"
 CANTA,Dà voce a una melodia
 CANTANO,Danno voce a una melodia
 CANTIAMO,Diamo voce a una melodia
@@ -4636,7 +4636,7 @@ CAPITEREI,Mi troverei per caso
 CAPITAI,Mi trovai per caso
 CATTURARE,Prendere senza lasciare fuga
 CATTURANDO,Prendendo senza lasciare fuga
-CATTURATO,"Prendere senza lasciare fuga, a fatto compiuto"
+CATTURATO,"Preso senza lasciare fuga"
 CATTURO,Prendo senza lasciare fuga
 CATTURA,Prende senza lasciare fuga
 CATTURANO,Prendono senza lasciare fuga
@@ -4649,7 +4649,7 @@ CATTUREREI,Prenderei senza lasciare fuga
 CATTURAI,Presi senza lasciare fuga
 CELEBRARE,Onorare con rito o festa
 CELEBRANDO,Onorando con rito o festa
-CELEBRATO,"Onorare con rito o festa, a fatto compiuto"
+CELEBRATO,"Onorato con rito o festa"
 CELEBRO,Onoro con rito o festa
 CELEBRA,Onora con rito o festa
 CELEBRANO,Onorano con rito o festa
@@ -4662,7 +4662,7 @@ CELEBREREI,Onorerei con rito o festa
 CELEBRAI,Onorai con rito o festa
 CENARE,Fare il pasto serale
 CENANDO,Facendo il pasto serale
-CENATO,"Fare il pasto serale, a fatto compiuto"
+CENATO,"Fatto il pasto serale"
 CENO,Faccio il pasto serale
 CENANO,Fanno il pasto serale
 CENIAMO,Facciamo il pasto serale
@@ -4674,7 +4674,7 @@ CENEREI,Farei il pasto serale
 CENAI,Feci il pasto serale
 CHIAMARE,Dare un nome o far venire
 CHIAMANDO,Dando un nome o facendo venire
-CHIAMATO,"Dare un nome o far venire, a fatto compiuto"
+CHIAMATO,"Detto un nome o fatto venire"
 CHIAMO,Do un nome o faccio venire
 CHIAMA,Dà un nome o fa venire
 CHIAMANO,Danno un nome o fanno venire
@@ -4687,7 +4687,7 @@ CHIAMEREI,Darei un nome o farei venire
 CHIAMAI,Diedi un nome o feci venire
 CIRCOLARE,Muoversi in giro
 CIRCOLANDO,Muovendosi in giro
-CIRCOLATO,"Muoversi in giro, a fatto compiuto"
+CIRCOLATO,"Andato in giro"
 CIRCOLO,Mi muovo in giro
 CIRCOLA,Si muove in giro
 CIRCOLANO,Si muovono in giro
@@ -4700,7 +4700,7 @@ CIRCOLEREI,Mi muoverei in giro
 CIRCOLAI,Mi mossi in giro
 CITARE,Riportare parole altrui
 CITANDO,Riportando parole altrui
-CITATO,"Riportare parole altrui, a fatto compiuto"
+CITATO,"Riportato parole altrui"
 CITA,Riporta parole altrui
 CITANO,Riportano parole altrui
 CITIAMO,Riportiamo parole altrui
@@ -4712,7 +4712,7 @@ CITEREI,Riporterei parole altrui
 CITAI,Riportai parole altrui
 COLTIVARE,Far crescere in un campo
 COLTIVANDO,Facendo crescere in un campo
-COLTIVATO,"Far crescere in un campo, a fatto compiuto"
+COLTIVATO,"Fatto crescere in un campo"
 COLTIVO,Faccio crescere in un campo
 COLTIVA,Fa crescere in un campo
 COLTIVANO,Fanno crescere in un campo
@@ -4725,7 +4725,7 @@ COLTIVEREI,Farei crescere in un campo
 COLTIVAI,Feci crescere in un campo
 COMANDARE,Dare ordini
 COMANDANDO,Dando ordini
-COMANDATO,"Dare ordini, a fatto compiuto"
+COMANDATO,"Dato ordini"
 COMANDO,Do ordini
 COMANDA,Dà ordini
 COMANDANO,Danno ordini
@@ -4738,7 +4738,7 @@ COMANDEREI,Darei ordini
 COMANDAI,Diedi ordini
 CONTARE,Calcolare uno dopo l'altro
 CONTANDO,Calcolando uno dopo l'altro
-CONTATO,"Calcolare uno dopo l'altro, a fatto compiuto"
+CONTATO,"Calcolato uno dopo l'altro"
 CONTA,Calcola uno dopo l'altro
 CONTANO,Calcolano uno dopo l'altro
 CONTIAMO,Calcoliamo uno dopo l'altro
@@ -4750,7 +4750,7 @@ CONTEREI,Calcolerei uno dopo l'altro
 CONTAI,Calcolai uno dopo l'altro
 COPIARE,Riprodurre da un modello
 COPIANDO,Riproducendo da un modello
-COPIATO,"Riprodurre da un modello, a fatto compiuto"
+COPIATO,"Riprodotto da un modello"
 COPIO,Riproduco da un modello
 COPIA,Riproduce da un modello
 COPIANO,Riproducono da un modello
@@ -4763,7 +4763,7 @@ COPIEREI,Riprodurrei da un modello
 COPIAI,Riprodussi da un modello
 CURARE,Prestare rimedio o attenzione
 CURANDO,Prestando rimedio o attenzione
-CURATO,"Prestare rimedio o attenzione, a fatto compiuto"
+CURATO,"Prestato rimedio o attenzione"
 CURO,Presto rimedio o attenzione
 CURA,Presta rimedio o attenzione
 CURANO,Prestano rimedio o attenzione
@@ -4776,7 +4776,7 @@ CUREREI,Presterei rimedio o attenzione
 CURAI,Prestai rimedio o attenzione
 DANZARE,Muoversi con arte e ritmo
 DANZANDO,Muovendosi con arte e ritmo
-DANZATO,"Muoversi con arte e ritmo, a fatto compiuto"
+DANZATO,"Mosso con arte e ritmo"
 DANZO,Mi muovo con arte e ritmo
 DANZANO,Si muovono con arte e ritmo
 DANZIAMO,Ci muoviamo con arte e ritmo
@@ -4788,7 +4788,7 @@ DANZEREI,Mi muoverei con arte e ritmo
 DANZAI,Mi mossi con arte e ritmo
 DECORARE,Ornare con gusto
 DECORANDO,Ornando con gusto
-DECORATO,"Ornare con gusto, a fatto compiuto"
+DECORATO,"Ornato con gusto"
 DECORA,Orna con gusto
 DECORANO,Ornano con gusto
 DECORIAMO,Orniamo con gusto
@@ -4800,7 +4800,7 @@ DECOREREI,Ornerei con gusto
 DECORAI,Ornai con gusto
 DESIDERARE,Volere con intensità
 DESIDERANDO,Volendo con intensità
-DESIDERATO,"Volere con intensità, a fatto compiuto"
+DESIDERATO,"Voluto con intensità"
 DESIDERO,Voglio con intensità
 DESIDERA,Vuole con intensità
 DESIDERANO,Vogliono con intensità
@@ -4813,7 +4813,7 @@ DESIDEREREI,Vorrei con intensità
 DESIDERAI,Volli con intensità
 DISEGNARE,Tracciare figure
 DISEGNANDO,Tracciando figure
-DISEGNATO,"Tracciare figure, a fatto compiuto"
+DISEGNATO,"Tracciato figure"
 DISEGNO,Traccio figure
 DISEGNA,Traccia figure
 DISEGNANO,Tracciano figure
@@ -4826,7 +4826,7 @@ DISEGNEREI,Traccerei figure
 DISEGNAI,Tracciai figure
 DIVORARE,Mangiare con avidità
 DIVORANDO,Mangiando con avidità
-DIVORATO,"Mangiare con avidità, a fatto compiuto"
+DIVORATO,"Mangiato con avidità"
 DIVORO,Mangio con avidità
 DIVORA,Mangia con avidità
 DIVORANO,Mangiano con avidità
@@ -4839,7 +4839,7 @@ DIVOREREI,Mangerei con avidità
 DIVORAI,Mangiai con avidità
 DOMANDARE,Chiedere per sapere
 DOMANDANDO,Chiedendo per sapere
-DOMANDATO,"Chiedere per sapere, a fatto compiuto"
+DOMANDATO,"Chiesto per sapere"
 DOMANDO,Chiedo per sapere
 DOMANDA,Chiede per sapere
 DOMANDANO,Chiedono per sapere
@@ -4863,7 +4863,7 @@ DONEREI,Darei senza prezzo
 DONAI,Diedi senza prezzo
 DURARE,Resistere nel tempo
 DURANDO,Resistendo nel tempo
-DURATO,"Resistere nel tempo, a fatto compiuto"
+DURATO,"Resistito nel tempo"
 DURA,Resiste nel tempo
 DURANO,Resistono nel tempo
 DURIAMO,Resistiamo nel tempo
@@ -4875,7 +4875,7 @@ DUREREI,Resisterei nel tempo
 DURAI,Resistei nel tempo
 ENTRARE,Passare verso l'interno
 ENTRANDO,Passando verso l'interno
-ENTRATO,"Passare verso l'interno, a fatto compiuto"
+ENTRATO,"Passato verso l'interno"
 ENTRO,Passo verso l'interno
 ENTRA,Passa verso l'interno
 ENTRANO,Passano verso l'interno
@@ -4888,7 +4888,7 @@ ENTREREI,Passerei verso l'interno
 ENTRAI,Passai verso l'interno
 ESALTARE,Portare in alto con lodi
 ESALTANDO,Portando in alto con lodi
-ESALTATO,"Portare in alto con lodi, a fatto compiuto"
+ESALTATO,"Portato in alto con lodi"
 ESALTO,Porto in alto con lodi
 ESALTA,Porta in alto con lodi
 ESALTANO,Portano in alto con lodi
@@ -4901,7 +4901,7 @@ ESALTEREI,Porterei in alto con lodi
 ESALTAI,Portai in alto con lodi
 ESAMINARE,Guardare con attenzione critica
 ESAMINANDO,Guardando con attenzione critica
-ESAMINATO,"Guardare con attenzione critica, a fatto compiuto"
+ESAMINATO,"Guardato con attenzione critica"
 ESAMINO,Guardo con attenzione critica
 ESAMINA,Guarda con attenzione critica
 ESAMINANO,Guardano con attenzione critica
@@ -4914,7 +4914,7 @@ ESAMINEREI,Guarderei con attenzione critica
 ESAMINAI,Guardai con attenzione critica
 ESITARE,Fermarsi nel dubbio
 ESITANDO,Fermandosi nel dubbio
-ESITATO,"Fermarsi nel dubbio, a fatto compiuto"
+ESITATO,"Fermato nel dubbio"
 ESITA,Si ferma nel dubbio
 ESITANO,Si fermano nel dubbio
 ESITIAMO,Ci fermiamo nel dubbio
@@ -4926,7 +4926,7 @@ ESITEREI,Mi fermerei nel dubbio
 ESITAI,Mi fermai nel dubbio
 EVITARE,Tenersi lontano da un rischio
 EVITANDO,Tenendosi lontano da un rischio
-EVITATO,"Tenersi lontano da un rischio, a fatto compiuto"
+EVITATO,"Tenuto lontano da un rischio"
 EVITO,Mi tengo lontano da un rischio
 EVITA,Si tiene lontano da un rischio
 EVITANO,Si tengono lontano da un rischio
@@ -4939,7 +4939,7 @@ EVITEREI,Mi terrei lontano da un rischio
 EVITAI,Mi tenni lontano da un rischio
 FATICARE,Spendere molto sforzo
 FATICANDO,Spendendo molto sforzo
-FATICATO,"Spendere molto sforzo, a fatto compiuto"
+FATICATO,"Speso molto sforzo"
 FATICO,Spendo molto sforzo
 FATICANO,Spendono molto sforzo
 FATICHIAMO,Spendiamo molto sforzo
@@ -4963,7 +4963,7 @@ FIDEREI,Darei credito
 FIDAI,Diedi credito
 FILARE,Andare dritto o fare filo
 FILANDO,Andando dritto o facendo filo
-FILATO,"Andare dritto o fare filo, a fatto compiuto"
+FILATO,"Andato dritto o fatto filo"
 FILANO,Vanno dritto o fanno filo
 FILIAMO,Andiamo dritto o facciamo filo
 FILAVO,Andavo dritto o facevo filo
@@ -4974,7 +4974,7 @@ FILEREI,Andrei dritto o farei filo
 FILAI,Andai dritto o feci filo
 FISSARE,Rendere stabile o guardare intensamente
 FISSANDO,Rendendo stabile o guardando intensamente
-FISSATO,"Rendere stabile o guardare intensamente, a fatto compiuto"
+FISSATO,"Reso stabile o guardato intensamente"
 FISSO,Rendo stabile o guardo intensamente
 FISSA,Rende stabile o guarda intensamente
 FISSANO,Rendono stabile o guardano intensamente
@@ -4987,7 +4987,7 @@ FISSEREI,Renderei stabile o guarderei intensamente
 FISSAI,Resi stabile o guardai intensamente
 FONDARE,Dare una base
 FONDANDO,Dando una base
-FONDATO,"Dare una base, a fatto compiuto"
+FONDATO,"Dato una base"
 FONDA,Dà una base
 FONDANO,Danno una base
 FONDIAMO,Diamo una base
@@ -4999,7 +4999,7 @@ FONDEREI,Darei una base
 FONDAI,Diedi una base
 FORMARE,Dare forma o educare
 FORMANDO,Dando forma o educando
-FORMATO,"Dare forma o educare, a fatto compiuto"
+FORMATO,"Dato forma o educato"
 FORMO,Do forma o educo
 FORMANO,Danno forma o educano
 FORMIAMO,Diamo forma o educhiamo
@@ -5011,7 +5011,7 @@ FORMEREI,Darei forma o educherei
 FORMAI,Diedi forma o educai
 FRENARE,Ridurre la corsa
 FRENANDO,Riducendo la corsa
-FRENATO,"Ridurre la corsa, a fatto compiuto"
+FRENATO,"Ridotto la corsa"
 FRENA,Riduce la corsa
 FRENANO,Riducono la corsa
 FRENIAMO,Riduciamo la corsa
@@ -5023,7 +5023,7 @@ FRENEREI,Ridurrei la corsa
 FRENAI,Ridussi la corsa
 FUMARE,Mandare o aspirare fumo
 FUMANDO,Mandando o aspirando fumo
-FUMATO,"Mandare o aspirare fumo, a fatto compiuto"
+FUMATO,"Mandato o aspirato fumo"
 FUMA,Manda o aspira fumo
 FUMANO,Mandano o aspirano fumo
 FUMIAMO,Mandiamo o aspiriamo fumo
@@ -5035,7 +5035,7 @@ FUMEREI,Manderei o aspirerei fumo
 FUMAI,Mandai o aspirai fumo
 FUNZIONARE,Andare come deve
 FUNZIONANDO,Andando come deve
-FUNZIONATO,"Andare come deve, a fatto compiuto"
+FUNZIONATO,"Andato come deve"
 FUNZIONO,Vado come deve
 FUNZIONA,Va come deve
 FUNZIONANO,Vanno come deve
@@ -5059,7 +5059,7 @@ GELEREI,Renderei freddissimo
 GELAI,Resi freddissimo
 GIRARE,Volgere in tondo
 GIRANDO,Volgendo in tondo
-GIRATO,"Volgere in tondo, a fatto compiuto"
+GIRATO,"Volto in tondo"
 GIRA,Volge in tondo
 GIRANO,Volgono in tondo
 GIRIAMO,Volgiamo in tondo
@@ -5071,7 +5071,7 @@ GIREREI,Volgerei in tondo
 GIRAI,Volsi in tondo
 GIOCARE,Mettersi al gioco
 GIOCANDO,Mettendosi al gioco
-GIOCATO,"Mettersi al gioco, a fatto compiuto"
+GIOCATO,"Messo al gioco"
 GIOCA,Si mette al gioco
 GIOCANO,Si mettono al gioco
 GIOCHIAMO,Ci mettiamo al gioco
@@ -5083,7 +5083,7 @@ GIOCHEREI,Mi metterei al gioco
 GIOCAI,Mi misi al gioco
 GOVERNARE,Reggere il potere
 GOVERNANDO,Reggendo il potere
-GOVERNATO,"Reggere il potere, a fatto compiuto"
+GOVERNATO,"Retto il potere"
 GOVERNO,Reggo il potere
 GOVERNA,Regge il potere
 GOVERNANO,Reggono il potere
@@ -5096,7 +5096,7 @@ GOVERNEREI,Reggerei il potere
 GOVERNAI,Ressi il potere
 GRIDARE,Alzare molto la voce
 GRIDANDO,Alzando molto la voce
-GRIDATO,"Alzare molto la voce, a fatto compiuto"
+GRIDATO,"Alzato molto la voce"
 GRIDA,Alza molto la voce
 GRIDANO,Alzano molto la voce
 GRIDIAMO,Alziamo molto la voce
@@ -5108,7 +5108,7 @@ GRIDEREI,Alzerei molto la voce
 GRIDAI,Alzai molto la voce
 GUADAGNARE,Ottenere un utile
 GUADAGNANDO,Ottenendo un utile
-GUADAGNATO,"Ottenere un utile, a fatto compiuto"
+GUADAGNATO,"Ottenuto un utile"
 GUADAGNO,Ottengo un utile
 GUADAGNA,Ottiene un utile
 GUADAGNANO,Ottengono un utile
@@ -5121,7 +5121,7 @@ GUADAGNEREI,Otterrei un utile
 GUADAGNAI,Ottenni un utile
 GUARDARE,Posare gli occhi
 GUARDANDO,Posando gli occhi
-GUARDATO,"Posare gli occhi, a fatto compiuto"
+GUARDATO,"Posato gli occhi"
 GUARDO,Poso gli occhi
 GUARDA,Posa gli occhi
 GUARDANO,Posano gli occhi
@@ -5134,7 +5134,7 @@ GUARDEREI,Poserei gli occhi
 GUARDAI,Posai gli occhi
 GUIDARE,Condurre un mezzo o un gruppo
 GUIDANDO,Conducendo un mezzo o un gruppo
-GUIDATO,"Condurre un mezzo o un gruppo, a fatto compiuto"
+GUIDATO,"Condotto un mezzo o un gruppo"
 GUIDA,Conduce un mezzo o un gruppo
 GUIDANO,Conducono un mezzo o un gruppo
 GUIDIAMO,Conduciamo un mezzo o un gruppo
@@ -5146,7 +5146,7 @@ GUIDEREI,Condurrei un mezzo o un gruppo
 GUIDAI,Condussi un mezzo o un gruppo
 GUSTARE,Assaporare con piacere
 GUSTANDO,Assaporando con piacere
-GUSTATO,"Assaporare con piacere, a fatto compiuto"
+GUSTATO,"Assaporato con piacere"
 GUSTA,Assapora con piacere
 GUSTANO,Assaporano con piacere
 GUSTIAMO,Assaporiamo con piacere
@@ -5157,7 +5157,7 @@ GUSTEREI,Assaporerei con piacere
 GUSTAI,Assaporai con piacere
 IMITARE,Rifare alla maniera di altri
 IMITANDO,Rifando alla maniera di altri
-IMITATO,"Rifare alla maniera di altri, a fatto compiuto"
+IMITATO,"Rifatto alla maniera di altri"
 IMITO,Rifo alla maniera di altri
 IMITA,Rifa alla maniera di altri
 IMITANO,Rifano alla maniera di altri
@@ -5170,7 +5170,7 @@ IMITEREI,Riferei alla maniera di altri
 IMITAI,Rifai alla maniera di altri
 IMPARARE,Acquistare conoscenza
 IMPARANDO,Acquistando conoscenza
-IMPARATO,"Acquistare conoscenza, a fatto compiuto"
+IMPARATO,"Acquistato conoscenza"
 IMPARO,Acquisto conoscenza
 IMPARA,Acquista conoscenza
 IMPARANO,Acquistano conoscenza
@@ -5183,7 +5183,7 @@ IMPAREREI,Acquisterei conoscenza
 IMPARAI,Acquistai conoscenza
 IMPORTARE,Avere peso o far entrare merci
 IMPORTANDO,Avendo peso o facendo entrare merci
-IMPORTATO,"Avere peso o far entrare merci, a fatto compiuto"
+IMPORTATO,"Avuto peso o introdotto merci"
 IMPORTO,Ho peso o faccio entrare merci
 IMPORTA,Ha peso o fa entrare merci
 IMPORTANO,Hanno peso o fanno entrare merci
@@ -5196,7 +5196,7 @@ IMPORTEREI,Avrei peso o farei entrare merci
 IMPORTAI,Ebbi peso o feci entrare merci
 INDAGARE,Cercare prove con metodo
 INDAGANDO,Cercando prove con metodo
-INDAGATO,"Cercare prove con metodo, a fatto compiuto"
+INDAGATO,"Cercato prove con metodo"
 INDAGO,Cerco prove con metodo
 INDAGA,Cerca prove con metodo
 INDAGANO,Cercano prove con metodo
@@ -5209,7 +5209,7 @@ INDAGHEREI,Cercherei prove con metodo
 INDAGAI,Cercai prove con metodo
 INDOSSARE,Mettere addosso
 INDOSSANDO,Mettendo addosso
-INDOSSATO,"Mettere addosso, a fatto compiuto"
+INDOSSATO,"Messo addosso"
 INDOSSO,Metto addosso
 INDOSSA,Mette addosso
 INDOSSANO,Mettono addosso
@@ -5222,7 +5222,7 @@ INDOSSEREI,Metterei addosso
 INDOSSAI,Misi addosso
 INIZIARE,Dare principio
 INIZIANDO,Dando principio
-INIZIATO,"Dare principio, a fatto compiuto"
+INIZIATO,"Dato principio"
 INIZIO,Do principio
 INIZIA,Dà principio
 INIZIANO,Danno principio
@@ -5235,7 +5235,7 @@ INIZIEREI,Darei principio
 INIZIAI,Diedi principio
 INSEGNARE,Trasmettere sapere
 INSEGNANDO,Trasmettendo sapere
-INSEGNATO,"Trasmettere sapere, a fatto compiuto"
+INSEGNATO,"Trasmesso sapere"
 INSEGNO,Trasmetto sapere
 INSEGNANO,Trasmettono sapere
 INSEGNIAMO,Trasmettiamo sapere
@@ -5247,7 +5247,7 @@ INSEGNEREI,Trasmetterei sapere
 INSEGNAI,Trasmisi sapere
 INVENTARE,Creare ciò che non c'era
 INVENTANDO,Creando ciò che non c'era
-INVENTATO,"Creare ciò che non c'era, a fatto compiuto"
+INVENTATO,"Creato ciò che non c'era"
 INVENTO,Creo ciò che non c'era
 INVENTA,Crea ciò che non c'era
 INVENTANO,Creano ciò che non c'era
@@ -5260,7 +5260,7 @@ INVENTEREI,Creerei ciò che non c'era
 INVENTAI,Creai ciò che non c'era
 INVITARE,Chiamare a partecipare
 INVITANDO,Chiamando a partecipare
-INVITATO,"Chiamare a partecipare, a fatto compiuto"
+INVITATO,"Chiamato a partecipare"
 INVITO,Chiamo a partecipare
 INVITA,Chiama a partecipare
 INVITANO,Chiamano a partecipare
@@ -5273,7 +5273,7 @@ INVITEREI,Chiamerei a partecipare
 INVITAI,Chiamai a partecipare
 LAVORARE,Impiegare fatica e mestiere
 LAVORANDO,Impiegando fatica e mestiere
-LAVORATO,"Impiegare fatica e mestiere, a fatto compiuto"
+LAVORATO,"Impiegato fatica e mestiere"
 LAVORO,Impiego fatica e mestiere
 LAVORA,Impiega fatica e mestiere
 LAVORANO,Impiegano fatica e mestiere
@@ -5286,7 +5286,7 @@ LAVOREREI,Impiegherei fatica e mestiere
 LAVORAI,Impiegai fatica e mestiere
 LAVARE,Togliere sporco con acqua
 LAVANDO,Togliendo sporco con acqua
-LAVATO,"Togliere sporco con acqua, a fatto compiuto"
+LAVATO,"Tolto sporco con acqua"
 LAVO,Tolgo sporco con acqua
 LAVANO,Tolgono sporco con acqua
 LAVIAMO,Togliamo sporco con acqua
@@ -5298,7 +5298,7 @@ LAVEREI,Toglierei sporco con acqua
 LAVAI,Tolsi sporco con acqua
 LIBERARE,Togliere un vincolo
 LIBERANDO,Togliendo un vincolo
-LIBERATO,"Togliere un vincolo, a fatto compiuto"
+LIBERATO,"Tolto un vincolo"
 LIBERO,Tolgo un vincolo
 LIBERA,Toglie un vincolo
 LIBERANO,Tolgono un vincolo
@@ -5311,7 +5311,7 @@ LIBEREREI,Toglierei un vincolo
 LIBERAI,Tolsi un vincolo
 LITIGARE,Scontrarsi a parole
 LITIGANDO,Scontrandosi a parole
-LITIGATO,"Scontrarsi a parole, a fatto compiuto"
+LITIGATO,"Scontrato a parole"
 LITIGO,Mi scontro a parole
 LITIGA,Si scontra a parole
 LITIGANO,Si scontrano a parole
@@ -5324,7 +5324,7 @@ LITIGHEREI,Mi scontrerei a parole
 LITIGAI,Mi scontrai a parole
 LODARE,Dire bene di qualcuno
 LODANDO,Dicendo bene di qualcuno
-LODATO,"Dire bene di qualcuno, a fatto compiuto"
+LODATO,"Detto bene di qualcuno"
 LODO,Dico bene di qualcuno
 LODA,Dice bene di qualcuno
 LODANO,Dicono bene di qualcuno
@@ -5337,7 +5337,7 @@ LODEREI,Direi bene di qualcuno
 LODAI,Dissi bene di qualcuno
 LOTTARE,Battersi per qualcosa
 LOTTANDO,Battendosi per qualcosa
-LOTTATO,"Battersi per qualcosa, a fatto compiuto"
+LOTTATO,"Battuto per qualcosa"
 LOTTANO,Si battono per qualcosa
 LOTTIAMO,Ci battiamo per qualcosa
 LOTTAVO,Mi battevo per qualcosa
@@ -5348,7 +5348,7 @@ LOTTEREI,Mi batterei per qualcosa
 LOTTAI,Mi battei per qualcosa
 MANDARE,Far andare altrove
 MANDANDO,Facendo andare altrove
-MANDATO,"Far andare altrove, a fatto compiuto"
+MANDATO,"Fatto andare altrove"
 MANDO,Faccio andare altrove
 MANDA,Fa andare altrove
 MANDANO,Fanno andare altrove
@@ -5361,7 +5361,7 @@ MANDEREI,Farei andare altrove
 MANDAI,Feci andare altrove
 MERITARE,Essere degno di premio o colpa
 MERITANDO,Essendo degno di premio o colpa
-MERITATO,"Essere degno di premio o colpa, a fatto compiuto"
+MERITATO,"Stato degno di premio o colpa"
 MERITO,Sono degno di premio o colpa
 MERITA,È degno di premio o colpa
 MERITANO,Sono degni di premio o colpa
@@ -5374,7 +5374,7 @@ MERITEREI,Sarei degno di premio o colpa
 MERITAI,Fui degno di premio o colpa
 MIRARE,Puntare a un bersaglio
 MIRANDO,Puntando a un bersaglio
-MIRATO,"Puntare a un bersaglio, a fatto compiuto"
+MIRATO,"Puntato a un bersaglio"
 MIRANO,Puntano a un bersaglio
 MIRIAMO,Puntiamo a un bersaglio
 MIRAVO,Puntavo a un bersaglio
@@ -5385,7 +5385,7 @@ MIREREI,Punterei a un bersaglio
 MIRAI,Puntai a un bersaglio
 MISURARE,Dare numero a una grandezza
 MISURANDO,Dando numero a una grandezza
-MISURATO,"Dare numero a una grandezza, a fatto compiuto"
+MISURATO,"Dato numero a una grandezza"
 MISURO,Do numero a una grandezza
 MISURANO,Danno numero a una grandezza
 MISURIAMO,Diamo numero a una grandezza
@@ -5397,7 +5397,7 @@ MISUREREI,Darei numero a una grandezza
 MISURAI,Diedi numero a una grandezza
 MONTARE,Salire o assemblare
 MONTANDO,Salendo o assemblando
-MONTATO,"Salire o assemblare, a fatto compiuto"
+MONTATO,"Salito o assemblato"
 MONTO,Salgo o assemblo
 MONTA,Sale o assembla
 MONTANO,Salgono o assemblano
@@ -5410,7 +5410,7 @@ MONTEREI,Salirei o assemblerei
 MONTAI,Salii o assemblai
 MOSTRARE,Rendere visibile
 MOSTRANDO,Rendendo visibile
-MOSTRATO,"Rendere visibile, a fatto compiuto"
+MOSTRATO,"Reso visibile"
 MOSTRO,Rendo visibile
 MOSTRA,Rende visibile
 MOSTRANO,Rendono visibile
@@ -5423,7 +5423,7 @@ MOSTREREI,Renderei visibile
 MOSTRAI,Resi visibile
 MURARE,Chiudere con mattoni
 MURANDO,Chiudendo con mattoni
-MURATO,"Chiudere con mattoni, a fatto compiuto"
+MURATO,"Chiuso con mattoni"
 MURA,Chiude con mattoni
 MURANO,Isola veneziana del vetro
 MURIAMO,Chiudiamo con mattoni
@@ -5435,7 +5435,7 @@ MUREREI,Chiuderei con mattoni
 MURAI,Chiusi con mattoni
 NAVIGARE,Andare per acqua o in rete
 NAVIGANDO,Andando per acqua o in rete
-NAVIGATO,"Andare per acqua o in rete, a fatto compiuto"
+NAVIGATO,"Andato per acqua o in rete"
 NAVIGO,Vado per acqua o in rete
 NAVIGA,Va per acqua o in rete
 NAVIGANO,Vanno per acqua o in rete
@@ -5448,7 +5448,7 @@ NAVIGHEREI,Andrei per acqua o in rete
 NAVIGAI,Andai per acqua o in rete
 NOTARE,Accorgersi di un dettaglio
 NOTANDO,Accorgendosi di un dettaglio
-NOTATO,"Accorgersi di un dettaglio, a fatto compiuto"
+NOTATO,"Accorto di un dettaglio"
 NOTO,Centro barocco del Siracusano
 NOTANO,Si accorgono di un dettaglio
 NOTIAMO,Ci accorgiamo di un dettaglio
@@ -5460,7 +5460,7 @@ NOTEREI,Mi accorgerei di un dettaglio
 NOTAI,Mi accorsi di un dettaglio
 NUOTARE,Muoversi nell'acqua
 NUOTANDO,Muovendosi nell'acqua
-NUOTATO,"Muoversi nell'acqua, a fatto compiuto"
+NUOTATO,"Avanzato nell'acqua"
 NUOTA,Si muove nell'acqua
 NUOTANO,Si muovono nell'acqua
 NUOTIAMO,Ci muoviamo nell'acqua
@@ -5472,7 +5472,7 @@ NUOTEREI,Mi muoverei nell'acqua
 NUOTAI,Mi mossi nell'acqua
 OCCUPARE,Prendere spazio o tempo
 OCCUPANDO,Prendendo spazio o tempo
-OCCUPATO,"Prendere spazio o tempo, a fatto compiuto"
+OCCUPATO,"Preso spazio o tempo"
 OCCUPO,Prendo spazio o tempo
 OCCUPA,Prende spazio o tempo
 OCCUPANO,Prendono spazio o tempo
@@ -5485,7 +5485,7 @@ OCCUPEREI,Prenderei spazio o tempo
 OCCUPAI,Presi spazio o tempo
 ODIARE,Provare avversione profonda
 ODIANDO,Provando avversione profonda
-ODIATO,"Provare avversione profonda, a fatto compiuto"
+ODIATO,"Provato avversione profonda"
 ODIA,Prova avversione profonda
 ODIANO,Provano avversione profonda
 ODIIAMO,Proviamo avversione profonda
@@ -5497,7 +5497,7 @@ ODIEREI,Proverei avversione profonda
 ODIAI,Provai avversione profonda
 ORDINARE,Mettere in ordine o comandare
 ORDINANDO,Mettendo in ordine o comandando
-ORDINATO,"Mettere in ordine o comandare, a fatto compiuto"
+ORDINATO,"Messo in ordine o comandato"
 ORDINO,Metto in ordine o comando
 ORDINA,Mette in ordine o comanda
 ORDINANO,Mettono in ordine o comandano
@@ -5510,7 +5510,7 @@ ORDINEREI,Metterei in ordine o comanderei
 ORDINAI,Misi in ordine o comandai
 ORGANIZZARE,Dare struttura a un piano
 ORGANIZZANDO,Dando struttura a un piano
-ORGANIZZATO,"Dare struttura a un piano, a fatto compiuto"
+ORGANIZZATO,"Dato struttura a un piano"
 ORGANIZZO,Do struttura a un piano
 ORGANIZZA,Dà struttura a un piano
 ORGANIZZANO,Danno struttura a un piano
@@ -5523,7 +5523,7 @@ ORGANIZZEREI,Darei struttura a un piano
 ORGANIZZAI,Diedi struttura a un piano
 OSSERVARE,Guardare con attenzione
 OSSERVANDO,Guardando con attenzione
-OSSERVATO,"Guardare con attenzione, a fatto compiuto"
+OSSERVATO,"Guardato con attenzione"
 OSSERVO,Guardo con attenzione
 OSSERVA,Guarda con attenzione
 OSSERVANO,Guardano con attenzione
@@ -5536,7 +5536,7 @@ OSSERVEREI,Guarderei con attenzione
 OSSERVAI,Guardai con attenzione
 OSARE,Avere il coraggio di rischiare
 OSANDO,Avendo il coraggio di rischiare
-OSATO,"Avere il coraggio di rischiare, a fatto compiuto"
+OSATO,"Avuto il coraggio di rischiare"
 OSO,Ho il coraggio di rischiare
 OSANO,Hanno il coraggio di rischiare
 OSIAMO,Abbiamo il coraggio di rischiare
@@ -5548,7 +5548,7 @@ OSEREI,Avrei il coraggio di rischiare
 OSAI,Ebbi il coraggio di rischiare
 PAGARE,Saldare un conto
 PAGANDO,Saldando un conto
-PAGATO,"Saldare un conto, a fatto compiuto"
+PAGATO,"Saldato un conto"
 PAGO,Saldo un conto
 PAGANO,Saldano un conto
 PAGHIAMO,Saldiamo un conto
@@ -5560,7 +5560,7 @@ PAGHEREI,Salderei un conto
 PAGAI,Saldai un conto
 PARLARE,Usare parole a voce
 PARLANDO,Usando parole a voce
-PARLATO,"Usare parole a voce, a fatto compiuto"
+PARLATO,"Usato parole a voce"
 PARLO,Uso parole a voce
 PARLA,Usa parole a voce
 PARLANO,Usano parole a voce
@@ -5583,7 +5583,7 @@ PASSEREI,Andrei oltre o trascorrerei
 PASSAI,Andai oltre o trascorrei
 PENSARE,Lavorare con la mente
 PENSANDO,Lavorando con la mente
-PENSATO,"Lavorare con la mente, a fatto compiuto"
+PENSATO,"Lavorato con la mente"
 PENSO,Lavoro con la mente
 PENSA,Lavora con la mente
 PENSANO,Lavorano con la mente
@@ -5596,7 +5596,7 @@ PENSEREI,Lavorerei con la mente
 PENSAI,Lavorai con la mente
 PESARE,Misurare il peso o gravare
 PESANDO,Misurando il peso o gravando
-PESATO,"Misurare il peso o gravare, a fatto compiuto"
+PESATO,"Misurato il peso o gravato"
 PESA,Misura il peso o grava
 PESANO,Misurano il peso o gravano
 PESIAMO,Misuriamo il peso o graviamo
@@ -5608,7 +5608,7 @@ PESEREI,Misurerei il peso o graverei
 PESAI,Misurai il peso o gravai
 PETTINARE,Mettere in ordine i capelli
 PETTINANDO,Mettendo in ordine i capelli
-PETTINATO,"Mettere in ordine i capelli, a fatto compiuto"
+PETTINATO,"Messo in ordine i capelli"
 PETTINO,Metto in ordine i capelli
 PETTINA,Mette in ordine i capelli
 PETTINANO,Mettono in ordine i capelli
@@ -5621,7 +5621,7 @@ PETTINEREI,Metterei in ordine i capelli
 PETTINAI,Misi in ordine i capelli
 PIANTARE,Mettere radici o abbandonare
 PIANTANDO,Mettendo radici o abbandonando
-PIANTATO,"Mettere radici o abbandonare, a fatto compiuto"
+PIANTATO,"Messe radici o abbandonato"
 PIANTO,Metto radici o abbandono
 PIANTANO,Mettono radici o abbandonano
 PIANTIAMO,Mettiamo radici o abbandoniamo
@@ -5633,7 +5633,7 @@ PIANTEREI,Metterei radici o abbandonerei
 PIANTAI,Misi radici o abbandonai
 PITTURARE,Coprire di colore
 PITTURANDO,Coprendo di colore
-PITTURATO,"Coprire di colore, a fatto compiuto"
+PITTURATO,"Coperto di colore"
 PITTURO,Copro di colore
 PITTURA,Copre di colore
 PITTURANO,Coprono di colore
@@ -5657,7 +5657,7 @@ PORTEREI,Reggerei e trasferirei
 PORTAI,Ressi e trasferii
 POSARE,Mettere giù o stare per una foto
 POSANDO,Mettendo giù o stando per una foto
-POSATO,"Mettere giù o stare per una foto, a fatto compiuto"
+POSATO,"Messo giù o stato per una foto"
 POSO,Metto giù o sto per una foto
 POSANO,Mettono giù o stanno per una foto
 POSIAMO,Mettiamo giù o stiamo per una foto
@@ -5669,7 +5669,7 @@ POSEREI,Metterei giù o starei per una foto
 POSAI,Misi giù o stetti per una foto
 PREPARARE,Rendere pronto
 PREPARANDO,Rendendo pronto
-PREPARATO,"Rendere pronto, a fatto compiuto"
+PREPARATO,"Reso pronto"
 PREPARO,Rendo pronto
 PREPARA,Rende pronto
 PREPARANO,Rendono pronto
@@ -5682,7 +5682,7 @@ PREPAREREI,Renderei pronto
 PREPARAI,Resi pronto
 PRESTARE,Dare per un tempo limitato
 PRESTANDO,Dando per un tempo limitato
-PRESTATO,"Dare per un tempo limitato, a fatto compiuto"
+PRESTATO,"Dato per un tempo limitato"
 PRESTO,Do per un tempo limitato
 PRESTA,Dà per un tempo limitato
 PRESTANO,Danno per un tempo limitato
@@ -5695,7 +5695,7 @@ PRESTEREI,Darei per un tempo limitato
 PRESTAI,Diedi per un tempo limitato
 PROVARE,Tentare o sentire
 PROVANDO,Tentando o sentendo
-PROVATO,"Tentare o sentire, a fatto compiuto"
+PROVATO,"Tentato o sentito"
 PROVO,Tento o sento
 PROVANO,Tentano o sentono
 PROVIAMO,Tentiamo o sentiamo
@@ -5707,7 +5707,7 @@ PROVEREI,Tenterei o sentirei
 PROVAI,Tentai o sentii
 PULSARE,Battere ritmicamente
 PULSANDO,Battendo ritmicamente
-PULSATO,"Battere ritmicamente, a fatto compiuto"
+PULSATO,"Battuto ritmicamente"
 PULSO,Batto ritmicamente
 PULSA,Batte ritmicamente
 PULSANO,Battono ritmicamente
@@ -5720,7 +5720,7 @@ PULSEREI,Batterei ritmicamente
 PULSAI,Battei ritmicamente
 RACCONTARE,Mettere fatti in parole
 RACCONTANDO,Mettendo fatti in parole
-RACCONTATO,"Mettere fatti in parole, a fatto compiuto"
+RACCONTATO,"Messo fatti in parole"
 RACCONTO,Metto fatti in parole
 RACCONTA,Mette fatti in parole
 RACCONTANO,Mettono fatti in parole
@@ -5733,7 +5733,7 @@ RACCONTEREI,Metterei fatti in parole
 RACCONTAI,Misi fatti in parole
 RAGIONARE,Seguire un filo logico
 RAGIONANDO,Seguendo un filo logico
-RAGIONATO,"Seguire un filo logico, a fatto compiuto"
+RAGIONATO,"Seguito un filo logico"
 RAGIONO,Seguo un filo logico
 RAGIONA,Segue un filo logico
 RAGIONANO,Seguono un filo logico
@@ -5759,7 +5759,7 @@ RALLENTEREI,Diminuirei la velocità
 RALLENTAI,Diminuii la velocità
 RECITARE,Dire una parte sulla scena
 RECITANDO,Dicendo una parte sulla scena
-RECITATO,"Dire una parte sulla scena, a fatto compiuto"
+RECITATO,"Detto una parte sulla scena"
 RECITO,Dico una parte sulla scena
 RECITA,Dice una parte sulla scena
 RECITANO,Dicono una parte sulla scena
@@ -5772,7 +5772,7 @@ RECITEREI,Direi una parte sulla scena
 RECITAI,Dissi una parte sulla scena
 REGALARE,Dare in dono
 REGALANDO,Dando in dono
-REGALATO,"Dare in dono, a fatto compiuto"
+REGALATO,"Dato in dono"
 REGALO,Do in dono
 REGALA,Dà in dono
 REGALANO,Danno in dono
@@ -5785,7 +5785,7 @@ REGALEREI,Darei in dono
 REGALAI,Diedi in dono
 REGNARE,Portare una corona o dominare
 REGNANDO,Portando una corona o dominando
-REGNATO,"Portare una corona o dominare, a fatto compiuto"
+REGNATO,"Portato una corona o dominato"
 REGNA,Porta una corona o domina
 REGNANO,Portano una corona o dominano
 REGNIAMO,Portiamo una corona o dominiamo
@@ -5797,7 +5797,7 @@ REGNEREI,Porterei una corona o dominerei
 REGNAI,Portai una corona o dominai
 RESTARE,Non andare via
 RESTANDO,Non andare via
-RESTATO,"Non andare via, a fatto compiuto"
+RESTATO,"Rimasto"
 RESTA,Non andare via
 RESTANO,Non andare via
 RESTIAMO,Non andare via
@@ -5809,7 +5809,7 @@ RESTEREI,Non andare via
 RESTAI,Non andare via
 RICAMARE,Ornare col filo
 RICAMANDO,Ornando col filo
-RICAMATO,"Ornare col filo, a fatto compiuto"
+RICAMATO,"Ornato col filo"
 RICAMA,Orna col filo
 RICAMANO,Ornano col filo
 RICAMIAMO,Orniamo col filo
@@ -5821,7 +5821,7 @@ RICAMEREI,Ornerei col filo
 RICAMAI,Ornai col filo
 RIFIUTARE,Dire di no
 RIFIUTANDO,Dicendo di no
-RIFIUTATO,"Dire di no, a fatto compiuto"
+RIFIUTATO,"Detto di no"
 RIFIUTO,Dico di no
 RIFIUTA,Dice di no
 RIFIUTANO,Dicono di no
@@ -5834,7 +5834,7 @@ RIFIUTEREI,Direi di no
 RIFIUTAI,Dissi di no
 RILASSARE,Sciogliere la tensione
 RILASSANDO,Sciogliendo la tensione
-RILASSATO,"Sciogliere la tensione, a fatto compiuto"
+RILASSATO,"Sciolto la tensione"
 RILASSO,Sciolgo la tensione
 RILASSA,Scioglie la tensione
 RILASSANO,Sciolgono la tensione
@@ -5847,7 +5847,7 @@ RILASSEREI,Scioglierei la tensione
 RILASSAI,Sciolsi la tensione
 RIMEDIARE,Porre riparo
 RIMEDIANDO,Ponendo riparo
-RIMEDIATO,"Porre riparo, a fatto compiuto"
+RIMEDIATO,"Posto riparo"
 RIMEDIA,Pone riparo
 RIMEDIANO,Pongono riparo
 RIMEDIIAMO,Poniamo riparo
@@ -5859,7 +5859,7 @@ RIMEDIEREI,Porrei riparo
 RIMEDIAI,Posi riparo
 RIPARARE,Aggiustare o proteggere
 RIPARANDO,Aggiustando o proteggendo
-RIPARATO,"Aggiustare o proteggere, a fatto compiuto"
+RIPARATO,"Aggiustato o protetto"
 RIPARO,Aggiusto o proteggo
 RIPARA,Aggiusta o protegge
 RIPARANO,Aggiustano o proteggono
@@ -5872,7 +5872,7 @@ RIPAREREI,Aggiusterei o proteggerei
 RIPARAI,Aggiustai o protessi
 RISPETTARE,Tenere in considerazione una regola
 RISPETTANDO,Tenendo in considerazione una regola
-RISPETTATO,"Tenere in considerazione una regola, a fatto compiuto"
+RISPETTATO,"Tenuto in considerazione una regola"
 RISPETTO,Tengo in considerazione una regola
 RISPETTA,Tiene in considerazione una regola
 RISPETTANO,Tengono in considerazione una regola
@@ -5885,7 +5885,7 @@ RISPETTEREI,Terrei in considerazione una regola
 RISPETTAI,Tenni in considerazione una regola
 RITARDARE,Arrivare dopo il tempo
 RITARDANDO,Arrivando dopo il tempo
-RITARDATO,"Arrivare dopo il tempo, a fatto compiuto"
+RITARDATO,"Arrivato dopo il tempo"
 RITARDO,Arrivo dopo il tempo
 RITARDA,Arriva dopo il tempo
 RITARDANO,Arrivano dopo il tempo
@@ -5898,7 +5898,7 @@ RITARDEREI,Arriverei dopo il tempo
 RITARDAI,Arrivai dopo il tempo
 RITIRARE,Trarre indietro o prendere indietro
 RITIRANDO,Traendo indietro o prendendo indietro
-RITIRATO,"Trarre indietro o prendere indietro, a fatto compiuto"
+RITIRATO,"Tratto indietro o ripreso"
 RITIRO,Traggo indietro o prendo indietro
 RITIRA,Trae indietro o prende indietro
 RITIRANO,Traggono indietro o prendono indietro
@@ -5911,7 +5911,7 @@ RITIREREI,Trarrei indietro o prenderei indietro
 RITIRAI,Trassi indietro o presi indietro
 ROTOLARE,Muoversi girando su se stessi
 ROTOLANDO,Muovendosi girando su se stessi
-ROTOLATO,"Muoversi girando su se stessi, a fatto compiuto"
+ROTOLATO,"Mosso girando su se stessi"
 ROTOLO,Mi muovo girando su se stessi
 ROTOLA,Si muove girando su se stessi
 ROTOLANO,Si muovono girando su se stessi
@@ -5924,7 +5924,7 @@ ROTOLEREI,Mi muoverei girando su se stessi
 ROTOLAI,Mi mossi girando su se stessi
 SALTARE,Staccarsi da terra
 SALTANDO,Staccandosi da terra
-SALTATO,"Staccarsi da terra, a fatto compiuto"
+SALTATO,"Staccato da terra"
 SALTA,Si stacca da terra
 SALTANO,Si staccano da terra
 SALTIAMO,Ci stacchiamo da terra
@@ -5936,7 +5936,7 @@ SALTEREI,Mi staccherei da terra
 SALTAI,Mi staccai da terra
 SALUTARE,Dare il segno dell'incontro o dell'addio
 SALUTANDO,Dando il segno dell'incontro o dell'addio
-SALUTATO,"Dare il segno dell'incontro o dell'addio, a fatto compiuto"
+SALUTATO,"Dato il segno dell'incontro o dell'addio"
 SALUTA,Dà il segno dell'incontro o dell'addio
 SALUTANO,Danno il segno dell'incontro o dell'addio
 SALUTIAMO,Diamo il segno dell'incontro o dell'addio
@@ -5948,7 +5948,7 @@ SALUTEREI,Darei il segno dell'incontro o dell'addio
 SALUTAI,Diedi il segno dell'incontro o dell'addio
 SALVARE,Sottrarre al pericolo
 SALVANDO,Sottraendo al pericolo
-SALVATO,"Sottrarre al pericolo, a fatto compiuto"
+SALVATO,"Sottratto al pericolo"
 SALVA,Sottrae al pericolo
 SALVANO,Sottraggono al pericolo
 SALVIAMO,Sottraiamo al pericolo
@@ -5960,7 +5960,7 @@ SALVEREI,Sottrarrei al pericolo
 SALVAI,Sottrassi al pericolo
 SBAGLIARE,Prendere la via errata
 SBAGLIANDO,Prendendo la via errata
-SBAGLIATO,"Prendere la via errata, a fatto compiuto"
+SBAGLIATO,"Preso la via errata"
 SBAGLIO,Prendo la via errata
 SBAGLIA,Prende la via errata
 SBAGLIANO,Prendono la via errata
@@ -5973,7 +5973,7 @@ SBAGLIEREI,Prenderei la via errata
 SBAGLIAI,Presi la via errata
 SCALDARE,Rendere più caldo
 SCALDANDO,Rendendo più caldo
-SCALDATO,"Rendere più caldo, a fatto compiuto"
+SCALDATO,"Reso più caldo"
 SCALDO,Rendo più caldo
 SCALDA,Rende più caldo
 SCALDANO,Rendono più caldo
@@ -5986,7 +5986,7 @@ SCALDEREI,Renderei più caldo
 SCALDAI,Resi più caldo
 SCATTARE,Partire di colpo o fare una foto
 SCATTANDO,Partendo di colpo o facendo una foto
-SCATTATO,"Partire di colpo o fare una foto, a fatto compiuto"
+SCATTATO,"Partito di colpo o fotografato"
 SCATTA,Parte di colpo o fa una foto
 SCATTANO,Partono di colpo o fanno una foto
 SCATTIAMO,Partiamo di colpo o facciamo una foto
@@ -5998,7 +5998,7 @@ SCATTEREI,Partirei di colpo o farei una foto
 SCATTAI,Partii di colpo o feci una foto
 SCAVARE,Togliere terra facendo vuoto
 SCAVANDO,Togliendo terra facendo vuoto
-SCAVATO,"Togliere terra facendo vuoto, a fatto compiuto"
+SCAVATO,"Tolto terra facendo vuoto"
 SCAVO,Tolgo terra facendo vuoto
 SCAVA,Toglie terra facendo vuoto
 SCAVANO,Tolgono terra facendo vuoto
@@ -6011,7 +6011,7 @@ SCAVEREI,Toglierei terra facendo vuoto
 SCAVAI,Tolsi terra facendo vuoto
 SCHERZARE,Giocare con le parole
 SCHERZANDO,Giocando con le parole
-SCHERZATO,"Giocare con le parole, a fatto compiuto"
+SCHERZATO,"Giocato con le parole"
 SCHERZO,Gioco con le parole
 SCHERZA,Gioca con le parole
 SCHERZANO,Giocano con le parole
@@ -6024,7 +6024,7 @@ SCHERZEREI,Giocherei con le parole
 SCHERZAI,Giocai con le parole
 SCIVOLARE,Perdere presa andando via
 SCIVOLANDO,Perdendo presa andando via
-SCIVOLATO,"Perdere presa andando via, a fatto compiuto"
+SCIVOLATO,"Perso presa andando via"
 SCIVOLO,Perdo presa andando via
 SCIVOLA,Perde presa andando via
 SCIVOLANO,Perdono presa andando via
@@ -6037,7 +6037,7 @@ SCIVOLEREI,Perderei presa andando via
 SCIVOLAI,Persi presa andando via
 SCORTARE,Accompagnare proteggendo
 SCORTANDO,Accompagnando proteggendo
-SCORTATO,"Accompagnare proteggendo, a fatto compiuto"
+SCORTATO,"Accompagnato proteggendo"
 SCORTO,Accompagno proteggendo
 SCORTA,Accompagna proteggendo
 SCORTANO,Accompagnano proteggendo
@@ -6050,7 +6050,7 @@ SCORTEREI,Accompagnerei proteggendo
 SCORTAI,Accompagnai proteggendo
 SCRUTARE,Guardare a fondo
 SCRUTANDO,Guardando a fondo
-SCRUTATO,"Guardare a fondo, a fatto compiuto"
+SCRUTATO,"Guardato a fondo"
 SCRUTO,Guardo a fondo
 SCRUTA,Guarda a fondo
 SCRUTANO,Guardano a fondo
@@ -6063,7 +6063,7 @@ SCRUTEREI,Guarderei a fondo
 SCRUTAI,Guardai a fondo
 SEGNALARE,Far notare con un segno
 SEGNALANDO,Facendo notare con un segno
-SEGNALATO,"Far notare con un segno, a fatto compiuto"
+SEGNALATO,"Fatto notare con un segno"
 SEGNALO,Faccio notare con un segno
 SEGNALA,Fa notare con un segno
 SEGNALANO,Fanno notare con un segno
@@ -6076,7 +6076,7 @@ SEGNALEREI,Farei notare con un segno
 SEGNALAI,Feci notare con un segno
 SEMINARE,Spargere semi o inseguitori
 SEMINANDO,Spargendo semi o inseguitori
-SEMINATO,"Spargere semi o inseguitori, a fatto compiuto"
+SEMINATO,"Sparso semi o inseguitori"
 SEMINO,Spargo semi o inseguitori
 SEMINA,Sparge semi o inseguitori
 SEMINANO,Spargono semi o inseguitori
@@ -6089,7 +6089,7 @@ SEMINEREI,Spargerei semi o inseguitori
 SEMINAI,Sparsi semi o inseguitori
 SEPARARE,Mettere distanza
 SEPARANDO,Mettendo distanza
-SEPARATO,"Mettere distanza, a fatto compiuto"
+SEPARATO,"Messo distanza"
 SEPARO,Metto distanza
 SEPARA,Mette distanza
 SEPARANO,Mettono distanza
@@ -6630,7 +6630,7 @@ ABBRACCIO,Stringo fra le braccia
 ABBRACCIA,Stringe fra le braccia
 ABBRACCIANO,Stringono fra le braccia
 ABBRACCIANDO,Stringendo fra le braccia
-ABBRACCIATO,"Stringere fra le braccia, a fatto compiuto"
+ABBRACCIATO,"Stretto fra le braccia"
 ABBRACCIAVO,Stringevo fra le braccia
 ABBRACCIAVA,Stringeva fra le braccia
 ABBRACCIAVANO,Stringevano fra le braccia
@@ -6641,7 +6641,7 @@ ABBINO,Metto in coppia
 ABBINA,Mette in coppia
 ABBINANO,Mettono in coppia
 ABBINANDO,Mettendo in coppia
-ABBINATO,"Mettere in coppia, a fatto compiuto"
+ABBINATO,"Messo in coppia"
 ABBINAVO,Mettevo in coppia
 ABBINAVA,Metteva in coppia
 ABBINAVANO,Mettevano in coppia
@@ -6652,7 +6652,7 @@ ABBONO,Do accesso periodico
 ABBONA,Dà accesso periodico
 ABBONANO,Danno accesso periodico
 ABBONANDO,Dando accesso periodico
-ABBONATO,"Dare accesso periodico, a fatto compiuto"
+ABBONATO,"Dato accesso periodico"
 ABBONAVO,Davo accesso periodico
 ABBONAVA,Dava accesso periodico
 ABBONAVANO,Davano accesso periodico
@@ -6663,7 +6663,7 @@ ABBOZZO,Traccio appena
 ABBOZZA,Traccia appena
 ABBOZZANO,Tracciano appena
 ABBOZZANDO,Tracciando appena
-ABBOZZATO,"Tracciare appena, a fatto compiuto"
+ABBOZZATO,"Tracciato appena"
 ABBOZZAVO,Tracciavo appena
 ABBOZZAVA,Tracciava appena
 ABBOZZAVANO,Tracciavano appena
@@ -6676,7 +6676,7 @@ ABOLISCO,Cancello per legge
 ABOLISCE,Cancella per legge
 ABOLISCONO,Cancellano per legge
 ABOLENDO,Cancellando per legge
-ABOLITO,"Cancellare per legge, a fatto compiuto"
+ABOLITO,"Cancellato per legge"
 ABOLIVO,Cancellavo per legge
 ABOLIVA,Cancellava per legge
 ABOLIVANO,Cancellavano per legge
@@ -6687,7 +6687,7 @@ ACCALDO,Rendo caldo
 ACCALDA,Rende caldo
 ACCALDANO,Rendono caldo
 ACCALDANDO,Rendendo caldo
-ACCALDATO,"Rendere caldo, a fatto compiuto"
+ACCALDATO,"Reso caldo"
 ACCALDAVO,Rendevo caldo
 ACCALDAVA,Rendeva caldo
 ACCALDAVANO,Rendevano caldo
@@ -6698,7 +6698,7 @@ ACCAMPO,Sistemo in tenda
 ACCAMPA,Sistema in tenda
 ACCAMPANO,Sistemano in tenda
 ACCAMPANDO,Sistemando in tenda
-ACCAMPATO,"Sistemare in tenda, a fatto compiuto"
+ACCAMPATO,"Sistemato in tenda"
 ACCAMPAVO,Sistemavo in tenda
 ACCAMPAVA,Sistemava in tenda
 ACCAMPAVANO,Sistemavano in tenda
@@ -6709,7 +6709,7 @@ ACCANTONO,Metto da parte
 ACCANTONA,Mette da parte
 ACCANTONANO,Mettono da parte
 ACCANTONANDO,Mettendo da parte
-ACCANTONATO,"Mettere da parte, a fatto compiuto"
+ACCANTONATO,"Messo da parte"
 ACCANTONAVO,Mettevo da parte
 ACCANTONAVA,Metteva da parte
 ACCANTONAVANO,Mettevano da parte
@@ -6724,7 +6724,7 @@ ACCHIAPPO,Prendo al volo
 ACCHIAPPA,Prende al volo
 ACCHIAPPANO,Prendono al volo
 ACCHIAPPANDO,Prendendo al volo
-ACCHIAPPATO,"Prendere al volo, a fatto compiuto"
+ACCHIAPPATO,"Preso al volo"
 ACCHIAPPAVO,Prendevo al volo
 ACCHIAPPAVA,Prendeva al volo
 ACCHIAPPAVANO,Prendevano al volo
@@ -6735,7 +6735,7 @@ ACCORDO,Metto in armonia
 ACCORDA,Mette in armonia
 ACCORDANO,Mettono in armonia
 ACCORDANDO,Mettendo in armonia
-ACCORDATO,"Mettere in armonia, a fatto compiuto"
+ACCORDATO,"Messo in armonia"
 ACCORDAVO,Mettevo in armonia
 ACCORDAVA,Metteva in armonia
 ACCORDAVANO,Mettevano in armonia
@@ -6746,7 +6746,7 @@ ACCOSTO,Metto vicino
 ACCOSTA,Mette vicino
 ACCOSTANO,Mettono vicino
 ACCOSTANDO,Mettendo vicino
-ACCOSTATO,"Mettere vicino, a fatto compiuto"
+ACCOSTATO,"Messo vicino"
 ACCOSTAVO,Mettevo vicino
 ACCOSTAVA,Metteva vicino
 ACCOSTAVANO,Mettevano vicino
@@ -6757,7 +6757,7 @@ ACCUDISCO,Mi prendo cura
 ACCUDISCE,Si prende cura
 ACCUDISCONO,Si prendono cura
 ACCUDENDO,Prendendosi cura
-ACCUDITO,"Prendersi cura, a fatto compiuto"
+ACCUDITO,"Preso cura"
 ACCUDIVO,Mi prendevo cura
 ACCUDIVA,Si prendeva cura
 ACCUDIVANO,Si prendevano cura
@@ -6768,7 +6768,7 @@ ACCURO,Rendo preciso
 ACCURA,Rende preciso
 ACCURANO,Rendono preciso
 ACCURANDO,Rendendo preciso
-ACCURATO,"Rendere preciso, a fatto compiuto"
+ACCURATO,"Reso preciso"
 ACCURAVO,Rendevo preciso
 ACCURAVA,Rendeva preciso
 ACCURAVANO,Rendevano preciso
@@ -6779,7 +6779,7 @@ ACQUISTO,Compro
 ACQUISTA,Compra
 ACQUISTANO,Comprano
 ACQUISTANDO,Comprando
-ACQUISTATO,"Comprare, a fatto compiuto"
+ACQUISTATO,"Comprato"
 ACQUISTAVO,Compravo
 ACQUISTAVA,Comprava
 ACQUISTAVANO,Compravano
@@ -6789,7 +6789,7 @@ ADAGIARE,Posare con cura
 ADAGIA,Posa con cura
 ADAGIANO,Posano con cura
 ADAGIANDO,Posando con cura
-ADAGIATO,"Posare con cura, a fatto compiuto"
+ADAGIATO,"Posato con cura"
 ADAGIAVO,Posavo con cura
 ADAGIAVA,Posava con cura
 ADAGIAVANO,Posavano con cura
@@ -6800,7 +6800,7 @@ ADDEBITO,Metto sul conto
 ADDEBITA,Mette sul conto
 ADDEBITANO,Mettono sul conto
 ADDEBITANDO,Mettendo sul conto
-ADDEBITATO,"Mettere sul conto, a fatto compiuto"
+ADDEBITATO,"Messo sul conto"
 ADDEBITAVO,Mettevo sul conto
 ADDEBITAVA,Metteva sul conto
 ADDEBITAVANO,Mettevano sul conto
@@ -6811,7 +6811,7 @@ ADDENTO,Mordo con forza
 ADDENTA,Morde con forza
 ADDENTANO,Mordono con forza
 ADDENTANDO,Mordendo con forza
-ADDENTATO,"Mordere con forza, a fatto compiuto"
+ADDENTATO,"Morso con forza"
 ADDENTAVO,Mordevo con forza
 ADDENTAVA,Mordeva con forza
 ADDENTAVANO,Mordevano con forza
@@ -6822,7 +6822,7 @@ ADDOBBO,Orno a festa
 ADDOBBA,Orna a festa
 ADDOBBANO,Ornano a festa
 ADDOBBANDO,Ornando a festa
-ADDOBBATO,"Ornare a festa, a fatto compiuto"
+ADDOBBATO,"Ornato a festa"
 ADDOBBAVO,Ornavo a festa
 ADDOBBAVA,Ornava a festa
 ADDOBBAVANO,Ornavano a festa
@@ -6833,7 +6833,7 @@ ADDOLCISCO,Rendo meno amaro
 ADDOLCISCE,Rende meno amaro
 ADDOLCISCONO,Rendono meno amaro
 ADDOLCENDO,Rendendo meno amaro
-ADDOLCITO,"Rendere meno amaro, a fatto compiuto"
+ADDOLCITO,"Reso meno amaro"
 ADDOLCIVO,Rendevo meno amaro
 ADDOLCIVA,Rendeva meno amaro
 ADDOLCIVANO,Rendevano meno amaro
@@ -6844,7 +6844,7 @@ AFFETTO,Taglio a fette
 AFFETTA,Taglia a fette
 AFFETTANO,Tagliano a fette
 AFFETTANDO,Tagliando a fette
-AFFETTATO,"Tagliare a fette, a fatto compiuto"
+AFFETTATO,"Tagliato a fette"
 AFFETTAVO,Tagliavo a fette
 AFFETTAVA,Tagliava a fette
 AFFETTAVANO,Tagliavano a fette
@@ -6857,7 +6857,7 @@ AFFILO,Rendo tagliente
 AFFILA,Rende tagliente
 AFFILANO,Rendono tagliente
 AFFILANDO,Rendendo tagliente
-AFFILATO,"Rendere tagliente, a fatto compiuto"
+AFFILATO,"Reso tagliente"
 AFFILAVO,Rendevo tagliente
 AFFILAVA,Rendeva tagliente
 AFFILAVANO,Rendevano tagliente
@@ -6868,7 +6868,7 @@ AFFITTO,Do o prendo in locazione
 AFFITTA,Dà o prende in locazione
 AFFITTANO,Danno o prendono in locazione
 AFFITTANDO,Dando o prendendo in locazione
-AFFITTATO,"Dare o prendere in locazione, a fatto compiuto"
+AFFITTATO,"Dato o preso in locazione"
 AFFITTAVO,Davo o prendevo in locazione
 AFFITTAVA,Dava o prendeva in locazione
 AFFITTAVANO,Davano o prendevano in locazione
@@ -6879,7 +6879,7 @@ AFFOLLO,Riempo di gente
 AFFOLLA,Riempe di gente
 AFFOLLANO,Riempiono di gente
 AFFOLLANDO,Riempendo di gente
-AFFOLLATO,"Riempire di gente, a fatto compiuto"
+AFFOLLATO,"Riempito di gente"
 AFFOLLAVO,Riempivo di gente
 AFFOLLAVA,Riempiva di gente
 AFFOLLAVANO,Riempivano di gente
@@ -6890,7 +6890,7 @@ AFFRONTO,Vado incontro a una prova
 AFFRONTA,Va incontro a una prova
 AFFRONTANO,Vanno incontro a una prova
 AFFRONTANDO,Andando incontro a una prova
-AFFRONTATO,"Andare incontro a una prova, a fatto compiuto"
+AFFRONTATO,"Andato incontro a una prova"
 AFFRONTAVO,Andavo incontro a una prova
 AFFRONTAVA,Andava incontro a una prova
 AFFRONTAVANO,Andavano incontro a una prova
@@ -6901,7 +6901,7 @@ AGGANCIO,Prendo con un gancio
 AGGANCIA,Prende con un gancio
 AGGANCIANO,Prendono con un gancio
 AGGANCIANDO,Prendendo con un gancio
-AGGANCIATO,"Prendere con un gancio, a fatto compiuto"
+AGGANCIATO,"Preso con un gancio"
 AGGANCIAVO,Prendevo con un gancio
 AGGANCIAVA,Prendeva con un gancio
 AGGANCIAVANO,Prendevano con un gancio
@@ -6912,7 +6912,7 @@ AGGIORNO,Rendo attuale
 AGGIORNA,Rende attuale
 AGGIORNANO,Rendono attuale
 AGGIORNANDO,Rendendo attuale
-AGGIORNATO,"Rendere attuale, a fatto compiuto"
+AGGIORNATO,"Reso attuale"
 AGGIORNAVO,Rendevo attuale
 AGGIORNAVA,Rendeva attuale
 AGGIORNAVANO,Rendevano attuale
@@ -6923,7 +6923,7 @@ AGGIUSTO,Rimetto a posto
 AGGIUSTA,Rimette a posto
 AGGIUSTANO,Rimettono a posto
 AGGIUSTANDO,Rimettendo a posto
-AGGIUSTATO,"Rimettere a posto, a fatto compiuto"
+AGGIUSTATO,"Rimesso a posto"
 AGGIUSTAVO,Rimettevo a posto
 AGGIUSTAVA,Rimetteva a posto
 AGGIUSTAVANO,Rimettevano a posto
@@ -6934,7 +6934,7 @@ AGGRAPPO,Attacco saldamente
 AGGRAPPA,Attacca saldamente
 AGGRAPPANO,Attaccano saldamente
 AGGRAPPANDO,Attaccando saldamente
-AGGRAPPATO,"Attaccare saldamente, a fatto compiuto"
+AGGRAPPATO,"Attaccato saldamente"
 AGGRAPPAVO,Attaccavo saldamente
 AGGRAPPAVA,Attaccava saldamente
 AGGRAPPAVANO,Attaccavano saldamente
@@ -6949,7 +6949,7 @@ ALLACCIO,Chiudo con lacci
 ALLACCIA,Chiude con lacci
 ALLACCIANO,Chiudono con lacci
 ALLACCIANDO,Chiudendo con lacci
-ALLACCIATO,"Chiudere con lacci, a fatto compiuto"
+ALLACCIATO,"Chiuso con lacci"
 ALLACCIAVO,Chiudevo con lacci
 ALLACCIAVA,Chiudeva con lacci
 ALLACCIAVANO,Chiudevano con lacci
@@ -6960,7 +6960,7 @@ ALLARGO,Rendo più largo
 ALLARGA,Rende più largo
 ALLARGANO,Rendono più largo
 ALLARGANDO,Rendendo più largo
-ALLARGATO,"Rendere più largo, a fatto compiuto"
+ALLARGATO,"Reso più largo"
 ALLARGAVO,Rendevo più largo
 ALLARGAVA,Rendeva più largo
 ALLARGAVANO,Rendevano più largo
@@ -6971,7 +6971,7 @@ ALLEO,Uno in patto
 ALLEA,Une in patto
 ALLEANO,Unono in patto
 ALLEANDO,Unendo in patto
-ALLEATO,"Unire in patto, a fatto compiuto"
+ALLEATO,"Unito in patto"
 ALLEAVO,Univo in patto
 ALLEAVA,Univa in patto
 ALLEAVANO,Univano in patto
@@ -6984,7 +6984,7 @@ ALLESTISCO,Preparo per l'uso
 ALLESTISCE,Prepara per l'uso
 ALLESTISCONO,Preparano per l'uso
 ALLESTENDO,Preparando per l'uso
-ALLESTITO,"Preparare per l'uso, a fatto compiuto"
+ALLESTITO,"Preparato per l'uso"
 ALLESTIVO,Preparavo per l'uso
 ALLESTIVA,Preparava per l'uso
 ALLESTIVANO,Preparavano per l'uso
@@ -6997,7 +6997,7 @@ ALLOGGIO,Do ospitalità a chi arriva
 ALLOGGIA,Dà o trova alloggio
 ALLOGGIANO,Danno o trovano alloggio
 ALLOGGIANDO,Dando o trovando alloggio
-ALLOGGIATO,"Dare o trovare alloggio, a fatto compiuto"
+ALLOGGIATO,"Dato o trovato alloggio"
 ALLOGGIAVO,Davo o trovavo alloggio
 ALLOGGIAVA,Dava o trovava alloggio
 ALLOGGIAVANO,Davano o trovavano alloggio
@@ -7008,7 +7008,7 @@ ALLONTANO,Mando lontano
 ALLONTANA,Manda lontano
 ALLONTANANO,Mandano lontano
 ALLONTANANDO,Mandando lontano
-ALLONTANATO,"Mandare lontano, a fatto compiuto"
+ALLONTANATO,"Mandato lontano"
 ALLONTANAVO,Mandavo lontano
 ALLONTANAVA,Mandava lontano
 ALLONTANAVANO,Mandavano lontano
@@ -7019,7 +7019,7 @@ ALLUNGO,Rendo più lungo
 ALLUNGA,Rende più lungo
 ALLUNGANO,Rendono più lungo
 ALLUNGANDO,Rendendo più lungo
-ALLUNGATO,"Rendere più lungo, a fatto compiuto"
+ALLUNGATO,"Reso più lungo"
 ALLUNGAVO,Rendevo più lungo
 ALLUNGAVA,Rendeva più lungo
 ALLUNGAVANO,Rendevano più lungo
@@ -7032,7 +7032,7 @@ ALZO,Porto in alto
 ALZA,Porta in alto
 ALZANO,Portano in alto
 ALZANDO,Portando in alto
-ALZATO,"Portare in alto, a fatto compiuto"
+ALZATO,"Portato in alto"
 ALZAVO,Portavo in alto
 ALZAVA,Portava in alto
 ALZAVANO,Portavano in alto
@@ -7043,7 +7043,7 @@ AMMALO,Faccio perdere salute
 AMMALA,Fa perdere salute
 AMMALANO,Fanno perdere salute
 AMMALANDO,Facendo perdere salute
-AMMALATO,"Far perdere salute, a fatto compiuto"
+AMMALATO,"Fatto perdere salute"
 AMMALAVO,Facevo perdere salute
 AMMALAVA,Faceva perdere salute
 AMMALAVANO,Facevano perdere salute
@@ -7067,7 +7067,7 @@ AMMUCCHIO,Metto in mucchio
 AMMUCCHIA,Mette in mucchio
 AMMUCCHIANO,Mettono in mucchio
 AMMUCCHIANDO,Mettendo in mucchio
-AMMUCCHIATO,"Mettere in mucchio, a fatto compiuto"
+AMMUCCHIATO,"Messo in mucchio"
 AMMUCCHIAVO,Mettevo in mucchio
 AMMUCCHIAVA,Metteva in mucchio
 AMMUCCHIAVANO,Mettevano in mucchio
@@ -7089,7 +7089,7 @@ ANNAFFIO,Do acqua alle piante
 ANNAFFIA,Dà acqua alle piante
 ANNAFFIANO,Danno acqua alle piante
 ANNAFFIANDO,Dando acqua alle piante
-ANNAFFIATO,"Dare acqua alle piante, a fatto compiuto"
+ANNAFFIATO,"Dato acqua alle piante"
 ANNAFFIAVO,Davo acqua alle piante
 ANNAFFIAVA,Dava acqua alle piante
 ANNAFFIAVANO,Davano acqua alle piante
@@ -7106,7 +7106,7 @@ APPANNO,Velo di vapore
 APPANNA,Vela di vapore
 APPANNANO,Velano di vapore
 APPANNANDO,Velando di vapore
-APPANNATO,"Velare di vapore, a fatto compiuto"
+APPANNATO,"Velato di vapore"
 APPANNAVO,Velavo di vapore
 APPANNAVA,Velava di vapore
 APPANNAVANO,Velavano di vapore
@@ -7127,7 +7127,7 @@ APPLAUDO,Batto le mani
 APPLAUDE,Batte le mani
 APPLAUDONO,Battono le mani
 APPLAUDENDO,Battendo le mani
-APPLAUDITO,"Battere le mani, a fatto compiuto"
+APPLAUDITO,"Battuto le mani"
 APPLAUDIVO,Battevo le mani
 APPLAUDIVA,Batteva le mani
 APPLAUDIVANO,Battevano le mani
@@ -7138,7 +7138,7 @@ APPOGGIO,Poso sopra un sostegno
 APPOGGIA,Posa sopra un sostegno
 APPOGGIANO,Posano sopra un sostegno
 APPOGGIANDO,Posando sopra un sostegno
-APPOGGIATO,"Posare sopra un sostegno, a fatto compiuto"
+APPOGGIATO,"Posato sopra un sostegno"
 APPOGGIAVO,Posavo sopra un sostegno
 APPOGGIAVA,Posava sopra un sostegno
 APPOGGIAVANO,Posavano sopra un sostegno
@@ -7149,7 +7149,7 @@ APPREZZO,Stimo il valore
 APPREZZA,Stima il valore
 APPREZZANO,Stimano il valore
 APPREZZANDO,Stimando il valore
-APPREZZATO,"Stimare il valore, a fatto compiuto"
+APPREZZATO,"Stimato il valore"
 APPREZZAVO,Stimavo il valore
 APPREZZAVA,Stimava il valore
 APPREZZAVANO,Stimavano il valore
@@ -7159,7 +7159,7 @@ ARCHIVIARE,Mettere in archivio
 ARCHIVIA,Mette in archivio
 ARCHIVIANO,Mettono in archivio
 ARCHIVIANDO,Mettendo in archivio
-ARCHIVIATO,"Mettere in archivio, a fatto compiuto"
+ARCHIVIATO,"Messo in archivio"
 ARCHIVIAVO,Mettevo in archivio
 ARCHIVIAVA,Metteva in archivio
 ARCHIVIAVANO,Mettevano in archivio
@@ -7191,7 +7191,7 @@ ARRESTO,Fermo con autorità
 ARRESTA,Ferma con autorità
 ARRESTANO,Fermano con autorità
 ARRESTANDO,Fermando con autorità
-ARRESTATO,"Fermare con autorità, a fatto compiuto"
+ARRESTATO,"Fermato con autorità"
 ARRESTAVO,Fermavo con autorità
 ARRESTAVA,Fermava con autorità
 ARRESTAVANO,Fermavano con autorità
@@ -7202,7 +7202,7 @@ ARRICCHISCO,Rendo più ricco
 ARRICCHISCE,Rende più ricco
 ARRICCHISCONO,Rendono più ricco
 ARRICCHENDO,Rendendo più ricco
-ARRICCHITO,"Rendere più ricco, a fatto compiuto"
+ARRICCHITO,"Reso più ricco"
 ARRICCHIVO,Rendevo più ricco
 ARRICCHIVA,Rendeva più ricco
 ARRICCHIVANO,Rendevano più ricco
@@ -7213,7 +7213,7 @@ ARROTOLO,Avvolgo su sé stesso
 ARROTOLA,Avvolge su sé stesso
 ARROTOLANO,Avvolgono su sé stesso
 ARROTOLANDO,Avvolgendo su sé stesso
-ARROTOLATO,"Avvolgere su sé stesso, a fatto compiuto"
+ARROTOLATO,"Avvolto su sé stesso"
 ARROTOLAVO,Avvolgevo su sé stesso
 ARROTOLAVA,Avvolgeva su sé stesso
 ARROTOLAVANO,Avvolgevano su sé stesso
@@ -7224,7 +7224,7 @@ ASCIUGO,Tolgo l'umido
 ASCIUGA,Toglie l'umido
 ASCIUGANO,Tolgono l'umido
 ASCIUGANDO,Togliendo l'umido
-ASCIUGATO,"Togliere l'umido, a fatto compiuto"
+ASCIUGATO,"Tolto l'umido"
 ASCIUGAVO,Toglievo l'umido
 ASCIUGAVA,Toglieva l'umido
 ASCIUGAVANO,Toglievano l'umido
@@ -7248,7 +7248,7 @@ ASSICURO,Rendo sicuro
 ASSICURA,Rende sicuro
 ASSICURANO,Rendono sicuro
 ASSICURANDO,Rendendo sicuro
-ASSICURATO,"Rendere sicuro, a fatto compiuto"
+ASSICURATO,"Reso sicuro"
 ASSICURAVO,Rendevo sicuro
 ASSICURAVA,Rendeva sicuro
 ASSICURAVANO,Rendevano sicuro
@@ -7269,7 +7269,7 @@ ASSORBO,Imbevo o inglobo
 ASSORBE,Imbeve o ingloba
 ASSORBONO,Imbevono o inglobano
 ASSORBENDO,Imbevendo o inglobando
-ASSORBITO,"Imbevere o inglobare, a fatto compiuto"
+ASSORBITO,"Imbevuto o inglobato"
 ASSORBIVO,Imbevevo o inglobavo
 ASSORBIVA,Imbeveva o inglobava
 ASSORBIVANO,Imbevevano o inglobavano
@@ -7280,7 +7280,7 @@ ATTACCO,Uno o inizio l'assalto
 ATTACCA,Une o inizia l'assalto
 ATTACCANO,Unono o iniziano l'assalto
 ATTACCANDO,Unendo o iniziando l'assalto
-ATTACCATO,"Unire o iniziare l'assalto, a fatto compiuto"
+ATTACCATO,"Unito o avviato all'assalto"
 ATTACCAVO,Univo o iniziavo l'assalto
 ATTACCAVA,Univa o iniziava l'assalto
 ATTACCAVANO,Univano o iniziavano l'assalto
@@ -7301,7 +7301,7 @@ ATTERRO,Tocco terra dopo il volo
 ATTERRA,Tocca terra dopo il volo
 ATTERRANO,Toccano terra dopo il volo
 ATTERRANDO,Toccando terra dopo il volo
-ATTERRATO,"Toccare terra dopo il volo, a fatto compiuto"
+ATTERRATO,"Toccato terra dopo il volo"
 ATTERRAVO,Toccavo terra dopo il volo
 ATTERRAVA,Toccava terra dopo il volo
 ATTERRAVANO,Toccavano terra dopo il volo
@@ -7312,7 +7312,7 @@ ATTIVO,Metto in funzione
 ATTIVA,Mette in funzione
 ATTIVANO,Mettono in funzione
 ATTIVANDO,Mettendo in funzione
-ATTIVATO,"Mettere in funzione, a fatto compiuto"
+ATTIVATO,"Messo in funzione"
 ATTIVAVO,Mettevo in funzione
 ATTIVAVA,Metteva in funzione
 ATTIVAVANO,Mettevano in funzione
@@ -7323,7 +7323,7 @@ ATTREZZO,Doto di strumenti
 ATTREZZA,Dota di strumenti
 ATTREZZANO,Dotano di strumenti
 ATTREZZANDO,Dotando di strumenti
-ATTREZZATO,"Dotare di strumenti, a fatto compiuto"
+ATTREZZATO,"Dotato di strumenti"
 ATTREZZAVO,Dotavo di strumenti
 ATTREZZAVA,Dotava di strumenti
 ATTREZZAVANO,Dotavano di strumenti
@@ -7334,7 +7334,7 @@ AUMENTO,Rendo maggiore
 AUMENTA,Rende maggiore
 AUMENTANO,Rendono maggiore
 AUMENTANDO,Rendendo maggiore
-AUMENTATO,"Rendere maggiore, a fatto compiuto"
+AUMENTATO,"Reso maggiore"
 AUMENTAVO,Rendevo maggiore
 AUMENTAVA,Rendeva maggiore
 AUMENTAVANO,Rendevano maggiore
@@ -7345,7 +7345,7 @@ AVANZO,Procedo in avanti
 AVANZA,Procede in avanti
 AVANZANO,Procedono in avanti
 AVANZANDO,Procedendo in avanti
-AVANZATO,"Procedere in avanti, a fatto compiuto"
+AVANZATO,"Proceduto in avanti"
 AVANZAVO,Procedevo in avanti
 AVANZAVA,Procedeva in avanti
 AVANZAVANO,Procedevano in avanti
@@ -7355,7 +7355,7 @@ AVVISARE,Dare notizia
 AVVISA,Dà notizia
 AVVISANO,Danno notizia
 AVVISANDO,Dando notizia
-AVVISATO,"Dare notizia, a fatto compiuto"
+AVVISATO,"Dato notizia"
 AVVISAVO,Davo notizia
 AVVISAVA,Dava notizia
 AVVISAVANO,Davano notizia
@@ -7376,7 +7376,7 @@ AZIONO,Metto in moto
 AZIONA,Mette in moto
 AZIONANO,Mettono in moto
 AZIONANDO,Mettendo in moto
-AZIONATO,"Mettere in moto, a fatto compiuto"
+AZIONATO,"Messo in moto"
 AZIONAVO,Mettevo in moto
 AZIONAVA,Metteva in moto
 AZIONAVANO,Mettevano in moto
@@ -7387,7 +7387,7 @@ BACIO,Tocco con le labbra
 BACIA,Tocca con le labbra
 BACIANO,Toccano con le labbra
 BACIANDO,Toccando con le labbra
-BACIATO,"Toccare con le labbra, a fatto compiuto"
+BACIATO,"Toccato con le labbra"
 BACIAVO,Toccavo con le labbra
 BACIAVA,Toccava con le labbra
 BACIAVANO,Toccavano con le labbra
@@ -7398,7 +7398,7 @@ BADO,Faccio attenzione
 BADA,Fa attenzione
 BADANO,Fanno attenzione
 BADANDO,Facendo attenzione
-BADATO,"Fare attenzione, a fatto compiuto"
+BADATO,"Fatto attenzione"
 BADAVO,Facevo attenzione
 BADAVA,Faceva attenzione
 BADAVANO,Facevano attenzione
@@ -7426,7 +7426,7 @@ BECCARE,Prendere col becco
 BECCA,Prende col becco
 BECCANO,Prendono col becco
 BECCANDO,Prendendo col becco
-BECCATO,"Prendere col becco, a fatto compiuto"
+BECCATO,"Preso col becco"
 BECCAVO,Prendevo col becco
 BECCAVA,Prendeva col becco
 BECCAVANO,Prendevano col becco
@@ -7436,7 +7436,7 @@ BENDARE,Fasciare con bende
 BENDO,Fascio con bende
 BENDANO,Fasciano con bende
 BENDANDO,Fasciando con bende
-BENDATO,"Fasciare con bende, a fatto compiuto"
+BENDATO,"Fasciato con bende"
 BENDAVO,Fasciavo con bende
 BENDAVA,Fasciava con bende
 BENDAVANO,Fasciavano con bende
@@ -7447,7 +7447,7 @@ BLOCCO,Fermo del tutto
 BLOCCA,Ferma del tutto
 BLOCCANO,Fermano del tutto
 BLOCCANDO,Fermando del tutto
-BLOCCATO,"Fermare del tutto, a fatto compiuto"
+BLOCCATO,"Fermato del tutto"
 BLOCCAVO,Fermavo del tutto
 BLOCCAVA,Fermava del tutto
 BLOCCAVANO,Fermavano del tutto
@@ -7458,7 +7458,7 @@ BOCCIO,Respingo a un esame
 BOCCIA,Respinge a un esame
 BOCCIANO,Respingono a un esame
 BOCCIANDO,Respingendo a un esame
-BOCCIATO,"Respingere a un esame, a fatto compiuto"
+BOCCIATO,"Respinto a un esame"
 BOCCIAVO,Respingevo a un esame
 BOCCIAVA,Respingeva a un esame
 BOCCIAVANO,Respingevano a un esame
@@ -7471,7 +7471,7 @@ BRUCIO,Consumo col fuoco
 BRUCIA,Consuma col fuoco
 BRUCIANO,Consumano col fuoco
 BRUCIANDO,Consumando col fuoco
-BRUCIATO,"Consumare col fuoco, a fatto compiuto"
+BRUCIATO,"Consumato col fuoco"
 BRUCIAVO,Consumavo col fuoco
 BRUCIAVA,Consumava col fuoco
 BRUCIAVANO,Consumavano col fuoco
@@ -7481,7 +7481,7 @@ BUSSO,Picchio alla porta
 BUSSA,Picchia alla porta
 BUSSANO,Picchiano alla porta
 BUSSANDO,Picchiando alla porta
-BUSSATO,"Picchiare alla porta, a fatto compiuto"
+BUSSATO,"Picchiato alla porta"
 BUSSAVO,Picchiavo alla porta
 BUSSAVA,Picchiava alla porta
 BUSSAVANO,Picchiavano alla porta
@@ -7492,7 +7492,7 @@ BUTTO,Getto via
 BUTTA,Getta via
 BUTTANO,Gettano via
 BUTTANDO,Gettando via
-BUTTATO,"Gettare via, a fatto compiuto"
+BUTTATO,"Gettato via"
 BUTTAVO,Gettavo via
 BUTTAVA,Gettava via
 BUTTAVANO,Gettavano via
@@ -7513,7 +7513,7 @@ CALCOLO,Faccio conti
 CALCOLA,Fa conti
 CALCOLANO,Fanno conti
 CALCOLANDO,Facendo conti
-CALCOLATO,"Fare conti, a fatto compiuto"
+CALCOLATO,"Fatto conti"
 CALCOLAVO,Facevo conti
 CALCOLAVA,Faceva conti
 CALCOLAVANO,Facevano conti
@@ -7529,7 +7529,7 @@ CANCELLARE,Togliere con la gomma
 CANCELLA,Toglie con la gomma
 CANCELLANO,Tolgono con la gomma
 CANCELLANDO,Togliendo con la gomma
-CANCELLATO,"Togliere con la gomma, a fatto compiuto"
+CANCELLATO,"Tolto con la gomma"
 CANCELLAVO,Toglievo con la gomma
 CANCELLAVA,Toglieva con la gomma
 CANCELLAVANO,Toglievano con la gomma
@@ -7540,7 +7540,7 @@ CARICO,Metto un peso o energia
 CARICA,Mette un peso o energia
 CARICANO,Mettono un peso o energia
 CARICANDO,Mettendo un peso o energia
-CARICATO,"Mettere un peso o energia, a fatto compiuto"
+CARICATO,"Messo un peso o energia"
 CARICAVO,Mettevo un peso o energia
 CARICAVA,Metteva un peso o energia
 CARICAVANO,Mettevano un peso o energia
@@ -7552,7 +7552,7 @@ CAVARE,Tirare fuori
 CAVA,Tira fuori
 CAVANO,Tirano fuori
 CAVANDO,Tirando fuori
-CAVATO,"Tirare fuori, a fatto compiuto"
+CAVATO,"Tirato fuori"
 CAVAVO,Tiravo fuori
 CAVAVA,Tirava fuori
 CAVAVANO,Tiravano fuori
@@ -7577,7 +7577,7 @@ CERCO,Vado in cerca
 CERCA,Tenta di trovare
 CERCANO,Vanno in cerca
 CERCANDO,Andando in cerca
-CERCATO,"Andare in cerca, a fatto compiuto"
+CERCATO,"Andato in cerca"
 CERCAVO,Andavo in cerca
 CERCAVA,Andava in cerca
 CERCAVANO,Andavano in cerca
@@ -7588,7 +7588,7 @@ CHIACCHIERO,Parlo del più e del meno
 CHIACCHIERA,Parla del più e del meno
 CHIACCHIERANO,Parlano del più e del meno
 CHIACCHIERANDO,Parlando del più e del meno
-CHIACCHIERATO,"Parlare del più e del meno, a fatto compiuto"
+CHIACCHIERATO,"Parlato del più e del meno"
 CHIACCHIERAVO,Parlavo del più e del meno
 CHIACCHIERAVA,Parlava del più e del meno
 CHIACCHIERAVANO,Parlavano del più e del meno
@@ -7599,7 +7599,7 @@ CHIARISCO,Rendo chiaro
 CHIARISCE,Rende chiaro
 CHIARISCONO,Rendono chiaro
 CHIARENDO,Rendendo chiaro
-CHIARITO,"Rendere chiaro, a fatto compiuto"
+CHIARITO,"Reso chiaro"
 CHIARIVO,Rendevo chiaro
 CHIARIVA,Rendeva chiaro
 CHIARIVANO,Rendevano chiaro
@@ -7634,7 +7634,7 @@ CLASSIFICO,Ordino per categorie
 CLASSIFICA,Ordina per categorie
 CLASSIFICANO,Ordinano per categorie
 CLASSIFICANDO,Ordinando per categorie
-CLASSIFICATO,"Ordinare per categorie, a fatto compiuto"
+CLASSIFICATO,"Ordinato per categorie"
 CLASSIFICAVO,Ordinavo per categorie
 CLASSIFICAVA,Ordinava per categorie
 CLASSIFICAVANO,Ordinavano per categorie
@@ -7645,7 +7645,7 @@ COCCOLO,Tratto con tenerezza
 COCCOLA,Tratta con tenerezza
 COCCOLANO,Trattano con tenerezza
 COCCOLANDO,Trattando con tenerezza
-COCCOLATO,"Trattare con tenerezza, a fatto compiuto"
+COCCOLATO,"Trattato con tenerezza"
 COCCOLAVO,Trattavo con tenerezza
 COCCOLAVA,Trattava con tenerezza
 COCCOLAVANO,Trattavano con tenerezza
@@ -7655,7 +7655,7 @@ COLARE,Scorrere a filo
 COLO,Scorro a filo
 COLANO,Scorrono a filo
 COLANDO,Scorrendo a filo
-COLATO,"Scorrere a filo, a fatto compiuto"
+COLATO,"Scorso a filo"
 COLAVO,Scorrevo a filo
 COLAVA,Scorreva a filo
 COLAVANO,Scorrevano a filo
@@ -7666,7 +7666,7 @@ COLPISCO,Do un colpo
 COLPISCE,Dà un colpo
 COLPISCONO,Danno un colpo
 COLPENDO,Dando un colpo
-COLPITO,"Dare un colpo, a fatto compiuto"
+COLPITO,"Dato un colpo"
 COLPIVO,Davo un colpo
 COLPIVA,Dava un colpo
 COLPIVANO,Davano un colpo
@@ -7681,7 +7681,7 @@ COMBINO,Metto insieme
 COMBINA,Mette insieme
 COMBINANO,Mettono insieme
 COMBINANDO,Mettendo insieme
-COMBINATO,"Mettere insieme, a fatto compiuto"
+COMBINATO,"Messo insieme"
 COMBINAVO,Mettevo insieme
 COMBINAVA,Metteva insieme
 COMBINAVANO,Mettevano insieme
@@ -7692,7 +7692,7 @@ COMINCIO,Do inizio
 COMINCIA,Dà inizio
 COMINCIANO,Danno inizio
 COMINCIANDO,Dando inizio
-COMINCIATO,"Dare inizio, a fatto compiuto"
+COMINCIATO,"Dato inizio"
 COMINCIAVO,Davo inizio
 COMINCIAVA,Dava inizio
 COMINCIAVANO,Davano inizio
@@ -7703,7 +7703,7 @@ COMMENTO,Spiego con osservazioni
 COMMENTA,Spiega con osservazioni
 COMMENTANO,Spiegano con osservazioni
 COMMENTANDO,Spiegando con osservazioni
-COMMENTATO,"Spiegare con osservazioni, a fatto compiuto"
+COMMENTATO,"Spiegato con osservazioni"
 COMMENTAVO,Spiegavo con osservazioni
 COMMENTAVA,Spiegava con osservazioni
 COMMENTAVANO,Spiegavano con osservazioni
@@ -7714,7 +7714,7 @@ COMPILO,Riempo un modulo
 COMPILA,Riempe un modulo
 COMPILANO,Scrivono i dati in un modulo
 COMPILANDO,Riempendo un modulo
-COMPILATO,"Riempire un modulo, a fatto compiuto"
+COMPILATO,"Riempito un modulo"
 COMPILAVO,Riempivo un modulo
 COMPILAVA,Riempiva un modulo
 COMPILAVANO,Riempivano un modulo
@@ -7725,7 +7725,7 @@ COMPLETO,Porto a termine
 COMPLETA,Porta a termine
 COMPLETANO,Portano a termine
 COMPLETANDO,Portando a termine
-COMPLETATO,"Portare a termine, a fatto compiuto"
+COMPLETATO,"Portato a termine"
 COMPLETAVO,Portavo a termine
 COMPLETAVA,Portava a termine
 COMPLETAVANO,Portavano a termine
@@ -7736,7 +7736,7 @@ COMPRO,Acquisto
 COMPRA,Acquista
 COMPRANO,Acquistano
 COMPRANDO,Acquistando
-COMPRATO,"Acquistare, a fatto compiuto"
+COMPRATO,"Acquistato"
 COMPRAVO,Acquistavo
 COMPRAVA,Acquistava
 COMPRAVANO,Acquistavano
@@ -7747,7 +7747,7 @@ COMUNICO,Metto a parte di una notizia
 COMUNICA,Mette a parte di una notizia
 COMUNICANO,Mettono a parte di una notizia
 COMUNICANDO,Mettendo a parte di una notizia
-COMUNICATO,"Mettere a parte di una notizia, a fatto compiuto"
+COMUNICATO,"Messo a parte di una notizia"
 COMUNICAVO,Mettevo a parte di una notizia
 COMUNICAVA,Metteva a parte di una notizia
 COMUNICAVANO,Mettevano a parte di una notizia
@@ -7779,7 +7779,7 @@ CONFIDO,Dico con fiducia
 CONFIDA,Dice con fiducia
 CONFIDANO,Dicono con fiducia
 CONFIDANDO,Dicendo con fiducia
-CONFIDATO,"Dire con fiducia, a fatto compiuto"
+CONFIDATO,"Detto con fiducia"
 CONFIDAVO,Dicevo con fiducia
 CONFIDAVA,Diceva con fiducia
 CONFIDAVANO,Dicevano con fiducia
@@ -7790,7 +7790,7 @@ CONGELO,Faccio diventare ghiaccio
 CONGELA,Fa diventare ghiaccio
 CONGELANO,Fanno diventare ghiaccio
 CONGELANDO,Facendo diventare ghiaccio
-CONGELATO,"Far diventare ghiaccio, a fatto compiuto"
+CONGELATO,"Fatto diventare ghiaccio"
 CONGELAVO,Facevo diventare ghiaccio
 CONGELAVA,Faceva diventare ghiaccio
 CONGELAVANO,Facevano diventare ghiaccio
@@ -7801,7 +7801,7 @@ CONSERVO,Mantengo intatto
 CONSERVA,Mantene intatto
 CONSERVANO,Mantengono intatto
 CONSERVANDO,Mantenendo intatto
-CONSERVATO,"Mantenere intatto, a fatto compiuto"
+CONSERVATO,"Mantenuto intatto"
 CONSERVAVO,Mantenevo intatto
 CONSERVAVA,Manteneva intatto
 CONSERVAVANO,Mantenevano intatto
@@ -7812,7 +7812,7 @@ CONSIGLIO,Do un parere
 CONSIGLIA,Dà un parere
 CONSIGLIANO,Danno un parere
 CONSIGLIANDO,Dando un parere
-CONSIGLIATO,"Dare un parere, a fatto compiuto"
+CONSIGLIATO,"Dato un parere"
 CONSIGLIAVO,Davo un parere
 CONSIGLIAVA,Dava un parere
 CONSIGLIAVANO,Davano un parere
@@ -7825,7 +7825,7 @@ CONTROLLO,Verifico
 CONTROLLA,Verifica
 CONTROLLANO,Verificano
 CONTROLLANDO,Verificando
-CONTROLLATO,"Verificare, a fatto compiuto"
+CONTROLLATO,"Verificato"
 CONTROLLAVO,Verificavo
 CONTROLLAVA,Verificava
 CONTROLLAVANO,Verificavano
@@ -7858,7 +7858,7 @@ COSTRUISCO,Edifico
 COSTRUISCE,Edifica
 COSTRUISCONO,Edificano
 COSTRUENDO,Edificando
-COSTRUITO,"Edificare, a fatto compiuto"
+COSTRUITO,"Edificato"
 COSTRUIVO,Edificavo
 COSTRUIVA,Edificava
 COSTRUIVANO,Edificavano
@@ -7890,7 +7890,7 @@ DANNEGGIO,Reco danno
 DANNEGGIA,Reca danno
 DANNEGGIANO,Recano danno
 DANNEGGIANDO,Recando danno
-DANNEGGIATO,"Recare danno, a fatto compiuto"
+DANNEGGIATO,"Recato danno"
 DANNEGGIAVO,Recavo danno
 DANNEGGIAVA,Recava danno
 DANNEGGIAVANO,Recavano danno
@@ -7913,7 +7913,7 @@ DEDICO,Offro a qualcuno
 DEDICA,Offre a qualcuno
 DEDICANO,Offrono a qualcuno
 DEDICANDO,Offrendo a qualcuno
-DEDICATO,"Offrire a qualcuno, a fatto compiuto"
+DEDICATO,"Offerto a qualcuno"
 DEDICAVO,Offrivo a qualcuno
 DEDICAVA,Offriva a qualcuno
 DEDICAVANO,Offrivano a qualcuno
@@ -7924,7 +7924,7 @@ DELIMITO,Segno i confini
 DELIMITA,Segna i confini
 DELIMITANO,Segnano i confini
 DELIMITANDO,Segnando i confini
-DELIMITATO,"Segnare i confini, a fatto compiuto"
+DELIMITATO,"Segnato i confini"
 DELIMITAVO,Segnavo i confini
 DELIMITAVA,Segnava i confini
 DELIMITAVANO,Segnavano i confini
@@ -7935,7 +7935,7 @@ DEPOSITO,Metto da parte
 DEPOSITA,Mette in deposito
 DEPOSITANO,Mettono in deposito
 DEPOSITANDO,Mettendo in deposito
-DEPOSITATO,"Mettere in deposito, a fatto compiuto"
+DEPOSITATO,"Messo in deposito"
 DEPOSITAVO,Mettevo in deposito
 DEPOSITAVA,Metteva in deposito
 DEPOSITAVANO,Mettevano in deposito
@@ -7950,7 +7950,7 @@ DISTURBO,Do fastidio
 DISTURBA,Dà fastidio
 DISTURBANO,Danno fastidio
 DISTURBANDO,Dando fastidio
-DISTURBATO,"Dare fastidio, a fatto compiuto"
+DISTURBATO,"Dato fastidio"
 DISTURBAVO,Davo fastidio
 DISTURBAVA,Dava fastidio
 DISTURBAVANO,Davano fastidio
@@ -7972,7 +7972,7 @@ DOMARE,Rendere mansueto
 DOMO,Rendo mansueto
 DOMA,Rende mansueto
 DOMANO,Rendono mansueto
-DOMATO,"Rendere mansueto, a fatto compiuto"
+DOMATO,"Reso mansueto"
 DOMAVO,Rendevo mansueto
 DOMAVA,Rendeva mansueto
 DOMAVANO,Rendevano mansueto
@@ -7983,7 +7983,7 @@ DORMO,Prendo sonno
 DORME,Prende sonno
 DORMONO,Prendono sonno
 DORMENDO,Prendendo sonno
-DORMITO,"Prendere sonno, a fatto compiuto"
+DORMITO,"Preso sonno"
 DORMIVO,Prendevo sonno
 DORMIVA,Prendeva sonno
 DORMIVANO,Prendevano sonno
@@ -7994,7 +7994,7 @@ DOSO,Misuro le quantità
 DOSA,Misura le quantità
 DOSANO,Misurano le quantità
 DOSANDO,Misurando le quantità
-DOSATO,"Misurare le quantità, a fatto compiuto"
+DOSATO,"Misurato le quantità"
 DOSAVO,Misuravo le quantità
 DOSAVA,Misurava le quantità
 DOSAVANO,Misuravano le quantità
@@ -8005,7 +8005,7 @@ DUBITO,Non essere sicuro
 DUBITA,Non essere sicuro
 DUBITANO,Non essere sicuro
 DUBITANDO,Non essere sicuro
-DUBITATO,"Non essere sicuro, a fatto compiuto"
+DUBITATO,"Incerto"
 DUBITAVO,Non essere sicuro
 DUBITAVA,Non essere sicuro
 DUBITAVANO,Non essere sicuro
@@ -8018,7 +8018,7 @@ EDUCO,Formo con insegnamenti
 EDUCA,Forma con insegnamenti
 EDUCANO,Formano con insegnamenti
 EDUCANDO,Formando con insegnamenti
-EDUCATO,"Formare con insegnamenti, a fatto compiuto"
+EDUCATO,"Formato con insegnamenti"
 EDUCAVO,Formavo con insegnamenti
 EDUCAVA,Formava con insegnamenti
 EDUCAVANO,Formavano con insegnamenti
@@ -8029,7 +8029,7 @@ ELENCO,Metto in lista
 ELENCA,Mette in lista
 ELENCANO,Mettono in lista
 ELENCANDO,Mettendo in lista
-ELENCATO,"Mettere in lista, a fatto compiuto"
+ELENCATO,"Messo in lista"
 ELENCAVO,Mettevo in lista
 ELENCAVA,Metteva in lista
 ELENCAVANO,Mettevano in lista
@@ -8040,7 +8040,7 @@ ELEVO,Porto più in alto
 ELEVA,Porta più in alto
 ELEVANO,Portano più in alto
 ELEVANDO,Portando più in alto
-ELEVATO,"Portare più in alto, a fatto compiuto"
+ELEVATO,"Portato più in alto"
 ELEVAVO,Portavo più in alto
 ELEVAVA,Portava più in alto
 ELEVAVANO,Portavano più in alto
@@ -8051,7 +8051,7 @@ ELIMINO,Tolgo di mezzo
 ELIMINA,Toglie di mezzo
 ELIMINANO,Tolgono di mezzo
 ELIMINANDO,Togliendo di mezzo
-ELIMINATO,"Togliere di mezzo, a fatto compiuto"
+ELIMINATO,"Tolto di mezzo"
 ELIMINAVO,Toglievo di mezzo
 ELIMINAVA,Toglieva di mezzo
 ELIMINAVANO,Toglievano di mezzo
@@ -8062,7 +8062,7 @@ EMIGRO,Lascio il proprio Paese
 EMIGRA,Lascia il proprio Paese
 EMIGRANO,Lasciano il proprio Paese
 EMIGRANDO,Lasciando il proprio Paese
-EMIGRATO,"Lasciare il proprio Paese, a fatto compiuto"
+EMIGRATO,"Lasciato il proprio Paese"
 EMIGRAVO,Lasciavo il proprio Paese
 EMIGRAVA,Lasciava il proprio Paese
 EMIGRAVANO,Lasciavano il proprio Paese
@@ -8090,7 +8090,7 @@ ESPLORO,Percorro per conoscere
 ESPLORA,Percorre per conoscere
 ESPLORANO,Percorrono per conoscere
 ESPLORANDO,Percorrendo per conoscere
-ESPLORATO,"Percorrere per conoscere, a fatto compiuto"
+ESPLORATO,"Percorso per conoscere"
 ESPLORAVO,Percorrevo per conoscere
 ESPLORAVA,Percorreva per conoscere
 ESPLORAVANO,Percorrevano per conoscere
@@ -8103,7 +8103,7 @@ FABBRICO,Produrre in officina
 FABBRICA,Produrre in officina
 FABBRICANO,Produrre in officina
 FABBRICANDO,Produrre in officina
-FABBRICATO,"Produrre in officina, a fatto compiuto"
+FABBRICATO,"Prodotto in officina"
 FABBRICAVO,Produrre in officina
 FABBRICAVA,Produrre in officina
 FABBRICAVANO,Produrre in officina
@@ -8116,7 +8116,7 @@ FAVORISCO,Agevolo
 FAVORISCE,Agevola
 FAVORISCONO,Agevolano
 FAVORENDO,Agevolando
-FAVORITO,"Agevolare, a fatto compiuto"
+FAVORITO,"Agevolato"
 FAVORIVO,Agevolavo
 FAVORIVA,Agevolava
 FAVORIVANO,Agevolavano
@@ -8127,7 +8127,7 @@ FESTEGGIO,Celebro con festa
 FESTEGGIA,Celebra con festa
 FESTEGGIANO,Celebrano con festa
 FESTEGGIANDO,Celebrando con festa
-FESTEGGIATO,"Celebrare con festa, a fatto compiuto"
+FESTEGGIATO,"Celebrato con festa"
 FESTEGGIAVO,Celebravo con festa
 FESTEGGIAVA,Celebrava con festa
 FESTEGGIAVANO,Celebravano con festa
@@ -8140,7 +8140,7 @@ FILTRO,Passo al colino
 FILTRA,Passa attraverso un filtro
 FILTRANO,Passano attraverso un filtro
 FILTRANDO,Passando attraverso un filtro
-FILTRATO,"Passare attraverso un filtro, a fatto compiuto"
+FILTRATO,"Passato attraverso un filtro"
 FILTRAVO,Passavo attraverso un filtro
 FILTRAVA,Passava attraverso un filtro
 FILTRAVANO,Passavano attraverso un filtro
@@ -8151,7 +8151,7 @@ FISCHIO,Mando un sibilo
 FISCHIA,Manda un sibilo
 FISCHIANO,Mandano un sibilo
 FISCHIANDO,Mandando un sibilo
-FISCHIATO,"Mandare un sibilo, a fatto compiuto"
+FISCHIATO,"Mandato un sibilo"
 FISCHIAVO,Mandavo un sibilo
 FISCHIAVA,Mandava un sibilo
 FISCHIAVANO,Mandavano un sibilo
@@ -8168,7 +8168,7 @@ FRUGO,Cerco rovistando
 FRUGA,Cerca rovistando
 FRUGANO,Cercano rovistando
 FRUGANDO,Cercando rovistando
-FRUGATO,"Cercare rovistando, a fatto compiuto"
+FRUGATO,"Cercato rovistando"
 FRUGAVO,Cercavo rovistando
 FRUGAVA,Cercava rovistando
 FRUGAVANO,Cercavano rovistando
@@ -8183,7 +8183,7 @@ GESTISCO,Amministro
 GESTISCE,Amministra
 GESTISCONO,Amministrano
 GESTENDO,Amministrando
-GESTITO,"Amministrare, a fatto compiuto"
+GESTITO,"Amministrato"
 GESTIVO,Amministravo
 GESTIVA,Amministrava
 GESTIVANO,Amministravano
@@ -8193,7 +8193,7 @@ GETTARE,Lanciare via
 GETTA,Lancia via
 GETTANO,Lanciano via
 GETTANDO,Lanciando via
-GETTATO,"Lanciare via, a fatto compiuto"
+GETTATO,"Lanciato via"
 GETTAVO,Lanciavo via
 GETTAVA,Lanciava via
 GETTAVANO,Lanciavano via
@@ -8208,7 +8208,7 @@ GONFIO,Riempo d'aria
 GONFIA,Riempe d'aria
 GONFIANO,Riempiono d’aria
 GONFIANDO,Riempendo d'aria
-GONFIATO,"Riempire d'aria, a fatto compiuto"
+GONFIATO,"Riempito d'aria"
 GONFIAVO,Riempivo d'aria
 GONFIAVA,Riempiva d'aria
 GONFIAVANO,Riempivano d'aria
@@ -8221,7 +8221,7 @@ GRAFFIO,Segno con unghie o punte
 GRAFFIA,Segna con unghie o punte
 GRAFFIANO,Segnano con unghie o punte
 GRAFFIANDO,Segnando con unghie o punte
-GRAFFIATO,"Segnare con unghie o punte, a fatto compiuto"
+GRAFFIATO,"Segnato con unghie o punte"
 GRAFFIAVO,Segnavo con unghie o punte
 GRAFFIAVA,Segnava con unghie o punte
 GRAFFIAVANO,Segnavano con unghie o punte
@@ -8241,7 +8241,7 @@ ILLUMINO,Do luce
 ILLUMINA,Dà luce
 ILLUMINANO,Danno luce
 ILLUMINANDO,Dando luce
-ILLUMINATO,"Dare luce, a fatto compiuto"
+ILLUMINATO,"Dato luce"
 ILLUMINAVO,Davo luce
 ILLUMINAVA,Dava luce
 ILLUMINAVANO,Davano luce
@@ -8252,7 +8252,7 @@ IMBALLO,Preparo in pacchi
 IMBALLA,Prepara in pacchi
 IMBALLANO,Preparano in pacchi
 IMBALLANDO,Preparando in pacchi
-IMBALLATO,"Preparare in pacchi, a fatto compiuto"
+IMBALLATO,"Preparato in pacchi"
 IMBALLAVO,Preparavo in pacchi
 IMBALLAVA,Preparava in pacchi
 IMBALLAVANO,Preparavano in pacchi
@@ -8263,7 +8263,7 @@ IMBARCO,Faccio salire a bordo
 IMBARCA,Fa salire a bordo
 IMBARCANO,Fanno salire a bordo
 IMBARCANDO,Facendo salire a bordo
-IMBARCATO,"Far salire a bordo, a fatto compiuto"
+IMBARCATO,"Fatto salire a bordo"
 IMBARCAVO,Facevo salire a bordo
 IMBARCAVA,Faceva salire a bordo
 IMBARCAVANO,Facevano salire a bordo
@@ -8287,7 +8287,7 @@ IMPEGNO,Vincolo a un compito
 IMPEGNA,Vincola a un compito
 IMPEGNANO,Vincolano a un compito
 IMPEGNANDO,Vincolando a un compito
-IMPEGNATO,"Vincolare a un compito, a fatto compiuto"
+IMPEGNATO,"Vincolato a un compito"
 IMPEGNAVO,Vincolavo a un compito
 IMPEGNAVA,Vincolava a un compito
 IMPEGNAVANO,Vincolavano a un compito
@@ -8300,7 +8300,7 @@ INCOLLO,Uno con colla
 INCOLLA,Une con colla
 INCOLLANO,Unono con colla
 INCOLLANDO,Unendo con colla
-INCOLLATO,"Unire con colla, a fatto compiuto"
+INCOLLATO,"Unito con colla"
 INCOLLAVO,Univo con colla
 INCOLLAVA,Univa con colla
 INCOLLAVANO,Univano con colla
@@ -8311,7 +8311,7 @@ INCORAGGIO,Do coraggio
 INCORAGGIA,Dà coraggio
 INCORAGGIANO,Danno coraggio
 INCORAGGIANDO,Dando coraggio
-INCORAGGIATO,"Dare coraggio, a fatto compiuto"
+INCORAGGIATO,"Dato coraggio"
 INCORAGGIAVO,Davo coraggio
 INCORAGGIAVA,Dava coraggio
 INCORAGGIAVANO,Davano coraggio
@@ -8322,7 +8322,7 @@ INCRINO,Produrre una crepa
 INCRINA,Produrre una crepa
 INCRINANO,Produrre una crepa
 INCRINANDO,Produrre una crepa
-INCRINATO,"Produrre una crepa, a fatto compiuto"
+INCRINATO,"Prodotto una crepa"
 INCRINAVO,Produrre una crepa
 INCRINAVA,Produrre una crepa
 INCRINAVANO,Produrre una crepa
@@ -8333,7 +8333,7 @@ INDICO,Mostro con un segno
 INDICA,Mostra con un segno
 INDICANO,Mostrano con un segno
 INDICANDO,Mostrando con un segno
-INDICATO,"Mostrare con un segno, a fatto compiuto"
+INDICATO,"Mostrato con un segno"
 INDICAVO,Mostravo con un segno
 INDICAVA,Mostrava con un segno
 INDICAVANO,Mostravano con un segno
@@ -8346,7 +8346,7 @@ INFIAMMO,Accendo di fuoco
 INFIAMMA,Accende di fuoco
 INFIAMMANO,Accendono di fuoco
 INFIAMMANDO,Accendendo di fuoco
-INFIAMMATO,"Accendere di fuoco, a fatto compiuto"
+INFIAMMATO,"Acceso di fuoco"
 INFIAMMAVO,Accendevo di fuoco
 INFIAMMAVA,Accendeva di fuoco
 INFIAMMAVANO,Accendevano di fuoco
@@ -8357,7 +8357,7 @@ INFORMO,Do notizia
 INFORMA,Dà notizia
 INFORMANO,Danno notizia
 INFORMANDO,Dando notizia
-INFORMATO,"Dare notizia, a fatto compiuto"
+INFORMATO,"Dato notizia"
 INFORMAVO,Davo notizia
 INFORMAVA,Dava notizia
 INFORMAVANO,Davano notizia
@@ -8368,7 +8368,7 @@ INGANNO,Traggo in errore
 INGANNA,Trae in errore
 INGANNANO,Traggono in errore
 INGANNANDO,Traendo in errore
-INGANNATO,"Trarre in errore, a fatto compiuto"
+INGANNATO,"Tratto in errore"
 INGANNAVO,Traevo in errore
 INGANNAVA,Traeva in errore
 INGANNAVANO,Traevano in errore
@@ -8379,7 +8379,7 @@ INGRANDISCO,Rendo più grande
 INGRANDISCE,Rende più grande
 INGRANDISCONO,Rendono più grande
 INGRANDENDO,Rendendo più grande
-INGRANDITO,"Rendere più grande, a fatto compiuto"
+INGRANDITO,"Reso più grande"
 INGRANDIVO,Rendevo più grande
 INGRANDIVA,Rendeva più grande
 INGRANDIVANO,Rendevano più grande
@@ -8392,7 +8392,7 @@ INNAFFIO,Do acqua alle piante
 INNAFFIA,Dà acqua alle piante
 INNAFFIANO,Danno acqua alle piante
 INNAFFIANDO,Dando acqua alle piante
-INNAFFIATO,"Dare acqua alle piante, a fatto compiuto"
+INNAFFIATO,"Dato acqua alle piante"
 INNAFFIAVO,Davo acqua alle piante
 INNAFFIAVA,Dava acqua alle piante
 INNAFFIAVANO,Davano acqua alle piante
@@ -8405,7 +8405,7 @@ INSERISCO,Metto dentro
 INSERISCE,Mette dentro
 INSERISCONO,Mettono dentro
 INSERENDO,Mettendo dentro
-INSERITO,"Mettere dentro, a fatto compiuto"
+INSERITO,"Messo dentro"
 INSERIVO,Mettevo dentro
 INSERIVA,Metteva dentro
 INSERIVANO,Mettevano dentro
@@ -8426,7 +8426,7 @@ INTAGLIO,Incido nel legno
 INTAGLIA,Incide nel legno
 INTAGLIANO,Incidono nel legno
 INTAGLIANDO,Incidendo nel legno
-INTAGLIATO,"Incidere nel legno, a fatto compiuto"
+INTAGLIATO,"Inciso nel legno"
 INTAGLIAVO,Incidevo nel legno
 INTAGLIAVA,Incideva nel legno
 INTAGLIAVANO,Incidevano nel legno
@@ -8438,7 +8438,7 @@ INVIDIARE,Provare gelosia
 INVIDIO,Provo gelosia
 INVIDIANO,Provano gelosia
 INVIDIANDO,Provando gelosia
-INVIDIATO,"Provare gelosia, a fatto compiuto"
+INVIDIATO,"Provato gelosia"
 INVIDIAVO,Provavo gelosia
 INVIDIAVA,Provava gelosia
 INVIDIAVANO,Provavano gelosia
@@ -8460,7 +8460,7 @@ LEVIGO,Rendo liscio
 LEVIGA,Rende liscio
 LEVIGANO,Rendono liscio
 LEVIGANDO,Rendendo liscio
-LEVIGATO,"Rendere liscio, a fatto compiuto"
+LEVIGATO,"Reso liscio"
 LEVIGAVO,Rendevo liscio
 LEVIGAVA,Rendeva liscio
 LEVIGAVANO,Rendevano liscio
@@ -8473,7 +8473,7 @@ LIMITO,Pongo un limite
 LIMITA,Pone un limite
 LIMITANO,Pongono un limite
 LIMITANDO,Ponendo un limite
-LIMITATO,"Porre un limite, a fatto compiuto"
+LIMITATO,"Posto un limite"
 LIMITAVO,Ponevo un limite
 LIMITAVA,Poneva un limite
 LIMITAVANO,Ponevano un limite
@@ -8486,7 +8486,7 @@ LUCIDO,Rendo brillante
 LUCIDA,Rende brillante
 LUCIDANO,Rendono brillante
 LUCIDANDO,Rendendo brillante
-LUCIDATO,"Rendere brillante, a fatto compiuto"
+LUCIDATO,"Reso brillante"
 LUCIDAVO,Rendevo brillante
 LUCIDAVA,Rendeva brillante
 LUCIDAVANO,Rendevano brillante
@@ -8497,7 +8497,7 @@ MACCHIO,Sporco con una chiazza
 MACCHIA,Sporca con una chiazza
 MACCHIANO,Sporcano con una chiazza
 MACCHIANDO,Sporcando con una chiazza
-MACCHIATO,"Sporcare con una chiazza, a fatto compiuto"
+MACCHIATO,"Sporcato con una chiazza"
 MACCHIAVO,Sporcavo con una chiazza
 MACCHIAVA,Sporcava con una chiazza
 MACCHIAVANO,Sporcavano con una chiazza
@@ -8507,7 +8507,7 @@ MACINARE,Ridurre in polvere
 MACINO,Riduco in polvere
 MACINANO,Riducono in polvere
 MACINANDO,Riducendo in polvere
-MACINATO,"Ridurre in polvere, a fatto compiuto"
+MACINATO,"Ridotto in polvere"
 MACINAVO,Riducevo in polvere
 MACINAVA,Riduceva in polvere
 MACINAVANO,Riducevano in polvere
@@ -8520,7 +8520,7 @@ MANGIO,Mi nutro
 MANGIA,Si nutre
 MANGIANO,Si nutrono
 MANGIANDO,Nutrendosi
-MANGIATO,"Nutrirsi, a fatto compiuto"
+MANGIATO,"Nutrito"
 MANGIAVO,Mi nutrivo
 MANGIAVA,Si nutriva
 MANGIAVANO,Si nutrivano
@@ -8531,7 +8531,7 @@ MANOVRO,Aziono con abilità
 MANOVRA,Aziona con abilità
 MANOVRANO,Azionano con abilità
 MANOVRANDO,Azionando con abilità
-MANOVRATO,"Azionare con abilità, a fatto compiuto"
+MANOVRATO,"Azionato con abilità"
 MANOVRAVO,Azionavo con abilità
 MANOVRAVA,Azionava con abilità
 MANOVRAVANO,Azionavano con abilità
@@ -8541,7 +8541,7 @@ MARCARE,Segnare strettamente
 MARCO,Segno strettamente
 MARCANO,Segnano strettamente
 MARCANDO,Segnando strettamente
-MARCATO,"Segnare strettamente, a fatto compiuto"
+MARCATO,"Segnato strettamente"
 MARCAVO,Segnavo strettamente
 MARCAVA,Segnava strettamente
 MARCAVANO,Segnavano strettamente
@@ -8552,7 +8552,7 @@ MESCOLO,Uno rimescolando
 MESCOLA,Unisce girando
 MESCOLANO,Unono rimescolando
 MESCOLANDO,Unendo e girando
-MESCOLATO,"Unire rimescolando, a fatto compiuto"
+MESCOLATO,"Unito rimescolando"
 MESCOLAVO,Univo rimescolando
 MESCOLAVA,Univa rimescolando
 MESCOLAVANO,Univano rimescolando
@@ -8573,7 +8573,7 @@ NEGO,Dico di no
 NEGA,Dice di no
 NEGANO,Dicono di no
 NEGANDO,Dicendo di no
-NEGATO,"Dire di no, a fatto compiuto"
+NEGATO,"Detto di no"
 NEGAVO,Dicevo di no
 NEGAVA,Diceva di no
 NEGAVANO,Dicevano di no
@@ -8584,7 +8584,7 @@ NOLEGGIO,Prendo a nolo
 NOLEGGIA,Prende a nolo
 NOLEGGIANO,Prendono a nolo
 NOLEGGIANDO,Prendendo a nolo
-NOLEGGIATO,"Prendere a nolo, a fatto compiuto"
+NOLEGGIATO,"Preso a nolo"
 NOLEGGIAVO,Prendevo a nolo
 NOLEGGIAVA,Prendeva a nolo
 NOLEGGIAVANO,Prendevano a nolo
@@ -8599,7 +8599,7 @@ OBBEDISCO,Eseguo ordini
 OBBEDISCE,Esegue ordini
 OBBEDISCONO,Eseguono ordini
 OBBEDENDO,Eseguendo ordini
-OBBEDITO,"Eseguire ordini, a fatto compiuto"
+OBBEDITO,"Eseguito ordini"
 OBBEDIVO,Eseguivo ordini
 OBBEDIVA,Eseguiva ordini
 OBBEDIVANO,Eseguivano ordini
@@ -8638,7 +8638,7 @@ OSPITO,Accoglio in casa
 OSPITA,Accoglie in casa
 OSPITANO,Accogliono in casa
 OSPITANDO,Accogliendo in casa
-OSPITATO,"Accogliere in casa, a fatto compiuto"
+OSPITATO,"Accolto in casa"
 OSPITAVO,Accoglievo in casa
 OSPITAVA,Accoglieva in casa
 OSPITAVANO,Accoglievano in casa
@@ -8653,7 +8653,7 @@ PARCHEGGIO,Lascio in sosta
 PARCHEGGIA,Lascia in sosta
 PARCHEGGIANO,Lasciano in sosta
 PARCHEGGIANDO,Lasciando in sosta
-PARCHEGGIATO,"Lasciare in sosta, a fatto compiuto"
+PARCHEGGIATO,"Lasciato in sosta"
 PARCHEGGIAVO,Lasciavo in sosta
 PARCHEGGIAVA,Lasciava in sosta
 PARCHEGGIAVANO,Lasciavano in sosta
@@ -8666,7 +8666,7 @@ PARTO,Mi metto in viaggio
 PARTE,Si mette in viaggio
 PARTONO,Si mettono in viaggio
 PARTENDO,Mettendosi in viaggio
-PARTITO,"Mettersi in viaggio, a fatto compiuto"
+PARTITO,"Messosi in viaggio"
 PARTIVO,Mi mettevo in viaggio
 PARTIVA,Si metteva in viaggio
 PARTIVANO,Si mettevano in viaggio
@@ -8676,7 +8676,7 @@ PATTINARE,Scivolare su pattini
 PATTINA,Scivola su pattini
 PATTINANO,Scivolano su pattini
 PATTINANDO,Scivolando su pattini
-PATTINATO,"Scivolare su pattini, a fatto compiuto"
+PATTINATO,"Scivolato su pattini"
 PATTINAVO,Scivolavo su pattini
 PATTINAVA,Scivolava su pattini
 PATTINAVANO,Scivolavano su pattini
@@ -8694,7 +8694,7 @@ PIEGARE,Rendere curvo
 PIEGO,Rendo curvo
 PIEGANO,Rendono curvo
 PIEGANDO,Rendendo curvo
-PIEGATO,"Rendere curvo, a fatto compiuto"
+PIEGATO,"Reso curvo"
 PIEGAVO,Rendevo curvo
 PIEGAVA,Rendeva curvo
 PIEGAVANO,Rendevano curvo
@@ -8704,7 +8704,7 @@ PILOTARE,Guidare un aereo o una nave
 PILOTO,Guido un aereo o una nave
 PILOTANO,Guidano un aereo o una nave
 PILOTANDO,Guidando un aereo o una nave
-PILOTATO,"Guidare un aereo o una nave, a fatto compiuto"
+PILOTATO,"Guidato un aereo o una nave"
 PILOTAVO,Guidavo un aereo o una nave
 PILOTAVA,Guidava un aereo o una nave
 PILOTAVANO,Guidavano un aereo o una nave
@@ -8731,7 +8731,7 @@ PRENOTO,Riservo in anticipo
 PRENOTA,Riserva in anticipo
 PRENOTANO,Riservano in anticipo
 PRENOTANDO,Riservando in anticipo
-PRENOTATO,"Riservare in anticipo, a fatto compiuto"
+PRENOTATO,"Riservato in anticipo"
 PRENOTAVO,Riservavo in anticipo
 PRENOTAVA,Riservava in anticipo
 PRENOTAVANO,Riservavano in anticipo
@@ -8744,7 +8744,7 @@ PRESENTO,Faccio conoscere
 PRESENTA,Fa conoscere
 PRESENTANO,Fanno conoscere
 PRESENTANDO,Facendo conoscere
-PRESENTATO,"Far conoscere, a fatto compiuto"
+PRESENTATO,"Fatto conoscere"
 PRESENTAVO,Facevo conoscere
 PRESENTAVA,Faceva conoscere
 PRESENTAVANO,Facevano conoscere
@@ -8759,7 +8759,7 @@ PUBBLICO,Do alle stampe
 PUBBLICA,Dà alle stampe
 PUBBLICANO,Danno alle stampe
 PUBBLICANDO,Dando alle stampe
-PUBBLICATO,"Dare alle stampe, a fatto compiuto"
+PUBBLICATO,"Dato alle stampe"
 PUBBLICAVO,Davo alle stampe
 PUBBLICAVA,Dava alle stampe
 PUBBLICAVANO,Davano alle stampe
@@ -8783,7 +8783,7 @@ RAFFREDDO,Rendo freddo
 RAFFREDDA,Rende freddo
 RAFFREDDANO,Rendono freddo
 RAFFREDDANDO,Rendendo freddo
-RAFFREDDATO,"Rendere freddo, a fatto compiuto"
+RAFFREDDATO,"Reso freddo"
 RAFFREDDAVO,Rendevo freddo
 RAFFREDDAVA,Rendeva freddo
 RAFFREDDAVANO,Rendevano freddo
@@ -8796,7 +8796,7 @@ RAPPRESENTO,Raffiguro o sostituo
 RAPPRESENTA,Raffigura o sostitue
 RAPPRESENTANO,Raffigurano o sostituono
 RAPPRESENTANDO,Raffigurando o sostituendo
-RAPPRESENTATO,"Raffigurare o sostituire, a fatto compiuto"
+RAPPRESENTATO,"Raffigurato o sostituito"
 RAPPRESENTAVO,Raffiguravo o sostituivo
 RAPPRESENTAVA,Raffigurava o sostituiva
 RAPPRESENTAVANO,Raffiguravano o sostituivano
@@ -8807,7 +8807,7 @@ RASCHIO,Gratto una superficie
 RASCHIA,Gratta una superficie
 RASCHIANO,Grattano una superficie
 RASCHIANDO,Grattando una superficie
-RASCHIATO,"Grattare una superficie, a fatto compiuto"
+RASCHIATO,"Grattato una superficie"
 RASCHIAVO,Grattavo una superficie
 RASCHIAVA,Grattava una superficie
 RASCHIAVANO,Grattavano una superficie
@@ -8822,7 +8822,7 @@ REGISTRO,Incido o annoto
 REGISTRA,Incide o annota
 REGISTRANO,Incidono o annotano
 REGISTRANDO,Incidendo o annotando
-REGISTRATO,"Incidere o annotare, a fatto compiuto"
+REGISTRATO,"Inciso o annotato"
 REGISTRAVO,Incidevo o annotavo
 REGISTRAVA,Incideva o annotava
 REGISTRAVANO,Incidevano o annotavano
@@ -8848,7 +8848,7 @@ RIFINISCO,Do l'ultimo tocco
 RIFINISCE,Dà l'ultimo tocco
 RIFINISCONO,Danno l'ultimo tocco
 RIFINENDO,Dando l'ultimo tocco
-RIFINITO,"Dare l'ultimo tocco, a fatto compiuto"
+RIFINITO,"Dato l'ultimo tocco"
 RIFINIVO,Davo l'ultimo tocco
 RIFINIVA,Dava l'ultimo tocco
 RIFINIVANO,Davano l'ultimo tocco
@@ -8859,7 +8859,7 @@ RINFORZO,Rendo più forte
 RINFORZA,Rende più forte
 RINFORZANO,Rendono più forte
 RINFORZANDO,Rendendo più forte
-RINFORZATO,"Rendere più forte, a fatto compiuto"
+RINFORZATO,"Reso più forte"
 RINFORZAVO,Rendevo più forte
 RINFORZAVA,Rendeva più forte
 RINFORZAVANO,Rendevano più forte
@@ -8870,7 +8870,7 @@ RINGRAZIO,Dico grazie
 RINGRAZIA,Dice grazie
 RINGRAZIANO,Dicono grazie
 RINGRAZIANDO,Dicendo grazie
-RINGRAZIATO,"Dire grazie, a fatto compiuto"
+RINGRAZIATO,"Detto grazie"
 RINGRAZIAVO,Dicevo grazie
 RINGRAZIAVA,Diceva grazie
 RINGRAZIAVANO,Dicevano grazie
@@ -8882,7 +8882,7 @@ RIPOSARE,Prendere riposo
 RIPOSA,Prende riposo
 RIPOSANO,Prendono riposo
 RIPOSANDO,Prendendo riposo
-RIPOSATO,"Prendere riposo, a fatto compiuto"
+RIPOSATO,"Ristorato"
 RIPOSAVO,Prendevo riposo
 RIPOSAVA,Prendeva riposo
 RIPOSAVANO,Prendevano riposo
@@ -8893,7 +8893,7 @@ RISPARMIO,Metto da parte denaro
 RISPARMIA,Mette da parte denaro
 RISPARMIANO,Mettono da parte denaro
 RISPARMIANDO,Mettendo da parte denaro
-RISPARMIATO,"Mettere da parte denaro, a fatto compiuto"
+RISPARMIATO,"Messo da parte denaro"
 RISPARMIAVO,Mettevo da parte denaro
 RISPARMIAVA,Metteva da parte denaro
 RISPARMIAVANO,Mettevano da parte denaro
@@ -8904,7 +8904,7 @@ RISULTO,Vengo fuori come esito
 RISULTA,Viene fuori come esito
 RISULTANO,Vengono fuori come esito
 RISULTANDO,Venendo fuori come esito
-RISULTATO,"Venire fuori come esito, a fatto compiuto"
+RISULTATO,"Venuto fuori come esito"
 RISULTAVO,Venivo fuori come esito
 RISULTAVA,Veniva fuori come esito
 RISULTAVANO,Venivano fuori come esito
@@ -8919,7 +8919,7 @@ RITORNO,Torno di nuovo
 RITORNA,Torna di nuovo
 RITORNANO,Tornano di nuovo
 RITORNANDO,Tornando di nuovo
-RITORNATO,"Tornare di nuovo, a fatto compiuto"
+RITORNATO,"Tornato di nuovo"
 RITORNAVO,Tornavo di nuovo
 RITORNAVA,Tornava di nuovo
 RITORNAVANO,Tornavano di nuovo
@@ -8929,7 +8929,7 @@ ROVINARE,Ridurre in cattivo stato
 ROVINO,Riduco in cattivo stato
 ROVINANO,Riducono in cattivo stato
 ROVINANDO,Riducendo in cattivo stato
-ROVINATO,"Ridurre in cattivo stato, a fatto compiuto"
+ROVINATO,"Ridotto in cattivo stato"
 ROVINAVO,Riducevo in cattivo stato
 ROVINAVA,Riduceva in cattivo stato
 ROVINAVANO,Riducevano in cattivo stato
@@ -8940,7 +8940,7 @@ SALPO,Parto dal porto
 SALPA,Parte dal porto
 SALPANO,Partono dal porto
 SALPANDO,Partendo dal porto
-SALPATO,"Partire dal porto, a fatto compiuto"
+SALPATO,"Partito dal porto"
 SALPAVO,Partivo dal porto
 SALPAVA,Partiva dal porto
 SALPAVANO,Partivano dal porto
@@ -8954,7 +8954,7 @@ SALVEREBBE,Sottrarrebbe al pericolo
 SCALARE,Salire una parete o una classifica
 SCALANO,Salgono una parete o una classifica
 SCALANDO,Salendo una parete o una classifica
-SCALATO,"Salire una parete o una classifica, a fatto compiuto"
+SCALATO,"Salito una parete o una classifica"
 SCALAVO,Salivo una parete o una classifica
 SCALAVA,Saliva una parete o una classifica
 SCALAVANO,Salivano una parete o una classifica
@@ -8965,7 +8965,7 @@ SCAMBIO,Do in cambio
 SCAMBIA,Dà in cambio
 SCAMBIANO,Danno in cambio
 SCAMBIANDO,Dando in cambio
-SCAMBIATO,"Dare in cambio, a fatto compiuto"
+SCAMBIATO,"Dato in cambio"
 SCAMBIAVO,Davo in cambio
 SCAMBIAVA,Dava in cambio
 SCAMBIAVANO,Davano in cambio
@@ -8976,7 +8976,7 @@ SCAPPO,Fuggo
 SCAPPA,Fugge
 SCAPPANO,Fuggono
 SCAPPANDO,Fuggendo
-SCAPPATO,"Fuggire, a fatto compiuto"
+SCAPPATO,"Fuggito"
 SCAPPAVO,Fuggivo
 SCAPPAVA,Fuggiva
 SCAPPAVANO,Fuggivano
@@ -8986,7 +8986,7 @@ SCARICARE,Togliere un carico
 SCARICA,Toglie un carico
 SCARICANO,Tolgono un carico
 SCARICANDO,Togliendo un carico
-SCARICATO,"Togliere un carico, a fatto compiuto"
+SCARICATO,"Tolto un carico"
 SCARICAVO,Toglievo un carico
 SCARICAVA,Toglieva un carico
 SCARICAVANO,Toglievano un carico
@@ -8997,7 +8997,7 @@ SCARTO,Metto da parte
 SCARTA,Mette da parte
 SCARTANO,Mettono da parte
 SCARTANDO,Mettendo da parte
-SCARTATO,"Mettere da parte, a fatto compiuto"
+SCARTATO,"Messo da parte"
 SCARTAVO,Mettevo da parte
 SCARTAVA,Metteva da parte
 SCARTAVANO,Mettevano da parte
@@ -9009,7 +9009,7 @@ SCIARE,Andare sugli sci
 SCIO,Vado sugli sci
 SCIANO,Vanno sugli sci
 SCIANDO,Andando sugli sci
-SCIATO,"Andare sugli sci, a fatto compiuto"
+SCIATO,"Andato sugli sci"
 SCIAVO,Andavo sugli sci
 SCIAVA,Andava sugli sci
 SCIAVANO,Andavano sugli sci
@@ -9022,7 +9022,7 @@ SCOLPISCO,Lavoro la pietra o il legno
 SCOLPISCE,Lavora la pietra o il legno
 SCOLPISCONO,Lavorano la pietra o il legno
 SCOLPENDO,Lavorando la pietra o il legno
-SCOLPITO,"Lavorare la pietra o il legno, a fatto compiuto"
+SCOLPITO,"Lavorato la pietra o il legno"
 SCOLPIVO,Lavoravo la pietra o il legno
 SCOLPIVA,Lavorava la pietra o il legno
 SCOLPIVANO,Lavoravano la pietra o il legno
@@ -9043,7 +9043,7 @@ SCONTO,Riduco il prezzo
 SCONTA,Riduce il prezzo
 SCONTANO,Riducono il prezzo
 SCONTANDO,Riducendo il prezzo
-SCONTATO,"Ridurre il prezzo, a fatto compiuto"
+SCONTATO,"Ridotto il prezzo"
 SCONTAVO,Riducevo il prezzo
 SCONTAVA,Riduceva il prezzo
 SCONTAVANO,Riducevano il prezzo
@@ -9073,7 +9073,7 @@ SEGNARE,Fare un segno
 SEGNA,Fa un segno
 SEGNANO,Fanno un segno
 SEGNANDO,Facendo un segno
-SEGNATO,"Fare un segno, a fatto compiuto"
+SEGNATO,"Fatto un segno"
 SEGNAVO,Facevo un segno
 SEGNAVA,Faceva un segno
 SEGNAVANO,Facevano un segno
@@ -9084,7 +9084,7 @@ SEGUO,Vado dietro
 SEGUE,Va dietro
 SEGUONO,Vanno dietro
 SEGUENDO,Andando dietro
-SEGUITO,"Andare dietro, a fatto compiuto"
+SEGUITO,"Andato dietro"
 SEGUIVO,Andavo dietro
 SEGUIVA,Andava dietro
 SEGUIVANO,Andavano dietro
@@ -9101,7 +9101,7 @@ SERVIRE,Essere utile
 SERVE,È utile
 SERVONO,Sono utili
 SERVENDO,Essendo utile
-SERVITO,"Essere utile, a fatto compiuto"
+SERVITO,"Risultato utile"
 SERVIVO,Ero utile
 SERVIVA,Era utile
 SERVIVANO,Erano utili
@@ -9112,7 +9112,7 @@ SISTEMO,Metto a posto
 SISTEMA,Mette a posto
 SISTEMANO,Mettono a posto
 SISTEMANDO,Mettendo a posto
-SISTEMATO,"Mettere a posto, a fatto compiuto"
+SISTEMATO,"Messo a posto"
 SISTEMAVO,Mettevo a posto
 SISTEMAVA,Metteva a posto
 SISTEMAVANO,Mettevano a posto
@@ -9122,7 +9122,7 @@ SOGNARE,Vedere nel sonno
 SOGNA,Vede nel sonno
 SOGNANO,Vedono nel sonno
 SOGNANDO,Vedendo nel sonno
-SOGNATO,"Vedere nel sonno, a fatto compiuto"
+SOGNATO,"Visto nel sonno"
 SOGNAVO,Vedevo nel sonno
 SOGNAVA,Vedeva nel sonno
 SOGNAVANO,Vedevano nel sonno
@@ -9133,7 +9133,7 @@ SOLLEVO,Alzo
 SOLLEVA,Alza
 SOLLEVANO,Alzano
 SOLLEVANDO,Alzando
-SOLLEVATO,"Alzare, a fatto compiuto"
+SOLLEVATO,"Alzato"
 SOLLEVAVO,Alzavo
 SOLLEVAVA,Alzava
 SOLLEVAVANO,Alzavano
@@ -9144,7 +9144,7 @@ SOMMO,Faccio un totale
 SOMMA,Fa un totale
 SOMMANO,Fanno un totale
 SOMMANDO,Facendo un totale
-SOMMATO,"Fare un totale, a fatto compiuto"
+SOMMATO,"Fatto un totale"
 SOMMAVO,Facevo un totale
 SOMMAVA,Faceva un totale
 SOMMAVANO,Facevano un totale
@@ -9165,7 +9165,7 @@ SPOSTO,Metto in altro luogo
 SPOSTA,Mette in altro luogo
 SPOSTANO,Mettono in altro luogo
 SPOSTANDO,Mettendo in altro luogo
-SPOSTATO,"Mettere in altro luogo, a fatto compiuto"
+SPOSTATO,"Messo in altro luogo"
 SPOSTAVO,Mettevo in altro luogo
 SPOSTAVA,Metteva in altro luogo
 SPOSTAVANO,Mettevano in altro luogo
@@ -9176,7 +9176,7 @@ STIRO,Tendo o passo il ferro
 STIRA,Tende o passa il ferro
 STIRANO,Tendono o passano il ferro
 STIRANDO,Tendendo o passando il ferro
-STIRATO,"Tendere o passare il ferro, a fatto compiuto"
+STIRATO,"Teso o passato col ferro"
 STIRAVO,Tendevo o passavo il ferro
 STIRAVA,Tendeva o passava il ferro
 STIRAVANO,Tendevano o passavano il ferro
@@ -9187,7 +9187,7 @@ STUDIO,Mi applico a imparare
 STUDIA,Si applica a imparare
 STUDIANO,Si applicano a imparare
 STUDIANDO,Applicandosi a imparare
-STUDIATO,"Applicarsi a imparare, a fatto compiuto"
+STUDIATO,"Applicatosi a imparare"
 STUDIAVO,Mi applicavo a imparare
 STUDIAVA,Si applicava a imparare
 STUDIAVANO,Si applicavano a imparare
@@ -9197,7 +9197,7 @@ SUONARE,Produrre musica
 SUONA,Produrre musica
 SUONANO,Produrre musica
 SUONANDO,Produrre musica
-SUONATO,"Produrre musica, a fatto compiuto"
+SUONATO,"Prodotto musica"
 SUONAVO,Produrre musica
 SUONAVA,Produrre musica
 SUONAVANO,Produrre musica
@@ -9208,7 +9208,7 @@ SUPERO,Vado oltre
 SUPERA,Va oltre
 SUPERANO,Vanno oltre
 SUPERANDO,Andando oltre
-SUPERATO,"Andare oltre, a fatto compiuto"
+SUPERATO,"Andato oltre"
 SUPERAVO,Andavo oltre
 SUPERAVA,Andava oltre
 SUPERAVANO,Andavano oltre
@@ -9219,7 +9219,7 @@ SVELO,Rivelo
 SVELA,Rivela
 SVELANO,Rivelano
 SVELANDO,Rivelando
-SVELATO,"Rivelare, a fatto compiuto"
+SVELATO,"Rivelato"
 SVELAVO,Rivelavo
 SVELAVA,Rivelava
 SVELAVANO,Rivelavano
@@ -9230,7 +9230,7 @@ SVILUPPO,Faccio crescere o rendo visibile
 SVILUPPA,Fa crescere o rende visibile
 SVILUPPANO,Fanno crescere o rendono visibile
 SVILUPPANDO,Facendo crescere o rendendo visibile
-SVILUPPATO,"Far crescere o rendere visibile, a fatto compiuto"
+SVILUPPATO,"Fatto crescere o reso visibile"
 SVILUPPAVO,Facevo crescere o rendevo visibile
 SVILUPPAVA,Faceva crescere o rendeva visibile
 SVILUPPAVANO,Facevano crescere o rendevano visibile
@@ -9241,7 +9241,7 @@ TAGLIO,Separo con lama
 TAGLIA,Separa con lama
 TAGLIANO,Separano con lama
 TAGLIANDO,Separando con lama
-TAGLIATO,"Separare con lama, a fatto compiuto"
+TAGLIATO,"Separato con lama"
 TAGLIAVO,Separavo con lama
 TAGLIAVA,Separava con lama
 TAGLIAVANO,Separavano con lama
@@ -9252,7 +9252,7 @@ TAPPO,Chiudo un foro
 TAPPA,Chiude un foro
 TAPPANO,Chiudono un foro
 TAPPANDO,Chiudendo un foro
-TAPPATO,"Chiudere un foro, a fatto compiuto"
+TAPPATO,"Chiuso un foro"
 TAPPAVO,Chiudevo un foro
 TAPPAVA,Chiudeva un foro
 TAPPAVANO,Chiudevano un foro
@@ -9263,7 +9263,7 @@ TENTO,Provo a fare
 TENTA,Prova a fare
 TENTANO,Provano a fare
 TENTANDO,Provando a fare
-TENTATO,"Provare a fare, a fatto compiuto"
+TENTATO,"Provato a fare"
 TENTAVO,Provavo a fare
 TENTAVA,Provava a fare
 TENTAVANO,Provavano a fare
@@ -9274,7 +9274,7 @@ TERMINO,Porto alla fine
 TERMINA,Porta alla fine
 TERMINANO,Portano alla fine
 TERMINANDO,Portando alla fine
-TERMINATO,"Portare alla fine, a fatto compiuto"
+TERMINATO,"Portato alla fine"
 TERMINAVO,Portavo alla fine
 TERMINAVA,Portava alla fine
 TERMINAVANO,Portavano alla fine
@@ -9284,7 +9284,7 @@ TIRARE,Trarre verso di sé
 TIRA,Trae verso di sé
 TIRANO,Traggono verso di sé
 TIRANDO,Traendo verso di sé
-TIRATO,"Trarre verso di sé, a fatto compiuto"
+TIRATO,"Tratto verso di sé"
 TIRAVO,Traevo verso di sé
 TIRAVA,Traeva verso di sé
 TIRAVANO,Traevano verso di sé
@@ -9295,7 +9295,7 @@ TOCCO,Sfioro con mano
 TOCCA,Sfiora con mano
 TOCCANO,Sfiorano con mano
 TOCCANDO,Sfiorando con mano
-TOCCATO,"Sfiorare con mano, a fatto compiuto"
+TOCCATO,"Sfiorato con mano"
 TOCCAVO,Sfioravo con mano
 TOCCAVA,Sfiorava con mano
 TOCCAVANO,Sfioravano con mano
@@ -9306,7 +9306,7 @@ TORNO,Vengo di nuovo
 TORNA,Viene di nuovo
 TORNANO,Vengono di nuovo
 TORNANDO,Venendo di nuovo
-TORNATO,"Venire di nuovo, a fatto compiuto"
+TORNATO,"Venuto di nuovo"
 TORNAVO,Venivo di nuovo
 TORNAVA,Veniva di nuovo
 TORNAVANO,Venivano di nuovo
@@ -9317,7 +9317,7 @@ TRACCIO,Segno una linea
 TRACCIA,Segna una linea
 TRACCIANO,Segnano una linea
 TRACCIANDO,Segnando una linea
-TRACCIATO,"Segnare una linea, a fatto compiuto"
+TRACCIATO,"Segnato una linea"
 TRACCIAVO,Segnavo una linea
 TRACCIAVA,Segnava una linea
 TRACCIAVANO,Segnavano una linea
@@ -9328,7 +9328,7 @@ TRADISCO,Venir meno alla fiducia
 TRADISCE,Venir meno alla fiducia
 TRADISCONO,Venir meno alla fiducia
 TRADENDO,Venir meno alla fiducia
-TRADITO,"Venir meno alla fiducia, a fatto compiuto"
+TRADITO,"Venuto meno alla fiducia"
 TRADIVO,Venir meno alla fiducia
 TRADIVA,Venir meno alla fiducia
 TRADIVANO,Venir meno alla fiducia
@@ -9338,7 +9338,7 @@ TRAMONTARE,Scendere oltre l'orizzonte
 TRAMONTA,Scende oltre l'orizzonte
 TRAMONTANO,Scendono oltre l'orizzonte
 TRAMONTANDO,Scendendo oltre l'orizzonte
-TRAMONTATO,"Scendere oltre l'orizzonte, a fatto compiuto"
+TRAMONTATO,"Sceso oltre l'orizzonte"
 TRAMONTAVO,Scendevo oltre l'orizzonte
 TRAMONTAVA,Scendeva oltre l'orizzonte
 TRAMONTAVANO,Scendevano oltre l'orizzonte
@@ -9349,7 +9349,7 @@ TRASFORMO,Muto forma
 TRASFORMA,Muta forma
 TRASFORMANO,Mutano forma
 TRASFORMANDO,Mutando forma
-TRASFORMATO,"Mutare forma, a fatto compiuto"
+TRASFORMATO,"Mutato forma"
 TRASFORMAVO,Mutavo forma
 TRASFORMAVA,Mutava forma
 TRASFORMAVANO,Mutavano forma
@@ -9360,7 +9360,7 @@ TRATTO,Ho a che fare
 TRATTA,Ha a che fare
 TRATTANO,Hanno a che fare
 TRATTANDO,Avendo a che fare
-TRATTATO,"Avere a che fare, a fatto compiuto"
+TRATTATO,"Avuto a che fare"
 TRATTAVO,Avevo a che fare
 TRATTAVA,Aveva a che fare
 TRATTAVANO,Avevano a che fare
@@ -9371,7 +9371,7 @@ TROVO,Scopro cercando
 TROVA,Scopre cercando
 TROVANO,Scoprono cercando
 TROVANDO,Scoprendo cercando
-TROVATO,"Scoprire cercando, a fatto compiuto"
+TROVATO,"Scoperto cercando"
 TROVAVO,Scoprivo cercando
 TROVAVA,Scopriva cercando
 TROVAVANO,Scoprivano cercando
@@ -9381,7 +9381,7 @@ USARE,Servirsi di qualcosa
 USA,Si serve di qualcosa
 USANO,Si servono di qualcosa
 USANDO,Servendosi di qualcosa
-USATO,"Servirsi di qualcosa, a fatto compiuto"
+USATO,"Adoperato"
 USAVO,Mi servivo di qualcosa
 USAVA,Si serviva di qualcosa
 USAVANO,Si servivano di qualcosa
@@ -9392,7 +9392,7 @@ VALUTO,Stimo il valore
 VALUTA,Stima il valore
 VALUTANO,Stimano il valore
 VALUTANDO,Stimando il valore
-VALUTATO,"Stimare il valore, a fatto compiuto"
+VALUTATO,"Stimato il valore"
 VALUTAVO,Stimavo il valore
 VALUTAVA,Stimava il valore
 VALUTAVANO,Stimavano il valore
@@ -9412,7 +9412,7 @@ VERSARE,Far uscire un liquido
 VERSA,Fa uscire un liquido
 VERSANO,Fanno uscire un liquido
 VERSANDO,Facendo uscire un liquido
-VERSATO,"Far uscire un liquido, a fatto compiuto"
+VERSATO,"Fatto uscire un liquido"
 VERSAVO,Facevo uscire un liquido
 VERSAVA,Faceva uscire un liquido
 VERSAVANO,Facevano uscire un liquido
@@ -9422,7 +9422,7 @@ VIAGGIARE,Andare da un luogo a un altro
 VIAGGIA,Va da un luogo a un altro
 VIAGGIANO,Vanno da un luogo a un altro
 VIAGGIANDO,Andando da un luogo a un altro
-VIAGGIATO,"Andare da un luogo a un altro, a fatto compiuto"
+VIAGGIATO,"Andato da un luogo a un altro"
 VIAGGIAVO,Andavo da un luogo a un altro
 VIAGGIAVA,Andava da un luogo a un altro
 VIAGGIAVANO,Andavano da un luogo a un altro
@@ -9443,7 +9443,7 @@ VISITO,Vado a vedere o trovo
 VISITA,Va a vedere o trova
 VISITANO,Vanno a vedere o trovano
 VISITANDO,Andando a vedere o trovando
-VISITATO,"Andare a vedere o trovare, a fatto compiuto"
+VISITATO,"Andato a vedere o trovato"
 VISITAVO,Andavo a vedere o trovavo
 VISITAVA,Andava a vedere o trovava
 VISITAVANO,Andavano a vedere o trovavano
@@ -9453,7 +9453,7 @@ VOLARE,Muoversi nell'aria
 VOLA,Si muove nell'aria
 VOLANO,Si muovono nell'aria
 VOLANDO,Muovendosi nell'aria
-VOLATO,"Muoversi nell'aria, a fatto compiuto"
+VOLATO,"Librato in aria"
 VOLAVO,Mi muovevo nell'aria
 VOLAVA,Si muoveva nell'aria
 VOLAVANO,Si muovevano nell'aria
@@ -9463,7 +9463,7 @@ VOTARE,Esprimere una scelta
 VOTA,Esprime una scelta
 VOTANO,Esprimono una scelta
 VOTANDO,Esprimendo una scelta
-VOTATO,"Esprimere una scelta, a fatto compiuto"
+VOTATO,"Espresso una scelta"
 VOTAVO,Esprimevo una scelta
 VOTAVA,Esprimeva una scelta
 VOTAVANO,Esprimevano una scelta
@@ -9473,7 +9473,7 @@ ZAPPARE,Lavorare la terra con la zappa
 ZAPPO,Lavoro la terra con la zappa
 ZAPPANO,Lavorano la terra con la zappa
 ZAPPANDO,Lavorando la terra con la zappa
-ZAPPATO,"Lavorare la terra con la zappa, a fatto compiuto"
+ZAPPATO,"Lavorato la terra con la zappa"
 ZAPPAVO,Lavoravo la terra con la zappa
 ZAPPAVA,Lavorava la terra con la zappa
 ZAPPAVANO,Lavoravano la terra con la zappa
