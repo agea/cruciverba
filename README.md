@@ -44,8 +44,8 @@ Short slots (2–3 letters) lean on the classic Italian-puzzle style: initialism
 
 ### Extending the database
 
-1. Add rows to [`voci.csv`](voci.csv), under the header `soluzione,definizione`. Wrap a clue in double quotes if it contains a comma.
-2. Run `node builddb.js`. It reads the CSV, **normalizes** (NFD → uppercase → A–Z only), **deduplicates** (first occurrence wins), **drops** invalid entries, sorts, and rewrites `cruciverba_db.json`.
+1. Add rows to the right file in [`voci/`](voci/) — one file per initial letter (`voci/A.csv`, `voci/B.csv`, …), each under the header `soluzione,definizione`. A word goes in the file of its first letter. Wrap a clue in double quotes if it contains a comma.
+2. Run `node builddb.js`. It reads every `voci/*.csv`, **normalizes** (NFD → uppercase → A–Z only), **deduplicates** (first occurrence wins), **drops** invalid entries, sorts, and rewrites `cruciverba_db.json`. (A single legacy `voci.csv` is still accepted as a fallback.)
 
 > 💡 Solutions shorter than 2 letters or without a clue are discarded automatically. Duplicate solutions keep the first clue seen.
 
@@ -90,7 +90,7 @@ Produces dense grids in the Italian style: a filled rectangular grid with **blac
 
 | File | Role |
 |---|---|
-| [`voci.csv`](voci.csv) | Database source (`soluzione,definizione`) |
+| [`voci/`](voci/) | Database source, split by initial (`A.csv … Z.csv`) |
 | [`builddb.js`](builddb.js) | Build script: CSV → JSON |
 | `cruciverba_db.json` | Generated database (rebuilt in CI) |
 | [`gen_dense.js`](gen_dense.js) | Dense generator (Web Worker) |
@@ -105,7 +105,7 @@ Produces dense grids in the Italian style: a filled rectangular grid with **blac
 No toolchain required.
 
 ```bash
-# rebuild the database after editing voci.csv
+# rebuild the database after editing any voci/*.csv
 node builddb.js
 
 # serve locally (a service worker needs an HTTP origin)

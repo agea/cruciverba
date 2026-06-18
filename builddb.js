@@ -1,9 +1,11 @@
-// Builder del database: legge voci.csv, normalizza, deduplica,
-// valida (solo A-Z, lunghezza >= 2) e produce cruciverba_db.json.
+// Builder del database: legge le voci da voci/*.csv (suddivise per iniziale),
+// normalizza, deduplica, valida (solo A-Z, lunghezza >= 2) e produce
+// cruciverba_db.json. Per retrocompatibilità accetta anche un singolo voci.csv.
 const fs = require("fs");
 const path = require("path");
 
-const inputPath = path.join(__dirname, "voci.csv");
+const inputDir = path.join(__dirname, "voci");
+const legacyPath = path.join(__dirname, "voci.csv");
 const outputPath = path.join(__dirname, "cruciverba_db.json");
 
 function norm(s){
@@ -49,14 +51,26 @@ function parseCsv(text){
   return rows;
 }
 
-if(!fs.existsSync(inputPath)){
-  throw new Error("File voci.csv non trovato");
+function readFile(file, label){
+  const r = parseCsv(fs.readFileSync(file, "utf8"));
+  const header = r.shift() || [];
+  if(header[0] !== "soluzione" || header[1] !== "definizione"){
+    throw new Error("Intestazione attesa 'soluzione,definizione' in " + label);
+  }
+  return r;
 }
 
-const rows = parseCsv(fs.readFileSync(inputPath, "utf8"));
-const header = rows.shift() || [];
-if(header[0] !== "soluzione" || header[1] !== "definizione"){
-  throw new Error("Intestazione CSV attesa: soluzione,definizione");
+let rows = [];
+if(fs.existsSync(inputDir) && fs.statSync(inputDir).isDirectory()){
+  const files = fs.readdirSync(inputDir).filter(f => f.endsWith(".csv")).sort();
+  if(!files.length) throw new Error("Nessun file .csv trovato in voci/");
+  for(const f of files){
+    rows = rows.concat(readFile(path.join(inputDir, f), "voci/" + f));
+  }
+} else if(fs.existsSync(legacyPath)){
+  rows = readFile(legacyPath, "voci.csv");
+} else {
+  throw new Error("Sorgente non trovata: né la cartella voci/ né voci.csv");
 }
 
 const seen = new Map();   // soluzione -> definizione (prima vince)
