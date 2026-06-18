@@ -99,8 +99,6 @@ GEDEONE,Giudice che sconfisse i Madianiti
 GEL,Tiene in riga i capelli
 GELA,Rende freddissimo
 GELAI,Resi freddissimo
-GELANDO,Rendendo freddissimo
-GELANO,Rendono freddissimo
 GELARE,Rendere freddissimo
 GELATAIO,Prepara e vende gelati
 GELATINOSA,"Molle e tremolante, al femminile"
@@ -108,14 +106,6 @@ GELATINOSE,"Molle e tremolante, al femminile plurale"
 GELATINOSI,"Molle e tremolante, al plurale"
 GELATINOSO,Molle e tremolante
 GELATO,Dolce che teme il sole
-GELAVA,Rendeva freddissimo
-GELAVANO,Rendevano freddissimo
-GELAVO,Rendevo freddissimo
-GELERA,Renderà ghiacciato
-GELEREBBE,Renderebbe ghiacciato
-GELEREI,Renderei freddissimo
-GELERO,Renderò freddissimo
-GELIAMO,Rendiamo freddissimo
 GELIDA,"Molto freddo, al femminile"
 GELIDE,"Molto freddo, al femminile plurale"
 GELIDI,"Molto freddo, al plurale"
@@ -126,16 +116,11 @@ GELSOMINO,Fiore bianco dal profumo serale
 GEME,Forma verbale: Lamentarsi piano
 GEMELLI,Segno zodiacale di Castore e Polluce
 GEMELLO,"Nato insieme, non sempre identico"
-GEMERA,Futuro: Lamentarsi piano
-GEMERO,Futuro: Lamentarsi piano
-GEMEVA,Imperfetto: Lamentarsi piano
-GEMEVI,Imperfetto: Lamentarsi piano
 GEMI,Forma verbale: Lamentarsi piano
 GEMITO,Il lamento sommesso
 GEMMA,Pietra preziosa o germoglio
 GEMMAZIONE,Nascita per piccola crescita laterale
 GEMO,Forma verbale: Lamentarsi piano
-GEMONO,Presente plurale: Lamentarsi piano
 GENE,Unità ereditaria invisibile
 GENEALOGIA,Albero che non fa foglie ma antenati
 GENERE,"Categoria, sesso grammaticale o stile"
@@ -174,28 +159,15 @@ GERMOGLIO,La giovane pianta che spunta
 GEROGLIFICO,Segno egizio più disegnato che scritto
 GERUSALEMME,Città santa per tre religioni
 GESSO,Scrive sulla lavagna
-GESTENDO,Amministrando
-GESTIRA,Amministrerà
 GESTIRE,Amministrare
-GESTIREBBE,Amministrerebbe
 GESTISCE,Amministra
 GESTISCO,Amministro
 GESTISCONO,Amministrano
 GESTITO,Amministrato
-GESTIVA,Amministrava
-GESTIVANO,Amministravano
-GESTIVO,Amministravo
 GESTO,Movimento che parla
 GETTA,Lancia via
-GETTANDO,Lanciando via
-GETTANO,Lanciano via
 GETTARE,Lanciare via
 GETTATO,Lanciato via
-GETTAVA,Lanciava via
-GETTAVANO,Lanciavano via
-GETTAVO,Lanciavo via
-GETTERA,Lancerà via
-GETTEREBBE,Lancerebbe via
 GETTO,Flusso improvviso o colata
 GEYSER,Getto naturale di acqua bollente
 GHANA,Stato africano affacciato sul golfo di Guinea
@@ -268,14 +240,9 @@ GINZBURG,Autrice di Lessico famigliare
 GIOBBE,L'uomo provato dalle sventure
 GIOCA,Partecipa alla partita
 GIOCAI,Mi misi al gioco
-GIOCANDO,Mettendosi al gioco
-GIOCANO,Si mettono al gioco
 GIOCARE,Mettersi al gioco
 GIOCASTA,La madre di Edipo
 GIOCATO,Messo al gioco
-GIOCAVA,Si metteva al gioco
-GIOCAVANO,Si mettevano al gioco
-GIOCAVO,Mi mettevo al gioco
 GIOCHERA,Si divertirà con regole
 GIOCHEREBBE,Si divertirebbe con regole
 GIOCHEREI,Mi metterei al gioco
@@ -297,21 +264,10 @@ GIOVANI,"Non ancora vecchio, al plurale"
 GIOVANNI,Nome proprio del pittore Bellini
 GIRA,Volge in tondo
 GIRAI,Volsi in tondo
-GIRANDO,Volgendo in tondo
 GIRANDOLA,Ruota di carta mossa dal vento
-GIRANO,Volgono in tondo
 GIRARE,Volgere in tondo
 GIRASOLE,Fiore che segue il sole
 GIRATO,Volto in tondo
-GIRAVA,Volgeva in tondo
-GIRAVANO,Volgevano in tondo
-GIRAVI,Imperfetto: Volgere intorno
-GIRAVO,Volgevo in tondo
-GIRERA,Volgerà in tondo
-GIREREBBE,Volgerebbe in tondo
-GIREREI,Volgerei in tondo
-GIRERO,Volgerò in tondo
-GIRIAMO,Volgiamo in tondo
 GIRINO,Rana prima di avere zampe
 GIRO,Viaggio in tondo o corsa rosa
 GIROLAMO,Tradusse la Bibbia in latino
@@ -323,10 +279,7 @@ GIUDEA,La regione di Gerusalemme
 GIUDITTA,Decapito Oloferne
 GIUGNO,Mese che apre l'estate scolastica
 GIULIO,Papa committente di Michelangelo
-GIULIVA,"Allegro e festoso, al femminile"
 GIULIVE,"Allegro e festoso, al femminile plurale"
-GIULIVI,"Allegro e festoso, al plurale"
-GIULIVO,Allegro e festoso
 GIUNCA,Imbarcazione a vela cinese
 GIUNCHIGLIA,Narciso giallo e sottile
 GIUNCO,Pianta flessibile delle paludi
@@ -391,16 +344,9 @@ GONDOLA,Barca veneziana
 GONDOLIERE,Conduce senza motore nei canali veneziani
 GONFALONE,Stendardo dei Comuni medievali
 GONFIA,Riempe d'aria
-GONFIANDO,Riempendo d'aria
-GONFIANO,Riempiono d’aria
 GONFIARE,Riempire d'aria
 GONFIATO,Riempito d'aria
-GONFIAVA,Riempiva d'aria
-GONFIAVANO,Riempivano d'aria
-GONFIAVO,Riempivo d'aria
 GONFIE,"Pieno d'aria, al femminile plurale"
-GONFIERA,Riempirà d'aria
-GONFIEREBBE,Riempirebbe d'aria
 GONFII,"Pieno d'aria, al plurale"
 GONFIO,Riempo d'aria
 GONG,Dichiara concluso il round
@@ -423,18 +369,8 @@ GOTTA,Malattia da accumulo di acido urico
 GOURMET,Il fine intenditore di cucina
 GOVERNA,Regge il potere
 GOVERNAI,Ressi il potere
-GOVERNANDO,Reggendo il potere
-GOVERNANO,Reggono il potere
 GOVERNARE,Reggere il potere
 GOVERNATO,Retto il potere
-GOVERNAVA,Reggeva il potere
-GOVERNAVANO,Reggevano il potere
-GOVERNAVO,Reggevo il potere
-GOVERNERA,Reggerà uno Stato
-GOVERNEREBBE,Reggerebbe uno Stato
-GOVERNEREI,Reggerei il potere
-GOVERNERO,Reggerò il potere
-GOVERNIAMO,Reggiamo il potere
 GOVERNO,Reggo il potere
 GOYA,Il Francisco delle pitture nere
 GOZO,Isola maltese dalle scogliere
@@ -451,15 +387,8 @@ GRADINO,Uno scalino della scala
 GRADO,Livello o unità d'angolo
 GRAFFETTA,Il fermaglio per i fogli
 GRAFFIA,Segna con unghie o punte
-GRAFFIANDO,Segnando con unghie o punte
-GRAFFIANO,Segnano con unghie o punte
 GRAFFIARE,Segnare con unghie o punte
 GRAFFIATO,Segnato con unghie o punte
-GRAFFIAVA,Segnava con unghie o punte
-GRAFFIAVANO,Segnavano con unghie o punte
-GRAFFIAVO,Segnavo con unghie o punte
-GRAFFIERA,Segnerà con unghie o punte
-GRAFFIEREBBE,Segnerebbe con unghie o punte
 GRAFFIO,Segno con unghie o punte
 GRAFFITO,Decorazione ottenuta incidendo l'intonaco
 GRAFITE,Carbonio che lascia tracce nella matita
@@ -530,18 +459,8 @@ GREZZI,"Non rifinito, al plurale"
 GREZZO,Non rifinito
 GRIDA,Alza molto la voce
 GRIDAI,Alzai molto la voce
-GRIDANDO,Alzando molto la voce
-GRIDANO,Alzano molto la voce
 GRIDARE,Alzare molto la voce
 GRIDATO,Alzato molto la voce
-GRIDAVA,Alzava molto la voce
-GRIDAVANO,Alzavano molto la voce
-GRIDAVO,Alzavo molto la voce
-GRIDERA,Alzerà la voce
-GRIDEREBBE,Alzerebbe la voce
-GRIDEREI,Alzerei molto la voce
-GRIDERO,Alzerò molto la voce
-GRIDIAMO,Alziamo molto la voce
 GRIDO,Voce che rompe il silenzio
 GRIFAGNO,Dallo sguardo fiero e rapace
 GRIFO,Creatura con aquila e leone
@@ -572,18 +491,8 @@ GRUS,Costellazione australe della Gru
 GRUVIERA,Formaggio svizzero stagionato
 GUADAGNA,Ottiene un utile
 GUADAGNAI,Ottenni un utile
-GUADAGNANDO,Ottenendo un utile
-GUADAGNANO,Ottengono un utile
 GUADAGNARE,Ottenere un utile
 GUADAGNATO,Ottenuto un utile
-GUADAGNAVA,Otteneva un utile
-GUADAGNAVANO,Ottenevano un utile
-GUADAGNAVO,Ottenevo un utile
-GUADAGNERA,Ricaverà denaro o vantaggio
-GUADAGNEREBBE,Ricaverebbe denaro o vantaggio
-GUADAGNEREI,Otterrei un utile
-GUADAGNERO,Otterrò un utile
-GUADAGNIAMO,Otteniamo un utile
 GUADAGNO,Ottengo un utile
 GUADALAJARA,Città del Messico
 GUADALQUIVIR,Fiume dell'Andalusia
@@ -600,21 +509,11 @@ GUARANI,Popolo indigeno del Sudamerica
 GUARDA,Posa gli occhi
 GUARDABOSCHI,Chi sorveglia i boschi
 GUARDAI,Posai gli occhi
-GUARDANDO,Posando gli occhi
-GUARDANO,Posano gli occhi
 GUARDARE,Posare gli occhi
 GUARDATO,Posato gli occhi
-GUARDAVA,Posava gli occhi
-GUARDAVANO,Posavano gli occhi
-GUARDAVO,Posavo gli occhi
-GUARDERA,Volgerà lo sguardo
-GUARDEREBBE,Volgerebbe lo sguardo
-GUARDEREI,Poserei gli occhi
-GUARDERO,Poserò gli occhi
 GUARDI,Vedutista veneziano del Settecento
 GUARDIA,La protezione della mano sulla spada
 GUARDIACACCIA,Chi vigila sulla selvaggina
-GUARDIAMO,Posiamo gli occhi
 GUARDIANO,Sorveglia un luogo
 GUARDINFANTE,Antica sottogonna a cerchi
 GUARDINGA,"Prudente e sospettoso, al femminile"
@@ -635,18 +534,8 @@ GUGLIELMO,L'eroe svizzero della mela sulla testa
 GUICCIARDINI,Il Francesco storico fiorentino
 GUIDA,Conduce un mezzo o un gruppo
 GUIDAI,Condussi un mezzo o un gruppo
-GUIDANDO,Conducendo un mezzo o un gruppo
-GUIDANO,Conducono un mezzo o un gruppo
 GUIDARE,Condurre un mezzo o un gruppo
 GUIDATO,Condotto un mezzo o un gruppo
-GUIDAVA,Conduceva un mezzo o un gruppo
-GUIDAVANO,Conducevano un mezzo o un gruppo
-GUIDAVO,Conducevo un mezzo o un gruppo
-GUIDERA,Condurrà un mezzo
-GUIDEREBBE,Condurrebbe un mezzo
-GUIDEREI,Condurrei un mezzo o un gruppo
-GUIDERO,Condurrò un mezzo o un gruppo
-GUIDIAMO,Conduciamo un mezzo o un gruppo
 GUIDO,Conduco un mezzo
 GUILLERMO,Nome proprio del regista del Toro
 GUINEA,Stato africano con capitale Conakry
@@ -654,16 +543,79 @@ GUIZZO,Mi muovo con uno scatto rapido
 GURU,Maestro che attira discepoli
 GUSTA,Assapora con piacere
 GUSTAI,Assaporai con piacere
-GUSTANDO,Assaporando con piacere
-GUSTANO,Assaporano con piacere
 GUSTARE,Assaporare con piacere
 GUSTATO,Assaporato con piacere
-GUSTAVA,Assaporava con piacere
-GUSTAVANO,Assaporavano con piacere
-GUSTEREI,Assaporerei con piacere
-GUSTERO,Assaporerò con piacere
-GUSTIAMO,Assaporiamo con piacere
 GUSTO,Senso che giudica sapori e stile
 GUTTUSO,Pittore siciliano del realismo
 GUY,Nome proprio del regista Ritchie
 GUYANA,Stato sudamericano affacciato sull'Atlantico
+GERMANIO,Semimetallo dal simbolo Ge
+GEA,La dea greca della Terra
+GARDA,Il più esteso lago italiano
+GRIEG,Il compositore norvegese del Peer Gynt
+GERSHWIN,L'autore di Rhapsody in Blue
+GANESHA,Il dio indù dalla testa d'elefante
+GODARD,Il regista francese di Fino all'ultimo respiro
+GAUSS,Il principe dei matematici tedeschi
+GUACAMOLE,La salsa messicana di avocado
+GAZPACHO,La zuppa fredda spagnola di pomodoro
+GOULASH,Lo spezzatino ungherese alla paprika
+GIMONDI,"Vincitore dei tre grandi giri, ciclista"
+GRAF,La tennista tedesca del Grande Slam 1988
+GENESIS,La band progressive di Peter Gabriel
+GUCCINI,Il cantautore di Via Paolo Fabbri 43
+GANDALF,Lo stregone del Signore degli Anelli
+GOLLUM,La creatura del mio tessssoro nel Signore degli Anelli
+GREMLINS,I mostriciattoli del film natalizio anni Ottanta
+GHOSTBUSTERS,Gli acchiappafantasmi del cinema
+GOOGLE,Il motore di ricerca più usato al mondo
+GUGGENHEIM,Il museo a spirale di New York
+GEHRY,L'architetto del Guggenheim di Bilbao
+GOMORRA,La serie sulla camorra napoletana
+GUANGZHOU,La metropoli cinese già detta Canton
+GINKGO,L'albero a ventaglio considerato fossile vivente
+GUAVA,Il frutto tropicale dalla polpa rosata
+GOKU,Il guerriero saiyan di Dragon Ball
+GHIBLI,Lo studio d'animazione giapponese di Totoro
+GUNDAM,I robot giganti del celebre anime giapponese
+GOLDRAKE,Il robot alato di Actarus
+GAGA,La popstar di Poker Face e Bad Romance
+GUETTA,Il dj francese David
+GAZZELLE,Il cantautore indie romano
+GLOVO,L'app delle consegne col rider
+GIF,La breve animazione che gira in loop sul web
+GINOBILI,Il cestista argentino degli Spurs
+GALLINARI,Il cestista azzurro il Gallo
+GOGGIA,La sciatrice azzurra Sofia regina della discesa
+GOUDA,Il formaggio olandese a forma di ruota
+GRUYERE,Il formaggio svizzero della fonduta
+GAGARIN,Il primo uomo nello spazio
+GRICIA,La pasta romana di guanciale e pecorino senza pomodoro
+GANACHE,La crema di cioccolato e panna
+GAELICO,La lingua celtica di Irlanda e Scozia
+GEISHA,L'intrattenitrice tradizionale giapponese
+GASTONE,Il papero fortunatissimo Disney
+GROOT,L'albero parlante dei Guardiani della Galassia
+GAMORA,La guerriera verde dei Guardiani della Galassia
+GRIFONDORO,La casa di Hogwarts di Harry Potter
+GIMLI,Il nano della Compagnia dell'Anello
+GODZILLA,Il mostro gigante giapponese che esce dal mare
+GARFIELD,Il gatto rosso pigro e mangione dei fumetti
+GROUCHO,L'assistente di Dylan Dog che imita Marx
+GRISU,Il draghetto dei cartoni che vuol fare il pompiere
+GERONIMO,Lo Stilton topo giornalista dei libri per ragazzi
+GORMITI,I personaggi dei quattro elementi di giocattoli e cartoni
+GUINNESS,La birra scura irlandese
+GOPRO,La piccola action cam sportiva da casco
+GARMIN,La marca di navigatori e orologi sportivi
+GREENPEACE,L'organizzazione ambientalista delle navi
+GOLDENGATE,Il ponte rosso di San Francisco
+GPS,Il sistema satellitare per la posizione
+GISELLE,Il celebre balletto romantico delle villi
+GILLESPIE,Il trombettista jazz Dizzy
+GALATASARAY,Il club turco giallorosso di Istanbul
+GOJIRA,Il nome originale giapponese di Godzilla
+GEORGIE,La protagonista bionda di un anime romantico
+GNOCCOFRITTO,La sfoglia gonfia fritta emiliana
+GIARDINIERA,Le verdure miste sott'aceto
+GRISSINO,Il bastoncino di pane croccante piemontese
