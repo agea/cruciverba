@@ -58,7 +58,7 @@ Produces dense grids in the Italian style: a filled rectangular grid with **blac
 **Pipeline:**
 
 1. **Word bank** — the DB is indexed by length and by `(position, letter)`, to quickly fetch candidates for a partially filled slot.
-2. **Black-square pattern** — randomly generated with controlled density; over-long white runs are split (`maxRun`) to favor 3–6 letter slots where the vocabulary is richest; isolated white cells are removed.
+2. **Black-square pattern** — randomly generated with controlled density; over-long white runs are split (`maxRun`) to favor 3–6 letter slots where the vocabulary is richest; isolated white cells are removed; black squares are normalized to avoid 2×2 black blocks and black runs longer than 3 cells.
 3. **Slot extraction** — all white runs ≥ 2, across and down, plus a cell → slot map.
 4. **Filling (backtracking)** — most-constrained-slot selection (propagation from already-filled slots + a static seed on the most-crossed ones), **forward-checking** on crossings, no repeated words.
 5. **Fallback cascade** — if a configuration can't be completed, it retries with more black squares and shorter slots, and finally with a smaller grid: a valid grid is always returned.

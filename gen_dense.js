@@ -90,6 +90,55 @@ function makePattern(W, H, blackProb, rnd, maxRun) {
       }
     }
   }
+
+  function fixBadBlackPatterns() {
+    var changed = false;
+    var r, c, run;
+
+    for (r = 0; r + 1 < H; r++) {
+      for (c = 0; c + 1 < W; c++) {
+        if (black[r][c] && black[r + 1][c] && black[r][c + 1] && black[r + 1][c + 1]) {
+          black[r + 1][c + 1] = false;
+          changed = true;
+        }
+      }
+    }
+
+    for (r = 0; r < H; r++) {
+      run = 0;
+      for (c = 0; c < W; c++) {
+        if (black[r][c]) {
+          run++;
+          if (run > 3) {
+            black[r][c] = false;
+            run = 0;
+            changed = true;
+          }
+        } else {
+          run = 0;
+        }
+      }
+    }
+
+    for (c = 0; c < W; c++) {
+      run = 0;
+      for (r = 0; r < H; r++) {
+        if (black[r][c]) {
+          run++;
+          if (run > 3) {
+            black[r][c] = false;
+            run = 0;
+            changed = true;
+          }
+        } else {
+          run = 0;
+        }
+      }
+    }
+
+    return changed;
+  }
+
   fixLongRuns();
   // elimina celle bianche isolate (1 in entrambe le direzioni) -> nere
   function acrossLen(r, c) {
@@ -118,6 +167,8 @@ function makePattern(W, H, blackProb, rnd, maxRun) {
       }
     }
   }
+
+  fixBadBlackPatterns();
   return black;
 }
 
@@ -126,16 +177,33 @@ function analyzePattern(black, W, H) {
   var whiteTotal = 0;
   var firstWhite = null;
   var blackSquares = 0;
+  var maxBlackRun = 0;
 
   for (r = 0; r < H; r++) {
+    var rowBlackRun = 0;
     for (c = 0; c < W; c++) {
       if (!black[r][c]) {
         whiteTotal++;
         if (!firstWhite) firstWhite = { r: r, c: c };
+        rowBlackRun = 0;
+      } else {
+        rowBlackRun++;
+        if (rowBlackRun > maxBlackRun) maxBlackRun = rowBlackRun;
       }
       if (r + 1 < H && c + 1 < W &&
           black[r][c] && black[r + 1][c] && black[r][c + 1] && black[r + 1][c + 1]) {
         blackSquares++;
+      }
+    }
+  }
+  for (c = 0; c < W; c++) {
+    var colBlackRun = 0;
+    for (r = 0; r < H; r++) {
+      if (black[r][c]) {
+        colBlackRun++;
+        if (colBlackRun > maxBlackRun) maxBlackRun = colBlackRun;
+      } else {
+        colBlackRun = 0;
       }
     }
   }
@@ -169,7 +237,8 @@ function analyzePattern(black, W, H) {
     whiteTotal: whiteTotal,
     blackTotal: W * H - whiteTotal,
     whiteConnected: whiteTotal > 0 && connectedWhite === whiteTotal,
-    blackSquares: blackSquares
+    blackSquares: blackSquares,
+    maxBlackRun: maxBlackRun
   };
 }
 
@@ -432,8 +501,7 @@ function attemptDense(bank, W, H, blackProb, maxRun, patternAttempts, fillBudget
     var bp = blackProb + (rnd() - 0.5) * 0.05;
     var black = makePattern(W, H, bp, rnd, maxRun);
     var quality = analyzePattern(black, W, H);
-    var maxBlackSquares = W >= 13 ? 3 : 1;
-    if (!quality.whiteConnected || quality.blackSquares > maxBlackSquares) continue;
+    if (!quality.whiteConnected || quality.blackSquares > 0 || quality.maxBlackRun > 3) continue;
     var ex = extractSlots(black, W, H);
     if (ex.slots.length < 6) continue;
     var feasible = true;
