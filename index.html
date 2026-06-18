@@ -342,8 +342,9 @@
   "use strict";
   (function(){
     var $ = function(id){ return document.getElementById(id); };
+    var GENERATOR_VERSION = "pattern-v2";
     // --- generatore denso in Web Worker ---
-    var worker = new Worker("./gen_dense.js");
+    var worker = new Worker("./gen_dense.js?v="+GENERATOR_VERSION);
 
     var SIZES = {
       s5:    { width:5,  height:5,  label:"5x5" },
@@ -371,7 +372,7 @@
     var timer = { start:0, elapsed:0, id:null };
     var dbEntries = null;
     var dbPromise = null;
-    var STATE_KEY = "cruci_state_dense_v1";
+    var STATE_KEY = "cruci_state_dense_v2";
 
     // ---------- timer ----------
     function fmt(ms){ var s=Math.floor(ms/1000); var m=Math.floor(s/60); s=s%60; return (m<10?"0":"")+m+":"+(s<10?"0":"")+s; }
@@ -741,7 +742,7 @@
     function save(){
       try{
         if(!puzzle) return;
-        var data={ puzzle:puzzle, userGrid:userGrid, revealed:revealed, elapsed:timer.elapsed, sizeKey:sizeKey, solved:solved };
+        var data={ puzzle:puzzle, userGrid:userGrid, revealed:revealed, elapsed:timer.elapsed, sizeKey:sizeKey, solved:solved, generatorVersion:GENERATOR_VERSION };
         localStorage.setItem(STATE_KEY, JSON.stringify(data));
       }catch(e){}
     }
@@ -749,6 +750,7 @@
       try{
         var raw=localStorage.getItem(STATE_KEY); if(!raw) return false;
         var data=JSON.parse(raw); if(!data || !data.puzzle) return false;
+        if(data.generatorVersion !== GENERATOR_VERSION) return false;
         sizeKey=data.sizeKey || ({ facile:"s9", medio:"s11", difficile:"s13" })[data.difficulty] || "s11";
         puzzle=data.puzzle; buildState();
         userGrid=data.userGrid||userGrid; revealed=data.revealed||revealed;
