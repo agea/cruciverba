@@ -1,4 +1,4 @@
-const CACHE_VERSION = "cruciverba-v2";
+const CACHE_VERSION = "cruciverba-v3";
 const APP_SHELL = [
   "./",
   "./index.html",

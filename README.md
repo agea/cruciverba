@@ -31,21 +31,21 @@ The worker loads `gen_dense.js`, which is precached by the service worker togeth
 
 ## 🗂️ The database
 
-[`cruciverba_db.json`](cruciverba_db.json) is a compact JSON array of `["SOLUTION", "clue"]` pairs.
+[`cruciverba_db.json`](cruciverba_db.json) is a compact JSON array of `["SOLUTION", clue]` entries, where `clue` is either a **string** (one definition) or an **array of strings** (several definitions for the same solution). When a word has multiple clues, the generator picks one at random per puzzle, so the same answer can be asked differently from one grid to the next.
 
-- **15,016 entries.** Solutions are uppercase, letters **A–Z only** (accents and spaces stripped at build time).
+- **12,870 solutions / 13,112 clues.** Solutions are uppercase, letters **A–Z only** (accents and spaces stripped at build time).
 - Length distribution is deliberately skewed toward short words, which feed the dense crossings:
 
 | Letters | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14+ |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Entries | 178 | 248 | 829 | 1705 | 2265 | 3018 | 2366 | 2018 | 1232 | 665 | 306 | 134 | 52 |
+| Solutions | 178 | 270 | 911 | 1900 | 2205 | 2609 | 1923 | 1415 | 785 | 403 | 164 | 71 | 36 |
 
-Short slots (2–3 letters) lean on the classic Italian-puzzle style: initialism, car plates, musical notes and chemical symbols.
+Short slots (2–3 letters) lean on the classic Italian-puzzle style: initialism, car plates, musical notes and chemical symbols — and, being the most frequent, often carry several alternative clues.
 
 ### Extending the database
 
-1. Add rows to the right file in [`voci/`](voci/) — one file per initial letter (`voci/A.csv`, `voci/B.csv`, …), each under the header `soluzione,definizione`. A word goes in the file of its first letter. Wrap a clue in double quotes if it contains a comma.
-2. Run `node builddb.js`. It reads every `voci/*.csv`, **normalizes** (NFD → uppercase → A–Z only), **deduplicates** (first occurrence wins), **drops** invalid entries, sorts, and rewrites `cruciverba_db.json`. (A single legacy `voci.csv` is still accepted as a fallback.)
+1. Add rows to the right file in [`voci/`](voci/) — one file per initial letter (`voci/A.csv`, `voci/B.csv`, …), each under the header `soluzione,definizione`. A word goes in the file of its first letter. Wrap a clue in double quotes if it contains a comma. To give a word **more than one clue**, add several rows with the same solution and different definitions.
+2. Run `node builddb.js`. It reads every `voci/*.csv`, **normalizes** (NFD → uppercase → A–Z only), **groups every definition under its solution** (only exact `(solution, clue)` duplicates are dropped), **drops** invalid entries, sorts, and rewrites `cruciverba_db.json`. (A single legacy `voci.csv` is still accepted as a fallback.)
 
 > 💡 Solutions shorter than 2 letters or without a clue are discarded automatically. Duplicate solutions keep the first clue seen.
 

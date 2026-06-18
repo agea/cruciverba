@@ -29,18 +29,23 @@ function shuffleInPlace(arr, rnd) {
 // ---------- word bank ----------
 // byLen[L] = array di parole (uniche) di lunghezza L
 // posIndex[L][i] = Map( char -> array di parole di lunghezza L con quel char in posizione i )
-// answerToClue = Map( parola -> definizione )
+// answerToClues = Map( parola -> [definizioni] )
 function buildBank(rawEntries, minLen, maxLen) {
-  var answerToClue = new Map();
+  var answerToClues = new Map();
   for (var k = 0; k < rawEntries.length; k++) {
     var w = normalizeAnswer(rawEntries[k][0]);
-    var clue = rawEntries[k][1];
     if (w.length < 2) continue;
-    if (!answerToClue.has(w)) answerToClue.set(w, clue);
+    var raw = rawEntries[k][1];
+    var clues = Array.isArray(raw) ? raw : [raw];
+    if (!answerToClues.has(w)) answerToClues.set(w, []);
+    var arr = answerToClues.get(w);
+    for (var ci = 0; ci < clues.length; ci++) {
+      if (clues[ci] != null && arr.indexOf(clues[ci]) === -1) arr.push(clues[ci]);
+    }
   }
   var byLen = {};
   var posIndex = {};
-  answerToClue.forEach(function (clue, w) {
+  answerToClues.forEach(function (clues, w) {
     var L = w.length;
     if (L < minLen || L > maxLen) return;
     if (!byLen[L]) { byLen[L] = []; posIndex[L] = []; }
@@ -54,7 +59,7 @@ function buildBank(rawEntries, minLen, maxLen) {
       bucket.push(w);
     }
   });
-  return { answerToClue: answerToClue, byLen: byLen, posIndex: posIndex };
+  return { answerToClues: answerToClues, byLen: byLen, posIndex: posIndex };
 }
 
 // ---------- pattern di caselle nere ----------
@@ -364,7 +369,15 @@ function fillSlots(slots, bank, W, H, rnd, budget) {
 }
 
 // ---------- numerazione e output finale ----------
-function finalizeDense(black, letters, W, H, answerToClue) {
+function finalizeDense(black, letters, W, H, answerToClues, rnd) {
+  // sceglie una definizione tra quelle disponibili (più definizioni = varietà tra una griglia e l'altra)
+  function pickClue(w) {
+    var arr = answerToClues.get(w);
+    if (!arr || !arr.length) return null;
+    if (arr.length === 1) return arr[0];
+    var r = (typeof rnd === "function") ? rnd() : Math.random();
+    return arr[Math.min(arr.length - 1, (r * arr.length) | 0)];
+  }
   var cells = [];
   for (var r = 0; r < H; r++) {
     cells[r] = [];
@@ -394,13 +407,13 @@ function finalizeDense(black, letters, W, H, answerToClue) {
         cells[r2][c2].num = num;
         if (startsAcross) {
           var wA = read(r2, c2, 0, 1);
-          var clueA = answerToClue.has(wA) ? answerToClue.get(wA) : null;
+          var clueA = pickClue(wA);
           if (clueA == null) ghosts.push(wA);
           across.push({ num: num, clue: clueA || "(?)", answer: wA, row: r2, col: c2, len: wA.length });
         }
         if (startsDown) {
           var wD = read(r2, c2, 1, 0);
-          var clueD = answerToClue.has(wD) ? answerToClue.get(wD) : null;
+          var clueD = pickClue(wD);
           if (clueD == null) ghosts.push(wD);
           down.push({ num: num, clue: clueD || "(?)", answer: wD, row: r2, col: c2, len: wD.length });
         }
@@ -431,7 +444,7 @@ function attemptDense(bank, W, H, blackProb, maxRun, patternAttempts, fillBudget
     if (!feasible) continue;
     var filled = fillSlots(ex.slots, bank, W, H, rnd, fillBudget);
     if (filled) {
-      var res = finalizeDense(black, filled.letters, W, H, bank.answerToClue);
+      var res = finalizeDense(black, filled.letters, W, H, bank.answerToClues, rnd);
       var score = res.wordCount * 1000 - quality.blackTotal * 12 - quality.blackSquares * 800 - res.ghosts.length * 100000;
       if (!best || score > best.score) best = { result: res, score: score };
       if (res.ghosts.length === 0) return res;

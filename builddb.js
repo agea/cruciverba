@@ -73,8 +73,8 @@ if(fs.existsSync(inputDir) && fs.statSync(inputDir).isDirectory()){
   throw new Error("Sorgente non trovata: né la cartella voci/ né voci.csv");
 }
 
-const seen = new Map();   // soluzione -> definizione (prima vince)
-const out = [];
+const cluesBySol = new Map();   // soluzione -> [definizioni] (più definizioni ammesse)
+const order = [];               // ordine di prima comparsa delle soluzioni
 let dupes = 0, invalid = 0, malformed = 0;
 
 for (const row of rows) {
@@ -86,10 +86,17 @@ for (const row of rows) {
   const cleanClue = String(clue || "").trim();
   if (sol.length < 2) { invalid++; continue; }
   if (!cleanClue) { invalid++; continue; }
-  if (seen.has(sol)) { dupes++; continue; }
-  seen.set(sol, cleanClue);
-  out.push([sol, cleanClue]);
+  if (!cluesBySol.has(sol)) { cluesBySol.set(sol, []); order.push(sol); }
+  const arr = cluesBySol.get(sol);
+  if (arr.indexOf(cleanClue) !== -1) { dupes++; continue; } // (soluzione, definizione) identica già vista
+  arr.push(cleanClue);
 }
+
+// una voce per soluzione: definizione singola come stringa, più definizioni come array
+const out = order.map(sol => {
+  const arr = cluesBySol.get(sol);
+  return [sol, arr.length === 1 ? arr[0] : arr];
+});
 
 // ordina per lunghezza poi alfabetico (comodita di lettura)
 out.sort((a,b)=> a[0].length-b[0].length || a[0].localeCompare(b[0]));
@@ -98,7 +105,14 @@ fs.writeFileSync(outputPath, JSON.stringify(out, null, 0));
 
 // distribuzione
 const byLen={};
-for(const [w] of out){ byLen[w.length]=(byLen[w.length]||0)+1; }
+let totDef=0, multi=0;
+for(const [w,clue] of out){
+  byLen[w.length]=(byLen[w.length]||0)+1;
+  const n = Array.isArray(clue) ? clue.length : 1;
+  totDef += n;
+  if(n>1) multi++;
+}
 console.log("Totale voci:", out.length);
+console.log("Definizioni totali:", totDef, "| voci con più definizioni:", multi);
 console.log("Scartate (dup/invalid/malformed):", dupes, "/", invalid, "/", malformed);
 console.log("Distribuzione:", JSON.stringify(byLen));
