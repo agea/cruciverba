@@ -8,7 +8,7 @@ A generator and player for **Italian crosswords**, running entirely in the brows
 
 ## ✨ Features
 
-- **Automatic generation** of dense, *Settimana Enigmistica*–style grids with black squares, at three difficulty levels (easy / medium / hard) of increasing size and density.
+- **Automatic generation** of dense, *Settimana Enigmistica*–style grids with black squares, with square and landscape presets from **5×5** up to **25×13**.
 - **Interactive solving**: pick a clue, type with the physical or on-screen keyboard, with highlighting of the active word and crossing cell.
 - **Helpers**: check wrong letters, reveal a cell or a whole word, clear.
 - **Persistence**: the game state is saved in `localStorage`, so you can pick up where you left off.
@@ -31,23 +31,23 @@ The worker loads `gen_dense.js`, which is precached by the service worker togeth
 
 ## 🗂️ The database
 
-[`cruciverba_db.json`](cruciverba_db.json) is a compact JSON array of `["SOLUTION", clue]` entries, where `clue` is either a **string** (one definition) or an **array of strings** (several definitions for the same solution). When a word has multiple clues, the generator picks one at random per puzzle, so the same answer can be asked differently from one grid to the next.
+The source database lives in [`voci/`](voci/): **26 CSV files**, one per initial letter, with **13,112 definition rows**. `node builddb.js` turns them into `cruciverba_db.json`, a compact JSON array of `["SOLUTION", clue]` entries, where `clue` is either a **string** (one definition) or an **array of strings** (several definitions for the same solution). When a word has multiple clues, the generator picks one at random per puzzle, so the same answer can be asked differently from one grid to the next.
 
-- **12,870 solutions / 13,112 clues.** Solutions are uppercase, letters **A–Z only** (accents and spaces stripped at build time).
+- **12,870 solutions / 13,112 clues / 190 multi-clue solutions.** Solutions are uppercase, letters **A–Z only** (accents and spaces stripped at build time).
 - Length distribution is deliberately skewed toward short words, which feed the dense crossings:
 
 | Letters | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14+ |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | Solutions | 178 | 270 | 911 | 1900 | 2205 | 2609 | 1923 | 1415 | 785 | 403 | 164 | 71 | 36 |
 
-Short slots (2–3 letters) lean on the classic Italian-puzzle style: initialism, car plates, musical notes and chemical symbols — and, being the most frequent, often carry several alternative clues.
+The `14+` bucket is made of 23 words of length 14, 9 of length 15, 2 of length 16, 1 of length 18 and 1 of length 19. Short slots (2–3 letters) lean on the classic Italian-puzzle style: initialism, car plates, musical notes and chemical symbols — and, being the most frequent, often carry several alternative clues.
 
 ### Extending the database
 
 1. Add rows to the right file in [`voci/`](voci/) — one file per initial letter (`voci/A.csv`, `voci/B.csv`, …), each under the header `soluzione,definizione`. A word goes in the file of its first letter. Wrap a clue in double quotes if it contains a comma. To give a word **more than one clue**, add several rows with the same solution and different definitions.
-2. Run `node builddb.js`. It reads every `voci/*.csv`, **normalizes** (NFD → uppercase → A–Z only), **groups every definition under its solution** (only exact `(solution, clue)` duplicates are dropped), **drops** invalid entries, sorts, and rewrites `cruciverba_db.json`. (A single legacy `voci.csv` is still accepted as a fallback.)
+2. Run `node builddb.js`. It reads every `voci/*.csv`, **normalizes** (NFD → uppercase → A–Z only), **groups every distinct definition under its solution** (only exact `(solution, clue)` duplicates are dropped), **drops** invalid entries, sorts, and rewrites `cruciverba_db.json`. (A single legacy `voci.csv` is still accepted as a fallback.)
 
-> 💡 Solutions shorter than 2 letters or without a clue are discarded automatically. Duplicate solutions keep the first clue seen.
+> 💡 Solutions shorter than 2 letters or without a clue are discarded automatically. Duplicate solutions are kept as one JSON entry with all distinct clues attached.
 
 ---
 
@@ -63,13 +63,27 @@ Produces dense grids in the Italian style: a filled rectangular grid with **blac
 4. **Filling (backtracking)** — most-constrained-slot selection (propagation from already-filled slots + a static seed on the most-crossed ones), **forward-checking** on crossings, no repeated words.
 5. **Fallback cascade** — if a configuration can't be completed, it retries with more black squares and shorter slots, and finally with a smaller grid: a valid grid is always returned.
 
-**Benchmarks** (Node, on the real 15k DB, 100% success, zero clueless words):
+**Preset sizes**
 
-| Difficulty | Grid | Avg time | Words |
-|---|---|---|---|
-| Easy | 9×9 | ~0.05 s | ~30 |
-| Medium | 11×11 | ~1.3 s (peaks up to ~6 s) | ~42 |
-| Hard | 13×13 | ~0.3 s | ~61 |
+| Shape | Sizes |
+|---|---|
+| Square | 5×5, 7×7, 9×9, 11×11, 13×13 |
+| Landscape | 11×7, 13×9, 17×11, 21×13, 25×13 |
+
+**Smoke-test timings** (Node, current DB, fixed seeds, zero clueless words):
+
+| Grid | Words | Time |
+|---|---:|---:|
+| 5×5 | 10 | ~0.04 s |
+| 7×7 | 14 | ~0.02 s |
+| 9×9 | 32 | ~0.01 s |
+| 11×11 | 42 | ~0.14 s |
+| 13×13 | 57 | ~0.43 s |
+| 11×7 | 28 | ~0.02 s |
+| 13×9 | 38 | ~0.01 s |
+| 17×11 | 58 | ~0.01 s |
+| 21×13 | 87 | ~0.83 s |
+| 25×13 | 104 | ~0.01 s |
 
 ### Output structure
 
@@ -92,11 +106,11 @@ Produces dense grids in the Italian style: a filled rectangular grid with **blac
 |---|---|
 | [`voci/`](voci/) | Database source, split by initial (`A.csv … Z.csv`) |
 | [`builddb.js`](builddb.js) | Build script: CSV → JSON |
-| `cruciverba_db.json` | Generated database (rebuilt in CI) |
+| `cruciverba_db.json` | Generated database, ignored by git locally and rebuilt in CI before deploy |
 | [`gen_dense.js`](gen_dense.js) | Dense generator (Web Worker) |
 | [`index.html`](index.html) | Playable PWA app |
-| [`cruciverba.html`](cruciverba.html) | Alias of the app |
-| `sw.js` · `manifest.webmanifest` · `icons/` | PWA assets |
+| [`sw.js`](sw.js) · [`manifest.webmanifest`](manifest.webmanifest) · [`icons/`](icons/) | PWA assets, offline cache and update flow |
+| [`version.json`](version.json) | Build metadata used by the deployed app to detect updates |
 
 ---
 
@@ -113,8 +127,8 @@ python3 -m http.server 8000
 # then open http://localhost:8000
 ```
 
-Pushing to `main` triggers the GitHub Actions workflow, which rebuilds the database and deploys the static site to **GitHub Pages**.
+Pushing to `main` triggers the GitHub Actions workflow, which rebuilds the database, writes deploy-time `version.json` metadata from the commit SHA and UTC build time, and deploys the static site to **GitHub Pages**.
 
 ### Offline use
 
-Full offline use requires opening the app at least once from GitHub Pages (or any HTTP origin), so the service worker can cache `index.html`, `gen_dense.js`, `cruciverba_db.json` and the other assets. Opening directly via `file://` is not the main target, because browsers restrict `fetch` and service workers outside an HTTP/HTTPS origin.
+Full offline use requires opening the app at least once from GitHub Pages (or any HTTP origin), so the service worker can cache `index.html`, `gen_dense.js`, `cruciverba_db.json`, `README.md` and the other assets. The service worker also refreshes `version.json` and `cruciverba_db.json` from the network when available, then shows an in-app update prompt for a newly deployed version. Opening directly via `file://` is not the main target, because browsers restrict `fetch` and service workers outside an HTTP/HTTPS origin.

@@ -87,6 +87,10 @@
   .menu button:hover{background:var(--board);}
   .menu .sep{height:1px; background:var(--line); margin:5px 4px;}
   .menu button.danger{color:var(--wrong);}
+  .menu .group{
+    padding:8px 11px 4px; font-family:var(--font-mono); font-size:10px;
+    letter-spacing:.12em; text-transform:uppercase; color:var(--ink-soft);
+  }
 
   /* ---------- main ---------- */
   main{flex:1 1 auto; display:flex; min-height:0; overflow:hidden;}
@@ -255,9 +259,19 @@
     <div class="menu-wrap">
       <button class="btn primary" id="newBtn" aria-haspopup="true">Nuovo ▾</button>
       <div class="menu" id="newMenu" role="menu">
-        <button data-diff="facile">Facile 9x9</button>
-        <button data-diff="medio">Medio 11x11</button>
-        <button data-diff="difficile">Difficile 13x13</button>
+        <div class="group">Quadrati</div>
+        <button data-size="s5">5x5</button>
+        <button data-size="s7">7x7</button>
+        <button data-size="s9">9x9</button>
+        <button data-size="s11">11x11</button>
+        <button data-size="s13">13x13</button>
+        <div class="sep"></div>
+        <div class="group">Landscape</div>
+        <button data-size="l7x11">11x7</button>
+        <button data-size="l9x13">13x9</button>
+        <button data-size="l11x17">17x11</button>
+        <button data-size="l13x21">21x13</button>
+        <button data-size="l13x25">25x13</button>
       </div>
     </div>
     <button class="btn clue-toggle" id="clueToggle">Definizioni</button>
@@ -331,12 +345,19 @@
     // --- generatore denso in Web Worker ---
     var worker = new Worker("./gen_dense.js");
 
-    var DIFF = {
-      facile:   { width:9,  height:9,  blackProb:0.18, maxRun:6, patternAttempts:260, fillBudget:10000, minLen:2, maxLen:9 },
-      medio:    { width:11, height:11, blackProb:0.17, maxRun:7, patternAttempts:320, fillBudget:16000, minLen:2, maxLen:11 },
-      difficile:{ width:13, height:13, blackProb:0.24, maxRun:7, patternAttempts:120, fillBudget:7000, minLen:2, maxLen:11 }
+    var SIZES = {
+      s5:    { width:5,  height:5,  label:"5x5" },
+      s7:    { width:7,  height:7,  label:"7x7" },
+      s9:    { width:9,  height:9,  label:"9x9" },
+      s11:   { width:11, height:11, label:"11x11" },
+      s13:   { width:13, height:13, label:"13x13" },
+      l7x11: { width:11, height:7,  label:"11x7" },
+      l9x13: { width:13, height:9,  label:"13x9" },
+      l11x17:{ width:17, height:11, label:"17x11" },
+      l13x21:{ width:21, height:13, label:"21x13" },
+      l13x25:{ width:25, height:13, label:"25x13" }
     };
-    var difficulty = "medio";
+    var sizeKey = "s11";
 
     var puzzle = null;          // { width,height,cells,across,down }
     var userGrid = null;        // matrice di lettere inserite
@@ -391,7 +412,7 @@
       showOverlay(true);
       $("ovTitle").textContent="Genero il cruciverba…";
       $("ovText").textContent="Sto incastrando le parole. Ci vuole solo un istante.";
-      var opts = Object.assign({ seed:(Date.now()>>>0) }, DIFF[difficulty]);
+      var opts = makeOptions(sizeKey);
       loadDb().then(function(entries){
         // il lavoro pesante avviene nel worker: il thread principale resta fluido
         worker.postMessage({ entries: entries, opts: opts });
@@ -400,6 +421,26 @@
         $("ovText").textContent="Apri l app una volta online per salvare le voci offline.";
         showOverlay(false);
       });
+    }
+
+    function makeOptions(key){
+      var s = SIZES[key] || SIZES.s11;
+      var cells = s.width * s.height;
+      var longSide = Math.max(s.width, s.height);
+      var small = cells <= 49;
+      var large = cells >= 180;
+      return {
+        seed:(Date.now()>>>0),
+        width:s.width,
+        height:s.height,
+        blackProb: small ? 0.12 : (large ? 0.26 : 0.20),
+        maxRun: longSide <= 7 ? 5 : 7,
+        patternAttempts: small ? 420 : (large ? 180 : 300),
+        fillBudget: small ? 18000 : (large ? 11000 : 15000),
+        minLen:2,
+        maxLen: Math.min(13, longSide),
+        minFallbackSide:5
+      };
     }
 
     worker.onmessage = function(e){
@@ -700,7 +741,7 @@
     function save(){
       try{
         if(!puzzle) return;
-        var data={ puzzle:puzzle, userGrid:userGrid, revealed:revealed, elapsed:timer.elapsed, difficulty:difficulty, solved:solved };
+        var data={ puzzle:puzzle, userGrid:userGrid, revealed:revealed, elapsed:timer.elapsed, sizeKey:sizeKey, solved:solved };
         localStorage.setItem(STATE_KEY, JSON.stringify(data));
       }catch(e){}
     }
@@ -708,7 +749,7 @@
       try{
         var raw=localStorage.getItem(STATE_KEY); if(!raw) return false;
         var data=JSON.parse(raw); if(!data || !data.puzzle) return false;
-        difficulty=data.difficulty||"medio";
+        sizeKey=data.sizeKey || ({ facile:"s9", medio:"s11", difficile:"s13" })[data.difficulty] || "s11";
         puzzle=data.puzzle; buildState();
         userGrid=data.userGrid||userGrid; revealed=data.revealed||revealed;
         buildBoard(); buildClueLists(); renderLetters(); markDoneClues();
@@ -787,8 +828,8 @@
     var newBtn=$("newBtn"), newMenu=$("newMenu");
     newBtn.addEventListener("click", function(e){ e.stopPropagation(); helpMenu.classList.remove("open"); newMenu.classList.toggle("open"); });
     newMenu.addEventListener("click", function(e){
-      var diff=e.target.dataset.diff; if(!diff) return;
-      difficulty=diff;
+      var key=e.target.dataset.size; if(!key) return;
+      sizeKey=key;
       newMenu.classList.remove("open");
       newPuzzle();
     });

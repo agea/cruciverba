@@ -464,6 +464,7 @@ function generateDenseCrossword(rawEntries, opts) {
   var fillBudget = opts.fillBudget || 8000;
   var minLen = opts.minLen || 2;
   var maxLen = opts.maxLen || Math.max(W, H);
+  var minFallbackSide = opts.minFallbackSide || 5;
   var seed = (opts.seed != null) ? opts.seed : (Date.now() >>> 0);
 
   var bank = buildBank(rawEntries, minLen, maxLen);
@@ -475,7 +476,7 @@ function generateDenseCrossword(rawEntries, opts) {
     { W: W, H: H, bp: blackProb + 0.02, mr: maxRun, att: patternAttempts, bud: fillBudget + 8000 }
   ];
   // riduzione dimensione come ultima spiaggia
-  var rW = Math.max(9, W - 2), rH = Math.max(9, H - 2);
+  var rW = Math.max(minFallbackSide, W - 2), rH = Math.max(minFallbackSide, H - 2);
   if (rW < W || rH < H) {
     plans.push({ W: rW, H: rH, bp: blackProb + 0.01, mr: maxRun, att: patternAttempts, bud: fillBudget + 4000 });
     plans.push({ W: rW, H: rH, bp: blackProb + 0.02, mr: maxRun, att: patternAttempts, bud: fillBudget + 7000 });
