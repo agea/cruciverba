@@ -429,15 +429,17 @@
       var cells = s.width * s.height;
       var longSide = Math.max(s.width, s.height);
       var small = cells <= 49;
-      var large = cells >= 180;
+      var large = cells >= 160;
+      var veryLarge = cells >= 250;
       return {
         seed:(Date.now()>>>0),
         width:s.width,
         height:s.height,
-        blackProb: small ? 0.12 : (large ? 0.26 : 0.20),
+        blackProb: small ? 0.08 : (large ? 0.22 : 0.16),
         maxRun: longSide <= 7 ? 5 : 7,
-        patternAttempts: small ? 420 : (large ? 180 : 300),
-        fillBudget: small ? 18000 : (large ? 11000 : 15000),
+        patternAttempts: small ? 420 : (large ? (veryLarge ? 220 : 260) : 320),
+        fillBudget: small ? 20000 : (large ? (veryLarge ? 14000 : 15000) : 18000),
+        sampleTarget: veryLarge ? 1 : 2,
         minLen:2,
         maxLen: Math.min(13, longSide),
         minFallbackSide:5

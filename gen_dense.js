@@ -494,8 +494,10 @@ function finalizeDense(black, letters, W, H, answerToClues, rnd) {
 }
 
 // ---------- entry point ----------
-function attemptDense(bank, W, H, blackProb, maxRun, patternAttempts, fillBudget, seed) {
+function attemptDense(bank, W, H, blackProb, maxRun, patternAttempts, fillBudget, seed, sampleTarget) {
   var best = null;
+  var sampled = 0;
+  sampleTarget = sampleTarget || 4;
   for (var att = 0; att < patternAttempts; att++) {
     var rnd = mulberry32(seed + att * 2654435761);
     var bp = blackProb + (rnd() - 0.5) * 0.05;
@@ -513,9 +515,12 @@ function attemptDense(bank, W, H, blackProb, maxRun, patternAttempts, fillBudget
     var filled = fillSlots(ex.slots, bank, W, H, rnd, fillBudget);
     if (filled) {
       var res = finalizeDense(black, filled.letters, W, H, bank.answerToClues, rnd);
-      var score = res.wordCount * 1000 - quality.blackTotal * 12 - quality.blackSquares * 800 - res.ghosts.length * 100000;
+      var score = quality.whiteTotal * 1000 + res.wordCount * 20 - res.ghosts.length * 100000;
       if (!best || score > best.score) best = { result: res, score: score };
-      if (res.ghosts.length === 0) return res;
+      if (res.ghosts.length === 0) {
+        sampled++;
+        if (sampled >= sampleTarget) return best.result;
+      }
     }
   }
   return best ? best.result : null;
@@ -533,6 +538,7 @@ function generateDenseCrossword(rawEntries, opts) {
   var minLen = opts.minLen || 2;
   var maxLen = opts.maxLen || Math.max(W, H);
   var minFallbackSide = opts.minFallbackSide || 5;
+  var sampleTarget = opts.sampleTarget || 4;
   var seed = (opts.seed != null) ? opts.seed : (Date.now() >>> 0);
 
   var bank = buildBank(rawEntries, minLen, maxLen);
@@ -552,7 +558,7 @@ function generateDenseCrossword(rawEntries, opts) {
 
   for (var p = 0; p < plans.length; p++) {
     var pl = plans[p];
-    var r = attemptDense(bank, pl.W, pl.H, pl.bp, pl.mr, pl.att, pl.bud, seed + p * 7919);
+    var r = attemptDense(bank, pl.W, pl.H, pl.bp, pl.mr, pl.att, pl.bud, seed + p * 7919, sampleTarget);
     if (r && r.ghosts.length === 0) return r;
     if (r && p === plans.length - 1) return r; // ultima spiaggia: accetta anche con ghost
   }
