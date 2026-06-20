@@ -65,13 +65,40 @@ function buildBank(rawEntries, minLen, maxLen) {
 // ---------- pattern di caselle nere ----------
 // Ritorna matrice booleana black[r][c]. Garantisce: nessuna cella bianca isolata
 // (lunghezza 1 sia in orizzontale sia in verticale).
-function makePattern(W, H, blackProb, rnd, maxRun) {
+function makePattern(W, H, blackProb, rnd, maxRun, seedCross) {
   maxRun = maxRun || 7;
   var black = [];
   for (var r = 0; r < H; r++) {
     black[r] = [];
     for (var c = 0; c < W; c++) black[r][c] = (rnd() < blackProb);
   }
+  var protectedWhite = {};
+  var protectedBlack = {};
+
+  function key(r, c) { return r + "," + c; }
+  function protectWhite(r, c) {
+    if (r < 0 || r >= H || c < 0 || c >= W) return;
+    black[r][c] = false;
+    protectedWhite[key(r, c)] = true;
+    delete protectedBlack[key(r, c)];
+  }
+  function protectBlack(r, c) {
+    if (r < 0 || r >= H || c < 0 || c >= W) return;
+    black[r][c] = true;
+    protectedBlack[key(r, c)] = true;
+    delete protectedWhite[key(r, c)];
+  }
+  function applySeedCross() {
+    if (!seedCross) return;
+    var i;
+    for (i = 0; i < seedCross.across.len; i++) protectWhite(seedCross.row, seedCross.across.c + i);
+    for (i = 0; i < seedCross.down.len; i++) protectWhite(seedCross.down.r + i, seedCross.col);
+    protectBlack(seedCross.row, seedCross.across.c - 1);
+    protectBlack(seedCross.row, seedCross.across.c + seedCross.across.len);
+    protectBlack(seedCross.down.r - 1, seedCross.col);
+    protectBlack(seedCross.down.r + seedCross.down.len, seedCross.col);
+  }
+  applySeedCross();
   // evita run orizzontali/verticali troppo lunghi: spezzali con una nera
   function fixLongRuns() {
     var r, c, run;
@@ -79,14 +106,20 @@ function makePattern(W, H, blackProb, rnd, maxRun) {
       run = 0;
       for (c = 0; c < W; c++) {
         if (black[r][c]) { run = 0; }
-        else { run++; if (run > maxRun) { black[r][c] = true; run = 0; } }
+        else {
+          run++;
+          if (run > maxRun && !protectedWhite[key(r, c)]) { black[r][c] = true; run = 0; }
+        }
       }
     }
     for (c = 0; c < W; c++) {
       run = 0;
       for (r = 0; r < H; r++) {
         if (black[r][c]) { run = 0; }
-        else { run++; if (run > maxRun) { black[r][c] = true; run = 0; } }
+        else {
+          run++;
+          if (run > maxRun && !protectedWhite[key(r, c)]) { black[r][c] = true; run = 0; }
+        }
       }
     }
   }
@@ -98,6 +131,7 @@ function makePattern(W, H, blackProb, rnd, maxRun) {
     for (r = 0; r + 1 < H; r++) {
       for (c = 0; c + 1 < W; c++) {
         if (black[r][c] && black[r + 1][c] && black[r][c + 1] && black[r + 1][c + 1]) {
+          if (protectedBlack[key(r + 1, c + 1)]) continue;
           black[r + 1][c + 1] = false;
           changed = true;
         }
@@ -109,7 +143,7 @@ function makePattern(W, H, blackProb, rnd, maxRun) {
       for (c = 0; c < W; c++) {
         if (black[r][c]) {
           run++;
-          if (run > 3) {
+          if (run > 3 && !protectedBlack[key(r, c)]) {
             black[r][c] = false;
             run = 0;
             changed = true;
@@ -125,7 +159,7 @@ function makePattern(W, H, blackProb, rnd, maxRun) {
       for (r = 0; r < H; r++) {
         if (black[r][c]) {
           run++;
-          if (run > 3) {
+          if (run > 3 && !protectedBlack[key(r, c)]) {
             black[r][c] = false;
             run = 0;
             changed = true;
@@ -161,7 +195,7 @@ function makePattern(W, H, blackProb, rnd, maxRun) {
     for (var r2 = 0; r2 < H; r2++) {
       for (var c2 = 0; c2 < W; c2++) {
         if (black[r2][c2]) continue;
-        if (acrossLen(r2, c2) < 2 && downLen(r2, c2) < 2) {
+        if (acrossLen(r2, c2) < 2 && downLen(r2, c2) < 2 && !protectedWhite[key(r2, c2)]) {
           black[r2][c2] = true; changed = true;
         }
       }
@@ -169,6 +203,7 @@ function makePattern(W, H, blackProb, rnd, maxRun) {
   }
 
   fixBadBlackPatterns();
+  applySeedCross();
   return black;
 }
 
@@ -288,7 +323,7 @@ function extractSlots(black, W, H) {
 }
 
 // ---------- fill a backtracking ----------
-function fillSlots(slots, bank, W, H, rnd, budget) {
+function fillSlots(slots, bank, W, H, rnd, budget, forcedPlacements) {
   var nCells = W * H;
   var letters = new Array(nCells).fill(0); // 0 = vuota; altrimenti char
   var counts = new Array(nCells).fill(0);  // quanti slot assegnati coprono la cella
@@ -378,6 +413,14 @@ function fillSlots(slots, bank, W, H, rnd, budget) {
     used.delete(word); assigned[slot.id] = null;
   }
 
+  forcedPlacements = forcedPlacements || [];
+  for (var fp = 0; fp < forcedPlacements.length; fp++) {
+    var forced = forcedPlacements[fp];
+    if (!forced || assigned[forced.slotId] !== null) continue;
+    placeFix(slots[forced.slotId], forced.word);
+    nAssigned++;
+  }
+
   // ordine statico dei "semi": slot con piu incroci e piu lunghi prima
   var seedOrder = slots.map(function (s) { return s.id; });
   seedOrder.sort(function (a, b) {
@@ -413,7 +456,7 @@ function fillSlots(slots, bank, W, H, rnd, budget) {
     var cands = candidates(slot, 0);
     if (cands.length === 0) { backtracks++; return false; }
     shuffleInPlace(cands, rnd);
-    var tryMax = Math.min(cands.length, 30);
+    var tryMax = Math.min(cands.length, slot.len >= 7 ? 90 : 55);
     for (var ci = 0; ci < tryMax; ci++) {
       var word = cands[ci];
       var touched = placeFix(slot, word);
@@ -493,6 +536,78 @@ function finalizeDense(black, letters, W, H, answerToClues, rnd) {
            wordCount: across.length + down.length, ghosts: ghosts };
 }
 
+function chooseSeedCross(bank, W, H, rnd, opts) {
+  opts = opts || {};
+  if (W < 7 || H < 7) return null;
+  var maxAcross = Math.min(W - 2, opts.maxLen || W);
+  var maxDown = Math.min(H - 2, opts.maxLen || H);
+  var minAcross = Math.max(5, Math.min(maxAcross, Math.floor(W * 0.45)));
+  var minDown = Math.max(5, Math.min(maxDown, Math.floor(H * 0.45)));
+  var minAlternatives = opts.seedMinAlternatives || 8;
+
+  function lengths(minLen, maxLen) {
+    var arr = [], L;
+    for (L = maxLen; L >= minLen; L--) {
+      if (bank.byLen[L] && bank.byLen[L].length >= minAlternatives) arr.push(L);
+    }
+    if (!arr.length) {
+      for (L = maxLen; L >= minLen; L--) if (bank.byLen[L] && bank.byLen[L].length) arr.push(L);
+    }
+    return arr;
+  }
+
+  var acrossLens = lengths(minAcross, maxAcross);
+  var downLens = lengths(minDown, maxDown);
+  if (!acrossLens.length || !downLens.length) return null;
+
+  var centerR = Math.floor(H / 2);
+  var centerC = Math.floor(W / 2);
+  var tries = 120;
+  while (tries-- > 0) {
+    var aLen = acrossLens[Math.floor(rnd() * Math.min(4, acrossLens.length))];
+    var dLen = downLens[Math.floor(rnd() * Math.min(4, downLens.length))];
+    var aWords = bank.byLen[aLen];
+    if (!aWords || !bank.byLen[dLen]) continue;
+    var aWord = aWords[Math.floor(rnd() * aWords.length)];
+    var aIxMin = Math.max(1, centerC - Math.min(W - aLen - 1, centerC));
+    var aIxMax = Math.min(aLen - 2, centerC - 1);
+    var dIxMin = Math.max(1, centerR - Math.min(H - dLen - 1, centerR));
+    var dIxMax = Math.min(dLen - 2, centerR - 1);
+    if (aIxMin > aIxMax || dIxMin > dIxMax) continue;
+    var aIx = aIxMin + Math.floor(rnd() * (aIxMax - aIxMin + 1));
+    var dIx = dIxMin + Math.floor(rnd() * (dIxMax - dIxMin + 1));
+    var ch = aWord.charAt(aIx);
+    var bucket = bank.posIndex[dLen] && bank.posIndex[dLen][dIx] && bank.posIndex[dLen][dIx].get(ch);
+    if (!bucket || bucket.length < Math.min(3, minAlternatives)) continue;
+    var dWord = bucket[Math.floor(rnd() * bucket.length)];
+    if (dWord === aWord) continue;
+    return {
+      row: centerR,
+      col: centerC,
+      across: { r: centerR, c: centerC - aIx, len: aLen, word: aWord },
+      down: { r: centerR - dIx, c: centerC, len: dLen, word: dWord }
+    };
+  }
+  return null;
+}
+
+function findForcedPlacements(slots, seedCross) {
+  var out = [];
+  if (!seedCross) return out;
+  for (var s = 0; s < slots.length; s++) {
+    var slot = slots[s];
+    if (slot.dir === 0 && slot.r === seedCross.across.r && slot.c === seedCross.across.c &&
+        slot.len === seedCross.across.len) {
+      out.push({ slotId: slot.id, word: seedCross.across.word });
+    }
+    if (slot.dir === 1 && slot.r === seedCross.down.r && slot.c === seedCross.down.c &&
+        slot.len === seedCross.down.len) {
+      out.push({ slotId: slot.id, word: seedCross.down.word });
+    }
+  }
+  return out;
+}
+
 // ---------- entry point ----------
 function attemptDense(bank, W, H, blackProb, maxRun, patternAttempts, fillBudget, seed, sampleTarget) {
   var best = null;
@@ -501,7 +616,8 @@ function attemptDense(bank, W, H, blackProb, maxRun, patternAttempts, fillBudget
   for (var att = 0; att < patternAttempts; att++) {
     var rnd = mulberry32(seed + att * 2654435761);
     var bp = blackProb + (rnd() - 0.5) * 0.05;
-    var black = makePattern(W, H, bp, rnd, maxRun);
+    var seedCross = chooseSeedCross(bank, W, H, rnd, { maxLen: Math.max(W, H) });
+    var black = makePattern(W, H, bp, rnd, maxRun, seedCross);
     var quality = analyzePattern(black, W, H);
     if (!quality.whiteConnected || quality.blackSquares > 0 || quality.maxBlackRun > 3) continue;
     var ex = extractSlots(black, W, H);
@@ -512,10 +628,21 @@ function attemptDense(bank, W, H, blackProb, maxRun, patternAttempts, fillBudget
       if (!bank.byLen[L] || bank.byLen[L].length === 0) { feasible = false; break; }
     }
     if (!feasible) continue;
-    var filled = fillSlots(ex.slots, bank, W, H, rnd, fillBudget);
+    var forcedPlacements = findForcedPlacements(ex.slots, seedCross);
+    if (seedCross && forcedPlacements.length !== 2) continue;
+    var filled = fillSlots(ex.slots, bank, W, H, rnd, fillBudget, forcedPlacements);
     if (filled) {
       var res = finalizeDense(black, filled.letters, W, H, bank.answerToClues, rnd);
-      var score = quality.whiteTotal * 1000 + res.wordCount * 20 - res.ghosts.length * 100000;
+      var longest = 0, longWords = 0, totalLen = 0;
+      var allWords = res.across.concat(res.down);
+      for (var wi = 0; wi < allWords.length; wi++) {
+        totalLen += allWords[wi].len;
+        if (allWords[wi].len > longest) longest = allWords[wi].len;
+        if (allWords[wi].len >= 7) longWords++;
+      }
+      var score = quality.whiteTotal * 1600 - quality.blackTotal * 900 +
+        longest * 900 + longWords * 180 + totalLen * 12 +
+        res.wordCount * 15 - res.ghosts.length * 100000;
       if (!best || score > best.score) best = { result: res, score: score };
       if (res.ghosts.length === 0) {
         sampled++;
@@ -531,10 +658,10 @@ function generateDenseCrossword(rawEntries, opts) {
   var maxSide = opts.maxSide || 11;
   var W = opts.width || maxSide;
   var H = opts.height || maxSide;
-  var blackProb = opts.blackProb || 0.22;
-  var maxRun = opts.maxRun || 6;
-  var patternAttempts = opts.patternAttempts || 150;
-  var fillBudget = opts.fillBudget || 8000;
+  var blackProb = opts.blackProb || 0.13;
+  var maxRun = opts.maxRun || 7;
+  var patternAttempts = opts.patternAttempts || 300;
+  var fillBudget = opts.fillBudget || 16000;
   var minLen = opts.minLen || 2;
   var maxLen = opts.maxLen || Math.max(W, H);
   var minFallbackSide = opts.minFallbackSide || 5;
@@ -546,14 +673,17 @@ function generateDenseCrossword(rawEntries, opts) {
   // cascata di configurazioni: dalla richiesta a fallback via via piu facili
   var plans = [
     { W: W, H: H, bp: blackProb, mr: maxRun, att: patternAttempts, bud: fillBudget },
-    { W: W, H: H, bp: blackProb + 0.01, mr: maxRun, att: patternAttempts, bud: fillBudget + 5000 },
-    { W: W, H: H, bp: blackProb + 0.02, mr: maxRun, att: patternAttempts, bud: fillBudget + 8000 }
+    { W: W, H: H, bp: blackProb + 0.015, mr: maxRun, att: patternAttempts, bud: fillBudget + 8000 },
+    { W: W, H: H, bp: blackProb + 0.03, mr: maxRun, att: patternAttempts, bud: fillBudget + 12000 },
+    { W: W, H: H, bp: blackProb + 0.06, mr: maxRun, att: patternAttempts, bud: fillBudget + 16000 },
+    { W: W, H: H, bp: blackProb + 0.09, mr: maxRun, att: patternAttempts, bud: fillBudget + 20000 }
   ];
   // riduzione dimensione come ultima spiaggia
   var rW = Math.max(minFallbackSide, W - 2), rH = Math.max(minFallbackSide, H - 2);
   if (rW < W || rH < H) {
-    plans.push({ W: rW, H: rH, bp: blackProb + 0.01, mr: maxRun, att: patternAttempts, bud: fillBudget + 4000 });
-    plans.push({ W: rW, H: rH, bp: blackProb + 0.02, mr: maxRun, att: patternAttempts, bud: fillBudget + 7000 });
+    plans.push({ W: rW, H: rH, bp: blackProb + 0.015, mr: maxRun, att: patternAttempts, bud: fillBudget + 8000 });
+    plans.push({ W: rW, H: rH, bp: blackProb + 0.03, mr: maxRun, att: patternAttempts, bud: fillBudget + 12000 });
+    plans.push({ W: rW, H: rH, bp: blackProb + 0.06, mr: maxRun, att: patternAttempts, bud: fillBudget + 16000 });
   }
 
   for (var p = 0; p < plans.length; p++) {

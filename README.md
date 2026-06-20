@@ -58,10 +58,10 @@ Produces dense grids in the Italian style: a filled rectangular grid with **blac
 **Pipeline:**
 
 1. **Word bank** — the DB is indexed by length and by `(position, letter)`, to quickly fetch candidates for a partially filled slot.
-2. **Black-square pattern** — randomly generated with controlled density; over-long white runs are split (`maxRun`) to favor 3–6 letter slots where the vocabulary is richest; isolated white cells are removed; black squares are normalized to avoid 2×2 black blocks and black runs longer than 3 cells; among valid candidates the generator favors grids with fewer black squares.
+2. **Black-square pattern** — randomly generated with controlled density, then carved around a near-central crossing between one long across answer and one long down answer. Over-long non-seed white runs are split (`maxRun`) to keep the fill tractable; isolated white cells are removed; black squares are normalized to avoid 2×2 black blocks and black runs longer than 3 cells; among valid candidates the generator favors grids with fewer black squares and more long answers.
 3. **Slot extraction** — all white runs ≥ 2, across and down, plus a cell → slot map.
-4. **Filling (backtracking)** — most-constrained-slot selection (propagation from already-filled slots + a static seed on the most-crossed ones), **forward-checking** on crossings, no repeated words.
-5. **Fallback cascade** — if a configuration can't be completed, it retries with more black squares and shorter slots, and finally with a smaller grid: a valid grid is always returned.
+4. **Filling (backtracking)** — the central crossing is pre-filled first, then most-constrained-slot selection (propagation from already-filled slots + a static seed on the most-crossed ones), **forward-checking** on crossings, no repeated words.
+5. **Fallback cascade** — if a configuration can't be completed, it retries with gradually more black squares before falling back to a smaller grid: a valid grid is preferred over failing.
 
 **Preset sizes**
 
@@ -70,20 +70,20 @@ Produces dense grids in the Italian style: a filled rectangular grid with **blac
 | Square | 5×5, 7×7, 9×9, 11×11, 13×13 |
 | Landscape | 11×7, 13×9, 17×11, 21×13, 25×13 |
 
-**Smoke-test timings** (Node, current DB, fixed seeds, zero clueless words):
+**Smoke-test timings** (Node, current DB, fixed seeds, first valid sample, zero clueless words):
 
-| Grid | Words | Time |
-|---|---:|---:|
-| 5×5 | 10 | ~0.04 s |
-| 7×7 | 14 | ~0.02 s |
-| 9×9 | 32 | ~0.01 s |
-| 11×11 | 42 | ~0.14 s |
-| 13×13 | 57 | ~0.43 s |
-| 11×7 | 28 | ~0.02 s |
-| 13×9 | 38 | ~0.01 s |
-| 17×11 | 58 | ~0.01 s |
-| 21×13 | 87 | ~0.83 s |
-| 25×13 | 104 | ~0.01 s |
+| Requested | Actual | Words | Black | Longest | 7+ words | Time |
+|---|---:|---:|---:|---:|---:|---:|
+| 5×5 | 5×5 | 12 | 3/25 (12.0%) | 5 | 0 | ~0.01 s |
+| 7×7 | 7×7 | 19 | 12/49 (24.5%) | 5 | 0 | ~0.01 s |
+| 9×9 | 9×9 | 29 | 16/81 (19.8%) | 7 | 3 | ~0.86 s |
+| 11×11 | 11×11 | 43 | 25/121 (20.7%) | 7 | 9 | ~4.26 s |
+| 13×13 | 13×13 | 58 | 33/169 (19.5%) | 10 | 13 | ~8.15 s |
+| 11×7 | 11×7 | 29 | 10/77 (13.0%) | 7 | 6 | ~0.80 s |
+| 13×9 | 13×9 | 46 | 22/117 (18.8%) | 8 | 7 | ~0.12 s |
+| 17×11 | 17×11 | 62 | 41/187 (21.9%) | 12 | 14 | ~94.74 s |
+| 21×13 | 21×13 | 90 | 71/273 (26.0%) | 12 | 17 | ~48.78 s |
+| 25×13 | 23×11 | 89 | 55/253 (21.7%) | 12 | 19 | ~59.77 s |
 
 ### Output structure
 
