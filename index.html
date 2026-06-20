@@ -474,7 +474,7 @@
         seed:(Date.now()>>>0),
         width:s.width,
         height:s.height,
-        blackProb: small ? 0.07 : (veryLarge ? 0.16 : (large ? 0.14 : (singleSample ? 0.11 : 0.10))),
+        blackProb: small ? 0.07 : (veryLarge ? 0.145 : (large ? 0.13 : (singleSample ? 0.11 : 0.10))),
         maxRun: longSide <= 7 ? 5 : 7,
         patternAttempts: small ? 520 : (large ? (veryLarge ? 100 : 160) : (singleSample ? 260 : 420)),
         fillBudget: small ? 26000 : (large ? (veryLarge ? 30000 : 30000) : (singleSample ? 28000 : 32000)),

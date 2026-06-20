@@ -911,15 +911,27 @@ function generateDenseCrossword(rawEntries, opts) {
   var totalPatterns = 0;
   for (var tp = 0; tp < plans.length; tp++) totalPatterns += plans[tp].att;
   var lastProgressAt = 0;
+  var maxProgress = 0;
   function emitProgress(kind, planIndex) {
     if (!onProgress) return;
     var now = Date.now();
     if (kind !== "done" && now - lastProgressAt < 180) return;
     lastProgressAt = now;
-    var plannedPct = totalPatterns ? (stats.patterns / totalPatterns) : 0;
-    var fillPulse = stats.fillAttempts ? Math.min(0.08, (stats.backtracks % 50000) / 625000) : 0;
-    var pct = Math.min(94, 6 + plannedPct * 82 + fillPulse * 100);
     var pl = plans[Math.min(planIndex || 0, plans.length - 1)];
+    var completedPatterns = 0;
+    for (var cp = 0; cp < (planIndex || 0); cp++) completedPatterns += plans[cp].att;
+    var planPatterns = Math.max(0, Math.min(pl.att, stats.patterns - completedPatterns));
+    var planPct = pl.att ? (planPatterns / pl.att) : 0;
+    var globalPct = totalPatterns ? (stats.patterns / totalPatterns) : 0;
+    var completedBacktracks = 0;
+    for (var cb = 0; cb < (planIndex || 0) && cb < stats.plans.length; cb++) {
+      completedBacktracks += stats.plans[cb].backtracks || 0;
+    }
+    var planBacktracks = Math.max(0, stats.backtracks - completedBacktracks);
+    var backtrackPct = pl.bud ? Math.min(1, planBacktracks / Math.max(1, pl.bud * 4)) : 0;
+    var pct = 6 + Math.max(globalPct * 34, planPct * 46, backtrackPct * 66) + (planIndex || 0) * 3;
+    pct = Math.min(94, Math.max(maxProgress, pct));
+    maxProgress = pct;
     var phase = "Schema " + ((planIndex || 0) + 1) + "/" + plans.length;
     var detail;
     if (kind === "fill") {
