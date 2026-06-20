@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: GPL-3.0-only
 // Builder del database: legge le voci da voci/*.csv (suddivise per iniziale),
 // normalizza, deduplica, valida (solo A-Z, lunghezza >= 2) e produce
 // cruciverba_db.json. Per retrocompatibilità accetta anche un singolo voci.csv.

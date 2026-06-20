@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: GPL-3.0-only
 // Generatore di cruciverba DENSO, stile Settimana Enigmistica.
 // Griglia rettangolare piena con caselle nere; ogni sequenza bianca >=2 e' una
 // parola del dizionario. Riempimento via backtracking con forward-checking.

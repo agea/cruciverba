@@ -33,6 +33,8 @@ The worker loads `gen_dense.js`, which is precached by the service worker togeth
 
 The source database lives in [`voci/`](voci/): **26 CSV files**, one per initial letter, with **13,112 definition rows**. `node builddb.js` turns them into `cruciverba_db.json`, a compact JSON array of `["SOLUTION", clue]` entries, where `clue` is either a **string** (one definition) or an **array of strings** (several definitions for the same solution). When a word has multiple clues, the generator picks one at random per puzzle, so the same answer can be asked differently from one grid to the next.
 
+The clue database and definitions are licensed separately from the software: see [LICENSE-CONTENT.md](LICENSE-CONTENT.md).
+
 - **12,870 solutions / 13,112 clues / 190 multi-clue solutions.** Solutions are uppercase, letters **A–Z only** (accents and spaces stripped at build time).
 - Length distribution is deliberately skewed toward short words, which feed the dense crossings:
 
@@ -134,3 +136,10 @@ Pushing to `main` triggers the GitHub Actions workflow, which rebuilds the datab
 ### Offline use
 
 Full offline use requires opening the app at least once from GitHub Pages (or any HTTP origin), so the service worker can cache `index.html`, `gen_dense.js`, `cruciverba_db.json`, `README.md` and the other assets. The service worker also refreshes `version.json` and `cruciverba_db.json` from the network when available, then shows an in-app update prompt for a newly deployed version. Opening directly via `file://` is not the main target, because browsers restrict `fetch` and service workers outside an HTTP/HTTPS origin.
+
+---
+
+## License
+
+- Software code: GNU General Public License v3.0 only. See [LICENSE](LICENSE).
+- Crossword entries, clue definitions and generated database content: Creative Commons Attribution-NonCommercial 4.0 International. See [LICENSE-CONTENT.md](LICENSE-CONTENT.md).

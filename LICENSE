@@ -1,0 +1,28 @@
+Software license
+================
+
+Unless otherwise noted, the software in this repository is licensed under
+the GNU General Public License, version 3.0 only.
+
+SPDX-License-Identifier: GPL-3.0-only
+
+This includes, but is not limited to:
+
+- `index.html`
+- `gen_dense.js`
+- `builddb.js`
+- `sw.js`
+- `manifest.webmanifest`
+- `icons/`
+- project scripts and documentation related to the software
+
+The full license text is available from the Free Software Foundation:
+
+https://www.gnu.org/licenses/gpl-3.0.txt
+
+Content and clue database exception
+-----------------------------------
+
+The crossword entries, clue definitions, and generated clue database are not
+covered by the GPL software license. They are licensed separately; see
+`LICENSE-CONTENT.md`.

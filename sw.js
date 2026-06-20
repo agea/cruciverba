@@ -1,4 +1,5 @@
-const CACHE_VERSION = "cruciverba-v9";
+// SPDX-License-Identifier: GPL-3.0-only
+const CACHE_VERSION = "cruciverba-v10";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -7,7 +8,9 @@ const APP_SHELL = [
   "./icons/icon.svg",
   "./cruciverba_db.json",
   "./gen_dense.js",
-  "./README.md"
+  "./README.md",
+  "./LICENSE",
+  "./LICENSE-CONTENT.md"
 ];
 
 self.addEventListener("install", (event) => {
