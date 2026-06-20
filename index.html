@@ -194,10 +194,14 @@
   .overlay.show{display:flex;}
   .card{
     background:var(--paper-2); border:1px solid var(--line); border-radius:18px;
-    padding:26px 30px; text-align:center; box-shadow:0 18px 50px rgba(42,39,34,.2); max-width:340px;
+    padding:26px 30px; text-align:center; box-shadow:0 18px 50px rgba(42,39,34,.2);
+    width:min(360px, calc(100vw - 38px)); min-height:236px;
   }
   .card h3{margin:0 0 6px; font-size:22px; letter-spacing:-0.02em;}
-  .card p{margin:0 0 16px; color:var(--ink-soft); font-size:14px; line-height:1.4;}
+  .card p{
+    margin:0 0 16px; color:var(--ink-soft); font-size:14px; line-height:1.4;
+    min-height:40px; display:flex; align-items:center; justify-content:center;
+  }
   .progress-wrap{display:none; margin:2px 0 16px;}
   .progress-track{
     height:8px; overflow:hidden; border-radius:999px; background:var(--board);
@@ -210,6 +214,8 @@
     margin-top:7px; display:flex; justify-content:space-between; gap:12px;
     font-family:var(--font-mono); font-size:11px; color:var(--ink-soft);
   }
+  .progress-phase{min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; text-align:left;}
+  .progress-pct{flex:0 0 38px; text-align:right;}
   .card-actions{display:flex; gap:10px; justify-content:center; flex-wrap:wrap;}
   .spinner{
     width:34px; height:34px; margin:0 auto 14px; border-radius:50%;
@@ -342,8 +348,8 @@
       <div class="progress-wrap" id="progressWrap" aria-hidden="true">
         <div class="progress-track"><div class="progress-bar" id="progressBar"></div></div>
         <div class="progress-meta">
-          <span id="progressPhase">Preparazione</span>
-          <span id="progressPct">0%</span>
+          <span class="progress-phase" id="progressPhase">Preparazione</span>
+          <span class="progress-pct" id="progressPct">0%</span>
         </div>
       </div>
       <div class="card-actions">

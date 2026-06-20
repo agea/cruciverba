@@ -558,7 +558,7 @@ function fillSlots(slots, bank, W, H, rnd, budget, forcedPlacements, stats, prog
     if (nAssigned === slots.length) return true;
     if (backtracks > budget) return false;
     if (stats) stats.solveNodes++;
-    if (progress && (stats.solveNodes & 4095) === 0) progress("fill");
+    if (progress && stats && (stats.solveNodes & 4095) === 0) progress("fill");
     var pick = pickSlot();
     if (pick.id === -1) return true;
     var slot = slots[pick.id];
