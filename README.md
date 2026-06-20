@@ -63,6 +63,8 @@ Produces dense grids in the Italian style: a filled rectangular grid with **blac
 4. **Filling (backtracking)** — the central crossing is pre-filled first, then most-constrained-slot selection (propagation from already-filled slots + a static seed on the most-crossed ones), **forward-checking** on crossings, no repeated words.
 5. **Fallback cascade** — if a configuration can't be completed, it retries with gradually more black squares before falling back to a smaller grid: a valid grid is preferred over failing.
 
+During generation the worker emits throttled progress updates by phase, attempted patterns and backtracking activity. The displayed percentage is intentionally conservative because backtracking progress is not linear.
+
 **Preset sizes**
 
 | Shape | Sizes |

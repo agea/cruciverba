@@ -197,6 +197,18 @@
   }
   .card h3{margin:0 0 6px; font-size:22px; letter-spacing:-0.02em;}
   .card p{margin:0 0 16px; color:var(--ink-soft); font-size:14px; line-height:1.4;}
+  .progress-wrap{display:none; margin:2px 0 16px;}
+  .progress-track{
+    height:8px; overflow:hidden; border-radius:999px; background:var(--board);
+    border:1px solid var(--line);
+  }
+  .progress-bar{
+    width:0%; height:100%; background:var(--accent); transition:width .22s ease;
+  }
+  .progress-meta{
+    margin-top:7px; display:flex; justify-content:space-between; gap:12px;
+    font-family:var(--font-mono); font-size:11px; color:var(--ink-soft);
+  }
   .card-actions{display:flex; gap:10px; justify-content:center; flex-wrap:wrap;}
   .spinner{
     width:34px; height:34px; margin:0 auto 14px; border-radius:50%;
@@ -326,6 +338,13 @@
       <div class="spinner" id="spinner"></div>
       <h3 id="ovTitle">Genero il cruciverba…</h3>
       <p id="ovText">Sto incastrando le parole. Ci vuole solo un istante.</p>
+      <div class="progress-wrap" id="progressWrap" aria-hidden="true">
+        <div class="progress-track"><div class="progress-bar" id="progressBar"></div></div>
+        <div class="progress-meta">
+          <span id="progressPhase">Preparazione</span>
+          <span id="progressPct">0%</span>
+        </div>
+      </div>
       <div class="card-actions">
         <button class="btn" id="ovCloseBtn" style="display:none">Chiudi</button>
         <button class="btn primary" id="ovBtn" style="display:none">Nuovo cruciverba</button>
@@ -344,7 +363,7 @@
   "use strict";
   (function(){
     var $ = function(id){ return document.getElementById(id); };
-    var GENERATOR_VERSION = "pattern-v2";
+    var GENERATOR_VERSION = "pattern-v3";
     // --- generatore denso in Web Worker ---
     var worker = new Worker("./gen_dense.js?v="+GENERATOR_VERSION);
 
@@ -386,10 +405,18 @@
     function showOverlay(loading){
       var ov=$("overlay"); ov.classList.add("show");
       $("spinner").style.display = loading? "block":"none";
+      $("progressWrap").style.display = loading? "block":"none";
       $("ovCloseBtn").style.display = loading? "none":"inline-block";
       $("ovBtn").style.display = loading? "none":"inline-block";
     }
     function hideOverlay(){ $("overlay").classList.remove("show"); }
+    function setProgress(pct, phase, detail){
+      pct = Math.max(0, Math.min(100, pct || 0));
+      $("progressBar").style.width = pct.toFixed(0) + "%";
+      $("progressPct").textContent = pct.toFixed(0) + "%";
+      $("progressPhase").textContent = phase || "Preparazione";
+      if(detail) $("ovText").textContent = detail;
+    }
 
     function loadDb(){
       if(dbEntries) return Promise.resolve(dbEntries);
@@ -416,6 +443,7 @@
       showOverlay(true);
       $("ovTitle").textContent="Genero il cruciverba…";
       $("ovText").textContent="Sto incastrando le parole. Ci vuole solo un istante.";
+      setProgress(3, "Preparazione", "Preparo il dizionario e scelgo una griglia di partenza.");
       var opts = makeOptions(sizeKey);
       loadDb().then(function(entries){
         // il lavoro pesante avviene nel worker: il thread principale resta fluido
@@ -452,6 +480,10 @@
 
     worker.onmessage = function(e){
       var d = e.data;
+      if(d.type === "progress"){
+        setProgress(d.percent || 0, d.phase, d.detail);
+        return;
+      }
       if(!d.ok || !d.puzzle){
         $("ovTitle").textContent="Qualcosa non ha funzionato";
         $("ovText").textContent="Non sono riuscito a comporre la griglia. Riprova.";
@@ -459,6 +491,7 @@
         return;
       }
       puzzle = d.puzzle;
+      setProgress(100, "Completato", "Griglia pronta.");
       buildState();
       buildBoard();
       buildClueLists();

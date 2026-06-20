@@ -365,7 +365,7 @@ function extractSlots(black, W, H) {
 }
 
 // ---------- fill a backtracking ----------
-function fillSlots(slots, bank, W, H, rnd, budget, forcedPlacements, stats) {
+function fillSlots(slots, bank, W, H, rnd, budget, forcedPlacements, stats, progress) {
   var nCells = W * H;
   var letters = new Array(nCells).fill(0); // 0 = vuota; altrimenti char
   var counts = new Array(nCells).fill(0);  // quanti slot assegnati coprono la cella
@@ -557,6 +557,7 @@ function fillSlots(slots, bank, W, H, rnd, budget, forcedPlacements, stats) {
     if (nAssigned === slots.length) return true;
     if (backtracks > budget) return false;
     if (stats) stats.solveNodes++;
+    if (progress && (stats.solveNodes & 4095) === 0) progress("fill");
     var pick = pickSlot();
     if (pick.id === -1) return true;
     var slot = slots[pick.id];
@@ -801,12 +802,13 @@ function seedDomainCheck(slots, bank, forcedPlacements) {
 }
 
 // ---------- entry point ----------
-function attemptDense(bank, W, H, blackProb, maxRun, patternAttempts, fillBudget, seed, sampleTarget, stats) {
+function attemptDense(bank, W, H, blackProb, maxRun, patternAttempts, fillBudget, seed, sampleTarget, stats, progress) {
   var best = null;
   var sampled = 0;
   sampleTarget = sampleTarget || 4;
   for (var att = 0; att < patternAttempts; att++) {
     if (stats) stats.patterns++;
+    if (progress && (att === 0 || att % 8 === 0)) progress("pattern");
     var rnd = mulberry32(seed + att * 2654435761);
     var bp = blackProb + (rnd() - 0.5) * 0.05;
     var seedCross = chooseSeedCross(bank, W, H, rnd, { maxLen: Math.max(W, H), maxRun: maxRun });
@@ -828,7 +830,7 @@ function attemptDense(bank, W, H, blackProb, maxRun, patternAttempts, fillBudget
     var seedCheck = seedDomainCheck(ex.slots, bank, forcedPlacements);
     if (!seedCheck.ok) { if (stats) stats.rejectSeedDomains++; continue; }
     if (stats) stats.fillAttempts++;
-    var filled = fillSlots(ex.slots, bank, W, H, rnd, fillBudget, forcedPlacements, stats);
+    var filled = fillSlots(ex.slots, bank, W, H, rnd, fillBudget, forcedPlacements, stats, progress);
     if (filled) {
       if (stats) stats.fillSuccess++;
       var res = finalizeDense(black, filled.letters, W, H, bank.answerToClues, rnd);
@@ -866,7 +868,8 @@ function generateDenseCrossword(rawEntries, opts) {
   var minFallbackSide = opts.minFallbackSide || 5;
   var sampleTarget = opts.sampleTarget || 4;
   var seed = (opts.seed != null) ? opts.seed : (Date.now() >>> 0);
-  var stats = opts.collectStats ? {
+  var wantsProgress = (typeof opts.onProgress === "function");
+  var stats = (opts.collectStats || wantsProgress) ? {
     patterns: 0,
     rejectDisconnected: 0,
     rejectBlackSquares: 0,
@@ -903,15 +906,44 @@ function generateDenseCrossword(rawEntries, opts) {
     plans.push({ W: rW, H: rH, bp: blackProb + 0.06, mr: maxRun, att: patternAttempts, bud: fillBudget + 16000 });
   }
 
+  var onProgress = wantsProgress ? opts.onProgress : null;
+  var totalPatterns = 0;
+  for (var tp = 0; tp < plans.length; tp++) totalPatterns += plans[tp].att;
+  var lastProgressAt = 0;
+  function emitProgress(kind, planIndex) {
+    if (!onProgress) return;
+    var now = Date.now();
+    if (kind !== "done" && now - lastProgressAt < 180) return;
+    lastProgressAt = now;
+    var plannedPct = totalPatterns ? (stats.patterns / totalPatterns) : 0;
+    var fillPulse = stats.fillAttempts ? Math.min(0.08, (stats.backtracks % 50000) / 625000) : 0;
+    var pct = Math.min(94, 6 + plannedPct * 82 + fillPulse * 100);
+    var pl = plans[Math.min(planIndex || 0, plans.length - 1)];
+    var phase = "Schema " + ((planIndex || 0) + 1) + "/" + plans.length;
+    var detail;
+    if (kind === "fill") {
+      detail = "Riempio la griglia: " + stats.fillAttempts + " tentativi, " +
+        Math.floor(stats.backtracks / 1000) + "k ritorni.";
+    } else if (kind === "done") {
+      pct = 100; phase = "Completato"; detail = "Griglia pronta.";
+    } else {
+      detail = "Provo schemi " + pl.W + "x" + pl.H + " con poche nere.";
+    }
+    onProgress({ percent: pct, phase: phase, detail: detail });
+  }
+
   for (var p = 0; p < plans.length; p++) {
     var pl = plans[p];
+    emitProgress("pattern", p);
     var before = stats ? {
       patterns: stats.patterns,
       fillAttempts: stats.fillAttempts,
       fillSuccess: stats.fillSuccess,
       backtracks: stats.backtracks
     } : null;
-    var r = attemptDense(bank, pl.W, pl.H, pl.bp, pl.mr, pl.att, pl.bud, seed + p * 7919, sampleTarget, stats);
+    var r = attemptDense(bank, pl.W, pl.H, pl.bp, pl.mr, pl.att, pl.bud, seed + p * 7919, sampleTarget, stats, function (kind) {
+      emitProgress(kind, p);
+    });
     if (stats) {
       stats.plans.push({
         width: pl.W,
@@ -925,8 +957,8 @@ function generateDenseCrossword(rawEntries, opts) {
       });
     }
     if (r && stats) r.stats = stats;
-    if (r && r.ghosts.length === 0) return r;
-    if (r && p === plans.length - 1) return r; // ultima spiaggia: accetta anche con ghost
+    if (r && r.ghosts.length === 0) { emitProgress("done", p); return r; }
+    if (r && p === plans.length - 1) { emitProgress("done", p); return r; } // ultima spiaggia: accetta anche con ghost
   }
   return null;
 }
@@ -942,6 +974,14 @@ if (typeof self !== "undefined" && typeof self.postMessage === "function") {
     var opts = e.data.opts || {};
     var t0 = Date.now();
     try {
+      opts.onProgress = function (p) {
+        self.postMessage({
+          type: "progress",
+          percent: p.percent,
+          phase: p.phase,
+          detail: p.detail
+        });
+      };
       var puzzle = generateDenseCrossword(entries, opts);
       self.postMessage({ ok: !!puzzle, puzzle: puzzle, ms: Date.now() - t0 });
     } catch (err) {
