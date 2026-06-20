@@ -25,6 +25,30 @@ function shuffleInPlace(arr, rnd) {
   }
   return arr;
 }
+function makeFullBits(n) {
+  var bits = new Uint32Array(Math.ceil(n / 32));
+  for (var i = 0; i < bits.length; i++) bits[i] = 0xFFFFFFFF;
+  var rem = n & 31;
+  if (rem) bits[bits.length - 1] = (1 << rem) - 1;
+  return bits;
+}
+function cloneBits(bits) {
+  return new Uint32Array(bits);
+}
+function andBitsInto(dst, src) {
+  for (var i = 0; i < dst.length; i++) dst[i] &= src[i];
+}
+function iterBits(bits, fn) {
+  for (var bi = 0; bi < bits.length; bi++) {
+    var x = bits[bi];
+    while (x) {
+      var lsb = x & -x;
+      var bit = 31 - Math.clz32(lsb);
+      if (fn((bi << 5) + bit) === false) return;
+      x ^= lsb;
+    }
+  }
+}
 
 // ---------- word bank ----------
 // byLen[L] = array di parole (uniche) di lunghezza L
@@ -59,7 +83,25 @@ function buildBank(rawEntries, minLen, maxLen) {
       bucket.push(w);
     }
   });
-  return { answerToClues: answerToClues, byLen: byLen, posIndex: posIndex };
+  var allBits = {};
+  var posBits = {};
+  for (var lenKey in byLen) {
+    var L2 = Number(lenKey);
+    var words = byLen[L2];
+    allBits[L2] = makeFullBits(words.length);
+    posBits[L2] = [];
+    for (var pi = 0; pi < L2; pi++) {
+      posBits[L2][pi] = new Map();
+      for (var wi = 0; wi < words.length; wi++) {
+        var ch2 = words[wi].charAt(pi);
+        var bits = posBits[L2][pi].get(ch2);
+        if (!bits) { bits = new Uint32Array(Math.ceil(words.length / 32)); posBits[L2][pi].set(ch2, bits); }
+        bits[wi >>> 5] |= (1 << (wi & 31));
+      }
+    }
+  }
+  return { answerToClues: answerToClues, byLen: byLen, posIndex: posIndex,
+           allBits: allBits, posBits: posBits };
 }
 
 // ---------- pattern di caselle nere ----------
@@ -323,7 +365,7 @@ function extractSlots(black, W, H) {
 }
 
 // ---------- fill a backtracking ----------
-function fillSlots(slots, bank, W, H, rnd, budget, forcedPlacements) {
+function fillSlots(slots, bank, W, H, rnd, budget, forcedPlacements, stats) {
   var nCells = W * H;
   var letters = new Array(nCells).fill(0); // 0 = vuota; altrimenti char
   var counts = new Array(nCells).fill(0);  // quanti slot assegnati coprono la cella
@@ -336,9 +378,12 @@ function fillSlots(slots, bank, W, H, rnd, budget, forcedPlacements) {
   // mappa cella -> slot che la attraversano; crossOf[s] = slot incrocianti
   var cellToSlots = {};
   var crossOf = [];
+  var cellPosInSlot = [];
   for (var s0 = 0; s0 < slots.length; s0++) {
+    cellPosInSlot[s0] = {};
     for (var i0 = 0; i0 < slots[s0].len; i0++) {
       var id0 = slots[s0].cells[i0];
+      cellPosInSlot[s0][id0] = i0;
       if (!cellToSlots[id0]) cellToSlots[id0] = [];
       cellToSlots[id0].push(s0);
     }
@@ -357,32 +402,52 @@ function fillSlots(slots, bank, W, H, rnd, budget, forcedPlacements) {
     for (var a = 0; a < arr.length; a++) if (arr[a] !== exceptSlot) fixedCount[arr[a]] += delta;
   }
 
-  // candidati per uno slot dato lo stato attuale (limit = early stop opzionale)
-  function candidates(slot, limit) {
+  function domainBits(slot) {
+    if (stats) stats.candidateCalls++;
+    var L = slot.len;
+    if (!bank.byLen[L]) return null;
+    var domain = bank.allBits[L] ? cloneBits(bank.allBits[L]) : null;
+    if (!domain) return null;
+    var fcount = 0;
+    for (var i = 0; i < L; i++) {
+      var id = slot.cells[i];
+      if (counts[id] > 0) {
+        var bits = bank.posBits[L][i].get(letters[id]);
+        if (!bits) return null;
+        andBitsInto(domain, bits);
+        fcount++;
+      }
+    }
+    if (stats && fcount > 0) stats.constrainedCandidateCalls++;
+    return domain;
+  }
+
+  function candidateCount(slot, limit) {
     var L = slot.len;
     var pool = bank.byLen[L];
-    if (!pool) return [];
+    if (!pool) return 0;
+    if (stats) stats.candidateCalls++;
     var fixed = null, fcount = 0;
     for (var i = 0; i < L; i++) {
       var id = slot.cells[i];
       if (counts[id] > 0) {
         if (!fixed) fixed = [];
-        fixed.push(i); fixed.push(letters[id]); fcount++;
+        fixed.push(i); fixed.push(letters[id]);
+        fcount++;
       }
     }
-    var base;
-    if (fcount === 0) {
-      base = pool;
-    } else {
+    var base = pool;
+    if (fcount) {
+      if (stats) stats.constrainedCandidateCalls++;
       var best = null;
       for (var f = 0; f < fcount; f++) {
         var b = bank.posIndex[L][fixed[f * 2]].get(fixed[f * 2 + 1]);
-        if (!b) return [];
+        if (!b) return 0;
         if (best === null || b.length < best.length) best = b;
       }
       base = best;
     }
-    var out = [];
+    var n = 0;
     for (var j = 0; j < base.length; j++) {
       var w = base[j];
       if (used.has(w)) continue;
@@ -392,7 +457,29 @@ function fillSlots(slots, bank, W, H, rnd, budget, forcedPlacements) {
           if (w.charAt(fixed[g * 2]) !== fixed[g * 2 + 1]) { ok = false; break; }
         }
       }
-      if (ok) { out.push(w); if (limit && out.length >= limit) break; }
+      if (!ok) continue;
+      n++;
+      if (limit && n >= limit) return n;
+    }
+    return n;
+  }
+
+  // candidati per uno slot dato lo stato attuale (limit = early stop opzionale)
+  function candidates(slot, limit) {
+    var L = slot.len;
+    var pool = bank.byLen[L];
+    var domain = domainBits(slot);
+    if (!pool || !domain) return [];
+    var out = [];
+    iterBits(domain, function (j) {
+      if (j >= pool.length) return false;
+      var w = pool[j];
+      if (used.has(w)) return;
+      out.push(w);
+      if (limit && out.length >= limit) return false;
+    });
+    if (stats) {
+      stats.candidateWords += out.length;
     }
     return out;
   }
@@ -436,7 +523,7 @@ function fillSlots(slots, bank, W, H, rnd, budget, forcedPlacements) {
       if (fixedCount[s] > 0) {
         anyFixed = true;
         var cap = (bestN === Infinity) ? 0 : bestN + 1;
-        var n = candidates(slots[s], cap).length;
+        var n = candidateCount(slots[s], cap);
         if (n < bestN) { bestN = n; bestId = s; if (n === 0) break; }
       }
     }
@@ -447,25 +534,49 @@ function fillSlots(slots, bank, W, H, rnd, budget, forcedPlacements) {
     return { id: -1, n: 0 };
   }
 
+  function scoreCandidate(slot, word, rndTie) {
+    var score = rndTie;
+    for (var i = 0; i < slot.len; i++) {
+      var id = slot.cells[i];
+      var arr = cellToSlots[id];
+      for (var a = 0; a < arr.length; a++) {
+        var other = arr[a];
+        if (other === slot.id || assigned[other] !== null) continue;
+        var otherSlot = slots[other];
+        var pos = cellPosInSlot[other][id];
+        var bucket = bank.posIndex[otherSlot.len] && bank.posIndex[otherSlot.len][pos] &&
+          bank.posIndex[otherSlot.len][pos].get(word.charAt(i));
+        if (!bucket || bucket.length === 0) return -1000000;
+        score += Math.min(250, bucket.length);
+      }
+    }
+    return score;
+  }
+
   function solve() {
     if (nAssigned === slots.length) return true;
     if (backtracks > budget) return false;
+    if (stats) stats.solveNodes++;
     var pick = pickSlot();
     if (pick.id === -1) return true;
     var slot = slots[pick.id];
     var cands = candidates(slot, 0);
     if (cands.length === 0) { backtracks++; return false; }
-    shuffleInPlace(cands, rnd);
+    var scored = [];
+    for (var si = 0; si < cands.length; si++) {
+      scored.push({ word: cands[si], score: scoreCandidate(slot, cands[si], rnd()) });
+    }
+    scored.sort(function (a, b) { return b.score - a.score; });
     var tryMax = Math.min(cands.length, slot.len >= 7 ? 90 : 55);
     for (var ci = 0; ci < tryMax; ci++) {
-      var word = cands[ci];
+      var word = scored[ci].word;
       var touched = placeFix(slot, word);
       nAssigned++;
       var fcOk = true;
       var cr = crossOf[slot.id];
       for (var x = 0; x < cr.length; x++) {
         if (assigned[cr[x]] !== null) continue;
-        if (fixedCount[cr[x]] > 0 && candidates(slots[cr[x]], 1).length === 0) { fcOk = false; break; }
+        if (fixedCount[cr[x]] > 0 && candidateCount(slots[cr[x]], 1) === 0) { fcOk = false; break; }
       }
       if (fcOk && solve()) return true;
       unplaceFix(slot, word, touched);
@@ -477,6 +588,7 @@ function fillSlots(slots, bank, W, H, rnd, budget, forcedPlacements) {
   }
 
   var ok = solve();
+  if (stats) stats.backtracks += backtracks;
   return ok ? { letters: letters } : null;
 }
 
@@ -562,7 +674,26 @@ function chooseSeedCross(bank, W, H, rnd, opts) {
 
   var centerR = Math.floor(H / 2);
   var centerC = Math.floor(W / 2);
-  var tries = 120;
+  var maxRun = opts.maxRun || 7;
+  var bestSeed = null;
+  var bestScore = -Infinity;
+
+  function letterFlex(maxLen, fixedCoord, span, ch) {
+    var score = 0;
+    var maxL = Math.min(maxLen, maxRun);
+    for (var L = 2; L <= maxL; L++) {
+      if (!bank.byLen[L]) continue;
+      var pMin = Math.max(0, fixedCoord - (span - L));
+      var pMax = Math.min(L - 1, fixedCoord);
+      for (var p = pMin; p <= pMax; p++) {
+        var arr = bank.posIndex[L] && bank.posIndex[L][p] && bank.posIndex[L][p].get(ch);
+        if (arr) score += Math.min(80, arr.length);
+      }
+    }
+    return score;
+  }
+
+  var tries = opts.seedTries || 160;
   while (tries-- > 0) {
     var aLen = acrossLens[Math.floor(rnd() * Math.min(4, acrossLens.length))];
     var dLen = downLens[Math.floor(rnd() * Math.min(4, downLens.length))];
@@ -581,14 +712,26 @@ function chooseSeedCross(bank, W, H, rnd, opts) {
     if (!bucket || bucket.length < Math.min(3, minAlternatives)) continue;
     var dWord = bucket[Math.floor(rnd() * bucket.length)];
     if (dWord === aWord) continue;
-    return {
+    var seed = {
       row: centerR,
       col: centerC,
       across: { r: centerR, c: centerC - aIx, len: aLen, word: aWord },
       down: { r: centerR - dIx, c: centerC, len: dLen, word: dWord }
     };
+    var score = (aLen + dLen) * 120 + Math.min(200, bucket.length * 8);
+    var ai;
+    for (ai = 0; ai < aLen; ai++) {
+      if (ai === aIx) continue;
+      score += letterFlex(H, centerR, H, aWord.charAt(ai));
+    }
+    for (ai = 0; ai < dLen; ai++) {
+      if (ai === dIx) continue;
+      score += letterFlex(W, centerC, W, dWord.charAt(ai));
+    }
+    score += rnd();
+    if (score > bestScore) { bestScore = score; bestSeed = seed; }
   }
-  return null;
+  return bestSeed;
 }
 
 function findForcedPlacements(slots, seedCross) {
@@ -608,30 +751,82 @@ function findForcedPlacements(slots, seedCross) {
   return out;
 }
 
+function seedDomainCheck(slots, bank, forcedPlacements) {
+  if (!forcedPlacements || !forcedPlacements.length) return { ok: true, score: 0 };
+  var forcedBySlot = {};
+  var fixedLetters = {};
+  for (var fp = 0; fp < forcedPlacements.length; fp++) {
+    forcedBySlot[forcedPlacements[fp].slotId] = true;
+    var slot = slots[forcedPlacements[fp].slotId];
+    var word = forcedPlacements[fp].word;
+    for (var i = 0; i < slot.len; i++) fixedLetters[slot.cells[i]] = word.charAt(i);
+  }
+  var score = 0;
+  for (var s = 0; s < slots.length; s++) {
+    if (forcedBySlot[s]) continue;
+    var slot2 = slots[s];
+    var fixed = null, fcount = 0;
+    for (var j = 0; j < slot2.len; j++) {
+      var ch = fixedLetters[slot2.cells[j]];
+      if (ch) {
+        if (!fixed) fixed = [];
+        fixed.push(j); fixed.push(ch);
+        fcount++;
+      }
+    }
+    if (!fcount) continue;
+    var best = null;
+    for (var f = 0; f < fcount; f++) {
+      var b = bank.posIndex[slot2.len] && bank.posIndex[slot2.len][fixed[f * 2]] &&
+        bank.posIndex[slot2.len][fixed[f * 2]].get(fixed[f * 2 + 1]);
+      if (!b) return { ok: false, score: 0 };
+      if (best === null || b.length < best.length) best = b;
+    }
+    var n = 0;
+    for (var wi = 0; wi < best.length; wi++) {
+      var w = best[wi], ok = true;
+      for (var g = 0; g < fcount; g++) {
+        if (w.charAt(fixed[g * 2]) !== fixed[g * 2 + 1]) { ok = false; break; }
+      }
+      if (ok) n++;
+    }
+    if (n === 0) return { ok: false, score: 0 };
+    score += Math.min(500, n);
+  }
+  return { ok: true, score: score };
+}
+
 // ---------- entry point ----------
-function attemptDense(bank, W, H, blackProb, maxRun, patternAttempts, fillBudget, seed, sampleTarget) {
+function attemptDense(bank, W, H, blackProb, maxRun, patternAttempts, fillBudget, seed, sampleTarget, stats) {
   var best = null;
   var sampled = 0;
   sampleTarget = sampleTarget || 4;
   for (var att = 0; att < patternAttempts; att++) {
+    if (stats) stats.patterns++;
     var rnd = mulberry32(seed + att * 2654435761);
     var bp = blackProb + (rnd() - 0.5) * 0.05;
-    var seedCross = chooseSeedCross(bank, W, H, rnd, { maxLen: Math.max(W, H) });
+    var seedCross = chooseSeedCross(bank, W, H, rnd, { maxLen: Math.max(W, H), maxRun: maxRun });
     var black = makePattern(W, H, bp, rnd, maxRun, seedCross);
     var quality = analyzePattern(black, W, H);
-    if (!quality.whiteConnected || quality.blackSquares > 0 || quality.maxBlackRun > 3) continue;
+    if (!quality.whiteConnected) { if (stats) stats.rejectDisconnected++; continue; }
+    if (quality.blackSquares > 0) { if (stats) stats.rejectBlackSquares++; continue; }
+    if (quality.maxBlackRun > 3) { if (stats) stats.rejectBlackRuns++; continue; }
     var ex = extractSlots(black, W, H);
-    if (ex.slots.length < 6) continue;
+    if (ex.slots.length < 6) { if (stats) stats.rejectTooFewSlots++; continue; }
     var feasible = true;
     for (var s = 0; s < ex.slots.length; s++) {
       var L = ex.slots[s].len;
       if (!bank.byLen[L] || bank.byLen[L].length === 0) { feasible = false; break; }
     }
-    if (!feasible) continue;
+    if (!feasible) { if (stats) stats.rejectNoLength++; continue; }
     var forcedPlacements = findForcedPlacements(ex.slots, seedCross);
-    if (seedCross && forcedPlacements.length !== 2) continue;
-    var filled = fillSlots(ex.slots, bank, W, H, rnd, fillBudget, forcedPlacements);
+    if (seedCross && forcedPlacements.length !== 2) { if (stats) stats.rejectSeedMismatch++; continue; }
+    var seedCheck = seedDomainCheck(ex.slots, bank, forcedPlacements);
+    if (!seedCheck.ok) { if (stats) stats.rejectSeedDomains++; continue; }
+    if (stats) stats.fillAttempts++;
+    var filled = fillSlots(ex.slots, bank, W, H, rnd, fillBudget, forcedPlacements, stats);
     if (filled) {
+      if (stats) stats.fillSuccess++;
       var res = finalizeDense(black, filled.letters, W, H, bank.answerToClues, rnd);
       var longest = 0, longWords = 0, totalLen = 0;
       var allWords = res.across.concat(res.down);
@@ -667,28 +862,65 @@ function generateDenseCrossword(rawEntries, opts) {
   var minFallbackSide = opts.minFallbackSide || 5;
   var sampleTarget = opts.sampleTarget || 4;
   var seed = (opts.seed != null) ? opts.seed : (Date.now() >>> 0);
+  var stats = opts.collectStats ? {
+    patterns: 0,
+    rejectDisconnected: 0,
+    rejectBlackSquares: 0,
+    rejectBlackRuns: 0,
+    rejectTooFewSlots: 0,
+    rejectNoLength: 0,
+    rejectSeedMismatch: 0,
+    rejectSeedDomains: 0,
+    fillAttempts: 0,
+    fillSuccess: 0,
+    candidateCalls: 0,
+    constrainedCandidateCalls: 0,
+    candidateWords: 0,
+    solveNodes: 0,
+    backtracks: 0,
+    plans: []
+  } : null;
 
   var bank = buildBank(rawEntries, minLen, maxLen);
 
   // cascata di configurazioni: dalla richiesta a fallback via via piu facili
   var plans = [
-    { W: W, H: H, bp: blackProb, mr: maxRun, att: patternAttempts, bud: fillBudget },
-    { W: W, H: H, bp: blackProb + 0.015, mr: maxRun, att: patternAttempts, bud: fillBudget + 8000 },
-    { W: W, H: H, bp: blackProb + 0.03, mr: maxRun, att: patternAttempts, bud: fillBudget + 12000 },
+    { W: W, H: H, bp: blackProb, mr: maxRun, att: patternAttempts, bud: Math.max(6000, Math.floor(fillBudget * 0.35)) },
+    { W: W, H: H, bp: blackProb + 0.015, mr: maxRun, att: patternAttempts, bud: Math.max(9000, Math.floor(fillBudget * 0.55)) },
+    { W: W, H: H, bp: blackProb + 0.03, mr: maxRun, att: patternAttempts, bud: fillBudget },
     { W: W, H: H, bp: blackProb + 0.06, mr: maxRun, att: patternAttempts, bud: fillBudget + 16000 },
     { W: W, H: H, bp: blackProb + 0.09, mr: maxRun, att: patternAttempts, bud: fillBudget + 20000 }
   ];
   // riduzione dimensione come ultima spiaggia
   var rW = Math.max(minFallbackSide, W - 2), rH = Math.max(minFallbackSide, H - 2);
   if (rW < W || rH < H) {
-    plans.push({ W: rW, H: rH, bp: blackProb + 0.015, mr: maxRun, att: patternAttempts, bud: fillBudget + 8000 });
-    plans.push({ W: rW, H: rH, bp: blackProb + 0.03, mr: maxRun, att: patternAttempts, bud: fillBudget + 12000 });
+    plans.push({ W: rW, H: rH, bp: blackProb + 0.015, mr: maxRun, att: patternAttempts, bud: Math.max(9000, Math.floor(fillBudget * 0.55)) });
+    plans.push({ W: rW, H: rH, bp: blackProb + 0.03, mr: maxRun, att: patternAttempts, bud: fillBudget });
     plans.push({ W: rW, H: rH, bp: blackProb + 0.06, mr: maxRun, att: patternAttempts, bud: fillBudget + 16000 });
   }
 
   for (var p = 0; p < plans.length; p++) {
     var pl = plans[p];
-    var r = attemptDense(bank, pl.W, pl.H, pl.bp, pl.mr, pl.att, pl.bud, seed + p * 7919, sampleTarget);
+    var before = stats ? {
+      patterns: stats.patterns,
+      fillAttempts: stats.fillAttempts,
+      fillSuccess: stats.fillSuccess,
+      backtracks: stats.backtracks
+    } : null;
+    var r = attemptDense(bank, pl.W, pl.H, pl.bp, pl.mr, pl.att, pl.bud, seed + p * 7919, sampleTarget, stats);
+    if (stats) {
+      stats.plans.push({
+        width: pl.W,
+        height: pl.H,
+        blackProb: pl.bp,
+        patterns: stats.patterns - before.patterns,
+        fillAttempts: stats.fillAttempts - before.fillAttempts,
+        fillSuccess: stats.fillSuccess - before.fillSuccess,
+        backtracks: stats.backtracks - before.backtracks,
+        returned: !!r
+      });
+    }
+    if (r && stats) r.stats = stats;
     if (r && r.ghosts.length === 0) return r;
     if (r && p === plans.length - 1) return r; // ultima spiaggia: accetta anche con ghost
   }
