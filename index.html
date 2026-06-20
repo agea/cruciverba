@@ -197,6 +197,7 @@
   }
   .card h3{margin:0 0 6px; font-size:22px; letter-spacing:-0.02em;}
   .card p{margin:0 0 16px; color:var(--ink-soft); font-size:14px; line-height:1.4;}
+  .card-actions{display:flex; gap:10px; justify-content:center; flex-wrap:wrap;}
   .spinner{
     width:34px; height:34px; margin:0 auto 14px; border-radius:50%;
     border:3px solid var(--line); border-top-color:var(--accent); animation:spin 1s linear infinite;
@@ -325,7 +326,10 @@
       <div class="spinner" id="spinner"></div>
       <h3 id="ovTitle">Genero il cruciverba…</h3>
       <p id="ovText">Sto incastrando le parole. Ci vuole solo un istante.</p>
-      <button class="btn primary" id="ovBtn" style="display:none">Nuovo cruciverba</button>
+      <div class="card-actions">
+        <button class="btn" id="ovCloseBtn" style="display:none">Chiudi</button>
+        <button class="btn primary" id="ovBtn" style="display:none">Nuovo cruciverba</button>
+      </div>
     </div>
   </div>
 
@@ -382,6 +386,7 @@
     function showOverlay(loading){
       var ov=$("overlay"); ov.classList.add("show");
       $("spinner").style.display = loading? "block":"none";
+      $("ovCloseBtn").style.display = loading? "none":"inline-block";
       $("ovBtn").style.display = loading? "none":"inline-block";
     }
     function hideOverlay(){ $("overlay").classList.remove("show"); }
@@ -624,6 +629,7 @@
     function typeLetter(ch){
       if(!active || solved) return;
       var r=active.r, c=active.c;
+      if(revealed[r][c]){ toast("Lettera rivelata"); return; }
       userGrid[r][c]=ch; checked[r][c]=false; revealed[r][c]=false;
       var el=cellEls[r][c]; var ltr=el.querySelector(".ltr"); ltr.textContent=ch;
       el.classList.remove("wrong","revealed");
@@ -634,16 +640,17 @@
     function advance(){
       var w=currentWord(); if(!w) return;
       var i=indexInWord(w, active.r, active.c);
-      for(var k=i+1;k<w.cells.length;k++){ var cl=w.cells[k]; active={r:cl.r,c:cl.c,dir:w.dir}; refreshHighlight(); return; }
+      for(var k=i+1;k<w.cells.length;k++){ var cl=w.cells[k]; if(!revealed[cl.r][cl.c]){ active={r:cl.r,c:cl.c,dir:w.dir}; refreshHighlight(); return; } }
       // fine parola: resta sull'ultima
       refreshHighlight();
     }
     function backspace(){
       if(!active || solved) return;
       var r=active.r, c=active.c;
+      if(revealed[r][c]){ toast("Lettera rivelata"); return; }
       if(userGrid[r][c]){ userGrid[r][c]=""; cellEls[r][c].querySelector(".ltr").textContent=""; checked[r][c]=false; cellEls[r][c].classList.remove("wrong","revealed"); }
       else {
-        var w=currentWord(); if(w){ var i=indexInWord(w,r,c); if(i>0){ var cl=w.cells[i-1]; active={r:cl.r,c:cl.c,dir:w.dir}; userGrid[cl.r][cl.c]=""; cellEls[cl.r][cl.c].querySelector(".ltr").textContent=""; checked[cl.r][cl.c]=false; cellEls[cl.r][cl.c].classList.remove("wrong","revealed"); } }
+        var w=currentWord(); if(w){ var i=indexInWord(w,r,c); for(var k=i-1;k>=0;k--){ var cl=w.cells[k]; if(!revealed[cl.r][cl.c]){ active={r:cl.r,c:cl.c,dir:w.dir}; userGrid[cl.r][cl.c]=""; cellEls[cl.r][cl.c].querySelector(".ltr").textContent=""; checked[cl.r][cl.c]=false; cellEls[cl.r][cl.c].classList.remove("wrong","revealed"); break; } } }
       }
       refreshHighlight(); afterChange();
     }
@@ -685,7 +692,10 @@
       toast("Soluzione mostrata");
     }
     function clearAll(){
-      for(var r=0;r<puzzle.height;r++) for(var c=0;c<puzzle.width;c++){ if(!puzzle.cells[r][c]) continue; userGrid[r][c]=""; checked[r][c]=false; revealed[r][c]=false; }
+      for(var r=0;r<puzzle.height;r++) for(var c=0;c<puzzle.width;c++){
+        if(!puzzle.cells[r][c] || revealed[r][c]) continue;
+        userGrid[r][c]=""; checked[r][c]=false;
+      }
       renderLetters(); markDoneClues(); save(); toast("Griglia svuotata");
     }
 
@@ -722,6 +732,7 @@
     window.addEventListener("keydown", function(e){
       if($("overlay").classList.contains("show") && $("ovBtn").style.display==="none") return;
       var k=e.key;
+      if(k==="Escape" && $("overlay").classList.contains("show")){ hideOverlay(); e.preventDefault(); return; }
       if(/^[a-zA-Z]$/.test(k)){ typeLetter(k.toUpperCase()); e.preventDefault(); }
       else if(k==="Backspace"){ backspace(); e.preventDefault(); }
       else if(k==="ArrowLeft"||k==="ArrowRight"||k==="ArrowUp"||k==="ArrowDown"){ moveArrow(k); e.preventDefault(); }
@@ -836,6 +847,7 @@
       newPuzzle();
     });
     $("ovBtn").addEventListener("click", newPuzzle);
+    $("ovCloseBtn").addEventListener("click", hideOverlay);
     $("prevClue").addEventListener("click", function(){ gotoClue(-1); });
     $("nextClue").addEventListener("click", function(){ gotoClue(1); });
     $("clueToggle").addEventListener("click", function(){ $("cluePane").classList.add("open"); });
