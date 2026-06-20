@@ -651,11 +651,11 @@ function finalizeDense(black, letters, W, H, answerToClues, rnd) {
 function chooseSeedCross(bank, W, H, rnd, opts) {
   opts = opts || {};
   if (W < 7 || H < 7) return null;
-  var maxAcross = Math.min(W - 2, opts.maxLen || W);
-  var maxDown = Math.min(H - 2, opts.maxLen || H);
-  var minAcross = Math.max(5, Math.min(maxAcross, Math.floor(W * 0.45)));
-  var minDown = Math.max(5, Math.min(maxDown, Math.floor(H * 0.45)));
-  var minAlternatives = opts.seedMinAlternatives || 8;
+  var maxAcross = Math.min(W - 2, opts.maxLen || W, Math.max(5, Math.ceil(W * 0.55)), 12);
+  var maxDown = Math.min(H - 2, opts.maxLen || H, Math.max(5, Math.ceil(H * 0.55)), 10);
+  var minAcross = Math.max(4, Math.min(maxAcross, Math.floor(W * 0.30)));
+  var minDown = Math.max(4, Math.min(maxDown, Math.floor(H * 0.30)));
+  var minAlternatives = opts.seedMinAlternatives || 16;
 
   function lengths(minLen, maxLen) {
     var arr = [], L;
@@ -694,9 +694,13 @@ function chooseSeedCross(bank, W, H, rnd, opts) {
   }
 
   var tries = opts.seedTries || 160;
+  function pickSeedLen(arr) {
+    var n = Math.min(arr.length, 10);
+    return arr[Math.floor(Math.pow(rnd(), 0.75) * n)];
+  }
   while (tries-- > 0) {
-    var aLen = acrossLens[Math.floor(rnd() * Math.min(4, acrossLens.length))];
-    var dLen = downLens[Math.floor(rnd() * Math.min(4, downLens.length))];
+    var aLen = pickSeedLen(acrossLens);
+    var dLen = pickSeedLen(downLens);
     var aWords = bank.byLen[aLen];
     if (!aWords || !bank.byLen[dLen]) continue;
     var aWord = aWords[Math.floor(rnd() * aWords.length)];
@@ -718,7 +722,7 @@ function chooseSeedCross(bank, W, H, rnd, opts) {
       across: { r: centerR, c: centerC - aIx, len: aLen, word: aWord },
       down: { r: centerR - dIx, c: centerC, len: dLen, word: dWord }
     };
-    var score = (aLen + dLen) * 120 + Math.min(200, bucket.length * 8);
+    var score = (aLen + dLen) * 35 + Math.min(360, bucket.length * 14);
     var ai;
     for (ai = 0; ai < aLen; ai++) {
       if (ai === aIx) continue;
