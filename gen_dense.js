@@ -181,6 +181,32 @@ function makePattern(W, H, blackProb, rnd, maxRun, seedCross) {
       }
     }
 
+    for (r = 0; r + 1 < H; r++) {
+      for (c = 0; c + 1 < W; c++) {
+        var cells = [
+          { r: r, c: c },
+          { r: r, c: c + 1 },
+          { r: r + 1, c: c },
+          { r: r + 1, c: c + 1 }
+        ];
+        var blacks = [];
+        for (var bi = 0; bi < cells.length; bi++) {
+          if (black[cells[bi].r][cells[bi].c]) blacks.push(cells[bi]);
+        }
+        if (blacks.length === 3) {
+          var cleared = false;
+          for (var bj = blacks.length - 1; bj >= 0; bj--) {
+            if (protectedBlack[key(blacks[bj].r, blacks[bj].c)]) continue;
+            black[blacks[bj].r][blacks[bj].c] = false;
+            changed = true;
+            cleared = true;
+            break;
+          }
+          if (!cleared) continue;
+        }
+      }
+    }
+
     for (r = 0; r < H; r++) {
       run = 0;
       for (c = 0; c < W; c++) {
@@ -245,7 +271,10 @@ function makePattern(W, H, blackProb, rnd, maxRun, seedCross) {
     }
   }
 
-  fixBadBlackPatterns();
+  for (var cleanup = 0; cleanup < 4; cleanup++) {
+    fixLongRuns();
+    if (!fixBadBlackPatterns()) break;
+  }
   applySeedCross();
   return black;
 }
@@ -255,6 +284,7 @@ function analyzePattern(black, W, H) {
   var whiteTotal = 0;
   var firstWhite = null;
   var blackSquares = 0;
+  var blackElbows = 0;
   var maxBlackRun = 0;
 
   for (r = 0; r < H; r++) {
@@ -271,6 +301,11 @@ function analyzePattern(black, W, H) {
       if (r + 1 < H && c + 1 < W &&
           black[r][c] && black[r + 1][c] && black[r][c + 1] && black[r + 1][c + 1]) {
         blackSquares++;
+      }
+      if (r + 1 < H && c + 1 < W) {
+        var nBlack = (black[r][c] ? 1 : 0) + (black[r][c + 1] ? 1 : 0) +
+          (black[r + 1][c] ? 1 : 0) + (black[r + 1][c + 1] ? 1 : 0);
+        if (nBlack === 3) blackElbows++;
       }
     }
   }
@@ -316,6 +351,7 @@ function analyzePattern(black, W, H) {
     blackTotal: W * H - whiteTotal,
     whiteConnected: whiteTotal > 0 && connectedWhite === whiteTotal,
     blackSquares: blackSquares,
+    blackElbows: blackElbows,
     maxBlackRun: maxBlackRun
   };
 }
@@ -820,6 +856,17 @@ function attemptDense(bank, W, H, blackProb, maxRun, patternAttempts, fillBudget
     if (quality.maxBlackRun > 3) { if (stats) stats.rejectBlackRuns++; continue; }
     var ex = extractSlots(black, W, H);
     if (ex.slots.length < 6) { if (stats) stats.rejectTooFewSlots++; continue; }
+    var shortSlots = 0, twoSlots = 0;
+    for (var ss = 0; ss < ex.slots.length; ss++) {
+      if (ex.slots[ss].len <= 3) shortSlots++;
+      if (ex.slots[ss].len === 2) twoSlots++;
+    }
+    var area = W * H;
+    if ((area >= 100 && area <= 169) || area >= 220) {
+      var maxShortShare = (area <= 169) ? 0.42 : 0.48;
+      var maxShortSlots = Math.max(10, Math.floor(ex.slots.length * maxShortShare));
+      if (shortSlots > maxShortSlots) { if (stats) stats.rejectShortSlots++; continue; }
+    }
     var feasible = true;
     for (var s = 0; s < ex.slots.length; s++) {
       var L = ex.slots[s].len;
@@ -842,9 +889,12 @@ function attemptDense(bank, W, H, blackProb, maxRun, patternAttempts, fillBudget
         if (allWords[wi].len > longest) longest = allWords[wi].len;
         if (allWords[wi].len >= 7) longWords++;
       }
+      var shortPenalty = shortSlots * 1450 + twoSlots * 850;
+      var blackShapePenalty = (quality.blackElbows || 0) * 2600;
       var score = quality.whiteTotal * 1600 - quality.blackTotal * 900 +
         longest * 900 + longWords * 180 + totalLen * 12 +
-        res.wordCount * 15 - res.ghosts.length * 100000;
+        res.wordCount * 15 - shortPenalty - blackShapePenalty -
+        res.ghosts.length * 100000;
       if (!best || score > best.score) best = { result: res, score: score };
       if (res.ghosts.length === 0) {
         sampled++;
@@ -868,6 +918,8 @@ function generateDenseCrossword(rawEntries, opts) {
   var maxLen = opts.maxLen || Math.max(W, H);
   var minFallbackSide = opts.minFallbackSide || 5;
   var sampleTarget = opts.sampleTarget || 4;
+  var area = W * H;
+  if ((area >= 100 && area <= 169 || area >= 220) && sampleTarget < 2) sampleTarget = 2;
   var seed = (opts.seed != null) ? opts.seed : (Date.now() >>> 0);
   var wantsProgress = (typeof opts.onProgress === "function");
   var stats = (opts.collectStats || wantsProgress) ? {
@@ -879,6 +931,7 @@ function generateDenseCrossword(rawEntries, opts) {
     rejectNoLength: 0,
     rejectSeedMismatch: 0,
     rejectSeedDomains: 0,
+    rejectShortSlots: 0,
     fillAttempts: 0,
     fillSuccess: 0,
     candidateCalls: 0,
