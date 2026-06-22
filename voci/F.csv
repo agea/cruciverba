@@ -4,7 +4,6 @@ FABBRICA,Produrre in officina
 FABBRICARE,Produrre in officina
 FABBRICATO,Prodotto in officina
 FABBRICHERA,Produrre in officina
-FABBRICHEREBBE,Produrre in officina
 FABBRICO,Produrre in officina
 FABBRO,Batte il ferro finché è caldo
 FABIO,Il Massimo detto il Temporeggiatore
@@ -88,8 +87,6 @@ FATICAI,Spesi molto sforzo
 FATICARE,Spendere molto sforzo
 FATICATO,Speso molto sforzo
 FATICHERA,Farà molta fatica
-FATICHEREBBE,Farebbe molta fatica
-FATICHEREI,Spenderei molto sforzo
 FATICHERO,Spenderò molto sforzo
 FATICHIAMO,Spendiamo molto sforzo
 FATICO,Spendo molto sforzo
@@ -181,7 +178,6 @@ FES,Città marocchina delle concerie
 FESSO,Sciocco in modo poco elegante
 FESTA,Giorno diverso dagli altri
 FESTEGGERA,Celebrerà con festa
-FESTEGGEREBBE,Celebrerebbe con festa
 FESTEGGIA,Celebra con festa
 FESTEGGIARE,Celebrare con festa
 FESTEGGIATO,Celebrato con festa
@@ -514,7 +510,6 @@ FRUGALE,Semplice nel mangiare e nel vivere
 FRUGARE,Cercare rovistando
 FRUGATO,Cercato rovistando
 FRUGHERA,Cercherà rovistando
-FRUGHEREBBE,Cercherebbe rovistando
 FRUGO,Cerco rovistando
 FRULLINO,Attrezzo per montare a mano
 FRUSCIO,Il leggero rumore di foglie o stoffa
@@ -838,3 +833,20 @@ FERRO,"Tiziano, cantautore di Perdono"
 FLORENZI,"Alessandro, esterno di Roma e Milan"
 FIGO,"Luis, fuoriclasse portoghese di Real e Inter"
 FOGNINI,"Fabio, tennista azzurro ligure"
+FC,"Football Club, in sigla"
+FE,Sigla automobilistica di Ferrara
+FG,Sigla automobilistica di Foggia
+FI,Sigla internazionale della Finlandia
+FL,"La Florida, negli indirizzi americani"
+FM,La radio a modulazione di frequenza
+FR,Sigla automobilistica di Frosinone
+FAN,"Il ventilatore, in inglese"
+FEZ,Città del Marocco
+FEBE,La Buffay di Friends
+FIDO,Il nome tipico del cane
+FIGO,"Bello, nel gergo giovanile"
+FINI,"Gli scopi, gli obiettivi"
+FORD,"Harrison..., l'attore di Indiana Jones"
+FRED,Il...Flintstone dei cartoni
+FUJI,Marca giapponese di pellicole
+FUSA,"Sciolte dal calore, al femminile"

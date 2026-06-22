@@ -22,8 +22,6 @@ PAGATO,Saldato un conto
 PAGELLO,Pesce di mare rosato
 PAGHE,"Soddisfatto, al femminile plurale"
 PAGHERA,Darà denaro dovuto
-PAGHEREBBE,Darebbe denaro dovuto
-PAGHEREI,Salderei un conto
 PAGHERO,Salderò un conto
 PAGHI,"Soddisfatto, al plurale"
 PAGHIAMO,Saldiamo un conto
@@ -137,7 +135,6 @@ PARATO,Participio: Fermare un colpo
 PARAVENTO,Schermo pieghevole divisorio
 PARCHE,Le tre divinità romane del destino
 PARCHEGGERA,Lascerà in sosta
-PARCHEGGEREBBE,Lascerebbe in sosta
 PARCHEGGIA,Lascia in sosta
 PARCHEGGIARE,Lasciare in sosta
 PARCHEGGIATO,Lasciato in sosta
@@ -454,7 +451,6 @@ PIEGA,Svolta del tessuto o dei capelli
 PIEGARE,Rendere curvo
 PIEGATO,Reso curvo
 PIEGHERA,Renderà curvo
-PIEGHEREBBE,Renderebbe curvo
 PIEGO,Rendo curvo
 PIENA,"Non vuoto, al femminile"
 PIENE,"Non vuoto, al femminile plurale"
@@ -847,7 +843,6 @@ PUBBLICA,Dà alle stampe
 PUBBLICARE,Dare alle stampe
 PUBBLICATO,Dato alle stampe
 PUBBLICHERA,Darà alle stampe
-PUBBLICHEREBBE,Darebbe alle stampe
 PUBBLICO,Do alle stampe
 PUCCINI,Il Giacomo della Boheme
 PUDIBONDO,Vergognoso in maniera ostentata
@@ -1214,3 +1209,25 @@ PUYOL,"Carles, difensore capitano del Barcellona"
 PIQUE,"Gerard, difensore catalano del Barcellona"
 PENNETTA,"Flavia, azzurra vincitrice degli US Open 2015"
 POGACAR,"Tadej, il fenomeno sloveno del Tour"
+PB,Simbolo chimico del piombo
+PC,"Il personal computer, in sigla"
+PD,Simbolo chimico del palladio
+PG,Sigla automobilistica di Perugia
+PM,"Il primo ministro, in sigla"
+PN,Sigla automobilistica di Pordenone
+PR,Sigla automobilistica di Parma
+PT,Sigla automobilistica di Pistoia
+PV,Sigla automobilistica di Pavia
+PZ,Sigla automobilistica di Potenza
+PAZ,"Pace, in spagnolo"
+PIN,"Il birillo del bowling, in inglese"
+PSI,L'unità di pressione delle gomme
+PAGO,"Soddisfatto, appagato"
+PAIO,"Sembro, do l'impressione"
+PALI,La lingua sacra dei testi buddhisti
+PARA,"I paracadutisti, in breve"
+PAUL,Il polpo che predisse i Mondiali 2010
+PESA,Il punto dove si pesano i camion
+PONY,Il...express delle consegne rapide
+PULA,"La polizia, in gergo"
+PURE,"Anche, perfino"

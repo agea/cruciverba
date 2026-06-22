@@ -66,7 +66,6 @@ IMBARCA,Fa salire a bordo
 IMBARCARE,Far salire a bordo
 IMBARCATO,Fatto salire a bordo
 IMBARCHERA,Farà salire a bordo
-IMBARCHEREBBE,Farebbe salire a bordo
 IMBARCO,Faccio salire a bordo
 IMBELLE,Poco combattivo
 IMBELLI,"Poco combattivo, al plurale"
@@ -165,7 +164,6 @@ INCOLLATO,Unito con colla
 INCOLLO,Uno con colla
 INCOLTO,Il terreno non coltivato
 INCORAGGERA,Darà coraggio
-INCORAGGEREBBE,Darebbe coraggio
 INCORAGGIA,Dà coraggio
 INCORAGGIARE,Dare coraggio
 INCORAGGIATO,Dato coraggio
@@ -181,7 +179,6 @@ INDAGA,Cerca prove con metodo
 INDAGAI,Cercai prove con metodo
 INDAGARE,Cercare prove con metodo
 INDAGATO,Cercato prove con metodo
-INDAGHEREI,Cercherei prove con metodo
 INDAGHERO,Cercherò prove con metodo
 INDAGHIAMO,Cerchiamo prove con metodo
 INDAGO,Cerco prove con metodo
@@ -191,7 +188,6 @@ INDICA,Mostra con un segno
 INDICARE,Mostrare con un segno
 INDICATO,Mostrato con un segno
 INDICHERA,Mostrerà con un segno
-INDICHEREBBE,Mostrerebbe con un segno
 INDICO,Mostro con un segno
 INDISPETTISCO,Provoco stizza
 INDIVIA,Insalata dalle foglie riccie
@@ -533,3 +529,9 @@ IMMOBILE,"Ciro, bomber capocannoniere della Lazio"
 INZAGHI,"Filippo Pippo, opportunista d'area del Milan"
 IBRAHIMOVIC,"Zlatan, gigante svedese del Milan"
 INIESTA,"Andres, regista spagnolo del Barcellona"
+IR,"Andare, in spagnolo"
+IS,"È, in inglese"
+ISA,Diminutivo di Isabella
+ISO,Prefisso che vale uguale
+IAGO,Il pappagallo di Aladdin
+IBIS,Una catena di alberghi economici

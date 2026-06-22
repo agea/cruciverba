@@ -29,7 +29,6 @@ ABBOZZARE,Tracciare appena
 ABBOZZATO,Tracciato appena
 ABBOZZO,Traccio appena
 ABBRACCERA,Stringerà fra le braccia
-ABBRACCEREBBE,Stringerebbe fra le braccia
 ABBRACCIA,Stringe fra le braccia
 ABBRACCIARE,Stringere fra le braccia
 ABBRACCIATO,Stretto fra le braccia
@@ -213,7 +212,6 @@ ACUTO,Angolo non ottuso e ingegno pronto
 AD,Iniziali dell’attore Delon
 ADA,La Lovelace pioniera dell’informatica
 ADAGERA,Poserà con cura
-ADAGEREBBE,Poserebbe con cura
 ADAGIA,Posa con cura
 ADAGIARE,Posare con cura
 ADAGIATO,Posato con cura
@@ -345,7 +343,6 @@ AGAVE,Succulenta che può finire in distillato messicano
 AGENDA,Quaderno degli impegni
 AGER,Campo latino da agricoltura
 AGGANCERA,Prenderà con un gancio
-AGGANCEREBBE,Prenderebbe con un gancio
 AGGANCIA,Prende con un gancio
 AGGANCIARE,Prendere con un gancio
 AGGANCIATO,Preso con un gancio
@@ -482,7 +479,6 @@ ALITAI,Passato remoto: Mandare fiato
 ALITATO,Participio: Mandare fiato
 ALITO,Fiato che esce dalla bocca
 ALLACCERA,Chiuderà con lacci
-ALLACCEREBBE,Chiuderebbe con lacci
 ALLACCIA,Chiude con lacci
 ALLACCIARE,Chiudere con lacci
 ALLACCIATO,Chiuso con lacci
@@ -491,7 +487,6 @@ ALLARGA,Rende più largo
 ALLARGARE,Rendere più largo
 ALLARGATO,Reso più largo
 ALLARGHERA,Renderà più largo
-ALLARGHEREBBE,Renderebbe più largo
 ALLARGO,Rendo più largo
 ALLEA,Une in patto
 ALLEARE,Unire in patto
@@ -532,7 +527,6 @@ ALLOCCO,Rapace notturno e ingenuo da rimprovero
 ALLODOLA,Uccello mattiniero che canta in alto
 ALLOFONO,Variante di un fonema
 ALLOGGERA,Darà o troverà alloggio
-ALLOGGEREBBE,Darebbe o troverebbe alloggio
 ALLOGGIA,Ospita o prende dimora
 ALLOGGIARE,Dare o trovare alloggio
 ALLOGGIATO,Dato o trovato alloggio
@@ -549,7 +543,6 @@ ALLUNGA,Rende più lungo
 ALLUNGARE,Rendere più lungo
 ALLUNGATO,Reso più lungo
 ALLUNGHERA,Renderà più lungo
-ALLUNGHEREBBE,Renderebbe più lungo
 ALLUNGO,Rendo più lungo
 ALLUSIVE,"Che lascia intendere, al femminile plurale"
 ALLUVIONE,Inondazione devastante
@@ -595,7 +588,6 @@ AMA,Vuole bene
 AMADRIADI,Le ninfe legate agli alberi
 AMAI,Volli bene con intensità
 AMANDA,Nome proprio della cantante Lear
-AMANDO,Volendo bene con intensità
 AMANO,Vogliono bene con intensità
 AMARA,"Non dolce, come il fiele, al femminile"
 AMARANTO,Rosso violaceo cupo
@@ -607,7 +599,6 @@ AMARO,"Sapore da espresso senza zucchero, o destino"
 AMATERASU,La dea giapponese del sole
 AMATO,Voluto bene con intensità
 AMAVA,Voleva bene con intensità
-AMAVANO,Volevano bene con intensità
 AMAVO,Volevo bene con intensità
 AMAZZONI,Fiume immenso e donne guerriere
 AMBA,Altura isolata dell’altopiano etiopico
@@ -626,7 +617,6 @@ AMENA,"Piacevole e sereno, al femminile"
 AMENE,"Piacevole e sereno, al femminile plurale"
 AMENI,"Piacevole e sereno, al plurale"
 AMENO,Piacevole in modo da cartolina
-AMEREI,Vorrei bene con intensità
 AMERO,Vorrò bene con intensità
 AMETISTA,Quarzo viola da gioielli
 AMIAMO,Vogliamo bene con intensità
@@ -866,7 +856,6 @@ APPLAUDITO,Battuto le mani
 APPLAUDO,Batto le mani
 APPLIQUE,Lampada fissata alla parete
 APPOGGERA,Poserà sopra un sostegno
-APPOGGEREBBE,Poserebbe sopra un sostegno
 APPOGGIA,Posa sopra un sostegno
 APPOGGIARE,Posare sopra un sostegno
 APPOGGIATO,Posato sopra un sostegno
@@ -1071,7 +1060,6 @@ ASCIUGA,Toglie l'umido
 ASCIUGARE,Togliere l'umido
 ASCIUGATO,Tolto l'umido
 ASCIUGHERA,Toglierà l'umido
-ASCIUGHEREBBE,Toglierebbe l'umido
 ASCIUGO,Tolgo l'umido
 ASCIUTTA,"Privo d'umidità, al femminile"
 ASCIUTTE,"Privo d'umidità, al femminile plurale"
@@ -1192,7 +1180,6 @@ ATTACCAPANNI,Mobile per appendere i cappotti
 ATTACCARE,Unire o iniziare l'assalto
 ATTACCATO,Unito o avviato all'assalto
 ATTACCHERA,Unirà o inizierà l'assalto
-ATTACCHEREBBE,Unirebbe o inizierebbe l'assalto
 ATTACCO,Uno o inizio l'assalto
 ATTANAGLIO,Stringo come in una morsa
 ATTENDE,Aspetta
@@ -1579,3 +1566,43 @@ AMBROSINI,"Massimo, capitano centrocampista del Milan"
 ACERBI,"Francesco, difensore di Lazio e Inter"
 ALCARAZ,"Carlos, giovane fenomeno spagnolo del tennis"
 ARU,"Fabio, scalatore sardo vincitore della Vuelta"
+AB,Un gruppo sanguigno
+AC,"La corrente alternata, in sigla"
+AD,"Anno Domini, nelle date"
+AG,Simbolo chimico dell'argento
+AM,La radio a modulazione d'ampiezza
+AN,Sigla automobilistica di Ancona
+AO,Esclamazione romanesca per richiamare qualcuno
+AP,L'agenzia di stampa statunitense
+AR,Simbolo chimico dell'argon
+AS,Simbolo chimico dell'arsenico
+AU,Esclamazione di chi sente dolore
+AV,Sigla di audiovisivo
+ABI,L'associazione delle banche italiane
+ABU,La scimmietta di Aladdin
+ADA,Un nome di donna palindromo
+ADE,Il dio greco degli Inferi
+AMA,La municipalizzata dei rifiuti di Roma
+AMY,Nome proprio della March di Piccole donne
+API,"Le interfacce di programmazione, in sigla"
+ARE,"Sono, in inglese: you..."
+ART,"L'arte, in inglese"
+AVA,Un nome di donna palindromo
+AVI,"Gli antenati, i progenitori"
+ABBA,"Padre, in aramaico"
+ACME,L'azienda dei marchingegni di Wile E. Coyote
+ACRI,"San Giovanni d'..., città dei crociati"
+ADAM,"Il primo uomo, in inglese"
+AGRA,"Aspra, al femminile"
+AIDA,Tela per il ricamo a punto croce
+AJAX,L'eroe greco Aiace
+ALAN,"Turing, padre dell'informatica"
+ALEX,Il protagonista di Arancia meccanica
+ALZO,La regolazione di mira di un'arma
+AMOR,"Amore, in spagnolo"
+AMOS,Un profeta minore della Bibbia
+ANNA,L'eroina di Tolstoj: ...Karenina
+ANNE,La Frank del Diario
+ARMO,L'equipaggio della barca da canottaggio
+ARPA,L'agenzia regionale per l'ambiente
+ASIA,L'Argento del cinema italiano

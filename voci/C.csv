@@ -267,7 +267,6 @@ CARICA,Mette un peso o energia
 CARICARE,Mettere un peso o energia
 CARICATO,Messo un peso o energia
 CARICHERA,Metterà un peso o energia
-CARICHEREBBE,Metterebbe un peso o energia
 CARICO,Metto un peso o energia
 CARIDDI,Il vortice mostruoso dello stretto
 CARIE,Scavo indesiderato nel dente
@@ -455,7 +454,6 @@ CERCA,Tenta di trovare
 CERCARE,Andare in cerca
 CERCATO,Andato in cerca
 CERCHERA,Andrà in cerca
-CERCHEREBBE,Andrebbe in cerca
 CERCHIO,Linea chiusa equidistante dal centro
 CERCO,Provo a trovare
 CEREA,"Pallido come cera, al femminile"
@@ -702,7 +700,6 @@ CLASSIFICA,Ordina per categorie
 CLASSIFICARE,Ordinare per categorie
 CLASSIFICATO,Ordinato per categorie
 CLASSIFICHERA,Ordinerà per categorie
-CLASSIFICHEREBBE,Ordinerebbe per categorie
 CLASSIFICO,Ordino per categorie
 CLASTICO,"Fatto di frammenti, per geologi"
 CLAUDE,Nome proprio del pittore impressionista Monet
@@ -823,7 +820,6 @@ COMBUSTIONE,La reazione che produce fiamma e calore
 COMETA,Astro con chioma e coda
 COMIGNOLO,Piccola uscita del fumo sul tetto
 COMINCERA,Darà inizio
-COMINCEREBBE,Darebbe inizio
 COMINCIA,Dà inizio
 COMINCIARE,Dare inizio
 COMINCIATO,Dato inizio
@@ -869,7 +865,6 @@ COMUNICA,Mette a parte di una notizia
 COMUNICARE,Mettere a parte di una notizia
 COMUNICATO,Messo a parte di una notizia
 COMUNICHERA,Metterà a parte di una notizia
-COMUNICHEREBBE,Metterebbe a parte di una notizia
 COMUNICO,Metto a parte di una notizia
 CON,Preposizione di compagnia o mezzo
 CONAKRY,Capitale della Guinea
@@ -1642,3 +1637,29 @@ CASILLAS,"Iker, portiere spagnolo San Iker"
 CANTONA,"Eric, il francese ribelle del Manchester United"
 CAPIROSSI,"Loris, pilota azzurro del motomondiale"
 CHIAPPUCCI,"Claudio, El Diablo del ciclismo azzurro"
+CA,Simbolo chimico del calcio
+CB,La radio ricetrasmittente dei camionisti
+CD,Il dischetto erede del vinile
+CE,La marcatura dei prodotti europei
+CF,"Il codice fiscale, in sigla"
+CH,Sigla internazionale della Svizzera
+CL,"Il centilitro, in sigla"
+CM,"Il centimetro, in sigla"
+CN,Sigla automobilistica di Cuneo
+CO,Simbolo chimico del cobalto
+CR,Simbolo chimico del cromo
+CS,Sigla automobilistica di Cosenza
+CT,"Il commissario tecnico, in sigla"
+CZ,Sigla automobilistica di Catanzaro
+CSI,La serie tv sugli investigatori della scientifica
+CARL,"Lewis, nove ori olimpici dell'atletica"
+CAST,"L'ingessatura, in inglese"
+CAVE,"Sta' attento!, in latino"
+CAVI,"Vuoti dentro, al plurale"
+CEDI,La valuta del Ghana
+CITO,"Presto, in latino"
+CLIO,L'utilitaria della Renault
+COLE,"Nat King..., voce del jazz"
+COMO,"Come, in spagnolo"
+COOK,"Il cuoco, in inglese"
+CURE,"Il rimedio, in inglese"
