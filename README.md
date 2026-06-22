@@ -31,18 +31,18 @@ The worker loads `gen_dense.js`, which is precached by the service worker togeth
 
 ## 🗂️ The database
 
-The source database lives in [`voci/`](voci/): **26 CSV files**, one per initial letter, with **13,112 definition rows**. `node builddb.js` turns them into `cruciverba_db.json`, a compact JSON array of `["SOLUTION", clue]` entries, where `clue` is either a **string** (one definition) or an **array of strings** (several definitions for the same solution). When a word has multiple clues, the generator picks one at random per puzzle, so the same answer can be asked differently from one grid to the next.
+The source database lives in [`voci/`](voci/): **26 CSV files**, one per initial letter, with **15,989 definition rows**. `node builddb.js` turns them into `cruciverba_db.json`, a compact JSON array of `["SOLUTION", clue]` entries, where `clue` is either a **string** (one definition) or an **array of strings** (several definitions for the same solution). When a word has multiple clues, the generator picks one at random per puzzle, so the same answer can be asked differently from one grid to the next.
 
 The clue database and definitions are licensed separately from the software: see [LICENSE-CONTENT.md](LICENSE-CONTENT.md).
 
-- **12,870 solutions / 13,112 clues / 190 multi-clue solutions.** Solutions are uppercase, letters **A–Z only** (accents and spaces stripped at build time).
+- **13,720 solutions / 15,989 clues / 1,890 multi-clue solutions.** Solutions are uppercase, letters **A–Z only** (accents and spaces stripped at build time).
 - Length distribution is deliberately skewed toward short words, which feed the dense crossings:
 
 | Letters | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14+ |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Solutions | 178 | 270 | 911 | 1900 | 2205 | 2609 | 1923 | 1415 | 785 | 403 | 164 | 71 | 36 |
+| Solutions | 182 | 285 | 948 | 2046 | 2490 | 2651 | 2015 | 1459 | 875 | 451 | 196 | 78 | 44 |
 
-The `14+` bucket is made of 23 words of length 14, 9 of length 15, 2 of length 16, 1 of length 18 and 1 of length 19. Short slots (2–3 letters) lean on the classic Italian-puzzle style: initialism, car plates, musical notes and chemical symbols — and, being the most frequent, often carry several alternative clues.
+The `14+` bucket is made of 29 words of length 14, 11 of length 15, 2 of length 16, 1 of length 18 and 1 of length 19. Short slots (2–3 letters) lean on the classic Italian-puzzle style: initialism, car plates, musical notes and chemical symbols — and, being the most frequent, often carry several alternative clues.
 
 ### Extending the database
 
