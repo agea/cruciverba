@@ -1,5 +1,21 @@
 #!/bin/sh
 set -e
 
+export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:$PATH"
+
+if ! command -v node >/dev/null 2>&1; then
+  for node_bin in "$HOME"/.nvm/versions/node/*/bin; do
+    if [ -x "$node_bin/node" ]; then
+      PATH="$node_bin:$PATH"
+    fi
+  done
+  export PATH
+fi
+
+if ! command -v node >/dev/null 2>&1; then
+  echo "pre-commit: node not found. Install Node.js or add it to PATH." >&2
+  exit 1
+fi
+
 node scripts/update-readme-stats.js
 git add README.md
