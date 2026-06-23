@@ -31,11 +31,11 @@ The worker loads `gen_dense.js`, which is precached by the service worker togeth
 
 ## 🗂️ The database
 
-The source database lives in [`voci/`](voci/): **26 CSV files**, one per initial letter, with **16,107 definition rows**. `node builddb.js` turns them into `cruciverba_db.json`, a compact JSON array of `["SOLUTION", clue]` entries, where `clue` is either a **string** (one definition) or an **array of strings** (several definitions for the same solution). When a word has multiple clues, the generator picks one at random per puzzle, so the same answer can be asked differently from one grid to the next.
+The source database lives in [`voci/`](voci/): **26 CSV files**, one per initial letter, with **16,437 definition rows**. `node builddb.js` turns them into `cruciverba_db.json`, a compact JSON array of `["SOLUTION", clue]` entries, where `clue` is either a **string** (one definition) or an **array of strings** (several definitions for the same solution). When a word has multiple clues, the generator picks one at random per puzzle, so the same answer can be asked differently from one grid to the next.
 
 The clue database and definitions are licensed separately from the software: see [LICENSE-CONTENT.md](LICENSE-CONTENT.md).
 
-- **13,765 solutions / 16,107 clues / 1,900 multi-clue solutions.** Solutions are uppercase, letters **A–Z only** (accents and spaces stripped at build time).
+- **13,765 solutions / 16,437 clues / 2,230 multi-clue solutions.** Solutions are uppercase, letters **A–Z only** (accents and spaces stripped at build time).
 - Length distribution is deliberately skewed toward short words, which feed the dense crossings:
 
 | Letters | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14+ |
@@ -134,7 +134,13 @@ python3 -m http.server 8000
 # then open http://localhost:8000
 ```
 
-For a pre-commit hook, call `node scripts/update-readme-stats.js` and stage `README.md` if it changed.
+Enable the included pre-commit hook with:
+
+```bash
+git config core.hooksPath .githooks
+```
+
+The hook runs `node scripts/update-readme-stats.js` and stages `README.md` if the statistics changed.
 
 Pushing to `main` triggers the GitHub Actions workflow, which rebuilds the database, writes deploy-time `version.json` metadata from the commit SHA and UTC build time, and deploys the static site to **GitHub Pages**.
 
