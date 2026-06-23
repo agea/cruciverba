@@ -1,3 +1,4 @@
 .DS_Store
 node_modules/
 cruciverba_db.json
+def_booster_batch.txt
