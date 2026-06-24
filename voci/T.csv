@@ -11,7 +11,7 @@ TABULE,Insalata mediorientale di bulgur e prezzemolo
 TAC,Scatto di serratura o esame per immagini
 TACCHINO,Volatile natalizio e tripletta nel bowling
 TACCIO,Forma verbale: Restare zitto
-TACCIONO,Presente plurale: Restare zitto
+TACCIONO,Restano zitti
 TACCO,Rialza scarpe e colpisce nel calcio
 TACCUINO,Quadernetto da appunti
 TACE,Forma verbale: Restare zitto
@@ -98,7 +98,7 @@ TARLO,Rode legno e pensieri
 TARO,Forma verbale: Regolare una misura
 TARSIO,Piccolo primate dagli occhi enormi
 TARSO,Le ossa della parte posteriore del piede
-TARTAGLIA,Il Niccolo matematico bresciano
+TARTAGLIA,Il Niccolò matematico bresciano
 TARTARI,Popolazione di origine mongola
 TARTARO,L'abisso più profondo degli inferi
 TARTARUGA,Rettile dal guscio
@@ -259,7 +259,7 @@ TH,Simbolo chimico del torio
 THAI,Il popolo di Bangkok
 THAILANDIA,Regno del Sud-Est asiatico
 THEO,Nome proprio del fratello di Vincent van Gogh
-THEODORE,Nome proprio del presidente americano Roosevelt
+THEODORE,Il Roosevelt dei Rough Riders
 THIERRY,Nome proprio del calciatore francese Henry
 THOMAS,Nome proprio dell'inventore Edison
 THOR,Il dio nordico del tuono
@@ -449,9 +449,9 @@ TRACINA,Pesce velenoso che si infossa nella sabbia
 TRACOMA,Malattia infettiva dell'occhio
 TRACOTANZA,L'arroganza sfacciata
 TRADIRE,Venir meno alla fiducia
-TRADISCE,Venir meno alla fiducia
-TRADISCO,Venir meno alla fiducia
-TRADISCONO,Venir meno alla fiducia
+TRADISCE,Viene meno alla fiducia
+TRADISCO,Vengo meno alla fiducia
+TRADISCONO,Vengono meno alla fiducia
 TRADITO,Venuto meno alla fiducia
 TRADUSSE,Volse in altra lingua
 TRAFFICO,Mi agito in mille faccende
@@ -636,7 +636,7 @@ TARABUSO,Airone dal verso simile a un muggito
 TEVERE,Il fiume di Roma
 TRASIMENO,Il lago umbro della battaglia annibalica
 TEORBA,Liuto barocco dal lungo manico
-THOTH,Il dio egizio della scrittura
+THOTH,"Il dio egizio della scrittura, nella grafia inglese"
 TRUFFAUT,Il regista francese dei Quattrocento colpi
 TABLET,Computer piatto a schermo tattile
 TACOS,Tortillas messicane ripiene e ripiegate
@@ -726,7 +726,7 @@ TUFO,La tenera roccia di origine vulcanica
 TUBO,Il condotto cilindrico dell'acqua
 TAU,La croce a forma di T di San Francesco
 TIR,Il grosso autoarticolato delle merci
-TRE,I...moschettieri di Dumas
+TRE,I... moschettieri di Dumas
 TARO,Il fiume emiliano affluente del Po
 TESO,"Nervoso, in ansia"
 TIMO,L'aromatica erbacea usata in cucina
@@ -757,7 +757,7 @@ TURNO,Il...di lavoro o di guardia
 TAVOLO,Ci si siede a mangiare e a trattare
 TENNIS,Lo sport del dritto e del rovescio
 TIFOSO,Sostiene la squadra dagli spalti
-TAZZA,Una tempesta in una...d'acqua
+TAZZA,Una tempesta in una... d'acqua
 TACERE,Chi...acconsente
 TIMIDO,Arrossisce per un nulla
 TRISTE,"Giù di morale, mesto"
@@ -799,12 +799,12 @@ TEMPO,A...perso: nei ritagli di tempo
 TASTO,Toccare un...dolente: un argomento spinoso
 TASTO,Quello bianco o nero del pianoforte
 TRONO,Il seggio su cui siede il re
-TOZZO,Un...di pane raffermo
+TOZZO,Un... di pane raffermo
 TORDO,"Lo sciocco, il credulone"
 TOSSE,Il colpo che irrita la gola
 TARDO,Lento e ottuso di mente
 TALE,"Un...: un tizio, un certo individuo"
-TIRA,...e molla: l'andirivieni indeciso
+TIRA,... e molla: l'andirivieni indeciso
 TAGLIO,Le banconote di grosso...
 TAGLIO,Dare un...: ridurre drasticamente
 TAPPETO,Mandare al...: stendere l'avversario
@@ -814,8 +814,8 @@ TENORE,"Il...di vita, lo standard economico"
 TESORO,L'appellativo affettuoso per la persona amata
 TIMONE,Reggere il...: tenere la guida
 TIMORE,"Il...di Dio, il rispetto reverenziale"
-TORCIA,La...elettrica che fa luce
-TRATTO,"I...del viso, i lineamenti"
+TORCIA,La... elettrica che fa luce
+TRATTI,"I... del viso, i lineamenti"
 TRATTO,A un...: all'improvviso
 TRUFFA,"L'imbroglio, la fregatura ai danni di qualcuno"
 TENERA,La verde... età della gioventù
@@ -828,7 +828,7 @@ TRILLO,Lo squillo del campanello
 TUNICA,La veste lunga e sciolta degli antichi
 TUO,Il possessivo: il...zaino
 TUA,Il possessivo femminile: la...penna
-TUO,Il...e il mio
+TUO,Il... e il mio
 TU,Dare del...: trattare con familiarità
 TRE,Il numero che segue il due
 TEA,"Il tè, in inglese"
@@ -881,7 +881,7 @@ THOR,Il supereroe Marvel col martello
 TIFA,La pianta palustre dalle spighe a sigaro
 TONI,Le sfumature di colore o di suono
 TONY,I premi del teatro di Broadway
-TOTI,L'eroe Enrico...con la stampella
+TOTI,L'eroe Enrico... con la stampella
 TOTO,Il cagnolino di Dorothy nel Mago di Oz
 TRAP,"La trappola, in inglese"
 TUTU,L'arcivescovo sudafricano Desmond...
@@ -900,13 +900,13 @@ TH,Iniziali dello scrittore Hardy
 TI,Pronome: ...voglio bene
 TO,"To'!, l'esclamazione di chi nota qualcosa"
 TV,Sigla automobilistica di Treviso
-TAC,Il...tac dell'orologio
+TAC,Il tic... dell'orologio
 TEX,"Lo Stato del Texas, abbreviato"
 THAI,La boxe coi colpi di gomito e ginocchio
 TRAM,Un...che si chiama Desiderio
 TASSO,"Torquato..., poeta della Gerusalemme liberata"
 TERME,Le...di Caracalla a Roma
-TERZA,La...età: la vecchiaia
+TERZA,La... età: la vecchiaia
 TESLA,L'auto elettrica di Elon Musk
 TIGRE,...di carta: nemico solo apparente
 TOAST,Fare un...: brindare
@@ -926,7 +926,7 @@ TORINO,"La squadra granata, il...calcio"
 TROMBA,...d'aria: il vortice di vento
 TUNNEL,"Nel calcio, la palla fatta passare tra le gambe"
 TURNER,"Tina..., la regina del rock"
-TALENTO,La parabola dei...i nel Vangelo
+TALENTI,La parabola dei... nel Vangelo
 TAMBURO,A...battente: rapidamente e con forza
 TARTUFO,L'ipocrita protagonista di Molière
 TENDINE,Le piccole tende alle finestre
@@ -947,12 +947,12 @@ TERREMOTO,Uno sconvolgimento improvviso e totale
 TARTARUGA,Gli addominali ben scolpiti dell'atleta
 TERMOMETRO,L'indicatore dell'umore o di una situazione
 TRAMONTANA,Perdere la...: smarrire l'orientamento
-TRAMPOLINO,Un...di lancio per la carriera
+TRAMPOLINO,Un... di lancio per la carriera
 TERRACOTTA,L'Armata di...del primo imperatore cinese
-TALE,"Il...e Quale Show, programma di imitazioni"
+TALE,"Il... e Quale Show, programma di imitazioni"
 TARA,Il difetto ereditario trasmesso
 TIPO,"Il gruppo sanguigno: A, B, AB o 0"
-TIRO,"Il...con l'arco, disciplina olimpica"
+TIRO,"Il... con l'arco, disciplina olimpica"
 TONO,Darsi un...: assumere un'aria d'importanza
 TOPO,"Il...di biblioteca, lo studioso accanito"
 TOTO,"Il...calcio, il concorso a pronostici"
