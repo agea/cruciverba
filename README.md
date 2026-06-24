@@ -31,11 +31,11 @@ The worker loads `gen_dense.js`, which is precached by the service worker togeth
 
 ## 🗂️ The database
 
-The source database lives in [`voci/`](voci/): **26 CSV files**, one per initial letter, with **16,969 definition rows**. `node builddb.js` turns them into `cruciverba_db.json`, a compact JSON array of `["SOLUTION", clue]` entries, where `clue` is either a **string** (one definition) or an **array of strings** (several definitions for the same solution). When a word has multiple clues, the generator picks one at random per puzzle, so the same answer can be asked differently from one grid to the next.
+The source database lives in [`voci/`](voci/): **26 CSV files**, one per initial letter, with **17,110 definition rows**. `node builddb.js` turns them into `cruciverba_db.json`, a compact JSON array of `["SOLUTION", clue]` entries, where `clue` is either a **string** (one definition) or an **array of strings** (several definitions for the same solution). When a word has multiple clues, the generator picks one at random per puzzle, so the same answer can be asked differently from one grid to the next.
 
 The clue database and definitions are licensed separately from the software: see [LICENSE-CONTENT.md](LICENSE-CONTENT.md).
 
-- **13,792 solutions / 16,969 clues / 2,671 multi-clue solutions.** Solutions are uppercase, letters **A–Z only** (accents and spaces stripped at build time).
+- **13,792 solutions / 17,110 clues / 2,671 multi-clue solutions.** Solutions are uppercase, letters **A–Z only** (accents and spaces stripped at build time).
 - Length distribution is deliberately skewed toward short words, which feed the dense crossings:
 
 | Letters | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14+ |

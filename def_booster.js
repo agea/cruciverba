@@ -32,10 +32,16 @@ const cmd = process.argv[2] || "pick";
 
 if(cmd === "pick"){
   const N = parseInt(process.argv[3] || "100", 10);
+  // Filtri opzionali sul numero di definizioni: --min K  --max K
+  const argv = process.argv.slice(4);
+  const getOpt = (name) => { const i = argv.indexOf(name); return i>=0 ? parseInt(argv[i+1],10) : null; };
+  const minDef = getOpt("--min");
+  const maxDef = getOpt("--max");
   const db = JSON.parse(fs.readFileSync(DB,"utf8"));
   const processed = loadProcessed();
   const rows = db.map(([w,c]) => ({ w, defs: Array.isArray(c)?c:[c] }))
-                 .filter(r => !processed.has(r.w));
+                 .filter(r => !processed.has(r.w))
+                 .filter(r => (minDef==null || r.defs.length>=minDef) && (maxDef==null || r.defs.length<=maxDef));
   rows.sort((a,b)=> a.defs.length-b.defs.length || a.w.length-b.w.length || a.w.localeCompare(b.w));
   const batch = rows.slice(0, N);
   const out = batch.map(r => `${r.w}\t[${r.defs.length}]\t${r.defs.join(" | ")}`).join("\n");
