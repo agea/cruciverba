@@ -782,6 +782,42 @@ function finalizeDense(black, letters, W, H, answerToClues, rnd) {
            wordCount: across.length + down.length, ghosts: ghosts };
 }
 
+function isVowelChar(ch) {
+  return ch === "A" || ch === "E" || ch === "I" || ch === "O" || ch === "U";
+}
+
+function parallelVowelAlternationScore(res) {
+  function scoreList(words, horizontal) {
+    var score = 0;
+    for (var a = 0; a < words.length; a++) {
+      for (var b = a + 1; b < words.length; b++) {
+        var wa = words[a], wb = words[b];
+        if (horizontal) {
+          if (Math.abs(wa.row - wb.row) !== 1) continue;
+          var c0 = Math.max(wa.col, wb.col);
+          var c1 = Math.min(wa.col + wa.len, wb.col + wb.len);
+          if (c1 - c0 < 3) continue;
+          for (var c = c0; c < c1; c++) {
+            score += (isVowelChar(wa.answer.charAt(c - wa.col)) !==
+              isVowelChar(wb.answer.charAt(c - wb.col))) ? 8 : -3;
+          }
+        } else {
+          if (Math.abs(wa.col - wb.col) !== 1) continue;
+          var r0 = Math.max(wa.row, wb.row);
+          var r1 = Math.min(wa.row + wa.len, wb.row + wb.len);
+          if (r1 - r0 < 3) continue;
+          for (var r = r0; r < r1; r++) {
+            score += (isVowelChar(wa.answer.charAt(r - wa.row)) !==
+              isVowelChar(wb.answer.charAt(r - wb.row))) ? 8 : -3;
+          }
+        }
+      }
+    }
+    return score;
+  }
+  return scoreList(res.across, true) + scoreList(res.down, false);
+}
+
 function chooseSeedCross(bank, W, H, rnd, opts) {
   opts = opts || {};
   if (W < 7 || H < 7) return null;
@@ -988,9 +1024,10 @@ function attemptDense(bank, W, H, blackProb, maxRun, patternAttempts, fillBudget
       }
       var shortPenalty = shortSlots * 1450 + twoSlots * 850;
       var blackShapePenalty = (quality.blackElbows || 0) * 2600 + (quality.blackGroups3 || 0) * 20000;
+      var vowelPatternScore = parallelVowelAlternationScore(res);
       var score = quality.whiteTotal * 1600 - quality.blackTotal * 900 +
         longest * 900 + longWords * 180 + totalLen * 12 +
-        res.wordCount * 15 - shortPenalty - blackShapePenalty -
+        res.wordCount * 15 + vowelPatternScore * 18 - shortPenalty - blackShapePenalty -
         res.ghosts.length * 100000;
       if (!best || score > best.score) best = { result: res, score: score };
       if (res.ghosts.length === 0) {
