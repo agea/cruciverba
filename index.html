@@ -179,9 +179,9 @@
     border-radius:9px; border:1px solid var(--line); background:var(--paper-2);
     font-family:var(--font-cell); font-size:18px; font-weight:600; color:var(--ink);
     display:flex; align-items:center; justify-content:center; cursor:pointer;
-    box-shadow:0 2px 0 var(--line);
+    box-shadow:0 2px 0 var(--line); touch-action:manipulation;
   }
-  .key:active{transform:translateY(2px); box-shadow:0 0 0 var(--line); background:var(--board);}
+  .key:active,.key.pressed{transform:translateY(2px); box-shadow:0 0 0 var(--line); background:var(--board);}
   .key.wide{flex:1.6 1 0; max-width:74px; font-size:16px;}
   .key.act{background:var(--ink); color:var(--paper); border-color:var(--ink); box-shadow:0 2px 0 #000;}
   .key:focus-visible{outline:2px solid var(--accent); outline-offset:2px;}
@@ -765,7 +765,25 @@
       });
       requestAnimationFrame(setKbHeightVar);
     }
-    function mkKey(label, cls){ var k=document.createElement("button"); k.className="key"+(cls?(" "+cls):""); k.type="button"; k.textContent=label; return k; }
+    function mkKey(label, cls){ var k=document.createElement("button"); k.className="key"+(cls?(" "+cls):""); k.type="button"; k.textContent=label; bindKeyPressFeedback(k); return k; }
+    function bindKeyPressFeedback(k){
+      var removeTimer=null;
+      function press(){ clearTimeout(removeTimer); k.classList.add("pressed"); }
+      function release(){ clearTimeout(removeTimer); removeTimer=setTimeout(function(){ k.classList.remove("pressed"); }, 80); }
+      if(window.PointerEvent){
+        k.addEventListener("pointerdown", press);
+        k.addEventListener("pointerup", release);
+        k.addEventListener("pointercancel", release);
+        k.addEventListener("pointerleave", release);
+      } else {
+        k.addEventListener("touchstart", press, {passive:true});
+        k.addEventListener("touchend", release);
+        k.addEventListener("touchcancel", release);
+        k.addEventListener("mousedown", press);
+        k.addEventListener("mouseup", release);
+        k.addEventListener("mouseleave", release);
+      }
+    }
     function toggleDir(){ if(!active) return; var r=active.r,c=active.c; var other=active.dir===0?1:0; if(cellWords[r][c][other]){ active.dir=other; refreshHighlight(); } }
     function setKbHeightVar(){ var dock=document.querySelector(".dock"); if(dock) document.documentElement.style.setProperty("--kbd-h", dock.offsetHeight+"px"); }
 
