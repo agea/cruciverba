@@ -4,12 +4,13 @@ MACAO,Il pappagallo variopinto
 MACAONE,Grande farfalla gialla e nera
 MACARON,Il dolcetto francese colorato a due dischi
 MACBETH,Ambizioso re di Scozia in tragedia
-MACCHIA,Sporca con una chiazza
 MACCHIA,Segno sul tessuto o nella coscienza
+MACCHIA,Sporca con una chiazza
 MACCHIARE,Sporcare con una chiazza
 MACCHIATO,Sporcato con una chiazza
-MACCHINA,"Dispositivo, automobile o complotto"
 MACCHINA,Auto o congegno
+MACCHINA,"Dispositivo, automobile o complotto"
+MACCHINETTA,Piccolo apparecchio meccanico
 MACCHIO,Sporco con una chiazza
 MACEDONIA,Nome balcanico con lunga storia antica
 MACELLAIO,Chirurgo brutale e maldestro
@@ -21,8 +22,8 @@ MACERIA,Resto di muro crollato
 MACHIAVELLI,Il Niccolò del Principe
 MACHINA,Trucco teatrale quando scende il dio
 MACHUPICCHU,La cittadella inca sulle Ande
-MACIGNO,Pietra grande e peso morale
 MACIGNO,Grossa pietra pesante
+MACIGNO,Pietra grande e peso morale
 MACILENTA,Può esserlo una cosa magra e sciupata
 MACILENTE,Possono esserlo cose magre e sciupate
 MACILENTI,Possono esserlo oggetti magri e sciupati
@@ -30,6 +31,7 @@ MACILENTO,Magro fino a far pensare alla fame
 MACINA,La pesante pietra del mulino
 MACINA,Pietra che riduce in farina
 MACINACAFFE,Apparecchio che macina i chicchi
+MACINACAFFE,Riduce i chicchi in polvere
 MACINARE,Ridurre in polvere
 MACINATO,Ridotto in polvere
 MACININO,Piccolo macinacaffè
@@ -45,9 +47,10 @@ MADEIRA,Isola portoghese del vino omonimo
 MADERA,Il vino liquoroso portoghese
 MADERA,Isola portoghese dell'Atlantico
 MADIA,Il mobile da cucina per il pane e la farina
+MADIA,Mobile rustico per pane e farina
 MADONNA,La Vergine Maria nei dipinti
-MADONNA,"La regina del pop, Material Girl"
 MADONNA,La Vergine nell'arte sacra
+MADONNA,"La regina del pop, Material Girl"
 MADRAS,Storica città del sud dell'India
 MADRE,La scheda...del computer
 MADRE,La... patria che accoglie i figli
@@ -57,6 +60,7 @@ MADREPORA,Corallo costruttore di scogliere
 MADRID,Capitale spagnola del Prado
 MADRID,"Il Real..., la squadra dei galacticos"
 MADRIGALE,Componimento poetico o musicale
+MAELSTROM,Gorgo marino leggendario e pauroso
 MAELSTROM,Gorgo nordico diventato metafora
 MAESTOSO,Indicazione musicale solenne
 MAESTRA,Insegna ai bambini
@@ -72,6 +76,7 @@ MAGGESE,Campo lasciato a riposo
 MAGGIO,Il mese delle rose e degli sposi
 MAGGIO,Il...francese del 1968
 MAGGIOLINO,Coleottero bruno che vola di sera
+MAGGIOLINO,Insetto di primavera o piccola auto storica
 MAGGIOLINO,L'iconica utilitaria Volkswagen
 MAGGIORANA,Erba aromatica simile all'origano
 MAGGIORDOMO,Il capo della servitù di una casa nobile
@@ -86,12 +91,13 @@ MAGLIA,"Indumento, rete o punto lavorato"
 MAGLIA,Ognuno dei buchi della rete
 MAGLIA,Quella rosa del Giro d'Italia
 MAGLIO,Grande martello da fucina
+MAGLIONE,Abbraccia il busto nelle giornate fredde
 MAGLIONE,Indumento di lana per l'inverno
 MAGMA,Roccia prima di diventare pietra
 MAGNANI,L'Anna di Roma città aperta
 MAGNESIO,Metallo leggero che brucia con luce bianca
-MAGNETE,Attira senza mani
 MAGNETE,Attira il ferro
+MAGNETE,Attira senza mani
 MAGNETITE,Minerale ferrifero attratto dalla calamita
 MAGNETO,Il nemico mutante degli X-Men
 MAGNINI,Il nuotatore azzurro campione del mondo
@@ -107,6 +113,7 @@ MAGRI,Possono esserlo oggetti poco grassi
 MAGRITTE,Surrealista che negava fosse una pipa
 MAGRO,Il giorno di...: senza carne
 MAGRO,Poco grasso o poco ricco
+MAHLER,Compositore di sinfonie monumentali
 MAHLER,Sinfonista di grandi organici
 MAHMOOD,Il cantante di Soldi a Sanremo
 MAI,In nessun momento
@@ -114,11 +121,13 @@ MAI,Tempo negato
 MAIA,L'ape protagonista dei cartoni
 MAIA,La Pleiade madre di Hermes
 MAIALE,Animale da cui si ricava il prosciutto
+MAIALE,Grugnisce e fornisce salumi
 MAIALINO,Piccolo suino da fiaba o fattoria
 MAIEUTICA,Fa nascere idee con domande
 MAINE,"...Coon, la grande razza di gatto"
 MAINE,Lo Stato americano dell'aragosta a nord-est
 MAINECOON,Il grande gatto americano dal pelo lungo
+MAIOLICA,Ceramica smaltata dai colori lucidi
 MAIORCA,La maggiore delle Baleari
 MAIS,Cereale della polenta
 MAIS,Cereale delle pannocchie
@@ -126,6 +135,7 @@ MAJORANA,L'Ettore fisico scomparso misteriosamente
 MALABO,La capitale della Guinea Equatoriale
 MALACCA,Stretto tra Malesia e Sumatra
 MALACHITE,Minerale verde ornamentale
+MALACHITE,Pietra verde a venature decorative
 MALACIA,Rammollimento in linguaggio medico
 MALAGEVOLE,Può esserlo un oggetto difficile da compiere
 MALAGEVOLI,Possono esserlo oggetti difficili da compiere
@@ -135,6 +145,7 @@ MALANDATE,Possono esserlo cose ridotte male
 MALANDATI,Possono esserlo oggetti ridotti male
 MALANDATO,Può esserlo un oggetto ridotto male
 MALANDRINO,Furfante da romanzo antico
+MALANDRINO,Furfante da romanzo popolare
 MALARIA,Febbre di palude e zanzare
 MALATO,Chi sta male e ha bisogno di cure
 MALCOLM,"...in the Middle, la sitcom"
@@ -158,8 +169,10 @@ MALFERME,Possono esserlo cose poco stabili
 MALFERMI,Possono esserlo oggetti poco stabili
 MALFERMO,Può esserlo un oggetto poco stabile
 MALGA,Alpeggio con latte e formaggi
+MALGA,Rifugio alpino con pascoli e formaggi
 MALI,Stato africano di Timbuctù
 MALINCONIA,Tristezza dolce e pensosa
+MALINCONIA,"Tristezza dolce, più lenta del pianto"
 MALIZIA,Intelligenza con doppio fondo
 MALIZIOSA,Può esserlo una donna scaltra con un sorrisa sottintesa
 MALIZIOSE,Possono esserlo donne scaltre con un sorrise sottintese
@@ -185,6 +198,7 @@ MAMMA,Nome che spesso si impara per primo
 MAMMONE,Demone della cupidigia
 MAMMONE,Il figlio troppo attaccato alla mamma
 MAMMUT,Elefante preistorico lanoso
+MAMMUT,Gigante peloso dell'era glaciale
 MANAGEMENT,La gestione di un'azienda
 MANAGER,Chi dirige un'attività o un atleta
 MANAGUA,La capitale nicaraguense
@@ -207,15 +221,19 @@ MANDIBOLA,Osso mobile della bocca
 MANDO,Faccio andare altrove
 MANDOLINO,Strumento a corde napoletano
 MANDORLA,Occhi a...: dal taglio allungato
-MANDORLA,Seme dolce racchiuso nel guscio
 MANDORLA,Seme del confetto
+MANDORLA,Seme dolce nascosto in un guscio duro
+MANDORLA,Seme dolce racchiuso nel guscio
 MANDORLO,Albero che fiorisce presto
+MANDRAGOLA,Pianta leggendaria dalla radice inquietante
 MANDRAGORA,Pianta magica delle leggende
 MANDRIANO,Chi conduce le mandrie
+MANEGGIO,Luogo dove si montano e addestrano cavalli
 MANESKIN,La band romana vincitrice dell'Eurovision 2021
 MANET,Dipinse colazioni poco accademiche
 MANETTA,A...: a tutta velocità
 MANETTA,Tiene i polsi o apre gas
+MANETTE,Uniscono i polsi di chi viene arrestato
 MANFREDI,Il Nino attore ciociaro
 MANGANESE,Metallo usato nelle leghe d'acciaio
 MANGANO,La Silvana di Riso amaro
@@ -224,11 +242,14 @@ MANGIA,Si nutre
 MANGIANASTRI,Vecchio lettore di musicassette
 MANGIARE,Nutrirsi
 MANGIATO,Nutrito
+MANGIATOIA,Dove gli animali trovano fieno e granaglie
 MANGIATOIA,Il recipiente del foraggio nella stalla
 MANGIATOIA,Recipiente per il cibo degli animali
+MANGIME,Cibo per animali
 MANGIO,Mi nutro
 MANGO,Frutto tropicale e non manico
 MANGO,Il cantautore salentino di Lei verrà
+MANGROVIA,Albero tropicale con radici nell'acqua salmastra
 MANGROVIA,L'albero delle paludi salmastre tropicali
 MANHATTAN,Il cocktail con whisky e vermut rosso
 MANI,"...pulite, l'inchiesta sulla corruzione"
@@ -241,12 +262,16 @@ MANICA,Parte del vestito e cerchia di complici
 MANICA,Parte della camicia o braccio di mare
 MANICO,Parte da impugnare
 MANIERISMO,Stile che sa troppo di stile
+MANIERO,Castello feudale in cima al colle
+MANIGLIA,Impugnatura per aprire la porta
 MANIGLIA,Si afferra per aprire la porta
 MANILA,Capitale delle Filippine
+MANILA,Capitale filippina sulla baia omonima
 MANISCALCO,Ferra gli zoccoli dei cavalli
 MANO,"Aiuta, firma, prende e si alza"
-MANO,Lo strato di vernice steso
 MANO,"Lava l'altra, nel proverbio"
+MANO,Lo strato di vernice steso
+MANOVALE,Aiuta in cantiere con braccia e fatica
 MANOVALE,Operaio addetto ai lavori pesanti
 MANOVRA,Aziona con abilità
 MANOVRARE,Azionare con abilità
@@ -261,42 +286,47 @@ MANSUETO,Può esserlo un oggetto docile e mite
 MANTA,La gigantesca razza degli oceani
 MANTEGNA,L'Andrea della Camera degli Sposi
 MANTELLA,Ampio indumento senza maniche
+MANTELLO,Copre le spalle o il dorso dell'animale
 MANTELLO,Il...dell'invisibilità di Harry Potter
 MANTELLO,Il...di neve che copre i campi
 MANTELLO,Indumento ampio o copertura
-MANTELLO,Copre le spalle o il dorso dell'animale
 MANTICA,Arte di divinare il futuro
 MANTICE,Fa respirare la fisarmonica
+MANTICE,Respira aria in fisarmoniche e fucine
 MANTICORA,Mostro con corpo di leone e coda di scorpione
 MANTIDE,Insetto che sembra pregare
 MANTO,Copertura regale o animale
 MANTO,Il mantello regale
 MANTO,Quello stradale dell'asfalto
 MANTOVA,Città dei Gonzaga
+MANTOVA,Città dei Gonzaga circondata dai laghi
 MANTOVANA,L'abitante di Mantova
 MANTOVANA,La fascia decorativa sopra le tende
 MANTRA,Formula ripetuta fino a diventare ritmo
+MANUBRIO,Si impugna su bici e moto
 MANUEL,Il nome del portiere tedesco Neuer
 MANZO,Il bovino da cui la bistecca
 MANZONI,L'Alessandro dei Promessi sposi
 MAORI,Popolo polinesiano di Aotearoa
 MAPPA,Disegno di un territorio
+MAPPAMONDO,Globo con terre e mari
 MAPUTO,Capitale del Mozambico
 MAQUILLAGE,Il trucco del viso alla francese
-MARA,La...Maionchi della tv
 MARA,Il nome della conduttrice Venier
+MARA,La...Maionchi della tv
 MARACAIBO,Grande lago del Venezuela
 MARACANA,Il leggendario stadio di Rio de Janeiro
 MARACAS,Strumento a percussione a sonagli
 MARACUJA,Il frutto della passione
 MARADONA,Il Diego del gol del secolo
 MARANELLO,La cittadina sede della Ferrari
+MARASCA,Ciliegia acidula da liquori e sciroppi
 MARASMA,Confusione stagnante o deperimento
 MARAT,Rivoluzionario francese ucciso nella vasca
-MARATONA,Corsa di oltre quaranta chilometri
 MARATONA,Corsa di 42 chilometri e 195 metri
-MARC,"Márquez, asso della MotoGP"
+MARATONA,Corsa di oltre quaranta chilometri
 MARC,Il nome del pittore Chagall
+MARC,"Márquez, asso della MotoGP"
 MARCA,"Confine, griffe o regione storica"
 MARCA,La regione di confine medievale
 MARCARE,Segnare strettamente
@@ -304,11 +334,13 @@ MARCASITE,Minerale simile alla pirite
 MARCATO,Segnato strettamente
 MARCEL,Il nome dello scrittore Proust
 MARCESCENTE,Sta andando a putrefazione
+MARCHE,"Regione di colline, grotte e Adriatico"
 MARCHERA,Segnerà strettamente
 MARCIA,"Il passo cadenzato del soldato, o quella dell'auto"
 MARCIA,La...nuziale che accompagna gli sposi
 MARCIA,La...su Roma del 1922
 MARCIAPIEDE,Si cammina a lato della strada
+MARCIAPIEDE,Tiene i pedoni lontani dalle ruote
 MARCO,L'evangelista del leone alato
 MARCO,L'ex moneta della Germania
 MARCO,Segno strettamente
@@ -316,19 +348,21 @@ MARCONI,Il Guglielmo premio Nobel per la radio
 MARCOPOLO,Il veneziano che raccontò la Cina
 MARDUK,Il dio supremo di Babilonia
 MARE,Distesa che separa e unisce
-MARE,Una grande quantità: un... di gente
 MARE,Grande distesa d'acqua salata
+MARE,Grande distesa salata in movimento
+MARE,Una grande quantità: un... di gente
 MAREA,Sale e scende per la Luna
 MAREGGIATA,Mare agitato che frusta la costa
 MAREMMA,...maiala!: l'imprecazione toscana
 MAREMMA,Terra toscana di butteri e paludi bonificate
 MAREMOTO,Onda gigante da sisma sottomarino
+MAREZZA,Increspatura irregolare sulla superficie dell'acqua
 MAREZZATO,Variegato come marmo o seta
 MARGARET,Il nome della premier britannica Thatcher
 MARGARITA,Il cocktail messicano con tequila e lime
+MARGHERITA,Fiore bianco o pizza semplice
 MARGHERITA,Il fiore dei prati dai petali bianchi
 MARGHERITA,La pizza col pomodoro e la mozzarella
-MARGHERITA,Fiore bianco o pizza semplice
 MARGHERITE,Si sfogliano per gioco in amore
 MARGINALIA,Note ai bordi dei libri
 MARGINE,Bordo della pagina o del campo
@@ -336,8 +370,8 @@ MARGOT,Il nome dell'attrice Robbie
 MARGUERITE,Il nome della scrittrice Duras
 MARI,I sette...: tutti gli oceani del mondo
 MARI,Pluralità di acque vaste
-MARIA,La madre di Gesù
 MARIA,Il nome del soprano Callas
+MARIA,La madre di Gesù
 MARIACHI,Il complesso musicale messicano
 MARILYN,Il nome dell'attrice Monroe
 MARIMBA,Strumento a percussione di origine africana
@@ -347,10 +381,11 @@ MARINAIO,Uomo di mare
 MARIO,Il Monicelli della grande commedia italiana
 MARIO,L'idraulico baffuto dei videogiochi
 MARION,Il nome dell'attrice francese Cotillard
+MARIONETTA,Personaggio mosso da fili e mani nascoste
 MARIONETTA,Pupazzo mosso dai fili
 MARITO,"Lo sposo, il consorte"
-MARK,La vecchia moneta tedesca
 MARK,Il nome del fondatore di Facebook Zuckerberg
+MARK,La vecchia moneta tedesca
 MARKETING,Le tecniche per vendere un prodotto
 MARLENE,"...Dietrich, la diva di Berlino"
 MARLENE,"La Kuntz, band rock italiana"
@@ -360,14 +395,18 @@ MARLIN,Il papà di Nemo nel cartone
 MARMELLATA,Confettura da spalmare sul pane
 MARMELLATA,Conserva dolce di frutta
 MARMISTA,Artigiano che lavora il marmo
+MARMITTA,Pentola grande o silenziatore d'auto
 MARMO,Pietra che gli scultori liberano
 MARMOLADA,Regina dolomitica
 MARMOTTA,Roditore alpino che fischia
+MARMOTTA,Roditore alpino dal fischio d'allarme
 MARMOTTE,Dormono a lungo nelle tane alpine
 MARNERO,Il Ponto Eusino in forma moderna
 MAROCCO,"Paese di Rabat, Fes e Marrakech"
+MAROSTICA,Città veneta della partita a scacchi vivente
 MARQUEZ,Autore di Cent'anni di solitudine
 MARQUEZ,"Marc, fuoriclasse spagnolo della MotoGP"
+MARQUEZ,Scrittore di Cent'anni di solitudine
 MARRA,Zappa robusta da campi
 MARRACASH,"Il rapper milanese, il King del rap"
 MARRAKECH,Città marocchina della piazza Jemaa el-Fna
@@ -375,19 +414,22 @@ MARROSSO,Mare tra Africa e Arabia
 MARS,La barretta di cioccolato e caramello
 MARS,"Marte, in inglese"
 MARSALA,Città siciliana del vino e dei Mille
+MARSHALL,Il nome del rapper Eminem Mathers
 MARSHALL,Il piano...per ricostruire l'Europa
 MARSHALL,L'amplificatore per chitarra elettrica
-MARSHALL,Il nome del rapper Eminem Mathers
 MARSHMELLO,Il dj mascherato dalla testa bianca
 MARSIGLIA,Grande porto francese sul Mediterraneo
 MARSINA,Giacca da cerimonia ottocentesca
 MARSUPIO,Borsa in vita o tasca del canguro
+MARSUPIO,Tasca naturale dei canguri o borsa da cintura
 MARTA,Sorella di Maria e Lazzaro nei Vangeli
 MARTE,"Il pianeta rosso, o il dio della guerra"
 MARTELLO,Batte sul chiodo
+MARTELLO,Colpisce chiodi e incudini
 MARTHA,Il nome della coreografa Graham
 MARTIN,Il nome del regista Scorsese
 MARTINGALA,Sistema di gioco o fibbia d'abito
+MARTINI,Artista senese dell'Annunciazione
 MARTINI,Il cocktail con gin e vermut
 MARTINI,Pittore senese dell'Annunciazione
 MARTINMYSTERE,Il detective dell'impossibile dei fumetti italiani
@@ -408,15 +450,18 @@ MASCAGNI,Il Pietro della Cavalleria rusticana
 MASCARPONE,Il formaggio cremoso del tiramisù
 MASCATE,Capitale dell'Oman
 MASCELLA,Osso superiore della bocca
-MASCHERA,Nasconde il volto
 MASCHERA,Copre il volto a Carnevale
+MASCHERA,Nasconde il volto
 MASCHERE,Nascondono il volto a Carnevale
+MASCHERINA,Copre naso e bocca
 MASCOTTE,Portafortuna di squadra o evento
 MASERATI,La casa automobilistica del tridente
 MASERU,La capitale del Lesotho
+MASO,Casa rurale alpina con prati e stalla
 MASSA,"Di...: in gran numero, per tutti"
 MASSA,La...muscolare del corpo
 MASSA,"Quantità, folla o proprietà fisica"
+MASSERIA,Grande casa rurale del Sud
 MASSIMA,Sentenza breve da ricordare
 MASTANDREA,Il Valerio attore romano
 MASTERCHIEF,Il soldato in armatura di Halo
@@ -427,23 +472,28 @@ MATASSA,Il filo raccolto in fasci ad anello
 MATCHA,Il tè verde giapponese in polvere
 MATER,Madre latina
 MATER,Stabat...: la celebre sequenza sacra
+MATERA,Città dei Sassi scavati nella roccia
 MATERA,Città lucana dei Sassi
 MATERASSAIO,Confeziona e ripara materassi
 MATERASSO,Accoglie il sonno ma non lo garantisce
+MATERASSO,Accoglie il sonno sopra la rete
 MATERASSO,Sta sotto le lenzuola
 MATERAZZI,"Marco, difensore dell'Inter del Mondiale 2006"
 MATERIALISMO,La dottrina che riduce tutto alla materia
 MATISSE,L'Henri dei Fauves
+MATISSE,Pittore francese dei colori accesi
+MATITA,Lascia un segno che la gomma cancella
 MATITA,"Scrive, e con la gomma si cancella"
 MATITE,Lasciano segni cancellabili
 MATRACCIO,Vaso da chimico panciuto
 MATRICE,Stampo o origine
 MATRIX,Il film dei fratelli Wachowski con Neo
 MATRONEO,Galleria sopra le navate laterali
-MATT,"Opaco, non lucido, in inglese"
 MATT,Il nome dell'attore Damon
+MATT,"Opaco, non lucido, in inglese"
 MATTARELLA,Il Sergio presidente della Repubblica
 MATTARELLO,Bastone per stendere la pasta
+MATTARELLO,Stende la pasta sulla spianatoia
 MATTEO,L'evangelista già esattore
 MATTHAUS,"Lothar, regista tedesco dell'Inter"
 MATTIA,"...Pascal, il fu personaggio di Pirandello"
@@ -463,9 +513,10 @@ MAUREEN,Il nome dell'attrice O'Hara
 MAURICE,Il nome del compositore Ravel
 MAURITIUS,Isola dell'Oceano Indiano legata al dodo
 MAUSOLEO,Il grande sepolcro monumentale
+MAUSOLEO,Tomba monumentale per personaggi illustri
 MAX,"Il massimo, in breve"
-MAX,Mad...: il guerriero del deserto al cinema
 MAX,Il nome del fisico Planck
+MAX,Mad...: il guerriero del deserto al cinema
 MAXWELL,Unificò elettricità e magnetismo
 MAYA,L'illusione del mondo nella filosofia indiana
 MAYA,Popolo delle piramidi dello Yucatan
@@ -504,9 +555,11 @@ MECCA,La meta ambita per eccellenza
 MECCANICISMO,La spiegazione di tutto per cause meccaniche
 MECENATE,Protegge artisti più che opere proprie
 MEDAGLIA,L'altra faccia della...: il rovescio
-MEDAGLIA,Premio da appuntare al petto
+MEDAGLIA,Pende sul petto dopo una vittoria
 MEDAGLIA,Premio appeso al collo
+MEDAGLIA,Premio da appuntare al petto
 MEDAGLIE,Premiano vittorie e meriti
+MEDAGLIERE,Conta i premi di una squadra o nazione
 MEDAGLIONE,Pendente tondo che può aprirsi
 MEDEA,Aiutò Giasone e poi si vendicò
 MEDELLIN,Città della Colombia
@@ -527,6 +580,7 @@ MEDITERRANEO,"La dieta...sana di olio, pasta e verdure"
 MEDITERRANEO,Mare in mezzo alle terre
 MEDUSA,Animale urticante o mostro mitologico
 MEDUSA,L'animale marino gelatinoso e urticante
+MEDUSA,Mostro dai capelli di serpente
 MEDUSA,Punge in mare e pietrificava nel mito
 MEDUSE,Galleggiano con tentacoli urticanti
 MEETING,La riunione di lavoro o sportiva
@@ -540,6 +594,7 @@ MELA,Il logo morsicato della Apple
 MELA,Quella avvelenata di Biancaneve
 MELA,Quella della discordia accende il litigio
 MELAGRANA,Frutto dai chicchi rossi
+MELAGRANA,Frutto pieno di chicchi rubini
 MELAGRANE,Frutti pieni di chicchi rubino
 MELANDRI,Il pilota motociclista azzurro Marco
 MELANINA,Pigmento della pelle e dei capelli
@@ -560,8 +615,10 @@ MELLIFLUO,Può esserlo un cibo dolce in modo falso
 MELMA,Il fango molle e viscido del fondale
 MELO,"Il film strappalacrime, in breve"
 MELO,L'albero che fa le mele
+MELODIA,Fila di note che si fa ricordare
 MELODIA,Successione piacevole di note
 MELOGRANO,Albero del frutto dai chicchi rossi
+MELOGRANO,Un frutto autunnale dai chicchi rossi
 MELOMANIA,La passione sfrenata per la musica
 MELONE,Frutto estivo che si sceglie a colpi
 MELONE,"La testa, in tono scherzoso"
@@ -569,6 +626,7 @@ MELPOMENE,La musa della tragedia
 MELQART,Il dio protettore di Tiro
 MELUSINA,Fata-serpente delle leggende francesi
 MELVILLE,Autore di Moby Dick
+MELVILLE,Scrittore della balena bianca
 MEME,L'immagine virale e ironica della rete
 MEMORIA,Il componente che conserva i dati
 MEMORIA,Imparare a...: a mente
@@ -582,6 +640,7 @@ MENDELEEV,Ideò la tavola periodica
 MENDOZA,Città vinicola dell'Argentina
 MENEFREGHISTA,A cui non importa nulla
 MENELAO,Il marito spartano di Elena
+MENESTRELLO,Cantava storie nelle corti medievali
 MENFI,Antica capitale dell'Egitto
 MENGONI,"Il cantante di L'essenziale, Marco"
 MENHIR,Pietra preistorica infissa nel terreno
@@ -592,9 +651,9 @@ MENO,Segno che sottrae e avverbio comparativo
 MENO,"Venir...: svenire, sentirsi mancare"
 MENSA,Tavola comune e servizio aziendale
 MENSOLA,Piccola terrazza per libri e vasi
+MENTA,Erba dal fresco profumo
 MENTA,La caramella o lo sciroppo verde rinfrescante
 MENTA,"Profuma gomme, liquori e giardini"
-MENTA,Erba dal fresco profumo
 MENTANA,"Enrico..., il giornalista del Tg"
 MENTANA,Luogo della battaglia garibaldina del 1867
 MENTE,La sede dei pensieri
@@ -608,6 +667,7 @@ MERCALLI,Il Giuseppe della scala dei terremoti
 MERCATO,Luogo di banchi e compravendite
 MERCE,"Viaggia, si compra, si vende"
 MERCEDES,La scuderia tedesca della stella di F1
+MERCERIA,"Negozio di bottoni, fili e nastri"
 MERCKX,Il Cannibale belga del ciclismo
 MERCURIALE,"Rapido, volubile o da listino prezzi"
 MERCURIO,Il messaggero degli dei romani
@@ -615,6 +675,7 @@ MERCURIO,Il metallo liquido del termometro
 MERCURIO,Il pianeta più vicino al Sole
 MERENGUE,Ballo caraibico dominicano
 MERIDA,La principessa scozzese arciera del film Ribelle
+MERIDIANA,Orologio che ha bisogno del sole
 MERIDIANA,Orologio solare
 MERIDIANA,Segna l'ora col sole
 MERIDIANE,Segnano l'ora con l'ombra
@@ -629,13 +690,15 @@ MERITO,Sono degno di premio o colpa
 MERKEL,La cancelliera tedesca per sedici anni
 MERLATURA,Il coronamento dentellato delle mura
 MERLETTAIA,Realizza pizzi e merletti
-MERLETTO,Trina lavorata a fili intrecciati
+MERLETTO,Disegno di fili traforati
 MERLETTO,Pizzo lavorato a traforo
+MERLETTO,Trina lavorata a fili intrecciati
 MERLINO,Il mago della corte di re Artù
 MERLO,La sporgenza in cima alle mura del castello
 MERLO,Lo sciocco che si fa gabbare
 MERLO,Uccello nero dal becco giallo
 MERLOT,Il vitigno a bacca rossa morbido
+MERLUZZO,Pesce bianco da baccalà e bastoncini
 MERLUZZO,Pesce che dà anche baccalà
 MEROE,Antica capitale del regno di Kush
 MERTENS,"Dries, bomber belga record del Napoli"
@@ -646,6 +709,7 @@ MESCOLATO,Unito rimescolando
 MESCOLO,Amalgamo
 MESONE,Particella formata da quark e antiquark
 MESOPOTAMIA,Antica terra tra i due fiumi
+MESSAGGINO,Breve testo sul telefono
 MESSE,Raccolto o funzioni religiose
 MESSENIA,Regione del Peloponneso occidentale
 MESSI,Il Lionel fuoriclasse argentino
@@ -653,9 +717,11 @@ MESSI,"Lionel, la Pulce argentina del Barcellona"
 MESSICO,"Paese tra USA, Guatemala e Belize"
 MESSINA,Stretto tra Sicilia e Calabria
 MESSNER,L'alpinista altoatesino dei quattordici Ottomila
+MESTIERE,"Si impara lavorando, non solo studiando"
 MESTO,Triste senza clamore
 MESTO,"Triste, malinconico"
 MESTOLO,Cucchiaio grande da minestra
+MESTOLO,Cucchiaio profondo per minestre
 META,Arrivo del viaggio o del rugby
 META,I cinque punti segnati nel rugby
 METACARPO,Le ossa del palmo della mano
@@ -664,8 +730,9 @@ METAFORA,Trasferisce senso senza traslocare
 METAL,Genere rock duro e potente
 METAL,Il...detector dei controlli di sicurezza
 METALLICA,La storica band heavy metal americana
-METEORA,Stella cadente o fama improvvisa
 METEORA,Brilla cadendo nel cielo
+METEORA,Sasso celeste che brucia in scia luminosa
+METEORA,Stella cadente o fama improvvisa
 METEORITE,Sasso arrivato dallo spazio
 METODO,Ordine applicato al fare
 METODO,Quello scientifico di Galileo
@@ -673,6 +740,7 @@ METONIMIA,"Sostituisce causa, effetto, autore o materia"
 METOPA,Riquadro scolpito del fregio dorico
 METRO,Il nastro avvolgibile per misurare
 METRO,"Misura, verso o ferrovia sotterranea"
+METRONOMO,Segna il tempo ai musicisti
 METTERNICH,Cancelliere austriaco del Congresso di Vienna
 MEUCCI,Rivendicò l'invenzione del telefono
 MEUS,Mio nella grammatica di Roma
@@ -680,6 +748,8 @@ MEZCAL,Il distillato messicano col verme
 MEZZADRO,Il contadino che divide il raccolto col padrone
 MEZZALUNA,Coltello ricurvo a due manici
 MEZZALUNA,Il simbolo dell'Islam
+MEZZALUNA,Taglia erbe con lama curva
+MEZZANINO,Piano intermedio più basso degli altri
 MEZZANOTTE,L'ora che chiude il giorno
 MEZZO,"La metà, o il veicolo per spostarsi"
 MEZZOGIORNO,Il Sud d'Italia
@@ -699,6 +769,7 @@ MIAO,Verso domestico in quattro lettere
 MICA,Il minerale che si sfoglia in sottili lamine
 MICA,Nega senza sembrare un no
 MICA,"Per nulla, affatto: non è... male"
+MICCIA,Filo che porta il fuoco all'esplosivo
 MICENE,La città di Agamennone
 MICHAEL,Il nome del re del pop Jackson
 MICHEL,Il nome del calciatore francese Platini
@@ -711,23 +782,27 @@ MICKEY,Il nome dell'attore Rourke
 MICONOS,Isola greca delle Cicladi
 MICROFONO,Cattura e amplifica la voce
 MICRON,Il millesimo di millimetro
+MICROONDE,Forno che scalda in fretta
 MICROSCOPIO,Lo strumento che ingrandisce ciò che è invisibile a occhio nudo
 MICROSCOPIO,Strumento scientifico fra le costellazioni
 MIDA,Avere il tocco di...: trasformare tutto in oro
 MIDA,Trasformava in oro ciò che toccava
 MIDOLLO,Parte interna dell'osso o del tronco
+MIDOLLO,Sta dentro ossa e certe piante
+MIELE,Attira più mosche dell'aceto
+MIELE,Dolce lavoro delle api
+MIELE,Dolce prodotto dalle api
 MIELE,Dolcissimo: parole di...
 MIELE,La luna di...degli sposi novelli
-MIELE,Attira più mosche dell'aceto
-MIELE,Dolce prodotto dalle api
 MIETITORE,Chi raccoglie il grano
 MIETITRICE,La macchina che taglia il grano
 MIETITURA,La raccolta del grano
 MIGLIO,Il cereale dei semi per gli uccellini
 MIGLIO,"Il...verde, il film con Tom Hanks"
 MIGLIO,Unità di distanza in mare
-MIGNOLO,Il più piccolo della mano
 MIGNOLO,Il dito più piccolo
+MIGNOLO,Il più piccolo della mano
+MIGNOLO,Il più piccolo dito della mano
 MIGRAI,Passato remoto: Spostarsi altrove
 MIGRATO,Participio: Spostarsi altrove
 MILA,La Kunis di Hollywood
@@ -741,7 +816,9 @@ MILLAU,Il viadotto più alto del mondo in Francia
 MILLE,I...di Garibaldi sbarcati a Marsala
 MILLE,Le Miglia che partono da Brescia
 MILLEFOGLIE,Dolce a strati di sfoglia e crema
+MILLEPIEDI,Ha molte zampe e nessuna fretta
 MILLEPIEDI,Miriapode dalle tante zampe
+MILLET,Artista francese dei contadini
 MILLET,Pittore francese dei contadini
 MILO,Isola della Venere senza braccia
 MILO,L'atleta fortissimo dell'antica Crotone
@@ -766,6 +843,7 @@ MINECRAFT,Il videogioco dei blocchi da costruzione
 MINERVA,La dea romana della sapienza
 MINESTRA,O mangiar questa...o saltar dalla finestra
 MINESTRA,Piatto caldo da cucchiaio
+MINESTRA,Scalda il cucchiaio nelle sere fredde
 MINESTRONE,La densa zuppa di verdure miste
 MINESTRONE,Un... di cose confuse e mescolate insieme
 MINGHERLINO,Magro e di gracile corporatura
@@ -774,11 +852,13 @@ MINI,La gonna cortissima
 MINI,La piccola auto britannica iconica
 MINIATURA,Piccola pittura da manoscritto
 MINIERA,Da lì si estraggono minerali
+MINIERA,Scava la terra in cerca di ricchezze
 MINIONS,I buffi aiutanti gialli di Cattivissimo me
 MINNESOTA,Lo Stato americano dei diecimila laghi
 MINO,Scavo sotto o indebolisco
 MINOR,"La costellazione dell’Orsa piccola, in latino"
 MINORCA,Isola balearica più tranquilla
+MINOSSE,Giudice infernale e re di Creta
 MINOSSE,Il re cretese del labirinto
 MINOTAURO,Il mostro del labirinto cretese
 MINSK,Capitale della Bielorussia
@@ -795,8 +875,10 @@ MIOPE,Una scelta...: poco lungimirante
 MIOPE,"Vede corto, anche in senso figurato"
 MIOPIA,Difetto visivo da lontano
 MIRA,La prende chi vuole centrare
+MIRABELLA,Piccola prugna gialla e dolce
 MIRAGGIO,Illusione ottica del deserto
 MIRAGGIO,Inganno ottico nel deserto
+MIRAGGIO,Promessa d'acqua che inganna il deserto
 MIRAI,Puntai a un bersaglio
 MIRARE,Puntare a un bersaglio
 MIRATO,Puntato a un bersaglio
@@ -808,6 +890,7 @@ MIRO,"Guardo con attenzione, prendo la mira"
 MIRO,Il Joan dei segni colorati
 MIRONE,Lo scultore greco del Discobolo
 MIRRA,Resina da re magi e profumi antichi
+MIRTILLO,Piccola bacca blu di bosco
 MIRTILLO,Piccolo frutto blu del sottobosco
 MIRTO,Arbusto mediterraneo e liquore sardo
 MISANO,Il circuito romagnolo della MotoGP
@@ -825,8 +908,9 @@ MISTERO,Quel che resiste alla spiegazione
 MISTO,"Mescolato, eterogeneo"
 MISTO,"Non puro, non unico"
 MISTRAL,"Gabriela..., poetessa cilena Nobel"
-MISTRAL,Vento freddo di Provenza
+MISTRAL,Vento freddo che soffia dalla Francia
 MISTRAL,Vento freddo della Francia meridionale
+MISTRAL,Vento freddo di Provenza
 MISURA,Il vestito su...: cucito addosso
 MISURA,La...di sicurezza precauzionale
 MISURA,"Limite, taglia o operazione col metro"
@@ -878,6 +962,7 @@ MODUGNO,Il Domenico di Volare
 MODULAZIONE,Passaggio da una tonalità a un'altra
 MOE,Il nome del barista dei Simpson
 MOGADISCIO,Capitale somala
+MOGADISCIO,Capitale somala sull’Oceano Indiano
 MOGIO,Triste e senza slancio
 MOGLIE,Tra... e marito non mettere il dito
 MOHAIR,Lana lucida di capra d'Angora
@@ -889,11 +974,13 @@ MOJITO,"Il cocktail cubano con rum, lime e menta"
 MOKA,La caffettiera da fornello di Bialetti
 MOLA,La ruota di pietra che affila le lame
 MOLA,Ruota abrasiva o dente posteriore
+MOLDAVA,Fiume di Praga celebrato in musica
 MOLE,"L'edificio imponente, come quella di Torino"
 MOLE,L'unità della quantità di sostanza
 MOLECOLA,Piccola unità chimica con identità propria
 MOLIBDENO,Metallo da leghe resistenti
 MOLIERE,Il commediografo del Malato immaginario
+MOLISE,Piccola regione tra Abruzzo e Puglia
 MOLLA,Lei abbandona la presa e lascia andare
 MOLLA,Si comprime per reagire
 MOLLAI,Passato remoto: Lasciare la presa
@@ -905,6 +992,7 @@ MOLLEGGIATE,Possono esserlo molle elastiche nel movimento
 MOLLEGGIATI,Possono esserlo materiali elastici nel movimento
 MOLLEGGIATO,Può esserlo un materiale elastico nel movimento
 MOLLETTA,La pinzetta per stendere il bucato
+MOLLETTA,Tiene fermo il bucato sul filo
 MOLLICCIO,Cede al tatto e al carattere
 MOLLO,Lascio la presa
 MOLLUSCO,"Animale molle, spesso con conchiglia"
@@ -922,10 +1010,12 @@ MONDIALI,Il torneo iridato di calcio
 MONDO,"Pulito, ripulito dalla buccia"
 MONDO,Tutto ciò che sta sotto il cielo
 MONDO,È bello perché è vario
+MONDRIAN,Artista delle griglie e dei colori primari
 MONDRIAN,Pittore delle griglie e dei colori primari
 MONET,Il Claude delle ninfee
-MONETA,Si lancia per testa o croce
 MONETA,Dischetto di denaro
+MONETA,Si lancia per testa o croce
+MONGOLFIERA,Pallone che sale con aria calda
 MONGOLFIERA,Pallone che sale scaldando aria
 MONGOLFIERA,Pallone che vola con aria calda
 MONGOLFIERE,Salgono spinte dall'aria calda
@@ -933,6 +1023,7 @@ MONGOLI,Il popolo di Gengis Khan
 MONICA,Il nome dell'attrice Bellucci
 MONICELLI,Il Mario della Grande guerra
 MONILE,Gioiello da collo o da polso
+MONILE,Gioiello da indossare
 MONILE,Gioiello da ornamento
 MONITO,"L'avvertimento severo, l'ammonimento"
 MONK,Il detective maniacale della serie tv
@@ -940,7 +1031,9 @@ MONK,Il pianista jazz Thelonious
 MONOCEROS,L'Unicorno attraversato dalla Via Lattea
 MONOCICLO,Il velocipede a una sola ruota
 MONOLITO,Blocco unico di pietra
+MONOPATTINO,Ha due ruote e un manubrio
 MONOPATTINO,Mezzo a due ruote con pedana
+MONOPOLI,Città pugliese di porto e vicoli bianchi
 MONOPOLI,Il gioco da tavolo della compravendita immobiliare
 MONOROTAIA,Il treno sospeso su un'unica rotaia
 MONROE,La Marilyn icona di Hollywood
@@ -949,10 +1042,12 @@ MONSONE,Vento stagionale che porta le piogge
 MONTA,La...degli animali: l'accoppiamento
 MONTA,"Lei sale, si arrampica in cima"
 MONTA,Sale o assembla
-MONTAGNA,Rilievo che costringe a salire
+MONTACARICHI,Ascensore per merci
 MONTAGNA,Rilievo alto della Terra
-MONTAGNE,Le... russe del luna park
+MONTAGNA,Rilievo che costringe a salire
+MONTAGNA,Si sale con fatica e si guarda da lontano
 MONTAGNE,Alzano cime verso il cielo
+MONTAGNE,Le... russe del luna park
 MONTAI,Salii o assemblai
 MONTALBANO,Il commissario televisivo di Camilleri
 MONTALCINI,La Rita premio Nobel per la medicina
@@ -969,13 +1064,14 @@ MONTECARLO,Il circuito cittadino del Principato di F1
 MONTERREY,La città industriale del Messico settentrionale
 MONTESSORI,La Maria del celebre metodo educativo
 MONTEVERDI,"Il compositore dell'Orfeo, padre del melodramma"
+MONTEVIDEO,Capitale uruguaiana sul Río de la Plata
 MONTEVIDEO,La capitale uruguaiana
 MONTGOMERY,Cappotto con alamari e cappuccio
 MONTI,Il Vincenzo traduttore dell'Iliade
 MONTI,"Mario..., ex presidente del Consiglio"
 MONTO,Salgo o assemblo
-MONTONE,Maschio lanoso e colpo di testa
 MONTONE,Maschio della pecora
+MONTONE,Maschio lanoso e colpo di testa
 MONTREAL,La grande città francofona del Canada
 MONVISO,Montagna piemontese che guarda il Po
 MONZA,Il circuito automobilistico del Gran Premio d'Italia
@@ -1011,6 +1107,7 @@ MORETTI,La birra italiana col baffuto in etichetta
 MORETTI,"Nanni..., il regista di Caro diario"
 MORFEMA,Minima parte di parola con significato
 MORFEO,Il dio dei sogni
+MORFEO,Porta il sonno nelle braccia del mito
 MORFOLOGIA,"Studio della forma, in lingua o biologia"
 MORGAN,"Capitan..., una marca di rum"
 MORGAN,Il nome dell'attore Freeman
@@ -1031,28 +1128,34 @@ MORPHEUS,Il mentore di Neo in Matrix
 MORRICONE,L'Ennio delle colonne sonore
 MORRISON,"Il cantante dei Doors, Jim"
 MORSA,La stretta soffocante e inesorabile
+MORSA,Stringe il pezzo sul banco da lavoro
 MORSA,Stringe pezzi sul banco
 MORSETTO,La piccola morsa che stringe
 MORSO,Il ferro che si mette in bocca al cavallo
-MORSO,Un boccone: un... di mela
 MORSO,Segno dei denti o freno del cavallo
+MORSO,Un boccone: un... di mela
+MORSO,Un segno dei denti o pezzo del freno
 MORTADELLA,Salume bolognese rosato
 MORTAIO,Arma che spara con tiro curvo
+MORTAIO,Coppa pesante per pestare semi e salse
 MORTAIO,Quello col pestello per il pesto
 MORTE,La carta numero 13 dei tarocchi
 MORTE,Ultima soglia dei viventi
 MOS,"Costume, uso, secondo i latini"
 MOSAICI,Nascono da tante tessere colorate
-MOSAICO,Figura composta da tessere
 MOSAICO,Disegno fatto di tessere
+MOSAICO,Figura composta da tessere
+MOSAICO,Immagine fatta di tessere colorate
 MOSCA,Il peso più leggero del pugilato
 MOSCA,L'insetto che ronza fastidioso d'estate
 MOSCA,La capitale della Russia
 MOSCARDINO,Piccolo polpo
 MOSCATO,Il vitigno bianco aromatico e dolce
-MOSCERINO,Minuscolo insetto della frutta
 MOSCERINO,Insetto minuscolo e fastidioso
+MOSCERINO,Minuscolo insetto della frutta
 MOSCHETTO,Antica arma da fuoco portatile
+MOSCHETTO,Arma lunga dei soldati d'un tempo
+MOSCHETTONE,Anello a scatto da alpinisti
 MOSE,Guidò gli Ebrei fuori dall'Egitto
 MOSE,Le barriere mobili di Venezia
 MOSER,Il Francesco campione su strada e pista
@@ -1070,16 +1173,18 @@ MOTO,Due ruote e movimento
 MOTO,Il veicolo a due ruote con motore
 MOTOCICLETTA,La due ruote a motore
 MOTOCICLISTA,Sfreccia sulle due ruote a motore
+MOTORE,Fa muovere l'auto
 MOTORE,Il...di ricerca per navigare in rete
 MOTORE,Trasforma energia in movimento
-MOTORE,Fa muovere l'auto
 MOTTEGGIO,Battuta pungente più che risata
 MOTTETTO,Breve composizione sacra polifonica
 MOTTO,Frase breve che pretende memoria
 MOTTO,"Il detto arguto, la massima"
 MOURINHO,Il tecnico portoghese lo Special One
+MOZART,Genio salisburghese del Flauto magico
 MOZART,Il genio musicale di Salisburgo
 MOZZARELLA,Il formaggio fresco della pizza
+MOZZARELLA,Latticino bianco che fila sulla pizza
 MOZZO,Giovane apprendista di bordo
 MOZZO,Il centro della ruota in cui passa l'asse
 MS,Iniziali del regista Scorsese
@@ -1089,8 +1194,8 @@ MT,Iniziali dell’attore Troisi
 MT,Sigla automobilistica di Matera
 MUAYTHAI,La boxe thailandese degli otto arti
 MUCCA,"...pazza, il morbo dei bovini"
-MUCCA,Ruminante da latte quotidiano
 MUCCA,Dà latte nella stalla
+MUCCA,Ruminante da latte quotidiano
 MUCCINO,"Gabriele, regista de L'ultimo bacio"
 MUFASA,Il padre di Simba nel Re Leone
 MUFFA,Vita verde dove il cibo invecchia male
@@ -1105,13 +1210,15 @@ MUGNAIO,Chi macina il grano al mulino
 MUGNAIO,Lavora al mulino
 MULA,"La femmina del mulo, proverbiale testarda"
 MULAN,La guerriera Disney della Cina
+MULATTIERA,Sentiero di montagna per animali da soma
 MULINELLO,Piccolo vortice d'acqua o vento
 MULINI,Giravano con vento o acqua
 MULINO,Combattere contro i...a vento: lottare con nemici immaginari
 MULINO,Macina grano con acqua o vento
 MULINO,Tirare l'acqua al proprio...: fare il proprio interesse
-MULO,Ibrido tenace da soma
+MULINO,Trasforma grano e vento in farina
 MULO,Ibrido di asino e cavalla
+MULO,Ibrido tenace da soma
 MULTA,Prezzo d'una infrazione
 MULTIPLA,La Fiat dalla forma inconfondibile
 MUMBAI,Metropoli indiana di Bollywood
@@ -1136,21 +1243,24 @@ MURENA,Pesce serpentiforme dal morso temibile
 MURETTO,Piccolo muro di confine
 MURO,"Divide, protegge o si salta"
 MURO,Il...del Pianto a Gerusalemme
-MURO,Quello che divideva Berlino
 MURO,Parlargli è del tutto inutile
+MURO,Quello che divideva Berlino
 MURRAY,"Andy, campione scozzese del tennis"
 MURRAY,"Bill..., l'attore di Ghostbusters"
 MUSA,Ispiratrice che non scrive
 MUSA,L'ispiratrice del poeta
 MUSAGETE,Apollo guida delle Muse
 MUSCAT,Capitale dell'Oman
+MUSCAT,Capitale dell’Oman tra mare e montagne
 MUSCHIO,Tappeto verde dei luoghi umidi
 MUSCHIO,Tappeto verde su pietre e tronchi
+MUSCHIO,Verde tappeto dei boschi umidi
 MUSCOLO,Si contrae senza discutere
 MUSE,La band britannica di Matt Bellamy
 MUSE,Le nove ispiratrici delle arti
 MUSEO,"Da...: vecchio, sorpassato"
 MUSEO,Dove il passato non dovrebbe prendere polvere
+MUSERUOLA,Impedisce morsi senza chiudere gli occhi
 MUSK,"Il muschio, nota profumata in inglese"
 MUSK,L'imprenditore di Tesla e SpaceX
 MUSO,La parte anteriore del cane o dell'automobile

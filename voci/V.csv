@@ -21,6 +21,7 @@ VAGHI,Possono esserlo oggetti imprecisi o leggiadri
 VAGLIA,Esamina con cura
 VAGLIAI,Passato remoto: Esaminare con cura
 VAGLIO,Setaccio o esame accurato
+VAGLIO,Setaccio o esame attento
 VAGO,Il nervo...del sistema nervoso
 VAGO,Impreciso o errante
 VAGONE,La carrozza che il treno si tira dietro
@@ -34,6 +35,7 @@ VALANGHE,Precipitano dai pendii innevati
 VALCHIRIA,Guerriera mitica del Nord
 VALCHIRIE,Le guerriere del Valhalla
 VALCO,Passaggio fra monti
+VALDARNO,Terra toscana lungo il fiume di Firenze
 VALE,"Conta, costa"
 VALE,Il saluto d'addio degli antichi Romani
 VALENCIA,Città spagnola della paella
@@ -50,14 +52,16 @@ VALIDA,Può esserlo una storia efficace o fondata
 VALIDE,Possono esserlo storie efficaci o fondate
 VALIDI,Possono esserlo dati efficaci o fondati
 VALIDO,Può esserlo un dato efficace o fondato
-VALIGIA,Contiene il necessario per viaggiare
+VALIGIA,Casa provvisoria dei vestiti in viaggio
 VALIGIA,Contiene abiti in viaggio
+VALIGIA,Contiene il necessario per viaggiare
 VALIGIE,Seguono i viaggiatori
 VALLE,La conca tra due catene di monti
-VALLE,Territorio tra monti
 VALLE,Si apre tra due monti
+VALLE,Territorio tra monti
 VALLETTA,L'assistente del presentatore in tv
 VALLETTA,La capitale di Malta
+VALLETTO,Assistente elegante di scena o palazzo
 VALORE,Il coraggio del soldato in battaglia
 VALORE,"Il prezzo, ciò che una cosa vale"
 VALORE,"Prezzo, coraggio o numero"
@@ -66,12 +70,15 @@ VALUTA,"Lei stima, soppesa il valore"
 VALUTARE,Stimare il valore
 VALUTATO,Stimato il valore
 VALUTO,Stimo il valore
-VALZER,Danza di coppia in tre quarti
+VALVOLA,Regola il passaggio di aria o liquidi
 VALZER,Ballo in tre tempi
+VALZER,Danza di coppia in tre quarti
+VALZER,Danza in tre tempi che fa girare le coppie
 VAMPA,"La fiammata ardente, o l'ondata di calore"
 VAMPIRI,"Temono aglio, sole e paletti"
-VAMPIRO,Non morto assetato di sangue
+VAMPIRO,Creatura notturna che teme luce e aglio
 VAMPIRO,Mostro che teme la luce del sole
+VAMPIRO,Non morto assetato di sangue
 VAN,"...Gogh, il pittore dei girasoli"
 VAN,"Mezzo chiuso, spesso da trasloco"
 VANBASTEN,"Marco, cigno olandese bomber del Milan"
@@ -84,20 +91,23 @@ VANESI,Possono esserlo uomini pieni di vanità
 VANESIA,Può esserlo una donna piena di vanità
 VANESIE,Possono esserlo donne piene di vanità
 VANESIO,Può esserlo un uomo pieno di vanità
+VANGA,Attrezzo che apre la terra dell'orto
 VANGA,Attrezzo che entra nella terra
-VANGA,L'attrezzo per dissodare l'orto
 VANGA,Attrezzo per rivoltare la terra
+VANGA,L'attrezzo per dissodare l'orto
 VANGOGH,Il Vincent dei girasoli
 VANI,Stanze o inutili
 VANIGLIA,Aroma dolce da orchidea
+VANIGLIA,Aroma dolce di creme e biscotti
 VANO,"Inutile, senza esito"
 VANO,Stanza o tentativo inutile
 VANTO,Darsi il...: vantarsi
 VANTO,"Il motivo d'orgoglio, il fiore all'occhiello"
 VANUATU,Arcipelago melanesiano
 VAPORE,Acqua diventata aria
-VAPORE,La nave a...d'altri tempi
 VAPORE,Acqua trasformata in gas
+VAPORE,La nave a...d'altri tempi
+VAPORETTO,Battello pubblico dei canali veneziani
 VAPORETTO,Il battello del trasporto pubblico veneziano
 VARA,Mette in acqua una nave
 VARAI,Passato remoto: Mettere in acqua una nave
@@ -106,31 +116,37 @@ VARANO,"Il grande sauro carnivoro, di Komodo il più grande"
 VARATO,Participio: Mettere in acqua una nave
 VARCO,Apertura che consente il passaggio
 VARENNA,Borgo panoramico sul lago di Como
+VARESE,Città lombarda dei giardini e dei laghi
 VARIAGHI,Vichinghi che fondarono la Rus'
 VARIO,Non uguale a sé stesso
 VARO,Il generale romano disfatto a Teutoburgo
 VARO,Primo contatto della nave con l'acqua
 VARSAVIA,Capitale della Polonia
+VARSAVIA,Capitale polacca ricostruita dopo la guerra
 VARSAVIA,Il Patto di...del blocco sovietico
 VARUNA,Il dio indù delle acque
 VASAIO,Artigiano che modella vasi al tornio
 VASARI,Il Giorgio delle Vite degli artisti
 VASCA,Recipiente grande per bagno o pesci
+VASCELLO,Grande nave a vele delle flotte antiche
 VASCELLO,Grande nave d'altri tempi
 VASCHE,Si riempiono per il bagno
+VASCHETTA,Piccolo recipiente aperto
 VASCO,"...de Gama, il navigatore portoghese"
 VASCO,"Il rocker di Zocca, Blasco"
 VASETTO,Piccolo recipiente di vetro
 VASI,Recipienti o canali del corpo
+VASO,Contiene fiori o conserva ceneri
+VASO,"Contiene fiori, terra o ceneri"
 VASO,"Il...di Pandora, l'origine di tutti i mali"
 VASO,Quello sanguigno che porta il sangue
 VASO,Sta sul davanzale o nel corpo
-VASO,Contiene fiori o conserva ceneri
 VASSOIO,Porta bicchieri senza bere
 VASTA,Può esserlo una linea molto ampia
 VASTE,Possono esserlo linee molto ampie
 VASTI,Possono esserlo profili molto ampi
 VASTO,Può esserlo un profilo molto ampio
+VATE,Autore di versi con tono profetico
 VATE,Poeta con tono profetico
 VATICANO,Lo Stato del Papa
 VATICINIO,Profezia con tono solenne
@@ -140,11 +156,11 @@ VC,Iniziali del poeta Cardarelli
 VC,Sigla automobilistica di Vercelli
 VE,Pronome: ...lo avevo detto
 VE,Sigla automobilistica di Venezia
-VECCHIO,Il ponte di Firenze con le botteghe orafe
 VECCHIO,Avanzato negli anni
+VECCHIO,Il ponte di Firenze con le botteghe orafe
 VECCHIONI,"Il cantautore professore di Samarcanda, Roberto"
-VEDETTA,Sorveglia da lontano
 VEDETTA,Fa la guardia da un punto alto
+VEDETTA,Sorveglia da lontano
 VEDOVA,Donna dopo la perdita del marito
 VEDOVA,"La...nera, il ragno velenoso"
 VEEMENTE,Impulsivo e vigoroso
@@ -153,8 +169,8 @@ VEGA,La stella più brillante della Lira
 VEGA,"Vincent..., il sicario di Pulp Fiction"
 VEGAS,La città americana del gioco d'azzardo nel deserto
 VEGETA,Il principe dei saiyan in Dragon Ball
-VEGLIA,Resta sveglio
 VEGLIA,Il contrario del sonno
+VEGLIA,Resta sveglio
 VEGLIAI,Passato remoto: Restare sveglio
 VELA,Il telo che cattura il vento e spinge la barca
 VELA,Lo sport che sfrutta il vento in barca
@@ -162,9 +178,10 @@ VELA,Prende il vento sulla barca
 VELARIO,Grande tenda dei teatri o anfiteatri
 VELAZQUEZ,Il Diego delle Meninas
 VELE,Prendono il vento in mare
+VELENO,Fa male anche in piccola dose
 VELENO,Sostanza che nuoce già in piccole dosi
-VELENO,Sputare...: dire cattiverie
 VELENO,Sostanza che nuoce o uccide
+VELENO,Sputare...: dire cattiverie
 VELIA,Nome antico e città della Magna Grecia
 VELIERO,Nave che obbedisce al vento
 VELLEITARI,Possono esserlo oggetti pieni di ambizioni vane
@@ -173,6 +190,7 @@ VELLEITARIE,Possono esserlo cose piene di ambizioni vane
 VELLEITARIO,Può esserlo un oggetto pieno di ambizioni vane
 VELLUTO,Stoffa che invita la mano
 VELLUTO,Tessuto morbido al tatto
+VELLUTO,Tessuto morbido con pelo fitto
 VELO,Copre senza nascondere del tutto
 VELO,Quello che copre il volto della sposa
 VELO,Un... di malinconia: un'ombra leggera
@@ -181,19 +199,22 @@ VELOCIRAPTOR,Il piccolo e agile dinosauro predatore
 VELOUTE,Vellutata salsa o crema
 VENA,Il filone del minerale nella roccia
 VENA,L'ispirazione: essere in... creativa
-VENA,Strada del sangue e dell'ispirazione
 VENA,Porta il sangue al cuore
+VENA,Strada del sangue e dell'ispirazione
 VENATURA,Linea naturale in legno o marmo
 VENDE,Cede per denaro
 VENDEMMIA,La raccolta dell'uva
 VENDEMMIATORE,Chi raccoglie l'uva
 VENDERE,Cedere per denaro
 VENDETTA,"Giustizia privata, spesso peggiore del torto"
+VENDITORE,Trasforma merci in offerte e sorrisi
 VENDITTI,L'Antonello di Roma capoccia
 VENDO,Cedo per denaro
+VENERE,Dea della bellezza nata dal mare
 VENERE,"Dea, pianeta e canone di bellezza"
 VENERE,Il pianeta che brilla all'alba e al tramonto
 VENETI,Antico popolo dell'Italia nord-orientale
+VENETO,"Regione di laguna, ville e Dolomiti"
 VENEZIA,Città lagunare di San Marco
 VENEZUELA,Paese dell'Orinoco
 VENIALE,Può esserlo un oggetto di poco conto
@@ -203,13 +224,16 @@ VENIRE,...al dunque: arrivare al punto
 VENOM,Il simbionte nero nemico di Spider-Man
 VENTAGLI,Muovono aria con un gesto
 VENTAGLIO,Fa aria con stecche e carta
-VENTAGLIO,Un'ampia gamma di possibilità
 VENTAGLIO,Fa aria con un gesto
+VENTAGLIO,Un'ampia gamma di possibilità
 VENTILATORE,Muove l'aria nelle giornate calde
 VENTO,Aria in movimento
+VENTO,Aria in viaggio tra alberi e vele
 VENTO,Avere il...in poppa: essere in piena fortuna
 VENTO,Chi lo semina raccoglie tempesta
 VENTOSA,Aderisce per aspirazione
+VENTOSA,Si attacca facendo il vuoto
+VENTRILOQUO,Fa parlare una voce che sembra altrove
 VERA,"Autentica, non contraffatta"
 VERA,"L'anello nuziale, la fede"
 VERA,Può esserlo una storia non falsa
@@ -217,19 +241,26 @@ VERACE,"Il napoletano...: autentico, doc"
 VERACE,Può esserlo un dato sincero e autentico
 VERACI,Possono esserlo dati sinceri e autentici
 VERANDA,Ambiente chiuso da vetri o portico coperto
+VERANDA,Stanza vetrata affacciata all'esterno
 VERBENA,Pianta odorosa da giardino e infusi
+VERBENA,Pianta profumata da giardino e tisane
 VERBO,"Il...divino, la Parola di Dio"
 VERBO,Parola che porta l'azione
+VERCELLI,Città piemontese delle risaie
 VERCINGETORIGE,Il capo gallico che resistette a Cesare
 VERDE,"Colore di erba, speranza e semaforo"
 VERDE,Essere al...: restare senza un soldo
 VERDE,Il semaforo che dà via libera
 VERDERAME,Patina verde del rame
+VERDETTO,Decisione finale di giudici o giuria
 VERDI,Il Giuseppe del Nabucco
+VERDI,Musicista di Aida e Rigoletto
 VERDONE,"L'attore e regista romano di tante commedie, Carlo"
+VERDURIERE,Vende ortaggi e frutta
 VERE,Gli anelli nuziali
 VERE,Non falso
 VERGA,"Bastone, ramo o scrittore siciliano"
+VERGA,Narratore dei Malavoglia
 VERGAI,Passato remoto: Scrivere con cura
 VERGATO,Participio: Scrivere con cura
 VERGINE,Foresta...: quella incontaminata
@@ -239,6 +270,7 @@ VERGO,Scrivo con cura
 VERI,Non falsi
 VERITA,L'ora della...: il momento decisivo
 VERITA,"Quella che, prima o poi, viene a galla"
+VERLAINE,Autore di versi francese simbolista
 VERLAINE,Poeta francese simbolista
 VERME,Abitante del terreno e del dubbio
 VERME,Il piccolo animale che striscia senza zampe
@@ -254,6 +286,7 @@ VERMONT,Lo Stato americano dello sciroppo d'acero
 VERMUT,Aperitivo aromatizzato da Torino
 VERNACOLO,Lingua locale e popolare
 VERNE,Il Jules di Ventimila leghe sotto i mari
+VERNICE,Colore liquido per muri o oggetti
 VERNICE,Riveste e colora le superfici
 VERNICE,Una...di cultura: superficiale e di facciata
 VERO,Ciò che corrisponde alla realtà
@@ -275,18 +308,22 @@ VERSANTE,Fianco di monte o parte in causa
 VERSARE,Far uscire un liquido
 VERSATO,Fatto uscire un liquido
 VERSO,"Quello dell'animale, come il raglio dell'asino"
-VERSO,"Riga poetica, direzione o grido animale"
 VERSO,Riga di poesia o voce animale
+VERSO,"Riga poetica, direzione o grido animale"
 VERSTAPPEN,Il pilota olandese più volte iridato di F1
 VERTEBRA,Ciascun osso della colonna
 VERTIGINE,Capogiro davanti al vuoto
 VERZA,Il cavolo dalle foglie increspate
+VERZIERE,Giardino di piante da frutto e ortaggi
 VESCICA,Organo che raccoglie l'urina
 VESCOVO,Pastore di diocesi e pezzo degli scacchi
 VESPA,Lo scooter italiano della Piaggio
 VESPA,"Punge, ronza o corre su due ruote"
+VESPASIANO,Vecchio orinatoio pubblico dal nome imperiale
 VESPUCCI,Navigatore che diede il nome all'America
 VESSILLO,Bandiera solenne
+VESTA,Custodiva il fuoco sacro di Roma
+VESTAGLIA,Abito morbido da casa e mattino
 VESTE,"Abito, ma anche funzione"
 VESTE,"L'abito, l'indumento"
 VESTIBOLO,Ambiente d'ingresso
@@ -295,11 +332,13 @@ VETERINARIO,Il medico degli animali
 VETO,"Il divieto, l'opposizione netta"
 VETO,No con forza istituzionale
 VETRAIO,Artigiano che lavora il vetro
+VETRAIO,Lavora lastre trasparenti e infissi
 VETRATA,Grande finestra colorata o trasparente
-VETRINA,Mostra merce senza venderla ancora
 VETRINA,Mostra la merce ai passanti
+VETRINA,Mostra merce senza venderla ancora
 VETRIOLO,"Antico nome di solfati, poi acidità verbale"
 VETRO,Materiale trasparente e fragile
+VETRO,Un solido trasparente e fragile
 VETTA,Cima che non concede oltre
 VETTA,La cima più alta del monte
 VETTEL,Il pilota tedesco quattro volte iridato di F1
@@ -314,6 +353,7 @@ VI,Sigla automobilistica di Vicenza
 VIA,Il segnale della partenza
 VIA,Lontano: andare...
 VIA,Strada o ordine di partenza
+VIADOTTO,Ponte lungo per strade e ferrovie
 VIADOTTO,Ponte lungo su valle o strada
 VIAGGERA,Andrà da un luogo a un altro
 VIAGGIA,Va da un luogo a un altro
@@ -334,25 +374,30 @@ VICENZA,Città veneta di Palladio
 VICHINGHI,Navigatori e guerrieri scandinavi
 VICINO,Prossimo nello spazio o nella casa accanto
 VICOLO,Quello cieco non porta da nessuna parte
+VICOLO,Strada stretta da passi lenti
 VICOLO,Strada stretta di paese
-VICTOR,Il...Frankenstein del romanzo
 VICTOR,Il nome dello scrittore Hugo
+VICTOR,Il...Frankenstein del romanzo
 VICTORIA,Il nome della regina inglese dell'Ottocento
 VIDEO,"Immagine in movimento, non per forza film"
 VIDEO,Lo schermo del computer e della tv
+VIDEOCITOFONO,Mostra chi suona alla porta
 VIDEOGIOCO,Si gioca col joystick o col mouse
 VIE,Le...del Signore sono infinite
 VIE,Strade cittadine
 VIEIRA,"Patrick, mediano francese di Juve e Arsenal"
 VIENNA,Capitale austriaca sul Danubio
+VIENNA,"Città del Danubio, dei valzer e degli Asburgo"
 VIERI,"Christian, bomber Bobo di Inter e Lazio"
 VIETNAM,Paese lungo la costa indocinese
 VIGILE,Sorveglia o dirige il traffico
 VIGILIA,Attesa prima della festa o della prova
+VIGNA,Campo di viti
 VIGNA,Filari da vendemmia
 VIGNA,Il filare dove cresce l'uva
-VIGNA,Campo di viti
 VIGNAIOLO,Coltiva la vite e produce vino
+VIGNAIOLO,Segue la vite fino al vino
+VIGNETO,Campo ordinato da cui nasce il vino
 VIGNETO,Vigna organizzata in filari
 VIGORE,Entrare in...: diventare legge operante
 VIGORE,Forza piena e vitale
@@ -362,13 +407,17 @@ VILE,"Il codardo, il vigliacco"
 VILIPENDIO,Offesa pubblica a ciò che si dovrebbe rispettare
 VILLA,Casa signorile fuori dal rumore
 VILLA,La grande casa signorile col giardino
+VILLANO,"Rozzo nei modi, contadino in origine"
 VILLEGGIATURA,Il soggiorno di vacanza
 VILLENEUVE,"Il pilota canadese di F1, Gilles"
+VILLETTA,Casa indipendente con un po' di giardino
 VILNIUS,Capitale della Lituania
 VILUPPO,Intrico difficile da sciogliere
 VIMINALE,Fatto di vimini o colle romano
+VIMINALE,Materia flessibile da cesti
 VIMINI,Rami flessibili da intreccio
 VINACCIA,Residuo dell'uva dopo la pigiatura
+VINAIO,Vende bottiglie e consigli da cantina
 VINCA,Pianta ornamentale dai fiori azzurri
 VINCE,Supera gli avversari
 VINCENT,Il nome del pittore van Gogh
@@ -378,14 +427,16 @@ VINCO,Supero gli avversari
 VINO,"Il nettare di Bacco, rosso o bianco"
 VINO,Nasce dall'uva e migliora racconti
 VINSE,Ebbe la meglio
+VIOLA,"Fiore, colore e strumento musicale"
 VIOLA,Il fiore profumato di marzo
 VIOLA,"La squadra di Firenze, la Fiorentina"
 VIOLA,Lo strumento ad arco più grave del violino
-VIOLA,"Fiore, colore e strumento musicale"
 VIOLETTA,Piccolo fiore viola
+VIOLINO,Canta sotto il mento dell'orchestrale
 VIOLINO,Fare il secondo...: avere un ruolo subordinato
 VIOLINO,Strumento ad arco acuto
 VIOLONCELLO,Strumento ad arco da suonare seduti
+VIOTTOLO,Piccola strada di campagna
 VIP,Persona importante per acronimo
 VIPERA,Lingua di...: persona maldicente
 VIPERA,Serpente velenoso europeo
@@ -393,6 +444,7 @@ VIPERE,Serpenti dal morso velenoso
 VIRACOCHA,Il dio creatore degli Inca
 VIRAI,Passato remoto: Cambiare direzione
 VIRATO,Participio: Cambiare direzione
+VIRGILIO,Guidò Dante nell'Inferno poetico
 VIRGILIO,Il poeta dell'Eneide
 VIRGILIO,La guida di Dante nell'Inferno
 VIRGINIA,Lo Stato americano dei primi coloni inglesi
@@ -406,6 +458,7 @@ VIRTUOSO,Può esserlo un uomo abile o morale
 VIRUS,Minuscolo invasore di cellule e computer
 VISA,"Carta o visto, secondo la lingua"
 VISCERA,"Interiora, ma anche profondità emotive"
+VISCHIO,Pianta appesa per baci natalizi
 VISCHIO,Pianta natalizia parassita
 VISCHIOSO,Appiccicoso e tenace
 VISCIDA,Può esserlo una cosa scivolosa o melliflua
@@ -423,22 +476,25 @@ VISITARE,Andare a vedere o trovare
 VISITATO,Andato a vedere o trovato
 VISITO,Vado a vedere o trovo
 VISNU,Il dio conservatore dell'induismo
+VISO,"Aperto, ispira fiducia"
 VISO,"Il volto, la faccia"
 VISO,Parte che tradisce emozioni
-VISO,"Aperto, ispira fiducia"
 VISO,Volto della persona
 VISONE,Il mustelide dalla pregiata pelliccia
 VISTA,"A prima...: al primo sguardo, subito"
 VISTA,Il senso degli occhi
 VISTA,Senso e panorama
+VISTAMARE,Camera o casa affacciata sull’acqua
 VISTOLA,Fiume di Cracovia e Varsavia
 VITA,"Biografia, esistenza o filettatura"
 VITA,Il punto più stretto del busto
 VITALISMO,La dottrina di un principio vitale irriducibile
 VITE,Giro di...: una stretta più severa
+VITE,Pianta che dà l'uva
 VITE,Pianta dell'uva o piccolo elemento filettato
 VITELLO,Giovane bovino
 VITELLOTONNATO,Il piatto piemontese di vitello in salsa di tonno
+VITERBO,Città dei papi e delle terme
 VITICCIO,Ricciolo con cui la vite si aggrappa
 VITILIGINE,Macchie bianche sulla pelle
 VITRUVIO,L'architetto romano del trattato De architectura
@@ -450,7 +506,9 @@ VITTORINI,Autore di Conversazione in Sicilia
 VITUPERIO,Biasimo aspro e sonoro
 VIVACE,Andamento musicale brioso
 VIVAIO,"Dove crescono le piantine, o il serbatoio di giovani talenti"
+VIVAISTA,Coltiva e vende piante
 VIVALDI,L'Antonio delle Quattro stagioni
+VIVALDI,Prete rosso delle Quattro stagioni
 VIVO,"Acceso, presente o non morto"
 VIVO,Vivace e brillante: un colore...
 VIZIO,Abitudine cattiva o difetto giuridico
@@ -460,11 +518,12 @@ VIZZE,Possono esserlo cose appassite e raggrinzite
 VIZZI,Possono esserlo oggetti appassiti e raggrinziti
 VIZZO,Può esserlo un oggetto appassito e raggrinzito
 VLADIMIR,Il nome dello scrittore Nabokov
+VOCABOLARIO,Tesoro ordinato delle parole
 VOCATIVO,Caso di chi chiama
+VOCE,Corre più veloce dei fatti
 VOCE,La diceria che gira
 VOCE,La parola registrata nel vocabolario
 VOCE,"Suono umano, o lemma di elenco"
-VOCE,Corre più veloce dei fatti
 VOCI,Elementi d'elenco o suoni umani
 VOCIO,Il confuso parlare di molti
 VODKA,Il distillato russo incolore
@@ -476,6 +535,7 @@ VOL,Abbrevia tomo in biblioteca
 VOL,"Il volo, in francese"
 VOLA,Il tempo...: passa in fretta
 VOLA,Si muove nell'aria
+VOLANO,Ruota pesante che regola il movimento
 VOLANO,Ruota pesante o oggetto del badminton
 VOLANS,Il Pesce volante dei cieli australi
 VOLARE,La celebre canzone di Modugno
@@ -485,15 +545,17 @@ VOLATA,Sprint finale di una corsa ciclistica
 VOLATO,Librato in aria
 VOLDEMORT,Il mago oscuro nemico di Harry Potter
 VOLERE,Chi troppo...nulla stringe
+VOLGA,Grande fiume della Russia europea
 VOLGA,Grande fiume russo verso il Caspio
+VOLIERA,Grande gabbia dove gli uccelli possono volare
 VOLITIVO,Governato dalla volontà
 VOLKSWAGEN,La casa tedesca del Maggiolino
 VOLO,Prendere al...: afferrare al primo istante
 VOLO,Viaggio senza toccare terra
-VOLPE,Il furbo carnivoro dalla coda folta
-VOLPE,Vecchia...: persona scaltra
 VOLPE,Animale simbolo di furbizia
+VOLPE,Il furbo carnivoro dalla coda folta
 VOLPE,Perde il pelo ma non il vizio
+VOLPE,Vecchia...: persona scaltra
 VOLPETTA,Piccola costellazione presso il Cigno
 VOLPI,Animali proverbiali per furbizia
 VOLSCI,Popolo italico nemico di Roma
@@ -501,6 +563,7 @@ VOLT,L'unità di misura della tensione elettrica
 VOLTA,C'era una...: l'inizio classico delle fiabe
 VOLTA,L'Alessandro della pila elettrica
 VOLTAIRE,Filosofo illuminista del Candide
+VOLTERRA,Città toscana d'alabastro e mura antiche
 VOLTO,Faccia che si legge
 VOLTO,"La faccia, il viso"
 VOLTRON,Il robot gigante formato da cinque leoni
@@ -510,8 +573,9 @@ VOLUBILIS,Sito romano nel Marocco
 VOLUME,"Il libro, o l'intensità del suono da regolare"
 VOMERE,La lama dell'aratro che fende il suolo
 VONGOLA,Mollusco bivalve per gli spaghetti
-VORTICE,Mulinello d'acqua o d'aria
+VORTICE,Giro d'acqua o aria che trascina
 VORTICE,Giro rapido d'acqua o vento
+VORTICE,Mulinello d'acqua o d'aria
 VOTA,Esprime una scelta
 VOTARE,Esprimere una scelta
 VOTATO,Espresso una scelta

@@ -13,6 +13,7 @@ FABBRO,L'artigiano che forgia il ferro alla fucina
 FABIO,Il Massimo detto il Temporeggiatore
 FABRI,Il Fibra rapper di Applausi per Fibra
 FACCHETTI,Il Giacinto difensore dell'Inter
+FACCHINO,Porta pesi per mestiere
 FACCIATA,Il volto esterno di un edificio
 FACCIATOSTA,Lo sfacciato senza vergogna
 FACEBOOK,Il social network creato da Zuckerberg
@@ -25,7 +26,9 @@ FAGIOLI,Finiscono in zuppe e minestroni
 FAGIOLO,Legume del minestrone
 FAGOTTO,Far...: raccogliere tutto e andarsene
 FAGOTTO,Strumento a fiato grave a doppia ancia
+FAGOTTO,Strumento grave a fiato o involto di panni
 FAI,Agisci o sigla dei beni culturali
+FAIDATE,Lavoro domestico senza artigiano
 FAINA,"Il mustelide ladro di polli, o la persona astuta"
 FAIRPLAY,La lealtà sportiva
 FALAFEL,Polpette fritte di legumi mediorientali
@@ -41,14 +44,18 @@ FALCE,Taglia l'erba con lama ricurva
 FALCETTO,La piccola falce a mano
 FALCHI,Rapaci dalla vista acuta
 FALCIAI,Passato remoto: Tagliare erba o messi
+FALCIATORE,Taglia erba o grano con gesto largo
+FALCIATRICE,Taglia l’erba del prato
 FALCO,Il fautore della linea dura in politica
 FALCO,Rapace da caccia
 FALCO,Rapace dalla vista acuta
+FALCO,Rapace veloce dal volo tagliente
 FALCON,"Il falco, in inglese"
 FALCON,Il razzo riutilizzabile di SpaceX
 FALCONE,Il Giovanni magistrato ucciso a Capaci
 FALCONE,Il rapace addestrato per la caccia
 FALCONETTO,Piccolo cannone antico
+FALCONIERE,Addestra rapaci per caccia e spettacoli
 FALDA,La tesa del cappello
 FALDA,Lo strato d'acqua nel sottosuolo
 FALDA,"Strato nascosto, di acqua o tessuto"
@@ -63,6 +70,7 @@ FALLACI,L'Oriana giornalista e scrittrice
 FALLO,Cogliere in...: sorprendere sul fatto
 FALLO,L'infrazione che l'arbitro fischia
 FALLOPPIO,Il Gabriele anatomista del Cinquecento
+FALO,Fuoco all'aperto per festa o segnale
 FALO,Il gran fuoco acceso all'aperto
 FALO,Il...delle vanità di Savonarola
 FALSA,Può esserlo una storia non vera
@@ -77,6 +85,7 @@ FAMA,Corre più dei suoi protagonisti
 FAMA,"La celebrità, la notorietà"
 FAME,Lo stimolo di chi deve mettersi a tavola
 FAME,Una...da lupi
+FAMIGLIA,Comincia spesso da casa e parenti
 FAMOSA,Può esserlo una cosa conosciuta da molti
 FAMOSE,Possono esserlo cose conosciute da molti
 FAMOSI,Possono esserlo oggetti conosciuti da molti
@@ -85,41 +94,49 @@ FAN,"Il ventilatore, in inglese"
 FAN,Vive di idoli e autografi
 FANALE,Il...di coda: l'ultimo in classifica
 FANALE,La luce di segnalazione del veicolo
-FANALE,Occhio di veicolo o porto
 FANALE,Luce di auto o di porto
+FANALE,Occhio di veicolo o porto
 FANALI,Illuminano strade e veicoli
+FANALINO,Luce piccola in coda o in fondo alla classifica
 FANDANGO,Danza spagnola in tre tempi
 FANEROGAMA,Pianta con organi riproduttivi visibili
 FANFARA,Banda di ottoni e tamburi
+FANFARA,Banda squillante da parata
 FANFARA,La banda militare di ottoni e percussioni
 FANGO,Quello termale curativo
-FANGO,Terra liquida che sporca e trattiene
 FANGO,Terra impastata d'acqua
+FANGO,Terra liquida che sporca e trattiene
 FANTA,Il...calcio dei punteggi dei giocatori
 FANTA,La bibita gassata all'arancia
+FANTASIA,Disegna ciò che gli occhi non vedono
 FANTASIA,L'immaginazione creativa
+FANTASMA,Apparizione da storia di paura
 FANTASMA,Il...dell'Opera
 FANTASMA,Spirito che apparirebbe ai vivi
-FANTASMA,Apparizione da storia di paura
 FANTASMI,Spaventano nei castelli
 FANTASTICARE,Sognare a occhi aperti
 FANTINO,Piccolo cavaliere da palio
+FAO,Agenzia ONU per l'alimentazione con sede a Roma
 FAO,"L'agenzia ONU contro la fame, con sede a Roma"
 FARAD,L'unità di capacità elettrica
 FARADAY,Pioniere dell'elettromagnetismo
+FARAGLIONE,Scoglio alto che spunta dal mare
 FARAGLIONE,Scoglio alto isolato presso la costa
+FARDELLO,Peso materiale o pensiero gravoso
 FARE,Il modo di comportarsi: un...gentile
 FARE,Verbo che trasforma intenzioni in atti
 FARETRA,Custodia per le frecce
 FARETRA,L'astuccio che porta le frecce
 FARFALLA,Avere le...nello stomaco: essere innamorati
+FARFALLA,Insetto che scrive colori nell'aria
 FARFALLA,Insetto dalle ali colorate
 FARFALLA,Lo stile di nuoto detto anche delfino
-FARFALLE,Pasta a forma di fiocco
 FARFALLE,Hanno ali colorate e vita breve
+FARFALLE,Pasta a forma di fiocco
 FARGO,La serie ispirata al film dei Coen
 FARI,Guidano navi e automobilisti nel buio
 FARINA,...del proprio sacco: idea tutta propria
+FARINA,Nuvola bianca da pane e torte
 FARINA,Polvere del grano macinato
 FARINA,Polvere di grano per pane e pasta
 FARINGE,Corridoio fra bocca e esofago
@@ -135,6 +152,7 @@ FARNETICO,Deliro fuori di senno
 FARO,La luce anteriore dell'automobile
 FARO,La torre che guida le navi di notte
 FARO,Luce che guida le navi
+FARO,Occhio luminoso per navi e automobilisti
 FARRAGINOSA,Può esserlo una cosa confusa e pesante
 FARRAGINOSE,Possono esserlo cose confuse e pesanti
 FARRAGINOSI,Possono esserlo oggetti confusi e pesanti
@@ -146,8 +164,9 @@ FARSI,"...da parte: spostarsi, scansarsi"
 FARSI,La lingua persiana dell'Iran
 FASCIA,La striscia di tessuto che avvolge
 FASCIA,Quella oraria o d'età
-FASCIA,"Striscia, zona o grado militare"
+FASCIA,"Striscia che avvolge, sostiene o distingue"
 FASCIA,Striscia di stoffa o di terreno
+FASCIA,"Striscia, zona o grado militare"
 FASCICOLO,Piccolo insieme di fogli legati
 FASCINO,Attrazione che non si misura
 FASCINO,"Il magnetismo, l'attrattiva irresistibile"
@@ -159,6 +178,7 @@ FATA,Dispensa incanti nelle fiabe
 FATA,La maga buona delle fiabe
 FATA,La...Turchina di Pinocchio
 FATALISMO,La rassegnazione al destino segnato
+FATAMORGANA,Illusione ottica che deforma l'orizzonte
 FATAMORGANA,Miraggio con nome di maga
 FATICA,La...di Ercole: l'impresa erculea
 FATICA,Sforzo che pesa sui muscoli
@@ -175,17 +195,22 @@ FATTORE,Chi amministra la fattoria
 FATTORE,Il numero che entra in una moltiplicazione
 FATTORE,L'elemento che determina un risultato
 FATTORIA,Casa di campagna con produzione
+FATTORIA,Casa rurale con animali e campi
 FATTORIA,La...degli animali di Orwell
+FATTORINO,Consegna pacchi o messaggi
 FAULKNER,Il William di Assalonne Assalonne
 FAUNA,Popolazione animale d'un luogo
+FAUNO,Divinità boschiva con zampe caprine
 FAUNO,"Il labirinto del..., film di Del Toro"
 FAUNO,La divinità campestre con corna e zampe caprine
 FAUST,Dottore che firma col diavolo
 FAVA,Legume che ha nome anche in proverbi
 FAVA,Prendere due piccioni con una...
+FAVILLE,Scintille che saltano dal fuoco
 FAVO,Opera geometrica delle api
-FAVOLA,Una cosa stupenda: è stata una...
+FAVOLA,Raccontino con la morale e gli animali
 FAVOLA,Racconto con morale e animali parlanti
+FAVOLA,Una cosa stupenda: è stata una...
 FAVORIRE,Agevolare
 FAVORISCE,Agevola
 FAVORISCO,Agevolo
@@ -195,6 +220,7 @@ FAX,Documento arrivato con un fischio d'epoca
 FAX,Si spediva infilando il foglio nell'apparecchio
 FAZIO,"Il conduttore di Che tempo che fa, Fabio"
 FAZZOLETTI,Si portano in tasca per il naso
+FAZZOLETTO,Quadrato di stoffa o carta per il naso
 FAZZOLETTO,Si usa per soffiarsi il naso
 FBI,Indaga a stelle e strisce
 FBI,La polizia federale degli Stati Uniti
@@ -216,12 +242,15 @@ FEDE,"La...religiosa, il credere in Dio"
 FEDE,Si porta all'anulare o nel cuore
 FEDERA,Il rivestimento del cuscino
 FEDERA,Riveste il cuscino del letto
+FEDERAZIONE,Unisce associazioni sotto regole comuni
 FEDERER,Il Roger fuoriclasse svizzero del tennis
 FEDEZ,Il rapper milanese marito di Ferragni
 FEDRA,La moglie di Teseo innamorata di Ippolito
+FEDRA,Regina tragica innamorata del figliastro
 FEEDBACK,Il ritorno di informazioni su un'azione
 FEGATO,Grande ghiandola dell'addome
 FEGATO,"Il coraggio, l'ardimento: avere..."
+FELCE,Pianta senza fiori dai riccioli verdi
 FELCE,Pianta senza fiori dei luoghi umidi
 FELCI,Piante verdi del sottobosco
 FELDSPATO,Minerale comunissimo nelle rocce
@@ -231,6 +260,7 @@ FELINI,Hanno passo morbido e artigli
 FELINO,"Gatto, tigre o leone"
 FELIX,Il nome del gatto dei cartoni animati
 FELLINI,Il Federico di Amarcord
+FELLINI,Regista di Amarcord e della Dolce Vita
 FELPA,La comoda maglia sportiva di cotone pesante
 FELPATA,Può esserlo una stoffa soffice e attutita
 FELPATE,Possono esserlo stoffe soffici e attutite
@@ -238,19 +268,24 @@ FELPATI,Possono esserlo tessuti soffici e attutiti
 FELPATO,Può esserlo un tessuto soffice e attutito
 FELPE,Scaldano senza eleganza da gala
 FELTRO,Tessuto compatto non tessuto
+FELUCA,Cappello universitario o barca del Nilo
 FEMORE,Il più lungo osso del corpo
 FENDENTE,Colpo di lama dall'alto
 FENDI,La maison romana della moda
+FENDITURA,Apertura sottile in roccia o muro
 FENDITURA,Spaccatura stretta
 FENERBAHCE,Il club turco gialloblù di Istanbul
 FENICE,Il teatro lirico di Venezia
+FENICE,Rinasce dalle proprie ceneri
 FENICE,Uccello che fa della cenere un ritorno
 FENICI,Antico popolo di navigatori del Levante
+FENICOTTERO,Uccello rosa che sta in equilibrio su una zampa
 FENICOTTERO,Uccello rosa dalle lunghe zampe
 FENOGLIO,Il Beppe del Partigiano Johnny
 FENOMENO,Fatto osservabile o persona eccezionale
 FERETRO,Contenitore dell'ultimo viaggio
 FERETRO,La bara che porta il defunto
+FERETRO,Ultima cassa per l'ultimo viaggio
 FERGUSON,Lo storico tecnico scozzese del Manchester United
 FERIE,Le agognate vacanze dal lavoro
 FERINA,Può esserlo una cosa selvaggia e aggressiva
@@ -262,11 +297,14 @@ FERITA,Apertura dolorosa nella pelle o nell'orgoglio
 FERITA,L'offesa che brucia nell'animo
 FERITA,Taglio o dolore dell'anima
 FERITE,Bruciano e si medicano
+FERITOIA,Stretta apertura nelle mura da difesa
 FERMA,Il periodo del servizio militare
-FERMA,Può esserlo una cosa immobile
 FERMA,"Lei arresta, blocca"
+FERMA,Può esserlo una cosa immobile
 FERMACRAVATTA,Gioiello che trattiene la cravatta
 FERMAGLIO,Il fermo che tiene insieme
+FERMAGLIO,Trattiene capelli o documenti
+FERMALIBRI,Tiene in piedi i volumi sullo scaffale
 FERMAPORTA,L'oggetto che tiene aperta la porta
 FERMATA,Dove l'autobus si ferma a far salire
 FERMATA,Il segno musicale che prolunga una nota
@@ -282,8 +320,11 @@ FEROCE,Possono esserlo cose crudeli o selvagge
 FEROCI,Possono esserlo oggetti crudeli o selvaggi
 FERRAGAMO,Il Salvatore delle calzature di lusso
 FERRAGNI,"L'influencer e imprenditrice digitale, Chiara"
+FERRAGOSTO,Festa estiva da spiagge e gite
+FERRAMENTA,"Negozio di viti, chiavi e attrezzi"
 FERRANTE,"La misteriosa autrice dell'Amica geniale, Elena"
 FERRARA,Città estense del Castello
+FERRARA,Città estense delle biciclette
 FERRARI,L'Enzo fondatore della casa di Maranello
 FERRE,"Gianfranco..., lo stilista milanese"
 FERRE,"Il cantautore genovese, Leo"
@@ -295,6 +336,7 @@ FERRO,Quello da stiro
 FERRO,Quello di cavallo portafortuna
 FERRO,"Tiziano, cantautore di Perdono"
 FERRO,Va battuto finché è caldo
+FERRODASTIRO,Liscia i panni con il calore
 FERROVIA,Strada di rotaie
 FERROVIA,Strada ferrata dei treni
 FERROVIE,Portano treni da una città all'altra
@@ -311,6 +353,7 @@ FES,Città marocchina delle concerie
 FESSO,"Incrinato, spaccato"
 FESSO,Sciocco in modo poco elegante
 FESSURA,Apertura stretta
+FESSURA,Apertura stretta e lunga
 FESSURE,Lasciano passare luce e spifferi
 FESTA,Giorno diverso dagli altri
 FESTA,"Il party, la baldoria tra amici"
@@ -329,6 +372,7 @@ FETA,Il formaggio greco in salamoia
 FETO,Vita non ancora venuta alla luce
 FETTA,La buona parte: una... di mercato
 FETTA,Parte tagliata prima di servire
+FETTA,"Porzione sottile di pane, torta o salame"
 FETTA,Porzione tagliata di pane o torta
 FETTE,"Si tagliano da pane, torta o salame"
 FETTUCCINE,Pasta lunga all'uovo romana
@@ -340,6 +384,7 @@ FG,Iniziali del cantautore Guccini
 FG,Sigla automobilistica di Foggia
 FI,Sigla automobilistica di Firenze
 FI,Sigla internazionale della Finlandia
+FIABA,"Apre porte a orchi, fate e castelli"
 FIABA,"Narrativa con prove, magie e lieto fine"
 FIABA,Racconto di fate e incantesimi
 FIABE,Cominciano spesso con un re
@@ -347,13 +392,16 @@ FIACCA,Può esserlo una cosa priva di vigore
 FIACCHE,Possono esserlo cose prive di vigore
 FIACCHI,Possono esserlo oggetti privi di vigore
 FIACCO,Può esserlo un oggetto privo di vigore
+FIACCOLA,Fiamma portata in mano
 FIACCOLA,La...olimpica accesa a Olimpia
 FIACCOLA,Torcia portata in mano
 FIAMMA,La lingua di fuoco
 FIAMMA,La vecchia...: l'amore di un tempo
 FIAMMA,La...ossidrica del saldatore
 FIAMMIFERI,Si accendono strofinando la capocchia
+FIAMMIFERO,Piccolo bastoncino che prende fuoco
 FIAMMINGO,La lingua del nord del Belgio
+FIANCATA,Lato di un’auto o di una nave
 FIANCO,...a...: l'uno accanto all'altro
 FIANCO,Il lato del corpo tra l'anca e le costole
 FIASCHI,Contengono vino con paglia intorno
@@ -375,8 +423,8 @@ FIBRA,Quella ottica dei cavi veloci
 FIBULA,Spilla antica o osso della gamba
 FICHI,Frutti dolci pieni di semini
 FICO,Albero dal frutto dolce
-FICO,"Bellissimo, in gergo giovanile"
 FICO,Albero e frutto mediterraneo
+FICO,"Bellissimo, in gergo giovanile"
 FICO,Frutto dolce dalla buccia sottile
 FICODINDIA,Pianta grassa dai frutti spinosi
 FICUS,Pianta da appartamento e da botanici
@@ -393,6 +441,7 @@ FIDO,"Sicuro, degno di fiducia"
 FIE,"Debole, se la completi"
 FIENILE,Il locale dove si conserva il fieno
 FIENO,Erba secca da stalla
+FIENO,Erba secca per stalle e profumo d'estate
 FIENO,L'erba secca per il bestiame
 FIERA,La belva feroce in gabbia
 FIERA,Mercato espositivo o belva orgogliosa
@@ -401,6 +450,7 @@ FIERE,Le...: le esposizioni commerciali
 FIERE,Possono esserlo cose orgogliose
 FIERI,Possono esserlo oggetti orgogliosi
 FIERO,Può esserlo un oggetto orgoglioso
+FIESOLE,Città etrusca affacciata su Firenze
 FIEVOLE,"Può esserlo un oggetto debole, appena percepibile"
 FIEVOLI,"Possono esserlo oggetti deboli, appena percepibili"
 FIGARO,Il barbiere di Siviglia di Rossini
@@ -418,26 +468,31 @@ FILA,Lei lavora la lana col fuso
 FILADELFIA,La città americana della campana della libertà
 FILAI,Andai dritto o feci filo
 FILANDA,Fabbrica della seta d'altri tempi
+FILANDA,Stabilimento dove si lavorava la seta
 FILARE,Andare dritto o fare filo
 FILASTROCCA,Breve rima per bambini
 FILASTROCCA,Rima semplice per bambini
+FILASTROCCA,Versetto ritmato da bambini
+FILATELIA,Passione ordinata per francobolli
 FILATO,Andato dritto o fatto filo
 FILATORE,Trasforma le fibre in filo
+FILE,Documento digitale
 FILEMONE,Ospito gli dei con Bauci
 FILIFORME,Sottile come un filo
-FILIGRANA,Disegno sottile nella carta o nel metallo
 FILIGRANA,Disegno nascosto nella carta
+FILIGRANA,Disegno sottile nella carta o nel metallo
 FILIPPINE,Arcipelago asiatico di migliaia di isole
 FILIPPO,Il re di Macedonia padre di Alessandro Magno
 FILIPPO,Uno dei dodici apostoli
 FILISTEI,Antico popolo nemico degli Ebrei
 FILISTEO,Nemico biblico e borghese senza gusto
 FILO,Il taglio affilato della lama
-FILO,Unisce stoffe o pensieri sottili
 FILO,Quello del discorso non va perso
+FILO,Unisce stoffe o pensieri sottili
 FILOAPIOMBO,Strumento che indica la verticale
 FILOBUS,L'autobus elettrico collegato a fili aerei
 FILODERBA,Sottile stelo del prato
+FILODIFFUSIONE,Porta musica in più stanze con cavi
 FILOLOGIA,Scienza dei testi e delle parole
 FILOTTETE,L'arciere greco abbandonato a Lemno
 FILTRA,Passa attraverso una barriera fine
@@ -445,22 +500,26 @@ FILTRARE,Passare attraverso un filtro
 FILTRATO,Passato attraverso un filtro
 FILTRO,"Il...magico, la pozione d'amore"
 FILTRO,Passo al colino
+FILTRO,Trattiene impurità o cambia la luce
 FIMBRIA,Orlo sfrangiato o struttura biologica
 FINALE,La partita decisiva del torneo
 FINALE,Ultimo atto o partita decisiva
 FINALISMO,La spiegazione delle cose mediante uno scopo
 FINE,"Conclusione, ma anche scopo"
+FINE,"Giustifica i mezzi, per Machiavelli"
 FINE,"Lo scopo, l'obiettivo da raggiungere"
 FINE,Sottile e delicato
-FINE,"Giustifica i mezzi, per Machiavelli"
-FINESTRA,Taglio nel muro da cui entra luce
+FINESTAGIONE,Periodo degli sconti dopo la moda
 FINESTRA,Apre la casa alla luce
+FINESTRA,Lascia entrare luce e mondo in una stanza
+FINESTRA,Taglio nel muro da cui entra luce
 FINESTRE,Guardano sulla strada
 FINEZZA,Sottigliezza elegante
 FINI,"Gli scopi, gli obiettivi"
 FINI,Sottile o raffinato
 FINIMONDO,Disastro rumoroso da fine del mondo
 FINIRE,"Arrivare al termine, o...in bellezza"
+FINOCCHIO,Ortaggio dal cuore bianco e profumato
 FINOCCHIO,Ortaggio dal sapore di anice
 FINSE,Fece finta
 FINTO,"Falso, simulato"
@@ -468,6 +527,7 @@ FINTO,Il...tonto: chi finge di non capire
 FINTO,Recitato come vero
 FIO,Si paga per espiare
 FIOCCO,Coi fiocchi: di ottima qualità
+FIOCCO,Nodo decorativo o neve leggera
 FIOCCO,Nodo di nastro o cristallo di neve
 FIOCCO,Quello di neve che scende lieve
 FIOCINA,Lancia per pescare
@@ -476,15 +536,20 @@ FIONDA,Lancia sassi con un elastico
 FIONDAI,Passato remoto: Lanciare con impeto
 FIONDE,Lanciano sassi con elastici
 FIONDO,Lancio con impeto
+FIORAIO,Vende mazzi e piante
 FIORDALISO,Fiore azzurro dei campi
 FIORDO,Insenatura nordica profonda
 FIORE,Il meglio: il fior... della gioventù
 FIORE,Il seme delle carte francesi
 FIORE,Organo vegetale e complimento
 FIORELLO,"Lo showman siciliano mattatore, Rosario"
+FIORENTINA,Bistecca alta da griglia toscana
+FIORETTO,Arma sottile della scherma
 FIORETTO,Sottile spada da scherma
+FIORIERA,Cassetta da balcone per gerani e basilico
 FIORIERE,Ospitano piante sui balconi
 FIORINO,L'antica moneta d'oro di Firenze
+FIORISTA,Compone mazzi senza scrivere poesie
 FIREFOX,Il browser della volpe di fuoco
 FIRENZE,La città del Duomo di Brunelleschi
 FIREWALL,La barriera che protegge una rete informatica
@@ -492,6 +557,7 @@ FIRMA,Il giornalista famoso del quotidiano
 FIRMA,Nome scritto in calce
 FIRMAMENTO,La volta del cielo stellato
 FIRTH,Il Colin del Discorso del re
+FISARMONICA,Respira a mantice e canta nelle feste
 FISARMONICA,Strumento col mantice
 FISARMONICHE,Respirano musica tirando il mantice
 FISCHIA,Manda un sibilo
@@ -499,6 +565,7 @@ FISCHIARE,Mandare un sibilo
 FISCHIATO,Mandato un sibilo
 FISCHIETTO,Piccolo strumento da arbitro
 FISCHIO,Mando un sibilo
+FISCHIO,"Suono acuto di labbra, treni o arbitri"
 FISCHIO,Suono acuto fatto con le labbra
 FISICA,La scienza di Galileo e di Newton
 FISICA,"Studia materia, energia e imprevisti scolastici"
@@ -521,8 +588,10 @@ FITTONANTE,Radice che scende diritta e profonda
 FITTONE,La grossa radice principale di certe piante
 FITZGERALD,Il Francis Scott del Grande Gatsby
 FIUME,Acqua che non resta ferma
-FIUME,Un profluvio: un... di parole
 FIUME,"In piena, trascina tutto"
+FIUME,Strada d'acqua che cerca il mare
+FIUME,Un profluvio: un... di parole
+FJORDO,Braccio di mare stretto tra pareti alte
 FL,Iniziali dell’industriale Lamborghini
 FL,"La Florida, negli indirizzi americani"
 FLACCIDA,Può esserlo una stoffa molle e cascante
@@ -538,12 +607,15 @@ FLANEUR,Chi passeggia oziando per la città
 FLASH,Il lampo della macchina fotografica
 FLASH,Il supereroe DC più veloce della luce
 FLAUBERT,Autore di Madame Bovary
+FLAUBERT,Scrittore di Madame Bovary
 FLAUTI,Suonano soffiando nei fori
 FLAUTO,"Il...magico, opera di Mozart"
 FLAUTO,Strumento a fiato dolce o traverso
+FLAUTO,Strumento che canta soffiando nel tubo
 FLEBILE,Può esserlo un uomo debole e lamentoso
 FLEBILI,Possono esserlo uomini deboli e lamentosi
 FLEBITE,Infiammazione di una vena
+FLEBO,Goccia lenta che entra in vena
 FLEGETONTE,Il fiume di fuoco degli inferi
 FLEGMATICO,Calmo fino all'indifferenza
 FLEMING,"Ian..., il papà di James Bond"
@@ -556,6 +628,7 @@ FLICORNO,Ottone delle bande
 FLINTSTONES,La famiglia preistorica dei cartoni
 FLORA,La dea romana dei fiori
 FLORA,Popolazione vegetale d'un luogo
+FLOREALE,Ha grazia di petali e steli
 FLOREALE,Può esserlo un oggetto ricco di fiori
 FLOREALI,Possono esserlo oggetti ricchi di fiori
 FLORENZI,"Alessandro, esterno di Roma e Milan"
@@ -563,8 +636,8 @@ FLORIDA,Può esserlo una cosa prospera e sana
 FLORIDE,Possono esserlo cose prospere e sane
 FLORIDI,Possono esserlo oggetti prosperi e sani
 FLORIDO,Può esserlo un oggetto prospero e sano
-FLOYD,"Pink..., la band di The Wall"
 FLOYD,Il nome del pugile Mayweather
+FLOYD,"Pink..., la band di The Wall"
 FLUORO,Elemento dei dentifrici
 FLUTTO,"L'onda del mare, in poesia"
 FM,Iniziali del cantante Mercury
@@ -582,34 +655,38 @@ FOCE,Dove il fiume si getta nel mare
 FOCI,"Sbocchi di fiumi, non bocche qualunque"
 FOCIDE,Antica regione greca di Delfi
 FOCOLAIO,Centro del fuoco domestico
+FOCOLARE,Cuore caldo della casa antica
 FOCOLARE,Luogo del fuoco domestico
 FODERA,Il rivestimento interno della giacca
 FODERO,Custodia di lama o cuscino
+FODERO,"Custodia di spade, occhiali o coltelli"
 FODRAI,Passato remoto: Rivestire internamente
 FODRATO,Participio: Rivestire internamente
 FOEHN,"L'asciugacapelli, in altra grafia"
 FOEHN,Vento caldo e secco di discesa
 FOGA,Impeto che dimentica la misura
 FOGLIA,...di fico: copertura imbarazzata
+FOGLIA,"Non si muove senza vento, nel proverbio"
 FOGLIA,Organo verde della pianta
 FOGLIA,Tremare come una...: dalla paura
-FOGLIA,"Non si muove senza vento, nel proverbio"
 FOGLIE,Cadono in autunno
 FOGLIO,"Quello rosa, un tempo, della patente"
 FOGNINI,"Fabio, tennista azzurro ligure"
 FOLAGA,L'uccello acquatico nero dal becco bianco
+FOLCLORE,Tradizioni popolari di canti e feste
 FOLGORE,La brigata paracadutisti dell'esercito
 FOLGORE,Lampo violento
 FOLK,Popolare in musica
 FOLKLORE,Tradizione popolare in abito inglese
 FOLLA,La gran moltitudine di gente
-FOLLA,"Molti corpi, poca distanza"
 FOLLA,Molta gente radunata
+FOLLA,"Molti corpi, poca distanza"
 FOLLE,"Il pazzo, lo squilibrato"
 FOLLE,La marcia in cui il motore gira a vuoto
 FOLLE,"Senza ragione, ma con slancio"
 FOLLETTO,L'aspirapolvere senza sacco della Vorwerk
 FOLLETTO,Piccolo spirito dispettoso dei boschi
+FOLLETTO,Spirito domestico delle storie popolari
 FOLLIA,Amare alla...: senza misura
 FOLLOWER,Chi segue un profilo sui social
 FOLTA,Può esserlo una linea fitta
@@ -619,6 +696,7 @@ FOLTO,"Fitto, detto di capelli o boschi"
 FONDA,Dà una base
 FONDA,La custodia della pistola alla cintura
 FONDAI,Diedi una base
+FONDALE,Scenario dietro il palco o sotto il mare
 FONDARE,Dare una base
 FONDATO,Dato una base
 FONDI,I... del caffè sul fondo della tazzina
@@ -629,8 +707,9 @@ FONDUE,Piatto svizzero di formaggio fuso
 FONDUTA,Il formaggio fuso in cui si intinge
 FONEMA,Minimo suono che distingue parole
 FONTANA,"...di Trevi, a Roma"
-FONTANA,Il Lucio dei tagli nella tela
+FONTANA,Fa salire l'acqua in piazza o giardino
 FONTANA,Getta acqua in piazze e giardini
+FONTANA,Il Lucio dei tagli nella tela
 FONTANE,Gettano acqua nelle piazze
 FONTANELLA,Apertura morbida nel cranio del neonato
 FONTE,L'origine della notizia per il giornalista
@@ -645,17 +724,19 @@ FORATO,Bucato e crivellato
 FORATO,Participio: Fare un buco
 FORBICE,L'arnese a due lame incernierate per tagliare
 FORBICE,La rovesciata acrobatica del calciatore
-FORBICE,Taglia con due lame
 FORBICE,Taglia carta e stoffa
+FORBICE,Taglia con due lame
 FORBICI,Tagliano in due lame
 FORBICINA,Insetto con le pinze sul dorso
 FORCA,Attrezzo agricolo o patibolo
 FORCA,Il patibolo dell'impiccato
+FORCHETTA,Infilza spaghetti solo con un po' d'arte
 FORCHETTA,Posata con i rebbi
 FORCHETTE,Infilzano pasta e insalata
 FORCONE,L'attrezzo a denti per il fieno
 FORD,"Harrison..., l'attore di Indiana Jones"
 FORD,Il pioniere americano della catena di montaggio
+FORGIA,Officina rovente del fabbro
 FORGIAI,Passato remoto: Dare forma col fuoco
 FORGIATURA,Lavorazione del metallo al fuoco
 FORIERO,Annuncia qualcosa prima che arrivi
@@ -669,6 +750,7 @@ FORMANTE,Elemento che contribuisce a dare forma
 FORMARE,Dare forma o educare
 FORMATO,Dato forma o educato
 FORMICA,Insetto operoso
+FORMICA,Lavoratrice minuscola in lunghe file
 FORMICAIO,La casa delle formiche
 FORMICAIO,Un brulicare di gente affaccendata
 FORMICHE,Lavorano in fila
@@ -678,10 +760,12 @@ FORNACE,Grande forno industriale
 FORNACE,Il forno ardente per cuocere mattoni e vetro
 FORNAIO,Chi sforna e vende il pane
 FORNAIO,Cuoce il pane nel forno
+FORNAIO,Lavora quando molti dormono per il pane caldo
+FORNELLO,Piccolo fuoco governato in cucina
 FORNI,Cuociono pane e torte
 FORNO,Camera calda da pane e ceramica
-FORNO,Quello a microonde
 FORNO,Cuoci pane e torte
+FORNO,Quello a microonde
 FORO,L'ambiente dei tribunali e degli avvocati
 FORO,La piazza pubblica dell'antica Roma
 FORO,"Piazza antica, tribunale o buco"
@@ -698,12 +782,15 @@ FORTINO,Difesa in miniatura
 FORTNITE,Il videogioco battle royale di Epic Games
 FORZA,"Energia, potere o invito"
 FORZA,L'incitamento allo stadio: ...azzurri!
+FORZIERE,Baule da tesori e pirati
 FOSCA,Può esserlo una cosa cupa e minacciosa
 FOSCHE,Possono esserlo cose cupe e minacciose
 FOSCHI,Possono esserlo oggetti cupi e minacciosi
 FOSCHIA,Nebbia leggera
+FOSCHIA,Velo leggero che sfuma il paesaggio
 FOSCO,Scuro e poco rassicurante
 FOSCOLO,L'Ugo dei Sepolcri
+FOSCOLO,Poeta dei Sepolcri e di Zacinto
 FOSFENO,Luce vista senza luce esterna
 FOSFORO,Elemento che brilla nel nome
 FOSFORO,L'elemento che brilla al buio dei fiammiferi
@@ -734,19 +821,23 @@ FOXTROT,Ballo americano in quattro tempi
 FR,Iniziali del presidente Roosevelt
 FR,Iniziali dello scrittore Rabelais
 FR,Sigla automobilistica di Frosinone
+FRAC,Abito elegante con code posteriori
 FRAC,Abito maschile da cerimonia severa
 FRAC,L'abito da sera con le code
 FRAGILE,"Delicato, che si spezza con facilità"
 FRAGILE,Può esserlo un oggetto facile a rompersi
 FRAGILI,Possono esserlo oggetti facili a rompersi
+FRAGOLA,Frutto rosso con puntini
+FRAGOLA,Frutto rosso punteggiato di semi
 FRAGOLA,Il frutto rosso e profumato di primavera
 FRAGOLA,Rosso dolce che matura basso
-FRAGOLA,Frutto rosso con puntini
 FRAGOLE,Rosseggiano con panna e zucchero
 FRAGORE,Il rumore improvviso e assordante
 FRAGORE,Rumore che riempie lo spazio
+FRAGRANZA,Profumo buono di pane o fiori
 FRANA,"L'incapace, il disastro di persona"
 FRANA,Massa di terreno che scivola
+FRANA,Montagna che scende senza permesso
 FRANA,Scivolamento di terra e rocce
 FRANAI,Passato remoto: Crollare scivolando
 FRANATO,Participio: Crollare scivolando
@@ -771,10 +862,12 @@ FRANCOBOLLO,Si incolla sulla lettera
 FRANCOFORTE,La città tedesca della finanza e della borsa
 FRANCOIS,Il nome del regista Truffaut
 FRANE,Scendono dai pendii
+FRANGIA,Bordo di fili o ciuffo sulla fronte
 FRANGIA,Il ciuffo di capelli sulla fronte
 FRANGIA,L'ala estrema e minoritaria di un gruppo
 FRANGIA,Orlo sfilacciato o ciocca sulla fronte
-FRANGIA,Bordo di fili o ciuffo sulla fronte
+FRANGIFLUTTI,Ripara il porto dalla forza delle onde
+FRANGIVENTO,Ripara dalle raffiche
 FRANK,Il diario di Anna...
 FRANK,Il nome del crooner Sinatra
 FRANKENSTEIN,Il dottore creatore del mostro
@@ -785,9 +878,11 @@ FRANOSA,Può esserlo una cosa che cede facilmente
 FRANOSE,Possono esserlo cose che cedono facilmente
 FRANOSI,Possono esserlo oggetti che cedono facilmente
 FRANOSO,Può esserlo un oggetto che cede facilmente
-FRANTOIO,Macchina o luogo dove si spreme olio
 FRANTOIO,Dove si spremono le olive
 FRANTOIO,Il mulino delle olive
+FRANTOIO,Macchina o luogo dove si spreme olio
+FRANTOIO,Schiaccia olive per farne olio
+FRAPPE,Dolci fritti di Carnevale
 FRASCA,Ramo verde con foglie
 FRASE,L'insieme di parole di senso compiuto
 FRASE,Quella fatta è un luogo comune
@@ -806,9 +901,10 @@ FRECCIA,Dardo dell'arco
 FRECCIA,Il treno ad alta velocità delle ferrovie
 FRECCIA,L'indicatore di direzione lampeggiante dell'auto
 FRECCIA,La scocca l'arciere
+FRECCIA,Va dritta se l'arciere non trema
 FRECCIAROSSA,L'alta velocità di Trenitalia
-FRED,Il...Flintstone dei cartoni
 FRED,Il nome del ballerino Astaire
+FRED,Il...Flintstone dei cartoni
 FREDDA,Guerra...: il confronto USA-URSS
 FREDDA,Può esserlo una giornata priva di calore
 FREDDE,Possono esserlo giornate prive di calore
@@ -824,9 +920,9 @@ FREGATA,L'uccello marino dei mari tropicali
 FREGATA,La snella nave da guerra
 FREGATA,Veloce nave da guerra a vela
 FREGENE,Località balneare del litorale romano
+FREGIO,Decorazione in alto su una parete
 FREGIO,Decorazione orizzontale d'architettura
 FREGIO,La fascia decorata sopra le colonne
-FREGIO,Decorazione in alto su una parete
 FRENA,Riduce la corsa
 FRENAI,Ridussi la corsa
 FRENARE,Ridurre la corsa
@@ -842,26 +938,31 @@ FRESATORE,Lavora i metalli con la fresa
 FRESCA,Può esserlo una giornata appena fatta o non calda
 FRESCHE,Possono esserlo giornate appena fatte o non calde
 FRESCHI,Possono esserlo panni appena fatti o non caldi
-FRESCO,Può esserlo un panno appena fatto o non caldo
 FRESCO,Appena fatto: pane...
+FRESCO,Può esserlo un panno appena fatto o non caldo
 FRESIA,Fiore profumato a spiga
 FREUD,Il Sigmund della psicoanalisi
 FREYA,La dea nordica dell'amore
+FRIEDRICH,Artista romantico tedesco
 FRIEDRICH,Pittore romantico tedesco
 FRIENDS,La sitcom dei sei amici di New York
 FRIGIDARIO,La sala fredda delle terme romane
+FRIGORIFERO,Armadio freddo per il cibo
 FRIGORIFERO,Tiene al fresco i cibi
-FRINGUELLO,Uccello minuto dei fringillidi
 FRINGUELLO,Piccolo uccello canoro
+FRINGUELLO,Uccello minuto dei fringillidi
 FRINIRE,Il canto secco delle cicale
+FRISELLA,Pane secco da bagnare e condire
 FRITTATA,Fare la...: combinare un guaio
 FRITTATA,Uova sbattute cotte in padella
 FRITZ,Il nome del regista Lang
+FRIULI,Terra di confine tra Alpi e Adriatico
 FRIZZI,"Il compianto conduttore de L'eredità, Fabrizio"
 FRODE,Inganno con vantaggio illecito
 FRODE,"La truffa, l'inganno"
 FRODO,L'hobbit portatore dell'Anello
 FRONDA,Ramo con foglie
+FRONDA,Ramo verde che fa ombra
 FRONDAI,Passato remoto: Togliere rami superflui
 FRONDO,Tolgo rami superflui
 FRONTE,Fare... comune contro un nemico
@@ -888,6 +989,7 @@ FRUSCIO,Il leggero rumore di foglie o stoffa
 FRUSTA,"Monta le uova a neve, oltre a schioccare"
 FRUTTIVENDOLO,Vende frutta e verdura
 FUCINA,La...di talenti che sforna campioni
+FUCINA,"Luogo di fuoco, martelli e idee"
 FUCINA,Officina del fabbro e luogo di creazione
 FUCO,"Il maschio dell'ape, fannullone dell'alveare"
 FUCSIA,Rosa intenso e acceso
@@ -903,6 +1005,7 @@ FUJI,Il monte sacro del Giappone
 FUJI,Marca giapponese di pellicole
 FULGORE,Luce intensa e improvvisa
 FULMINE,La scarica abbagliante del temporale
+FULMINE,Lampo del cielo prima del tuono
 FULMINE,Scarica elettrica nel temporale
 FULMINE,Un...a ciel sereno: l'imprevisto sconvolgente
 FULMINEA,Può esserlo una cosa rapidissima
@@ -916,6 +1019,7 @@ FULVO,Può esserlo un colore biondo rossiccio
 FUMA,Manda o aspira fumo
 FUMAI,Mandai o aspirai fumo
 FUMAIOLO,Il camino della nave o della fabbrica
+FUMAIOLO,Lascia uscire fumo da tetti e navi
 FUMARE,...dalla rabbia: essere furibondi
 FUMARE,Mandare o aspirare fumo
 FUMARIA,Pianta officinale dal nome di fumo
@@ -924,15 +1028,19 @@ FUMATO,Mandato o aspirato fumo
 FUMETTI,Raccontano storie in vignette
 FUMETTO,La nuvoletta che racchiude le battute
 FUMETTO,La storia raccontata a vignette disegnate
-FUMETTO,Racconto disegnato che parla in nuvolette
 FUMETTO,Racconto a vignette
+FUMETTO,Racconto disegnato che parla in nuvolette
+FUMETTO,Storia raccontata in vignette
 FUMO,Segnale di fuoco e vizio
 FUMO,Vendere...: promettere il nulla
+FUNAMBOLO,Cammina dove gli altri vedono solo vuoto
 FUNAMBOLO,Cammina in equilibrio sulla fune
 FUNE,Camminare sulla...: l'arte dell'equilibrista
+FUNE,Corda grossa per tirare o legare
 FUNE,Grossa corda
 FUNGHI,Spuntano dopo la pioggia
 FUNGO,Organismo col cappello nel bosco
+FUNGO,Spunta dopo la pioggia e finisce nel risotto
 FUNGO,Spunta nel bosco dopo la pioggia
 FUNICOLARE,Sale tirata da un cavo
 FUNIVIA,Impianto a cabine sospese a una fune
@@ -946,10 +1054,12 @@ FUNZIONO,Vado come deve
 FUOCO,"Elemento che scalda, brucia e concentra"
 FUOCO,"L'entusiasmo, l'ardore"
 FUOCO,La messa a... dell'obiettivo
+FUOCO,"Scalda, brucia e raduna sguardi"
 FUOCO,"Scalda, illumina e brucia"
 FUORICAMPO,La voce narrante non in scena
 FUORIGIOCO,Essere colto in...: essere preso alla sprovvista
 FUORIGIOCO,Posizione irregolare dell'attaccante
+FUORIMANO,Non comodo da raggiungere
 FURBA,Può esserlo una donna scaltra
 FURBE,Possono esserlo donne scaltre
 FURBI,Possono esserlo uomini scaltri
@@ -957,6 +1067,7 @@ FURBO,Capisce dove altri inciampano
 FURBY,Il pupazzo elettronico parlante anni Novanta
 FURETTO,Il mustelide domestico agile e curioso
 FURGONE,Il veicolo chiuso per il trasporto delle merci
+FURGONE,Veicolo chiuso per merci e traslochi
 FURIA,Impetuosità che perde misura
 FURIA,La gran fretta: a...
 FURIE,Andare su tutte le...: infuriarsi
@@ -971,6 +1082,7 @@ FUSIONE,Il passaggio da solido a liquido
 FUSIONE,L'unione di due società in una sola
 FUSIONE,La...nucleare che alimenta il Sole
 FUSO,Arnese della filatrice
+FUSO,Gambo attorno a cui si avvolge il filo
 FUSO,Quello orario tra due meridiani
 FUSOLIERA,Il corpo centrale dell'aereo
 FUSTAGNO,Tessuto robusto e un po' ruvido

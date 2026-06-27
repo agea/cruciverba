@@ -8,25 +8,28 @@ LA,Targa automobilistica della provincia di Latina
 LABARO,Insegna militare o processionale
 LABBRA,Le sigilla il bacio
 LABBRO,"Il bordo carnoso della bocca, o della ferita"
-LABILE,Può esserlo un oggetto che svanisce presto
 LABILE,La memoria...di chi dimentica in fretta
+LABILE,Può esserlo un oggetto che svanisce presto
 LABILI,Possono esserlo oggetti che svaniscono presto
 LABIRINTO,Il...del Minotauro a Creta
 LABIRINTO,Intrico di vie da cui uscire
 LABIRINTO,Intrico in cui è facile perdersi
+LABIRINTO,Percorso costruito per far perdere la via
 LABORIOSA,Può esserlo una donna dedita al lavoro
 LABORIOSE,Possono esserlo donne dedite al lavoro
 LABORIOSI,Possono esserlo uomini dediti al lavoro
 LABORIOSO,Può esserlo un uomo dedito al lavoro
 LABRADOR,Il cane da riporto giallo o nero
 LACCA,Quella che fissa l'acconciatura
+LACCA,Rende lucidi capelli o oggetti orientali
 LACCA,Vernice lucida orientale
+LACCI,Stringono scarpe e pacchi
 LACCIO,"Il cappio, la trappola insidiosa"
 LACCIO,Il legaccio della scarpa
-LACCIO,Stringe scarpe e trappole
 LACCIO,Stringa o vincolo
-LACERA,Strappata e a brandelli
+LACCIO,Stringe scarpe e trappole
 LACERA,Può esserlo una stoffa strappata e logora
+LACERA,Strappata e a brandelli
 LACERAI,Passato remoto: Strappare
 LACERE,Possono esserlo stoffe strappate e logore
 LACERI,Possono esserlo tessuti strappati e logori
@@ -40,6 +43,7 @@ LACONICI,Possono esserlo uomini di poche parole
 LACONICO,"Dice poco, alla maniera spartana"
 LACRIMA,...di coccodrillo: il pianto ipocrita
 LACRIMA,Acqua salata dell'occhio
+LACRIMA,Goccia che scende dagli occhi
 LACRIMA,Scende sulla guancia
 LACRIMO,Piango senza singhiozzi
 LACUSTRE,Relativo ai laghi
@@ -50,9 +54,11 @@ LADYOSCAR,La nobile in divisa dei cartoni della rivoluzione francese
 LAERTE,Il padre di Ulisse
 LAGNA,Lamento che si allunga
 LAGNANZA,Il lamento querulo
+LAGO,Acqua ferma raccolta tra le rive
 LAGO,La distesa d'acqua chiusa tra le rive
 LAGO,Specchio d'acqua che non riflette sempre
 LAGOS,Grande metropoli nigeriana
+LAGUNA,Acqua bassa separata dal mare
 LAGUNA,Acqua bassa tra terra e mare
 LAGUNA,Lo specchio d'acqua salmastra di Venezia
 LAGUNA,Specchio d'acqua separato dal mare
@@ -63,6 +69,7 @@ LALIBELA,Città etiope delle chiese scavate nella roccia
 LAMA,Il maestro spirituale tibetano
 LAMA,Il mammifero che sputa delle Ande
 LAMA,Parte tagliente del coltello
+LAMA,Taglia coltelli e abita altipiani andini
 LAMA,Taglia nel coltello o vive sulle Ande
 LAMBDA,Greca da lunghezze d'onda
 LAMBICCATA,Può esserlo una cosa troppo ricercata
@@ -74,10 +81,12 @@ LAMBRECCHINO,Drappo ornamentale dello stemma
 LAMBRETTA,Il celebre scooter italiano rivale della Vespa
 LAMBRUSCO,Il vino rosso frizzante emiliano
 LAMPADA,Dà luce sul tavolo
-LAMPADA,"La...di Aladino, che evoca il genio"
 LAMPADA,Fa luce sul comodino
+LAMPADA,"La...di Aladino, che evoca il genio"
 LAMPADARIO,Apparecchio luminoso a soffitto
+LAMPADARIO,Pende dal soffitto e illumina la stanza
 LAMPEDUSA,Isola italiana tra Sicilia e Africa
+LAMPIONCINO,Piccola luce da esterno
 LAMPIONE,Albero di luce stradale
 LAMPIONE,Illumina la strada di notte
 LAMPO,La cerniera che si apre e chiude
@@ -85,16 +94,20 @@ LAMPO,Luce brevissima prima del tuono
 LAMPO,Rapidissimo: in un...
 LAMPONE,Frutto rosso da rovo elegante
 LAMPONE,Frutto rosso del sottobosco
+LAMPONE,"Frutto rosso di rovo, tenero e profumato"
 LAMPUGA,Pesce azzurro dai colori cangianti
 LANA,Fibra che fa caldo prima del maglione
 LANA,La...di vetro o d'acciaio per pulire
-LANCE,Le aste lunghe dei cavalieri medievali
 LANCE,Il nome del ciclista Armstrong
+LANCE,Le aste lunghe dei cavalieri medievali
+LANCETTA,Segna ore o punge un dito
 LANCIA,Arma ad asta o piccola imbarcazione
+LANCIA,Arma lunga o marchio d'auto italiano
 LANCIA,L'arma in asta dei cavalieri
 LANCIA,La casa automobilistica torinese
-LANCIA,Arma lunga o marchio d'auto italiano
 LANCIAFIAMME,Arma che spara fuoco
+LANCIERE,Soldato a cavallo armato d'asta
+LANCIETTA,Indica l’ora sul quadrante
 LANCILLOTTO,Il cavaliere innamorato di Ginevra
 LANCINANTE,Può esserlo un oggetto acutamente doloroso
 LANCINANTI,Possono esserlo oggetti acutamente dolorosi
@@ -104,8 +117,9 @@ LANDAU,Elegante carrozza scoperta
 LANOSO,Coperto di lana o di peli morbidi
 LANTERNA,"La...di Genova, il celebre faro"
 LANTERNA,"La...magica, antenata del cinema"
-LANTERNA,Luce portatile schermata
 LANTERNA,Luce portatile da notte
+LANTERNA,Luce portatile schermata
+LANTERNA,Piccolo faro da mano o da porto
 LANTERNE,Fanno luce nei vicoli bui
 LANUGINOSO,Coperto di morbida peluria
 LANZAROTE,Isola canaria dei vulcani
@@ -120,12 +134,14 @@ LAPIDARIE,Possono esserlo cose brevi e incisive
 LAPIDARIO,Breve e inciso come su pietra
 LAPIDE,La pietra tombale incisa
 LAPIDE,Pietra con iscrizione commemorativa
+LAPIDE,Pietra con parole per ricordare
 LAPIDI,Portano nomi e date nel silenzio
 LAPILLI,Piccole pietre sputate dal vulcano
 LAPIS,Matita in parola scolastica antica
 LAPISLAZZULI,Pietra blu intenso con venature dorate
 LAPLACE,Matematico e astronomo francese
 LAPPONIA,La regione artica di Babbo Natale
+LAPPONIA,Terra artica di renne e aurore
 LARA,L'amata del Dottor Zivago
 LARA,L'archeologa Croft dei videogiochi
 LARARIO,Il sacrario domestico dei Romani
@@ -156,10 +172,12 @@ LASER,Luce disciplinata in un raggio
 LASSA,Può esserlo una cosa stanca e fiacca
 LASSE,Possono esserlo cose stanche e fiacche
 LASSI,Possono esserlo oggetti stanchi e fiacchi
+LASSO,Corda con nodo scorrevole da cowboy
 LASSO,Il periodo: un... di tempo
 LASSO,Può esserlo un oggetto stanco e fiacco
 LASTRA,La piastra sottile di pietra o metallo
 LATIFONDO,Proprietà agricola enorme
+LATINA,Città nata dalle bonifiche pontine
 LATINI,Popolo del Lazio antico
 LATINO,L'amante...dal fascino mediterraneo
 LATINO,La lingua dell'antica Roma
@@ -172,8 +190,8 @@ LATRIA,Culto dovuto solo al divino
 LATTASI,Enzima che scinde il lattosio
 LATTE,Avere il...alla bocca: essere immaturi
 LATTE,"Liquido bianco, non solo di mucca"
-LATTE,Quello detergente per il viso
 LATTE,Piangere su quello versato è inutile
+LATTE,Quello detergente per il viso
 LATTERINO,Piccolo pesce da friggere
 LATTICE,Succo bianco vegetale o struttura matematica
 LATTIERA,Recipiente da tavola per il latte
@@ -182,8 +200,8 @@ LATTUGA,Insalata dalle foglie tenere
 LAUDA,Il canto religioso del Medioevo
 LAUDA,Il pilota austriaco sopravvissuto al Nurburgring
 LAUDANO,Oppiaceo da farmacie d'altri tempi
-LAURA,La donna cantata da Petrarca
 LAURA,Il nome della cantante Pausini
+LAURA,La donna cantata da Petrarca
 LAURENCE,Il nome dell'attore Olivier
 LAURO,"Achille..., il cantante di Rolls Royce"
 LAURO,Alloro da poeti e arrosti
@@ -191,13 +209,16 @@ LAUTARO,"Martinez, il Toro argentino dell'Inter"
 LAUTO,"Ricco, detto spesso del pasto"
 LAVA,"Lei deterge, pulisce"
 LAVA,Roccia che corre prima di indurire
-LAVAGNA,Superficie per gesso o pennarello
 LAVAGNA,Si scriveva col gesso a scuola
+LAVAGNA,Superficie per gesso o pennarello
+LAVAGNA,Superficie scura per gessi e lezioni
 LAVAI,Tolsi sporco con acqua
 LAVALLETTA,Capitale maltese con articolo incorporato
 LAVANDA,"La...gastrica, lo svuotamento dello stomaco"
 LAVANDA,Pianta profumata viola
+LAVANDA,Profuma cassetti e campi viola
 LAVANDERIA,Dove si lava la biancheria
+LAVAPIATTI,Elettrodomestico che risparmia schiuma e discussioni
 LAVARE,Togliere sporco con acqua
 LAVASTOVIGLIE,Lava i piatti al posto nostro
 LAVATO,Tolto sporco con acqua
@@ -215,6 +236,7 @@ LAVORO,Impiego fatica e mestiere
 LAVORO,Un... di precisione e di pazienza
 LAWRENCE,"...d'Arabia, il film con Peter O'Toole"
 LAWRENCE,La Jennifer di Hunger Games
+LAZIO,Regione con Roma e i Castelli
 LAZZA,Il rapper milanese di Cenere
 LAZZARO,L'uomo risuscitato da Gesù
 LC,Iniziali dello scrittore Carroll
@@ -227,17 +249,20 @@ LEALE,"Fedele, che non tradisce"
 LEAO,"Rafael, ala portoghese del Milan"
 LEASING,La locazione finanziaria con riscatto
 LEBRON,Il cestista James fuoriclasse NBA
+LECCARDA,Teglia bassa del forno
+LECCE,Città barocca del Salento
 LECCE,Città pugliese del barocco
 LECCIO,Quercia sempreverde mediterranea
+LECCORNIA,Boccone che fa brillare gli occhi ai golosi
 LECLERC,Il pilota monegasco della Ferrari
 LECORBUSIER,L'architetto svizzero del Modulor
 LED,I... Zeppelin del rock
 LED,Il diodo che emette luce a basso consumo
 LEDA,Fu amata da Zeus in forma di cigno
 LEDECKY,La nuotatrice americana regina del fondo
-LEE,"Stan..., il papà dei supereroi Marvel"
 LEE,Il nome del maestro Bruce delle arti marziali
 LEE,Il nome dell'attore Marvin
+LEE,"Stan..., il papà dei supereroi Marvel"
 LEGA,Il metallo ottenuto fondendone diversi
 LEGA,"Lui annoda, unisce"
 LEGA,"Unisce metalli, squadre o Stati"
@@ -249,16 +274,21 @@ LEGARE,Unire con un laccio
 LEGATO,Il rappresentante diplomatico del papa
 LEGATO,L'eredità lasciata per testamento
 LEGATO,Suonato senza stacchi tra le note
+LEGER,Artista cubista delle forme meccaniche
 LEGER,Pittore cubista delle forme meccaniche
 LEGGE,Comanda anche senza voce
 LEGGE,Lui scorre le pagine del libro
-LEGGENDA,Racconto tramandato o spiegazione di una carta
 LEGGENDA,Racconto antico tra storia e fantasia
+LEGGENDA,Racconto antico tra storia e meraviglia
+LEGGENDA,Racconto tramandato o spiegazione di una carta
 LEGGIADRO,Grazia leggera non sempre frivola
 LEGGIO,Il supporto inclinato che regge lo spartito
+LEGGIO,Sostiene spartiti o libri aperti
 LEGGIO,Supporto da lettori in piedi
 LEGHERA,Unirà con un laccio
+LEGNAIA,Riparo dove si tengono i ceppi
 LEGNAME,Il legno da costruzione
+LEGNAME,"Materiale da travi, mobili e camini"
 LEGNO,Materia viva diventata tavola
 LEGNO,Toccare...: per scaramanzia
 LEGNO,Toccarlo dovrebbe portare fortuna
@@ -290,8 +320,9 @@ LENTE,Quelle a contatto per chi non ci vede
 LENTE,Vetro che ingrandisce o corregge
 LENTI,Poco veloce
 LENTI,Quelle a contatto per la vista
-LENTICCHIA,Piccolo legume portafortuna
+LENTICCHIA,Legume augurale della notte di San Silvestro
 LENTICCHIA,Legume portafortuna a Capodanno
+LENTICCHIA,Piccolo legume portafortuna
 LENTIGGINE,La macchiolina bruna del viso
 LENTISCO,Arbusto della macchia mediterranea
 LENTO,"Opposto di rapido, ma anche tempo musicale"
@@ -307,16 +338,18 @@ LEONARDO,"...DiCaprio, l'attore di Titanic"
 LEONARDO,Il genio di Vinci
 LEONE,Felino e segno di fuoco
 LEONE,Il premio del festival di Venezia
+LEONE,Il re della savana
 LEONE,Il segno zodiacale di chi nasce ad agosto
 LEONE,"Il...alato, simbolo di Venezia e di San Marco"
-LEONE,Il re della savana
 LEONINO,"Da leone, ma anche sbilanciato nei patti"
 LEOPARDI,Il Giacomo di Recanati
-LEOPARDO,Un...non cambia le sue macchie
+LEOPARDO,Felino maculato da savana e foresta
 LEOPARDO,Felino maculato e veloce
+LEOPARDO,Un...non cambia le sue macchie
 LEPIDOTTERO,Insetto con ali squamose
 LEPRE,Animale dalle lunghe orecchie
 LEPRE,Chi fa l'andatura nelle gare di mezzofondo
+LEPRE,Corre nei campi con orecchie lunghe
 LEPRE,Corre veloce nei campi
 LEPRECAUNO,Folletto irlandese custode di un tesoro
 LEPTIS,Antica città romana della Libia
@@ -341,6 +374,7 @@ LETARGICHE,Possono esserlo cose torpide e sonnolente
 LETARGICI,Possono esserlo oggetti torpidi e sonnolenti
 LETARGICO,Può esserlo un oggetto torpido e sonnolento
 LETARGO,Sonno animale contro l'inverno
+LETARGO,Sonno stagionale di certi animali
 LETE,Il fiume dell'oblio degli inferi
 LETTA,L'Enrico politico italiano
 LETTA,Una pagina già...: scorsa con gli occhi
@@ -356,6 +390,7 @@ LEVA,La classe di nascita per il servizio militare
 LEVAI,Passato remoto: Togliere o alzare
 LEVANTE,Oriente del sole e vento
 LEVATO,Participio: Togliere o alzare
+LEVATOIO,Ponte che si alza davanti al castello
 LEVIATANO,L'opera politica di Thomas Hobbes
 LEVIATANO,Mostro marino biblico
 LEVIGA,Rende liscio
@@ -365,6 +400,7 @@ LEVIGHERA,Renderà liscio
 LEVIGO,Rendo liscio
 LEVO,Tolgo o sollevo
 LEVRIERO,Cane fatto per correre
+LEVRIERO,Cane snello da corsa
 LEWANDOWSKI,"Robert, bomber polacco del Bayern"
 LEWIS,"...Hamilton, il pilota di Formula 1"
 LEWIS,Il nome dello scrittore Carroll di Alice
@@ -379,8 +415,10 @@ LIA,La moglie di Giacobbe sorella di Rachele
 LIANA,La rampicante della giungla cara a Tarzan
 LIBANO,Paese dei cedri con capitale Beirut
 LIBBRA,L'unità di peso anglosassone
+LIBECCIO,Vento di sud-ovest che porta mare grosso
 LIBECCIO,"Vento di sud-ovest, spesso umido"
 LIBELLULA,Insetto dalle ali trasparenti
+LIBELLULA,Insetto elegante sopra stagni e ruscelli
 LIBELLULE,Volano leggere sugli stagni
 LIBERA,Toglie un vincolo
 LIBERAI,Tolsi un vincolo
@@ -393,8 +431,9 @@ LIBERO,Tolgo un vincolo
 LIBIA,Paese nordafricano con capitale Tripoli
 LIBRA,La Bilancia dello zodiaco in latino
 LIBRAIO,Mercante di pagine
-LIBRERIA,Mobile pieno di scaffali per libri
 LIBRERIA,Mobile o negozio di libri
+LIBRERIA,Mobile pieno di scaffali per libri
+LIBRERIA,Tiene volumi in casa o li vende
 LIBRETTO,...di risparmio: il deposito in banca
 LIBRETTO,Il testo di un'opera lirica
 LIBRETTO,Il...di circolazione del veicolo
@@ -403,6 +442,7 @@ LIBRO,Quello mastro della contabilità
 LICANTROPO,Uomo che si trasforma in lupo
 LICCIO,Il filo che alza l'ordito nel telaio
 LICHENE,Organismo di fungo e alga
+LICHTENSTEIN,Artista pop dei fumetti ingranditi
 LICHTENSTEIN,Pittore pop dei fumetti ingranditi
 LIDO,L'isola balneare davanti a Venezia
 LIDO,Spiaggia con cabine e ombrelloni
@@ -410,19 +450,24 @@ LIETO,Il...fine della fiaba
 LIETO,"Sereno, spesso in fine"
 LIEVE,Può esserlo un oggetto leggero
 LIEVI,Possono esserlo oggetti leggeri
+LIEVITO,Fa crescere pane e impasti
 LIEVITO,Fa gonfiare pane e dolci
 LIGABUE,"Antonio..., il pittore naïf"
 LIGABUE,"Il rocker di Correggio, Luciano"
 LIGNAGGIO,Discendenza nobile o familiare
 LIGURE,Mare di Genova e del Ponente
+LIGURE,Mare di Genova e delle Cinque Terre
 LIGURI,Antico popolo dell'Italia nord-occidentale
+LIGURIA,Arco di terra tra monti e mare
 LIGUSTRO,Arbusto comune per le siepi
+LIKE,Il mi piace dei social
 LILLA,Colore e fiore profumato
 LILLE,Città del nord della Francia
 LILLIPUT,Il paese dei minuscoli in Gulliver
 LILONGWE,La capitale del Malawi
-LIMA,Capitale andina e utensile abrasivo
 LIMA,Attrezzo ruvido o capitale del Perù
+LIMA,Capitale andina e utensile abrasivo
+LIMA,Capitale peruviana affacciata sul Pacifico
 LIMACCIA,Fango viscido e sgradevole
 LIMAI,Passato remoto: Consumare con lima
 LIMATO,Participio: Consumare con lima
@@ -437,14 +482,18 @@ LIMITATO,Posto un limite
 LIMITE,Linea da non oltrepassare
 LIMITO,Pongo un confine
 LIMO,Consumo con un utensile abrasivo
+LIMO,Fango fine depositato dai fiumi
 LIMO,"La limousine, in breve"
+LIMONE,Agrume giallo che pizzica tè e pesce
 LIMONE,Agrume giallo e aspro
 LIMONE,"Il bacio appassionato, in gergo"
 LIMONE,Spremuto come un...: sfruttato fino in fondo
+LIMONETO,Campo odoroso di agrumi gialli
 LIMPIDA,Può esserlo una tinta chiara e trasparente
 LIMPIDE,Possono esserlo tinte chiare e trasparenti
 LIMPIDI,Possono esserlo colori chiari e trasparenti
 LIMPIDO,Può esserlo un colore chiaro e trasparente
+LINCE,Felino dagli occhi acuti e orecchie a pennello
 LINCE,Il felino dai ciuffi sulle orecchie
 LINCOLN,L'auto di lusso americana
 LINCOLN,Presidente dell'abolizione della schiavitù
@@ -460,6 +509,7 @@ LINEA,"Tratto, condotta o forma"
 LINFA,Fluido vitale delle piante
 LINFA,"L'energia vitale, il nutrimento"
 LINFA,Scorre nelle piante
+LINFA,Scorre nelle piante come un sangue verde
 LINFATICO,Relativo alla linfa o poco energico
 LINFOCITA,Globulo bianco della risposta immunitaria
 LINGUA,"L'idioma, la parlata di un popolo"
@@ -470,35 +520,41 @@ LINK,L'eroe in verde della saga di Zelda
 LINKEDIN,Il social network professionale
 LINNEO,Il naturalista della classificazione delle specie
 LINO,Fibra estiva da lenzuola
-LINO,Il tessuto fresco e leggero per l'estate
 LINO,Fibra tessile leggera
+LINO,Il tessuto fresco e leggero per l'estate
 LINOTIPISTA,Componeva i testi a piombo
 LINUX,Il sistema operativo libero col pinguino
 LIOCORNO,L'unicorno delle leggende
 LIONE,Città francese alla confluenza di Rodano e Saona
 LIPARI,La maggiore delle Eolie
+LIPPI,Artista fiorentino del primo Rinascimento
 LIPPI,"Marcello, il ct campione del mondo 2006"
 LIPPI,Pittore fiorentino del primo Rinascimento
 LIPSIA,Città tedesca di Bach e della fiera
 LIQUIRIZIA,Radice nera dal sapore dolce
+LIQUORE,Bevanda dolce e forte da fine pasto
 LIQUORE,Dolce alcolico da fine pasto
 LIRA,L'antico strumento a corde dei poeti
 LIRA,Moneta scomparsa e strumento antico
 LIRA,Vecchia moneta italiana
-LISA,La Monna...di Leonardo
 LISA,Il nome della secondogenita dei Simpson
+LISA,La Monna...di Leonardo
 LISBONA,Capitale portoghese sul Tago
+LISBONA,Città dei tram gialli e del Tago
 LISCA,Ostacolo sottile nel pesce
+LISCA,Spina sottile del pesce
 LISCE,Possono esserlo cose senza asperità
 LISCI,Possono esserlo oggetti senza asperità
 LISCIA,Può esserlo una cosa senza asperità
+LISCIO,Ballo da balera o superficie senza ruvidità
 LISCIO,Filare tutto...: andare per il verso giusto
 LISCIO,Il ballo...da balera: valzer e mazurca
 LISCIO,Può esserlo un oggetto senza asperità
-LISCIO,Ballo da balera o superficie senza ruvidità
 LISO,Consumato dall'uso
 LISTA,"Elenco, striscia o candidatura"
 LISTA,Quella di nozze degli sposi
+LISTELLO,Striscia sottile di legno o metallo
+LISZT,Virtuoso romantico del pianoforte
 LISZT,Virtuoso ungherese del pianoforte
 LITANIA,Preghiera ripetitiva e lamentosa
 LITCHI,Il frutto cinese dalla buccia rugosa
@@ -513,6 +569,7 @@ LITIGHERO,Mi scontrerò a parole
 LITIGHIAMO,Ci scontriamo a parole
 LITIGO,Mi scontro a parole
 LITIO,Metallo leggero da batterie
+LITOGRAFIA,Stampa artistica nata su pietra
 LITOGRAFIA,Stampa ottenuta da matrice di pietra o metallo
 LITORALE,Striscia di costa
 LITOSFERA,Involucro roccioso della Terra
@@ -539,11 +596,15 @@ LO,Sigla automobilistica di Lodi
 LOBBY,Gruppo di pressione sul potere
 LOBO,"Il lupo, in spagnolo"
 LOBO,Parte molle o sezione anatomica
+LOCANDA,Alloggio semplice per viandanti
 LOCANDA,Piccolo albergo di campagna
+LOCANDINA,Piccolo manifesto pubblicitario
 LOCATELLI,"Manuel, centrocampista di Sassuolo e Juventus"
 LOCOMOTIVA,Chi traina un gruppo con la sua forza
-LOCOMOTIVA,Tira il convoglio stando davanti
 LOCOMOTIVA,Tira i vagoni del treno
+LOCOMOTIVA,Tira il convoglio stando davanti
+LOCOMOTIVA,Tira vagoni lungo i binari
+LOCOROTONDO,Borgo pugliese bianco e circolare
 LOCULO,Lo spazio per una bara nel muro del cimitero
 LOCUSTA,Cavalletta che devasta i raccolti
 LODA,Dice bene di qualcuno
@@ -553,36 +614,43 @@ LODATO,Detto bene di qualcuno
 LODE,Parola di approvazione o voto pieno
 LODE,Trenta e...: il massimo dei voti
 LODEN,Cappotto di lana verde tirolese
+LODI,Città lombarda sul fiume Adda
 LODI,Città lombarda sull'Adda
 LODO,Dico bene di qualcuno
 LODO,"La decisione dell'arbitro, in diritto"
 LOFT,Ampio appartamento ricavato da uno spazio industriale
 LOG,"Il logaritmo, in forma abbreviata"
 LOG,Registro tecnico o tronco inglese
+LOGGIA,Galleria aperta ad archi
 LOGGIA,Il balcone aperto e porticato
 LOGGIA,Portico elevato o società riservata
 LOGGIA,Quella massonica dei massoni
-LOGGIA,Galleria aperta ad archi
+LOGGIA,Spazio coperto aperto da archi
 LOGGIATO,La serie di logge di un edificio
+LOGGIATO,Serie di archi aperti su un lato
 LOGGIONE,Paradiso dei teatri rumorosi
 LOGICA,La scienza del ragionamento corretto
+LOGIN,Ingresso con nome utente e password
 LOGO,Volto grafico di un marchio
-LOGORA,Può esserlo una cosa consumata dall'uso
 LOGORA,Lei consuma a furia di usare
+LOGORA,Può esserlo una cosa consumata dall'uso
 LOGORAMENTO,Il consumarsi a poco a poco
 LOGORE,Possono esserlo cose consumate dall'uso
 LOGORI,Possono esserlo oggetti consumati dall'uso
 LOGORO,Può esserlo un oggetto consumato dall'uso
 LOGORREA,Troppa parola in forma clinica
 LOIRA,Fiume dei castelli francesi
+LOIRA,Fiume francese dei castelli
 LOIS,Il nome della Lane di Superman
 LOKI,L'antagonista di Thor nel cinema Marvel
 LOKI,L'astuto dio ingannatore nordico
 LOLLOBRIGIDA,La Gina della Bersagliera
 LOMBARDIA,La regione di Milano
+LOMBARDIA,"Regione di laghi, risaie e metropoli"
 LOMBRICO,Il verme che ara la terra
 LOME,Capitale togolese
 LONDRA,Capitale britannica sul Tamigi
+LONDRA,Città del Tamigi e del Big Ben
 LONGILINEO,Alto e snello di corporatura
 LONGOBARDI,Popolo germanico che invase l'Italia
 LONTANA,Può esserlo una cosa non vicina
@@ -595,11 +663,12 @@ LOPPA,La buccia del chicco separata dal grano
 LOQUACE,Parla più del necessario
 LOQUACI,Molto parlante
 LORCA,Il Federico Garcia poeta andaluso
+LORCA,Poeta andaluso del Romancero gitano
 LORDOSI,Curvatura in avanti della colonna
 LOREN,La Sophia premio Oscar
 LORENZETTI,Pittori senesi del buon governo
-LORENZO,"Jorge, campione spagnolo della MotoGP"
 LORENZO,Il nome del Magnifico dei Medici
+LORENZO,"Jorge, campione spagnolo della MotoGP"
 LORETO,Città marchigiana della Santa Casa
 LORO,"Il pappagallo, in voce antica"
 LOSANGELES,La città californiana del cinema
@@ -618,8 +687,8 @@ LOTTO,Gioco di numeri e terreno edificabile
 LOTTO,Il gioco dei numeri sulla ruota
 LOTTO,La porzione di terreno edificabile
 LOU,Il nome del rocker Reed
-LOUIS,Il nome di tanti re di Francia
 LOUIS,Il nome del jazzista Armstrong
+LOUIS,Il nome di tanti re di Francia
 LOUISE,Il nome della compagna di Thelma nel film
 LOUISVUITTON,La maison francese delle valigie monogram
 LOUNGE,La sala d'attesa confortevole
@@ -634,6 +703,7 @@ LUBIANA,Capitale slovena
 LUC,Il nome del regista francese Besson
 LUCA,Il film Pixar ambientato in Liguria
 LUCA,L'evangelista medico
+LUCANIA,Nome storico della Basilicata
 LUCAS,Il George creatore di Star Wars
 LUCCA,"...Comics, il festival del fumetto"
 LUCCA,Città toscana delle mura intatte
@@ -643,18 +713,20 @@ LUCCHETTO,Piccola serratura portatile
 LUCCIO,Predatore d'acqua dolce
 LUCCIOLA,Insetto che brilla nella notte
 LUCCIOLE,Prendere... per lanterne: ingannarsi
+LUCE,In fondo al tunnel dà speranza
 LUCE,La canzone di Elisa vincitrice a Sanremo
 LUCE,La cerca chi brancola
-LUCE,In fondo al tunnel dà speranza
 LUCERNA,La città svizzera del Ponte della Cappella
 LUCERNA,Lampada antica a olio
 LUCERNARIO,L'apertura vetrata nel tetto
-LUCERTOLA,Rettile dei muri assolati
+LUCERTOLA,Rettile che fugge sui muri al sole
 LUCERTOLA,Rettile che prende il sole sui muri
+LUCERTOLA,Rettile dei muri assolati
 LUCHE,Il rapper napoletano ex Co'Sang
 LUCIA,Nome manzoniano e luminosa santa
 LUCIDA,Rende brillante
 LUCIDARE,Rendere brillante
+LUCIDASCARPE,Ridà lustro alle calzature
 LUCIDATO,Reso brillante
 LUCIDE,Possono esserlo cose brillanti o razionali
 LUCIDI,Possono esserlo oggetti brillanti o razionali
@@ -664,6 +736,7 @@ LUCIDO,Rendo brillante
 LUCIFERO,L'angelo caduto della tradizione cristiana
 LUCIGNOLO,Stoppino e cattivo compagno di Pinocchio
 LUCIUS,Il nome del Malfoy di Harry Potter
+LUCREZIO,Autore di versi latino della natura delle cose
 LUCREZIO,Poeta latino della natura delle cose
 LUCULLIANO,Sontuoso a tavola
 LUDDISTA,Nemico delle macchine per storia industriale
@@ -679,6 +752,7 @@ LUKAKU,"Romelu, ariete belga dell'Inter"
 LUKE,Il nome dello Skywalker di Star Wars
 LUMACA,Andare a passo di...: lentissimamente
 LUMACA,Mollusco lento con conchiglia
+LUMACA,Va piano portandosi dietro il guscio
 LUMACHE,Procedono lente lasciando una scia
 LUME,"A...di naso: a intuito, alla buona"
 LUME,Lampada d'altri tempi e intelletto
@@ -686,6 +760,7 @@ LUMEGGIATURA,Tocco di luce in pittura
 LUMEN,Misura di luce o cavità anatomica
 LUNA,...park: il parco dei divertimenti
 LUNA,L'umore: avere la... storta
+LUNA,Lampada naturale delle notti serene
 LUNA,Satellite naturale della Terra
 LUNA,"Storta, rende di cattivo umore"
 LUNADIMIELE,Il viaggio degli sposi novelli
@@ -701,14 +776,18 @@ LUNGO,"Esteso, anche nel caffè"
 LUNGOMARE,La passeggiata in riva al mare
 LUPA,Allattò Romolo e Remo
 LUPA,Il bronzo simbolo di Roma
+LUPARA,Fucile corto legato a racconti di mafia e pastori
 LUPI,Ululano nelle notti dei boschi
 LUPIN,Il ladro gentiluomo dell'anime giapponese
 LUPIN,"Remus..., il professore di Harry Potter"
+LUPINELLA,Pianta foraggera dai fiori rosati
 LUPO,Animale da fiaba e da branco
 LUPO,Il predatore che ulula alla Luna
 LUPO,"Il...di mare, il marinaio esperto"
 LUPO,Predatore delle fiabe e dei boschi
+LUPO,Ulula nei boschi e nelle fiabe
 LUPUS,Lupo latino e malattia autoimmune
+LUSAKA,Capitale dello Zambia
 LUSAKA,Capitale zambiana
 LUSINGA,Promessa dolce che può ingannare
 LUSINGHIERA,Può esserlo una cosa che promette bene

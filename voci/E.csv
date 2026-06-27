@@ -7,6 +7,7 @@ EASTWOOD,"L'attore e regista dei western, Clint"
 EBANISTA,Artigiano dei legni pregiati
 EBANO,Il legno nero e durissimo
 EBANO,Legno nero e pregiato
+EBANO,Legno scurissimo e pregiato
 EBBE,Venne in possesso
 EBBRA,Può esserlo una donna alterata dal vino
 EBBRE,Possono esserlo donne alterate dal vino
@@ -15,6 +16,7 @@ EBBRO,Può esserlo un uomo alterato dal vino
 EBE,La coppiera degli dei olimpici
 EBE,La dea greca della giovinezza
 EBREI,Il popolo della Bibbia
+EBREZZA,Stordimento allegro da gioia o vino
 EBRO,Fiume della Spagna nordorientale
 ECATE,Dea greca della magia
 ECCHIMOSI,Il livido sulla pelle
@@ -23,13 +25,15 @@ ECLETTICA,Può esserlo una soluzione aperta a gusti diversi
 ECLETTICHE,Possono esserlo soluzioni aperte a gusti diversi
 ECLETTICI,Possono esserlo candidati aperti a gusti diversi
 ECLETTICO,Sceglie da più stili senza fissarsi
-ECLISSE,Oscuramento del cielo o della fortuna
+ECLISSE,Oscura il sole o la luna per poco
 ECLISSE,Oscuramento del Sole o della Luna
-ECLISSI,Quando un astro ne nasconde un altro
+ECLISSE,Oscuramento del cielo o della fortuna
 ECLISSI,Oscurano sole o luna
+ECLISSI,Quando un astro ne nasconde un altro
 ECLITTICA,Il percorso apparente del Sole
 ECLOGA,Componimento pastorale di gusto antico
 ECO,Lo scrittore Umberto del Nome della rosa
+ECO,Ninfa condannata a ripetere le ultime parole
 ECO,Prefisso amico dell'ambiente
 ECO,Risposta che non pensa
 ECOCIDA,"Chi distrugge l'ambiente, parola recente e dura"
@@ -46,11 +50,13 @@ EDELWEISS,La stella alpina delle vette
 EDEN,Giardino perduto per un frutto
 EDEN,"Un...: un luogo di delizie, un paradiso"
 EDERA,La rampicante sempreverde dei muri
+EDERA,Si arrampica sui muri senza scale
 EDGAR,Il nome dello scrittore del terrore Poe
+EDICOLA,Chiosco dei giornali o piccola cappella
 EDICOLA,Il chiosco dove si comprano i giornali
 EDICOLA,La piccola cappella votiva sul muro
 EDICOLA,Vende giornali o custodisce santi
-EDICOLA,Chiosco dei giornali o piccola cappella
+EDICOLA,Vende giornali o custodisce un’immagine sacra
 EDICOLE,Vendono giornali in strada
 EDIMBURGO,Capitale scozzese del castello
 EDIPO,Il complesso di...secondo Freud
@@ -83,6 +89,7 @@ EFFERATI,Possono esserlo oggetti crudeli oltre misuri
 EFFERATO,Crudele oltre la misura
 EFFIGE,Immagine ufficiale da moneta o medaglia
 EFFIGE,L'immagine impressa su monete e francobolli
+EFFIGIE,Immagine impressa su monete o medaglie
 EFFIMERA,Dura poco anche quando non è insetto
 EFFIMERE,Possono esserlo cose di breve durata
 EFFIMERI,Possono esserlo oggetti di breve durata
@@ -90,6 +97,7 @@ EFFIMERO,Può esserlo un oggetto di breve durata
 EGADI,Arcipelago a ovest della Sicilia
 EGEO,Il mare del mito di Teseo
 EGEO,Il re padre di Teseo
+EGIDA,Protezione autorevole sotto cui ci si pone
 EGIDA,"Protezione autorevole, da scudo divino"
 EGITTO,Paese delle piramidi e del Nilo
 EGO,L'io quando si mette in analisi
@@ -107,25 +115,31 @@ ELABORATO,Può esserlo un lavoro costruito con cura
 ELASTICA,Può esserlo una molla che torna in forma
 ELASTICHE,Possono esserlo molle che tornano in forma
 ELASTICI,Possono esserlo materiali che tornano in forma
-ELASTICO,Torna indietro quando lo tiri
 ELASTICO,Si allunga e ritorna
+ELASTICO,Si allunga e torna indietro
+ELASTICO,Torna indietro quando lo tiri
+ELBA,Fiume tedesco che passa per Dresda
 ELBA,Isola dell'esilio napoleonico
 ELBRUS,La vetta più alta d'Europa nel Caucaso
+ELEFANTE,Animale dalla proboscide
+ELEFANTE,"Ha zanne, proboscide e memoria proverbiale"
 ELEFANTE,Pachiderma dalla memoria proverbiale
 ELEFANTE,Un...in una cristalleria: il goffo che fa danni
-ELEFANTE,Animale dalla proboscide
 ELEFANTI,Hanno proboscide e memoria proverbiale
 ELEGANTE,Può esserlo un abito di buon gusto
 ELEGANTI,Possono esserlo abiti di buon gusto
+ELEGANZA,Sa farsi notare senza gridare
 ELEGIA,Canto malinconico da antichi poeti
 ELEGIACO,Tono di malinconia poetica
 ELEMENTALE,Spirito legato a un elemento naturale
 ELENA,"L'isola dove morì Napoleone, Sant'..."
 ELENA,La bella causa della guerra di Troia
+ELENA,La bellezza che fece muovere mille navi
 ELENCA,Mette in lista
 ELENCARE,Mettere in lista
 ELENCATO,Messo in lista
 ELENCHERA,Metterà in lista
+ELENCO,Mette nomi o cose uno sotto l’altro
 ELENCO,Metto in lista
 ELENCO,Quello del telefono con nomi e numeri
 ELETTRA,Il complesso di...femminile secondo Jung
@@ -133,6 +147,7 @@ ELETTRA,La figlia di Agamennone vendicatrice del padre
 ELETTRICISTA,Installa e ripara impianti elettrici
 ELETTRO,Lega antica di oro e argento
 ELETTROCARDIOGRAMMA,Il tracciato dell'attività del cuore
+ELETTRODOMESTICO,Aiuta in casa usando corrente
 ELETTROLISI,La scomposizione chimica con la corrente
 ELETTRONE,Particella con carica negativa
 ELEVA,Porta più in alto
@@ -144,20 +159,22 @@ ELEZIONE,Scelta fatta con il voto
 ELEZIONI,Portano gli elettori alle urne
 ELFI,Piccoli esseri dei boschi fantastici
 ELFO,Creatura a orecchie a punta del Signore degli Anelli
-ELFO,Piccolo essere da boschi nordici
 ELFO,Creatura fantastica dei boschi
+ELFO,Creatura minuta dei boschi fantastici
+ELFO,Piccolo essere da boschi nordici
 ELGRECO,Il pittore cretese di Toledo
-ELI,Il sacerdote che allevò il piccolo Samuele
 ELI,Il nome del predicatore biblico
+ELI,Il sacerdote che allevò il piccolo Samuele
 ELIA,Profeta rapito su un carro di fuoco
 ELIAS,Il nome dell'inventore della macchina da cucire Howe
+ELICA,Fa avanzare barche e aerei
 ELICA,La doppia...del DNA
 ELICA,La pala rotante dell'aereo e della nave
 ELICA,Spinge aerei e navi
-ELICA,Fa avanzare barche e aerei
 ELICHE,Girano spingendo aria o acqua
 ELICONA,"Monte delle Muse, non solo forma a spirale"
 ELICOTTERO,Velivolo che si solleva girando
+ELICOTTERO,Vola restando sospeso con pale rotanti
 ELICRISO,Pianta mediterranea dal profumo di liquirizia
 ELIJAH,Il nome dell'attore Wood del Signore degli Anelli
 ELIMINA,Toglie di mezzo
@@ -167,21 +184,23 @@ ELIMINO,Tolgo di mezzo
 ELIO,Gas nobile dei palloncini
 ELIO,Il leader delle Storie Tese
 ELIOS,Il dio greco del sole
-ELIOT,"T.S. ..., il poeta della Terra desolata"
 ELIOT,Il nome dell'agente Ness degli Intoccabili
+ELIOT,"T.S. ..., il poeta della Terra desolata"
 ELISA,La cantante friulana di Luce
 ELISA,Per...: la bagatella di Beethoven
 ELISEO,Il palazzo del presidente francese
 ELISEO,Profeta discepolo di Elia
 ELISI,Il soggiorno beato dei morti virtuosi
 ELISIO,Luogo beato oltre la morte classica
+ELISIR,Bevanda favolosa di lunga vita
 ELISIR,"L'opera comica di Donizetti, l'...d'amore"
 ELISIR,La pozione magica di lunga vita
 ELISIR,Liquido miracoloso da alchimisti
-ELISIR,Bevanda favolosa di lunga vita
+ELISIR,Pozione che promette salute o giovinezza
 ELITE,La cerchia ristretta dei privilegiati
 ELITE,"Pochi scelti, spesso molto visibili"
 ELIZABETH,Il nome della regina d'Inghilterra II
+ELLEBORO,Fiore invernale detto rosa di Natale
 ELLEN,Il nome della conduttrice DeGeneres
 ELLINGTON,"Il grande compositore e pianista jazz, Duke"
 ELLIOTT,Il nome del bimbo amico di E.T.
@@ -189,15 +208,17 @@ ELLISSE,Curva piana con due fuochi
 ELMI,Proteggono teste di guerrieri
 ELMO,Antica protezione del capo
 ELMO,Il...di Scipio dell'inno di Mameli
+ELMO,Proteggeva il capo di guerrieri e cavalieri
 ELMO,Proteggeva la testa del guerriero
 ELOCUZIONE,Modo di parlare più che contenuto
 ELODIE,La cantante romana pop italiana
 ELOGIAI,Passato remoto: Dire lodi
 ELOGIO,La lode aperta e sincera
 ELOQUIO,Modo di parlare più che contenuto
+ELSA,Il nome della protagonista di Frozen
 ELSA,"L'...della spada, l'impugnatura"
 ELSA,La Morante de La Storia
-ELSA,Il nome della protagonista di Frozen
+ELSA,Parte della spada che ripara la mano
 ELTON,Il John pianista di Your Song
 ELUCUBRAZIONE,Ragionamento faticoso e notturno
 ELUSE,Sfuggì all'obbligo
@@ -210,12 +231,15 @@ EMACIATI,Possono esserlo colori magri e pallidi
 EMACIATO,Può esserlo un colore magro e pallido
 EMAIL,La posta elettronica
 EMATITE,Minerale del ferro dal colore rossastro
+EMATITE,Minerale del ferro dal riflesso metallico
 EMATOLOGIA,La medicina del sangue
+EMBLEMA,Figura che rappresenta un'idea o una famiglia
 EMBLEMA,Figura simbolica
 EMBLEMA,Il simbolo che rappresenta qualcosa
 EMBOLIA,Ostruzione improvvisa di un vaso
 EMBRICE,La tegola piana dei tetti antichi
 EMBRIOLOGIA,Lo studio dello sviluppo dell'embrione
+EMBRIONE,Vita all'inizio del suo sviluppo
 EMBRIONE,Vita nelle prime fasi
 EMENDAMENTO,Correzione che entra in legge
 EMERGENCY,L'organizzazione umanitaria fondata da Gino Strada
@@ -231,12 +255,14 @@ EMIL,Il nome del maratoneta Zatopek
 EMILY,Il nome della poetessa americana Dickinson
 EMINEM,Il rapper bianco di Detroit
 EMIR,Titolo arabo da palazzo
+EMIRO,Principe di un paese arabo
 EMIS,Il Killa rapper di Parole di ghiaccio
 EMISFERO,Metà di globo o di cervello
+EMISFERO,"Mezza sfera, anche del cervello"
 EMISTICHIO,Metà di verso per chi misura poesia
 EMMA,"...Bovary, l'eroina del romanzo di Flaubert"
-EMMA,La cantante salentina Marrone
 EMMA,Il nome dell'attrice Watson di Harry Potter
+EMMA,La cantante salentina Marrone
 EMMAUS,Villaggio dell'apparizione di Gesù risorto
 EMMENTAL,Formaggio svizzero coi buchi
 EMMETT,Il nome dello scienziato Doc di Ritorno al Futuro
@@ -266,6 +292,7 @@ ENDECASILLABO,Verso principe della poesia italiana
 ENDEMICO,Proprio di una zona circoscritta
 ENDOCRINOLOGIA,La medicina delle ghiandole e degli ormoni
 ENDOSCHELETRO,"Scheletro interno, il nostro per esempio"
+ENEA,Fuggì da Troia portando il padre sulle spalle
 ENEA,L'eroe troiano cantato da Virgilio
 ENFATICA,Può esserlo una frase troppo solenne nel tono
 ENFATICHE,Possono esserlo frasi troppo solenni nel tono
@@ -274,9 +301,10 @@ ENFATICO,Può esserlo un discorso troppo solenne nel tono
 ENFISEMA,Dilatazione degli alveoli polmonari
 ENI,Il colosso italiano del petrolio e del gas
 ENI,Sigla energetica con sei zampe nel marchio
+ENIGMA,Domanda che si diverte a restare chiusa
 ENIGMA,"Il mistero, l'arcano da svelare"
-ENIGMA,Quesito oscuro da sciogliere
 ENIGMA,Mistero da risolvere
+ENIGMA,Quesito oscuro da sciogliere
 ENIGMATICA,Può esserlo una frase difficile da decifrare
 ENIGMATICHE,Possono esserlo frasi difficili da decifrare
 ENIGMATICI,Possono esserlo discorsi difficili da decifrare
@@ -287,6 +315,7 @@ ENKI,Il dio sumero delle acque e della saggezza
 ENLIL,Il dio sumero del vento
 ENNA,Città alta nel cuore della Sicilia
 ENOLOGO,L'esperto della produzione del vino
+ENOTECA,Negozio per chi cerca bottiglie scelte
 ENOTECA,Negozio specializzato in vini
 ENTALPIA,Il contenuto termico di un sistema
 ENTE,L'...lirico che gestisce il teatro d'opera
@@ -303,6 +332,7 @@ ENTRO,Passo verso l'interno
 ENTROPIA,Disordine che ha dignità fisica
 ENTUSIASMO,Lo slancio di chi è pieno di voglia
 ENZIMA,Lavora nelle cellule senza consumarsi
+EOLIA,Terra mitica dei venti
 EOLO,Il dio dei venti
 EOLO,Uno dei sette nani di Biancaneve
 EOS,La dea greca dell'aurora
@@ -312,16 +342,20 @@ EPATOLOGIA,La medicina del fegato
 EPICA,Racconta eroi e imprese leggendarie
 EPICENTRO,Punto in superficie sopra il sisma
 EPICUREISMO,La filosofia del piacere misurato
+EPICURO,Filosofo del piacere sereno
 EPICURO,Il filosofo del Giardino
 EPIDAURO,Antica città greca dal celebre teatro
 EPIDEMIOLOGIA,Lo studio della diffusione delle malattie
+EPIDERMIDE,La parte più esterna della pelle
 EPIGONO,Seguace venuto dopo i grandi
 EPIGRAFE,Parole incise per durare
+EPIGRAFE,Scritta breve incisa su pietra
 EPILOGO,Chiude la storia quando tutto sembra fatto
 EPILOGO,La conclusione che chiude la vicenda
 EPIRO,Regione storica della Grecia nord-occidentale
 EPISTEMOLOGIA,La filosofia della scienza
 EPITAFFIO,L'iscrizione sopra una tomba
+EPITAFFIO,Parole incise su una tomba
 EPITELIO,Tessuto che riveste superfici e cavità
 EPITETO,Nome aggiunto per qualità o vizio
 EPOCA,Periodo riconoscibile a posteriori
@@ -331,8 +365,9 @@ EPSILON,Piccola quantità per matematici e greci
 EPTATHLON,Prova femminile in sette specialità
 EQUANIME,Può esserlo un oggetto giusto e imparziale
 EQUANIMI,Possono esserlo oggetti giusti e imparziali
-EQUATORE,Il parallelo massimo della Terra
 EQUATORE,Divide la Terra in due emisferi
+EQUATORE,Il parallelo massimo della Terra
+EQUILIBRIO,Tiene in piedi funamboli e bilanci
 EQUINOZIO,Giorno in equilibrio fra luce e buio
 EQUIPAGGERA,Fornirà il necessario
 EQUIPAGGIA,Fornisce il necessario
@@ -347,6 +382,8 @@ ER,Simbolo chimico dell'erbio
 ERA,"L'...glaciale, il film d'animazione coi mammut"
 ERA,Tempo lungo o voce del verbo essere
 ERACLE,Il protagonista delle dodici fatiche
+ERACLE,L'eroe greco delle dodici fatiche
+ERARIO,Cassa dello Stato
 ERAT,Era nelle versioni di latino
 ERATO,La musa della poesia amorosa
 ERATOSTENE,Misurò la circonferenza terrestre
@@ -356,38 +393,46 @@ ERBA,"La marijuana, in gergo"
 ERBA,Tappeto verde dei prati
 ERBACIPOLLINA,Erba aromatica dal gusto di cipolla
 ERBARIO,Raccolta di piante essiccate
+ERBORISTA,"Conosce infusi, radici e rimedi vegetali"
+ERBORISTERIA,Negozio di tisane e rimedi naturali
 ERCOLANO,Città romana sepolta dall'eruzione del 79
 ERCOLE,Forza mitologica in sei lettere
 ERCOLE,L'eroe mitico dalle dodici fatiche
 EREBO,La tenebra degli inferi greci
 EREDITA,Beni lasciati da chi muore
-EREMO,Ritiro solitario
 EREMO,Rifugio solitario del religioso
+EREMO,Rifugio solitario di chi lascia il mondo
+EREMO,Ritiro solitario
 ERESIA,Idea religiosa fuori dal solco
 ERESIA,"Una vera...: un'enormità, una bestemmia laica"
 ERETTA,Può esserlo una linea ben diritto
 ERETTE,Possono esserlo linee ben diritto
 ERETTI,Possono esserlo profili ben diritto
 ERETTO,Può esserlo un profilo ben diritto
-ERIC,Il principe della Sirenetta Disney
+ERGASTOLO,Condanna che può durare tutta la vita
 ERIC,Il nome del chitarrista Clapton
+ERIC,Il principe della Sirenetta Disney
+ERICE,Borgo siciliano alto sopra Trapani
 ERICE,Borgo siciliano sul monte omonimo
 ERIDANO,Il lungo fiume celeste
 ERIE,Uno dei Grandi Laghi americani
 ERIK,Il fantasma dell'Opera
 ERIK,Il nome del navigatore vichingo il Rosso
 ERINNI,Le dee greche della vendetta
+ERIS,Dea della discordia nel mito greco
 ERITREA,Paese africano sul mar Rosso
 ERMA,Pilastro con busto scolpito in cima
 ERMELLINO,Pelliccia regale o piccolo mustelide
+ERMELLINO,Piccolo carnivoro dalla pelliccia candida d'inverno
 ERMENEUTICA,Arte di interpretare testi difficili
 ERMES,Il messaggero degli dei greci
 ERMETE,Dio dei messaggi e delle soglie
+ERMETE,Messaggero degli dei con sandali alati
 ERMETICA,Può esserlo una cosa chiusa bene o oscura
 ERMETICHE,Possono esserlo cose chiuse beni o oscure
 ERMETICI,Possono esserlo oggetti chiusi beni o oscuri
-ERMETICO,Può esserlo un oggetto chiuso bene o oscuro
 ERMETICO,Chiuso in modo perfetto o difficile da capire
+ERMETICO,Può esserlo un oggetto chiuso bene o oscuro
 ERMITAGE,Il grande museo di San Pietroburgo
 ERMO,"Solitario, come il colle leopardiano"
 ERNEST,Il nome dello scrittore Hemingway
@@ -398,7 +443,10 @@ ERODE,Il re della strage degli innocenti
 EROE,Fa imprese che altri raccontano
 EROE,"L'...dei due mondi, Garibaldi"
 EROE,Protagonista coraggioso
+EROGATORE,"Lascia uscire acqua, benzina o sapone"
 EROI,Compiono imprese memorabili
+EROINA,Protagonista coraggiosa di romanzi e imprese
+EROS,Dio alato del desiderio
 EROS,Il Ramazzotti della canzone
 EROS,Il dio greco dell’amore
 EROSIONE,Lento lavoro di acqua e vento
@@ -449,16 +497,20 @@ ESATTO,Può esserlo un dato privo d'errore
 ESAU,Vendette la primogenitura per un piatto di lenticchie
 ESCA,Attira il pesce all'amo
 ESCA,Ciò che si infila all'amo per i pesci
+ESCA,Inganno per pesci o trappole
 ESCATOLOGIA,La dottrina delle cose ultime
 ESCHER,L'artista olandese delle illusioni impossibili
+ESCHILO,Tragico greco dell'Orestea
 ESCLUSE,Lasciò fuori
 ESCORIAZIONE,L'abrasione della pelle
+ESCURSIONE,Gita a piedi fuori porta o in montagna
 ESEDRA,Spazio semicircolare con sedili
 ESERCITO,Forza armata di terra
 ESILE,Sottile fino alla fragilità
 ESILI,Sottile e fragile
 ESILIA,Manda lontano dalla patria
 ESILIAI,Passato remoto: Mandare lontano dalla patria
+ESILIO,Allontana da casa per punizione o sorte
 ESILIO,Lontananza forzata dalla patria
 ESISTENZIALISMO,La filosofia dell'esistenza concreta
 ESITA,Si ferma nel dubbio
@@ -467,6 +519,7 @@ ESITANTE,Può esserlo un dato incerto nel passo
 ESITANTI,Possono esserlo dati incerti nel passo
 ESITARE,Fermarsi nel dubbio
 ESITATO,Fermato nel dubbio
+ESITAZIONE,Ferma un gesto sull’orlo della scelta
 ESITAZIONE,L'indugio di chi è incerto
 ESITO,Risultato quando la prova finisce
 ESIZIALE,Può esserlo un oggetto dannoso in modo grave
@@ -485,6 +538,7 @@ ESOSE,Possono esserlo cose che chiedono troppo
 ESOSI,Possono esserlo oggetti che chiedono troppo
 ESOSO,Può esserlo un oggetto che chiede troppo
 ESOTERICO,Riservato a pochi iniziati
+ESPADRILLAS,Scarpe leggere con suola di corda
 ESPEDIENTE,Soluzione furba più che nobile
 ESPERANTO,Lingua artificiale internazionale
 ESPERIDI,Le ninfe del giardino dai pomi d'oro
@@ -500,7 +554,9 @@ ESPLORATO,Percorso per conoscere
 ESPLORATORE,Si avventura in terre sconosciute
 ESPLORO,Percorro per conoscere
 ESPOSE,Mise in mostra
+ESPOSITORE,Supporto che mostra la merce
 ESPRESSE,Mise in parole
+ESPRESSO,"Arriva in tazzina, rapido e ristretto"
 ESPRESSO,Il caffè ristretto del bar italiano
 ESPULSE,Cacciò fuori
 ESSE,Le curve a...della strada di montagna
@@ -515,6 +571,7 @@ EST,Il punto cardinale dove sorge il Sole
 ESTABLISHMENT,Il gruppo che detiene il potere
 ESTASI,"Uscita da sé, non solo entusiasmo"
 ESTATE,"L'...di San Martino, il caldo di novembre"
+ESTATE,"Porta ferie, cicale e giornate lunghe"
 ESTATE,Stagione che promette ferie e zanzare
 ESTATE,Stagione di sole e vacanze
 ESTATI,Portano caldo e vacanze
@@ -527,15 +584,18 @@ ESTESO,Può esserlo un profilo molto ampio
 ESTETICA,La filosofia del bello e dell'arte
 ESTIA,La dea greca del focolare
 ESTINSE,Mandò a fuoco spento
+ESTINTORE,Spegne piccoli incendi
 ESTONIA,Paese baltico con capitale Tallinn
 ESTRASSE,Tirò fuori
 ESTRO,Capriccio creativo
+ESTRO,Scatto creativo fuori programma
 ESTROFLESSO,Rivolto verso l'esterno
 ESTROSA,Può esserlo una cosa ricca di fantasia
 ESTROSE,Possono esserlo cose ricche di fantasia
 ESTROSI,Possono esserlo oggetti ricchi di fantasia
 ESTROSO,Può esserlo un oggetto ricco di fantasia
 ESTUARIO,Foce ampia di un fiume
+ESTUARIO,Foce larga dove fiume e mare si mescolano
 ESUBERANZA,La vivacità traboccante
 ESULE,Lontano dalla patria non per turismo
 ESULTO,Manifestò grande gioia
@@ -552,22 +612,26 @@ ETICA,L'...professionale del lavoro
 ETICA,Morale organizzata in filosofia
 ETICHETTA,Cartellino o buona creanza
 ETICHETTA,Cartellino su bottiglie e vestiti
+ETICHETTA,Dice cosa c’è in bottiglia o impone buone maniere
 ETICHETTE,Dicono nome e prezzo
 ETIMO,Radice nascosta di una parola
 ETIOPIA,Antico Paese del Corno d'Africa
 ETNA,Fuma sopra la Sicilia orientale
-ETNA,Il vulcano che domina Catania
+ETNA,Il grande vulcano che domina la Sicilia
 ETNA,Il grande vulcano siciliano
+ETNA,Il vulcano che domina Catania
 ETOO,"Samuel, bomber camerunese del Triplete"
 ETRUSCHI,Antico popolo dell'Italia centrale
 ETRUSCO,Antico abitante dell'Italia centrale
 ETTAGONO,Poligono a sette lati
 ETTARO,I diecimila metri quadrati di terreno
 ETTARO,Unità di superficie dei terreni
+ETTORE,Eroe troiano ucciso da Achille
 ETTORE,Il principe troiano ucciso da Achille
 EU,"L'Unione Europea, in sigla"
 EU,Simbolo chimico dell'europio
 EUCALIPTO,Albero aromatico da koala
+EUCALIPTO,Albero odoroso caro ai koala
 EUCARISTIA,Sacramento centrale del rito cristiano
 EUCLIDE,Padre della geometria
 EUFEMISMO,Parola addolcita per dire il duro
@@ -578,6 +642,7 @@ EUGENE,Il nome del drammaturgo americano O'Neill
 EULERO,Il grande matematico svizzero
 EUPATORIO,Pianta officinale dal nome regale
 EURIDICE,La sposa perduta di Orfeo
+EURIPIDE,Tragico greco di Medea
 EURO,La moneta dell’area UE
 EURO,La moneta unica di tanti Paesi europei
 EUROPA,"Il nostro continente, il Vecchio Continente"
@@ -588,6 +653,7 @@ EUSEBIO,Antico vescovo e storico della Chiesa
 EUTERPE,La musa della musica
 EVA,La complice di Diabolik
 EVA,La prima donna della Genesi
+EVA,La prima donna nel racconto biblico
 EVAN,Il nome dell'attore Peters
 EVANESCENTE,Che svanisce mentre lo guardi
 EVANESCENTI,Che svanisce facilmente
@@ -597,11 +663,12 @@ EVASIONE,Fuga o distrazione fiscale
 EVASO,Fuggito dal carcere
 EVELYN,Il nome dello scrittore Waugh
 EVEREST,Il più alto fra i nomi d'alpinismo
-EVEREST,La montagna più alta della Terra
 EVEREST,La cima più alta del mondo
+EVEREST,La montagna più alta della Terra
 EVERSIVE,Che mira a sovvertire
 EVERTON,Lo storico club di Liverpool dei Toffees
 EVIDENZA,Ciò che salta agli occhi
+EVIDENZIATORE,Pennarello per frasi importanti
 EVITA,Il musical su Eva Perón
 EVITA,Si tiene lontano da un rischio
 EVITAI,Mi tenni lontano da un rischio
