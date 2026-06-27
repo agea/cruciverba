@@ -503,6 +503,7 @@ function fillSlots(slots, bank, W, H, rnd, budget, forcedPlacements, stats, prog
   var letters = new Array(nCells).fill(0); // 0 = vuota; altrimenti char
   var counts = new Array(nCells).fill(0);  // quanti slot assegnati coprono la cella
   var used = new Set();
+  var usedByLen = {};
   var assigned = new Array(slots.length).fill(null);
   var fixedCount = new Array(slots.length).fill(0); // celle gia vincolate per slot
   var nAssigned = 0;
@@ -533,6 +534,31 @@ function fillSlots(slots, bank, W, H, rnd, budget, forcedPlacements, stats, prog
   function updFixed(id, delta, exceptSlot) {
     var arr = cellToSlots[id];
     for (var a = 0; a < arr.length; a++) if (arr[a] !== exceptSlot) fixedCount[arr[a]] += delta;
+  }
+
+  function differsByOneLetter(a, b) {
+    if (a.length !== b.length) return false;
+    var diffs = 0;
+    for (var i = 0; i < a.length; i++) {
+      if (a.charAt(i) !== b.charAt(i)) {
+        diffs++;
+        if (diffs > 1) return false;
+      }
+    }
+    return diffs === 1;
+  }
+
+  function tooCloseToUsed(word) {
+    var sameLen = usedByLen[word.length];
+    if (!sameLen) return false;
+    for (var i = 0; i < sameLen.length; i++) {
+      if (differsByOneLetter(word, sameLen[i])) return true;
+    }
+    return false;
+  }
+
+  function canUseWord(word) {
+    return !used.has(word) && !tooCloseToUsed(word);
   }
 
   function domainBits(slot) {
@@ -583,7 +609,7 @@ function fillSlots(slots, bank, W, H, rnd, budget, forcedPlacements, stats, prog
     var n = 0;
     for (var j = 0; j < base.length; j++) {
       var w = base[j];
-      if (used.has(w)) continue;
+      if (!canUseWord(w)) continue;
       var ok = true;
       if (fcount) {
         for (var g = 0; g < fcount; g++) {
@@ -607,7 +633,7 @@ function fillSlots(slots, bank, W, H, rnd, budget, forcedPlacements, stats, prog
     iterBits(domain, function (j) {
       if (j >= pool.length) return false;
       var w = pool[j];
-      if (used.has(w)) return;
+      if (!canUseWord(w)) return;
       out.push(w);
       if (limit && out.length >= limit) return false;
     });
@@ -625,18 +651,27 @@ function fillSlots(slots, bank, W, H, rnd, budget, forcedPlacements, stats, prog
       counts[id]++;
     }
     used.add(word); assigned[slot.id] = word;
+    if (!usedByLen[word.length]) usedByLen[word.length] = [];
+    usedByLen[word.length].push(word);
     return touched;
   }
   function unplaceFix(slot, word, touched) {
     for (var i = 0; i < slot.len; i++) counts[slot.cells[i]]--;
     for (var t = 0; t < touched.length; t++) { letters[touched[t]] = 0; updFixed(touched[t], -1, slot.id); }
     used.delete(word); assigned[slot.id] = null;
+    var sameLen = usedByLen[word.length];
+    if (sameLen) {
+      var idx = sameLen.lastIndexOf(word);
+      if (idx !== -1) sameLen.splice(idx, 1);
+      if (sameLen.length === 0) delete usedByLen[word.length];
+    }
   }
 
   forcedPlacements = forcedPlacements || [];
   for (var fp = 0; fp < forcedPlacements.length; fp++) {
     var forced = forcedPlacements[fp];
     if (!forced || assigned[forced.slotId] !== null) continue;
+    if (!canUseWord(forced.word)) return null;
     placeFix(slots[forced.slotId], forced.word);
     nAssigned++;
   }
