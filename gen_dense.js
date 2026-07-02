@@ -585,41 +585,15 @@ function fillSlots(slots, bank, W, H, rnd, budget, forcedPlacements, stats, prog
     var L = slot.len;
     var pool = bank.byLen[L];
     if (!pool) return 0;
-    if (stats) stats.candidateCalls++;
-    var fixed = null, fcount = 0;
-    for (var i = 0; i < L; i++) {
-      var id = slot.cells[i];
-      if (counts[id] > 0) {
-        if (!fixed) fixed = [];
-        fixed.push(i); fixed.push(letters[id]);
-        fcount++;
-      }
-    }
-    var base = pool;
-    if (fcount) {
-      if (stats) stats.constrainedCandidateCalls++;
-      var best = null;
-      for (var f = 0; f < fcount; f++) {
-        var b = bank.posIndex[L][fixed[f * 2]].get(fixed[f * 2 + 1]);
-        if (!b) return 0;
-        if (best === null || b.length < best.length) best = b;
-      }
-      base = best;
-    }
+    var domain = domainBits(slot);
+    if (!domain) return 0;
     var n = 0;
-    for (var j = 0; j < base.length; j++) {
-      var w = base[j];
-      if (!canUseWord(w)) continue;
-      var ok = true;
-      if (fcount) {
-        for (var g = 0; g < fcount; g++) {
-          if (w.charAt(fixed[g * 2]) !== fixed[g * 2 + 1]) { ok = false; break; }
-        }
-      }
-      if (!ok) continue;
+    iterBits(domain, function (j) {
+      if (j >= pool.length) return false;
+      if (!canUseWord(pool[j])) return;
       n++;
-      if (limit && n >= limit) return n;
-    }
+      if (limit && n >= limit) return false;
+    });
     return n;
   }
 
