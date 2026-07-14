@@ -35,12 +35,12 @@ The source database lives in [`voci/`](voci/): **26 CSV files**, one per initial
 
 The clue database and definitions are licensed separately from the software: see [LICENSE-CONTENT.md](LICENSE-CONTENT.md).
 
-- **18,948 solutions / 30,298 clues / 7,871 multi-clue solutions.** Solutions are uppercase, letters **A–Z only** (accents and spaces stripped at build time).
+- **18,944 solutions / 30,298 clues / 7,872 multi-clue solutions.** Solutions are uppercase, letters **A–Z only** (accents and spaces stripped at build time).
 - Length distribution is deliberately skewed toward short words, which feed the dense crossings:
 
 | Letters | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14+ |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Solutions | 183 | 296 | 1029 | 2239 | 2910 | 3508 | 2892 | 2354 | 1605 | 956 | 512 | 261 | 203 |
+| Solutions | 183 | 296 | 1029 | 2239 | 2909 | 3508 | 2894 | 2351 | 1603 | 956 | 512 | 261 | 203 |
 
 The `14+` bucket is made of 111 words of length 14, 61 words of length 15, 22 words of length 16, 4 words of length 17, 3 words of length 18 and 2 words of length 19. Short slots (2–3 letters) lean on the classic Italian-puzzle style: initialism, car plates, musical notes and chemical symbols — and, being the most frequent, often carry several alternative clues.
 

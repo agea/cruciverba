@@ -3,9 +3,9 @@ TA,Sigla automobilistica di Taranto
 TABACCO,Bruno scuro caldo
 TABARRO,Ampio mantello invernale
 TABARRO,Mantello pesante d'altri tempi
-TABELLA,Può significare «tavola»
-TABELLONE,"In una sua accezione, «manifesto»"
-TABELLONE,Un possibile significato è «cartellone»
+TABELLA,Comprende tra i suoi membri fila
+TABELLONE,Rientra nel campo di cartello
+TABELLONE,Un caso particolare di cartello
 TABERNACOLO,Custodia sacra o piccola edicola
 TABIANO,Stazione termale del Parmense
 TABLA,La coppia di tamburi indiani
@@ -24,17 +24,17 @@ TACCIONO,Restano zitti
 TACCO,La parte rialzata della scarpa
 TACCO,Rialza scarpe e colpisce nel calcio
 TACCO,Rialzo sotto la scarpa
-TACCO,Tra i suoi significati: «cuneo»
+TACCO,Appartiene alla categoria di blocco
 TACCUINO,Piccolo quaderno per appunti rapidi
 TACCUINO,Quadernetto da appunti
 TACERE,Chi...acconsente
 TACHICARDIA,Battito cardiaco accelerato
 TACITO,Lo storico degli Annales
 TACITO,"Non detto ma sottinteso, come un assenso"
-TACITURNA,Può esserlo una donna di poche parole
-TACITURNE,Possono esserlo donne di poche parole
-TACITURNI,Possono esserlo uomini di poche parole
-TACITURNO,Può esserlo un uomo di poche parole
+TACITURNA,Di poche parole
+TACITURNE,Di poche parole
+TACITURNI,Di poche parole
+TACITURNO,Di poche parole
 TACOS,Tortillas messicane ripiene e ripiegate
 TACQUE,Non disse nulla
 TAEKWONDO,Arte marziale coreana dei calci
@@ -46,18 +46,18 @@ TAGIKISTAN,Paese del Pamir
 TAGLIA,La ricompensa per catturare un ricercato
 TAGLIA,"La...del vestito: S, M o L"
 TAGLIA,Separa con lama
-TAGLIA,Vale anche «misura»
+TAGLIA,Una variante di misurazione
 TAGLIAERBA,Rasa il prato del giardino
-TAGLIANDO,"In una sua accezione, «buono»"
-TAGLIANDO,Vale anche «certificato»
+TAGLIANDO,Cedola da staccare per ottenere un diritto o uno sconto
+TAGLIANDO,Documento che attesta un controllo eseguito
 TAGLIARE,Separare con lama
-TAGLIARE,Un possibile significato è «superare»
-TAGLIARE,Un possibile significato è «fermare»
-TAGLIATA,"In una sua accezione, «strage»"
-TAGLIATA,Vale anche «massacro»
+TAGLIARE,Può rientrare nell’idea di superare
+TAGLIARE,Azione riconducibile al significato di sospendere
+TAGLIATA,Si può classificare come omicidio
+TAGLIATA,Rientra nel campo di omicidio
 TAGLIATELLE,Pasta lunga all'uovo emiliana
 TAGLIATO,Separato con lama
-TAGLIENTE,Un possibile significato è «affilato»
+TAGLIENTE,Completa la frase: «una lama …»
 TAGLIERE,Asse di legno per tagliare
 TAGLIERE,Asse su cui affettare
 TAGLIERE,Base di legno per pane e salumi
@@ -65,7 +65,7 @@ TAGLIERE,Il...di salumi e formaggi
 TAGLIO,Dare un...: ridurre drasticamente
 TAGLIO,Le banconote di grosso...
 TAGLIO,Separo con lama
-TAGLIO,Vale anche «filo»
+TAGLIO,Un tipo particolare di spigolo
 TAGO,Fiume di Toledo e Lisbona
 TAGORE,Autore di versi indiano premio Nobel
 TAGORE,Poeta indiano premio Nobel
@@ -80,27 +80,27 @@ TALAMO,Letto nuziale in tono solenne
 TALE,"Il... e Quale Show, programma di imitazioni"
 TALE,Individuo non precisato
 TALE,"Un...: un tizio, un certo individuo"
-TALE,Può significare «simile»
+TALE,Può assumere la sfumatura di simile
 TALEA,Rametto per la propagazione delle piante
 TALEGGIO,Formaggio molle lombardo
 TALENTI,La parabola dei... nel Vangelo
 TALENTO,Dote che chiede esercizio
-TALENTO,Può significare «dote»
-TALENTO,Vale anche «estro»
+TALENTO,"Dote, in un’accezione meno immediata"
+TALENTO,In certi usi corrisponde a estro
 TALETE,Il filosofo greco che previde un'eclissi
 TALIA,La musa della commedia
 TALISMANO,Oggetto che promette fortuna
 TALISMANO,Portafortuna personale
-TALISMANO,Vale anche «amuleto»
+TALISMANO,Un esempio riconducibile a portafortuna
 TALLINN,Capitale estone con mura medievali
 TALLINN,Capitale estone sul Baltico
-TALMENTE,Può significare «tanto»
+TALMENTE,"Tanto, secondo il contesto"
 TALMUD,Grande raccolta della tradizione ebraica
-TALORA,Tra i suoi significati: «talvolta»
+TALORA,"Tal volta, secondo il contesto"
 TALPA,Animale che scava gallerie
 TALPA,"La spia infiltrata, in gergo"
 TALPA,Scava gallerie senza vedere molto
-TALVOLTA,Un possibile significato è «talora»
+TALVOLTA,"Talora, secondo il contesto"
 TAMAGOTCHI,Il cucciolo virtuale giapponese da tasca
 TAMARINDO,Frutto acidulo da sciroppi
 TAMARINDO,Frutto esotico da sciroppi aciduli
@@ -110,12 +110,12 @@ TAMBURELLO,Piccolo tamburo e sport da piazza
 TAMBURO,A...battente: rapidamente e con forza
 TAMBURO,Il cestello rotante della lavatrice
 TAMBURO,Strumento a percussione
-TAMBURO,Può significare «batterista»
+TAMBURO,Una nozione collegata a batterista
 TAMERICE,Arbusto delle coste sabbiose
 TAMERLANO,Conquistatore turco-mongolo
 TAMIGI,Fiume di Londra
 TAMIL,Popolo e lingua dell'India del Sud
-TAMPONE,Tra i suoi significati: «cuscinetto»
+TAMPONE,Si può classificare come blocco
 TAN,"Funzione trigonometrica, in sigla inglese"
 TAN,"L'abbronzatura, in inglese"
 TANA,Casa nascosta di molti animali
@@ -132,11 +132,11 @@ TANGENTE,La mazzetta della corruzione
 TANGENTE,La retta che tocca la curva in un punto
 TANGENZA,"Contatto in un punto, non solo scandalo"
 TANGENZIALE,La strada che aggira la città
-TANGENZIALE,"In una sua accezione, «circonvallazione»"
+TANGENZIALE,Un caso particolare di via di comunicazione
 TANGERI,Città marocchina dello stretto
 TANGIBILE,Che si può toccare
-TANGIBILE,Un possibile significato è «provato»
-TANGIBILE,Può significare «scontato»
+TANGIBILE,Concreto e verificabile
+TANGIBILE,"Evidente, impossibile da negare"
 TANGIBILI,Che si possono toccare
 TANGO,Ballo nato sul Rio de la Plata
 TANGO,Il ballo sensuale argentino
@@ -145,8 +145,8 @@ TANIT,La dea protettrice di Cartagine
 TANNINO,Sostanza vegetale astringente
 TANTALO,Il suppliziato tra acqua e frutti
 TANTALO,Subì fame e sete in mezzo all'abbondanza
-TANTO,Un possibile significato è «molto»
-TANTO,Può significare «talmente»
+TANTO,Con un significato vicino a molto
+TANTO,In un uso avverbiale legato a talmente
 TANZANIA,Stato del Kilimangiaro e di Zanzibar
 TANZANITE,La rara gemma blu-violetta della Tanzania
 TAO,Il principio della via nel pensiero cinese
@@ -171,7 +171,7 @@ TAPPETO,Sta sotto i piedi e sopra il pavimento
 TAPPEZZIERE,Riveste mobili e pareti di stoffa
 TAPPO,Chiudo un foro
 TAPPO,La persona molto bassa di statura
-TAPPO,Vale anche «capsula»
+TAPPO,Appartiene alla categoria di coperchio
 TAR,"Il catrame, in inglese"
 TAR,Tribunale amministrativo in tre lettere
 TARA,Il difetto ereditario trasmesso
@@ -196,7 +196,7 @@ TARDO,Lento ad arrivare o capire
 TARDO,Lento e ottuso di mente
 TARGA,La piastra con la sigla dell'auto
 TARGA,Nome metallico dell'auto o del premio
-TARIFFARIO,Vale anche «listino»
+TARIFFARIO,Si può classificare come elenco
 TARLO,Il dubbio che rode dentro
 TARLO,Insetto che buca il legno
 TARLO,Rode legno e pensieri
@@ -228,16 +228,16 @@ TASCHE,Nascondono chiavi e monetine
 TASHKENT,Capitale uzbeka
 TASMAN,Mare tra Australia e Nuova Zelanda
 TASMANIA,Isola a sud dell'Australia
-TASSA,Un possibile significato è «stima»
-TASSA,Vale anche «imposta»
-TASSAZIONE,"In una sua accezione, «imposta»"
-TASSAZIONE,Tra i suoi significati: «tributo»
+TASSA,"Stima, in un’accezione meno immediata"
+TASSA,Può assumere il significato di imposta
+TASSAZIONE,"Imposta, in un’accezione meno immediata"
+TASSAZIONE,In certi usi corrisponde a tributo
 TASSELLO,Piccolo pezzo che completa mosaici o muri
 TASSIDERMIA,Arte di preparare animali imbalsamati
 TASSO,Animale notturno o percentuale d'interesse
 TASSO,Cantò la Gerusalemme liberata
 TASSO,"Torquato..., poeta della Gerusalemme liberata"
-TASSO,Un possibile significato è «velocità»
+TASSO,In certi usi corrisponde a velocità
 TASTA,Tocca per provare
 TASTAI,Passato remoto: Toccare per provare
 TASTATO,Participio: Toccare per provare
@@ -245,22 +245,22 @@ TASTIERA,File di tasti per musica o lettere
 TASTO,Quello bianco o nero del pianoforte
 TASTO,Si preme per musica o lettere
 TASTO,Toccare un...dolente: un argomento spinoso
-TASTO,Un possibile significato è «tema»
+TASTO,Un esempio riconducibile a contenuto
 TATAMI,La stuoia su cui si pratica il judo
 TATE,La galleria d'arte moderna di Londra
-TATTO,"In una sua accezione, «sensibilità»"
-TATTO,Tra i suoi significati: «discrezione»
+TATTO,Appartiene alla categoria di buon gusto
+TATTO,Un tipo particolare di cervello
 TAU,Greca a forma di croce
 TAU,La croce a forma di T di San Francesco
 TAUTOLOGIA,Ripete il concetto fingendo di provarlo
 TAVERNA,Il locale rustico del seminterrato
 TAVERNA,Locale rustico per vino e compagnie
-TAVERNA,Tra i suoi significati: «osteria»
+TAVERNA,Rientra nel campo di ristorante
 TAVOLA,"Ci si siede a mangiare, o è l'asse di legno"
 TAVOLA,La...rotonda dei cavalieri di re Artù
-TAVOLA,Può significare «tabella»
-TAVOLINO,Un possibile significato è «banco»
-TAVOLINO,"In una sua accezione, «scrivania»"
+TAVOLA,Ha fila fra i suoi componenti
+TAVOLINO,Comprende anche cassetto
+TAVOLINO,Può includere cassetto tra i suoi elementi
 TAVOLO,Ci si siede a mangiare e a trattare
 TAVOLOZZA,Tiene i colori del pittore
 TAXON,Unità di classificazione biologica
@@ -280,18 +280,18 @@ TE,Sigla automobilistica di Teramo
 TEA,"Il tè, in inglese"
 TEA,Rosa da salotto inglese
 TEAM,La squadra di lavoro
-TEAM,Vale anche «squadra»
-TEAM,Può significare «undici»
+TEAM,Appartiene alla categoria di clan
+TEAM,Rientra nel campo di squadra
 TEATRI,Si aprono al pubblico al levarsi del sipario
 TEATRO,Luogo di scena e platea
 TEATRO,"Palco, platea e sipario per storie vive"
-TEATRO,Un possibile significato è «pubblico»
+TEATRO,Riunisce anche ascoltatore
 TEBE,Antica città greca di Edipo
 TECA,Custodia trasparente da museo
-TECA,Un possibile significato è «vetrina»
+TECA,Una manifestazione di ambiente
 TECHNO,Genere elettronico da discoteca
 TECNICA,Sapere pratico organizzato
-TECNOLOGIA,Un possibile significato è «ingegneria»
+TECNOLOGIA,Si può classificare come disciplina
 TECTITE,Vetro naturale da impatto meteoritico
 TED,Il nome dell'orsacchiotto sboccato del film
 TED,Le celebri conferenze divulgative
@@ -300,7 +300,7 @@ TEDIATO,Participio: Annoiare
 TEDUA,Il rapper genovese della Divina Commedia
 TEE,"La maglietta a maniche corte, in inglese"
 TEE,Supporto minuscolo del golfista
-TEENAGER,Vale anche «adolescente»
+TEENAGER,In certi usi corrisponde a adolescente
 TEGAME,Parente largo della pentola
 TEGAME,Pentola bassa da cucina
 TEGAME,Pentola bassa per cotture lente
@@ -317,37 +317,37 @@ TEL,In rubrica indica il numero da chiamare
 TELA,Aspetta colori sul cavalletto
 TELA,Il supporto su cui dipinge il pittore
 TELA,Quella che il ragno tesse
-TELA,Tra i suoi significati: «roba»
+TELA,Comprende anche lembo
 TELAIO,La struttura portante dell'automobile
 TELAIO,Struttura che tesse fili o regge una bici
 TELAIO,Struttura che tesse o sostiene
-TELAIO,Può significare «struttura»
+TELAIO,"Struttura, in un’accezione meno immediata"
 TELAMONE,Figura maschile che regge l'architettura
 TELAVIV,Metropoli israeliana sul Mediterraneo
 TELE,"Mezzo di comunicazione audiovisivo, in breve"
 TELE,"Apparecchio per seguire programmi audiovisivi, in breve"
 TELECOMANDO,Cambia canale dal divano
 TELEFERICA,Sale sospesa su cavi di montagna
-TELEFONARE,Vale anche «chiamare»
-TELEFONATA,Può significare «chiamata»
+TELEFONARE,Implica anche il fatto di comporre
+TELEFONATA,Un esempio riconducibile a telefonia
 TELEFONI,Fanno squillare case e tasche
 TELEFONINO,Il cellulare da tasca
-TELEFONINO,"In una sua accezione, «cellulare»"
+TELEFONINO,Si avvicina all’azione di cellulare
 TELEFONO,...senza fili: il gioco dei messaggi distorti
 TELEFONO,Trasmette la voce a distanza
 TELEFONO,"Voce a distanza, anche senza filo"
 TELEGRAM,L'app di messaggistica rivale di WhatsApp
-TELEMACHO,Il figlio di Ulisse e Penelope
+TELEMACO,Il figlio di Ulisse e Penelope
 TELEMACO,Il figlio di Ulisse
 TELEOLOGIA,La dottrina del fine ultimo delle cose
 TELESCOPIO,Trasforma stelle in dettagli
 TELESCOPIUM,Il Telescopio dei cieli australi
 TELETHON,La maratona televisiva per la ricerca
 TELEVISIONE,L'apparecchio coi programmi e i film
-TELEVISIONE,Vale anche «tele»
-TELEVISIONE,Tra i suoi significati: «televisore»
-TELEVISORE,Può significare «televisione»
-TELEVISORE,Tra i suoi significati: «tele»
+TELEVISIONE,Un tipo particolare di ricevitore
+TELEVISIONE,Si può classificare come ricevitore
+TELEVISORE,Una variante di ricevitore
+TELEVISORE,Un caso particolare di ricevitore
 TELLINA,Piccolo mollusco bivalve di sabbia
 TELLURICO,"Della Terra, specie se trema"
 TELLURIO,Semimetallo raro
@@ -355,98 +355,98 @@ TELOMERO,Estremità protettiva del cromosoma
 TELONE,Grande telo di copertura
 TEMA,Argomento da svolgere o motivo musicale
 TEMA,Il compito in classe di italiano
-TEMA,Vale anche «motivo»
-TEMATICA,Un possibile significato è «tema»
-TEMATICA,"In una sua accezione, «materia»"
-TEMERARI,Possono esserlo uomini audaci oltre prudenza
-TEMERARIA,Può esserlo una donna audace oltre prudenza
-TEMERARIE,Possono esserlo donne audaci oltre prudenza
+TEMA,Nel lessico si avvicina a motivo
+TEMATICA,Un tipo particolare di contenuto
+TEMATICA,Una manifestazione di contenuto
+TEMERARI,Audaci oltre prudenza
+TEMERARIA,Audace oltre prudenza
+TEMERARIE,Audaci oltre prudenza
 TEMERARIO,Sfida il rischio più della prudenza
 TEMERE,"Chi non ha nulla da farsi, non lo prova"
 TEMPERA,Colore da scuola e tecnica pittorica
 TEMPERAMATITE,Fa la punta alla matita
-TEMPERAMENTO,Tra i suoi significati: «animo»
-TEMPERAMENTO,Può significare «indole»
+TEMPERAMENTO,Un esempio riconducibile a natura
+TEMPERAMENTO,Una forma specifica di natura
 TEMPERINO,Coltellino che fa la punta
 TEMPESTA,Disordine violento del cielo e del mare
 TEMPESTA,Una...in un bicchiere d'acqua
 TEMPESTA,Violento maltempo
-TEMPESTA,Tra i suoi significati: «temporale»
+TEMPESTA,Si può classificare come fenomeno atmosferico
 TEMPESTE,Fanno tremare cielo e mare
-TEMPESTIVAMENTE,Vale anche «opportunamente»
+TEMPESTIVAMENTE,"Opportunamente, secondo il contesto"
 TEMPESTIVO,Arriva proprio quando serve
 TEMPIA,Il lato del capo tra occhio e orecchio
 TEMPIO,Edificio sacro
 TEMPO,"Passa, si misura, si perde"
 TEMPO,Quello atmosferico col sole o la pioggia
 TEMPO,"È denaro, secondo il proverbio"
-TEMPO,"In una sua accezione, «giorno»"
+TEMPO,Completa la frase: «era il … delle grandi scoperte»
 TEMPORALE,Perturbazione con lampi e tuoni
-TEMPORALE,Tra i suoi significati: «tempesta»
-TEMPORALE,Vale anche «bufera»
+TEMPORALE,Si può classificare come fenomeno atmosferico
+TEMPORALE,Un esempio riconducibile a fenomeno atmosferico
 TEMPORALESCO,Da cielo carico di pioggia
-TEMPORANEAMENTE,Tra i suoi significati: «provvisoriamente»
-TEMPORANEO,Può significare «breve»
-TEMPORANEO,"In una sua accezione, «straordinario»"
+TEMPORANEAMENTE,"Provvisoriamente, secondo il contesto"
+TEMPORANEO,Qualità che si avvicina a breve
+TEMPORANEO,Può assumere la sfumatura di straordinario
 TEMPURA,Frittura giapponese in pastella
-TENACIA,Può significare «costanza»
-TENACIA,Tra i suoi significati: «fermezza»
+TENACIA,Una variante di finalità
+TENACIA,Un tipo particolare di finalità
 TENAGLIA,Afferra e strappa chiodi
 TENAGLIA,Attrezzo per afferrare e strappare
 TENCO,Il cantautore di Ciao amore ciao
 TENDA,Il riparo di tela del campeggio
 TENDA,Quella che ripara la finestra dal sole
 TENDA,Riparo di tela o cortina domestica
-TENDA,Vale anche «cortina»
+TENDA,Si può classificare come arredo
 TENDAGGIO,Insieme di tende e drappeggi
 TENDE,Riparano dal sole o dagli sguardi
-TENDENZA,Vale anche «corrente»
-TENDENZA,"In una sua accezione, «indirizzo»"
+TENDENZA,Può assumere il significato di corrente
+TENDENZA,"Indirizzo, in un’accezione meno immediata"
 TENDENZIOSO,Inclina l'argomento verso una tesi
 TENDER,Carro della locomotiva per acqua e carbone
-TENDERE,Tra i suoi significati: «tirare»
-TENDERE,"In una sua accezione, «stringere»"
+TENDERE,Un modo non sempre letterale di tirare
+TENDERE,Può essere una maniera di modificare
 TENDINE,Le piccole tende alle finestre
 TENDINE,Unisce muscolo e osso
-TENDINE,Tra i suoi significati: «nervo»
+TENDINE,Appartiene alla categoria di tessuto connettivo
 TENDONE,Grande copertura da circo o mercato
-TENEBRE,"In una sua accezione, «oscurità»"
+TENEBRE,Una variante di oscuro
 TENEBROSA,Oscura e cupa
 TENEBROSE,Oscure e cupe
 TENEBROSI,Oscuri e cupi
 TENEBROSO,Oscuro e cupo
 TENERA,La verde... età della gioventù
-TENERA,Può esserlo una stoffa morbida o affettuosa
-TENERE,Possono esserlo stoffe morbide o affettuose
-TENERE,Un possibile significato è «resistere»
-TENERE,Può significare «conservare»
+TENERA,Morbida o affettuosa
+TENERE,Morbide o affettuose
+TENERE,Rientra tra i modi di combattere
+TENERE,"Conservare, in un uso particolare"
 TENEREZZA,Sentimento dolce e affettuoso
-TENEREZZA,"In una sua accezione, «morbidezza»"
-TENERI,Possono esserlo tessuti morbidi o affettuosi
+TENEREZZA,Un caso particolare di consistenza
+TENERI,Morbidi o affettuosi
 TENERIFE,Isola canaria col Teide
 TENERIFE,Isola canaria dominata dal Teide
-TENERO,Può esserlo un tessuto morbido o affettuoso
-TENERO,Vale anche «compito»
-TENERO,Può significare «materno»
+TENERO,Morbido o affettuoso
+TENERO,"Compito, secondo il contesto"
+TENERO,Detto di ciò che richiama l’idea di materno
 TENGRI,Il dio del cielo dei popoli delle steppe
 TENNESSEE,Lo Stato americano di Nashville e Memphis
 TENNIS,Lo sport del dritto e del rovescio
 TENORE,"Il...di vita, lo standard economico"
 TENORE,Voce alta maschile e contenuto
 TENSIONE,Lo stato di un corpo teso
-TENSIONE,Vale anche «stress»
+TENSIONE,In certi usi corrisponde a stress
 TENTA,Prova a fare
 TENTARE,Provare a fare
-TENTARE,Un possibile significato è «cercare»
-TENTARE,Vale anche «provare»
-TENTATIVO,Tra i suoi significati: «prova»
-TENTATIVO,Vale anche «impresa»
+TENTARE,Un modo particolare di muoversi
+TENTARE,Rientra tra i modi di muoversi
+TENTATIVO,"Prova, in un’accezione meno immediata"
+TENTATIVO,Nel lessico si avvicina a impresa
 TENTATO,Provato a fare
-TENTAZIONE,"In una sua accezione, «esca»"
+TENTAZIONE,Si può classificare come influsso
 TENTENNO,Sono incerto se agire
 TENTO,Provo a fare
-TENUTA,"In una sua accezione, «terra»"
-TENUTA,Tra i suoi significati: «fondo»
+TENUTA,Appartiene alla categoria di bene immobile
+TENUTA,Una variante di bene immobile
 TENZONE,Contesa poetica o cavalleresca
 TEO,Prefisso del divino
 TEOCRAZIA,Potere politico fondato sul sacro
@@ -455,16 +455,16 @@ TEODORICO,Re degli Ostrogoti a Ravenna
 TEOLOGIA,Lo studio razionale di Dio
 TEORBA,Liuto barocco dal lungo manico
 TEORIA,"Fila, ipotesi o sistema"
-TEORIA,Un possibile significato è «possibilità»
-TEORIA,Un possibile significato è «ipotesi»
-TEORICO,Vale anche «ipotetico»
-TEORICO,"In una sua accezione, «concettuale»"
+TEORIA,Una forma specifica di concetto
+TEORIA,Un tipo particolare di concetto
+TEORICO,Detto di ciò che richiama l’idea di ipotetico
+TEORICO,Detto di ciò che richiama l’idea di concettuale
 TEPIDARIO,La sala tiepida delle terme
 TEQUILA,Il distillato messicano dell'agave
-TERAPEUTICO,"In una sua accezione, «medico»"
-TERAPEUTICO,Tra i suoi significati: «medicinale»
-TERAPIA,Può significare «cura»
-TERAPIA,Tra i suoi significati: «trattamento»
+TERAPEUTICO,Detto di ciò che richiama l’idea di medico
+TERAPEUTICO,Qualità che si avvicina a medicinale
+TERAPIA,Una manifestazione di assistenza
+TERAPIA,Appartiene alla categoria di cura
 TEREBINTO,Albero mediterraneo resinoso
 TEREBRANTE,Penetra o tormenta come un trapano
 TERESA,Il nome della santa di Calcutta
@@ -475,17 +475,17 @@ TERME,Bagni d'acque curative
 TERME,Le...di Caracalla a Roma
 TERMINA,Porta alla fine
 TERMINALE,Punto finale o dispositivo informatico
-TERMINALE,Può significare «polo»
+TERMINALE,"Polo, in un’accezione meno immediata"
 TERMINARE,Portare alla fine
-TERMINARE,Vale anche «finire»
-TERMINARE,Vale anche «chiudere»
+TERMINARE,Un modo non sempre letterale di finire
+TERMINARE,Può portare a smettere
 TERMINATO,Portato alla fine
 TERMINATOR,Il cyborg interpretato da Schwarzenegger
 TERMINE,"Fine, parola o scadenza"
-TERMINE,Vale anche «fine»
-TERMINE,Tra i suoi significati: «parola»
+TERMINE,Parte finale di qualcosa
+TERMINE,Comprende anche sillaba
 TERMINO,Porto alla fine
-TERMINOLOGIA,"In una sua accezione, «nomenclatura»"
+TERMINOLOGIA,Una forma specifica di parola
 TERMITE,Insetto sociale che divora il legno
 TERMOMETRO,L'indicatore dell'umore o di una situazione
 TERMOMETRO,Misura la febbre
@@ -493,7 +493,7 @@ TERMOMETRO,Misura la febbre o il caldo
 TERMOPOLIO,Banco caldo nelle strade romane
 TERMOS,Conserva caldo o freddo nel viaggio
 TERMOSIFONE,Scalda la stanza d'inverno
-TERMOSIFONE,Un possibile significato è «radiatore»
+TERMOSIFONE,Può assumere il significato di radiatore
 TERNI,Città umbra delle acciaierie e di San Valentino
 TERNO,Tre numeri fortunati al lotto
 TERRA,Il nostro pianeta o il suolo
@@ -504,7 +504,7 @@ TERRA,"Promessa, è meta desiderata"
 TERRACOTTA,Argilla cotta da vasi e statue
 TERRACOTTA,L'Armata di...del primo imperatore cinese
 TERRADISIENA,Bruno rossiccio da pigmento
-TERRAFERMA,Può significare «continente»
+TERRAFERMA,Può assumere il significato di continente
 TERRANOVA,Grande isola del Canada atlantico
 TERRAPIENO,Rialzo artificiale di terra
 TERRARIO,Piccolo ambiente chiuso per rettili e piante
@@ -513,23 +513,23 @@ TERRAZZA,Spazio scoperto sopra o davanti a casa
 TERRAZZINO,Il piccolo balcone
 TERRAZZO,Lo spazio aperto sul tetto o al piano
 TERRAZZO,Spazio aperto sopra o accanto alla casa
-TERRAZZO,Tra i suoi significati: «balcone»
+TERRAZZO,Ha tra le sue parti ringhiera
 TERREMOTO,La scossa che fa tremare la terra
 TERREMOTO,Uno sconvolgimento improvviso e totale
-TERREMOTO,Può significare «peste»
-TERRENO,Tra i suoi significati: «suolo»
-TERRENO,Tra i suoi significati: «lotto»
-TERRIBILE,Vale anche «spaventoso»
-TERRIBILMENTE,Può significare «tremendamente»
-TERRIBILMENTE,Può significare «spaventosamente»
+TERREMOTO,Un tipo particolare di buona lana
+TERRENO,Parte superficiale della crosta terrestre sulla quale si sta o si cammina
+TERRENO,Una forma specifica di appezzamento
+TERRIBILE,Detto di ciò che richiama l’idea di spaventoso
+TERRIBILMENTE,Con valore vicino a tremendamente
+TERRIBILMENTE,"Spaventosamente, secondo il contesto"
 TERRICCIO,Terra pronta per vasi e semi
-TERRICCIO,"In una sua accezione, «terreno»"
+TERRICCIO,Un caso particolare di suolo
 TERRINA,Recipiente profondo da cucina
-TERRITORIO,Vale anche «regione»
-TERRITORIO,Tra i suoi significati: «distretto»
+TERRITORIO,Un esempio riconducibile a terra
+TERRITORIO,Rientra nel campo di regione
 TERRORE,Paura portata al massimo
-TERRORE,Vale anche «paura»
-TERRORE,Può significare «panico»
+TERRORE,Una emozione che si prova prima di qualche specifico dolore o pericolo (solitamente accompagnato da desiderio di fuggire o combattere)
+TERRORE,Rientra nel campo di paura
 TERRY,Il nome dello scrittore fantasy Pratchett
 TERSICORE,La musa della danza
 TERSITE,Il brutto e insolente guerriero dell'Iliade
@@ -537,20 +537,20 @@ TERZA,La marcia sopra la seconda
 TERZA,La... età: la vecchiaia
 TERZINA,Gruppo di tre note in un tempo
 TERZINCOMODO,Chi è di troppo in una coppia
-TERZINO,Tra i suoi significati: «estremo»
-TERZINO,"In una sua accezione, «laterale»"
+TERZINO,Si può classificare come laterale
+TERZINO,Un tipo particolare di giocatore di football americano
 TERZO,"Il...mondo, i Paesi in via di sviluppo"
 TERZO,Quello che sale sul gradino più basso del podio
 TERZO,Segue il secondo
-TESA,Vale anche «falda»
+TESA,Può rimandare all’idea di falda
 TESCHIO,Il cranio scarnificato
 TESCHIO,Ricorda la testa quando resta l'osso
-TESCHIO,"In una sua accezione, «cranio»"
+TESCHIO,Ha tra le sue parti scatola cranica
 TESEO,Uccise il Minotauro
 TESEO,Uscì dal labirinto grazie a un filo
 TESI,Il lavoro finale per la laurea
 TESI,La proposizione che si vuole sostenere
-TESI,Può significare «linea»
+TESI,Una forma specifica di ragionamento
 TESLA,Il Nikola della corrente alternata
 TESLA,L'auto elettrica di Elon Musk
 TESO,"Nervoso, in ansia"
@@ -559,34 +559,34 @@ TESORI,Si cercano nelle mappe dei pirati
 TESORO,L'appellativo affettuoso per la persona amata
 TESORO,Ricchezza nascosta e vezzeggiativo
 TESORO,Ricchezza nascosta o persona cara
-TESORO,Vale anche «amore»
+TESORO,Appartiene alla categoria di buono
 TESSAGLIA,Regione della Grecia centrale
 TESSERA,Piccolo pezzo di mosaico o documento associativo
-TESSERA,Un possibile significato è «abbonamento»
+TESSERA,Un tipo particolare di ingresso
 TESSITORE,Lavora al telaio i fili in stoffa
 TESSITURA,Intreccio di fili o trama sonora
 TESSUTO,Insieme organizzato di cellule
-TESSUTO,Tra i suoi significati: «roba»
-TESSUTO,"In una sua accezione, «tela»"
-TEST,Tra i suoi significati: «prova»
-TEST,Tra i suoi significati: «esame»
+TESSUTO,Ha tra le sue parti lembo
+TESSUTO,Comprende anche lembo
+TEST,Una variante di esperienza
+TEST,Rientra nel campo di comunicazione
 TESTA,Chi non l'ha ha buone gambe
 TESTA,Comanda il corpo e apre le classifiche
 TESTA,In...alla classifica: al primo posto
 TESTA,Quella o croce nel lancio della monetina
 TESTARDAGGINE,L'ostinazione di chi non cede
-TESTARE,Può significare «provare»
-TESTARE,Può significare «analizzare»
-TESTIMONE,"In una sua accezione, «spettatore»"
-TESTIMONIANZA,Vale anche «prova»
-TESTIMONIANZA,Vale anche «evidenza»
-TESTIMONIARE,"In una sua accezione, «provare»"
-TESTIMONIARE,Un possibile significato è «dimostrare»
+TESTARE,Azione riconducibile al significato di giudicare
+TESTARE,Può rappresentare un modo di giudicare
+TESTIMONE,Una forma specifica di osservatore
+TESTIMONIANZA,Un esempio riconducibile a informazione
+TESTIMONIANZA,Un caso particolare di informazione
+TESTIMONIARE,Un modo particolare di informare
+TESTIMONIARE,Può essere una maniera di informare
 TESTO,"Il vaso di coccio, o le parole scritte di un brano"
-TESTO,Un possibile significato è «parole»
-TESTUALMENTE,Vale anche «letteralmente»
+TESTO,Completa la frase: «il … di una canzone popolare»
+TESTUALMENTE,In un uso avverbiale legato a letteralmente
 TESTUGGINE,"Tartaruga, con nome più solenne"
-TESTUGGINE,Vale anche «tartaruga»
+TESTUGGINE,Può includere conchiglia tra i suoi elementi
 TETA,Angolo scritto alla greca
 TETI,La madre di Achille
 TETI,Madre marina di Achille
@@ -640,12 +640,12 @@ TIC,Il...tac dell'orologio
 TIC,Scatto nervoso e ripetuto
 TICCHETTIO,Il rumore ritmico dell'orologio
 TICINO,"Fiume tra Svizzera, Piemonte e Lombardia"
-TICKET,Può significare «ricevuta»
-TICKET,Può significare «polizza»
-TIEPIDA,Può esserlo una giornata appena calda
-TIEPIDE,Possono esserlo giornate appena calde
-TIEPIDI,Possono esserlo panni appena caldi
-TIEPIDO,Può esserlo un panno appena caldo
+TICKET,Può rimandare all’idea di ricevuta
+TICKET,"Polizza, in un’accezione meno immediata"
+TIEPIDA,Appena calda
+TIEPIDE,Appena calde
+TIEPIDI,Appena caldi
+TIEPIDO,Appena caldo
 TIEPOLO,Il Giambattista dei grandi affreschi
 TIESTO,Il famoso dj olandese di musica trance
 TIFA,La pianta palustre dalle spighe a sigaro
@@ -662,10 +662,10 @@ TIGELLA,Il pane tondo emiliano da farcire
 TIGHT,Giacca maschile da cerimonia diurna
 TIGLIO,Albero dai fiori usati in tisana
 TIGLIO,Albero profumato dei viali
-TIGNOSA,Può esserlo una donna testarda e puntigliosa
-TIGNOSE,Possono esserlo donne testarde e puntigliose
-TIGNOSI,Possono esserlo uomini testardi e puntigliosi
-TIGNOSO,Può esserlo un uomo testardo e puntiglioso
+TIGNOSA,Testarda e puntigliosa
+TIGNOSE,Testarde e puntigliose
+TIGNOSI,Testardi e puntigliosi
+TIGNOSO,Testardo e puntiglioso
 TIGRE,...di carta: nemico solo apparente
 TIGRE,Felino rigato e aggressivo
 TIGRE,Grande felino striato
@@ -679,13 +679,13 @@ TIM,Il nome del regista Burton
 TIM,L'operatore telefonico ex Telecom
 TIMBALES,I tamburi metallici della musica latina
 TIMBRO,Il colore di una voce o di uno strumento
-TIMBRO,"In una sua accezione, «qualità»"
-TIMBRO,Può significare «tono»
+TIMBRO,Può rimandare all’idea di qualità
+TIMBRO,Nel lessico si avvicina a tono
 TIMBUCTU,Leggendaria città carovaniera del Mali
 TIMIDEZZA,L'imbarazzo di chi è riservato
-TIMIDEZZA,Vale anche «vergogna»
+TIMIDEZZA,Nel lessico si avvicina a vergogna
 TIMIDO,Arrossisce per un nulla
-TIMIDO,"In una sua accezione, «riservato»"
+TIMIDO,"Riservato, secondo il contesto"
 TIMO,Aroma mediterraneo e ghiandola
 TIMO,Erba aromatica per arrosti e infusi
 TIMO,L'aromatica erbacea usata in cucina
@@ -699,7 +699,7 @@ TIMONIERE,Governa il timone dell'imbarcazione
 TIMOR,Isola divisa tra Indonesia e uno Stato
 TIMORE,"Il...di Dio, il rispetto reverenziale"
 TIMORE,Paura con educazione
-TIMORE,"In una sua accezione, «paura»"
+TIMORE,Un caso particolare di ansia
 TIMOTHY,Il nome dell'attore Chalamet
 TIMPANELLO,Piccolo frontone decorativo
 TIMPANO,Membrana dell'orecchio
@@ -707,26 +707,26 @@ TINCA,Pesce d'acqua dolce dei fondali melmosi
 TINDER,L'app degli incontri con lo swipe
 TINELLO,Stanza di casa per pasti familiari
 TINO,Vasca da cantina
-TINO,Tra i suoi significati: «mastella»
+TINO,Un esempio riconducibile a vaso
 TINSE,Diede colore
 TINTA,Colore o colorazione dei capelli
 TINTA,Colore steso o naturale
 TINTA,In...unita: di un solo colore
-TINTA,Un possibile significato è «colore»
+TINTA,Un esempio riconducibile a mano
 TINTIN,Il giovane reporter belga del ciuffo
 TINTINNIO,Il suono argentino di campanelli
 TINTORE,Colora stoffe e tessuti
 TINTORETTO,Il Jacopo Robusti pittore veneziano
-TINTURA,Un possibile significato è «colorante»
-TIPICO,Un possibile significato è «caratteristico»
-TIPICO,"In una sua accezione, «rappresentativo»"
+TINTURA,In certi usi corrisponde a colorante
+TIPICO,Qualità che si avvicina a caratteristico
+TIPICO,Qualità che si avvicina a rappresentativo
 TIPO,"Il gruppo sanguigno: A, B, AB o 0"
 TIPO,Individuo generico o modello
 TIPO,L'individuo: un... strano
 TIPOGRAFIA,Stampa libri e volantini
-TIPOGRAFIA,Vale anche «composizione»
+TIPOGRAFIA,Un tipo particolare di stampa
 TIPOGRAFO,Stampa libri e giornali
-TIPOGRAFO,Tra i suoi significati: «compositore»
+TIPOGRAFO,Può assumere il significato di compositore
 TIR,Bestione autostradale
 TIR,Il grosso autoarticolato delle merci
 TIRA,... e molla: l'andirivieni indeciso
@@ -735,24 +735,24 @@ TIRABACI,Ricciolo vezzoso sulla fronte
 TIRABOZZE,Correttore di bozze in forma tradizionale
 TIRAMISU,Dolce al mascarpone e caffè
 TIRANA,"Capitale albanese, non lontana dall'Adriatico"
-TIRANNIA,Vale anche «dittatura»
+TIRANNIA,Appartiene alla categoria di ascendente
 TIRANNO,"Governa con paura, non con consenso"
-TIRANNO,Un possibile significato è «dittatore»
-TIRANNO,Vale anche «ras»
+TIRANNO,Una nozione collegata a dittatore
+TIRANNO,Rientra nel campo di dittatore
 TIRANNOSAURO,Il grande dinosauro carnivoro dalle piccole zampe
 TIRARE,Trarre verso di sé
-TIRARE,Tra i suoi significati: «sparare»
-TIRARE,"In una sua accezione, «lanciare»"
-TIRATA,Tra i suoi significati: «boccata»
+TIRARE,Si avvicina all’azione di sparare
+TIRARE,Una forma specifica del buttare
+TIRATA,Può rimandare all’idea di boccata
 TIRATO,Tratto verso di sé
-TIRATO,Vale anche «avaro»
+TIRATO,Detto di ciò che richiama l’idea di avaro
 TIRESIA,L'indovino cieco di Tebe
 TIRETTO,Cassetto piccolo
 TIRISTORE,Dispositivo a semiconduttore controllato
 TIRO,"Colpo, lancio o scherzo"
 TIRO,"Il... con l'arco, disciplina olimpica"
 TIRO,Lo scherzo: giocare un brutto...
-TIRO,Tra i suoi significati: «attacco»
+TIRO,Insieme di animali necessari per trainare un veicolo
 TIROIDE,Ghiandola del collo che regola il metabolismo
 TIRRENO,Mare a ovest dell'Italia
 TIRRENO,Mare tra isole e costa occidentale italiana
@@ -760,7 +760,7 @@ TIRSO,Bastone sacro a Dioniso
 TISANA,Bevanda calda di erbe in infusione
 TISANA,Infuso caldo di erbe
 TISANA,Infuso con ambizioni salutari
-TISANA,Può significare «infuso»
+TISANA,Può assumere il significato di infuso
 TISSOT,La marca svizzera di orologi
 TITANI,Antichi giganti sconfitti dagli dei olimpici
 TITANIC,Il kolossal di Cameron sul transatlantico
@@ -768,19 +768,19 @@ TITANIO,Metallo leggero e resistente
 TITANO,Il Monte...di San Marino
 TITANO,La maggiore luna di Saturno
 TITANO,Ognuno dei giganti figli del Cielo nel mito
-TITANO,Un possibile significato è «colosso»
+TITANO,Un tipo particolare di potente
 TITICACA,Il lago navigabile più alto del mondo
-TITOLARE,"In una sua accezione, «proprietario»"
-TITOLARE,"In una sua accezione, «padrone»"
+TITOLARE,Un esempio riconducibile a umano
+TITOLARE,Una manifestazione di umano
 TITOLO,...di Stato: l'obbligazione del debito pubblico
 TITOLO,Apre l'articolo del giornale
 TITOLO,"Il...di studio, la laurea o il diploma"
-TITOLO,Può significare «grado»
+TITOLO,Una manifestazione di status
 TITTI,Il canarino giallo dei cartoni
 TITUBANZA,Incertezza che rallenta il passo
 TIZIANO,"...Ferro, il cantante"
 TIZIANO,Il Vecellio pittore veneziano
-TIZIO,Un possibile significato è «tale»
+TIZIO,"Persona non meglio definita, la cui identità sia ininfluente nel discorso"
 TIZZONE,Il pezzo di legna ardente
 TL,Simbolo chimico del tallio
 TM,"Il marchio registrato, in sigla inglese"
@@ -795,14 +795,14 @@ TOBLERONE,Il cioccolato svizzero a forma di montagna
 TOBOGA,Lo scivolo acquatico o la slitta da discesa
 TOCCA,Sfiora con mano
 TOCCARE,Sfiorare con mano
-TOCCARE,Tra i suoi significati: «raggiungere»
-TOCCARE,"In una sua accezione, «colpire»"
+TOCCARE,Un modo particolare di trovarsi
+TOCCARE,Una particolare maniera di colpire
 TOCCATO,Sfiorato con mano
-TOCCATO,Vale anche «commosso»
+TOCCATO,"Commosso, secondo il contesto"
 TOCCHERA,Sfiorerà con mano
 TOCCO,Il berretto quadrato dei neolaureati
 TOCCO,Sfioro con mano
-TOCCO,"In una sua accezione, «mano»"
+TOCCO,Completa la frase: «in questo arredamento si riconosce il … dell’architetto»
 TODD,Il nome del barbiere assassino Sweeney
 TODI,Città umbra amata dai turisti
 TOFU,Il formaggio di soia
@@ -810,14 +810,14 @@ TOGA,Abito del giudice e dell'antico romano
 TOGA,Abito di foro e antica Roma
 TOGA,La veste solenne dei magistrati
 TOGLIATTI,Il Palmiro della svolta di Salerno
-TOGLIERE,Vale anche «eliminare»
-TOGLIERE,Tra i suoi significati: «rimuovere»
-TOGLIERSI,Un possibile significato è «levare»
+TOGLIERE,Un modo non sempre letterale di eliminare
+TOGLIERE,"Rimuovere, in un uso particolare"
+TOGLIERSI,Azione riconducibile al significato di togliere
 TOGNAZZI,"L'attore italiano del Vizietto, Ugo"
 TOGO,Piccolo Stato del Golfo di Guinea
 TOILETTE,L'abbigliamento curato e i servizi igienici
-TOILETTE,Vale anche «bagno»
-TOILETTE,"In una sua accezione, «vestito»"
+TOILETTE,"Una stanza (in una casa) tipicamente con lavandino, vasca o doccia, e water"
+TOILETTE,Può includere busto tra i suoi elementi
 TOKYO,...la rapinatrice de La casa di carta
 TOKYO,La capitale del Giappone
 TOKYO,Metropoli giapponese tra neon e templi
@@ -825,9 +825,9 @@ TOLDA,Il ponte scoperto della nave
 TOLDO,Copertura di tela su barche e terrazze
 TOLEDO,Città spagnola del Greco
 TOLKIEN,L'autore del Signore degli Anelli
-TOLLERANZA,Vale anche «sopportazione»
-TOLLERARE,Può significare «sostenere»
-TOLLERARE,Può significare «permettere»
+TOLLERANZA,Una manifestazione di resistenza
+TOLLERARE,Azione riconducibile al significato di permettere
+TOLLERARE,Azione riconducibile al significato di offrire
 TOLOMEO,Astronomo del sistema geocentrico
 TOLOSA,Città del sud-ovest francese
 TOLSTOJ,Il Lev di Guerra e pace
@@ -837,11 +837,11 @@ TOMASI,Autore del Gattopardo
 TOMASI,Scrittore del Gattopardo
 TOMBA,"Alberto, la Bomba dello sci azzurro"
 TOMBA,Casa finale e verbo che precipita
-TOMBA,Vale anche «sepolcro»
+TOMBA,Comprende anche lapide
 TOMBACCO,Lega di rame e zinco simile all'oro
 TOMBINO,Chiude un accesso sotto la strada
-TOMBINO,Vale anche «cameretta»
-TOMBINO,Vale anche «botola»
+TOMBINO,Una manifestazione di buco
+TOMBINO,Un caso particolare di buco
 TOMENTO,Peluria fitta di certe foglie
 TOMMASO,L'apostolo incredulo
 TOMMASO,"San...d'Aquino, il grande teologo"
@@ -850,13 +850,13 @@ TOMTOM,La marca olandese di navigatori satellitari
 TONACA,Abito religioso lungo
 TONACA,La lunga veste del frate e del prete
 TONALI,"Sandro, centrocampista italiano"
-TONALITA,Un possibile significato è «tono»
-TONALITA,"In una sua accezione, «tinta»"
+TONALITA,Un esempio riconducibile a colore
+TONALITA,Appartiene alla categoria di colore
 TONDO,"Circolare, ma anche segno grafico"
 TONDO,Di forma circolare
-TONDO,Tra i suoi significati: «circolare»
+TONDO,"Circolare, in un uso particolare"
 TONFO,Caduta che si sente
-TONFO,Tra i suoi significati: «botto»
+TONFO,Un tipo particolare di suono
 TONGA,Regno polinesiano
 TONI,Le sfumature di colore o di suono
 TONI,"Luca, bomber altissimo del Mondiale 2006"
@@ -865,17 +865,17 @@ TONNO,Pesce grande che finisce in scatola
 TONO,Altezza della voce o sfumatura
 TONO,Darsi un...: assumere un'aria d'importanza
 TONO,La sfumatura di un colore
-TONO,Vale anche «qualità»
+TONO,Nel lessico si avvicina a qualità
 TONSILLITE,Infiammazione delle tonsille
 TONSURA,Rasatura rituale dei chierici
 TONTO,"Lo sciocco, o il finto... che fa il furbo"
-TONTO,Vale anche «pesce»
-TONTO,Tra i suoi significati: «stupido»
+TONTO,Persona ingenua e credulona
+TONTO,Con un significato vicino a stupido
 TONY,I premi del teatro di Broadway
 TONY,Il nome dello Stark di Iron Man
 TOP,"Il massimo, il meglio"
 TOP,"Il massimo, in inglese entrato nell'uso"
-TOP,Tra i suoi significati: «cima»
+TOP,Un tipo particolare di livello
 TOPAZIO,Pietra gialla o azzurra
 TOPIARIA,Arte di potare siepi in figure
 TOPINAMBUR,Tubero dal sapore di carciofo
@@ -885,15 +885,15 @@ TOPO,"Il...di biblioteca, lo studioso accanito"
 TOPO,Roditore che ama il formaggio nei cartoni
 TOPO,Roditore e informatore in gergo
 TOPOLINO,Il celebre topo di Disney
-TOPOLINO,Può significare «delinquente»
-TOPOLINO,Può significare «folletto»
+TOPOLINO,Una manifestazione di figlio
+TOPOLINO,Appartiene alla categoria di figlio
 TOPORAGNO,Minuscolo mammifero insettivoro
 TOPPA,Mettere una...: rimediare alla meglio
 TOPPA,Riparo di stoffa o errore rimediato male
-TOPPA,Tra i suoi significati: «serratura»
+TOPPA,Rientra nel campo di buco
 TORACE,Cassa che racchiude cuore e polmoni
 TORACE,Gabbia che custodisce cuore e polmoni
-TORACE,"In una sua accezione, «petto»"
+TORACE,Comprende anche gabbia toracica
 TORBA,Terra scura da paludi e giardinieri
 TORBIDA,Non limpida
 TORBIDE,Non limpide
@@ -902,7 +902,7 @@ TORBIDO,Non limpido
 TORBIERA,Il terreno paludoso ricco di torba
 TORCHIO,"Preme uva, olive o carta"
 TORCHIO,Sotto...: messo alle strette
-TORCHIO,Vale anche «pressa»
+TORCHIO,Una forma specifica di macchina
 TORCIA,La... elettrica che fa luce
 TORCIA,La...olimpica che accende il braciere
 TORCIA,Luce portatile o fiaccola
@@ -915,27 +915,27 @@ TORERO,Si veste di luce davanti al toro
 TORINO,Città della Mole Antonelliana
 TORINO,"La squadra granata, il...calcio"
 TORMALINA,Pietra dura dai molti colori
-TORMENTATO,"In una sua accezione, «sofferto»"
-TORMENTATO,Tra i suoi significati: «disgraziato»
+TORMENTATO,Con un significato vicino a sofferto
+TORMENTATO,Con un significato vicino a disgraziato
 TORMENTO,Dolore che insiste
-TORMENTO,Può significare «tortura»
-TORMENTO,Tra i suoi significati: «agonia»
+TORMENTO,Un tipo particolare di pena
+TORMENTO,Appartiene alla categoria di pena
 TORNA,Viene di nuovo
-TORNACONTO,Un possibile significato è «vantaggio»
+TORNACONTO,In certi usi corrisponde a vantaggio
 TORNADO,Vortice che alza tetti e polvere
 TORNARE,Venire di nuovo
-TORNARE,Vale anche «rientrare»
+TORNARE,Può essere una maniera di spostarsi
 TORNATO,Venuto di nuovo
 TORNATORE,Il Giuseppe di Nuovo Cinema Paradiso
 TORNEO,Competizione di molti incontri
 TORNEO,La giostra cavalleresca medievale
-TORNEO,Un possibile significato è «coppa»
+TORNEO,"Competizione organizzata in una serie di gare in cui i concorrenti si incontrano a turno, fino alla designazione del vincitore finale"
 TORNIO,Macchina che modella girando
 TORNITORE,Lavora i pezzi al tornio
 TORNO,Vengo di nuovo
 TORO,Il segno zodiacale di maggio
 TORO,"Segno, bovino e piazza finanziaria"
-TORO,Vale anche «bull»
+TORO,Una variante di investitore
 TORONTO,La metropoli canadese della CN Tower
 TORPEDINE,Pesce elettrico e vecchia arma navale
 TORPEDONE,Pullman da comitiva
@@ -944,15 +944,15 @@ TORRE,Il pezzo degli scacchi che muove in linea retta
 TORRE,"La...di Pisa, quella pendente"
 TORRENTE,Acqua impetuosa e stagionale
 TORRENTE,Acqua vivace di montagna
-TORRENTE,Un possibile significato è «rio»
+TORRENTE,"Rio, in un’accezione meno immediata"
 TORRENTELLO,Piccolo corso d'acqua vivace
 TORRI,Salgono sopra mura e città
 TORRICELLI,L'Evangelista inventore del barometro
 TORRIONE,Grande torre di difesa
 TORRONCINO,Dolcetto duro di miele e mandorle
 TORRONE,Dolce di miele e mandorle
-TORSO,Vale anche «busto»
-TORSO,Può significare «tronco»
+TORSO,Parte del corpo umano compresa tra il collo e il bacino
+TORSO,Può includere diaframma tra i suoi elementi
 TORTA,Dolce da candeline e fette
 TORTA,Il dolce delle feste di compleanno
 TORTA,Spartirsi la...: dividersi il bottino
@@ -961,14 +961,14 @@ TORTELLINI,Pasta ripiena emiliana
 TORTIERA,Stampo per cuocere le torte
 TORTO,Lui ha...: ha sbagliato
 TORTO,Ragione perduta
-TORTO,"In una sua accezione, «danno»"
+TORTO,Una manifestazione di mala fatta
 TORTOLI,Centro sardo vicino ad Arbatax
 TORTORA,Grigio tendente al beige
 TORTORA,Uccello dal verso malinconico
 TORTU,"Filippo, velocista azzurro oro nella staffetta"
-TORTURA,Può significare «agonia»
-TORTURA,"In una sua accezione, «tormento»"
-TORTURARE,"In una sua accezione, «infastidire»"
+TORTURA,Una manifestazione di pena
+TORTURA,Si può classificare come pena
+TORTURARE,Può essere una maniera di innervosire
 TORVO,Dallo sguardo cupo e minaccioso
 TOSAERBA,Rasa il prato del giardino
 TOSCA,L'opera di Puccini con E lucevan le stelle
@@ -977,21 +977,21 @@ TOSCANINI,L'Arturo direttore d'orchestra
 TOSI,Ragazzi in parlata veneta
 TOSSE,Il colpo che irrita la gola
 TOSSE,Rumore del raffreddore
-TOSSICO,Può significare «veleno»
-TOSSICO,"In una sua accezione, «drogato»"
-TOSSICODIPENDENTE,Vale anche «drogato»
+TOSSICO,Un tipo particolare di sostanza
+TOSSICO,Una nozione collegata a drogato
+TOSSICODIPENDENTE,Una nozione collegata a drogato
 TOSSICOLOGIA,Lo studio dei veleni
 TOSSICOMANIA,La dipendenza dalle droghe
 TOSTAPANE,Apparecchio per abbrustolire il pane
 TOSTAPANE,Dora le fette a colazione
 TOSTO,Avere una faccia...: essere sfacciati
 TOSTO,Il pane abbrustolito e croccante
-TOSTO,Può significare «ora»
+TOSTO,Con valore vicino a ora
 TOT,Quantità imprecisa ma fissata
-TOTALE,Un possibile significato è «pieno»
-TOTALE,Tra i suoi significati: «intero»
-TOTALMENTE,"In una sua accezione, «completamente»"
-TOTALMENTE,Tra i suoi significati: «interamente»
+TOTALE,Può assumere la sfumatura di pieno
+TOTALE,Detto di ciò che richiama l’idea di intero
+TOTALMENTE,In un uso avverbiale legato a completamente
+TOTALMENTE,Con una sfumatura che richiama interamente
 TOTANO,Mollusco simile al calamaro
 TOTEM,Palo sacro con figure simboliche
 TOTI,L'eroe Enrico... con la stampella
@@ -1011,7 +1011,7 @@ TOWERBRIDGE,Il ponte levatoio sul Tamigi
 TOYOTA,Il colosso automobilistico giapponese
 TOZZO,Basso e massiccio
 TOZZO,Un... di pane raffermo
-TOZZO,Può significare «morso»
+TOZZO,Un caso particolare di assaggio
 TP,Iniziali dello scrittore Pratchett
 TP,Sigla automobilistica di Trapani
 TR,Sigla automobilistica di Terni
@@ -1023,50 +1023,50 @@ TRABEAZIONE,Parte orizzontale sopra le colonne
 TRABOCCO,Palafitta da pesca sulla costa adriatica
 TRACCERA,Segnerà una linea
 TRACCIA,Segna una linea
-TRACCIA,"In una sua accezione, «segno»"
-TRACCIA,Può significare «pista»
+TRACCIA,Un caso particolare di indizio
+TRACCIA,Si può classificare come testimonianza
 TRACCIARE,Segnare una linea
-TRACCIARE,Vale anche «trattare»
-TRACCIARE,Un possibile significato è «tirare»
+TRACCIARE,Può rappresentare un modo di descrivere
+TRACCIARE,Azione vicina al significato di tirare
 TRACCIATO,Segnato una linea
-TRACCIATO,Può significare «schema»
-TRACCIATO,Vale anche «diagramma»
+TRACCIATO,Un caso particolare di disegno
+TRACCIATO,Un tipo particolare di disegno
 TRACCIO,Segno una linea
 TRACHEA,Tubo dell'aria verso i polmoni
 TRACI,Antico popolo dei Balcani
 TRACINA,Pesce velenoso che si infossa nella sabbia
 TRACOMA,Malattia infettiva dell'occhio
 TRACOTANZA,L'arroganza sfacciata
-TRADIMENTO,"In una sua accezione, «adulterio»"
-TRADIMENTO,"In una sua accezione, «infedeltà»"
+TRADIMENTO,In certi usi corrisponde a adulterio
+TRADIMENTO,Può rimandare all’idea di infedeltà
 TRADIRE,Venir meno alla fiducia
-TRADIRE,Un possibile significato è «denunciare»
-TRADIRE,Tra i suoi significati: «ingannare»
+TRADIRE,Può rappresentare un modo di diffondere
+TRADIRE,Azione vicina al significato di ingannare
 TRADISCE,Viene meno alla fiducia
 TRADISCO,Vengo meno alla fiducia
 TRADISCONO,Vengono meno alla fiducia
 TRADITO,Venuto meno alla fiducia
 TRADUSSE,Volse in altra lingua
 TRADUTTORE,Volge un testo in un'altra lingua
-TRADUTTORE,"In una sua accezione, «interprete»"
-TRADUZIONE,"In una sua accezione, «versione»"
-TRAFFICANTE,Tra i suoi significati: «venditore»
+TRADUTTORE,Un tipo particolare di mediatore
+TRADUZIONE,Nel lessico si avvicina a versione
+TRAFFICANTE,Può rimandare all’idea di venditore
 TRAFFICO,Mi agito in mille faccende
-TRAFFICO,"In una sua accezione, «giro»"
+TRAFFICO,Nel lessico si avvicina a giro
 TRAFISSE,Colpì da parte a parte
 TRAFORO,Galleria che attraversa una montagna
-TRAFORO,Tra i suoi significati: «galleria»
-TRAFORO,Tra i suoi significati: «sondaggio»
-TRAGEDIA,Un possibile significato è «disastro»
-TRAGEDIA,Vale anche «dramma»
+TRAFORO,Una nozione collegata a galleria
+TRAFORO,Nel lessico si avvicina a sondaggio
+TRAGEDIA,Una manifestazione di sfortuna
+TRAGEDIA,Rientra nel campo di sfortuna
 TRAGHETTO,Nave breve fra due rive
 TRAGHETTO,Porta mezzi e persone da una riva all'altra
-TRAGUARDO,Tra i suoi significati: «arrivo»
+TRAGUARDO,Un caso particolare di linea
 TRAIANO,Imperatore delle massime conquiste romane
-TRAINER,Un possibile significato è «allenatore»
-TRAINER,"In una sua accezione, «coach»"
-TRALASCIARE,Tra i suoi significati: «dimenticare»
-TRALASCIARE,Può significare «interrompere»
+TRAINER,Si può classificare come leader
+TRAINER,Una manifestazione di leader
+TRALASCIARE,Un modo non sempre letterale di dimenticare
+TRALASCIARE,"Interrompere, in un uso particolare"
 TRALATICIO,"Ripetuto per tradizione, non per verifica"
 TRALCIO,Ramo della vite
 TRAM,Rotaie urbane in breve
@@ -1074,19 +1074,19 @@ TRAM,Un...che si chiama Desiderio
 TRAMA,I fili intrecciati del tessuto
 TRAMA,Intreccio della storia
 TRAMA,Intreccio di fili o di storia
-TRAMA,Tra i suoi significati: «complotto»
+TRAMA,Si può classificare come cospirazione
 TRAMAI,Passato remoto: Ordire di nascosto
 TRAMATO,Participio: Ordire di nascosto
 TRAMBUSTO,L'agitazione rumorosa
-TRAMBUSTO,Un possibile significato è «casino»
-TRAMBUSTO,Un possibile significato è «confusione»
+TRAMBUSTO,Un caso particolare di rumore
+TRAMBUSTO,Appartiene alla categoria di rumore
 TRAMEZZINO,Panino triangolare imbottito
 TRAMITE,Mezzo o persona che fa passare
 TRAMO,Ordisco di nascosto
 TRAMONTA,Scende oltre l'orizzonte
 TRAMONTANA,Perdere la...: smarrire l'orientamento
 TRAMONTANA,Vento freddo da nord
-TRAMONTANA,"In una sua accezione, «aquilone»"
+TRAMONTANA,Rientra nel campo di vento
 TRAMONTARE,Scendere oltre l'orizzonte
 TRAMONTATO,Sceso oltre l'orizzonte
 TRAMONTI,Colorano il cielo a fine giornata
@@ -1098,29 +1098,29 @@ TRAMPOLI,Allungano le gambe degli artisti di strada
 TRAMPOLINO,Da qui ci si tuffa in piscina
 TRAMPOLINO,Fa saltare più in alto
 TRAMPOLINO,Un... di lancio per la carriera
-TRAMPOLINO,Può significare «pedana»
+TRAMPOLINO,Si può classificare come tavola
 TRANCE,Genere elettronico ipnotico
 TRANI,Città pugliese dalla cattedrale sul mare
 TRANQUILLITA,La calma serena
-TRANQUILLITA,Vale anche «calma»
-TRANQUILLITA,Vale anche «quiete»
-TRANQUILLO,Un possibile significato è «sereno»
-TRANQUILLO,Può significare «calmo»
+TRANQUILLITA,Una nozione collegata a calma
+TRANQUILLITA,"Quiete, in un’accezione meno immediata"
+TRANQUILLO,Completa la frase: «un mare …»
+TRANQUILLO,Qualità che si avvicina a calmo
 TRANSATLANTICO,Grande nave da passeggeri oceanica
-TRANSATLANTICO,Tra i suoi significati: «vapore»
-TRANSATLANTICO,Un possibile significato è «piroscafo»
-TRANSAZIONE,Può significare «operazione»
+TRANSATLANTICO,Ha tra le sue parti locomotiva a vapore
+TRANSATLANTICO,Può includere locomotiva a vapore tra i suoi elementi
+TRANSAZIONE,Una variante di atto collettivo
 TRANSENNA,Barriera provvisoria da folla
 TRANSETTO,Il braccio trasversale della chiesa a croce
-TRANSETTO,Può significare «crociera»
+TRANSETTO,Appartiene alla categoria di costruzione
 TRANSEUNTE,"Passa, quindi non resta"
 TRANSFORMERS,I robot che si trasformano in veicoli
 TRANSIBERIANA,La lunghissima ferrovia russa fino al Pacifico
 TRANSILVANIA,Regione dei Carpazi legata a Dracula
-TRANSITORIO,Tra i suoi significati: «breve»
-TRANSITORIO,Tra i suoi significati: «straordinario»
-TRANSIZIONE,Un possibile significato è «passaggio»
-TRANSIZIONE,Un possibile significato è «conversione»
+TRANSITORIO,Detto di ciò che richiama l’idea di breve
+TRANSITORIO,Può assumere la sfumatura di straordinario
+TRANSIZIONE,Un caso particolare di brano
+TRANSIZIONE,In certi usi corrisponde a conversione
 TRAP,Genere rap dai bassi profondi
 TRAP,"Un’insidia per catturare, in inglese"
 TRAPANI,Città siciliana tra due mari
@@ -1132,77 +1132,77 @@ TRAPEZIO,Attrezzo degli acrobati sospesi
 TRAPEZIO,Figura geometrica e attrezzo da acrobati
 TRAPEZISTA,Acrobata sospeso
 TRAPIANTO,Il trasferimento di un organo da un donatore
-TRAPPOLA,"In una sua accezione, «rete»"
-TRAPPOLA,Un possibile significato è «inganno»
+TRAPPOLA,Una manifestazione di progettazione
+TRAPPOLA,Rientra nel campo di progettazione
 TRAPUNTA,La coperta imbottita e cucita a punti
 TRARRE,"Ricavare, o...in inganno"
 TRASCENDENTE,Ciò che è oltre il mondo sensibile
-TRASCINARE,"In una sua accezione, «tirare»"
-TRASCINARE,Tra i suoi significati: «coinvolgere»
-TRASCORRERE,Tra i suoi significati: «scorrere»
-TRASCORRERE,"In una sua accezione, «decorrere»"
+TRASCINARE,Una forma specifica del trarre
+TRASCINARE,Può essere una maniera di includere
+TRASCORRERE,Rientra tra i modi di andare avanti
+TRASCORRERE,Un modo particolare di andare avanti
 TRASCORSE,Passò il tempo
-TRASCRIZIONE,Tra i suoi significati: «copia»
-TRASCURABILE,"In una sua accezione, «minimo»"
-TRASCURABILE,Può significare «leggero»
-TRASCURARE,Vale anche «dimenticare»
-TRASCURARE,"In una sua accezione, «saltare»"
+TRASCRIZIONE,Una nozione collegata a copia
+TRASCURABILE,Detto di ciò che richiama l’idea di minimo
+TRASCURABILE,Può assumere la sfumatura di leggero
+TRASCURARE,Azione vicina al significato di dimenticare
+TRASCURARE,Una forma specifica del dimenticare
 TRASECOLO,Rimango di stucco
-TRASFERIMENTO,"In una sua accezione, «cessione»"
-TRASFERIMENTO,"In una sua accezione, «alienazione»"
-TRASFERIRE,Un possibile significato è «cedere»
+TRASFERIMENTO,Un tipo particolare di transazione
+TRASFERIMENTO,Una variante di transazione
+TRASFERIRE,Presuppone anche di muoversi
 TRASFORMA,Muta forma
 TRASFORMARE,Mutare forma
-TRASFORMARE,Vale anche «convertire»
-TRASFORMARSI,Può significare «divenire»
-TRASFORMARSI,Un possibile significato è «svilupparsi»
+TRASFORMARE,Può essere una maniera di modificare
+TRASFORMARSI,Un modo particolare di svilupparsi
+TRASFORMARSI,Può essere una maniera di estendersi
 TRASFORMATO,Mutato forma
-TRASFORMAZIONE,Tra i suoi significati: «cambiamento»
-TRASFORMAZIONE,Tra i suoi significati: «conversione»
+TRASFORMAZIONE,Nel lessico si avvicina a cambiamento
+TRASFORMAZIONE,Può rimandare all’idea di conversione
 TRASFORMO,Muto forma
-TRASGRESSIONE,Può significare «violazione»
-TRASGRESSIONE,Un possibile significato è «infrazione»
+TRASGRESSIONE,Un esempio riconducibile a reato
+TRASGRESSIONE,Appartiene alla categoria di reato
 TRASIMENO,Il lago umbro della battaglia annibalica
 TRASLATO,Spostato dal senso proprio
-TRASMETTERE,Tra i suoi significati: «esprimere»
-TRASMETTERE,Può significare «comunicare»
+TRASMETTERE,Si avvicina all’azione di esprimere
+TRASMETTERE,Un modo non sempre letterale di comunicare
 TRASMISE,Mandò in onda
-TRASMISSIONE,Un possibile significato è «programma»
-TRASPARENTE,Vale anche «lucido»
-TRASPARENZA,Un possibile significato è «chiarezza»
-TRASPARENZA,Un possibile significato è «purezza»
-TRASPORTARE,"In una sua accezione, «tirare»"
-TRASPORTARE,Tra i suoi significati: «trascinare»
-TRASPORTO,Tra i suoi significati: «esplosione»
-TRASPORTO,"In una sua accezione, «sfogo»"
+TRASMISSIONE,Un esempio riconducibile a rassegna
+TRASPARENTE,Appartiene alla categoria di immagine diapositiva
+TRASPARENZA,Può assumere il significato di chiarezza
+TRASPARENZA,Può assumere il significato di purezza
+TRASPORTARE,Una forma specifica del muoversi
+TRASPORTARE,Un modo particolare di muoversi
+TRASPORTO,Un caso particolare di manifestazione
+TRASPORTO,Una forma specifica di manifestazione
 TRASSE,Tirò a sé
 TRATTA,Ha a che fare
 TRATTA,"Quella degli schiavi, la deportazione"
-TRATTA,Un possibile significato è «effetto»
-TRATTAMENTO,Può significare «cura»
-TRATTAMENTO,Può significare «gestione»
+TRATTA,Una nozione collegata a effetto
+TRATTAMENTO,Una variante di assistenza
+TRATTAMENTO,Si può classificare come amministrazione
 TRATTARE,Avere a che fare
-TRATTARE,Un possibile significato è «guardare»
-TRATTARE,Può significare «affrontare»
-TRATTATIVA,Vale anche «dialogo»
-TRATTATIVA,Tra i suoi significati: «negoziazione»
+TRATTARE,Azione riconducibile al significato di pensare
+TRATTARE,Può essere una maniera di pensare
+TRATTATIVA,Un esempio riconducibile a discussione
+TRATTATIVA,Rientra nel campo di discussione
 TRATTATO,Avuto a che fare
-TRATTATO,Vale anche «patto»
-TRATTATO,Un possibile significato è «convenzione»
-TRATTAZIONE,Tra i suoi significati: «ragionamento»
-TRATTENERE,Un possibile significato è «contenere»
-TRATTENERE,Un possibile significato è «ritenere»
-TRATTENUTA,Tra i suoi significati: «ritenuta»
+TRATTATO,"Patto, in un’accezione meno immediata"
+TRATTATO,"Convenzione, in un’accezione meno immediata"
+TRATTAZIONE,Un tipo particolare di comunicazione
+TRATTENERE,Può essere una maniera di impedire
+TRATTENERE,Azione riconducibile al significato di mantenere
+TRATTENUTA,Appartiene alla categoria di somma di denaro
 TRATTI,"I... del viso, i lineamenti"
 TRATTO,A un...: all'improvviso
 TRATTO,Ho a che fare
-TRATTO,Tra i suoi significati: «periodo»
+TRATTO,Una variante di quantità
 TRATTORE,Motore lento che lavora la terra
-TRATTORE,Un possibile significato è «motrice»
-TRATTORIA,Un possibile significato è «ristorante»
-TRATTORIA,Vale anche «restaurant»
-TRAUMA,Può significare «male»
-TRAUMA,Un possibile significato è «danno»
+TRATTORE,Un caso particolare di camion
+TRATTORIA,Un caso particolare di palazzo
+TRATTORIA,Una forma specifica di palazzo
+TRAUMA,Un esempio riconducibile a problema di salute
+TRAUMA,Rientra nel campo di problema di salute
 TRAVE,Elemento portante orizzontale
 TRAVE,Quella attrezzo della ginnastica artistica
 TRAVERSA,La parte orizzontale della porta
@@ -1211,12 +1211,12 @@ TRAVERSINA,Sostegno trasversale dei binari
 TRAVERSINA,Sostiene le rotaie
 TRAVERTINO,Pietra chiara di fontane e palazzi romani
 TRAVERTINO,Pietra chiara di tanti monumenti romani
-TRAVESTITO,Un possibile significato è «mascherato»
-TRAVESTITO,Può significare «occulto»
+TRAVESTITO,Può assumere la sfumatura di mascherato
+TRAVESTITO,Detto di ciò che richiama l’idea di occulto
 TRAVIATA,L'opera di Verdi su Violetta
 TRAVIS,Il nome del Bickle di Taxi Driver
-TRAVOLGENTE,Può significare «appassionato»
-TRAVOLGENTE,Può significare «ardente»
+TRAVOLGENTE,Qualità che si avvicina a appassionato
+TRAVOLGENTE,Con un significato vicino a ardente
 TRAVOLSE,Trascinò via con forza
 TRE,I... moschettieri di Dumas
 TRE,Il numero che segue il due
@@ -1226,21 +1226,21 @@ TREBBIATURA,La separazione del grano dalla paglia
 TREBUCCHETTO,Macchina da assedio a leva
 TREBUCHET,Macchina d'assedio medievale
 TRECCE,Code di capelli a tre capi
-TREGUA,"In una sua accezione, «pausa»"
-TREGUA,Tra i suoi significati: «sosta»
-TREMARE,Vale anche «vibrare»
-TREMARE,Vale anche «vacillare»
-TREMENDAMENTE,Può significare «malissimo»
-TREMENDAMENTE,Vale anche «terribilmente»
-TREMENDO,"In una sua accezione, «fantastico»"
-TREMENDO,Tra i suoi significati: «meraviglioso»
+TREGUA,Appartiene alla categoria di stacco
+TREGUA,Un esempio riconducibile a pausa
+TREMARE,Si avvicina all’azione di vibrare
+TREMARE,Può rientrare nell’idea di vacillare
+TREMENDAMENTE,"Malissimo, secondo il contesto"
+TREMENDAMENTE,"Terribilmente, secondo il contesto"
+TREMENDO,"Fantastico, secondo il contesto"
+TREMENDO,Qualità che si avvicina a meraviglioso
 TREMITI,Arcipelago dell'Adriatico
 TREMOLO,La rapida ripetizione di una nota
 TREMOTINO,Folletto che fila l'oro nella fiaba
 TRENCH,Impermeabile con cintura
 TREND,La tendenza del momento
-TREND,"In una sua accezione, «tendenza»"
-TREND,"In una sua accezione, «indirizzo»"
+TREND,Si può classificare come strada
+TREND,Una manifestazione di strada
 TRENINO,Piccolo treno da gioco
 TRENO,Il convoglio che corre sui binari
 TRENO,Perdere il...: lasciarsi sfuggire l'occasione
@@ -1248,8 +1248,8 @@ TRENO,"Perso, è occasione sfumata"
 TRENO,Serpente di vagoni
 TRENTO,Città del Concilio
 TREPIDAZIONE,L'ansia di chi attende
-TREPIDAZIONE,Tra i suoi significati: «ansia»
-TREPIDAZIONE,Un possibile significato è «preoccupazione»
+TREPIDAZIONE,"Una vaga, spiacevole emozione che si prova prima di qualche (solitamente non ben definita) disgrazia"
+TREPIDAZIONE,Rientra nel campo di emozione
 TRESETTE,Gioco di carte di abilità
 TREVISO,Città veneta d'acque e radicchio
 TREVISO,Città veneta sul Sile
@@ -1261,20 +1261,20 @@ TRIANGOLO,Tre lati bastano a chiuderlo
 TRIANGULUMAUSTRALE,Il Triangolo Australe
 TRIBU,Comunità regolata da parentela
 TRIBUNA,Posto rialzato per guardare o parlare
-TRIBUNALE,Vale anche «corte»
-TRIBUNALE,Può significare «aula»
+TRIBUNALE,Ha giuria fra i suoi componenti
+TRIBUNALE,Comprende anche sbarra
 TRIBUNO,Voce del popolo o oratore da piazza
-TRIBUTARIO,Può significare «influente»
-TRIBUTARIO,Può significare «affluente»
-TRIBUTO,"In una sua accezione, «imposta»"
-TRIBUTO,Vale anche «tassa»
+TRIBUTARIO,Soggetto al pagamento di tributi
+TRIBUTARIO,Che confluisce in un corso d’acqua maggiore
+TRIBUTO,Una nozione collegata a imposta
+TRIBUTO,Può rimandare all’idea di tassa
 TRICERATOPO,Il dinosauro erbivoro dalle tre corna
 TRICICLO,Veicolo a tre ruote per bambini
 TRICLINIO,Sala da pranzo romana con letti
 TRIDENTE,Forcone a tre punte di Nettuno
 TRIDENTE,Forcone di Nettuno e dei pescatori
 TRIDENTE,L'attacco a tre punte nel calcio
-TRIDENTE,"In una sua accezione, «forca»"
+TRIDENTE,Rientra nel campo di utensile manuale
 TRIENNALE,L'istituzione milanese del design
 TRIESTE,Città della bora e del caffè
 TRIFOGLIO,Pianta dalle tre foglioline
@@ -1294,21 +1294,21 @@ TRINIDAD,Isola caraibica del carnevale
 TRINITY,L'eroina in pelle nera di Matrix
 TRIO,Il complesso di tre musicisti
 TRIO,Tre che fanno gruppo
-TRIO,Un possibile significato è «terzetto»
-TRIONFARE,"In una sua accezione, «vincere»"
-TRIONFARE,Tra i suoi significati: «prevalere»
-TRIONFO,Vale anche «successo»
-TRIONFO,Può significare «vittoria»
+TRIO,Una forma specifica di composizione
+TRIONFARE,"Vincere, in un uso particolare"
+TRIONFARE,Una forma specifica del vincere
+TRIONFO,Si può classificare come conclusione
+TRIONFO,Una manifestazione di conclusione
 TRIPLO,"Il salto...dell'atletica, tre volte tanto"
 TRIPOLI,La capitale della Libia
 TRIREME,Antica nave da guerra a tre file di remi
 TRISTANO,L'amante di Isotta
 TRISTE,"Giù di morale, mesto"
-TRISTE,Un possibile significato è «infelice»
-TRISTE,Vale anche «dolente»
+TRISTE,Con un significato vicino a infelice
+TRISTE,Può assumere la sfumatura di dolente
 TRISTEZZA,Il contrario dell'allegria
-TRISTEZZA,Può significare «malinconia»
-TRISTEZZA,Può significare «infelicità»
+TRISTEZZA,Una forma specifica di infelicità
+TRISTEZZA,Un tipo particolare di sentimento
 TRITATUTTO,Apparecchio che trita gli alimenti
 TRITATUTTO,Sminuzza cibi in cucina
 TRITONE,Divinità marina con coda di pesce
@@ -1316,7 +1316,7 @@ TRITONE,Divinità marina con conchiglia sonora
 TRITTICO,Opera in tre parti pieghevoli
 TROCHEO,Piede poetico che batte e poi alleggerisce
 TROFEO,Oggetto che ricorda una vittoria
-TROFEO,"In una sua accezione, «coppa»"
+TROFEO,Una variante di premio
 TROFIE,Pasta ligure da condire al pesto
 TROGLODITA,Abitante delle caverne o rozzo figurato
 TROIA,La città assediata dagli Achei
@@ -1327,7 +1327,7 @@ TROLL,Mostruosa creatura delle fiabe nordiche
 TROMBA,...d'aria: il vortice di vento
 TROMBA,"La...delle scale, il vano centrale"
 TROMBA,Strumento d'ottone
-TROMBA,"In una sua accezione, «tubo»"
+TROMBA,In certi usi corrisponde a tubo
 TROMBADARIA,Vortice di vento che tocca terra
 TROMBONE,Chi parla tanto e a vuoto
 TROMBONE,Ottone a coulisse dal suono possente
@@ -1336,8 +1336,8 @@ TROMBONE,Strumento a fiato con coulisse
 TROMBONI,Ottoni dalla coulisse lunga
 TROMBOSI,Formazione di un coagulo in un vaso
 TRONCO,Il fusto che regge i rami dell'albero
-TRONCO,"In una sua accezione, «busto»"
-TRONCO,Vale anche «torace»
+TRONCO,Parte del corpo umano compresa tra il collo e il bacino
+TRONCO,Può includere diaframma tra i suoi elementi
 TRONFIO,Gonfio di vanità
 TRONO,Il seggio su cui siede il re
 TRONO,Sedia che vale un regno
@@ -1349,32 +1349,32 @@ TROTA,Pesce da torrente e lenza
 TROTTO,Andatura intermedia del cavallo
 TROTTOLA,Giocattolo che gira su una punta
 TROTTOLA,Gira su se stessa finché non cade
-TROUPE,Tra i suoi significati: «compagnia»
+TROUPE,Riunisce anche cast
 TROVA,Chi cerca...: dice il proverbio
 TROVA,Scopre cercando
 TROVARE,Scoprire cercando
-TROVARE,"In una sua accezione, «pensare»"
-TROVARE,Può significare «ottenere»
-TROVARSI,Tra i suoi significati: «rimanere»
-TROVARSI,Un possibile significato è «riuscire»
+TROVARE,Azione riconducibile al significato di concludere
+TROVARE,Completa la frase: «… il favore del pubblico»
+TROVARSI,Può rientrare nell’idea di rimanere
+TROVARSI,Si avvicina all’azione di riuscire
 TROVATO,Scoperto cercando
 TROVO,Scopro cercando
 TROY,Il nome inglese della città di Ettore
 TRUCCO,"Il maquillage, o l'inganno: il...c'è ma non si vede"
-TRUCCO,Può significare «inganno»
-TRUCCO,Tra i suoi significati: «artificio»
-TRUCE,Può esserlo un uomo feroce nell'aspetto
-TRUCI,Possono esserlo uomini feroci nell'aspetto
+TRUCCO,Un tipo particolare di trovata
+TRUCCO,Una variante di trovata
+TRUCE,Feroce nell'aspetto
+TRUCI,Feroci nell'aspetto
 TRUCIOLO,Ricciolo di legno caduto dalla pialla
 TRUDI,La marca italiana di peluche
 TRUFFA,Inganno con tornaconto
 TRUFFA,"L'imbroglio, la fregatura ai danni di qualcuno"
-TRUFFA,Vale anche «inganno»
-TRUFFATORE,Vale anche «impostore»
+TRUFFA,Una variante di frode
+TRUFFATORE,In certi usi corrisponde a impostore
 TRUFFAUT,Il regista francese dei Quattrocento colpi
 TRUMEAU,Mobile-scrittoio con ribalta
 TRUPPA,Il reparto di soldati
-TRUST,"In una sua accezione, «cartello»"
+TRUST,Una forma specifica di consorzio
 TS,Iniziali della cantante Swift
 TS,Sigla automobilistica di Trieste
 TSUNAMI,L'onda anomala provocata dai terremoti
@@ -1384,7 +1384,7 @@ TUA,Il possessivo femminile: la...penna
 TUAREG,Nomadi del Sahara dal velo blu
 TUBA,Cappello alto o basso strumento
 TUBA,Il cappello a cilindro
-TUBA,Vale anche «tubo»
+TUBA,Grande strumento a fiato dal suono grave
 TUBAI,Passato remoto: Fare versi da colomba
 TUBARE,Il verso del colombo
 TUBATO,Participio: Fare versi da colomba
@@ -1393,13 +1393,13 @@ TUBETTO,Piccolo tubo da dentifricio o colore
 TUBO,"Cilindro che porta acqua, gas o suoni"
 TUBO,Il condotto cilindrico dell'acqua
 TUBO,Non capire un...: non capire niente
-TUBO,Un possibile significato è «tromba»
+TUBO,Nel lessico si avvicina a tromba
 TUCANO,Costellazione australe dal nome d'uccello
 TUCANO,Uccello tropicale dal becco enorme
 TUFFI,Disciplina del salto dal trampolino
 TUFFO,Il salto a capofitto nella piscina
 TUFFO,Un...nel passato: il ricordo improvviso
-TUFFO,"In una sua accezione, «discesa»"
+TUFFO,Una variante di nuoto
 TUFO,La tenera roccia di origine vulcanica
 TUFO,Pietra leggera nata dal fuoco
 TUGURIO,La misera stamberga
@@ -1408,12 +1408,12 @@ TULIPANO,Fiore a coppa caro ai giardini olandesi
 TULIPANO,Fiore simbolo dell'Olanda
 TULLE,Velo leggerissimo da spose e teatri
 TUMORE,Crescita patologica da diagnosticare
-TUMORE,Tra i suoi significati: «cancro»
-TUMORE,Vale anche «carcinoma»
+TUMORE,Può assumere il significato di cancro
+TUMORE,Nel lessico si avvicina a carcinoma
 TUMULO,Il cumulo di terra sopra una tomba
 TUMULO,Rialzo di terra sopra una sepoltura
-TUMULTO,Un possibile significato è «disordine»
-TUMULTO,Vale anche «agitazione»
+TUMULTO,In certi usi corrisponde a disordine
+TUMULTO,Una nozione collegata a agitazione
 TUMULTUOSA,Agitata e confusa
 TUMULTUOSE,Agitate e confuse
 TUMULTUOSI,Agitati e confusi
@@ -1429,7 +1429,7 @@ TUNISIA,Paese nordafricano tra Mediterraneo e Sahara
 TUNNEL,Galleria sotterranea
 TUNNEL,"Nel calcio, la palla fatta passare tra le gambe"
 TUNNEL,Passaggio coperto sotto terra o montagna
-TUNNEL,"In una sua accezione, «galleria»"
+TUNNEL,Può assumere il significato di galleria
 TUO,Il possessivo: il...zaino
 TUO,Il... e il mio
 TUONO,Il fragore che segue il fulmine
@@ -1440,22 +1440,22 @@ TURANDOT,L'opera incompiuta di Puccini con Nessun dorma
 TURBA,Folla agitata
 TURBA,"Il disturbo psichico, l'alterazione mentale"
 TURBA,La folla tumultuante
-TURBA,Vale anche «disturbo»
+TURBA,Può rimandare all’idea di disturbo
 TURBAMENTO,Il profondo sconvolgimento dell'animo
-TURBAMENTO,Può significare «ansia»
-TURBAMENTO,"In una sua accezione, «preoccupazione»"
+TURBAMENTO,"Una vaga, spiacevole emozione che si prova prima di qualche (solitamente non ben definita) disgrazia"
+TURBAMENTO,Un caso particolare di emozione
 TURBANTE,Copricapo avvolto in lunghe fasce
 TURBANTE,Copricapo di stoffa avvolta
-TURBARE,Un possibile significato è «preoccupare»
-TURBARE,Vale anche «confondere»
-TURBATO,Può significare «preoccupato»
-TURBATO,Tra i suoi significati: «sconvolto»
+TURBARE,Si avvicina all’azione di preoccupare
+TURBARE,Rientra tra i modi di impressionare
+TURBATO,Detto di ciò che richiama l’idea di preoccupato
+TURBATO,"Sconvolto, secondo il contesto"
 TURBINA,Macchina mossa da fluido
 TURBINA,Motore a palette rotanti
-TURBINE,Un possibile significato è «vortice»
-TURBINE,Un possibile significato è «ciclone»
-TURBO,"In una sua accezione, «buio»"
-TURBO,Tra i suoi significati: «oscuro»
+TURBINE,In certi usi corrisponde a vortice
+TURBINE,"Ciclone, in un’accezione meno immediata"
+TURBO,Può assumere il significato di buio
+TURBO,In certi usi corrisponde a oscuro
 TURCHESE,Pietra azzurra e colore
 TURCHESIA,Pietra azzurra da gioielli
 TURCHIA,Paese tra Anatolia e una fetta d'Europa
@@ -1474,24 +1474,24 @@ TURNER,Pittore inglese di luce e tempeste
 TURNER,"Tina..., la regina del rock"
 TURNO,Il...di lavoro o di guardia
 TURNO,Quota di tempo in ordine
-TURNO,Tra i suoi significati: «giro»
+TURNO,In certi usi corrisponde a giro
 TURNOVER,Il ricambio del personale o delle merci
 TUTA,L'abito intero da lavoro o da ginnastica
 TUTANKHAMON,Il faraone bambino dalla maschera d'oro
-TUTELA,Tra i suoi significati: «salvaguardia»
-TUTELARE,"In una sua accezione, «difendere»"
-TUTELARE,Un possibile significato è «proteggere»
+TUTELA,Una variante di protezione
+TUTELARE,Azione vicina al significato di difendere
+TUTELARE,Può rappresentare un modo di difendere
 TUTOLO,Il torsolo della pannocchia
 TUTORE,"Sostegno, legale o ortopedico"
-TUTORE,Vale anche «avvocato»
-TUTORE,"In una sua accezione, «difensore»"
+TUTORE,Un tipo particolare di umano
+TUTORE,Una variante di umano
 TUTTAVIA,"Però, con tono più scritto"
-TUTTAVIA,Può significare «ancora»
-TUTTAVIA,Vale anche «comunque»
-TUTTO,"In una sua accezione, «ogni»"
-TUTTO,Un possibile significato è «insieme»
-TUTTORA,Un possibile significato è «ancora»
-TUTTORA,Tra i suoi significati: «comunque»
+TUTTAVIA,"Ancora, secondo il contesto"
+TUTTAVIA,Con valore vicino a comunque
+TUTTO,"Ogni, secondo il contesto"
+TUTTO,Ha tra le sue parti segmento
+TUTTORA,"Ancora, secondo il contesto"
+TUTTORA,"Comunque, secondo il contesto"
 TUTU,L'arcivescovo sudafricano Desmond...
 TUTU,La gonnellina svolazzante della ballerina
 TUUS,Il tuo latino riferito a un dominus
