@@ -22,10 +22,10 @@ A generator and player for **Italian crosswords**, running entirely in the brows
 Three decoupled components:
 
 1. **Clue database** — [`cruciverba_db.json`](cruciverba_db.json): pure data, kept separate from logic.
-2. **Grid generator** — [`gen_dense.js`](gen_dense.js): the grid-construction algorithm, run inside a **Web Worker** so the UI never blocks.
+2. **Grid generator** — [`gen_dense.js`](gen_dense.js): the grid-construction algorithm, run inside an adaptive pool of at most **two Web Workers** so the UI never blocks.
 3. **UI** — the HTML app: grid rendering, input, helpers, persistence.
 
-The worker loads `gen_dense.js`, which is precached by the service worker together with the database for offline PWA use.
+The main worker starts immediately. On rectangular grids from 17×11 upward, devices reporting at least four logical processors can start a second independent worker after a 350–700 ms delay; the first valid result wins and the other worker is terminated. `gen_dense.js` is precached by the service worker together with the database for offline PWA use.
 
 ---
 
@@ -60,10 +60,10 @@ Produces dense grids in the Italian style: a filled rectangular grid with **blac
 **Pipeline:**
 
 1. **Word bank** — the DB is indexed by length and by `(position, letter)`, to quickly fetch candidates for a partially filled slot.
-2. **Black-square pattern** — randomly generated with controlled density, then carved around a near-central crossing between one long across answer and one long down answer. Over-long non-seed white runs are split (`maxRun`) to keep the fill tractable; isolated white cells are removed; black squares are normalized to avoid 2×2 black blocks and black runs longer than 3 cells. Large presets enforce a 20–21% ceiling even during fallback; once a low-density pattern passes validation, it is kept fixed while the filler retries different word orderings before discarding it.
+2. **Black-square pattern** — randomly generated with controlled density, then carved around a near-central crossing between one long across answer and one long down answer. Over-long non-seed white runs are split (`maxRun`) to keep the fill tractable; isolated white cells are removed; black squares are normalized to avoid 2×2 black blocks and black runs longer than 3 cells. Large presets enforce a 20–21% ceiling even during fallback. Valid patterns are ranked in small batches using seed-domain breadth, density and short-slot penalties, so the most promising are filled first without permanently discarding the others.
 3. **Slot extraction** — all white runs ≥ 2, across and down, plus a cell → slot map.
-4. **Filling (backtracking)** — the central crossing is pre-filled first, then most-constrained-slot selection (propagation from already-filled slots + a static seed on the most-crossed ones), **forward-checking** on crossings, no repeated words. Large low-density grids may contain answers that differ by one letter; exact duplicates remain forbidden.
-5. **Fallback cascade** — if a configuration can't be completed, it retries with slightly denser starting patterns and larger search budgets before falling back to a smaller grid. On large presets every plan still has to respect the density ceiling.
+4. **Filling (backtracking)** — the central crossing is pre-filled first, then most-constrained-slot selection (propagation from already-filled slots + a static seed on the most-crossed ones), **forward-checking** on crossings, no repeated words. Candidate domains are narrowed and restored incrementally along the search path instead of being rebuilt at every node. Large low-density grids may contain answers that differ by one letter; exact duplicates remain forbidden.
+5. **Fallback cascade** — if a configuration can't be completed, it retries with different starting patterns and search budgets before falling back to a smaller grid. The 17×11 starts directly from the 10–12% profiles that most often succeed; 21×13 and 25×13 prioritize `maxRun=6`, avoiding the long `maxRun=7` dead ends found by profiling. Every plan still respects the density ceiling.
 
 During generation the worker emits throttled progress updates by phase, attempted patterns and backtracking activity. The displayed percentage is intentionally conservative because backtracking progress is not linear.
 
@@ -85,9 +85,9 @@ During generation the worker emits throttled progress updates by phase, attempte
 | 13×13 | 13×13 | 60 | 27/169 (16.0%) | 8 | 14 | ~7.31 s |
 | 11×7 | 11×7 | 29 | 11/77 (14.3%) | 7 | 8 | ~4.45 s |
 | 13×9 | 13×9 | 38 | 27/117 (23.1%) | 8 | 9 | ~0.42 s |
-| 17×11 | 17×11 | 64 | 38/187 (20.3%) | 9 | 14 | ~12.49 s |
-| 21×13 | 21×13 | 97 | 54/273 (19.8%) | 13 | 5 | ~9.92 s |
-| 25×13 | 25×13 | 109 | 65/325 (20.0%) | 12 | 8 | ~5.42 s |
+| 17×11 | 17×11 | 62 | 38/187 (20.3%) | 11 | 15 | ~1.47 s |
+| 21×13 | 21×13 | 94 | 54/273 (19.8%) | 12 | 5 | ~0.33 s |
+| 25×13 | 25×13 | 109 | 65/325 (20.0%) | 13 | 7 | ~1.95 s |
 
 ### Output structure
 

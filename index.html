@@ -370,9 +370,10 @@
   "use strict";
   (function(){
     var $ = function(id){ return document.getElementById(id); };
-    var GENERATOR_VERSION = "pattern-v4";
-    // --- generatore denso in Web Worker ---
-    var worker = new Worker("./gen_dense.js?v="+GENERATOR_VERSION);
+    var GENERATOR_VERSION = "pattern-v6";
+    // --- generatore denso: pool adattivo di Web Worker ---
+    var generationSerial = 0;
+    var generation = null;
 
     var SIZES = {
       s5:    { width:5,  height:5,  label:"5x5" },
@@ -446,16 +447,136 @@
       return dbPromise;
     }
 
+    function stopGeneration(state){
+      if(!state) return;
+      state.settled=true;
+      if(state.launchTimer){ clearTimeout(state.launchTimer); state.launchTimer=null; }
+      state.workers.forEach(function(rec){
+        try{ rec.worker.terminate(); }catch(_err){}
+      });
+      state.workers=[];
+      if(generation===state) generation=null;
+    }
+
+    function generationFailed(state){
+      if(!state || state.settled || generation!==state) return;
+      if(state.started < state.maxWorkers){
+        if(state.launchTimer){ clearTimeout(state.launchTimer); state.launchTimer=null; }
+        launchGenerator(state, state.started);
+        return;
+      }
+      if(state.completed < state.started) return;
+      stopGeneration(state);
+      $("ovTitle").textContent="Qualcosa non ha funzionato";
+      $("ovText").textContent="Non sono riuscito a comporre la griglia. Riprova.";
+      showOverlay(false);
+    }
+
+    function acceptGeneratedPuzzle(state, generated){
+      if(!state || state.settled || generation!==state) return;
+      stopGeneration(state);
+      puzzle=generated;
+      setProgress(100, "Completato", "Griglia pronta.");
+      buildState();
+      buildBoard();
+      buildClueLists();
+      hideOverlay();
+      resetTimer(); startTimer();
+      solved=false;
+      var first=puzzle.across[0] || puzzle.down[0];
+      if(first) selectWord(findWord(first.row, first.col, puzzle.across.indexOf(first)>=0?0:1), 0);
+      save();
+    }
+
+    function updateRaceProgress(state, lane, data){
+      state.progress[lane]={
+        percent:data.percent || 0,
+        phase:data.phase || "Ricerca",
+        detail:data.detail || ""
+      };
+      var leader=state.progress[0] || state.progress[lane];
+      for(var i=1;i<state.progress.length;i++){
+        if(state.progress[i] && state.progress[i].percent > leader.percent) leader=state.progress[i];
+      }
+      var detail=leader.detail;
+      if(state.started>1) detail=(detail ? detail+" " : "")+"Due ricerche in parallelo.";
+      setProgress(leader.percent, leader.phase, detail);
+    }
+
+    function launchGenerator(state, lane){
+      if(!state || state.settled || generation!==state || state.started>=state.maxWorkers) return;
+      if(lane>0 && document.hidden){ state.secondPending=true; return; }
+      state.secondPending=false;
+      var worker=new Worker("./gen_dense.js?v="+GENERATOR_VERSION);
+      var rec={ worker:worker, lane:lane, done:false };
+      state.workers.push(rec);
+      state.started++;
+      var workerOpts={};
+      Object.keys(state.opts).forEach(function(k){ workerOpts[k]=state.opts[k]; });
+      workerOpts.seed=(state.opts.seed + Math.imul(lane, -1640531527))>>>0;
+
+      worker.onmessage=function(e){
+        if(state.settled || generation!==state || rec.done) return;
+        var d=e.data;
+        if(d.type==="progress"){
+          updateRaceProgress(state, lane, d);
+          return;
+        }
+        rec.done=true;
+        state.completed++;
+        if(d.ok && d.puzzle){ acceptGeneratedPuzzle(state, d.puzzle); return; }
+        generationFailed(state);
+      };
+      worker.onerror=function(){
+        if(state.settled || generation!==state || rec.done) return;
+        rec.done=true;
+        state.completed++;
+        try{ worker.terminate(); }catch(_err){}
+        generationFailed(state);
+      };
+      worker.postMessage({ entries:state.entries, opts:workerOpts });
+    }
+
+    function startGeneration(requestId, entries, opts){
+      if(requestId!==generationSerial) return;
+      var cores=navigator.hardwareConcurrency || 2;
+      var largeRectangle=opts.width>=17 && opts.height>=11;
+      var state={
+        id:requestId,
+        entries:entries,
+        opts:opts,
+        maxWorkers:largeRectangle && cores>=4 ? 2 : 1,
+        workers:[],
+        progress:[],
+        started:0,
+        completed:0,
+        settled:false,
+        launchTimer:null,
+        secondPending:false
+      };
+      generation=state;
+      launchGenerator(state, 0);
+      if(state.maxWorkers>1){
+        var delay=opts.width>=21 ? 350 : 700;
+        state.launchTimer=setTimeout(function(){
+          state.launchTimer=null;
+          launchGenerator(state, 1);
+        }, delay);
+      }
+    }
+
     function newPuzzle(){
+      if(generation) stopGeneration(generation);
+      var requestId=++generationSerial;
       showOverlay(true);
       $("ovTitle").textContent="Genero il cruciverba…";
       $("ovText").textContent="Sto incastrando le parole. Ci vuole solo un istante.";
       setProgress(3, "Preparazione", "Preparo il dizionario e scelgo una griglia di partenza.");
       var opts = makeOptions(sizeKey);
       loadDb().then(function(entries){
-        // il lavoro pesante avviene nel worker: il thread principale resta fluido
-        worker.postMessage({ entries: entries, opts: opts });
+        startGeneration(requestId, entries, opts);
       }).catch(function(){
+        if(requestId!==generationSerial) return;
         $("ovTitle").textContent="Database non disponibile";
         $("ovText").textContent="Apri l app una volta online per salvare le voci offline.";
         showOverlay(false);
@@ -481,6 +602,7 @@
         fillBudget: small ? 26000 : (large ? (veryLarge ? 12000 : 10000) : (singleSample ? 28000 : 32000)),
         fillRetries: large ? 2 : 1,
         fillRetryJitter: 600,
+        patternBatchSize: longSide>=17 ? 24 : 1,
         allowNearDuplicates: large,
         sampleTarget: singleSample ? 1 : 3,
         minLen:2,
@@ -489,36 +611,11 @@
       };
     }
 
-    worker.onmessage = function(e){
-      var d = e.data;
-      if(d.type === "progress"){
-        setProgress(d.percent || 0, d.phase, d.detail);
-        return;
+    document.addEventListener("visibilitychange", function(){
+      if(!document.hidden && generation && generation.secondPending){
+        launchGenerator(generation, generation.started);
       }
-      if(!d.ok || !d.puzzle){
-        $("ovTitle").textContent="Qualcosa non ha funzionato";
-        $("ovText").textContent="Non sono riuscito a comporre la griglia. Riprova.";
-        showOverlay(false);
-        return;
-      }
-      puzzle = d.puzzle;
-      setProgress(100, "Completato", "Griglia pronta.");
-      buildState();
-      buildBoard();
-      buildClueLists();
-      hideOverlay();
-      resetTimer(); startTimer();
-      solved=false;
-      // seleziona la prima definizione orizzontale
-      var first = puzzle.across[0] || puzzle.down[0];
-      if(first) selectWord(findWord(first.row, first.col, puzzle.across.indexOf(first)>=0?0:1), 0);
-      save();
-    };
-    worker.onerror = function(){
-      $("ovTitle").textContent="Errore nel generatore";
-      $("ovText").textContent="Riprova a generare un nuovo cruciverba.";
-      showOverlay(false);
-    };
+    });
 
     // ---------- costruzione stato ----------
     function buildState(){
