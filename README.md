@@ -60,10 +60,10 @@ Produces dense grids in the Italian style: a filled rectangular grid with **blac
 **Pipeline:**
 
 1. **Word bank** — the DB is indexed by length and by `(position, letter)`, to quickly fetch candidates for a partially filled slot.
-2. **Black-square pattern** — randomly generated with controlled density, then carved around a near-central crossing between one long across answer and one long down answer. Over-long non-seed white runs are split (`maxRun`) to keep the fill tractable; isolated white cells are removed; black squares are normalized to avoid 2×2 black blocks and black runs longer than 3 cells; among valid candidates the generator favors grids with fewer black squares and more long answers.
+2. **Black-square pattern** — randomly generated with controlled density, then carved around a near-central crossing between one long across answer and one long down answer. Over-long non-seed white runs are split (`maxRun`) to keep the fill tractable; isolated white cells are removed; black squares are normalized to avoid 2×2 black blocks and black runs longer than 3 cells. Large presets enforce a 20–21% ceiling even during fallback; once a low-density pattern passes validation, it is kept fixed while the filler retries different word orderings before discarding it.
 3. **Slot extraction** — all white runs ≥ 2, across and down, plus a cell → slot map.
-4. **Filling (backtracking)** — the central crossing is pre-filled first, then most-constrained-slot selection (propagation from already-filled slots + a static seed on the most-crossed ones), **forward-checking** on crossings, no repeated words.
-5. **Fallback cascade** — if a configuration can't be completed, it retries with gradually more black squares before falling back to a smaller grid: a valid grid is preferred over failing.
+4. **Filling (backtracking)** — the central crossing is pre-filled first, then most-constrained-slot selection (propagation from already-filled slots + a static seed on the most-crossed ones), **forward-checking** on crossings, no repeated words. Large low-density grids may contain answers that differ by one letter; exact duplicates remain forbidden.
+5. **Fallback cascade** — if a configuration can't be completed, it retries with slightly denser starting patterns and larger search budgets before falling back to a smaller grid. On large presets every plan still has to respect the density ceiling.
 
 During generation the worker emits throttled progress updates by phase, attempted patterns and backtracking activity. The displayed percentage is intentionally conservative because backtracking progress is not linear.
 
@@ -74,7 +74,7 @@ During generation the worker emits throttled progress updates by phase, attempte
 | Square | 5×5, 7×7, 9×9, 11×11, 13×13 |
 | Landscape | 11×7, 13×9, 17×11, 21×13, 25×13 |
 
-**Smoke-test timings** (Node, current DB, fixed seeds, current UI presets, zero clueless words):
+**Smoke-test timings** (Node, current DB, fixed seeds, representative preset-plan parameters, zero clueless words):
 
 | Requested | Actual | Words | Black | Longest | 7+ words | Time |
 |---|---:|---:|---:|---:|---:|---:|
@@ -82,12 +82,12 @@ During generation the worker emits throttled progress updates by phase, attempte
 | 7×7 | 7×7 | 22 | 10/49 (20.4%) | 5 | 0 | ~0.02 s |
 | 9×9 | 9×9 | 29 | 15/81 (18.5%) | 7 | 7 | ~0.26 s |
 | 11×11 | 11×11 | 45 | 26/121 (21.5%) | 7 | 7 | ~3.75 s |
-| 13×13 | 13×13 | 55 | 39/169 (23.1%) | 8 | 13 | ~3.35 s |
+| 13×13 | 13×13 | 60 | 27/169 (16.0%) | 8 | 14 | ~7.31 s |
 | 11×7 | 11×7 | 29 | 11/77 (14.3%) | 7 | 8 | ~4.45 s |
 | 13×9 | 13×9 | 38 | 27/117 (23.1%) | 8 | 9 | ~0.42 s |
-| 17×11 | 17×11 | 70 | 42/187 (22.5%) | 9 | 9 | ~5.11 s |
-| 21×13 | 21×13 | 95 | 66/273 (24.2%) | 12 | 17 | ~14.61 s |
-| 25×13 | 25×13 | 115 | 73/325 (22.5%) | 11 | 23 | ~6.77 s |
+| 17×11 | 17×11 | 64 | 38/187 (20.3%) | 9 | 14 | ~12.49 s |
+| 21×13 | 21×13 | 97 | 54/273 (19.8%) | 13 | 5 | ~9.92 s |
+| 25×13 | 25×13 | 109 | 65/325 (20.0%) | 12 | 8 | ~5.42 s |
 
 ### Output structure
 
