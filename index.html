@@ -370,7 +370,7 @@
   "use strict";
   (function(){
     var $ = function(id){ return document.getElementById(id); };
-    var GENERATOR_VERSION = "pattern-v7";
+    var GENERATOR_VERSION = "pattern-v8";
     // --- generatore denso: pool adattivo di Web Worker ---
     var generationSerial = 0;
     var generation = null;
@@ -592,11 +592,14 @@
       var singleSample = cells >= 100;
       var large = cells >= 160;
       var veryLarge = cells >= 250;
+      var largeRectangle = s.width>=17 && s.height>=11;
+      var rectangleBlackProb = s.width>=25 ? 0.078 : (s.width>=21 ? 0.075 : 0.08);
       return {
         seed:(Date.now()>>>0),
         width:s.width,
         height:s.height,
-        blackProb: small ? 0.07 : (veryLarge ? 0.08 : (large ? 0.09 : 0.10)),
+        blackProb: largeRectangle ? rectangleBlackProb :
+          (small ? 0.07 : (veryLarge ? 0.08 : (large ? 0.09 : 0.10))),
         maxBlackRatio: veryLarge ? 0.20 : (large ? 0.21 : 1),
         maxRun: longSide <= 7 ? 5 : 7,
         patternAttempts: small ? 520 : (large ? (veryLarge ? 320 : 300) : (singleSample ? 260 : 420)),
