@@ -25,7 +25,7 @@ Three decoupled components:
 2. **Grid generator** — [`gen_dense.js`](gen_dense.js): the grid-construction algorithm, run inside an adaptive pool of at most **two Web Workers** so the UI never blocks.
 3. **UI** — the HTML app: grid rendering, input, helpers, persistence.
 
-The main worker starts immediately. On rectangular grids from 17×11 upward, devices reporting at least four logical processors can start a second independent worker after a 350–700 ms delay; the first valid result wins and the other worker is terminated. `gen_dense.js` is precached by the service worker together with the database for offline PWA use.
+The main worker starts immediately. On 13×13 grids and rectangular grids from 17×11 upward, devices reporting at least four logical processors can start a second independent worker after an adaptive delay (1.6 s for 13×13, 350–700 ms for large rectangles); the first valid result wins and the other worker is terminated. `gen_dense.js` is precached by the service worker together with the database for offline PWA use.
 
 ---
 
@@ -60,7 +60,7 @@ Produces dense grids in the Italian style: a filled rectangular grid with **blac
 **Pipeline:**
 
 1. **Word bank** — the DB is indexed by length and by `(position, letter)`, to quickly fetch candidates for a partially filled slot.
-2. **Black-square pattern** — randomly generated with controlled density, then carved around a near-central crossing between one long across answer and one long down answer. Over-long non-seed white runs are split (`maxRun`) to keep the fill tractable; isolated white cells are removed; black squares are normalized to avoid 2×2 black blocks and black runs longer than 3 cells. Large presets enforce a 20–21% ceiling even during fallback. Valid patterns are ranked in small batches using seed-domain breadth, density and short-slot penalties, so the most promising are filled first without permanently discarding the others.
+2. **Black-square pattern** — randomly generated with controlled density, then carved around a near-central crossing between one long across answer and one long down answer. Over-long non-seed white runs are split (`maxRun`) to keep the fill tractable; isolated white cells are removed; black squares are normalized to avoid 2×2 black blocks and black runs longer than 3 cells. Large presets enforce a 20–21% ceiling even during fallback. Valid patterns are ranked using seed-domain breadth, density and short-slot penalties: batches contain 12 patterns on 13×13 and 24 on large rectangles, so the most promising are filled first without permanently discarding the others.
 3. **Slot extraction** — all white runs ≥ 2, across and down, plus a cell → slot map.
 4. **Filling (backtracking)** — the central crossing is pre-filled first, then most-constrained-slot selection (propagation from already-filled slots + a static seed on the most-crossed ones), **forward-checking** on crossings, no repeated words. Candidate domains are narrowed and restored incrementally along the search path instead of being rebuilt at every node. Large low-density grids may contain answers that differ by one letter; exact duplicates remain forbidden.
 5. **Fallback cascade** — if a configuration can't be completed, it retries with different starting patterns and search budgets before falling back to a smaller grid. The 17×11 starts directly from the 10–12% profiles that most often succeed; 21×13 and 25×13 prioritize `maxRun=6`, avoiding the long `maxRun=7` dead ends found by profiling. Every plan still respects the density ceiling.

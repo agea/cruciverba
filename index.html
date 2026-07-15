@@ -370,7 +370,7 @@
   "use strict";
   (function(){
     var $ = function(id){ return document.getElementById(id); };
-    var GENERATOR_VERSION = "pattern-v6";
+    var GENERATOR_VERSION = "pattern-v7";
     // --- generatore denso: pool adattivo di Web Worker ---
     var generationSerial = 0;
     var generation = null;
@@ -541,11 +541,12 @@
       if(requestId!==generationSerial) return;
       var cores=navigator.hardwareConcurrency || 2;
       var largeRectangle=opts.width>=17 && opts.height>=11;
+      var slowSquare=opts.width===13 && opts.height===13;
       var state={
         id:requestId,
         entries:entries,
         opts:opts,
-        maxWorkers:largeRectangle && cores>=4 ? 2 : 1,
+        maxWorkers:(largeRectangle || slowSquare) && cores>=4 ? 2 : 1,
         workers:[],
         progress:[],
         started:0,
@@ -557,7 +558,7 @@
       generation=state;
       launchGenerator(state, 0);
       if(state.maxWorkers>1){
-        var delay=opts.width>=21 ? 350 : 700;
+        var delay=slowSquare ? 1600 : (opts.width>=21 ? 350 : 700);
         state.launchTimer=setTimeout(function(){
           state.launchTimer=null;
           launchGenerator(state, 1);
@@ -602,7 +603,7 @@
         fillBudget: small ? 26000 : (large ? (veryLarge ? 12000 : 10000) : (singleSample ? 28000 : 32000)),
         fillRetries: large ? 2 : 1,
         fillRetryJitter: 600,
-        patternBatchSize: longSide>=17 ? 24 : 1,
+        patternBatchSize: longSide>=17 ? 24 : (s.width===13 && s.height===13 ? 12 : 1),
         allowNearDuplicates: large,
         sampleTarget: singleSample ? 1 : 3,
         minLen:2,

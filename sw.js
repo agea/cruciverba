@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-3.0-only
-const CACHE_VERSION = "cruciverba-v16";
+const CACHE_VERSION = "cruciverba-v17";
 const APP_SHELL = [
   "./",
   "./index.html",

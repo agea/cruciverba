@@ -1176,8 +1176,9 @@ function generateDenseCrossword(rawEntries, opts) {
   // cascata di configurazioni: dalla richiesta a fallback via via piu facili
   var largeGrid = area >= 160;
   var largeRectangle = W >= 17 && H >= 11;
+  var slowSquare = W === 13 && H === 13;
   var veryLargeRectangle = largeRectangle && area >= 250;
-  if (patternBatchSize < 1) patternBatchSize = largeRectangle ? 24 : 1;
+  if (patternBatchSize < 1) patternBatchSize = largeRectangle ? 24 : (slowSquare ? 12 : 1);
   var densityStep = largeGrid ? 0.01 : 0.015;
   var easierMaxRun = largeGrid ? Math.max(5, maxRun - 1) : maxRun;
   var lateBudgetBoost = largeGrid ? 6000 : 16000;
