@@ -8,8 +8,8 @@ LA,Targa automobilistica della provincia di Latina
 LABARO,Insegna militare o processionale
 LABBRA,Le sigilla il bacio
 LABBRO,"Il bordo carnoso della bocca, o della ferita"
-LABBRO,Un tipo particolare di spigolo
-LABBRO,Una variante di spigolo
+LABBRO,Bordo sporgente di un recipiente o di un'apertura
+LABBRO,Margine rialzato attorno a una ferita
 LABILE,La memoria...di chi dimentica in fretta
 LABILE,Che svanisce presto
 LABILI,Che svaniscono presto
@@ -17,17 +17,17 @@ LABIRINTO,Il...del Minotauro a Creta
 LABIRINTO,Intrico di vie da cui uscire
 LABIRINTO,Intrico in cui è facile perdersi
 LABIRINTO,Percorso costruito per far perdere la via
-LABORATORIO,Una forma specifica di posto di lavoro
-LABORATORIO,Si può classificare come posto di lavoro
+LABORATORIO,Ambiente attrezzato per esperimenti e analisi
+LABORATORIO,"Officina in cui si prova, si misura e si ricerca"
 LABORIOSA,Dedita al lavoro
 LABORIOSE,Dedite al lavoro
 LABORIOSI,Dediti al lavoro
 LABORIOSO,Dedito al lavoro
-LABRADOR,Il cane da riporto giallo o nero
+LABRADOR,Cane da riporto originario del Canada
 LACCA,Quella che fissa l'acconciatura
 LACCA,Rende lucidi capelli o oggetti orientali
 LACCA,Vernice lucida orientale
-LACCA,Nel lessico si avvicina a smalto
+LACCA,Può fissare i capelli o rendere lucida una superficie
 LACCI,Stringono scarpe e pacchi
 LACCIO,"Il cappio, la trappola insidiosa"
 LACCIO,Il legaccio della scarpa
@@ -35,11 +35,11 @@ LACCIO,Stringa o vincolo
 LACCIO,Stringe scarpe e trappole
 LACERA,Strappata e logora
 LACERA,Strappata e a brandelli
-LACERAI,Passato remoto: Strappare
+LACERAI,"Ridussi a brandelli, al passato"
 LACERE,Strappate e logore
 LACERI,Strappati e logori
 LACERO,Strappato e logoro
-LACERTA,La Lucertola fra Cigno e Andromeda
+LACERTA,Costellazione boreale nota come Lucertola
 LACERTO,Brano superstite o muscolo da anatomia
 LACONIA,La regione di Sparta
 LACONICA,Di poche parole
@@ -57,10 +57,10 @@ LADRO,Al...!: il grido di chi è stato derubato
 LADRO,Prende ciò che non gli spetta
 LADYOSCAR,La nobile in divisa dei cartoni della rivoluzione francese
 LAERTE,Il padre di Ulisse
-LAGHETTO,Appartiene alla categoria di lago
+LAGHETTO,Piccolo specchio d'acqua tra rive vicine
 LAGNA,Lamento che si allunga
 LAGNA,Persona fastidiosa e importuna
-LAGNA,Si può classificare come antipatico
+LAGNA,Tipo noioso che non smette di lamentarsi
 LAGNANZA,Il lamento querulo
 LAGO,Acqua ferma raccolta tra le rive
 LAGO,La distesa d'acqua chiusa tra le rive
@@ -71,38 +71,38 @@ LAGUNA,Acqua bassa tra terra e mare
 LAGUNA,Lo specchio d'acqua salmastra di Venezia
 LAGUNA,Specchio d'acqua separato dal mare
 LAHORE,Città storica del Pakistan
-LAICO,Nel lessico si avvicina a profano
+LAICO,Estraneo al clero e agli ordini religiosi
 LAIO,Il padre di Edipo
 LAKSHMI,La dea indù della fortuna
 LALIBELA,Città etiope delle chiese scavate nella roccia
 LAMA,Il maestro spirituale tibetano
 LAMA,Il mammifero che sputa delle Ande
 LAMA,Parte tagliente del coltello
-LAMA,Taglia coltelli e abita altipiani andini
-LAMA,Taglia nel coltello o vive sulle Ande
+LAMA,Ha un filo tagliente oppure vive sugli altipiani andini
+LAMA,"Può essere d'acciaio, di rasoio o delle Ande"
 LAMBDA,Greca da lunghezze d'onda
 LAMBICCATA,Troppo ricercata
 LAMBICCATE,Troppo ricercate
 LAMBICCATI,Troppo ricercati
 LAMBICCATO,Troppo ricercato per essere naturale
-LAMBORGHINI,Il Ferruccio delle auto sportive
+LAMBORGHINI,Ferruccio fondò la casa automobilistica del Toro
 LAMBRECCHINO,Drappo ornamentale dello stemma
 LAMBRETTA,Il celebre scooter italiano rivale della Vespa
 LAMBRUSCO,Il vino rosso frizzante emiliano
-LAMENTARE,Azione vicina al significato di piangere
-LAMENTELA,Si può classificare come obiezione
-LAMENTO,Una nozione collegata a corrotto
-LAMENTO,Una variante di obiezione
-LAMIERA,Una nozione collegata a latta
-LAMINA,Si può classificare come lamiera
+LAMENTARE,Esprimere dolore o disappunto
+LAMENTELA,Protesta espressa a parole
+LAMENTO,Pianto o protesta ripetuta
+LAMENTO,Voce di dolore che può diventare protesta
+LAMIERA,Foglio metallico sottile usato in rivestimenti e carrozzerie
+LAMINA,Sottile piastra di metallo o altro materiale
 LAMPADA,Dà luce sul tavolo
 LAMPADA,Fa luce sul comodino
 LAMPADA,"La...di Aladino, che evoca il genio"
 LAMPADARIO,Apparecchio luminoso a soffitto
 LAMPADARIO,Pende dal soffitto e illumina la stanza
-LAMPADINA,Una nozione collegata a bulbo
-LAMPANTE,"Provato, secondo il contesto"
-LAMPANTE,"Scontato, secondo il contesto"
+LAMPADINA,Si avvita nel portalampada
+LAMPANTE,Evidente al punto da non lasciare dubbi
+LAMPANTE,Chiaro come una prova sotto gli occhi
 LAMPEDUSA,Isola italiana tra Sicilia e Africa
 LAMPIONCINO,Piccola luce da esterno
 LAMPIONE,Albero di luce stradale
@@ -110,7 +110,7 @@ LAMPIONE,Illumina la strada di notte
 LAMPO,La cerniera che si apre e chiude
 LAMPO,Luce brevissima prima del tuono
 LAMPO,Rapidissimo: in un...
-LAMPO,Appartiene alla categoria di lampada
+LAMPO,"Cerniera dei pantaloni, nel parlare comune"
 LAMPONE,Frutto rosso da rovo elegante
 LAMPONE,Frutto rosso del sottobosco
 LAMPONE,"Frutto rosso di rovo, tenero e profumato"
@@ -126,18 +126,18 @@ LANCIA,Arma lunga o marchio d'auto italiano
 LANCIA,L'arma in asta dei cavalieri
 LANCIA,La casa automobilistica torinese
 LANCIAFIAMME,Arma che spara fuoco
-LANCIARE,Può rientrare nell’idea di mandare
-LANCIARE,Un modo particolare di buttare
-LANCIARSI,Una forma specifica del muoversi
-LANCIATO,Qualità che si avvicina a arrivato
-LANCIATO,Qualità che si avvicina a famoso
+LANCIARE,Scagliare lontano o mettere in circolazione
+LANCIARE,Gettare con forza verso un bersaglio
+LANCIARSI,Buttarsi con slancio in un'impresa
+LANCIATO,Mandato con forza o slancio
+LANCIATO,Reso noto e avviato al successo
 LANCIERE,Soldato a cavallo armato d'asta
 LANCILLOTTO,Il cavaliere innamorato di Ginevra
 LANCINANTE,Acutamente doloroso
 LANCINANTI,Acutamente dolorosi
 LANCIO,Quello del peso o del disco nell'atletica
-LANCIO,Nel lessico si avvicina a tiro
-LANCIO,Un esempio riconducibile a inizio
+LANCIO,Gesto atletico che manda un oggetto lontano
+LANCIO,Può inaugurare un prodotto o una campagna
 LANDA,La distesa brulla e desolata
 LANDAU,Elegante carrozza scoperta
 LANOSO,Coperto di lana o di peli morbidi
@@ -163,9 +163,9 @@ LAPIDE,Pietra con iscrizione commemorativa
 LAPIDE,Pietra con parole per ricordare
 LAPIDI,Portano nomi e date nel silenzio
 LAPILLI,Piccole pietre sputate dal vulcano
-LAPIS,Matita in parola scolastica antica
+LAPIS,"Matita di grafite, in uso scolastico tradizionale"
 LAPISLAZZULI,Pietra blu intenso con venature dorate
-LAPLACE,Matematico e astronomo francese
+LAPLACE,"Pierre-Simon, studioso di probabilità e meccanica celeste"
 LAPPONIA,La regione artica di Babbo Natale
 LAPPONIA,Terra artica di renne e aurore
 LARA,L'amata del Dottor Zivago
@@ -173,19 +173,19 @@ LARA,L'archeologa Croft dei videogiochi
 LARARIO,Il sacrario domestico dei Romani
 LARDO,Grasso conservato in conca
 LARDO,Quello pregiato di Colonnata
-LARDO,In certi usi corrisponde a unto
+LARDO,Grasso di maiale usato in cucina
 LARGA,Ampia
 LARGA,Stare alla...: tenersi a distanza
-LARGAMENTE,In un uso avverbiale legato a generosamente
+LARGAMENTE,"Con abbondanza, senza tirarsi indietro"
 LARGHE,Ampie
-LARGHEZZA,Una nozione collegata a massa
-LARGHEZZA,In certi usi corrisponde a monte
+LARGHEZZA,Misura da un fianco all'altro
+LARGHEZZA,Ampiezza di vedute o di un passaggio
 LARGHI,Ampi
 LARGO,"Ampio, lento in musica"
 LARGO,Fare...: lasciar passare la gente
 LARGO,Il movimento musicale molto lento
-LARGO,"Grande, secondo il contesto"
-LARI,Dei domestici della Roma antica
+LARGO,"Spazioso, detto di un ambiente o di un abito"
+LARI,Divinità domestiche della Roma antica
 LARI,La valuta della Georgia
 LARICE,Conifera che perde gli aghi d'inverno
 LARINGE,Strumento della voce nascosto in gola
@@ -198,15 +198,15 @@ LARVA,"Lo spettro, il fantasma esangue"
 LASAGNA,Strati di pasta che fanno domenica
 LASAGNE,Pasta al forno a strati
 LASCA,Pesce d'acqua dolce dei nostri fiumi
-LASCIAI,Passato remoto: Non trattenere
-LASCIARE,Azione vicina al significato di partire
+LASCIAI,"Me ne andai o permisi, al passato"
+LASCIARE,Andarsene oppure permettere che qualcosa resti
 LASCIARE,Dare il permesso
-LASCIARSI,Un modo non sempre letterale di separarsi
-LASCIARSI,Può rientrare nell’idea di dividersi
-LASCIO,Si può classificare come regalo
-LASCIO,Un esempio riconducibile a regalo
-LASCITO,Appartiene alla categoria di regalo
-LASCITO,Rientra nel campo di regalo
+LASCIARSI,Separarsi dopo una relazione
+LASCIARSI,"Dividersi, talvolta senza rancore"
+LASCIO,Ciò che abbandono oppure dono testamentario
+LASCIO,Ciò che consegno ad altri rinunciandovi
+LASCITO,Bene trasmesso per testamento
+LASCITO,Eredità destinata a una persona o a un ente
 LASER,Luce disciplinata in un raggio
 LASSA,Stanca e fiacca
 LASSE,Stanche e fiacche
@@ -215,26 +215,26 @@ LASSO,Corda con nodo scorrevole da cowboy
 LASSO,Il periodo: un... di tempo
 LASSO,Stanco e fiacco
 LASTRA,La piastra sottile di pietra o metallo
-LASTRA,È composto anche da vetro
-LASTRA,Si può classificare come blocco
+LASTRA,"Può essere fotografica, radiografica o di marmo"
+LASTRA,"Piastra rigida e piatta di vetro, pietra o metallo"
 LATERALE,Giocatore schierato sulla fascia
 LATERALE,Posto ai lati rispetto al centro
 LATIFONDO,Proprietà agricola enorme
 LATINA,Città nata dalle bonifiche pontine
 LATINI,Popolo del Lazio antico
-LATINO,L'amante...dal fascino mediterraneo
+LATINO,"Dell'America centro-meridionale, nel linguaggio comune"
 LATINO,La lingua dell'antica Roma
-LATINO,Detto di ciò che richiama l’idea di romanzo
+LATINO,Dell'antica Roma o dei popoli di lingua neolatina
 LATITA,Manca mentre dovrebbe esserci
 LATITANTE,Assente per sfuggire alla legge
-LATITUDINE,"Parallelo, in un’accezione meno immediata"
+LATITUDINE,Distanza angolare dall'equatore
 LATO,Ciascuna delle facce di un poligono
 LATO,Il...positivo: l'aspetto buono di una cosa
 LATO,Non è il centro del poligono
 LATO,"Punto di vista, prospettiva"
 LATRIA,Culto dovuto solo al divino
-LATTA,Un tipo particolare di contenitore
-LATTA,Può assumere il significato di lamiera
+LATTA,Recipiente metallico per conserve o vernici
+LATTA,Foglio di ferro rivestito di stagno
 LATTASI,Enzima che scinde il lattosio
 LATTE,Avere il...alla bocca: essere immaturi
 LATTE,"Liquido bianco, non solo di mucca"
@@ -243,10 +243,10 @@ LATTE,Quello detergente per il viso
 LATTERINO,Piccolo pesce da friggere
 LATTICE,Succo bianco vegetale o struttura matematica
 LATTIERA,Recipiente da tavola per il latte
-LATTINA,Un caso particolare di contenitore
+LATTINA,Contenitore metallico per bibite
 LATTONIERE,Lavora le lamiere e le grondaie
 LATTUGA,Insalata dalle foglie tenere
-LATTUGA,Si può classificare come pianta erbacea
+LATTUGA,Insalata a cespo dalle foglie tenere
 LAUDA,Il canto religioso del Medioevo
 LAUDA,Il pilota austriaco sopravvissuto al Nurburgring
 LAUDANO,Oppiaceo da farmacie d'altri tempi
@@ -255,7 +255,7 @@ LAURA,La donna cantata da Petrarca
 LAURENCE,Il nome dell'attore Olivier
 LAURO,"Achille..., il cantante di Rolls Royce"
 LAURO,Alloro da poeti e arrosti
-LAURO,Può rimandare all’idea di alloro
+LAURO,"L'alloro dei poeti, anche come nome proprio"
 LAUTARO,"Martínez, attaccante argentino campione del mondo 2022"
 LAUTO,"Ricco, detto spesso del pasto"
 LAVA,"Lei deterge, pulisce"
@@ -268,15 +268,15 @@ LAVALLETTA,Capitale maltese con articolo incorporato
 LAVANDA,"La...gastrica, lo svuotamento dello stomaco"
 LAVANDA,Pianta profumata viola
 LAVANDA,Profuma cassetti e campi viola
-LAVANDA,Un esempio riconducibile a opera
+LAVANDA,Erba viola che profuma cassetti e saponi
 LAVANDERIA,Dove si lava la biancheria
-LAVANDINO,Può assumere il significato di lavello
+LAVANDINO,Vasca con rubinetto usata in cucina o in bagno
 LAVAPIATTI,Elettrodomestico che risparmia schiuma e discussioni
-LAVAPIATTI,Una nozione collegata a lavastoviglie
+LAVAPIATTI,Macchina che pulisce piatti e posate
 LAVARE,Togliere sporco con acqua
 LAVASTOVIGLIE,Lava i piatti al posto nostro
-LAVATA,Un tipo particolare di opera
-LAVATO,Tolto sporco con acqua
+LAVATA,Pulizia energica fatta con molta acqua
+LAVATO,Pulito con acqua
 LAVATOIO,Vasca pubblica di altri tempi
 LAVATRICE,L'elettrodomestico per il bucato
 LAVEZZI,"Ezequiel, attaccante argentino detto il Pocho"
@@ -286,17 +286,17 @@ LAVOISIER,Padre della chimica moderna
 LAVORA,Impiega fatica e mestiere
 LAVORAI,Impiegai fatica e mestiere
 LAVORARE,Impiegare fatica e mestiere
-LAVORARE,Una forma specifica del prepararsi
-LAVORARE,Una particolare maniera di sbattere
-LAVORATO,Impiegato fatica e mestiere
+LAVORARE,Esercitare un mestiere o trasformare un materiale
+LAVORARE,Impastare o battere a lungo un composto
+LAVORATO,Trasformato con cura o sottoposto a finitura
 LAVORATO,Qualità che si avvicina a scolpito
-LAVORATO,Con un significato vicino a intagliato
+LAVORATO,"Rifinito con utensili, spesso con motivi ornamentali"
 LAVORATORE,Persona che ha un lavoro
-LAVORATORE,Può assumere il significato di proletario
+LAVORATORE,Chi presta la propria attività in cambio di salario
 LAVORATRICE,Persona che ha un lavoro
-LAVORAZIONE,Un caso particolare di produzione
-LAVORAZIONE,Nel lessico si avvicina a fabbricazione
-LAVORO,Impiego fatica e mestiere
+LAVORAZIONE,Fase in cui una materia viene trasformata
+LAVORAZIONE,Processo di fabbricazione o rifinitura
+LAVORO,Attività che richiede impegno e competenza
 LAVORO,Un... di precisione e di pazienza
 LAVORO,Completa la frase: «milioni di persone senza un …»
 LAWRENCE,"...d'Arabia, il film con Peter O'Toole"
@@ -307,21 +307,21 @@ LAZZARO,L'uomo risuscitato da Gesù
 LC,Iniziali dello scrittore Carroll
 LC,Sigla automobilistica di Lecco
 LE,Sigla automobilistica di Lecce
-LEADER,Una persona che guida o inspira altri
-LEADER,Una manifestazione di umano
+LEADER,Persona capace di guidare e ispirare gli altri
+LEADER,Figura di riferimento per un gruppo
 LEADERSHIP,La capacità di guidare un gruppo
-LEADERSHIP,Appartiene alla categoria di ascendente
-LEADERSHIP,Rientra nel campo di ascendente
+LEADERSHIP,Autorevolezza che orienta una squadra
+LEADERSHIP,Capacità di ottenere fiducia e seguito
 LEAF,L'auto elettrica della Nissan
 LEAF,"La foglia, in inglese"
 LEALE,"Fedele, che non tradisce"
-LEALE,Con un significato vicino a fedele
-LEALTA,Una variante di responsabilità
-LEALTA,Rientra nel campo di responsabilità
-LEAO,"Rafael, attaccante portoghese"
+LEALE,Che mantiene la parola data
+LEALTA,Fedeltà dimostrata nei fatti
+LEALTA,Virtù di chi non tradisce
+LEAO,"Rafael, attaccante portoghese della nazionale"
 LEASING,La locazione finanziaria con riscatto
-LEASING,Una variante di contratto
-LEASING,Un caso particolare di contratto
+LEASING,Uso di un bene dietro canoni periodici
+LEASING,Finanziamento che può concludersi con il riscatto
 LEBRON,Il cestista James fuoriclasse NBA
 LECCARDA,Teglia bassa del forno
 LECCE,Città barocca del Salento
@@ -334,66 +334,66 @@ LED,I... Zeppelin del rock
 LED,Il diodo che emette luce a basso consumo
 LEDA,Fu amata da Zeus in forma di cigno
 LEDECKY,La nuotatrice americana regina del fondo
-LEDERE,Una forma specifica del modificare
-LEDERE,Rientra tra i modi di modificare
+LEDERE,Danneggiare un diritto o un interesse
+LEDERE,Recare offesa fisica o giuridica
 LEE,Il nome del maestro Bruce delle arti marziali
 LEE,Il nome dell'attore Marvin
 LEE,"Stan..., il papà dei supereroi Marvel"
 LEGA,Il metallo ottenuto fondendone diversi
 LEGA,"Lui annoda, unisce"
 LEGA,"Unisce metalli, squadre o Stati"
-LEGA,Si può classificare come unione
-LEGALE,Una forma specifica di professionista
-LEGALE,Con un significato vicino a giuridico
-LEGALITA,Una nozione collegata a legittimità
-LEGALIZZARE,Azione riconducibile al significato di permettere
-LEGALIZZAZIONE,Un tipo particolare di convalida
-LEGALIZZAZIONE,Un caso particolare di convalida
+LEGA,Unione di metalli o di soggetti organizzati
+LEGALE,Avvocato o consulente del diritto
+LEGALE,Conforme alle norme vigenti
+LEGALITA,Rispetto delle norme e delle regole
+LEGALIZZARE,Rendere conforme alla legge
+LEGALIZZAZIONE,Atto che rende valido ciò che prima non lo era
+LEGALIZZAZIONE,Procedura che attribuisce valore giuridico
 LEGAME,Il rapporto affettivo tra persone
 LEGAME,Il vincolo chimico tra gli atomi
 LEGAME,Vincolo che tiene insieme
-LEGAME,Rientra nel campo di connessione
+LEGAME,"Vincolo affettivo, chimico o materiale"
 LEGARE,"Andare d'accordo, fare comunella"
 LEGARE,Unire con un laccio
-LEGARE,Può rappresentare un modo di pensare
+LEGARE,Mettere in relazione idee o persone
 LEGATO,Il rappresentante diplomatico del papa
 LEGATO,L'eredità lasciata per testamento
 LEGATO,Suonato senza stacchi tra le note
-LEGATO,Rientra nel campo di regalo
+LEGATO,Bene assegnato per testamento
 LEGER,Artista cubista delle forme meccaniche
 LEGER,Pittore cubista delle forme meccaniche
 LEGGE,Comanda anche senza voce
 LEGGE,Lui scorre le pagine del libro
-LEGGE,Insieme di leggi
+LEGGE,Norma stabilita dall'autorità
 LEGGENDA,Racconto antico tra storia e fantasia
-LEGGENDA,Racconto antico tra storia e meraviglia
+LEGGENDA,Vicenda tramandata che mescola realtà e meraviglia
 LEGGENDA,Racconto tramandato o spiegazione di una carta
-LEGGENDA,Un caso particolare di materiale scritto
-LEGGEREZZA,Una variante di variabilità
-LEGGEREZZA,Un caso particolare di variabilità
-LEGGERMENTE,Con valore vicino a piuttosto
-LEGGERMENTE,Con valore vicino a alquanto
-LEGGERO,Con un significato vicino a minimo
-LEGGERO,Con un significato vicino a lieve
+LEGGENDA,Spiega simboli e colori di una carta geografica
+LEGGEREZZA,"Assenza di peso, anche nel comportamento"
+LEGGEREZZA,Qualità di ciò che non grava
+LEGGERMENTE,"Di poco, senza forte intensità"
+LEGGERMENTE,"Appena, con misura"
+LEGGERO,Di peso ridotto o scarsa importanza
+LEGGERO,"Non impegnativo, detto di un pasto o di un compito"
 LEGGIADRO,Grazia leggera non sempre frivola
 LEGGIO,Il supporto inclinato che regge lo spartito
 LEGGIO,Sostiene spartiti o libri aperti
 LEGGIO,Supporto da lettori in piedi
 LEGHERA,Unirà con un laccio
-LEGIONE,Rientra nel campo di piena
-LEGIONE,Può assumere il significato di schiera
+LEGIONE,"Schiera numerosissima, nell'uso figurato"
+LEGIONE,Unità militare dell'antica Roma
 LEGISLAZIONE,Insieme di leggi
-LEGISLAZIONE,Ha tra le sue parti legge
-LEGITTIMARE,Azione riconducibile al significato di difendere
-LEGITTIMARE,Può essere una maniera di permettere
-LEGITTIMITA,Una nozione collegata a legalità
+LEGISLAZIONE,Complesso delle norme in vigore
+LEGITTIMARE,Riconoscere come fondato un diritto
+LEGITTIMARE,Dare validità o giustificazione
+LEGITTIMITA,Conformità a un titolo o a una norma
 LEGNAIA,Riparo dove si tengono i ceppi
 LEGNAME,Il legno da costruzione
 LEGNAME,"Materiale da travi, mobili e camini"
 LEGNO,Materia viva diventata tavola
 LEGNO,Toccare...: per scaramanzia
 LEGNO,Toccarlo dovrebbe portare fortuna
-LEGNO,Un tipo particolare di bastone da passeggio
+LEGNO,Materiale degli alberi usato per mobili e combustibile
 LEGO,I mattoncini colorati da costruzione
 LEGO,Uno con un laccio
 LEGOLAS,L'elfo arciere della Compagnia dell'Anello
@@ -408,23 +408,23 @@ LEMANO,Il lago di Ginevra
 LEMANS,Il circuito francese della 24 ore
 LEMBO,"Il bordo, l'angolo di un tessuto"
 LEMBO,Parte marginale di stoffa o terra
-LEMBO,Un tipo particolare di artefatto
+LEMBO,Parte estrema di una stoffa o di un territorio
 LEMMA,Voce di dizionario e oggetto matematico
-LEMMA,Può rimandare all’idea di voce
-LEMMA,"Esponente, in un’accezione meno immediata"
+LEMMA,Voce registrata in un dizionario
+LEMMA,Proposizione ausiliaria usata in una dimostrazione
 LEMMING,Roditore nordico da leggenda suicida
 LEMURE,Primato del Madagascar e spirito latino
 LENA,Grande fiume della Siberia
 LENA,La voglia di fare: lavorare di buona...
-LENA,Una forma specifica di intensità
-LENNON,"Il Beatle pacifista assassinato a New York, John"
+LENA,Forza d'animo e voglia di fare
+LENNON,"John, autore di Imagine e membro dei Beatles"
 LENNY,Il nome del comico Bruce
 LENTA,Poco veloce
 LENTE,Poco veloci
 LENTE,Quella d'ingrandimento per i dettagli
 LENTE,Quelle a contatto per chi non ci vede
 LENTE,Vetro che ingrandisce o corregge
-LENTEZZA,Una manifestazione di velocità
+LENTEZZA,Scarsa rapidità nel muoversi o nel procedere
 LENTI,Poco veloci
 LENTI,Quelle a contatto per la vista
 LENTICCHIA,Legume augurale della notte di San Silvestro
@@ -446,14 +446,14 @@ LEONARDO,Il genio di Vinci
 LEONE,Felino e segno di fuoco
 LEONE,Il premio del festival di Venezia
 LEONE,Il re della savana
-LEONE,Il segno zodiacale di chi nasce ad agosto
+LEONE,Segno zodiacale di fine luglio e gran parte d'agosto
 LEONE,"Il...alato, simbolo di Venezia e di San Marco"
 LEONINO,"Da leone, ma anche sbilanciato nei patti"
 LEOPARDI,Il Giacomo di Recanati
 LEOPARDO,Felino maculato da savana e foresta
 LEOPARDO,Felino maculato e veloce
 LEOPARDO,Un...non cambia le sue macchie
-LEOPARDO,In certi usi corrisponde a lonza
+LEOPARDO,In araldica può apparire con il muso rivolto verso chi guarda
 LEPIDOTTERO,Insetto con ali squamose
 LEPRE,Animale dalle lunghe orecchie
 LEPRE,Chi fa l'andatura nelle gare di mezzofondo
@@ -465,13 +465,13 @@ LEPTONE,Particella elementare come l'elettrone
 LES,Il nome del chitarrista e inventore Paul
 LESBO,Isola greca di Saffo
 LESENA,Colonna piatta addossata al muro
-LESINAI,Passato remoto: Risparmiare troppo
-LESIONE,Una forma specifica di problema di salute
-LESIONE,Un caso particolare di problema di salute
+LESINAI,"Fui troppo parsimonioso, al passato"
+LESIONE,Danno a un tessuto o a un organo
+LESIONE,Ferita o alterazione provocata da trauma
 LESLIE,Il nome dell'attore comico Nielsen
 LESOTHO,Regno montuoso racchiuso nel Sudafrica
 LESSICO,Il patrimonio delle parole
-LESSICO,In certi usi corrisponde a dizionario
+LESSICO,Insieme delle parole di una lingua o di un settore
 LESSICO,Completa la frase: «… politico»
 LESSO,Il bollito cotto in acqua
 LESTA,Rapida nei movimenti
@@ -481,46 +481,46 @@ LESTO,Rapido con sapore antico
 LESTO,"Svelto, rapido nei movimenti"
 LESTOFANTE,Furfante con passo e mano svelti
 LETAME,Il concime naturale della stalla
-LETAME,Può assumere il significato di concime
+LETAME,Concime organico proveniente dalla stalla
 LETARGICA,Torpida e sonnolenta
 LETARGICHE,Torpide e sonnolente
 LETARGICI,Torpidi e sonnolenti
 LETARGICO,Torpido e sonnolento
 LETARGO,Sonno animale contro l'inverno
 LETARGO,Sonno stagionale di certi animali
-LETARGO,Una forma specifica di passività
+LETARGO,Stato di torpore e inattività
 LETE,Il fiume dell'oblio degli inferi
-LETIZIA,Una variante di emozione
-LETIZIA,Si può classificare come emozione
+LETIZIA,"Gioia serena, dal sapore letterario"
+LETIZIA,Allegria espressa con tono elevato
 LETTA,L'Enrico politico italiano
 LETTA,Una pagina già...: scorsa con gli occhi
 LETTERA,Si spedisce in busta
-LETTERA,Una particolare maniera di carattere
-LETTERA,Può includere indirizzo tra i suoi elementi
-LETTERALMENTE,Con valore vicino a virtualmente
-LETTERALMENTE,In un uso avverbiale legato a testualmente
-LETTERATO,Appartiene alla categoria di mente
-LETTERATO,Una forma specifica di mente
+LETTERA,Segno dell'alfabeto oppure messaggio in busta
+LETTERA,"Può avere mittente, destinatario e indirizzo"
+LETTERALMENTE,Nel senso più rigoroso delle parole
+LETTERALMENTE,"Parola per parola, senza interpretazioni"
+LETTERATO,Studioso e autore di opere culturali
+LETTERATO,Uomo di vasta cultura umanistica
 LETTERE,Viaggiano in busta con francobollo
-LETTINO,"Culla, in un’accezione meno immediata"
+LETTINO,Piccolo giaciglio per bambini o pazienti
 LETTO,"Ci si corica, ma ce l'ha anche il fiume"
-LETTO,Participio di leggere: ho...un bel romanzo
+LETTO,Già scorso con gli occhi
 LETTO,Quello del fiume in cui scorre l'acqua
-LETTO,Rientra nel campo di falda
-LETTORE,Appartiene alla categoria di committente
-LETTURA,Un tipo particolare di indirizzo
-LETTURA,Una forma specifica di discorso
-LEUCEMIA,Tumore del sangue
+LETTO,Fondo su cui scorre un fiume
+LETTORE,Chi affronta pagine per studio o piacere
+LETTURA,Interpretazione pubblica di un testo
+LETTURA,Attività che trasforma segni scritti in parole
+LEUCEMIA,Malattia neoplastica dei tessuti che producono cellule del sangue
 LEVA,Alza pesi o chiama soldati
 LEVA,"Fare...: fare forza, premere su qualcosa"
 LEVA,La classe di nascita per il servizio militare
-LEVA,Comprende anche fulcro
-LEVAI,Passato remoto: Togliere o alzare
+LEVA,"Ha braccio, fulcro e punto d'appoggio"
+LEVAI,"Tolsi da terra, al passato"
 LEVANTE,Oriente del sole e vento
-LEVANTE,Una manifestazione di punto cardinale
-LEVARE,Può essere una maniera di alzare
-LEVARE,Azione riconducibile al significato di calcolare
-LEVATO,Participio: Togliere o alzare
+LEVANTE,"Oriente, dove nasce il sole"
+LEVARE,Togliere oppure alzare da terra
+LEVARE,"Intonare un canto, in uso letterario"
+LEVATO,Tolto o innalzato
 LEVATOIO,Ponte che si alza davanti al castello
 LEVIATANO,L'opera politica di Thomas Hobbes
 LEVIATANO,Mostro marino biblico
@@ -542,7 +542,7 @@ LEZIONE,Ciò che viene assegnato agli allievi da preparare a casa
 LEZIOSO,Affettato e svenevole
 LEZZO,Il fetore nauseante
 LHASA,La città tibetana del Potala
-LI,Provincia italiana di Livorno
+LI,Pronome maschile plurale: non ... vedo
 LI,Sigla automobilistica di Livorno
 LIA,La moglie di Giacobbe sorella di Rachele
 LIANA,La rampicante della giungla cara a Tarzan
@@ -555,22 +555,22 @@ LIBELLULA,Insetto elegante sopra stagni e ruscelli
 LIBELLULE,Volano leggere sugli stagni
 LIBERA,Toglie un vincolo
 LIBERAI,Tolsi un vincolo
-LIBERALISMO,Nel lessico si avvicina a larghezza
+LIBERALISMO,Dottrina politica fondata sui diritti individuali
 LIBERARE,Togliere un vincolo
-LIBERARE,Può essere una maniera di togliere
-LIBERARE,Una particolare maniera di rilasciare
+LIBERARE,Sciogliere da un vincolo
+LIBERARE,Restituire a qualcuno la possibilità di agire
 LIBERATO,Tolto un vincolo
-LIBERAZIONE,In certi usi corrisponde a emancipazione
+LIBERAZIONE,Conquista dell'autonomia o fine di una prigionia
 LIBERIA,Stato africano fondato da ex schiavi americani
 LIBERO,Il ruolo difensivo nella pallavolo
 LIBERO,Il verso poetico senza rima
 LIBERO,Tolgo un vincolo
-LIBERO,"Facoltativo, secondo il contesto"
-LIBERTA,Un tipo particolare di indipendenza
+LIBERO,"Senza obblighi, oppure disponibile"
+LIBERTA,Condizione di chi non è sottoposto a costrizioni
 LIBIA,Paese nordafricano con capitale Tripoli
 LIBRA,La Bilancia dello zodiaco in latino
 LIBRAIO,Mercante di pagine
-LIBRAIO,Un caso particolare di negozio
+LIBRAIO,Vende volumi e consiglia letture
 LIBRERIA,Mobile o negozio di libri
 LIBRERIA,Mobile pieno di scaffali per libri
 LIBRERIA,Tiene volumi in casa o li vende
@@ -578,17 +578,17 @@ LIBRERIA,Una stanza dove sono tenuti libri
 LIBRETTO,...di risparmio: il deposito in banca
 LIBRETTO,Il testo di un'opera lirica
 LIBRETTO,Il...di circolazione del veicolo
-LIBRETTO,Una variante di libro
+LIBRETTO,Volume breve o testo destinato alla scena musicale
 LIBRO,Oggetto che si apre per entrare altrove
 LIBRO,Quello mastro della contabilità
 LIBRO,Completa la frase: «ho usato un grosso … come fermacarte»
 LICANTROPO,Uomo che si trasforma in lupo
 LICCIO,Il filo che alza l'ordito nel telaio
-LICENZA,Si può classificare come approvazione
-LICENZA,In certi usi corrisponde a passi
-LICENZIAMENTO,Rientra nel campo di fine
+LICENZA,Permesso ufficiale o titolo conclusivo di studi
+LICENZA,Libertà concessa all'artista rispetto alle regole
+LICENZIAMENTO,Cessazione del rapporto di lavoro decisa dall'azienda
 LICENZIARE,Si avvicina all’azione di allontanare
-LICENZIARE,Può rientrare nell’idea di dimettere
+LICENZIARE,Interrompere il rapporto di lavoro di un dipendente
 LICHENE,Organismo di fungo e alga
 LICHTENSTEIN,Artista pop dei fumetti ingranditi
 LICHTENSTEIN,Pittore pop dei fumetti ingranditi
@@ -597,19 +597,19 @@ LIDO,Spiaggia con cabine e ombrelloni
 LIDO,Ha tra i suoi componenti sabbia
 LIETO,Il...fine della fiaba
 LIETO,"Sereno, spesso in fine"
-LIETO,Con un significato vicino a contento
+LIETO,Gioioso e sereno
 LIEVE,Leggero
-LIEVE,"Minimo, secondo il contesto"
-LIEVE,Con un significato vicino a leggero
-LIEVEMENTE,In un uso avverbiale legato a leggermente
+LIEVE,Di poca entità
+LIEVE,Che pesa poco o causa un danno modesto
+LIEVEMENTE,Con intensità ridotta
 LIEVI,Leggeri
 LIEVITO,Fa crescere pane e impasti
 LIEVITO,Fa gonfiare pane e dolci
 LIGABUE,"Antonio..., il pittore naïf"
 LIGABUE,"Il rocker di Correggio, Luciano"
 LIGNAGGIO,Discendenza nobile o familiare
-LIGNAGGIO,Una manifestazione di genealogia
-LIGNAGGIO,Appartiene alla categoria di genealogia
+LIGNAGGIO,Serie degli antenati di una famiglia
+LIGNAGGIO,"Ascendenza, spesso nobile"
 LIGURE,Mare di Genova e del Ponente
 LIGURE,Mare di Genova e delle Cinque Terre
 LIGURI,Antico popolo dell'Italia nord-occidentale
@@ -624,8 +624,8 @@ LIMA,Attrezzo ruvido o capitale del Perù
 LIMA,Capitale andina e utensile abrasivo
 LIMA,Capitale peruviana affacciata sul Pacifico
 LIMACCIA,Fango viscido e sgradevole
-LIMAI,Passato remoto: Consumare con lima
-LIMATO,Participio: Consumare con lima
+LIMAI,Consumai con un utensile abrasivo
+LIMATO,Reso più sottile o regolare con un utensile abrasivo
 LIMBO,Il ballo caraibico sotto l'asticella
 LIMBO,Margine teologico o zona d'attesa
 LIME,"La calce, in inglese"
@@ -633,16 +633,16 @@ LIME,Piccolo agrume verde dei cocktail
 LIMINALE,Sta sulla soglia di qualcosa
 LIMITA,Pone un confine
 LIMITARE,Porre un limite
-LIMITARE,Può assumere il significato di soglia
-LIMITARE,Una forma specifica del regolare
+LIMITARE,Confine di un campo o ingresso di un luogo
+LIMITARE,Ridurre entro confini precisi
 LIMITATO,Posto un limite
-LIMITATO,Può assumere la sfumatura di ristretto
-LIMITATO,Detto di ciò che richiama l’idea di circoscritto
-LIMITAZIONE,Un esempio riconducibile a regolamento
-LIMITAZIONE,Una variante di regolamento
+LIMITATO,Disponibile in quantità ridotta
+LIMITATO,Circoscritto nello spazio o nelle possibilità
+LIMITAZIONE,Vincolo imposto da una regola o da una condizione
+LIMITAZIONE,Riduzione della libertà d'azione
 LIMITE,Linea da non oltrepassare
-LIMITE,Una nozione collegata a massimo
-LIMITE,Appartiene alla categoria di linea
+LIMITE,Valore estremo oltre il quale non si può andare
+LIMITE,Confine reale o figurato
 LIMITO,Pongo un confine
 LIMO,Consumo con un utensile abrasivo
 LIMO,Fango fine depositato dai fiumi
@@ -664,15 +664,15 @@ LINDA,Pulita e ordinata
 LINDE,Pulite e ordinate
 LINDI,Puliti e ordinati
 LINDO,Pulito e ordinato
-LINDO,Con un significato vicino a netto
+LINDO,Pulito con cura e senza macchie
 LINDSAY,Il nome dell'attrice Lohan
 LINDT,La marca svizzera di cioccolato dei maestri
 LINEA,La silhouette: mantenere la...
 LINEA,Quella telefonica
 LINEA,"Tratto, condotta o forma"
-LINEA,Si può classificare come genealogia
-LINEARE,"Coerente, secondo il contesto"
-LINEARE,Con un significato vicino a congruo
+LINEA,Discendenza familiare o collegamento grafico
+LINEARE,Semplice e senza deviazioni
+LINEARE,Che procede in modo diretto e coerente
 LINFA,Fluido vitale delle piante
 LINFA,"L'energia vitale, il nutrimento"
 LINFA,Scorre nelle piante
@@ -682,8 +682,8 @@ LINFOCITA,Globulo bianco della risposta immunitaria
 LINGUA,"L'idioma, la parlata di un popolo"
 LINGUA,L'organo mobile del gusto
 LINGUA,"Organo, idioma e confine culturale"
-LINGUA,Azione vicina al significato di parlare
-LINGUAGGIO,Un caso particolare di stile
+LINGUA,Organo che gusta oppure sistema di parole
+LINGUAGGIO,Sistema di segni usato per comunicare
 LINGUAGGIO,Completa la frase: «il … separa l’uomo da tutti gli altri animali»
 LINK,Il collegamento da cliccare sul web
 LINK,L'eroe in verde della saga di Zelda
@@ -697,26 +697,26 @@ LINUX,Il sistema operativo libero col pinguino
 LIOCORNO,L'unicorno delle leggende
 LIONE,Città francese alla confluenza di Rodano e Saona
 LIPARI,La maggiore delle Eolie
-LIPPI,Artista fiorentino del primo Rinascimento
+LIPPI,"Cognome di due pittori fiorentini, padre e figlio"
 LIPPI,"Marcello, il ct campione del mondo 2006"
-LIPPI,Pittore fiorentino del primo Rinascimento
+LIPPI,"Il casato artistico di un frate e di suo figlio, entrambi rinascimentali"
 LIPSIA,Città tedesca di Bach e della fiera
-LIQUIDARE,Una forma specifica dell’uccidere
-LIQUIDARE,Rientra tra i modi di uccidere
-LIQUIDAZIONE,Può assumere il significato di pagamento
-LIQUIDAZIONE,Rientra nel campo di saldo
-LIQUIDO,Una variante di sostanza
-LIQUIDO,Può rimandare all’idea di bancomat
+LIQUIDARE,Eliminare una posizione o chiudere un conto
+LIQUIDARE,Vendere tutto a prezzo ridotto o saldare un debito
+LIQUIDAZIONE,Pagamento conclusivo di quanto dovuto
+LIQUIDAZIONE,Chiusura di un conto o vendita a prezzi ribassati
+LIQUIDO,Che scorre e prende la forma del recipiente
+LIQUIDO,Denaro immediatamente disponibile
 LIQUIRIZIA,Radice nera dal sapore dolce
 LIQUORE,Bevanda dolce e forte da fine pasto
-LIQUORE,Dolce alcolico da fine pasto
-LIQUORE,Si può classificare come alcool
+LIQUORE,Bevanda aromatica servita in piccoli bicchieri
+LIQUORE,Bevanda alcolica aromatizzata e spesso dolce
 LIRA,L'antico strumento a corde dei poeti
 LIRA,Moneta scomparsa e strumento antico
 LIRA,Vecchia moneta italiana
-LIRA,Ha tra le sue parti strofe
-LIRICA,Ha tra le sue parti aria
-LIRICA,Comprende anche strofe
+LIRA,Antico strumento a corde cantato dai poeti
+LIRICA,Opera teatrale interamente o in parte cantata
+LIRICA,Poesia che esprime sentimenti personali
 LISA,Il nome della secondogenita dei Simpson
 LISA,La Monna...di Leonardo
 LISBONA,Capitale portoghese sul Tago
@@ -733,57 +733,57 @@ LISCIO,Senza asperità
 LISO,Consumato dall'uso
 LISTA,"Elenco, striscia o candidatura"
 LISTA,Quella di nozze degli sposi
-LISTA,Insieme di dati registrati uno di seguito all’altro secondo un certo criterio
+LISTA,"Successione ordinata di nomi, dati o oggetti"
 LISTELLO,Striscia sottile di legno o metallo
-LISTINO,Si può classificare come elenco
+LISTINO,Elenco ufficiale di prezzi
 LISZT,Virtuoso romantico del pianoforte
-LISZT,Virtuoso ungherese del pianoforte
+LISZT,Compositore ungherese delle Rapsodie
 LITANIA,Preghiera ripetitiva e lamentosa
 LITCHI,Il frutto cinese dalla buccia rugosa
 LITE,Discussione che alza i toni
 LITE,"Il litigio, la disputa legale"
-LITE,Una forma specifica di azione giudiziaria
+LITE,Controversia portata davanti a un giudice
 LITIGA,Si scontra a parole
 LITIGAI,Mi scontrai a parole
 LITIGARE,Scontrarsi a parole
-LITIGARE,Può rientrare nell’idea di discutere
+LITIGARE,Avere uno scontro acceso a parole
 LITIGATO,Scontrato a parole
 LITIGHERA,Si scontrerà a parole
 LITIGHERO,Mi scontrerò a parole
 LITIGHIAMO,Ci scontriamo a parole
-LITIGIO,Una variante di contrasto
-LITIGIO,Si può classificare come contrasto
+LITIGIO,Scontro verbale che rompe l'armonia
+LITIGIO,Diverbio acceso tra due o più persone
 LITIGO,Mi scontro a parole
 LITIO,Metallo leggero da batterie
 LITOGRAFIA,Stampa artistica nata su pietra
 LITOGRAFIA,Stampa ottenuta da matrice di pietra o metallo
 LITORALE,Striscia di costa
-LITORALE,Un caso particolare di vista
-LITORALE,Appartiene alla categoria di contorno
+LITORALE,Fascia di terra a contatto con il mare
+LITORALE,Costa osservata come insieme di spiagge e promontori
 LITOSFERA,Involucro roccioso della Terra
 LITOTE,Affermare negando il contrario
-LITTIZZETTO,"La comica torinese di Che tempo che fa, Luciana"
+LITTIZZETTO,"Luciana, comica e scrittrice torinese"
 LIUBLIANA,La capitale della Slovenia
 LIUTAIO,Costruisce violini e strumenti ad arco
 LIUTO,Antico strumento a corde
-LIVATINO,Il Rosario giudice ragazzino
-LIVE,"Vivo, secondo il contesto"
+LIVATINO,"Rosario, magistrato assassinato dalla mafia nel 1990"
+LIVE,"In diretta, nel linguaggio dello spettacolo"
 LIVELLA,'A... di Totò: la morte che pareggia tutti
 LIVELLA,Strumento che verifica l'orizzontalità
-LIVELLO,Nel lessico si avvicina a punto
-LIVELLO,Appartiene alla categoria di stadio
+LIVELLO,Grado raggiunto in una scala
+LIVELLO,Piano di un edificio o fase di avanzamento
 LIVERPOOL,Città dei Beatles
 LIVIDA,Bluastra o cupa
 LIVIDE,Bluastre o cupe
 LIVIDI,Bluastri o cupi
 LIVIDO,Bluastro o cupo
-LIVIDO,Un esempio riconducibile a danno
-LIVIDO,Una forma specifica di danno
+LIVIDO,Macchia bluastra provocata da un urto
+LIVIDO,Segno sulla pelle lasciato da una contusione
 LIVINGSTONE,Esploratore dell'Africa centrale
 LIVIO,Il Tito storico di Roma
 LIVORE,Rancore che colora di scuro
-LIVORE,Una manifestazione di ostilità
-LIVORE,Un caso particolare di ostilità
+LIVORE,Rancore profondo e persistente
+LIVORE,Astio che dura nel tempo
 LIVOROSO,Roso dall'astio
 LIZ,Il nome dell'attrice Taylor
 LO,Articolo o pronome maschile: non...so
@@ -791,19 +791,19 @@ LO,Sigla automobilistica di Lodi
 LOBBY,Gruppo di pressione sul potere
 LOBO,"Il lupo, in spagnolo"
 LOBO,Parte molle o sezione anatomica
-LOCALE,Ha tra le sue parti soffitto
-LOCALE,Comprende anche soffitto
-LOCALITA,Un esempio riconducibile a terra
-LOCALITA,Un esempio riconducibile a regione
-LOCALIZZARE,Può rappresentare un modo di determinare
-LOCALIZZARE,Un modo non sempre letterale di individuare
+LOCALE,Ambiente chiuso destinato a un'attività
+LOCALE,"Stanza, negozio o esercizio pubblico"
+LOCALITA,Luogo geografico identificabile
+LOCALITA,Centro abitato o sito indicato su una mappa
+LOCALIZZARE,Stabilire la posizione esatta
+LOCALIZZARE,Individuare un punto nello spazio o l'origine di un fenomeno
 LOCANDA,Alloggio semplice per viandanti
 LOCANDA,Piccolo albergo di campagna
 LOCANDINA,Piccolo manifesto pubblicitario
-LOCANDINA,Una forma specifica di comunicazione
-LOCATELLI,"Manuel, centrocampista della Nazionale italiana"
-LOCAZIONE,Si può classificare come contratto
-LOCAZIONE,Appartiene alla categoria di contratto
+LOCANDINA,Manifesto che annuncia uno spettacolo
+LOCATELLI,"Manuel, centrocampista campione d'Europa nel 2021"
+LOCAZIONE,Affitto regolato da un accordo
+LOCAZIONE,Contratto con cui si concede l'uso di un bene
 LOCOMOTIVA,Chi traina un gruppo con la sua forza
 LOCOMOTIVA,Tira i vagoni del treno
 LOCOMOTIVA,Tira il convoglio stando davanti
@@ -811,36 +811,36 @@ LOCOMOTIVA,Tira vagoni lungo i binari
 LOCOROTONDO,Borgo pugliese bianco e circolare
 LOCULO,Lo spazio per una bara nel muro del cimitero
 LOCUSTA,Cavalletta che devasta i raccolti
-LOCUZIONE,Una manifestazione di detto
+LOCUZIONE,Gruppo di parole con significato unitario
 LODA,Dice bene di qualcuno
 LODAI,Dissi bene di qualcuno
 LODARE,Dire bene di qualcuno
-LODARE,Una forma specifica del valutare
-LODARE,Azione riconducibile al significato di valutare
+LODARE,Esprimere apprezzamento per qualcuno
+LODARE,Mettere in risalto meriti e qualità
 LODATO,Detto bene di qualcuno
 LODE,Parola di approvazione o voto pieno
 LODE,Trenta e...: il massimo dei voti
-LODE,Può assumere il significato di approvazione
+LODE,Apprezzamento espresso a parole
 LODEN,Cappotto di lana verde tirolese
 LODI,Città lombarda sul fiume Adda
-LODI,Città lombarda sull'Adda
+LODI,Centro lombardo noto per il Tempio civico dell'Incoronata
 LODO,Dico bene di qualcuno
 LODO,"La decisione dell'arbitro, in diritto"
-LODO,Una manifestazione di sentenza
+LODO,Decisione pronunciata da un arbitro
 LOFT,Ampio appartamento ricavato da uno spazio industriale
 LOG,"Funzione matematica, in forma abbreviata"
 LOG,Registro tecnico o tronco inglese
 LOGGIA,Galleria aperta ad archi
-LOGGIA,Il balcone aperto e porticato
-LOGGIA,Portico elevato o società riservata
-LOGGIA,Quella massonica dei massoni
-LOGGIA,Spazio coperto aperto da archi
+LOGGIA,Galleria coperta e aperta verso l'esterno
+LOGGIA,Può essere architettonica oppure massonica
+LOGGIA,"Associazione riservata, in ambito massonico"
+LOGGIA,Spazio elevato scandito da colonne o archi
 LOGGIATO,La serie di logge di un edificio
 LOGGIATO,Serie di archi aperti su un lato
 LOGGIONE,Paradiso dei teatri rumorosi
 LOGICA,La scienza del ragionamento corretto
-LOGICAMENTE,"Ovviamente, secondo il contesto"
-LOGICAMENTE,In un uso avverbiale legato a evidentemente
+LOGICAMENTE,Secondo ragione e coerenza
+LOGICAMENTE,Come conseguenza naturale di un ragionamento
 LOGIN,Ingresso con nome utente e password
 LOGO,Volto grafico di un marchio
 LOGORA,Lei consuma a furia di usare
@@ -863,26 +863,26 @@ LOME,Capitale togolese
 LONDRA,Capitale britannica sul Tamigi
 LONDRA,Città del Tamigi e del Big Ben
 LONGILINEO,Alto e snello di corporatura
-LONGOBARDI,Popolo germanico che invase l'Italia
+LONGOBARDI,Popolo germanico che fondò un regno in Italia
 LONTANA,Non vicina
-LONTANANZA,Nel lessico si avvicina a distanza
-LONTANANZA,Una nozione collegata a assenza
+LONTANANZA,Distanza nello spazio o nel tempo
+LONTANANZA,Condizione di chi è assente o remoto
 LONTANE,Non vicine
 LONTANI,Non vicini
 LONTANO,Non vicino
-LONTANO,"Via, secondo il contesto"
+LONTANO,A grande distanza
 LONTANO,Con una sfumatura che richiama fuori
 LONTRA,Il mustelide che nuota agile nei fiumi
 LONTRA,Mammifero acquatico giocherellone
 LOPPA,La buccia del chicco separata dal grano
 LOQUACE,Parla più del necessario
 LOQUACI,Molto inclini a parlare
-LORCA,Il Federico Garcia poeta andaluso
-LORCA,Poeta andaluso del Romancero gitano
-LORDO,"Sporco, secondo il contesto"
+LORCA,"Federico García, poeta e drammaturgo andaluso"
+LORCA,Scrisse il Romancero gitano e Nozze di sangue
+LORDO,Calcolato prima delle trattenute
 LORDOSI,Curvatura in avanti della colonna
 LOREN,La Sophia premio Oscar
-LORENZETTI,Pittori senesi del buon governo
+LORENZETTI,"Ambrogio e Pietro, pittori della scuola senese"
 LORENZO,Il nome del Magnifico dei Medici
 LORENZO,"Jorge, campione spagnolo della MotoGP"
 LORETO,Città marchigiana della Santa Casa
@@ -895,17 +895,17 @@ LOTO,Fiore sacro all'Oriente
 LOTO,La posizione del...nello yoga
 LOTTA,Lo sport sul tappeto dei corpo a corpo
 LOTTA,Scontro regolato o quotidiano
-LOTTA,Una variante di crociata
+LOTTA,Conflitto condotto per un ideale o un interesse
 LOTTAI,Mi battei per qualcosa
 LOTTARE,Battersi per qualcosa
 LOTTATO,Battuto per qualcosa
-LOTTATORE,Una forma specifica di difensore
-LOTTATORE,Un tipo particolare di difensore
+LOTTATORE,Atleta impegnato in prese e corpo a corpo
+LOTTATORE,Chi combatte con tenacia per una causa
 LOTTERIA,Gioco di biglietti e fortuna
 LOTTO,Gioco di numeri e terreno edificabile
 LOTTO,Il gioco dei numeri sulla ruota
 LOTTO,La porzione di terreno edificabile
-LOTTO,Un caso particolare di appezzamento
+LOTTO,Porzione di terreno identificata nei registri
 LOU,Il nome del rocker Reed
 LOUIS,Il nome del jazzista Armstrong
 LOUIS,Il nome di tanti re di Francia
@@ -936,7 +936,7 @@ LUCCIOLE,Prendere... per lanterne: ingannarsi
 LUCE,In fondo al tunnel dà speranza
 LUCE,La canzone di Elisa vincitrice a Sanremo
 LUCE,La cerca chi brancola
-LUCE,Comprende anche raggio di sole
+LUCE,Ciò che rende visibili forme e colori
 LUCERNA,La città svizzera del Ponte della Cappella
 LUCERNA,Lampada antica a olio
 LUCERNARIO,L'apertura vetrata nel tetto
@@ -951,22 +951,22 @@ LUCIDASCARPE,Ridà lustro alle calzature
 LUCIDATO,Reso brillante
 LUCIDE,Brillanti o razionali
 LUCIDI,Brillanti o razionali
-LUCIDITA,Può assumere il significato di chiarezza
+LUCIDITA,Chiarezza di pensiero o brillantezza di una superficie
 LUCIDO,Mentalmente chiaro e presente
 LUCIDO,Quello da passare sulle scarpe
 LUCIDO,Rendo brillante
-LUCIDO,Rientra nel campo di immagine diapositiva
+LUCIDO,Foglio trasparente usato un tempo nelle proiezioni
 LUCIFERO,L'angelo caduto della tradizione cristiana
-LUCIFERO,Una variante di essere soprannaturale
-LUCIFERO,Si può classificare come essere soprannaturale
+LUCIFERO,Il portatore di luce divenuto angelo ribelle
+LUCIFERO,Nome tradizionale del demonio
 LUCIGNOLO,Stoppino e cattivo compagno di Pinocchio
 LUCIUS,Il nome del Malfoy di Harry Potter
-LUCREZIO,Autore di versi latino della natura delle cose
+LUCREZIO,Poeta latino autore del De rerum natura
 LUCREZIO,Poeta latino della natura delle cose
-LUCRO,Comprende anche percentuale
-LUCRO,Ha tra le sue parti percentuale
+LUCRO,Guadagno ottenuto da un'attività
+LUCRO,Profitto che resta dopo costi e spese
 LUCULLIANO,Sontuoso a tavola
-LUDDISTA,Nemico delle macchine per storia industriale
+LUDDISTA,Oppositore delle macchine nella prima industrializzazione
 LUFFY,Il pirata di gomma di One Piece
 LUGLIO,Nel suo solleone si va al mare
 LUGUBRE,Triste e funereo
@@ -980,17 +980,17 @@ LUKE,Il nome dello Skywalker di Star Wars
 LUMACA,Andare a passo di...: lentissimamente
 LUMACA,Mollusco lento con conchiglia
 LUMACA,Va piano portandosi dietro il guscio
-LUMACA,Nel lessico si avvicina a polenta
+LUMACA,Dà il nome a un'andatura lentissima
 LUMACHE,Procedono lente lasciando una scia
 LUME,"A...di naso: a intuito, alla buona"
 LUME,Lampada d'altri tempi e intelletto
-LUME,Può rimandare all’idea di luce
+LUME,Piccola fonte di illuminazione o indizio per capire
 LUMEGGIATURA,Tocco di luce in pittura
 LUMEN,Misura di luce o cavità anatomica
-LUMINOSITA,Una nozione collegata a luce
-LUMINOSITA,Può assumere il significato di chiaro
+LUMINOSITA,Intensità con cui una sorgente rischiara
+LUMINOSITA,Chiarezza visiva di un ambiente
 LUMINOSO,Completa la frase: «un ambiente …»
-LUMINOSO,"Splendente, secondo il contesto"
+LUMINOSO,Che emette o riflette molta luce
 LUNA,...park: il parco dei divertimenti
 LUNA,L'umore: avere la... storta
 LUNA,Lampada naturale delle notti serene
@@ -1004,19 +1004,19 @@ LUNETTA,Spazio semicircolare sopra una porta
 LUNGA,Estesa da un capo all'altro
 LUNGA,Saperla...: essere scaltri
 LUNGHE,Estese in durata
-LUNGHEZZA,Può assumere il significato di durata
+LUNGHEZZA,Estensione nello spazio oppure nel tempo
 LUNGHI,Esteso da un capo all'altro
-LUNGIMIRANZA,"Previdenza, in un’accezione meno immediata"
-LUNGIMIRANZA,Una nozione collegata a cautela
+LUNGIMIRANZA,Capacità di prevedere conseguenze lontane
+LUNGIMIRANZA,Visione prudente rivolta al futuro
 LUNGO,"Esteso, anche nel caffè"
-LUNGO,"Molto, secondo il contesto"
-LUNGO,Detto di ciò che richiama l’idea di grande
+LUNGO,Per un'estensione notevole
+LUNGO,Che richiede molto tempo o spazio
 LUNGOMARE,La passeggiata in riva al mare
 LUPA,Allattò Romolo e Remo
 LUPA,Il bronzo simbolo di Roma
 LUPARA,Fucile corto legato a racconti di mafia e pastori
 LUPI,Ululano nelle notti dei boschi
-LUPIN,Il ladro gentiluomo dell'anime giapponese
+LUPIN,"Arsène, ladro gentiluomo creato da Maurice Leblanc"
 LUPIN,"Remus..., il professore di Harry Potter"
 LUPINELLA,Pianta foraggera dai fiori rosati
 LUPO,Animale da fiaba e da branco
@@ -1028,19 +1028,19 @@ LUPUS,Lupo latino e malattia autoimmune
 LUSAKA,Capitale dello Zambia
 LUSAKA,Capitale zambiana
 LUSINGA,Promessa dolce che può ingannare
-LUSINGHIERA,Che promette bene
-LUSINGHIERE,Che promettono bene
-LUSINGHIERI,Che promettono bene
-LUSINGHIERO,Che promette bene
+LUSINGHIERA,Favorevole e incoraggiante
+LUSINGHIERE,Favorevoli e incoraggianti
+LUSINGHIERI,Favorevoli e incoraggianti
+LUSINGHIERO,Favorevole e incoraggiante
 LUSINGO,Adesco con belle parole
 LUSSO,Superfluo costoso
-LUSTRO,Può rimandare all’idea di credito
-LUSTRO,Nel lessico si avvicina a gloria
+LUSTRO,Brillantezza di una superficie o prestigio
+LUSTRO,Periodo di cinque anni
 LUTERO,Iniziatore della Riforma protestante
 LUTHERKING,"Il leader afroamericano dei diritti civili, ...Martin"
 LUTTO,Dolore con abiti scuri
-LUTTO,Un esempio riconducibile a tristezza
-LUTTO,Una variante di tristezza
+LUTTO,Dolore pubblico per una morte
+LUTTO,Periodo segnato dalla perdita di una persona
 LUX,"La luce, in latino"
 LUX,Unità di illuminamento
 LUXOR,Città egizia dei templi di Karnak
