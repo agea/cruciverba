@@ -1,11 +1,15 @@
 soluzione,definizione
 TA,Sigla automobilistica di Taranto
+TABACCHI,Merci vendute insieme a valori bollati in appositi esercizi
+TABACCHI,Prodotti ricavati da foglie essiccate e lavorate
 TABACCO,"Colore bruno caldo, come le foglie essiccate"
 TABARRO,Ampio mantello invernale
 TABARRO,Mantello pesante d'altri tempi
 TABELLA,Organizza dati in righe e colonne
-TABELLONE,Grande pannello che mostra punteggi o informazioni
+TABELLE,Griglie ordinate di righe e colonne
+TABELLE,Prospetti che raccolgono dati e valori
 TABELLONE,Espone risultati visibili da lontano
+TABELLONE,Grande pannello che mostra punteggi o informazioni
 TABERNACOLO,Custodia sacra o piccola edicola
 TABIANO,Stazione termale del Parmense
 TABLA,La coppia di tamburi indiani
@@ -17,18 +21,38 @@ TABUCCHI,Narratore italiano legato al Portogallo
 TABULE,Insalata mediorientale di bulgur e prezzemolo
 TAC,Il tic... dell'orologio
 TAC,Rumore secco o esame diagnostico per immagini
+TACCHE,Intagli praticati lungo un bordo
+TACCHE,Piccole incisioni usate come segni di misura
+TACCHI,Colpi rapidi prodotti camminando su un pavimento duro
+TACCHI,Parti rialzate sotto le scarpe
+TACCHINI,Grossi volatili domestici dalla coda a ventaglio
+TACCHINI,Uccelli allevati soprattutto per le feste in Nord America
 TACCHINO,Grande volatile del pranzo festivo
 TACCHINO,Volatile natalizio e tripletta nel bowling
 TACCIO,Resto zitto
 TACCIONO,Restano zitti
+TACCO,Può colpire il pallone all’indietro
 TACCO,"Può essere a spillo, largo o quadrato"
 TACCO,Rialza scarpe e colpisce nel calcio
 TACCO,Si consuma sotto la parte posteriore della scarpa
-TACCO,Può colpire il pallone all’indietro
-TACCUINO,Piccolo quaderno per appunti rapidi
+TACCONI,Grandi suole o pezzi applicati alle scarpe
+TACCONI,Riparazioni grossolane aggiunte a oggetti usurati
 TACCUINO,Compagno tascabile di note e schizzi
+TACCUINO,Piccolo quaderno per appunti rapidi
+TACE,Non rivela ciò che sa
+TACE,Rimane in silenzio
 TACERE,Chi...acconsente
+TACETE,Non pronunciate alcuna parola
+TACETE,Rimanete in silenzio
 TACHICARDIA,Battito cardiaco accelerato
+TACI,Non dire ciò che sai
+TACI,Rimani in silenzio
+TACITA,Silenziosa e non espressa a parole
+TACITA,Sottintesa senza bisogno di dichiarazioni
+TACITE,Silenziose e non espresse a parole
+TACITE,Sottintese senza bisogno di dichiarazioni
+TACITI,Silenziosi e non espressi a parole
+TACITI,Sottintesi senza bisogno di dichiarazioni
 TACITO,Lo storico degli Annales
 TACITO,"Non detto ma sottinteso, come un assenso"
 TACITURNA,Parla poco e malvolentieri
@@ -38,34 +62,50 @@ TACITURNO,Parla poco e malvolentieri
 TACOS,Tortillas messicane ripiene e ripiegate
 TACQUE,Non disse nulla
 TAEKWONDO,Arte marziale coreana dei calci
+TAFANI,Grossi insetti che pungono animali e persone
+TAFANI,Mosche robuste frequenti presso mandrie e cavalli
 TAFANO,Grosso insetto dalla puntura dolorosa
 TAFFERUGLIO,Breve rissa confusa
 TAFFETA,Tessuto leggero e fruscante
 TAGICHI,Popolo di lingua iranica dell'Asia centrale
 TAGIKISTAN,Paese del Pamir
+TAGLI,Incisioni prodotte da lame
+TAGLI,"Riduzioni applicate a spese, fondi o personale"
 TAGLIA,La ricompensa per catturare un ricercato
+TAGLIA,Misura che distingue gli abiti
 TAGLIA,"Può essere indicata con S, M o L"
 TAGLIA,Separa con lama
-TAGLIA,Misura che distingue gli abiti
 TAGLIAERBA,Rasa il prato del giardino
 TAGLIANDO,Cedola da staccare per ottenere un diritto o uno sconto
 TAGLIANDO,Documento che attesta un controllo eseguito
-TAGLIARE,Dividere usando una lama
 TAGLIARE,Attraversare per una via più breve
+TAGLIARE,Dividere usando una lama
 TAGLIARE,Interrompere una scena o una conversazione
 TAGLIATA,Bistecca servita già affettata
 TAGLIATA,Ferita prodotta da una lama
+TAGLIATE,Separate usando una lama
+TAGLIATE,Strade aperte incidendo una parete rocciosa
 TAGLIATELLE,Pasta lunga all'uovo emiliana
+TAGLIATI,Esclusi da una selezione o da un finanziamento
+TAGLIATI,Separati usando una lama
 TAGLIATO,Separato con lama
+TAGLIE,Misure che distinguono gli abiti
+TAGLIE,Ricompense promesse per la cattura di ricercati
 TAGLIENTE,Come una lama ben affilata
+TAGLIENTI,Capaci di incidere o ferire
+TAGLIENTI,"Molto pungenti e sarcastici, detti di parole"
 TAGLIERE,Base su cui si affettano gli alimenti
+TAGLIERE,Il...di salumi e formaggi
 TAGLIERE,Protegge il piano di cucina dalla lama
 TAGLIERE,Può arrivare in tavola carico di salumi
-TAGLIERE,Il...di salumi e formaggi
+TAGLIERI,Assi su cui si affettano gli alimenti
+TAGLIERI,Vassoi di legno serviti con salumi e formaggi
 TAGLIO,Dare un...: ridurre drasticamente
-TAGLIO,Le banconote di grosso...
-TAGLIO,Incisione o separazione fatta con una lama
 TAGLIO,Il bordo affilato di una lama
+TAGLIO,Incisione o separazione fatta con una lama
+TAGLIO,Le banconote di grosso...
+TAGLIOLE,Congegni metallici che si chiudono sulla preda
+TAGLIOLE,Trappole a scatto per animali
 TAGO,Fiume di Toledo e Lisbona
 TAGORE,Il Nobel bengalese autore di Gitanjali
 TAGORE,Poeta indiano premio Nobel
@@ -74,43 +114,51 @@ TAICHI,La ginnastica cinese dai movimenti lenti
 TAIGA,Foresta fredda di conifere
 TAIWAN,Isola di fronte alla Cina
 TAJMAHAL,Il mausoleo di marmo bianco in India
+TALAMO,Il giaciglio degli sposi in poesia
 TALAMO,Il...: la parte del cervello che smista i sensi
 TALAMO,Letto nuziale in lingua solenne
-TALAMO,Il giaciglio degli sposi in poesia
+TALARI,Abiti solenni propri di alcune professioni
+TALARI,Vesti lunghe che arrivano fino ai piedi
+TALE,"Così, di quella specie"
 TALE,"Il... e Quale Show, programma di imitazioni"
 TALE,Individuo non precisato
 TALE,"Un...: un tizio, un certo individuo"
-TALE,"Così, di quella specie"
 TALEA,Rametto per la propagazione delle piante
 TALEGGIO,Formaggio molle lombardo
 TALENTI,La parabola dei... nel Vangelo
-TALENTO,Dote che chiede esercizio
 TALENTO,Capacità fuori dal comune
+TALENTO,Dote che chiede esercizio
 TALENTO,Estro naturale
 TALETE,Il filosofo greco che previde un'eclissi
 TALIA,La musa della commedia
+TALISMANO,Oggetto a cui si attribuisce un potere protettivo
 TALISMANO,Oggetto che promette fortuna
 TALISMANO,Si porta addosso contro la malasorte
-TALISMANO,Oggetto a cui si attribuisce un potere protettivo
-TALLINN,Capitale estone con mura medievali
 TALLINN,Capitale baltica dell’Estonia
+TALLINN,Capitale estone con mura medievali
 TALMENTE,Così tanto da produrre una conseguenza
 TALMUD,Grande raccolta della tradizione ebraica
 TALORA,"Qualche volta, con tono letterario"
 TALPA,Animale che scava gallerie
 TALPA,"La spia infiltrata, in gergo"
 TALPA,Vive sottoterra e vede pochissimo
+TALPE,Mammiferi sotterranei dalle zampe scavatrici
+TALPE,Persone infiltrate segretamente in un'organizzazione
 TALVOLTA,"Non sempre, ma in alcune occasioni"
 TAMAGOTCHI,Il cucciolo virtuale giapponese da tasca
-TAMARINDO,Frutto acidulo da sciroppi
 TAMARINDO,Dà una polpa agrodolce usata in bevande e salse
+TAMARINDO,Frutto acidulo da sciroppi
 TAMBERI,Campione olimpico italiano del salto in alto a Tokyo
-TAMBURELLO,Percussione tonda con sonagli
 TAMBURELLO,Dà nome anche a uno sport con palla
+TAMBURELLO,Percussione tonda con sonagli
+TAMBURI,Cilindri rotanti presenti in molte macchine
+TAMBURI,Strumenti a percussione con membrana tesa
+TAMBURINI,Piccoli strumenti a percussione
+TAMBURINI,Suonatori che accompagnano marce e cortei
 TAMBURO,A...battente: rapidamente e con forza
 TAMBURO,Il cestello rotante della lavatrice
-TAMBURO,Strumento a percussione
 TAMBURO,Lo percuote il batterista
+TAMBURO,Strumento a percussione
 TAMERICE,Arbusto delle coste sabbiose
 TAMERLANO,Conquistatore turco-mongolo
 TAMIGI,Fiume di Londra
@@ -118,10 +166,10 @@ TAMIL,Popolo e lingua dell'India del Sud
 TAMPONE,Serve a prelevare un campione da analizzare
 TAN,"Funzione trigonometrica, in sigla inglese"
 TAN,"L'abbronzatura, in inglese"
-TANA,Nel nascondino è il punto in cui ci si salva
 TANA,Il rifugio scavato dall'animale
 TANA,Nasconde cuccioli e provviste sottoterra
 TANA,Nascondiglio difficile da scoprire
+TANA,Nel nascondino è il punto in cui ci si salva
 TANATO,La personificazione greca della morte
 TANDEM,Bicicletta a due posti in fila
 TANDEM,"In...: in coppia, lavorando insieme"
@@ -131,22 +179,24 @@ TANGANICA,Lungo lago dell'Africa orientale
 TANGENTE,La mazzetta della corruzione
 TANGENTE,La retta che tocca la curva in un punto
 TANGENZA,Contatto in un solo punto tra linee o superfici
-TANGENZIALE,La strada che aggira la città
 TANGENZIALE,Collega quartieri evitando il centro
+TANGENZIALE,La strada che aggira la città
 TANGERI,Città marocchina dello stretto
 TANGIBILE,Che si può toccare
-TANGIBILE,Concreto e verificabile
 TANGIBILE,Concreto abbastanza da poter essere dimostrato
+TANGIBILE,Concreto e verificabile
 TANGIBILI,Che si possono toccare
 TANGO,Ballo nato sul Rio de la Plata
 TANGO,Si danza in coppia con passi serrati
 TANICA,Recipiente per liquidi con tappo a vite
+TANICHE,Contenitori portatili con manico e tappo
+TANICHE,Recipienti rigidi per carburanti o liquidi
 TANIT,La dea protettrice di Cartagine
 TANNINO,Sostanza vegetale astringente
 TANTALO,Il suppliziato tra acqua e frutti
 TANTALO,Subì fame e sete in mezzo all'abbondanza
-TANTO,"Molto, in quantità abbondante"
 TANTO,Così... da non poterne più
+TANTO,"Molto, in quantità abbondante"
 TANZANIA,Stato del Kilimangiaro e di Zanzibar
 TANZANITE,La rara gemma blu-violetta della Tanzania
 TAO,Il principio della via nel pensiero cinese
@@ -154,6 +204,8 @@ TAO,Via orientale più che strada
 TAORMINA,Città siciliana con teatro sul mare
 TAORMINA,Perla siciliana sullo Ionio
 TAPAS,Gli stuzzichini della cucina spagnola
+TAPIRI,Animali simili a piccoli ippopotami con breve proboscide
+TAPIRI,Mammiferi tropicali dal muso allungato
 TAPIRO,Il...d'oro di Striscia la notizia
 TAPIRO,Mammifero dal corto muso a proboscide
 TAPPA,Chiude un foro
@@ -164,14 +216,20 @@ TAPPARELLA,Scende davanti alla finestra a stecche
 TAPPARELLA,Si abbassa davanti alla finestra
 TAPPATO,Chiuso un foro
 TAPPETI,Coprono pavimenti e salotti
+TAPPETINI,Piccole stuoie poste davanti alle porte
+TAPPETINI,Rivestimenti usati in automobile o per gli esercizi a terra
 TAPPETO,Copre e orna il pavimento
 TAPPETO,Il...volante delle fiabe orientali
 TAPPETO,Mandare al...: stendere l'avversario
 TAPPETO,Sta sotto i piedi e sopra il pavimento
 TAPPEZZIERE,Riveste mobili e pareti di stoffa
+TAPPI,Chiusure inserite nel collo di bottiglie e recipienti
+TAPPI,Ostacoli che bloccano un condotto
+TAPPINI,Piccole chiusure per bottiglie e contenitori
+TAPPINI,"Proteggono valvole, fori e attacchi"
+TAPPO,Chiude bottiglie e recipienti
 TAPPO,Chiudo un foro
 TAPPO,Ostacolo che blocca un passaggio stretto
-TAPPO,Chiude bottiglie e recipienti
 TAR,"Catrame, in inglese"
 TAR,Tribunale amministrativo in tre lettere
 TARA,Il difetto ereditario trasmesso
@@ -179,6 +237,8 @@ TARA,Il peso dell'imballaggio da scontare
 TARA,Peso che non conta
 TARABUSO,Airone dal verso simile a un muggito
 TARAI,Regolai una bilancia prima della pesata
+TARALLI,Anelli salati da forno tipici del Sud
+TARALLI,Snack croccanti spesso aromatizzati con vino o finocchio
 TARALLO,Anello salato da forno
 TARALLO,Ciambellina salata tipica del Sud
 TARANTELLA,Danza meridionale rapida e festosa
@@ -189,20 +249,32 @@ TARANTO,Città dei due mari
 TARANTOLA,Ragno peloso legato al mito della taranta
 TARASSACO,Erba spontanea dal fiore giallo
 TARASSACO,Fiore giallo che diventa soffione
+TARATE,Private del peso del contenitore
+TARATE,Regolate secondo una misura di riferimento
+TARATI,Difettosi per un limite originario
+TARATI,Regolati secondo una misura di riferimento
 TARATO,Regolato su un valore di riferimento
 TARDELLI,Il centrocampista dell’urlo azzurro del 1982
 TARDI,Meglio...che mai
-TARDO,Lento ad arrivare o capire
 TARDO,Che comprende o reagisce con lentezza
+TARDO,Lento ad arrivare o capire
 TARGA,La piastra con la sigla dell'auto
 TARGA,Piastra identificativa o premio commemorativo
+TARGHE,"Contrassegni applicati a veicoli, porte e monumenti"
+TARGHE,Piastre con numeri o iscrizioni identificative
 TARIFFARIO,Elenca prezzi e prestazioni
+TARLI,Insetti che scavano gallerie nel legno
+TARLI,Pensieri insistenti che consumano la mente
 TARLO,Il dubbio che rode dentro
 TARLO,Insetto che buca il legno
 TARLO,Rode legno e pensieri
+TARME,Insetti le cui larve rovinano lana e tessuti
+TARME,Piccoli nemici degli armadi
 TARO,Il fiume emiliano affluente del Po
 TARO,Regolo una bilancia
 TARQUINIA,Città etrusca delle tombe dipinte
+TARSIE,"Composizioni ornamentali di legni, marmi o metalli"
+TARSIE,Decorazioni ottenute inserendo materiali diversi
 TARSIO,Piccolo primate dagli occhi enormi
 TARSO,Le ossa della parte posteriore del piede
 TARTAGLIA,Il Niccolò matematico bresciano
@@ -210,55 +282,71 @@ TARTARI,Popolo turcofono diffuso tra Russia e Asia centrale
 TARTARO,Il deposito che si forma sui denti
 TARTARO,L'abisso più profondo degli inferi
 TARTARO,Preparazione di carne cruda finemente tagliata
-TARTARUGA,Può ritirare testa e zampe nella corazza
 TARTARUGA,In palestra indica addominali molto scolpiti
-TARTARUGA,È diventata simbolo di lentezza
+TARTARUGA,Può ritirare testa e zampe nella corazza
 TARTARUGA,Rettile dal guscio
+TARTARUGA,È diventata simbolo di lentezza
 TARTARUGHE,Avanzano lente col guscio addosso
 TARTINI,Il Giuseppe del Trillo del diavolo
+TARTUFI,Dolcetti di cioccolato dalla forma tondeggiante
+TARTUFI,Pregiati funghi sotterranei dal forte aroma
 TARTUFO,"Il...al cioccolato, il dolce gelato"
 TARTUFO,L'ipocrita protagonista di Molière
 TARTUFO,Profuma risotti e tagliolini
 TARTUFO,Si cerca sotto terra affidandosi al fiuto
+TASCA,Custodisce piccoli oggetti nei vestiti
 TASCA,Lo scomparto cucito nei pantaloni
 TASCA,Piccolo nascondiglio cucito
-TASCA,Custodisce piccoli oggetti nei vestiti
 TASCAPANE,Borsa militare o da escursione
 TASCHE,Nascondono chiavi e monetine
 TASHKENT,Capitale uzbeka
 TASMAN,Mare tra Australia e Nuova Zelanda
 TASMANIA,Isola a sud dell'Australia
-TASSA,Somma obbligatoria dovuta a un ente pubblico
 TASSA,Si paga per determinati servizi pubblici
+TASSA,Somma obbligatoria dovuta a un ente pubblico
 TASSAZIONE,Il prelievo fiscale nel suo complesso
 TASSAZIONE,Può essere diretta o indiretta
+TASSE,Prelievi imposti da enti e amministrazioni
+TASSE,Somme dovute per servizi o atti pubblici
 TASSELLO,Piccolo pezzo che completa mosaici o muri
 TASSIDERMIA,Arte di preparare animali imbalsamati
 TASSO,Animale notturno o percentuale d'interesse
-TASSO,"Torquato, autore della Gerusalemme liberata"
 TASSO,Poeta rinascimentale alla corte estense
 TASSO,Rapporto espresso spesso in percentuale
+TASSO,"Torquato, autore della Gerusalemme liberata"
 TASTA,Tocca per provare
 TASTAI,Toccai per valutarne consistenza o qualità
 TASTATO,Esaminato con le dita
+TASTI,"Elementi che si premono per produrre lettere, note o funzioni"
+TASTI,"Pulsanti di pianoforti, telefoni e comandi"
 TASTIERA,File di tasti per musica o lettere
+TASTO,Invia un comando con una pressione
 TASTO,Quello bianco o nero del pianoforte
 TASTO,Si preme per musica o lettere
 TASTO,Toccare un...dolente: un argomento spinoso
-TASTO,Invia un comando con una pressione
 TATAMI,La stuoia su cui si pratica il judo
 TATE,La galleria d'arte moderna di Londra
-TATTO,Il senso che usa la pelle
 TATTO,Delicatezza nel trattare gli altri
+TATTO,Il senso che usa la pelle
 TAU,Greca a forma di croce
 TAU,La croce a forma di T di San Francesco
 TAUTOLOGIA,Ripete il concetto fingendo di provarlo
 TAVERNA,Il locale rustico del seminterrato
-TAVERNA,Locale rustico per vino e compagnie
 TAVERNA,Locale rustico dove si beve e si mangia
+TAVERNA,Locale rustico per vino e compagnie
 TAVOLA,"Ci si siede a mangiare, o è l'asse di legno"
 TAVOLA,La...rotonda dei cavalieri di re Artù
 TAVOLA,Può disporre i commensali in fila
+TAVOLATE,Lunghi gruppi di persone riunite a mangiare
+TAVOLATE,Mense apparecchiate per molti commensali
+TAVOLE,Assi larghe e piatte di legno
+TAVOLE,Superfici apparecchiate per mangiare
+TAVOLETTE,Formati in cui si vende spesso il cioccolato
+TAVOLETTE,Piccole superfici rigide e piatte
+TAVOLI,Gruppi riuniti per discutere o negoziare
+TAVOLI,Mobili con piano sostenuto da gambe
+TAVOLINI,Piccoli mobili con piano d'appoggio
+TAVOLINI,Si trovano accanto ai divani o fuori dai bar
 TAVOLINO,Piccolo mobile su cui appoggiare oggetti
 TAVOLINO,Può stare accanto al divano
 TAVOLO,Ci si siede a mangiare e a trattare
@@ -269,6 +357,10 @@ TAZZA,"Contiene il caffè, e ha il manico"
 TAZZA,Recipiente per tè o caffè
 TAZZA,Una tempesta in una... d'acqua
 TAZZE,"Accolgono tè, caffè o latte"
+TAZZINE,Piccoli recipienti per caffè o tè
+TAZZINE,Si dispongono con i piattini sul vassoio
+TAZZONI,Contenitori capienti usati a colazione
+TAZZONI,Grandi recipienti con manico per bevande calde
 TB,"Il terabyte, in sigla"
 TB,Iniziali del premier Blair
 TBILISI,Capitale della Georgia caucasica
@@ -277,15 +369,15 @@ TC,Simbolo chimico del tecnezio
 TE,La bevanda inglese delle cinque
 TE,Pronome: penso a...
 TE,Sigla automobilistica di Teramo
-TEA,"Il tè, in inglese"
 TEA,Bevanda servita al five o’clock
-TEAM,La squadra di lavoro
+TEA,"Il tè, in inglese"
 TEAM,Gruppo che lavora per uno scopo comune
 TEAM,Insieme di giocatori o colleghi
+TEAM,La squadra di lavoro
 TEATRI,Si aprono al pubblico al levarsi del sipario
+TEATRO,Accoglie attori in scena e spettatori in platea
 TEATRO,Luogo di scena e platea
 TEATRO,"Palco, platea e sipario per storie vive"
-TEATRO,Accoglie attori in scena e spettatori in platea
 TEBE,Antica città greca di Edipo
 TECA,Custodia trasparente da museo
 TECA,Custodisce ed espone oggetti preziosi
@@ -293,39 +385,47 @@ TECHNO,Genere elettronico da discoteca
 TECNICA,Sapere pratico organizzato
 TECNOLOGIA,Applicazione pratica delle conoscenze scientifiche
 TECTITE,Vetro naturale da impatto meteoritico
-TED,L’orsacchiotto irriverente protagonista del film omonimo
 TED,Le celebri conferenze divulgative
+TED,L’orsacchiotto irriverente protagonista del film omonimo
 TEDIAI,Annoiai profondamente
 TEDIATO,Oppresso dalla noia
 TEDUA,Rapper italiano autore dell’album La Divina Commedia
 TEE,"La maglietta a maniche corte, in inglese"
 TEE,Supporto minuscolo del golfista
 TEENAGER,Ha un’età compresa tra tredici e diciannove anni
-TEGAME,Recipiente basso e largo per cuocere
 TEGAME,Pentola bassa da cucina
 TEGAME,Pentola bassa per cotture lente
+TEGAME,Recipiente basso e largo per cuocere
+TEGAMI,"Pentole adatte a sughi, arrosti e cotture lente"
+TEGAMI,Recipienti bassi da cucina con manici
 TEGLIA,Recipiente largo da forno
+TEGLIE,Recipienti piatti usati nel forno
+TEGLIE,"Vassoi metallici per pizze, torte e arrosti"
 TEGOLA,Copre il tetto
+TEGOLE,Elementi sovrapposti che coprono i tetti
+TEGOLE,Lastre curve o piane che riparano dalla pioggia
 TEGUCIGALPA,La capitale honduregna
 TEHERAN,Capitale dell'Iran
 TEHERAN,Capitale iraniana ai piedi dell'Elburz
-TEIERA,Serve il tè
 TEIERA,Porta in tavola la bevanda delle cinque
+TEIERA,Serve il tè
 TEIERE,Portano in tavola l'infuso caldo
 TEINA,La caffeina quando sta nel tè
 TEL,In rubrica indica il numero da chiamare
 TELA,Aspetta colori sul cavalletto
-TELA,Superficie preparata per la pittura
-TELA,Quella che il ragno tesse
 TELA,Può essere tagliata in lembi
-TELAIO,Ossatura portante dell’automobile
+TELA,Quella che il ragno tesse
+TELA,Superficie preparata per la pittura
+TELAI,Macchine su cui si intrecciano trama e ordito
+TELAI,"Strutture che sostengono tessuti, veicoli o finestre"
 TELAIO,Macchina su cui si intrecciano ordito e trama
-TELAIO,Struttura che sostiene una bicicletta
+TELAIO,Ossatura portante dell’automobile
 TELAIO,Può essere a mano o meccanico nella tessitura
+TELAIO,Struttura che sostiene una bicicletta
 TELAMONE,Figura maschile che regge l'architettura
 TELAVIV,Metropoli israeliana sul Mediterraneo
-TELE,"Mezzo di comunicazione audiovisivo, in breve"
 TELE,"Il piccolo schermo, in breve"
+TELE,"Mezzo di comunicazione audiovisivo, in breve"
 TELECOMANDO,Cambia canale dal divano
 TELEFERICA,Sale sospesa su cavi di montagna
 TELEFONARE,Mettersi in contatto componendo un numero
@@ -334,25 +434,27 @@ TELEFONI,Fanno squillare case e tasche
 TELEFONINO,Il cellulare da tasca
 TELEFONINO,Il cellulare di qualche anno fa
 TELEFONO,...senza fili: il gioco dei messaggi distorti
-TELEFONO,Trasmette la voce a distanza
 TELEFONO,Fa viaggiare la voce a distanza
+TELEFONO,Trasmette la voce a distanza
 TELEGRAM,App di messaggistica col simbolo dell’aeroplanino
-TELEMACO,Il figlio di Ulisse e Penelope
 TELEMACO,Attende il ritorno del padre Ulisse
+TELEMACO,Il figlio di Ulisse e Penelope
 TELEOLOGIA,La dottrina del fine ultimo delle cose
 TELESCOPIO,Trasforma stelle in dettagli
 TELESCOPIUM,Il Telescopio dei cieli australi
 TELETHON,Raccolta fondi televisiva per la ricerca sulle malattie rare
+TELEVISIONE,Il piccolo schermo come mezzo di comunicazione
 TELEVISIONE,L'apparecchio coi programmi e i film
 TELEVISIONE,Trasmette programmi a distanza
-TELEVISIONE,Il piccolo schermo come mezzo di comunicazione
-TELEVISORE,Porta immagini e suoni in salotto
 TELEVISORE,Lo si accende col telecomando
+TELEVISORE,Porta immagini e suoni in salotto
 TELLINA,Piccolo mollusco bivalve di sabbia
 TELLURICO,"Della Terra, specie se trema"
 TELLURIO,Semimetallo raro
 TELOMERO,Estremità protettiva del cromosoma
 TELONE,Grande telo di copertura
+TELONI,"Coperture usate su camion, cantieri e campi sportivi"
+TELONI,Grandi teli robusti e impermeabili
 TEMA,Argomento da svolgere o motivo musicale
 TEMA,Il compito in classe di italiano
 TEMA,Motivo ricorrente in musica o letteratura
@@ -363,27 +465,35 @@ TEMERARIA,Audace oltre prudenza
 TEMERARIE,Audaci oltre prudenza
 TEMERARIO,Sfida il rischio più della prudenza
 TEMERE,"Chi non ha nulla da farsi, non lo prova"
+TEMI,Argomenti centrali di discorsi e opere
+TEMI,Componimenti assegnati a scuola
 TEMPERA,Colore da scuola e tecnica pittorica
 TEMPERAMATITE,Fa la punta alla matita
 TEMPERAMENTO,Indole personale
 TEMPERAMENTO,Può essere focoso o mite
+TEMPERE,Colori diluiti con acqua e legante
+TEMPERE,Tecniche pittoriche molto usate a scuola
+TEMPERI,Affili e prepari una matita
+TEMPERI,Renda meno estremo o più moderato
 TEMPERINO,Coltellino che fa la punta
 TEMPESTA,Disordine violento del cielo e del mare
-TEMPESTA,Una...in un bicchiere d'acqua
 TEMPESTA,"Può scoppiare anche in un bicchiere d’acqua, figuratamente"
 TEMPESTA,"Scatena vento, pioggia e onde"
+TEMPESTA,Una...in un bicchiere d'acqua
 TEMPESTE,Fanno tremare cielo e mare
 TEMPESTIVAMENTE,"Al momento giusto, senza ritardo"
 TEMPESTIVO,Arriva proprio quando serve
+TEMPI,Durate o momenti in cui avvengono i fatti
+TEMPI,Suddivisioni ritmiche della musica
 TEMPIA,Il lato del capo tra occhio e orecchio
 TEMPIO,Casa monumentale di una divinità
+TEMPO,Era il periodo delle grandi scoperte
 TEMPO,"Passa, si misura, si perde"
 TEMPO,Quello atmosferico col sole o la pioggia
 TEMPO,"È denaro, secondo il proverbio"
-TEMPO,Era il periodo delle grandi scoperte
+TEMPORALE,Perturbazione breve ma intensa
 TEMPORALE,Perturbazione con lampi e tuoni
 TEMPORALE,"Scoppia con lampi, tuoni e rovesci"
-TEMPORALE,Perturbazione breve ma intensa
 TEMPORALESCO,Da cielo carico di pioggia
 TEMPORANEAMENTE,Per un periodo limitato
 TEMPORANEO,Destinato a durare poco
@@ -393,23 +503,29 @@ TENACIA,Costanza che non cede agli ostacoli
 TENACIA,La qualità di chi insiste fino in fondo
 TENAGLIA,Afferra e strappa chiodi
 TENAGLIA,Stringe con due ganasce articolate
+TENAGLIE,Attrezzi metallici usati da fabbri e falegnami
+TENAGLIE,Utensili a due bracci per afferrare o tagliare
 TENCO,Il cantautore di Ciao amore ciao
+TENDA,Arreda la finestra e filtra la luce
 TENDA,Il riparo di tela del campeggio
 TENDA,Quella che ripara la finestra dal sole
 TENDA,Riparo di tela o cortina domestica
-TENDA,Arreda la finestra e filtra la luce
+TENDAGGI,Insiemi di tende decorative
+TENDAGGI,Rivestimenti tessili applicati a finestre e palchi
 TENDAGGIO,Insieme di tende e drappeggi
 TENDE,Filtrano luce e sguardi alle finestre
 TENDENZA,Orientamento che si afferma nel tempo
 TENDENZA,Può diventare una moda
 TENDENZIOSO,Inclina l'argomento verso una tesi
 TENDER,Carro della locomotiva per acqua e carbone
-TENDERE,Tirare fino a rendere teso
 TENDERE,Essere incline verso un risultato
+TENDERE,Tirare fino a rendere teso
+TENDINE,Cordone fibroso che collega muscolo e osso
 TENDINE,Le piccole tende alle finestre
 TENDINE,Unisce muscolo e osso
-TENDINE,Cordone fibroso che collega muscolo e osso
 TENDONE,Grande copertura da circo o mercato
+TENDONI,Grandi coperture di tela
+TENDONI,"Strutture che ospitano circhi, spettacoli o mercati"
 TENEBRE,"Buio fitto, spesso figurato"
 TENEBROSA,Oscura e cupa
 TENEBROSE,Oscure e cupe
@@ -417,36 +533,40 @@ TENEBROSI,Oscuri e cupi
 TENEBROSO,Oscuro e cupo
 TENERA,La verde... età della gioventù
 TENERA,Morbida o affettuosa
+TENERE,Conservare presso di sé
 TENERE,Morbide o affettuose
 TENERE,Resistere senza cedere
-TENERE,Conservare presso di sé
-TENEREZZA,Sentimento dolce e affettuoso
 TENEREZZA,Morbidezza al morso o al tatto
+TENEREZZA,Sentimento dolce e affettuoso
 TENERI,Morbidi o affettuosi
-TENERIFE,Meta canaria dominata dal vulcano Teide
 TENERIFE,L’isola delle Canarie con il Teide
-TENERO,Morbido o affettuoso
-TENERO,Facile da masticare
+TENERIFE,Meta canaria dominata dal vulcano Teide
 TENERO,Affettuoso e delicato
+TENERO,Facile da masticare
+TENERO,Morbido o affettuoso
 TENGRI,Il dio del cielo dei popoli delle steppe
 TENNESSEE,Lo Stato americano di Nashville e Memphis
 TENNIS,Lo sport del dritto e del rovescio
 TENORE,"Il...di vita, lo standard economico"
 TENORE,Voce lirica maschile o contenuto di un discorso
-TENSIONE,Forza che tende un corpo
+TENORI,Cantanti maschili dalle voci acute
+TENORI,Contenuti generali di discorsi o documenti
 TENSIONE,Clima nervoso prima di una prova
+TENSIONE,Forza che tende un corpo
 TENTA,Prova a fare
 TENTARE,Cercare di riuscire senza garanzia
-TENTARE,Provare a riuscire
 TENTARE,Esporsi al rischio di un’impresa
+TENTARE,Provare a riuscire
 TENTATIVO,Prova fatta senza certezza di riuscire
 TENTATIVO,Può andare a vuoto
 TENTATO,Provato a fare
 TENTAZIONE,Desiderio difficile da respingere
 TENTENNO,Sono incerto se agire
 TENTO,Provo a fare
-TENUTA,Grande proprietà agricola
 TENUTA,Capacità di resistere senza cedere
+TENUTA,Grande proprietà agricola
+TENUTE,Abiti completi adatti a una certa occasione
+TENUTE,Proprietà agricole con edifici e terreni
 TENZONE,Contesa poetica o cavalleresca
 TEO,Prefisso del divino
 TEOCRAZIA,Potere politico fondato sul sacro
@@ -455,45 +575,55 @@ TEODORICO,Re degli Ostrogoti a Ravenna
 TEOLOGIA,Lo studio razionale di Dio
 TEORBA,Liuto barocco dal lungo manico
 TEORIA,"Fila, ipotesi o sistema"
-TEORIA,Spiegazione fondata su principi
 TEORIA,Ipotesi organizzata in un sistema
+TEORIA,Spiegazione fondata su principi
 TEORICO,Fondato sui principi più che sulla pratica
 TEORICO,Possibile soltanto sulla carta
+TEORIE,Ipotesi organizzate e sostenute da argomenti
+TEORIE,Sistemi di idee che spiegano fenomeni
 TEPIDARIO,La sala tiepida delle terme
 TEQUILA,Il distillato messicano dell'agave
 TERAPEUTICO,Destinato alla cura
 TERAPEUTICO,Può esserlo l’effetto di un farmaco
-TERAPIA,Trattamento contro una malattia
 TERAPIA,Può prevedere farmaci o riabilitazione
+TERAPIA,Trattamento contro una malattia
 TEREBINTO,Albero mediterraneo resinoso
 TEREBRANTE,Penetra o tormenta come un trapano
 TERESA,Il nome della religiosa di Calcutta
 TERESA,"Santa...d'Avila, la grande mistica"
+TERGERE,"Asciugare lacrime, sudore o vetri"
+TERGERE,Pulire strofinando delicatamente
+TERGI,Elimini gocce e sporco da un vetro
+TERGI,Pulisci strofinando una superficie
+TERGO,Asciugo eliminando umidità o lacrime
+TERGO,Pulisco strofinando una superficie
 TERIYAKI,Salsa giapponese dolce e lucida
-TERME,Bagni pubblici già celebri nell’antica Roma
 TERME,Bagni d'acque curative
+TERME,Bagni pubblici già celebri nell’antica Roma
 TERME,Le...di Caracalla a Roma
 TERMINA,Porta alla fine
-TERMINALE,Punto finale o dispositivo informatico
 TERMINALE,Estremità di una linea o di un impianto
-TERMINARE,Portare alla fine
+TERMINALE,Punto finale o dispositivo informatico
 TERMINARE,Portare a conclusione
+TERMINARE,Portare alla fine
 TERMINARE,Può portare a smettere
 TERMINATO,Portato alla fine
 TERMINATOR,Il cyborg interpretato da Schwarzenegger
 TERMINE,"Fine, parola o scadenza"
-TERMINE,Parte finale di qualcosa
 TERMINE,Parola o espressione specifica
+TERMINE,Parte finale di qualcosa
 TERMINO,Porto alla fine
 TERMINOLOGIA,Insieme dei vocaboli propri di una disciplina
 TERMITE,Insetto sociale che divora il legno
+TERMITI,Abitanti di colonie con regine e soldati
+TERMITI,Insetti sociali che possono danneggiare il legno
+TERMOMETRO,Indica gradi Celsius o Fahrenheit
 TERMOMETRO,Può misurare anche figurativamente il clima di una situazione
 TERMOMETRO,Sale quando aumenta la temperatura
-TERMOMETRO,Indica gradi Celsius o Fahrenheit
 TERMOPOLIO,Banco caldo nelle strade romane
 TERMOS,Conserva caldo o freddo nel viaggio
-TERMOSIFONE,Scalda la stanza d'inverno
 TERMOSIFONE,Il radiatore domestico
+TERMOSIFONE,Scalda la stanza d'inverno
 TERNI,Città umbra delle acciaierie e di San Valentino
 TERNO,Tre numeri fortunati al lotto
 TERRA,Il nostro pianeta o il suolo
@@ -510,26 +640,32 @@ TERRAPIENO,Rialzo artificiale di terra
 TERRARIO,Piccolo ambiente chiuso per rettili e piante
 TERRARIO,Recinto di vetro per rettili e piante
 TERRAZZA,Spazio scoperto sopra o davanti a casa
+TERRAZZI,Spazi aperti rialzati collegati agli edifici
+TERRAZZI,Superfici esterne dove si tengono piante e arredi
 TERRAZZINO,Il piccolo balcone
 TERRAZZO,Lo spazio aperto sul tetto o al piano
 TERRAZZO,Spazio aperto sopra o accanto alla casa
 TERRAZZO,Spesso è protetto da una ringhiera
+TERRE,Paesi considerati come luoghi d'origine
+TERRE,Suoli coltivabili o regioni emerse
 TERREMOTO,Movimento improvviso della crosta terrestre
-TERREMOTO,Uno sconvolgimento improvviso e totale
 TERREMOTO,Può sconvolgere una città in pochi secondi
-TERRENO,Parte superficiale della crosta terrestre sulla quale si sta o si cammina
+TERREMOTO,Uno sconvolgimento improvviso e totale
+TERRENI,Appezzamenti destinati a coltivazioni o costruzioni
+TERRENI,Superfici del suolo con particolari caratteristiche
 TERRENO,Appezzamento da coltivare o costruire
+TERRENO,Parte superficiale della crosta terrestre sulla quale si sta o si cammina
 TERRIBILE,Capace di incutere paura
 TERRIBILMENTE,In modo spaventoso
 TERRIBILMENTE,"Molto, con valore intensivo"
-TERRICCIO,Terra pronta per vasi e semi
 TERRICCIO,Substrato soffice per vasi e semine
+TERRICCIO,Terra pronta per vasi e semi
 TERRINA,Recipiente profondo da cucina
 TERRITORIO,Area soggetta a un’autorità
 TERRITORIO,Spazio abitato o controllato da una comunità
-TERRORE,Paura portata al massimo
 TERRORE,Paura estrema accompagnata dall’istinto di fuggire
 TERRORE,Paura estrema che spinge alla fuga
+TERRORE,Paura portata al massimo
 TERRY,Il nome dello scrittore fantasy Pratchett
 TERSICORE,La musa della danza
 TERSITE,Il brutto e insolente guerriero dell'Iliade
@@ -543,28 +679,38 @@ TERZO,"Il...mondo, i Paesi in via di sviluppo"
 TERZO,Quello che sale sul gradino più basso del podio
 TERZO,Segue il secondo
 TESA,La parte sporgente di un cappello
-TESCHIO,Il cranio scarnificato
+TESCHI,Ossa che proteggono il cervello
+TESCHI,Simboli raffigurati spesso con due ossa incrociate
 TESCHIO,Ciò che resta del capo dopo la scomparsa dei tessuti
+TESCHIO,Il cranio scarnificato
 TESCHIO,Proteggeva il cervello quando era vivo
 TESEO,Uccise il Minotauro
 TESEO,Uscì dal labirinto grazie a un filo
+TESI,Argomentazione da dimostrare o discutere
 TESI,Il lavoro finale per la laurea
 TESI,La proposizione che si vuole sostenere
-TESI,Argomentazione da dimostrare o discutere
 TESLA,Il Nikola della corrente alternata
 TESLA,L'auto elettrica di Elon Musk
 TESO,"Nervoso, in ansia"
 TESO,Stirato o nervoso
 TESORI,Si cercano nelle mappe dei pirati
-TESORO,Si dice alla persona amata
 TESORO,I pirati lo cercano seguendo una mappa
-TESORO,Ricchezza preziosa tenuta nascosta
 TESORO,Persona o cosa di grande valore
+TESORO,Ricchezza preziosa tenuta nascosta
+TESORO,Si dice alla persona amata
 TESSAGLIA,Regione della Grecia centrale
-TESSERA,Piccolo pezzo di mosaico o documento associativo
 TESSERA,Dà accesso a un club o a un servizio
+TESSERA,Piccolo pezzo di mosaico o documento associativo
+TESSERE,Documenti personali che attestano iscrizioni o diritti
+TESSERE,Piccoli elementi che formano mosaici
+TESSILI,Materiali destinati a essere intrecciati o lavorati
+TESSILI,Relativi alla produzione di filati e stoffe
 TESSITORE,Lavora al telaio i fili in stoffa
 TESSITURA,Intreccio di fili o trama sonora
+TESSUTE,"Costruite con pazienza, dette di trame o relazioni"
+TESSUTE,Prodotte intrecciando fili
+TESSUTI,Insiemi di cellule con funzioni comuni
+TESSUTI,Materiali ottenuti intrecciando fili
 TESSUTO,Insieme organizzato di cellule
 TESSUTO,Materiale formato da fili intrecciati
 TESSUTO,Può essere tagliato in lembi
@@ -577,19 +723,25 @@ TESTA,Quella o croce nel lancio della monetina
 TESTARDAGGINE,Fa insistere anche contro l’evidenza
 TESTARE,Sottoporre a una prova
 TESTARE,Verificare prima dell’uso
+TESTATE,Colpi dati con la testa
+TESTATE,Nomi ufficiali di giornali e periodici
+TESTE,Parti superiori del corpo
+TESTE,Persone considerate per capacità o responsabilità
+TESTI,Insiemi organizzati di parole scritte
+TESTI,Libri adottati per lo studio
 TESTIMONE,Persona presente a un fatto rilevante
-TESTIMONIANZA,Racconto di chi ha assistito a un fatto
 TESTIMONIANZA,Può essere resa in tribunale
-TESTIMONIARE,Riferire ciò che si è visto
+TESTIMONIANZA,Racconto di chi ha assistito a un fatto
 TESTIMONIARE,Deporre davanti a un giudice
+TESTIMONIARE,Riferire ciò che si è visto
 TESTO,"Il vaso di coccio, o le parole scritte di un brano"
 TESTO,Le parole di una canzone
 TESTUALMENTE,Parola per parola
-TESTUGGINE,"Tartaruga, con nome più solenne"
 TESTUGGINE,Ha il corpo protetto da un carapace
+TESTUGGINE,"Tartaruga, con nome più solenne"
 TETA,Angolo scritto alla greca
-TETI,Nereide madre di Achille
 TETI,Immerse il figlio nello Stige per renderlo invulnerabile
+TETI,Nereide madre di Achille
 TETRA,Cupa e triste
 TETRAEDRO,Solido a quattro facce triangolari
 TETRAGONO,"Resistente e saldo, da figura a quattro angoli"
@@ -598,8 +750,12 @@ TETRE,Cupe e tristi
 TETRI,Cupi e tristi
 TETRIS,Il videogioco russo dei mattoncini che cadono
 TETRO,Cupo e triste
+TETTI,Coperture superiori degli edifici
+TETTI,Limiti massimi imposti a prezzi o spese
 TETTO,Copre la casa e limita la spesa
 TETTOIA,Riparo leggero contro sole e pioggia
+TETTOIE,Coperture sostenute da pilastri o mensole
+TETTOIE,Ripari aperti lateralmente per mezzi e persone
 TETTONICA,Studio delle strutture della crosta terrestre
 TEVERE,Il fiume di Roma
 TEVEZ,"Carlos, l'Apache argentino della Juventus"
@@ -635,6 +791,8 @@ TIBET,Altopiano asiatico vicino al cielo
 TIBETANI,Popolo dell'altopiano dell'Himalaya
 TIBIA,Antico flauto dei Romani
 TIBIA,Osso anteriore della gamba
+TIBIE,Ossa anteriori delle gambe
+TIBIE,Segmenti scheletrici tra ginocchia e caviglie
 TIBURIO,Struttura che racchiude la cupola
 TIC,Il...tac dell'orologio
 TIC,Scatto nervoso e ripetuto
@@ -657,15 +815,23 @@ TIFFANY,La gioielleria newyorkese dell'azzurro
 TIFO,Febbre da stadio o malattia storica
 TIFO,La malattia infettiva trasmessa dai pidocchi
 TIFONE,Ciclone tropicale dei mari asiatici
+TIFONI,Tempeste con venti fortissimi e piogge intense
+TIFONI,Violenti cicloni tropicali dell'Asia orientale
+TIFOSI,Persone che seguono gare facendo il tifo
+TIFOSI,Sostenitori appassionati di squadre o atleti
 TIFOSO,Sostiene la squadra dagli spalti
 TIGELLA,Il pane tondo emiliano da farcire
 TIGHT,Giacca maschile da cerimonia diurna
+TIGLI,Alberi dai fiori profumati usati in infuso
+TIGLI,Piante da viale dalla chioma ampia
 TIGLIO,Albero dai fiori usati in tisana
 TIGLIO,Albero profumato dei viali
 TIGNOSA,Testarda e puntigliosa
 TIGNOSE,Testarde e puntigliose
 TIGNOSI,Testardi e puntigliosi
 TIGNOSO,Testardo e puntiglioso
+TIGRATE,Con un disegno che ricorda un grande felino
+TIGRATE,Segnate da strisce scure e chiare
 TIGRE,...di carta: nemico solo apparente
 TIGRE,Felino rigato e aggressivo
 TIGRE,Grande felino striato
@@ -678,46 +844,56 @@ TILDE,Segno ondulato sopra certe lettere
 TIM,Il nome del regista Burton
 TIM,L'operatore telefonico ex Telecom
 TIMBALES,I tamburi metallici della musica latina
+TIMBRI,Impronte lasciate da matrici inchiostrate
+TIMBRI,Qualità caratteristiche di voci e strumenti
+TIMBRO,Colore caratteristico di una voce
 TIMBRO,Il colore di una voce o di uno strumento
 TIMBRO,Segno ufficiale impresso su un documento
-TIMBRO,Colore caratteristico di una voce
 TIMBUCTU,Leggendaria città carovaniera del Mali
-TIMIDEZZA,L'imbarazzo di chi è riservato
 TIMIDEZZA,Imbarazzo che frena in compagnia
+TIMIDEZZA,L'imbarazzo di chi è riservato
 TIMIDO,Arrossisce per un nulla
 TIMIDO,Riservato e poco incline a esporsi
 TIMO,Aroma mediterraneo e ghiandola
 TIMO,Erba aromatica per arrosti e infusi
 TIMO,L'aromatica erbacea usata in cucina
 TIMON,Il suricato del Re Leone
-TIMONE,Dà direzione a barche e aerei
-TIMONE,Ruota o barra che orienta la nave
 TIMONE,Chi lo regge decide la rotta
+TIMONE,Dà direzione a barche e aerei
 TIMONE,Reggere il...: tenere la guida
+TIMONE,Ruota o barra che orienta la nave
+TIMONI,Grandi ruote o leve manovrate dal pilota
+TIMONI,Organi usati per dirigere navi e aerei
 TIMONIERA,Cabina di comando della nave
 TIMONIERE,Governa il timone dell'imbarcazione
 TIMOR,Isola divisa tra Indonesia e uno Stato
 TIMORE,"Il...di Dio, il rispetto reverenziale"
 TIMORE,Paura con educazione
 TIMORE,Paura contenuta ma persistente
+TIMORI,Paure e apprensioni
+TIMORI,Preoccupazioni per possibili pericoli
 TIMOTHY,Il nome dell'attore Chalamet
 TIMPANELLO,Piccolo frontone decorativo
 TIMPANO,Membrana dell'orecchio
 TINCA,Pesce d'acqua dolce dei fondali melmosi
 TINDER,L'app degli incontri con lo swipe
 TINELLO,Stanza di casa per pasti familiari
-TINO,Vasca da cantina
 TINO,Grande recipiente per la fermentazione
+TINO,Vasca da cantina
 TINSE,Diede colore
 TINTA,Colore o colorazione dei capelli
 TINTA,Colore steso o naturale
 TINTA,In...unita: di un solo colore
 TINTA,Una mano di colore sulla parete
+TINTE,"Colori applicati a capelli, stoffe o pareti"
+TINTE,Tonalità che caratterizzano un'immagine
 TINTIN,Il giovane reporter belga del ciuffo
 TINTINNIO,Il suono argentino di campanelli
 TINTORE,Colora stoffe e tessuti
 TINTORETTO,Il Jacopo Robusti pittore veneziano
 TINTURA,Preparato usato per colorare capelli o tessuti
+TIPI,Categorie o modelli differenti
+TIPI,Individui dal carattere particolare
 TIPICO,Proprio e caratteristico di un luogo o gruppo
 TIPICO,Quello che ci si aspetta da un certo tipo
 TIPO,"Il gruppo sanguigno: A, B, AB o 0"
@@ -725,8 +901,8 @@ TIPO,Individuo generico o modello
 TIPO,L'individuo: un... strano
 TIPOGRAFIA,Officina in cui si compongono e stampano testi
 TIPOGRAFIA,Stampa con caratteri mobili
-TIPOGRAFO,Stampa libri e giornali
 TIPOGRAFO,Componeva e stampava testi con caratteri mobili
+TIPOGRAFO,Stampa libri e giornali
 TIR,Bestione autostradale
 TIR,Il grosso autoarticolato delle merci
 TIRA,... e molla: l'andirivieni indeciso
@@ -737,30 +913,42 @@ TIRAMISU,Dolce al mascarpone e caffè
 TIRANA,"Capitale albanese, non lontana dall'Adriatico"
 TIRANNIA,Dominio oppressivo imposto con la forza
 TIRANNO,Governa con la paura invece che con il consenso
-TIRANNO,Sovrano assoluto e oppressivo
 TIRANNO,Non ammette opposizione
+TIRANNO,Sovrano assoluto e oppressivo
 TIRANNOSAURO,Il grande dinosauro carnivoro dalle piccole zampe
-TIRARE,Trarre verso di sé
+TIRANTI,Elementi tesi che sostengono una struttura
+TIRANTI,"Superbi e autoritari, in un uso letterario"
 TIRARE,Fare fuoco con un’arma
 TIRARE,Scagliare lontano
+TIRARE,Trarre verso di sé
 TIRATA,Una lunga predica o una boccata di fumo
-TIRATO,Tratto verso di sé
+TIRATE,"Lunghe sequenze di colpi, parole o copie"
+TIRATE,Trainate o mosse verso di sé
+TIRATI,Molto tesi o avari nel comportamento
+TIRATI,Trainati o mossi verso chi agisce
 TIRATO,Restio a spendere
+TIRATO,Tratto verso di sé
+TIRATORI,Atleti o soldati specializzati nel colpire bersagli
+TIRATORI,"Persone che lanciano, sparano o calciano verso una meta"
 TIRESIA,L'indovino cieco di Tebe
 TIRETTO,Cassetto piccolo
+TIRI,Lanci diretti verso un bersaglio
+TIRI,Muovi qualcosa verso di te
+TIRINO,Lancino o sparino verso un bersaglio
+TIRINO,Muovano qualcosa verso di sé
 TIRISTORE,Dispositivo a semiconduttore controllato
 TIRO,"Colpo, lancio o scherzo"
 TIRO,"Il... con l'arco, disciplina olimpica"
-TIRO,Lo scherzo: giocare un brutto...
 TIRO,Insieme di animali necessari per trainare un veicolo
+TIRO,Lo scherzo: giocare un brutto...
 TIROIDE,Ghiandola del collo che regola il metabolismo
 TIRRENO,Mare a ovest dell'Italia
 TIRRENO,Mare tra isole e costa occidentale italiana
 TIRSO,Bastone sacro a Dioniso
-TISANA,Si prepara lasciando erbe in acqua calda
-TISANA,Può favorire digestione o riposo
-TISANA,Bevanda senza tè ottenuta da piante officinali
 TISANA,Bevanda ottenuta lasciando erbe in acqua calda
+TISANA,Bevanda senza tè ottenuta da piante officinali
+TISANA,Può favorire digestione o riposo
+TISANA,Si prepara lasciando erbe in acqua calda
 TISSOT,La marca svizzera di orologi
 TITANI,Antichi giganti sconfitti dagli dei olimpici
 TITANIC,Il kolossal di Cameron sul transatlantico
@@ -770,14 +958,18 @@ TITANO,La maggiore luna di Saturno
 TITANO,Ognuno dei giganti figli del Cielo nel mito
 TITANO,Persona di forza o grandezza eccezionale
 TITICACA,Il lago navigabile più alto del mondo
-TITOLARE,Possiede legalmente un diritto o un’attività
 TITOLARE,"Gioca dall’inizio, non dalla panchina"
+TITOLARE,Possiede legalmente un diritto o un’attività
+TITOLI,"Nomi attribuiti a libri, film e opere"
+TITOLI,Strumenti finanziari negoziati sui mercati
 TITOLO,...di Stato: l'obbligazione del debito pubblico
 TITOLO,Apre l'articolo del giornale
 TITOLO,"Il...di studio, la laurea o il diploma"
 TITOLO,Qualifica che attribuisce un rango
 TITTI,Il canarino giallo dei cartoni
 TITUBANZA,Incertezza che rallenta il passo
+TITUBI,Mostri esitazione e incertezza
+TITUBI,Vacilli prima di prendere una decisione
 TIZIANO,"...Ferro, il cantante"
 TIZIANO,Il Vecellio pittore veneziano
 TIZIO,"Persona non meglio definita, la cui identità sia ininfluente nel discorso"
@@ -795,29 +987,41 @@ TOBLERONE,Il cioccolato svizzero a forma di montagna
 TOBOGA,Lo scivolo acquatico o la slitta da discesa
 TOCCA,Sfiora con mano
 TOCCARE,Entrare appena in contatto
-TOCCARE,Spettare a qualcuno: ora tocca a lui
 TOCCARE,Sfiorare o colpire con la mano
-TOCCATO,Sfiorato con mano
+TOCCARE,Spettare a qualcuno: ora tocca a lui
+TOCCATE,Composizioni musicali libere per strumenti a tastiera
+TOCCATE,Sfiorate o raggiunte con un contatto
+TOCCATI,Commosso profondamente da parole o eventi
+TOCCATI,Sfiorati o raggiunti con un contatto
 TOCCATO,Commosso nell’animo
+TOCCATO,Sfiorato con mano
 TOCCHERA,Sfiorerà con mano
+TOCCHI,Contatti brevi con dita o oggetti
+TOCCHI,Piccoli interventi che completano un'opera
 TOCCO,Il berretto quadrato dei neolaureati
-TOCCO,Sfioro con la mano
 TOCCO,Lo stile riconoscibile di un autore
+TOCCO,Sfioro con la mano
 TODD,Il nome del barbiere assassino Sweeney
 TODI,Città umbra amata dai turisti
 TOFU,Il formaggio di soia
 TOGA,Abito del giudice e dell'antico romano
 TOGA,Abito di foro e antica Roma
 TOGA,La veste solenne dei magistrati
+TOGHE,Abiti drappeggiati dell'antica Roma
+TOGHE,Vesti solenni di magistrati e avvocati
+TOGLI,Rimuovi qualcosa dal suo posto
+TOGLI,Sottrai una quantità da un'altra
 TOGLIATTI,Il Palmiro della svolta di Salerno
-TOGLIERE,Portare via ciò che c’era
+TOGLIE,Rimuove qualcosa dal suo posto
+TOGLIE,Sottrae una quantità da un'altra
 TOGLIERE,Far sparire un ostacolo
+TOGLIERE,Portare via ciò che c’era
 TOGLIERSI,Liberarsi di qualcosa che si indossa o pesa
 TOGNAZZI,"L'attore italiano del Vizietto, Ugo"
 TOGO,Piccolo Stato del Golfo di Guinea
+TOILETTE,Comprende cura personale e abbigliamento
 TOILETTE,L'abbigliamento curato e i servizi igienici
 TOILETTE,"Una stanza (in una casa) tipicamente con lavandino, vasca o doccia, e water"
-TOILETTE,Comprende cura personale e abbigliamento
 TOKYO,...la rapinatrice de La casa di carta
 TOKYO,La capitale del Giappone
 TOKYO,Metropoli giapponese tra neon e templi
@@ -826,19 +1030,21 @@ TOLDO,Copertura di tela su barche e terrazze
 TOLEDO,Città spagnola del Greco
 TOLKIEN,Creò la Terra di Mezzo
 TOLLERANZA,Capacità di accettare differenze o sopportare dosi
-TOLLERARE,Sopportare senza reagire
 TOLLERARE,Ammettere pur senza approvare
+TOLLERARE,Sopportare senza reagire
 TOLOMEO,Astronomo del sistema geocentrico
 TOLOSA,Città del sud-ovest francese
 TOLSTOJ,Il Lev di Guerra e pace
 TOLSTOJ,"Scrittore di guerra, pace e Anna Karenina"
 TOM,Il nome dell'attore Hanks
-TOMASI,Il principe siciliano autore del Gattopardo
 TOMASI,"Giuseppe, narratore del tramonto aristocratico"
+TOMASI,Il principe siciliano autore del Gattopardo
 TOMBA,"Alberto, la Bomba dello sci azzurro"
 TOMBA,Casa finale e verbo che precipita
 TOMBA,Può essere segnata da una lapide
 TOMBACCO,Lega di rame e zinco simile all'oro
+TOMBE,Luoghi in cui vengono deposti i defunti
+TOMBE,Monumenti funerari sopra o sotto terra
 TOMBINO,Chiude un accesso sotto la strada
 TOMBINO,Copre un’apertura nella strada
 TOMBINO,Dà accesso a una condotta sotterranea
@@ -849,18 +1055,34 @@ TOMO,"Il grosso libro, o un tipo strambo"
 TOMTOM,La marca olandese di navigatori satellitari
 TONACA,Abito religioso lungo
 TONACA,La lunga veste del frate e del prete
+TONACHE,Strati membranosi che rivestono organi
+TONACHE,Vesti lunghe indossate da religiosi
 TONALI,"Sandro, centrocampista italiano"
-TONALITA,Gradazione di un colore
 TONALITA,Altezza o colore di una voce
+TONALITA,Gradazione di un colore
+TONDE,Di forma circolare o arrotondata
+TONDE,Morbide e piene nelle linee
+TONDI,Caratteri tipografici non inclinati
+TONDI,Di forma circolare o arrotondata
 TONDO,"Circolare, ma anche segno grafico"
 TONDO,Di forma circolare
 TONDO,Privo di spigoli
+TONFI,Colpi pesanti contro superfici
+TONFI,Rumori sordi prodotti da cadute
 TONFO,Caduta che si sente
 TONFO,Rumore sordo di una caduta
 TONGA,Regno polinesiano
+TONGHE,Calzature leggere con fascia tra le dita
+TONGHE,Sandali da spiaggia ridotti all'essenziale
 TONI,Le sfumature di colore o di suono
 TONI,"Luca, bomber altissimo del Mondiale 2006"
+TONNARE,Impianti costieri tradizionali per la pesca
+TONNARE,Sistemi di reti fisse usati per catturare grandi pesci migratori
+TONNE,"Grandi quantità, nel linguaggio comune"
+TONNE,"Migliaia di chilogrammi, in forma abbreviata"
 TONNELLATA,Unità di peso di mille chili
+TONNI,Grandi pesci marini dalla carne compatta
+TONNI,Nuotatori veloci pescati anche in grandi reti
 TONNO,Pesce grande che finisce in scatola
 TONO,Altezza della voce o sfumatura
 TONO,Darsi un...: assumere un'aria d'importanza
@@ -870,10 +1092,12 @@ TONSILLITE,Infiammazione delle tonsille
 TONSURA,Rasatura rituale dei chierici
 TONY,I premi del teatro di Broadway
 TONY,Il nome dello Stark di Iron Man
+TOP,Il livello più alto
 TOP,"Il massimo, il meglio"
 TOP,"Il massimo, in inglese entrato nell'uso"
-TOP,Il livello più alto
 TOPAZIO,Pietra gialla o azzurra
+TOPI,Dispositivi usati per comandare il puntatore di un computer
+TOPI,Piccoli roditori dalla lunga coda
 TOPIARIA,Arte di potare siepi in figure
 TOPINAMBUR,Tubero dal sapore di carciofo
 TOPINO,Il piccolo del topo
@@ -882,57 +1106,71 @@ TOPO,"Il...di biblioteca, lo studioso accanito"
 TOPO,Roditore che ama il formaggio nei cartoni
 TOPO,Roditore e informatore in gergo
 TOPOLINO,Il celebre topo di Disney
-TOPOLINO,Un piccolo topo
 TOPOLINO,Il giornalino Disney per antonomasia
+TOPOLINO,Un piccolo topo
 TOPORAGNO,Minuscolo mammifero insettivoro
 TOPPA,Mettere una...: rimediare alla meglio
-TOPPA,Pezzo di stoffa usato per una riparazione
 TOPPA,Pezzo applicato per coprire un buco
+TOPPA,Pezzo di stoffa usato per una riparazione
+TOPPE,Pezzi applicati per coprire strappi o buchi
+TOPPE,Rimedi provvisori che non risolvono il problema
+TORACE,Parte del busto protetta dalle costole
 TORACE,Parte del corpo tra collo e addome
 TORACE,Sede di cuore e polmoni
-TORACE,Parte del busto protetta dalle costole
 TORBA,Terra scura da paludi e giardinieri
 TORBIDA,Non limpida
 TORBIDE,Non limpide
 TORBIDI,Non limpidi
 TORBIDO,Non limpido
 TORBIERA,Il terreno paludoso ricco di torba
+TORCE,Fasci di materiale combustibile accesi a mano
+TORCE,Fonti portatili di luce
+TORCHI,Antichi strumenti usati anche per stampare
+TORCHI,"Macchine che comprimono uva, olive o carta"
+TORCHIO,Macchina che esercita una forte pressione
 TORCHIO,"Preme uva, olive o carta"
 TORCHIO,Sotto...: messo alle strette
-TORCHIO,Macchina che esercita una forte pressione
-TORCIA,Sostituisce la luce quando manca corrente
-TORCIA,Passa di mano nella staffetta olimpica
-TORCIA,Fiaccola portatile con una fiamma
 TORCIA,Compagna del campeggio notturno
+TORCIA,Fiaccola portatile con una fiamma
+TORCIA,Passa di mano nella staffetta olimpica
+TORCIA,Sostituisce la luce quando manca corrente
 TORCIERA,Alto sostegno per fiaccole o lampade
+TORDI,Uccelli dal canto melodioso simili ai merli
+TORDI,Volatili di bosco che si nutrono anche di bacche
 TORDO,"Lo sciocco, il credulone"
 TORDO,Uccello canoro dei boschi
 TORERO,Chi sfida il toro nell'arena
 TORERO,Si veste di luce davanti al toro
+TORI,Maschi adulti dei bovini
+TORI,Segni zodiacali associati alla primavera
 TORINO,Città della Mole Antonelliana
 TORINO,"La squadra granata, il...calcio"
 TORMALINA,Pietra dura dai molti colori
 TORMENTATO,Agitato da pensieri dolorosi
 TORMENTATO,Segnato da vicende difficili
 TORMENTO,Dolore che insiste
-TORMENTO,Sofferenza che non dà tregua
 TORMENTO,Pensiero doloroso e insistente
+TORMENTO,Sofferenza che non dà tregua
 TORNA,Viene di nuovo
 TORNACONTO,Vantaggio personale cercato in una scelta
 TORNADO,Vortice che alza tetti e polvere
-TORNARE,Venire di nuovo
 TORNARE,Rientrare nel luogo di partenza
+TORNARE,Venire di nuovo
 TORNATO,Venuto di nuovo
 TORNATORE,Il Giuseppe di Nuovo Cinema Paradiso
+TORNEI,Competizioni organizzate in più incontri
+TORNEI,Gare a eliminazione o a gironi
 TORNEO,Competizione di molti incontri
 TORNEO,La giostra cavalleresca medievale
 TORNEO,Serie di gare che porta a un vincitore finale
+TORNI,Macchine utensili che fanno ruotare il pezzo
+TORNI,Rientri nel luogo da cui eri partito
 TORNIO,Macchina che modella girando
 TORNITORE,Lavora i pezzi al tornio
 TORNO,Vengo di nuovo
+TORO,Chi punta sul rialzo dei mercati
 TORO,Il segno zodiacale di maggio
 TORO,"Segno, bovino e piazza finanziaria"
-TORO,Chi punta sul rialzo dei mercati
 TORONTO,La metropoli canadese della CN Tower
 TORPEDINE,Pesce elettrico e vecchia arma navale
 TORPEDONE,Pullman da comitiva
@@ -948,23 +1186,27 @@ TORRICELLI,"Evangelista, lo scienziato del barometro"
 TORRIONE,Grande torre di difesa
 TORRONCINO,Dolcetto duro di miele e mandorle
 TORRONE,Dolce di miele e mandorle
-TORSO,Parte del corpo umano compresa tra il collo e il bacino
 TORSO,"Comprende petto, addome e schiena"
+TORSO,Parte del corpo umano compresa tra il collo e il bacino
 TORTA,Dolce da candeline e fette
 TORTA,Il dolce delle feste di compleanno
 TORTA,Spartirsi la...: dividersi il bottino
 TORTE,Si tagliano alle feste
 TORTELLINI,Pasta ripiena emiliana
+TORTI,Ingiustizie subite
+TORTI,Piegati e non diritti
 TORTIERA,Stampo per cuocere le torte
 TORTO,Lui ha...: ha sbagliato
-TORTO,Ragione perduta
 TORTO,Offesa o ingiustizia subita
+TORTO,Ragione perduta
 TORTOLI,Centro sardo vicino ad Arbatax
 TORTORA,Grigio tendente al beige
 TORTORA,Uccello dal verso malinconico
+TORTORE,Uccelli simili a piccoli colombi
+TORTORE,Volatili dal canto dolce e ripetuto
 TORTU,"Filippo, velocista azzurro oro nella staffetta"
-TORTURA,Violenza inflitta per punire o ottenere informazioni
 TORTURA,Sofferenza lunga e insopportabile
+TORTURA,Violenza inflitta per punire o ottenere informazioni
 TORTURARE,Infliggere sofferenze fisiche o psicologiche
 TORVO,Dallo sguardo cupo e minaccioso
 TOSAERBA,Rasa il prato del giardino
@@ -972,8 +1214,8 @@ TOSCA,L'opera di Puccini con E lucevan le stelle
 TOSCANA,"Terra di colline, cipressi e Rinascimento"
 TOSCANINI,L'Arturo direttore d'orchestra
 TOSI,Ragazzi in parlata veneta
-TOSSE,Il colpo che irrita la gola
 TOSSE,Espulsione improvvisa d’aria dalle vie respiratorie
+TOSSE,Il colpo che irrita la gola
 TOSSICO,Capace di avvelenare l’organismo
 TOSSICO,Può esserlo un gas o un rapporto nocivo
 TOSSICODIPENDENTE,Dipende fisicamente o psicologicamente da sostanze stupefacenti
@@ -981,14 +1223,16 @@ TOSSICOLOGIA,Lo studio dei veleni
 TOSSICOMANIA,La dipendenza dalle droghe
 TOSTAPANE,Apparecchio per abbrustolire il pane
 TOSTAPANE,Dora le fette a colazione
+TOSTI,Dal carattere deciso e difficile da affrontare
+TOSTI,Duri e resistenti
 TOSTO,Avere una faccia...: essere sfacciati
-TOSTO,Il pane abbrustolito e croccante
 TOSTO,Duro da affrontare
+TOSTO,Il pane abbrustolito e croccante
 TOT,Quantità imprecisa ma fissata
 TOTALE,Comprende ogni parte
 TOTALE,La somma finale di un conto
-TOTALMENTE,Senza lasciare nulla fuori
 TOTALMENTE,Del tutto
+TOTALMENTE,Senza lasciare nulla fuori
 TOTANO,Mollusco simile al calamaro
 TOTEM,Palo sacro con figure simboliche
 TOTI,L'eroe Enrico... con la stampella
@@ -1007,8 +1251,8 @@ TOVAGLIOLO,Si usa a tavola per pulirsi
 TOWERBRIDGE,Il ponte levatoio sul Tamigi
 TOYOTA,Il colosso automobilistico giapponese
 TOZZO,Basso e massiccio
-TOZZO,Un... di pane raffermo
 TOZZO,"Pezzo corto e spesso, spesso di pane"
+TOZZO,Un... di pane raffermo
 TP,Iniziali dello scrittore Pratchett
 TP,Sigla automobilistica di Trapani
 TR,Sigla automobilistica di Terni
@@ -1018,72 +1262,82 @@ TRABALLO,Oscillo come per cadere
 TRABATTELLO,Ponteggio mobile per lavori in alto
 TRABEAZIONE,Parte orizzontale sopra le colonne
 TRABOCCO,Palafitta da pesca sulla costa adriatica
+TRACCE,Indicazioni da sviluppare in un compito
+TRACCE,Segni lasciati da un passaggio
 TRACCERA,Segnerà una linea
+TRACCIA,Indizio utile a ricostruire un fatto
 TRACCIA,Segna una linea
 TRACCIA,Segno lasciato da un passaggio
-TRACCIA,Indizio utile a ricostruire un fatto
-TRACCIARE,Segnare una linea
 TRACCIARE,Delineare un percorso
 TRACCIARE,Descrivere nelle linee essenziali
-TRACCIATO,Segnato una linea
-TRACCIATO,Percorso segnato su una mappa
+TRACCIARE,Segnare una linea
 TRACCIATO,Disegno prodotto da uno strumento registratore
+TRACCIATO,Percorso segnato su una mappa
+TRACCIATO,Segnato una linea
 TRACCIO,Segno una linea
 TRACHEA,Tubo dell'aria verso i polmoni
 TRACI,Antico popolo dei Balcani
 TRACINA,Pesce velenoso che si infossa nella sabbia
 TRACOMA,Malattia infettiva dell'occhio
 TRACOTANZA,L'arroganza sfacciata
-TRADIMENTO,Violazione della fiducia ricevuta
 TRADIMENTO,Può incrinare un’alleanza o una relazione
-TRADIRE,Venir meno a un patto o alla fiducia
-TRADIRE,Rivelare involontariamente un sentimento
+TRADIMENTO,Violazione della fiducia ricevuta
 TRADIRE,Lasciare trapelare involontariamente
+TRADIRE,Rivelare involontariamente un sentimento
+TRADIRE,Venir meno a un patto o alla fiducia
 TRADISCE,Viene meno alla fiducia
 TRADISCO,Vengo meno alla fiducia
 TRADISCONO,Vengono meno alla fiducia
 TRADITO,Venuto meno alla fiducia
 TRADUSSE,Volse in altra lingua
-TRADUTTORE,Volge un testo in un'altra lingua
 TRADUTTORE,Fa da ponte tra due lingue
+TRADUTTORE,Volge un testo in un'altra lingua
 TRADUZIONE,Trasferisce un testo da una lingua a un’altra
 TRAFFICANTE,Commercia illegalmente merci o persone
 TRAFFICO,Mi agito in mille faccende
 TRAFFICO,Movimento intenso di veicoli o affari
 TRAFISSE,Colpì da parte a parte
 TRAFORO,Galleria che attraversa una montagna
-TRAFORO,Passaggio scavato attraverso una montagna
 TRAFORO,Opera che accorcia un percorso alpino
-TRAGEDIA,Opera drammatica dal finale doloroso
+TRAFORO,Passaggio scavato attraverso una montagna
 TRAGEDIA,Disgrazia di proporzioni enormi
+TRAGEDIA,Opera drammatica dal finale doloroso
 TRAGHETTO,Nave breve fra due rive
 TRAGHETTO,Porta mezzi e persone da una riva all'altra
 TRAGUARDO,Linea che conclude una gara
 TRAIANO,Imperatore sotto il quale Roma raggiunse la massima espansione
 TRAINER,"Allenatore, in inglese"
 TRAINER,Figura che guida un percorso di formazione
-TRALASCIARE,Omettere volontariamente
+TRAINI,Guidi e sostieni la crescita di un gruppo
+TRAINI,Trascini un mezzo dietro di te
+TRAINO,Azione di trascinare un mezzo
+TRAINO,Ruolo guida capace di favorire un intero settore
 TRALASCIARE,Lasciare fuori da un elenco o da un discorso
+TRALASCIARE,Omettere volontariamente
 TRALATICIO,"Tramandato per abitudine, senza controllo critico"
+TRALCI,Fusti rampicanti che portano foglie e grappoli
+TRALCI,Rami flessibili della vite
 TRALCIO,Ramo della vite
 TRAM,Rotaie urbane in breve
 TRAM,Un...che si chiama Desiderio
 TRAMA,I fili intrecciati del tessuto
-TRAMA,Successione degli eventi di un racconto
 TRAMA,Intreccio di fili o di storia
 TRAMA,Piano segreto ordito contro qualcuno
+TRAMA,Successione degli eventi di un racconto
 TRAMAI,Ordinai di nascosto un piano
 TRAMATO,Preparato segretamente
-TRAMBUSTO,L'agitazione rumorosa
 TRAMBUSTO,Confusione rumorosa
+TRAMBUSTO,L'agitazione rumorosa
 TRAMBUSTO,Movimento disordinato che attira l’attenzione
+TRAME,Fili trasversali intrecciati nell'ordito
+TRAME,Intrecci di eventi che formano storie
 TRAMEZZINO,Panino triangolare imbottito
 TRAMITE,Mezzo o persona che fa passare
 TRAMO,Ordisco di nascosto
 TRAMONTA,Scende oltre l'orizzonte
 TRAMONTANA,Perdere la...: smarrire l'orientamento
-TRAMONTANA,Vento freddo da nord
 TRAMONTANA,Soffia fredda da settentrione
+TRAMONTANA,Vento freddo da nord
 TRAMONTARE,Scendere oltre l'orizzonte
 TRAMONTATO,Sceso oltre l'orizzonte
 TRAMONTI,Colorano il cielo a fine giornata
@@ -1094,18 +1348,18 @@ TRAMORTIRE,Stordire con un colpo
 TRAMPOLI,Allungano le gambe degli artisti di strada
 TRAMPOLINO,Da qui ci si tuffa in piscina
 TRAMPOLINO,Fa saltare più in alto
-TRAMPOLINO,Un... di lancio per la carriera
 TRAMPOLINO,Tavola elastica per tuffi o salti
+TRAMPOLINO,Un... di lancio per la carriera
 TRANCE,Genere elettronico ipnotico
 TRANI,Città pugliese dalla cattedrale sul mare
-TRANQUILLITA,Condizione senza pericoli né rumori
 TRANQUILLITA,Assenza di agitazione
+TRANQUILLITA,Condizione senza pericoli né rumori
 TRANQUILLITA,Serenità senza rumori né preoccupazioni
 TRANQUILLO,"Calmo, senza agitazione"
 TRANQUILLO,Come un mare senza onde
+TRANSATLANTICO,"Aveva cabine, saloni e grandi fumaioli"
 TRANSATLANTICO,Grande nave passeggeri per rotte oceaniche
 TRANSATLANTICO,Un tempo collegava Europa e America
-TRANSATLANTICO,"Aveva cabine, saloni e grandi fumaioli"
 TRANSAZIONE,Accordo che chiude una controversia con reciproche concessioni
 TRANSENNA,Barriera provvisoria da folla
 TRANSETTO,Il braccio trasversale della chiesa a croce
@@ -1116,14 +1370,14 @@ TRANSIBERIANA,La lunghissima ferrovia russa fino al Pacifico
 TRANSILVANIA,Regione dei Carpazi legata a Dracula
 TRANSITORIO,Destinato a passare
 TRANSITORIO,Vale solo durante il passaggio a una situazione stabile
-TRANSIZIONE,Passaggio da uno stato a un altro
 TRANSIZIONE,Collega due fasi senza soluzione brusca
+TRANSIZIONE,Passaggio da uno stato a un altro
 TRAP,Genere rap dai bassi profondi
 TRAP,"Un’insidia per catturare, in inglese"
 TRAPANI,Città siciliana tra due mari
-TRAPANO,Utensile che perfora ruotando
-TRAPANO,La sua punta gira rapidamente per forare
 TRAPANO,Foratrice da muro o officina
+TRAPANO,La sua punta gira rapidamente per forare
+TRAPANO,Utensile che perfora ruotando
 TRAPATTONI,"Lo storico tecnico italiano, Giovanni"
 TRAPEZIO,Attrezzo degli acrobati sospesi
 TRAPEZIO,Figura geometrica e attrezzo da acrobati
@@ -1134,31 +1388,31 @@ TRAPPOLA,Inganno preparato per far cadere qualcuno
 TRAPUNTA,La coperta imbottita e cucita a punti
 TRARRE,"Ricavare, o...in inganno"
 TRASCENDENTE,Ciò che è oltre il mondo sensibile
-TRASCINARE,Tirare facendo scorrere a terra
 TRASCINARE,Coinvolgere altri con il proprio entusiasmo
+TRASCINARE,Tirare facendo scorrere a terra
 TRASCORRERE,"Passare, detto del tempo"
 TRASCORRERE,Vivere un periodo in un luogo
 TRASCORSE,Passò il tempo
 TRASCRIZIONE,Riproduzione scritta di parole o suoni
 TRASCURABILE,Così piccolo da poter essere ignorato
 TRASCURABILE,Di importanza minima
-TRASCURARE,Non dedicare la cura necessaria
 TRASCURARE,Lasciare in secondo piano
+TRASCURARE,Non dedicare la cura necessaria
 TRASECOLO,Rimango di stucco
-TRASFERIMENTO,Spostamento da un luogo o ufficio a un altro
 TRASFERIMENTO,Passaggio di proprietà o denaro
+TRASFERIMENTO,Spostamento da un luogo o ufficio a un altro
 TRASFERIRE,"Spostare altrove persone, beni o dati"
 TRASFORMA,Muta forma
-TRASFORMARE,Mutare forma
 TRASFORMARE,"Cambiare forma, aspetto o funzione"
+TRASFORMARE,Mutare forma
 TRASFORMARSI,Cambiare forma o natura
 TRASFORMARSI,Diventare qualcosa di diverso
 TRASFORMATO,Mutato forma
 TRASFORMAZIONE,Cambiamento profondo di forma o funzione
 TRASFORMAZIONE,Può mutare completamente l’aspetto
 TRASFORMO,Muto forma
-TRASGRESSIONE,Violazione di una regola
 TRASGRESSIONE,Atto compiuto oltre un divieto
+TRASGRESSIONE,Violazione di una regola
 TRASIMENO,Il lago umbro della battaglia annibalica
 TRASLATO,Spostato dal senso proprio
 TRASMETTERE,Inviare un segnale o un messaggio
@@ -1166,54 +1420,56 @@ TRASMETTERE,Passare ad altri conoscenze o caratteristiche
 TRASMISE,Mandò in onda
 TRASMISSIONE,Programma diffuso via radio o televisione
 TRASPARENTE,Lascia passare la luce e vedere oltre
-TRASPARENZA,Proprietà di ciò che non nasconde
 TRASPARENZA,Chiarezza nell’agire e nel comunicare
-TRASPORTARE,Portare da un luogo a un altro
+TRASPARENZA,Proprietà di ciò che non nasconde
 TRASPORTARE,Entusiasmare fino a far dimenticare il resto
-TRASPORTO,Spostamento di persone o merci
+TRASPORTARE,Portare da un luogo a un altro
 TRASPORTO,Impeto emotivo che trascina
+TRASPORTO,Spostamento di persone o merci
 TRASSE,Tirò a sé
-TRATTA,Ha a che fare
 TRATTA,Commercio forzato di esseri umani
+TRATTA,Ha a che fare
 TRATTA,Percorso compreso tra due fermate
-TRATTAMENTO,Modo in cui si tratta qualcuno o qualcosa
 TRATTAMENTO,Cura medica applicata a una malattia
-TRATTARE,Avere a che fare
+TRATTAMENTO,Modo in cui si tratta qualcuno o qualcosa
 TRATTARE,Affrontare un argomento
+TRATTARE,Avere a che fare
 TRATTARE,Negoziare condizioni o prezzi
 TRATTATIVA,Confronto per raggiungere un accordo
 TRATTATIVA,Può precedere un contratto
-TRATTATO,Affrontato o sottoposto a un procedimento
 TRATTATO,Accordo scritto tra Stati
+TRATTATO,Affrontato o sottoposto a un procedimento
 TRATTATO,Opera che espone sistematicamente una materia
 TRATTAZIONE,Esposizione ordinata di un argomento
-TRATTENERE,Impedire a qualcuno di andare via
 TRATTENERE,Conservare una parte di una somma
+TRATTENERE,Impedire a qualcuno di andare via
 TRATTENUTA,Somma sottratta prima del pagamento
 TRATTI,"I... del viso, i lineamenti"
 TRATTO,A un...: all'improvviso
-TRATTO,Ho a che fare
 TRATTO,Breve segmento di strada o linea
-TRATTORE,Veicolo agricolo che traina aratri e rimorchi
+TRATTO,Ho a che fare
 TRATTORE,Macchina agricola che traina attrezzi
-TRATTORIA,Locale semplice di cucina tradizionale
+TRATTORE,Veicolo agricolo che traina aratri e rimorchi
 TRATTORIA,Ha spesso menu casalinghi e prezzi contenuti
-TRAUMA,Lesione prodotta da un urto
+TRATTORIA,Locale semplice di cucina tradizionale
 TRAUMA,Esperienza che lascia una ferita psicologica
+TRAUMA,Lesione prodotta da un urto
 TRAVE,Elemento portante orizzontale
 TRAVE,Quella attrezzo della ginnastica artistica
 TRAVERSA,La parte orizzontale della porta
 TRAVERSA,Panno protettivo sul letto
 TRAVERSINA,Sostegno trasversale dei binari
 TRAVERSINA,Sostiene le rotaie
-TRAVERTINO,Riveste fontane e palazzi di Roma
 TRAVERTINO,Pietra porosa chiara usata nei monumenti
-TRAVESTITO,Vestito per apparire un altro
+TRAVERTINO,Riveste fontane e palazzi di Roma
 TRAVESTITO,Mascherato con abiti non abituali
+TRAVESTITO,Vestito per apparire un altro
+TRAVI,Elementi orizzontali che sostengono edifici
+TRAVI,Grossi pezzi di legno o metallo usati nelle strutture
 TRAVIATA,L'opera di Verdi su Violetta
 TRAVIS,Il nome del Bickle di Taxi Driver
-TRAVOLGENTE,Che coinvolge con grande forza
 TRAVOLGENTE,Capace di non lasciare indifferenti
+TRAVOLGENTE,Che coinvolge con grande forza
 TRAVOLSE,Trascinò via con forza
 TRE,I... moschettieri di Dumas
 TRE,Il numero che segue il due
@@ -1223,30 +1479,32 @@ TREBBIATURA,La separazione del grano dalla paglia
 TREBUCCHETTO,Macchina da assedio a leva
 TREBUCHET,Macchina d'assedio medievale
 TRECCE,Code di capelli a tre capi
-TREGUA,Sospensione concordata dei combattimenti
 TREGUA,Pausa in una lite o in una fatica
-TREMARE,Scuotersi involontariamente
+TREGUA,Sospensione concordata dei combattimenti
 TREMARE,Può accadere per freddo o paura
+TREMARE,Scuotersi involontariamente
 TREMENDAMENTE,In modo terribile
 TREMENDAMENTE,"Molto, come intensificatore"
-TREMENDO,Terribile e spaventoso
 TREMENDO,"Eccezionale, nel parlato"
+TREMENDO,Terribile e spaventoso
 TREMITI,Arcipelago dell'Adriatico
 TREMOLO,La rapida ripetizione di una nota
 TREMOTINO,Folletto che fila l'oro nella fiaba
 TRENCH,Impermeabile con cintura
-TREND,La tendenza del momento
 TREND,Andamento osservabile nel tempo
+TREND,La tendenza del momento
 TREND,Orientamento che si diffonde
+TRENI,Convogli ferroviari di più vetture
+TRENI,Successioni ordinate di ingranaggi o impulsi
 TRENINO,Piccolo treno da gioco
 TRENO,Il convoglio che corre sui binari
 TRENO,Perdere il...: lasciarsi sfuggire l'occasione
 TRENO,"Perso, è occasione sfumata"
 TRENO,Serpente di vagoni
 TRENTO,Città del Concilio
-TREPIDAZIONE,L'ansia di chi attende
 TREPIDAZIONE,Agitazione ansiosa nell’attesa di qualcosa
 TREPIDAZIONE,Ansia mista ad attesa
+TREPIDAZIONE,L'ansia di chi attende
 TRESETTE,Gioco di carte di abilità
 TREVISO,Città veneta d'acque e radicchio
 TREVISO,Città veneta sul Sile
@@ -1258,13 +1516,13 @@ TRIANGOLO,Tre lati bastano a chiuderlo
 TRIANGULUMAUSTRALE,Il Triangolo Australe
 TRIBU,Comunità regolata da parentela
 TRIBUNA,Posto rialzato per guardare o parlare
-TRIBUNALE,Sede in cui si amministrano giudizi
 TRIBUNALE,"Ha aule, giudici e sbarra"
+TRIBUNALE,Sede in cui si amministrano giudizi
 TRIBUNO,Voce del popolo o oratore da piazza
-TRIBUTARIO,Soggetto al pagamento di tributi
 TRIBUTARIO,Che confluisce in un corso d’acqua maggiore
-TRIBUTO,Somma dovuta all’autorità pubblica
+TRIBUTARIO,Soggetto al pagamento di tributi
 TRIBUTO,Omaggio reso a una persona o a un’opera
+TRIBUTO,Somma dovuta all’autorità pubblica
 TRICERATOPO,Il dinosauro erbivoro dalle tre corna
 TRICICLO,Veicolo a tre ruote per bambini
 TRICLINIO,Sala da pranzo romana con letti
@@ -1280,60 +1538,72 @@ TRIFORA,Finestra a tre aperture
 TRIFORIO,Galleria a tre aperture delle cattedrali
 TRIGLIA,Occhi a...: occhi languidi e sdolcinati
 TRIGLIA,Pesce di scoglio rossastro
+TRIGLIE,Abitanti dei fondali sabbiosi con due barbigli
+TRIGLIE,Pesci marini rossastri molto apprezzati in cucina
 TRIGLIFO,Elemento scanalato del fregio dorico
+TRILLI,Rapide alternanze tra due note
+TRILLI,Suoni acuti e vibranti di uccelli o telefoni
 TRILLINI,La Giovanna schermitrice olimpica
 TRILLO,La rapida alternanza di due note
 TRILLO,Lo squillo del campanello
 TRILOBITE,Fossile a tre lobi
 TRINCEA,Fossa dove la guerra si ferma
 TRINCETTO,Il coltello ricurvo del calzolaio
+TRINE,Decorazioni tessili leggere e preziose
+TRINE,Merletti fini e traforati
 TRINIDAD,Isola caraibica del carnevale
 TRINITY,L'eroina in pelle nera di Matrix
+TRIO,Composizione o gruppo di tre esecutori
 TRIO,Il complesso di tre musicisti
 TRIO,Tre che fanno gruppo
-TRIO,Composizione o gruppo di tre esecutori
 TRIONFARE,Ottenere una vittoria piena
 TRIONFARE,Ricevere un successo clamoroso
-TRIONFO,Vittoria celebrata con grande enfasi
 TRIONFO,Successo completo
+TRIONFO,Vittoria celebrata con grande enfasi
 TRIPLO,"Il salto...dell'atletica, tre volte tanto"
 TRIPOLI,La capitale della Libia
+TRIPPE,Parti dello stomaco bovino cucinate in umido
+TRIPPE,"Ventricoli e interiora, al plurale"
 TRIREME,Antica nave da guerra a tre file di remi
 TRISTANO,L'amante di Isotta
+TRISTE,Doloroso o malinconico
 TRISTE,"Giù di morale, mesto"
 TRISTE,Privo di allegria
-TRISTE,Doloroso o malinconico
 TRISTEZZA,Il contrario dell'allegria
-TRISTEZZA,Stato d’animo opposto alla gioia
 TRISTEZZA,Può velare il volto e la voce
+TRISTEZZA,Stato d’animo opposto alla gioia
 TRITATUTTO,Apparecchio che trita gli alimenti
 TRITATUTTO,Sminuzza cibi in cucina
 TRITONE,Divinità marina con coda di pesce
 TRITONE,Divinità marina con conchiglia sonora
 TRITTICO,Opera in tre parti pieghevoli
 TROCHEO,Piede poetico che batte e poi alleggerisce
+TROFEI,Coppe e premi conquistati nelle competizioni
+TROFEI,Simboli di vittorie esposti in bacheca
 TROFEO,Oggetto esposto dopo una vittoria
 TROFEO,Premio consegnato al vincitore
 TROFIE,Pasta ligure da condire al pesto
 TROGLODITA,"Abitante di una caverna, anche figurativamente arretrato"
 TROIKA,Slitta russa a tre cavalli
 TROISI,Il Massimo del Postino
-TROLL,Utente che provoca deliberatamente discussioni online
 TROLL,Mostruosa creatura delle fiabe nordiche
+TROLL,Utente che provoca deliberatamente discussioni online
 TROMBA,...d'aria: il vortice di vento
+TROMBA,Fa squillare fanfare e orchestre
 TROMBA,"La...delle scale, il vano centrale"
 TROMBA,Ottone con pistoni dal suono brillante
-TROMBA,Fa squillare fanfare e orchestre
 TROMBADARIA,Vortice di vento che tocca terra
-TROMBONE,Persona pomposa che parla molto e conclude poco
-TROMBONE,Il più grave degli ottoni a coulisse
 TROMBONE,Cambia nota facendo scorrere la coulisse
+TROMBONE,Il più grave degli ottoni a coulisse
+TROMBONE,Persona pomposa che parla molto e conclude poco
 TROMBONE,Strumento orchestrale dalla lunga coulisse
 TROMBONI,Ottoni dalla coulisse lunga
 TROMBOSI,Occlusione di un vaso causata da un coagulo
+TRONCHI,Fusti principali degli alberi
+TRONCHI,Parti centrali del corpo senza testa e arti
 TRONCO,Il fusto che regge i rami dell'albero
-TRONCO,Parte del corpo umano compresa tra il collo e il bacino
 TRONCO,"Parte centrale del corpo, esclusi capo e arti"
+TRONCO,Parte del corpo umano compresa tra il collo e il bacino
 TRONFIO,Gonfio di vanità
 TRONO,Il seggio su cui siede il re
 TRONO,Sedia che vale un regno
@@ -1342,32 +1612,38 @@ TROPO,Figura che devia il senso ordinario
 TROPPO,Eccedenza in una parola
 TROTA,Il pesce d'acqua dolce di fiume
 TROTA,Pesce da torrente e lenza
+TROTE,Nuotatrici dei torrenti freddi e ossigenati
+TROTE,Pesci d'acqua dolce apprezzati in cucina
 TROTTO,Andatura intermedia del cavallo
 TROTTOLA,Giocattolo che gira su una punta
 TROTTOLA,Gira su se stessa finché non cade
 TROUPE,Gruppo tecnico e artistico di una produzione
 TROVA,Chi cerca...: dice il proverbio
 TROVA,Scopre cercando
-TROVARE,Scoprire cercando
-TROVARE,Riuscire a ottenere
 TROVARE,Ottenere il favore del pubblico
+TROVARE,Riuscire a ottenere
+TROVARE,Scoprire cercando
 TROVARSI,Essere in un determinato luogo o stato
 TROVARSI,Sentirsi a proprio agio o in difficoltà
 TROVATO,Scoperto cercando
 TROVO,Scopro cercando
 TROY,Il nome inglese della città di Ettore
-TRUCCO,"Il maquillage, o l'inganno: il...c'è ma non si vede"
 TRUCCO,Accorgimento ingegnoso
+TRUCCO,"Il maquillage, o l'inganno: il...c'è ma non si vede"
 TRUCCO,Inganno nascosto dietro un’apparenza
 TRUCE,Feroce nell'aspetto
 TRUCI,Feroci nell'aspetto
+TRUCIOLI,Scarti arricciati lasciati da pialle e torni
+TRUCIOLI,Sottili strisce prodotte lavorando il legno
 TRUCIOLO,Ricciolo di legno caduto dalla pialla
 TRUDI,La marca italiana di peluche
+TRUFFA,Frode organizzata per ottenere un profitto
 TRUFFA,Inganno con tornaconto
 TRUFFA,"L'imbroglio, la fregatura ai danni di qualcuno"
-TRUFFA,Frode organizzata per ottenere un profitto
 TRUFFATORE,Ottiene vantaggi ingannando gli altri
 TRUFFAUT,Il regista francese dei Quattrocento colpi
+TRUFFE,Frodi costruite con false promesse
+TRUFFE,Inganni compiuti per ottenere denaro o vantaggi
 TRUMEAU,Mobile-scrittoio con ribalta
 TRUPPA,Il reparto di soldati
 TRUST,Accordo tra imprese che limita la concorrenza
@@ -1379,13 +1655,19 @@ TU,Pronome confidenziale
 TUA,Il possessivo femminile: la...penna
 TUAREG,Nomadi del Sahara dal velo blu
 TUBA,Cappello a cilindro o grande strumento a fiato
-TUBA,Il cappello a cilindro
 TUBA,Grande strumento a fiato dal suono grave
+TUBA,Il cappello a cilindro
 TUBAI,Emisi il verso della colomba
 TUBARE,Il verso del colombo
 TUBATO,Espresso con il tubare di una colomba
+TUBERI,Organi sotterranei ricchi di sostanze di riserva
+TUBERI,Parti vegetali come patate e topinambur
 TUBERO,La patata ne è il più noto esempio
+TUBETTI,Formato corto di pasta dalla forma cava
+TUBETTI,Piccoli contenitori cilindrici comprimibili
 TUBETTO,Piccolo tubo da dentifricio o colore
+TUBI,"Condotti cavi per liquidi, gas o cavi"
+TUBI,Elementi cilindrici usati negli impianti
 TUBO,"Cilindro che porta acqua, gas o suoni"
 TUBO,"Collega rubinetti, scarichi e condotte"
 TUBO,Non capirne un...: non capire nulla
@@ -1393,9 +1675,11 @@ TUBO,Può amplificare o convogliare suoni
 TUCANO,Costellazione australe dal nome d'uccello
 TUCANO,Uccello tropicale dal becco enorme
 TUFFI,Disciplina del salto dal trampolino
+TUFFO,Discesa rapida nell’acqua
 TUFFO,Il salto a capofitto nella piscina
 TUFFO,Un...nel passato: il ricordo improvviso
-TUFFO,Discesa rapida nell’acqua
+TUFI,Pietre leggere molto usate nell'edilizia tradizionale
+TUFI,Rocce porose di origine vulcanica o calcarea
 TUFO,La tenera roccia di origine vulcanica
 TUFO,Pietra leggera nata dal fuoco
 TUGURIO,La misera stamberga
@@ -1406,8 +1690,10 @@ TULLE,Velo leggerissimo da spose e teatri
 TUMORE,Crescita anomala di cellule in un tessuto
 TUMORE,Massa dovuta a crescita cellulare anomala
 TUMORE,Può essere benigno o maligno
-TUMULO,Rialzo di terra che copre una sepoltura
+TUMORI,Masse prodotte da crescita anomala di cellule
+TUMORI,Rigonfiamenti patologici benigni o maligni
 TUMULO,Monumento funerario a forma di collina
+TUMULO,Rialzo di terra che copre una sepoltura
 TUMULTO,Agitazione violenta e rumorosa
 TUMULTO,Disordine collettivo improvviso
 TUMULTUOSA,Agitata e confusa
@@ -1422,10 +1708,10 @@ TUNISI,Capitale nordafricana accanto a Cartagine
 TUNISI,Capitale nordafricana sul golfo omonimo
 TUNISIA,Paese nordafricano di Cartagine
 TUNISIA,Paese nordafricano tra Mediterraneo e Sahara
-TUNNEL,Ha spesso una luce in fondo
-TUNNEL,"Nel calcio, la palla fatta passare tra le gambe"
 TUNNEL,Attraversa una montagna o passa sotto una città
 TUNNEL,Galleria lunga e chiusa
+TUNNEL,Ha spesso una luce in fondo
+TUNNEL,"Nel calcio, la palla fatta passare tra le gambe"
 TUO,Il possessivo: il...zaino
 TUO,Il... e il mio
 TUONO,Il fragore che segue il fulmine
@@ -1433,57 +1719,71 @@ TUONO,Voce del temporale
 TUPAC,Il rapper Shakur leggenda dell'hip hop
 TUPI,Popolo indigeno del Brasile
 TURANDOT,L'opera incompiuta di Puccini con Nessun dorma
-TURBA,Moltitudine raccolta senza ordine
 TURBA,Alterazione emotiva o psichica
-TURBA,Massa di persone in tumulto
 TURBA,Gruppo numeroso e disordinato
-TURBAMENTO,Il profondo sconvolgimento dell'animo
+TURBA,Massa di persone in tumulto
+TURBA,Moltitudine raccolta senza ordine
 TURBAMENTO,Agitazione profonda che rompe la serenità
+TURBAMENTO,Il profondo sconvolgimento dell'animo
 TURBAMENTO,Sconvolgimento emotivo
 TURBANTE,Copricapo avvolto in lunghe fasce
 TURBANTE,Copricapo di stoffa avvolta
-TURBARE,Sconvolgere la serenità
 TURBARE,Impressionare profondamente
-TURBATO,Scosso nell’animo
+TURBARE,Sconvolgere la serenità
 TURBATO,Alterato da una preoccupazione
+TURBATO,Scosso nell’animo
 TURBINA,Macchina mossa da fluido
 TURBINA,Motore a palette rotanti
-TURBINE,Massa d’aria o acqua in rotazione
 TURBINE,Macchina azionata da un fluido
+TURBINE,Massa d’aria o acqua in rotazione
 TURBO,Rendo inquieto o sconvolgo
 TURBO,Sistema che aumenta la potenza del motore
 TURCHESE,Pietra azzurra e colore
 TURCHESIA,Pietra azzurra da gioielli
+TURCHI,Abitanti dello Stato tra Europa e Asia
+TURCHI,Appartenenti al popolo di Istanbul e Ankara
 TURCHIA,Paese tra Anatolia e una fetta d'Europa
 TURCHINO,Azzurro intenso e profondo
-TURGENEV,Romanziere russo di Padri e figli
 TURGENEV,Narrò il conflitto tra generazioni nell’Ottocento russo
+TURGENEV,Romanziere russo di Padri e figli
 TURGIDA,Gonfia e tesa
 TURGIDE,Gonfie e tese
 TURGIDI,Gonfi e tesi
 TURGIDO,"Gonfio, anche nello stile"
 TURIBOLO,Brucia incenso nelle funzioni
 TURING,L'Alan padre dell'informatica moderna
+TURISTI,Persone temporaneamente ospiti di una località
+TURISTI,Viaggiatori che visitano luoghi per svago
 TURKMENISTAN,Paese centroasiatico ricco di gas
-TURNER,Maestro inglese della luce e delle tempeste
 TURNER,Anticipò l’impressionismo con paesaggi luminosi
+TURNER,Maestro inglese della luce e delle tempeste
 TURNER,"Tina, interprete di What’s Love Got to Do with It"
+TURNI,Ordini successivi con cui si partecipa a un gioco
+TURNI,Periodi di lavoro assegnati a rotazione
 TURNO,Il...di lavoro o di guardia
 TURNO,Periodo assegnato secondo una rotazione
 TURNO,Rotazione ordinata tra più persone
 TURNOVER,Il ricambio del personale o delle merci
 TUTA,L'abito intero da lavoro o da ginnastica
 TUTANKHAMON,Il faraone bambino dalla maschera d'oro
+TUTE,Completi comodi formati da giacca e pantaloni
+TUTE,Indumenti interi da lavoro o sport
 TUTELA,Protezione garantita da norme o autorità
-TUTELARE,Proteggere un diritto o una persona
 TUTELARE,Difendere da danni o abusi
+TUTELARE,Proteggere un diritto o una persona
 TUTOLO,Il torsolo della pannocchia
-TUTORE,"Sostegno, legale o ortopedico"
 TUTORE,Persona incaricata di proteggere un minore
 TUTORE,Sostegno rigido per una parte del corpo
+TUTORE,"Sostegno, legale o ortopedico"
+TUTORI,Dispositivi ortopedici che sostengono una parte del corpo
+TUTORI,Persone incaricate di assistere e rappresentare altri
+TUTTAVIA,Introduce un’obiezione
 TUTTAVIA,"Però, in registro più formale"
 TUTTAVIA,"Però, nonostante ciò"
-TUTTAVIA,Introduce un’obiezione
+TUTTE,"La totalità, al femminile plurale"
+TUTTE,Nessuna esclusa
+TUTTI,"La totalità, al maschile plurale"
+TUTTI,Nessuno escluso
 TUTTO,"L’intero, senza esclusioni"
 TUTTO,Ogni cosa
 TUTTORA,Ancora adesso
@@ -1494,8 +1794,8 @@ TUUS,"Tuo, in latino"
 TV,Il piccolo schermo in due lettere
 TV,Sigla automobilistica di Treviso
 TWAIN,Creatore di Tom Sawyer e Huckleberry Finn
-TWAIN,Umorista americano nato Samuel Clemens
 TWAIN,"Shania..., la cantante country"
+TWAIN,Umorista americano nato Samuel Clemens
 TWEED,Ruvido tessuto di lana scozzese
 TWEETY,Il nome inglese di Titti
 TWINGO,La piccola city car della Renault

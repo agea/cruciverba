@@ -11,23 +11,31 @@ OBBEDISCE,Esegue ordini
 OBBEDISCO,Eseguo ordini
 OBBEDISCONO,Eseguono ordini
 OBBEDITO,Eseguito ordini
-OBBIETTIVO,Risultato concreto che si vuole raggiungere
 OBBIETTIVO,Punto verso cui si dirigono sforzi e decisioni
+OBBIETTIVO,Risultato concreto che si vuole raggiungere
 OBBLIGARE,Costringere qualcuno ad agire controvoglia
 OBBLIGARE,Imporre un comportamento con autorità o necessità
 OBBLIGATO,"Previsto senza alternative, come un passaggio necessario"
 OBBLIGATO,Vincolato da un dovere o da un contratto
 OBBLIGAZIONE,Titolo di debito emesso da uno Stato o da una società
 OBBLIGAZIONE,Vincolo giuridico che impone una prestazione
-OBBLIGO,Dovere imposto da una norma o da una promessa
 OBBLIGO,Ciò che non si può rifiutare senza conseguenze
+OBBLIGO,Dovere imposto da una norma o da una promessa
 OBELISCO,Monumento alto e affusolato
 OBELISCO,Monumento alto e appuntito d'Egitto
 OBELISCO,Pietra alta che indica il cielo
 OBELIX,Il gallico inseparabile da Asterix
-OBESO,Con un eccesso di massa corporea clinicamente rilevante
+OBESA,Con un peso corporeo molto superiore alla norma
+OBESA,Eccessivamente corpulenta per accumulo di grasso
+OBESE,Con un peso corporeo molto superiore alla norma
+OBESE,Eccessivamente corpulente per accumulo di grasso
+OBESI,Con un peso corporeo molto superiore alla norma
+OBESI,Eccessivamente corpulenti per accumulo di grasso
 OBESO,Affetto da una condizione di grave sovrappeso
+OBESO,Con un eccesso di massa corporea clinicamente rilevante
 OBICE,Cannone dal tiro curvo
+OBICI,Cannoni adatti a colpire bersagli dietro un riparo
+OBICI,Pezzi d'artiglieria a tiro curvo
 OBIETTIVAMENTE,Senza lasciarsi guidare da preferenze personali
 OBIETTIVITA,Imparzialità fondata su fatti verificabili
 OBIETTIVITA,Qualità di un giudizio privo di pregiudizi
@@ -36,6 +44,10 @@ OBIETTIVO,Scopo da raggiungere con un piano
 OBIEZIONE,Argomento sollevato contro una proposta
 OBIEZIONE,Riserva espressa per contestare un'affermazione
 OBIWAN,Il maestro Jedi Kenobi
+OBLATE,Donne appartenenti a una comunità religiosa senza voti solenni
+OBLATE,Offerte come dono o sacrificio
+OBLATI,Laici legati a una comunità monastica
+OBLATI,Offerti come dono o sacrificio
 OBLAZIONE,Offerta o pagamento estintivo
 OBLIO,Dimenticanza completa e duratura
 OBLIO,Vi cade ciò che nessuno ricorda più
@@ -44,57 +56,92 @@ OBLIQUE,Di traverso
 OBLIQUI,Di traverso
 OBLIQUO,Di traverso
 OBLO,Finestrino rotondo della nave
-OBOE,Strumento ad ancia doppia dell'orchestra
+OBLOI,Aperture circolari nelle cabine marittime
+OBLOI,Finestrelle rotonde sulle navi
 OBOE,Ha un timbro penetrante e nasale
+OBOE,Strumento ad ancia doppia dell'orchestra
+OBOI,Legni orchestrali con doppia ancia
+OBOI,Strumenti a fiato dal suono penetrante
+OBOLI,Monete di scarso valore dell'antica Grecia
+OBOLI,Piccole offerte in denaro
 OBOLO,La piccola offerta in denaro
 OBOLO,"Piccola offerta, antica moneta per Caronte"
 OCA,Animale proverbiale per sciocchezza
 OCA,Il pennuto del celebre gioco
 OCARINA,Piccolo strumento di terracotta con fori
 OCARINA,Si suona soffiando in un corpo tondeggiante
-OCCASO,"Il tramonto, in una voce letteraria"
 OCCASIONALE,Che accade soltanto di tanto in tanto
 OCCASIONALE,Non abituale né programmato
 OCCASIONE,Circostanza favorevole da cogliere
 OCCASIONE,Momento adatto per fare qualcosa
+OCCASO,"Il tramonto, in una voce letteraria"
 OCCASO,Tramonto in parola letteraria
 OCCHI,"Guardano, piangono e sorridono"
+OCCHIAIE,Aloni scuri sotto gli occhi
+OCCHIAIE,Segni di stanchezza sul volto
 OCCHIALE,Lente singola che corregge la vista
 OCCHIALE,Quello da mira ingrandisce un bersaglio lontano
 OCCHIALI,Aiutano a leggere meglio
 OCCHIALI,Stanno sul naso per vedere meglio
-OCCHIATA,Sguardo rapido e spesso furtivo
 OCCHIATA,Controllo breve dato con gli occhi
+OCCHIATA,Sguardo rapido e spesso furtivo
+OCCHIATE,Brevi controlli fatti con gli occhi
+OCCHIATE,Sguardi rapidi e intenzionali
+OCCHIO,Lo si butta per controllare rapidamente
 OCCHIO,Lo si tiene aperto quando serve prudenza
 OCCHIO,Organo della vista che si chiude per dormire
-OCCHIO,Lo si butta per controllare rapidamente
+OCCHIUTO,Dotato di molti occhi o macchie simili
+OCCHIUTO,Molto vigile e attento a ciò che accade
 OCCIDENTE,La parte del cielo dove tramonta il sole
 OCCIDENTE,Uno dei quattro punti cardinali
+OCCLUSA,Bloccata senza passaggio libero
+OCCLUSA,Chiusa da un'ostruzione
 OCCLUSIVO,Chiude un passaggio o un suono
+OCCLUSO,Bloccato senza passaggio libero
+OCCLUSO,Chiuso da un'ostruzione
 OCCULTO,Nascosto alla vista o alla conoscenza
 OCCULTO,Tenuto segreto e lontano dal pubblico
 OCCUPA,Prende spazio o tempo
 OCCUPAI,Presi spazio o tempo
-OCCUPARE,Prendere spazio o tempo
+OCCUPANO,"Impegnano tempo, posto o attenzione"
+OCCUPANO,Prendono possesso di uno spazio
 OCCUPARE,Prendere possesso di un luogo
+OCCUPARE,Prendere spazio o tempo
 OCCUPARE,"Tenere impegnati tempo, spazio o attenzione"
-OCCUPATO,Non libero perché già impegnato
+OCCUPATA,Già presa o non disponibile
+OCCUPATA,Impegnata in un'attività
+OCCUPATI,Già presi o non disponibili
+OCCUPATI,Impegnati in un'attività
 OCCUPATO,Impegnato e quindi non disponibile
+OCCUPATO,Non libero perché già impegnato
 OCCUPAZIONALE,Relativo al lavoro e alle sue condizioni
 OCCUPAZIONE,"Attività svolta abitualmente, spesso per guadagno"
 OCCUPAZIONE,Impiego che assorbe tempo ed energie
 OCCUPO,Prendo spazio o tempo
 OCEANI,Coprono gran parte del pianeta
-OCEANO,Immensa distesa d'acqua salata
-OCEANO,Distesa tanto vasta da sembrare senza fine
+OCEANICA,Relativa alle grandi distese marine
+OCEANICA,Vastissima e senza confini apparenti
+OCEANICO,Relativo alle grandi distese marine
+OCEANICO,Vastissimo e senza confini apparenti
 OCEANO,Acqua salata oltre l'orizzonte
+OCEANO,Distesa tanto vasta da sembrare senza fine
+OCEANO,Immensa distesa d'acqua salata
 OCEANO,"Una quantità sterminata, in senso figurato"
+OCELLI,Organi visivi semplici di molti insetti
+OCELLI,Piccole macchie tonde simili a occhi
 OCELLO,Macchia a forma d'occhio su ali o penne
 OCELOT,Felino maculato americano
-OHOTSK,"Mare tra la Siberia orientale, la Camciatca e le Curili"
+OCHE,Palmipedi domestici dal collo lungo
+OCHE,Uccelli che starnazzano nei cortili
 OCRA,Colore terroso tra giallo e bruno
 OCRA,Giallo terroso da pittori
+OCRE,Terre naturali usate come pigmenti
+OCRE,Tonalità tra il giallo e il bruno
 OCTANS,Costellazione del polo sud celeste
+OCULARE,Lente attraverso cui si guarda in uno strumento
+OCULARE,Relativo all'organo della vista
+OCULARI,Lenti attraverso cui si guarda in strumenti ottici
+OCULARI,Relativi agli organi della vista
 OCULISTICA,La medicina degli occhi
 ODALISCA,Donna da harem nell'immaginario pittorico
 ODE,"Ascolta, in una forma poetica del verbo"
@@ -104,12 +151,26 @@ ODER,Fiume tra Germania e Polonia
 ODESSA,Porto ucraino sul Mar Nero
 ODIA,Prova avversione profonda
 ODIAI,Provai avversione profonda
+ODIANO,Non sopportano affatto qualcuno o qualcosa
+ODIANO,Provano forte avversione
 ODIARE,Provare avversione profonda
+ODIATA,Fortemente detestata
+ODIATA,Malvista con intensa avversione
+ODIATE,Fortemente detestate
+ODIATE,Malviste con intensa avversione
+ODIATI,Fortemente detestati
+ODIATI,Malvisti con intensa avversione
 ODIATO,Provato avversione profonda
 ODIN,Dio nordico con corvi al seguito
 ODINO,Il padre degli dei nordici
 ODIO,Amore capovolto e avvelenato
 ODIO,Sentimento di profonda avversione
+ODIOSA,Capace di suscitare forte avversione
+ODIOSA,Molto antipatica e sgradevole
+ODIOSE,Capaci di suscitare forte avversione
+ODIOSE,Molto antipatiche e sgradevoli
+ODIOSI,Capaci di suscitare forte avversione
+ODIOSI,Molto antipatici e sgradevoli
 ODIOSO,Capace di suscitare forte antipatia
 ODIOSO,Sgradevole al punto da risultare insopportabile
 ODISSEA,Il lungo ritorno di Ulisse
@@ -117,80 +178,141 @@ ODISSEA,Viaggio lunghissimo e poema
 ODISSEO,Il nome greco di Ulisse
 ODONTOIATRIA,La cura dei denti
 ODORAI,Percepii un profumo con il naso
+ODORANO,Annusano per riconoscere qualcosa
+ODORANO,Emanano un profumo o un sentore
+ODORARE,Annusare per riconoscere qualcosa
+ODORARE,Emanare un profumo o un sentore
 ODORATO,Il senso che distingue profumi e puzze
-ODORE,In...di santità
 ODORE,Impressione percepita attraverso il naso
+ODORE,In...di santità
 ODORI,Gli...: gli aromi per il soffritto
+ODOROSA,Che si avverte facilmente con l'olfatto
+ODOROSA,Ricca di profumo o di un sentore marcato
+ODOROSO,Che si avverte facilmente con l'olfatto
+ODOROSO,Ricco di profumo o di un sentore marcato
 OFELIA,La giovane tragica amata da Amleto
 OFELIA,Muore tra i fiori nel dramma shakespeariano
+OFFENDE,Ferisce con parole o comportamenti
+OFFENDE,Manca di rispetto a qualcuno
 OFFENDERE,Ferire la dignità con parole o gesti
 OFFENDERE,Recare danno a un diritto o a un sentimento
+OFFENDI,Ferire con parole o comportamenti
+OFFENDI,Mancare di rispetto a qualcuno
+OFFENDO,Ferisco con parole o comportamenti
+OFFENDO,Manco di rispetto a qualcuno
 OFFERENTE,Chi presenta una proposta economica
 OFFERENTE,Parte che fa una proposta in una gara
-OFFERTA,"Proposta, sconto o dono all'altare"
 OFFERTA,Prezzo ribassato per attirare compratori
+OFFERTA,"Proposta, sconto o dono all'altare"
+OFFERTE,Doni o somme messi a disposizione
+OFFERTE,Proposte presentate a un possibile cliente
+OFFERTI,Messi a disposizione gratuitamente o a un prezzo
+OFFERTI,Presentati come dono o opportunità
 OFFESA,Ferita fatta con parole
-OFFESA,Passare all'...: attaccare
 OFFESA,Parola o gesto che ferisce la dignità
+OFFESA,Passare all'...: attaccare
 OFFESE,Recò ingiuria
+OFFESI,Feriti nell'orgoglio o nella dignità
+OFFESI,Risultati bersaglio di parole ingiuriose
 OFFESO,Ferito nell'orgoglio o nella dignità
+OFFICINA,Laboratorio in cui si riparano macchine e motori
 OFFICINA,Luogo di chiavi inglesi e motori aperti
 OFFICINA,Luogo dove il guasto diventa lavoro
-OFFICINA,Laboratorio in cui si riparano macchine e motori
+OFFRANO,Mettano a disposizione qualcosa
+OFFRANO,"Propongano un dono, un servizio o un prezzo"
 OFFRE,Mette a disposizione
 OFFRIRE,Mettere a disposizione
+OFFRITE,Mettete a disposizione qualcosa
+OFFRITE,"Proponete un dono, un servizio o un prezzo"
+OFFRIVA,Metteva a disposizione qualcosa
+OFFRIVA,"Proponeva un dono, un servizio o un prezzo"
 OFFRO,Metto a disposizione
+OFFRONO,Mettono a disposizione qualcosa
+OFFRONO,"Propongono un dono, un servizio o un prezzo"
+OFFUSCA,Confonde la mente o la vista
+OFFUSCA,Rende meno limpido o luminoso
 OFFUSCARE,Togliere chiarezza o brillantezza
+OFFUSCHI,Confonda la mente o la vista
+OFFUSCHI,Renda meno limpido o luminoso
 OFIDIO,Serpente in linguaggio zoologico
 OG,Simbolo chimico dell'oganesson
 OGAM,Antico alfabeto irlandese
+OGGETTI,Cose materiali che si possono usare o osservare
+OGGETTI,Elementi su cui ricade un'azione o un interesse
 OGGETTIVAMENTE,Basandosi sui fatti e non sulle opinioni
 OGGETTIVO,Fondato su dati verificabili
 OGGETTIVO,Imparziale e indipendente dai gusti personali
+OGGETTO,Cosa materiale che si può usare o osservare
+OGGETTO,Tema su cui ricade un'azione o un interesse
 OGGI,Il giorno compreso tra ieri e domani
 OGGI,Nel tempo presente
-OGGIGIORNO,Nel periodo in cui viviamo
 OGGIGIORNO,Ai nostri tempi
+OGGIGIORNO,Nel periodo in cui viviamo
+OGIVA,Arco appuntito tipico dell'architettura gotica
+OGIVA,Punta affusolata di un proiettile
+OGIVE,Archi appuntiti tipici dell'architettura gotica
+OGIVE,Punte affusolate di proiettili
 OGNI,Distributivo che non lascia fuori nessuno
 OHIO,Lo Stato americano sul lago Erie
 OHM,Il cognome del fisico che dà nome all'unità di resistenza
 OHM,Unità di misura della resistenza elettrica
+OHOTSK,"Mare tra la Siberia orientale, la Camciatca e le Curili"
 OKAPI,Parente della giraffa dal collo corto
 OKLAHOMA,Lo Stato americano del musical omonimo
 OLAF,Il nome del pupazzo di neve di Frozen
+OLANDESE,Lingua germanica parlata ad Amsterdam
+OLANDESE,Originario dei Paesi Bassi
+OLANDESI,Abitanti della terra di Amsterdam e Rotterdam
+OLANDESI,Originari dei Paesi Bassi
 OLDMAN,Il Gary trasformista del cinema
 OLDTRAFFORD,Lo stadio del Manchester United
 OLE,Esclamazione da arena spagnola
+OLEANDRI,Arbusti mediterranei dai fiori vistosi
+OLEANDRI,Piante ornamentali belle ma velenose
 OLEANDRO,Arbusto mediterraneo bello ma velenoso
 OLEANDRO,Fiorisce lungo viali e spartitraffico
 OLEANDRO,"Produce corolle rosa, bianche o rosse"
 OLED,La tecnologia degli schermi a diodi organici
 OLEZZO,Il profumo gradevole e intenso
+OLI,Condimenti e lubrificanti di varia origine
+OLI,Liquidi grassi usati in cucina o nei motori
 OLIERA,Ampolla da tavola per condire
 OLIERA,Recipiente da tavola per olio e aceto
 OLIGARCA,"Potente di pochi, spesso ricchissimo"
+OLII,Forma plurale tradizionale di un liquido grasso
+OLII,Vecchia grafia per più sostanze untuose
 OLIMPIA,Sede antica dei giochi panellenici
 OLIMPIADI,I grandi giochi sportivi internazionali
+OLIMPICA,Degna della massima competizione sportiva
+OLIMPICA,Relativa ai giochi che si disputano ogni quattro anni
+OLIMPICI,Atleti o risultati della massima competizione sportiva
+OLIMPICI,Relativi ai giochi che si disputano ogni quattro anni
 OLIMPICO,Lo stadio romano che ospitò i Giochi del 1960
 OLIMPO,Monte e dimora degli dei greci
 OLIO,Gettarlo sul fuoco peggiora le cose
 OLIO,L'...santo dell'estrema unzione
 OLIO,L'extravergine che condisce l'insalata
+OLIVA,Colore ispirato al frutto non ancora maturo
 OLIVA,Frutto da olio e aperitivo
 OLIVA,Tonalità verde scuro tendente al bruno
-OLIVA,Colore ispirato al frutto non ancora maturo
 OLIVASTRO,Di carnagione scura e mediterranea
+OLIVE,Frutti verdi o neri da tavola e da spremitura
+OLIVE,Piccole drupe da cui si ricava un condimento mediterraneo
 OLIVER,"...Hardy, l'Ollio del duo comico"
 OLIVER,Il protagonista orfano del romanzo di Dickens
 OLIVETO,Campo di alberi nodosi da olio
 OLIVETTI,L'Adriano industriale di Ivrea
+OLIVI,Alberi mediterranei dal tronco contorto
+OLIVI,Piante sempreverdi coltivate per le loro drupe
 OLIVIA,La fidanzata magrissima di Braccio di Ferro
 OLIVO,Albero mediterraneo da cui si ricava l’olio
+OLMI,Alberi alti un tempo comuni lungo i viali
+OLMI,Piante dalle foglie seghettate e dal legno resistente
 OLMO,Albero da viali e campagne
 OLOCAUSTO,Lo sterminio degli ebrei d'Europa sotto il nazismo
-OLTRAGGIO,Offesa grave e pubblica
-OLTRAGGIO,Atto gravemente lesivo della dignità
 OLTRAGGIO,Affronto pubblico che provoca indignazione
+OLTRAGGIO,Atto gravemente lesivo della dignità
+OLTRAGGIO,Offesa grave e pubblica
 OLTRAGGIOSA,Offensiva
 OLTRAGGIOSE,Offensive
 OLTRAGGIOSI,Offensivi
@@ -201,26 +323,30 @@ OLTRE,Più avanti nello spazio o nel tempo
 OLTREMARE,Blu intenso da pigmento prezioso
 OLTREMODO,In misura eccezionalmente grande
 OLTREMODO,Molto più del normale
-OLTREPASSARE,Superare un confine o un limite
 OLTREPASSARE,Andare al di là di ciò che è consentito
-OMAGGIO,Dono offerto in segno di rispetto
+OLTREPASSARE,Superare un confine o un limite
+OMAGGI,Doni offerti per cortesia o rispetto
+OMAGGI,Tributi di stima rivolti a una persona
+OMAGGIA,Celebra mostrando rispetto e ammirazione
+OMAGGIA,Rende onore con un dono o un gesto
 OMAGGIO,Atto con cui si rende onore a qualcuno
+OMAGGIO,Dono offerto in segno di rispetto
 OMAN,Sultanato della penisola arabica
 OMAR,Il nome dell'attore egiziano Sharif
 OMAR,Il poeta persiano Khayyam
 OMASO,Uno degli stomaci dei ruminanti
 OMBELICO,"Centro del corpo e del mondo, per modo di dire"
 OMBELICO,Piccola cicatrice al centro del ventre
+OMBRA,Figura scura proiettata da un corpo illuminato
 OMBRA,Segue il corpo alla luce
 OMBRA,Senz'...di dubbio: con assoluta certezza
 OMBRA,Ti segue al sole ma non si fa toccare
-OMBRA,Figura scura proiettata da un corpo illuminato
 OMBRE,Seguono i corpi alla luce
 OMBRELLAIO,Ripara e vende ombrelli
 OMBRELLI,Si aprono sotto la pioggia
-OMBRELLO,Tetto portatile che si apre con stecche
-OMBRELLO,Si apre quando cominciano a cadere gocce
 OMBRELLO,"Ha manico, tela e stecche pieghevoli"
+OMBRELLO,Si apre quando cominciano a cadere gocce
+OMBRELLO,Tetto portatile che si apre con stecche
 OMBRELLONE,Ripara dal sole in spiaggia
 OMBROSA,Facile a offendersi
 OMBROSE,Facili a offendersi
@@ -229,79 +355,117 @@ OMBROSO,Facile a offendersi
 OMEGA,La fine di tutto: l'alfa e l'...
 OMEGA,Ultima greca e fine simbolica
 OMELIA,Discorso sacro dopo il Vangelo
+OMELIE,Commenti religiosi alle letture liturgiche
+OMELIE,Discorsi pronunciati durante la messa
+OMERI,Ossa lunghe della parte superiore del braccio
+OMERI,Segmenti scheletrici tra spalla e gomito
 OMERO,Il poeta a cui la tradizione attribuisce Iliade e Odissea
 OMERO,Osso lungo che collega spalla e gomito
+OMESSA,Lasciata fuori per scelta o dimenticanza
+OMESSA,Non inclusa in un elenco o in un racconto
+OMESSE,Lasciate fuori per scelta o dimenticanza
+OMESSE,Non incluse in un elenco o in un racconto
+OMESSI,Lasciati fuori per scelta o dimenticanza
+OMESSI,Non inclusi in un elenco o in un racconto
+OMESSO,Lasciato fuori per scelta o dimenticanza
+OMESSO,Non incluso in un elenco o in un racconto
+OMETTI,Figure maschili di dimensioni ridotte
+OMETTI,"Piccoli uomini, spesso raffigurati in miniatura"
 OMETTO,La stampella per appendere i vestiti
 OMETTO,"Piccola figura umana, spesso stilizzata"
 OMICIDA,Chi ha tolto volontariamente la vita a una persona
 OMICIDA,Responsabile di un'uccisione intenzionale
-OMICIDIO,Uccisione volontaria di una persona
+OMICIDI,Delitti che causano la morte di esseri umani
+OMICIDI,Uccisioni volontarie di persone
 OMICIDIO,Reato che provoca intenzionalmente la morte altrui
-OMICRON,La quindicesima lettera dell'alfabeto greco
+OMICIDIO,Uccisione volontaria di una persona
 OMICRON,Diede il nome alla variante pandemica comparsa nel 2021
-OMINO,Piccolo uomo disegnato
+OMICRON,La quindicesima lettera dell'alfabeto greco
+OMINI,Personaggi maschili rappresentati in modo semplice
+OMINI,Piccole figure umane
 OMINO,Figura umana disegnata con pochi tratti
+OMINO,Piccolo uomo disegnato
 OMISSIONE,Mancata esecuzione di ciò che era dovuto
 OMISSIS,Nasconde parti del testo ufficiale
 OMO,Antica voce per l'essere umano
 OMO,Storico marchio di detersivi
+OMOGENEA,Formata da elementi dello stesso tipo
+OMOGENEA,Uniforme nella composizione
 OMOGENEO,Composto da elementi della stessa natura
 OMOGENEO,Uniforme in tutte le sue parti
+OMOLOGA,Approva ufficialmente dopo una verifica
+OMOLOGA,Riconosce la conformità a norme stabilite
 OMOLOGAZIONE,Riconoscimento ufficiale della conformità a uno standard
 OMOSESSUALE,Con orientamento affettivo e sessuale verso persone del proprio sesso
 OMOSESSUALE,Persona il cui orientamento è rivolto al proprio sesso
 OMS,L'organizzazione mondiale della sanità
+ONAGRI,Asini selvatici delle regioni asiatiche
+ONAGRI,Equidi veloci adattati ad ambienti aridi
 ONAGRO,Antica catapulta romana
+ONCE,Antiche unità di peso e misura
+ONCE,Frazioni della libbra in vari sistemi tradizionali
 ONCIA,L'antica unità di peso anglosassone
 ONCIA,Unità di peso pari a circa ventotto grammi
 ONCOLOGIA,La medicina dei tumori
+ONDA,Avanza mentre le particelle oscillano sul posto
+ONDA,"Cresce, si incurva e si rompe sulla riva"
 ONDA,Movimento periodico della superficie del mare
 ONDA,Trasporta suoni e segnali senza spostare materia
-ONDA,"Cresce, si incurva e si rompe sulla riva"
-ONDA,Avanza mentre le particelle oscillano sul posto
-ONDATA,"Massa che avanza con impeto, anche in senso figurato"
 ONDATA,Arrivo improvviso e massiccio di persone o fenomeni
+ONDATA,"Massa che avanza con impeto, anche in senso figurato"
+ONDATE,Arrivi numerosi che si susseguono a intervalli
+ONDATE,Movimenti successivi di acqua o di folla
 ONDE,Si rincorrono verso la riva
 ONDINA,Spirito femminile delle acque
 ONDIVAGO,Oscilla nelle opinioni come sull'acqua
+ONDULATA,Con una superficie a curve successive
+ONDULATA,Mossa da pieghe regolari simili a onde
 ONEPIECE,Il manga dei pirati a caccia del tesoro
 ONERE,"Il peso, l'obbligo gravoso"
 ONERE,Peso più giuridico che fisico
+ONERI,Pesi economici o obblighi da sostenere
+ONERI,Spese e responsabilità che gravano su qualcuno
 ONEROSA,Costosa o gravosa
 ONEROSE,Costose o gravose
 ONEROSI,Costosi o gravosi
 ONEROSO,Costoso o gravoso
-ONESTA,Rettitudine di chi non inganna
 ONESTA,Correttezza morale dimostrata nei comportamenti
 ONESTA,Dirittura che non ammette frodi
-ONESTAMENTE,Senza ingannare né nascondere la verità
+ONESTA,Rettitudine di chi non inganna
 ONESTAMENTE,Con sincerità e correttezza
+ONESTAMENTE,Senza ingannare né nascondere la verità
+ONESTE,Corrette e incapaci di frode
+ONESTE,Sincere nel comportamento e nei rapporti
+ONESTI,Corretti e incapaci di frode
+ONESTI,Sinceri nel comportamento e nei rapporti
 ONESTO,Che agisce senza frode né inganno
-ONESTO,Retto nei comportamenti e nelle intenzioni
 ONESTO,Degno di fiducia per correttezza
+ONESTO,Retto nei comportamenti e nelle intenzioni
 ONICE,Pietra dura striata
+ONIRICA,Irreale e visionaria
+ONIRICA,Relativa ai sogni
 ONIRICO,Simile alle immagini di un sogno
 ONOMASTICA,Studia i nomi propri
 ONOMATOPEA,La parola che imita un suono
 ONORAI,Resi omaggio e mostrai rispetto
 ONORARE,Rispettare un impegno preso
-ONORARIO,Compenso dovuto a un professionista
 ONORARIO,Che ricopre una carica a titolo simbolico
+ONORARIO,Compenso dovuto a un professionista
 ONORATO,Trattato con particolare rispetto
-ONORE,La reputazione e la dignità da difendere
 ONORE,Dignità morale che si vuole preservare
+ONORE,La reputazione e la dignità da difendere
 ONORE,Riconoscimento pubblico tributato per merito
-ONOREVOLE,Titolo tradizionalmente rivolto a un deputato
 ONOREVOLE,Degno di rispetto e considerazione
+ONOREVOLE,Titolo tradizionalmente rivolto a un deputato
 ONORI,Fare gli... di casa agli ospiti
 ONTA,"La vergogna, il disonore subito"
-ONTA,Vergogna subita per un grave disonore
 ONTA,Macchia morale difficile da cancellare
+ONTA,Vergogna subita per un grave disonore
 ONTANO,Albero che cresce lungo i corsi d'acqua
 ONTARIO,Il più piccolo dei Grandi Laghi per superficie
 ONTOLOGIA,Lo studio filosofico dell'essere
-ONU,Organizzazione internazionale fondata nel 1945
 ONU,Ha sede nel Palazzo di Vetro di New York
+ONU,Organizzazione internazionale fondata nel 1945
 OPA,Offerta pubblica in Borsa
 OPACA,Non trasparente
 OPACHE,Non trasparenti
@@ -314,12 +478,20 @@ OPALE,Pietra dai riflessi cangianti
 OPALESCENTE,Lattiginoso con riflessi cangianti
 OPEC,L'organizzazione dei Paesi esportatori di petrolio
 OPENSPACE,Ambiente di lavoro senza pareti divisorie
-OPERA,Spettacolo teatrale interamente cantato
 OPERA,Azione compiuta a beneficio di qualcuno
 OPERA,Creazione artistica o lavoro realizzato
 OPERA,"Lirica, d'arte oppure d'ingegno"
-OPERARE,Agire o eseguire un intervento
+OPERA,Spettacolo teatrale interamente cantato
+OPERAI,Dipendenti impiegati in fabbriche e cantieri
+OPERAI,Lavoratori addetti ad attività manuali
+OPERAIA,Dipendente impiegata in fabbrica o in cantiere
+OPERAIA,Lavoratrice addetta ad attività manuali
+OPERAIO,Dipendente impiegato in fabbrica o in cantiere
+OPERAIO,Lavoratore addetto ad attività manuali
+OPERANO,Agiscono per ottenere un risultato
+OPERANO,Eseguono interventi chirurgici
 OPERARE,Agire concretamente per ottenere un risultato
+OPERARE,Agire o eseguire un intervento
 OPERARE,Eseguire un intervento chirurgico
 OPERATIVITA,Capacità di funzionare e agire concretamente
 OPERATIVITA,Condizione di un servizio pronto all'uso
@@ -332,9 +504,11 @@ OPERO,Agisco o eseguo un intervento
 OPHIUCHUS,Il Serpentario fra Scorpione e Sagittario
 OPIFICIO,Stabilimento produttivo in parola antica
 OPINAI,Esposi il mio parere
+OPINARE,Esprimere un giudizio personale
+OPINARE,Ritenere qualcosa senza averne certezza
 OPINATO,Ritenuto sulla base di un giudizio personale
-OPINIONE,Punto di vista personale
 OPINIONE,Giudizio espresso su un argomento
+OPINIONE,Punto di vista personale
 OPINIONISTA,Commenta fatti e temi nei dibattiti pubblici
 OPINIONISTA,Interviene nei media per esprimere valutazioni
 OPIUM,Il celebre profumo di Yves Saint Laurent
@@ -342,10 +516,22 @@ OPPORTUNAMENTE,Nel modo più adatto alle circostanze
 OPPORTUNITA,Circostanza favorevole da sfruttare
 OPPORTUNITA,Possibilità che si presenta al momento giusto
 OPPOSIZIONE,Contrasto organizzato a una proposta o a un governo
+OPPOSTA,Collocata dalla parte contraria
+OPPOSTA,Completamente diversa o in contrasto
 OPPOSTO,Collocato dalla parte contraria
 OPPOSTO,Completamente diverso o contrario
 OPPRESSE,Schiacciò sotto il peso
+OPPRIME,Schiaccia con un peso fisico o morale
+OPPRIME,Toglie libertà esercitando un potere ingiusto
 OPS,Esclamazione dopo una piccola svista
+OPTA,Prende una decisione preferendo un'alternativa
+OPTA,Sceglie tra più possibilità
+OPTANO,Prendono una decisione preferendo un'alternativa
+OPTANO,Scelgono tra più possibilità
+OPTARE,Decidere a favore di un'alternativa
+OPTARE,Scegliere tra più possibilità
+OPTATO,Preferito rispetto alle alternative
+OPTATO,Scelto tra più possibilità
 OPTIMUS,"Il capo dei robot buoni Autobot, ...Prime"
 OPULENTA,Ricca e abbondante
 OPULENTE,Ricche e abbondanti
@@ -354,12 +540,14 @@ OPULENTO,Ricco e abbondante
 OPUS,"L'...Dei, prelatura cattolica"
 OPUS,Opera in latino e in musica
 OPUSCOLO,Libretto di poche pagine
-OPUSCOLO,Pubblicazione breve di poche pagine
 OPUSCOLO,Libretto informativo su un solo argomento
+OPUSCOLO,Pubblicazione breve di poche pagine
 OPZIONALE,Lasciato alla libera scelta
 OPZIONALE,Non obbligatorio
-OPZIONE,Possibilità tra cui scegliere
 OPZIONE,Facoltà di decidere tra alternative
+OPZIONE,Possibilità tra cui scegliere
+OPZIONI,Alternative disponibili in un menu o in un contratto
+OPZIONI,Possibilità tra cui scegliere
 OR,"Adesso, in poesia"
 OR,Simbolo araldico dell'oro
 ORA,Adesso o un intervallo di sessanta minuti
@@ -368,17 +556,25 @@ ORA,Sessanta minuti esatti
 ORACOLO,Rispondeva oscuro per mestiere
 ORACOLO,Risposta degli dèi o persona sapiente
 ORACOLO,Risposta divina spesso difficile da capire
+ORAFA,Artigiana che lavora metalli preziosi
+ORAFA,Realizza e ripara gioielli
+ORAFI,Artigiani che lavorano metalli preziosi
+ORAFI,Realizzano e riparano gioielli
 ORAFO,Lavora metalli preziosi e pietre
 ORALE,Esame sostenuto rispondendo a voce
+ORALI,Espressi a voce anziché per iscritto
+ORALI,Relativi alla bocca
 ORAMAI,"A questo punto, dopo molto tempo"
 ORAMAI,Giunti a una situazione non più reversibile
 ORANGETTE,Scorze candite ricoperte di cioccolato
 ORANGO,Scimmia antropomorfa del Borneo
 ORATA,Pesce dal caratteristico segno dorato tra gli occhi
 ORATA,Pregiata protagonista di molte grigliate di mare
+ORATE,Pesci marini con una fascia dorata tra gli occhi
+ORATE,Rese preziose da un sottile rivestimento giallo
 ORATORE,Parla in pubblico con efficacia
-ORATORIO,Luogo parrocchiale o composizione sacra
 ORATORIO,"Composizione sacra per soli, coro e orchestra"
+ORATORIO,Luogo parrocchiale o composizione sacra
 ORAZIO,Il poeta del carpe diem
 ORAZIO,L'amico fidato di Amleto
 ORAZIONE,Discorso solenne o preghiera
@@ -386,75 +582,105 @@ ORAZIONE,Discorso solenne pronunciato in pubblico
 ORAZIONE,Preghiera rivolta alla divinità
 ORBAI,Privai della vista
 ORBATO,Privato di una persona o di un bene caro
+ORBE,Incapaci di vedere
+ORBE,Prive della vista
 ORBETELLO,Laguna toscana stretta tra mare e promontorio
+ORBI,Incapaci di vedere
+ORBI,Privi della vista
+ORBITA,Ambito entro cui si esercita un'influenza
 ORBITA,Il giro del pianeta attorno al Sole
 ORBITA,Traiettoria seguita da un corpo celeste
-ORBITA,Ambito entro cui si esercita un'influenza
+ORBITE,Cavità del cranio che accolgono gli occhi
+ORBITE,Traiettorie percorse dai corpi celesti
 ORBO,Privo di un occhio o accecato
 ORCA,Grande cetaceo bianco e nero
 ORCA,La protagonista marina di Free Willy
+ORCHE,Grandi cetacei bianchi e neri
+ORCHE,Predatrici marine che vivono in gruppi
 ORCHESTRA,Insieme di strumentisti diretti da un maestro
+ORCHI,Creature gigantesche e minacciose del folclore
+ORCHI,Mostri delle fiabe che divorano gli uomini
 ORCHIDEA,Fiore elegante dalle forme insolite
 ORCHIDEA,Ha specie tropicali e varietà da appartamento
 ORCHIDEE,Fiori spesso coltivati in serra
 ORCHIS,Orchidea spontanea dal nome greco
+ORCI,Grandi recipienti di terracotta
+ORCI,Vasi panciuti usati per olio e conserve
 ORCIO,Grande vaso di terracotta per l'olio
 ORCIO,Il vaso panciuto di coccio per l'olio
 ORCO,Cattivo enorme delle fiabe
 ORCO,Mostro delle fiabe e spauracchio
 ORCO,Shrek è un...buono
 ORDA,Folla più minacciosa che ordinata
-ORDA,Massa disordinata e minacciosa di persone
 ORDA,Gruppo numeroso che avanza senza ordine
+ORDA,Massa disordinata e minacciosa di persone
 ORDALIA,Prova del giudizio di Dio medievale
+ORDIGNI,Congegni esplosivi o bellici
+ORDIGNI,Dispositivi costruiti per provocare un'esplosione
 ORDIGNO,Il congegno esplosivo
 ORDINA,Sistema o comanda
 ORDINAI,Misi in ordine o comandai
-ORDINAMENTO,Sistema di norme organizzato in modo coerente
 ORDINAMENTO,Disposizione degli elementi secondo un criterio
-ORDINANZA,Provvedimento emanato da un'autorità
+ORDINAMENTO,Sistema di norme organizzato in modo coerente
 ORDINANZA,Atto con cui si impone o vieta un comportamento
-ORDINARE,Mettere in ordine o comandare
-ORDINARE,Esprimere come comando
+ORDINANZA,Provvedimento emanato da un'autorità
 ORDINARE,Chiedere una pietanza o una merce
+ORDINARE,Esprimere come comando
+ORDINARE,Mettere in ordine o comandare
 ORDINARIO,Abituale e privo di caratteri eccezionali
 ORDINARIO,"Comune, senza particolari qualità"
-ORDINATO,Messo in ordine o comandato
 ORDINATO,Disposto con cura e senza disordine
+ORDINATO,Messo in ordine o comandato
 ORDINAZIONE,Richiesta di merci o pietanze
 ORDINAZIONE,Rito che conferisce un ministero religioso
-ORDINE,Disposizione regolare che evita il caos
 ORDINE,Comando impartito da chi ha autorità
+ORDINE,Disposizione regolare che evita il caos
+ORDINI,Comandi impartiti da un'autorità
+ORDINI,Disposizioni di acquisto inviate a un fornitore
 ORDINO,Sistemo o comando
 ORDITO,La parte ferma della tela
-ORE,Si contano sul quadrante dell’orologio
 ORE,Le unità di tempo scandite dal quadrante
+ORE,Si contano sul quadrante dell’orologio
 OREADI,Le ninfe dei monti
 ORECCHIABILE,Facile da ricordare ascoltandolo
+ORECCHIE,Organi esterni dell'udito
+ORECCHIE,Sporgenze laterali della testa che raccolgono i suoni
 ORECCHIETTE,Pasta pugliese a forma di piccola conca
 ORECCHINO,Gioiello appeso al lobo
 ORECCHINO,Gioiello da lobo
 OREFICE,Artigiano che lavora l'oro
 OREGON,Lo Stato americano del Pacifico nord-occidentale
 OREO,Biscotto scuro con ripieno bianco
+ORETTE,Brevi periodi di sessanta minuti
+ORETTE,Poco tempo trascorso in attesa o al lavoro
+ORFANA,Privata di una guida o di un sostegno
+ORFANA,Rimasta senza uno o entrambi i genitori
+ORFANE,Private di una guida o di un sostegno
+ORFANE,Rimaste senza uno o entrambi i genitori
+ORFANI,Privati di una guida o di un sostegno
+ORFANI,Rimasti senza uno o entrambi i genitori
 ORFANO,Il bimbo rimasto senza genitori
 ORFEO,"... ed Euridice, l'opera di Gluck"
 ORFEO,Cantò tanto bene da commuovere gli inferi
 ORFEO,Il cantore che scese agli inferi
 ORGANETTO,Piccola fisarmonica popolare
+ORGANI,Parti del corpo con funzioni specifiche
+ORGANI,Strumenti a tastiera presenti in molte chiese
 ORGANICO,Insieme del personale previsto per un ente
 ORGANIZZA,Dà struttura a un piano
 ORGANIZZAI,Diedi struttura a un piano
 ORGANIZZARE,Dare struttura a un piano
-ORGANIZZARE,"Preparare coordinando persone, tempi e mezzi"
 ORGANIZZARE,Dare una struttura funzionale a un'attività
+ORGANIZZARE,"Preparare coordinando persone, tempi e mezzi"
 ORGANIZZATO,Dato struttura a un piano
-ORGANIZZAZIONE,Struttura composta da persone e mezzi coordinati
 ORGANIZZAZIONE,Sistema di persone e funzioni rivolto a uno scopo
+ORGANIZZAZIONE,Struttura composta da persone e mezzi coordinati
 ORGANIZZO,Do struttura a un piano
+ORGANO,Grande strumento a tastiera e canne
+ORGANO,Parte del corpo con una funzione specifica
 ORGANZA,Tessuto trasparente e rigido
-ORGOGLIOSO,Fiero dei propri risultati
 ORGOGLIOSO,Eccessivamente convinto della propria superiorità
+ORGOGLIOSO,Fiero dei propri risultati
 ORICALCO,Leggendaria lega dell'antichità
 ORICE,Antilope dalle corna lunghe
 ORIENTAMENTO,Capacità di riconoscere direzione e posizione
@@ -467,18 +693,20 @@ ORIFLAMMA,Antica bandiera dei re di Francia
 ORIGAMI,Arte giapponese di piegare la carta
 ORIGANO,Erba aromatica della pizza
 ORIGANO,"Profuma pizza, pomodoro e focacce"
-ORIGINALE,"Non copiato, oppure fuori dal comune"
 ORIGINALE,Documento autentico contrapposto alla copia
+ORIGINALE,"Non copiato, oppure fuori dal comune"
 ORIGINALE,Persona o idea fuori dal comune
 ORIGINALITA,Capacità di produrre idee non convenzionali
 ORIGINALITA,Carattere di ciò che non imita modelli già noti
 ORIGINARIAMENTE,"All'inizio, prima dei cambiamenti successivi"
 ORIGINARIAMENTE,Nella forma o condizione iniziale
-ORIGINE,Punto da cui tutto comincia
-ORIGINE,Luogo o causa da cui qualcosa prende avvio
 ORIGINE,Ascendenza familiare o geografica
-ORIGINI,Le radici familiari o culturali
+ORIGINE,Luogo o causa da cui qualcosa prende avvio
+ORIGINE,Punto da cui tutto comincia
 ORIGINI,I primi momenti di una storia o di un fenomeno
+ORIGINI,Le radici familiari o culturali
+ORINA,Espelle un liquido di scarto
+ORINA,Fa pipì
 ORINOCO,Grande fiume venezuelano
 ORIONE,Il cacciatore più vistoso del cielo invernale
 ORISTANO,Città sarda della Sartiglia
@@ -487,24 +715,30 @@ ORIZZONTE,Linea irraggiungibile dello sguardo
 ORIZZONTE,Linea lontana dove cielo e terra si toccano
 ORLANDO,"...Bloom, l'attore di Legolas"
 ORLANDO,Il paladino furioso dell'Ariosto
+ORLI,Bordi estremi di abiti e tovaglie
+ORLI,Margini ripiegati e cuciti dei tessuti
 ORLO,Confine di stoffa o precipizio
 ORLO,Il margine: essere sull'... del baratro
 ORLO,Margine estremo di una superficie o di un tessuto
 ORMA,Firma lasciata dal passo
 ORMA,Segno del passo
 ORMAI,"A questo punto, dopo che il tempo è passato"
-ORMAI,Segnala una situazione divenuta irreversibile
 ORMAI,Quando non resta più tempo per cambiare idea
+ORMAI,Segnala una situazione divenuta irreversibile
 ORME,Restano sul fango dopo il passo
 ORMEGGIO,Il fissare la nave al porto
 ORMEGGIO,Tiene ferma la barca
 ORMONE,Messaggero chimico prodotto dalle ghiandole
+ORMONI,Messaggeri chimici prodotti dalle ghiandole
+ORMONI,"Sostanze che regolano crescita, metabolismo e riproduzione"
 ORNAMENTO,Aggiunta che abbellisce senza reggere
 ORNAMENTO,Elemento aggiunto soltanto per abbellire
 ORNAMENTO,Motivo decorativo applicato a oggetti o edifici
+ORNATA,Abbellita con decorazioni
+ORNATA,Arricchita da fregi e motivi
 ORNITOLOGIA,Scienza degli uccelli
-ORNITORINCO,Mammifero australiano con becco appiattito
 ORNITORINCO,Depone uova ma allatta i piccoli
+ORNITORINCO,Mammifero australiano con becco appiattito
 ORO,Metallo che fa gola e medaglie
 ORO,Metallo prezioso del primo posto
 ORO,Non è tutto quello che luccica
@@ -512,9 +746,9 @@ ORO,Vale la medaglia del primo
 OROGENESI,Fa nascere montagne in tempi immensi
 OROLOGI,Misurano le ore al polso o al muro
 OROLOGIAIO,Aggiusta meccanismi che misurano il tempo
-OROLOGIO,Quello biologico regola sonno e veglia
 OROLOGIO,Misura il trascorrere del tempo
 OROLOGIO,"Può stare al polso, al muro o su un campanile"
+OROLOGIO,Quello biologico regola sonno e veglia
 ORPELLATA,Abbellita in modo falso
 ORPELLATE,Abbellite in modo falso
 ORPELLATI,Abbelliti in modo falso
@@ -525,34 +759,42 @@ ORRENDO,Capace di suscitare disgusto o paura
 ORRENDO,Talmente brutto da risultare ripugnante
 ORRIBILE,Che provoca terrore o forte repulsione
 ORRIBILE,Pessimo al punto da lasciare sgomenti
+ORRIDA,Capace di suscitare repulsione
+ORRIDA,Terrificante e molto sgradevole
 ORRIDO,Gola rocciosa o cosa spaventosa
 ORRIDO,La gola rocciosa stretta e profonda
 ORRORE,Il genere di film che fa rabbrividire
 ORRORE,Paura intensa accompagnata da repulsione
 ORRORE,Reazione davanti a qualcosa di atroce
-ORSA,La Minore ospita la Stella Polare
+ORSA,Femmina del grande plantigrado
 ORSA,In cielo è Maggiore o Minore
 ORSA,La Maggiore disegna il Gran Carro
-ORSA,Femmina del grande plantigrado
+ORSA,La Minore ospita la Stella Polare
 ORSAMAGGIORE,Costellazione del Gran Carro
+ORSE,Costellazioni boreali nella forma plurale
+ORSE,Femmine dei grandi plantigradi
 ORSETTO,Peluche da bambini
 ORSI,Dormono d'inverno nelle tane
 ORSO,Grande mammifero dei boschi
 ORSO,Il bianco cacciatore dei ghiacci artici
 ORSO,Il tipo scontroso e poco socievole
 ORSO,Plantigrado e uomo poco socievole
+ORTAGGI,Prodotti vegetali coltivati negli orti
+ORTAGGI,Verdure destinate alla cucina
 ORTENSIA,Arbusto ornamentale dalle infiorescenze globose
-ORTENSIA,Può cambiare colore secondo l'acidità del terreno
 ORTENSIA,"Forma grandi corolle azzurre, rosa o bianche"
+ORTENSIA,Può cambiare colore secondo l'acidità del terreno
+ORTI,Piccoli appezzamenti vicini alle case
+ORTI,Terreni coltivati con verdure e aromi
 ORTICA,Pianta che punge
 ORTICA,Punge chi la sfiora senza guanti
 ORTICARIA,Eruzione cutanea pruriginosa
 ORTICARIA,Mi dà l'...: mi è proprio insopportabile
 ORTISEI,Centro gardenese ai piedi delle Dolomiti
-ORTO,Terreno coltivato con verdure e ortaggi
 ORTO,Piccolo campo curato con zappa e annaffiatoio
-ORTO,Regno domestico di pomodori e zucchine
 ORTO,Quello botanico conserva specie rare
+ORTO,Regno domestico di pomodori e zucchine
+ORTO,Terreno coltivato con verdure e ortaggi
 ORTOLANO,Coltiva verdure più che fiori
 ORTOPEDIA,"Branca medica di ossa, articolazioni e muscoli"
 ORVIETO,Città umbra dal celebre duomo
@@ -561,9 +803,9 @@ ORVILLE,Il nome del pioniere del volo Wright
 ORWELL,Il George di 1984
 ORWELL,Scrittore di fattorie allegoriche e Grande Fratello
 ORZO,Cereale da zuppe e caffè senza caffè
+ORZO,"Cereale usato per malto, zuppe e bevande"
 ORZO,Il cereale che dà la birra
 ORZO,Il surrogato del caffè
-ORZO,"Cereale usato per malto, zuppe e bevande"
 OS,"Il sistema operativo, in sigla"
 OS,Simbolo chimico dell'osmio
 OSA,Chi non risica non rosica: chi...
@@ -571,17 +813,25 @@ OSA,Invito proverbiale a rischiare
 OSAI,Ebbi il coraggio di rischiare
 OSAKA,Grande città del Giappone
 OSAKA,"Naomi..., la tennista giapponese"
+OSANO,Hanno il coraggio di tentare
+OSANO,Si spingono a fare qualcosa di rischioso
 OSARE,Avere il coraggio di rischiare
+OSATA,Compiuta nonostante il rischio
+OSATA,Tentata con coraggio
 OSATO,Avuto il coraggio di rischiare
 OSCAR,La statuetta del cinema di Hollywood
 OSCAR,Premio che pesa poco ma vale molto
+OSCENA,Indecente per parole o immagini
+OSCENA,Volgare e contraria al pudore
 OSCENITA,Espressione o gesto contrario al pudore
 OSCI,Antico popolo dell'Italia meridionale
+OSCURA,Difficile da comprendere
+OSCURA,Priva o povera di luce
 OSCURITA,Assenza o forte scarsità di luce
 OSCURITA,Condizione che rende difficile capire o vedere
+OSCURO,Difficile da comprendere o interpretare
 OSCURO,Poco illuminato o poco chiaro
 OSCURO,Privo o povero di luce
-OSCURO,Difficile da comprendere o interpretare
 OSIMHEN,"Victor, attaccante nigeriano protagonista dello scudetto 2023"
 OSIRIDE,Il dio egizio dell'oltretomba
 OSKAR,Il nome dell'imprenditore della lista Schindler
@@ -598,59 +848,71 @@ OSPITARE,Accogliere in casa
 OSPITARE,Accogliere qualcuno nella propria casa
 OSPITARE,Dare temporaneamente spazio o sede a un evento
 OSPITATO,Accolto in casa
+OSPITE,Chi partecipa a una trasmissione su invito
 OSPITE,Chi riceve o viene ricevuto
 OSPITE,Persona accolta in casa o in una struttura
-OSPITE,Chi partecipa a una trasmissione su invito
 OSPITO,Accolgo in casa
 OSPIZIO,Struttura assistenziale indicata con un termine tradizionale
+OSSA,Elementi rigidi dello scheletro
+OSSA,Resti duri che sostengono il corpo
+OSSARI,Luoghi in cui si conservano resti scheletrici
+OSSARI,Monumenti che raccolgono caduti di guerra
 OSSEO,Di scheletro
 OSSERVA,Guarda con attenzione
 OSSERVAI,Guardai con attenzione
-OSSERVARE,Guardare con attenzione
 OSSERVARE,Esaminare con attenzione un fenomeno
+OSSERVARE,Guardare con attenzione
 OSSERVARE,Rispettare una regola o una prescrizione
 OSSERVATO,Guardato con attenzione
 OSSERVATORE,Chi guarda con attenzione e riferisce
 OSSERVATORE,Delegato incaricato di seguire un evento
 OSSERVATORIO,Da qui si guardano le stelle
-OSSERVAZIONE,Rilievo formulato dopo aver esaminato qualcosa
 OSSERVAZIONE,Raccolta attenta di dati su un fenomeno
+OSSERVAZIONE,Rilievo formulato dopo aver esaminato qualcosa
 OSSERVO,Guardo con attenzione
-OSSESSIONE,Pensiero che torna senza lasciare tregua
 OSSESSIONE,Idea fissa che domina la mente
+OSSESSIONE,Pensiero che torna senza lasciare tregua
 OSSIDAZIONE,La reazione con l'ossigeno
+OSSIDI,Composti formati dall'ossigeno con un altro elemento
+OSSIDI,Sostanze prodotte da molte reazioni con l'aria
 OSSIDIANA,Vetro vulcanico nero
 OSSIGENO,Dare...: dare respiro e sollievo
 OSSIGENO,Gas necessario alla respirazione
 OSSIMORO,Unisce parole che litigano
+OSSO,Parte dura che sostiene il corpo
 OSSO,Quello che si dà da rosicchiare al cane
 OSSO,Resta quando la polpa se ne va
 OSSO,Un...duro: un avversario difficile da battere
-OSSO,Parte dura che sostiene il corpo
-OSTACOLARE,Rendere più difficile il raggiungimento di uno scopo
+OSSUTA,Dalla corporatura asciutta e spigolosa
+OSSUTA,Molto magra e con lo scheletro evidente
 OSTACOLARE,Impedire o rallentare un'azione
+OSTACOLARE,Rendere più difficile il raggiungimento di uno scopo
 OSTACOLI,Corsa con barriere da superare
 OSTACOLO,Ciò che impedisce o rallenta il cammino
 OSTACOLO,Difficoltà da superare per raggiungere un traguardo
+OSTAGGI,Persone trattenute per ottenere qualcosa
+OSTAGGI,Prigionieri usati come garanzia o ricatto
 OSTE,Fare i conti senza l'...: non considerare gli imprevisti
 OSTE,Il padrone della trattoria
 OSTE,Padrone di tavole e vino
 OSTELLO,Alloggio economico per viaggiatori
 OSTENSORIO,Mostra il sacro in metallo prezioso
 OSTEOPOROSI,Riduzione della densità che rende fragili le ossa
-OSTERIA,Locale semplice dove si mangia e beve
 OSTERIA,Locale informale dove si servono vino e piatti semplici
+OSTERIA,Locale semplice dove si mangia e beve
 OSTETRICIA,La disciplina del parto
-OSTIA,Disco di pane consacrato durante la messa
+OSTI,Gestori di locande e taverne
+OSTI,Servono vino e pasti agli avventori
 OSTIA,Antico porto romano alla foce del Tevere
+OSTIA,Disco di pane consacrato durante la messa
 OSTICA,Difficile da capire
 OSTICHE,Difficili da capire
 OSTICI,Difficili da capire
 OSTICO,Difficile da capire
-OSTILE,Contrario e disposto allo scontro
 OSTILE,Che manifesta avversione o inimicizia
-OSTINATO,Disegno musicale ripetuto con insistenza
+OSTILE,Contrario e disposto allo scontro
 OSTINATO,Che non cambia idea nonostante le ragioni contrarie
+OSTINATO,Disegno musicale ripetuto con insistenza
 OSTINATO,Perseverante fino alla testardaggine
 OSTRACISMO,Esclusione che viene da cocci ateniesi
 OSTRICA,Mollusco bivalve spesso servito crudo
@@ -661,28 +923,44 @@ OSTROGOTI,Popolo germanico che regnò in Italia
 OSTRUZIONE,Blocco che impedisce il passaggio
 OSTRUZIONE,Tattica parlamentare usata per rallentare una decisione
 OSTUNI,La città bianca della Puglia
+OTARIA,Parente della foca spesso presente negli acquari
 OTARIA,Pinnipede con padiglioni auricolari visibili
 OTARIA,Si muove a terra appoggiandosi sulle pinne
-OTARIA,Parente della foca spesso presente negli acquari
+OTARIE,Mammiferi marini con padiglioni auricolari visibili
+OTARIE,Pinnipedi capaci di muoversi bene anche a terra
 OTELLO,Geloso moro di Venezia
 OTITE,Infiammazione dell'orecchio
+OTITI,Disturbi dolorosi frequenti nei bambini
+OTITI,Infiammazioni dell'orecchio
 OTIUM,Tempo libero romano non per forza pigro
 OTORINO,"Lo specialista di orecchio, naso e gola"
 OTRANTO,Città pugliese affacciata sull'Adriatico
 OTRANTO,Città salentina del mosaico pavimentale
 OTRE,Recipiente di pelle per liquidi
+OTRI,Antichi contenitori flessibili per vino e acqua
+OTRI,Recipienti di pelle usati per trasportare liquidi
 OTTAEDRO,Solido a otto facce
 OTTAGONO,Figura con otto lati
 OTTAVA,Intervallo musicale di otto note
+OTTAVE,Intervalli musicali tra note omonime
+OTTAVE,Strofe composte da otto versi
+OTTAVI,Frazioni pari a una parte su otto
+OTTAVI,Turni che precedono i quarti in un torneo
 OTTAVINO,Il più acuto dei flauti
+OTTAVO,Che occupa il posto dopo il settimo
+OTTAVO,Una parte quando l'intero è diviso in otto
 OTTAWA,"Capitale canadese, non Toronto"
-OTTENERE,Riuscire ad avere ciò che si cerca
 OTTENERE,Conseguire un risultato dopo uno sforzo
+OTTENERE,Riuscire ad avere ciò che si cerca
 OTTENIMENTO,Atto di entrare in possesso di qualcosa
 OTTENIMENTO,Conseguimento di un risultato
 OTTICA,Branca della fisica che studia la luce
 OTTICA,Punto di vista da cui si considera una questione
+OTTICI,Professionisti che vendono e adattano occhiali
+OTTICI,Relativi alla luce e alla visione
 OTTICO,Relativo alla luce e alla visione
+OTTIMA,Di qualità eccellente
+OTTIMA,Molto favorevole e soddisfacente
 OTTIMAMENTE,Nel migliore dei modi
 OTTIMO,Di qualità molto elevata
 OTTO,L'...volante delle giostre del luna park
@@ -690,26 +968,42 @@ OTTO,Numero con due pance
 OTTONE,Lega gialla da strumenti e maniglie
 OTTONE,Lega gialla di rame e zinco
 OTTONI,Gli...: gli strumenti a fiato di metallo
+OTTUSA,Lenta nel comprendere
+OTTUSA,Poco acuta o penetrante
 OTTUSO,"L'angolo maggiore di novanta gradi, o chi è tardo"
 OUAGADOUGOU,La capitale del Burkina Faso
 OUVERTURE,Brano strumentale che apre l'opera
 OVA,"Prodotti del pollaio, in forma arcaica"
 OVAIA,La ghiandola femminile che produce gli ovuli
+OVAIE,Ghiandole dell'apparato riproduttivo femminile
+OVAIE,Producono cellule uovo e diversi ormoni
 OVALE,Forma chiusa simile a un uovo allungato
-OVALE,Lo sport giocato con una palla non rotonda
 OVALE,La forma allungata della palla da rugby
+OVALE,Lo sport giocato con una palla non rotonda
+OVALI,Curve chiuse più allungate dei cerchi
+OVALI,Dalla forma simile a un uovo
 OVATTA,Morbida massa bianca da imbottiture o cure
-OVEST,Punto dove il sole si congeda
-OVEST,Punto cardinale dove tramonta il sole
 OVEST,Direzione opposta a quella del sorgere del sole
+OVEST,Punto cardinale dove tramonta il sole
+OVEST,Punto dove il sole si congeda
 OVIDIO,L'autore delle Metamorfosi
 OVILE,"Casa lanosa, per così dire"
 OVILE,Ricovero delle pecore
+OVILI,Recinti o ricoveri per pecore
+OVILI,Stalle destinate agli animali da lana
+OVIPARA,Che depone uova da cui nasceranno i piccoli
+OVIPARA,Detta di una femmina la cui prole si sviluppa fuori dal corpo
 OVIPARO,Nasce da uova deposte
 OVOLO,Modanatura a forma di uovo
+OVULI,Cellule riproduttive femminili
+OVULI,Piccole strutture da cui si sviluppano i semi nelle piante
 OVULO,Cellula femminile o forma farmaceutica
-OVUNQUE,In qualunque luogo
 OVUNQUE,In qualsiasi luogo
+OVUNQUE,In qualunque luogo
+OVVERO,"Cioè, detto in altro modo"
+OVVERO,"Oppure, in un uso più formale"
+OVVIA,Evidente e facile da capire
+OVVIA,Priva di originalità perché troppo prevedibile
 OVVIAI,Posi rimedio a un problema
 OVVIAMENTE,Come si introduce una conclusione scontata
 OVVIAMENTE,Senza bisogno di ulteriori spiegazioni
@@ -721,6 +1015,12 @@ OWENS,Il velocista americano dei quattro ori a Berlino
 OXA,"Anna, interprete di numerosi successi sanremesi"
 OXFORD,Città universitaria inglese
 OXFORD,Le classiche scarpe stringate
+OZIA,Rimane inattiva per scelta
+OZIA,Trascorre il tempo senza lavorare
+OZIANO,Rimangono inattivi per scelta
+OZIANO,Trascorrono il tempo senza lavorare
+OZIARE,Restare inattivi per scelta
+OZIARE,Trascorrere il tempo senza lavorare
 OZIO,L'...è il padre dei vizi
 OZIOSA,Priva di attività
 OZIOSE,Prive di attività

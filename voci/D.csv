@@ -48,9 +48,13 @@ DAMASCO,Capitale della Siria
 DAMASCO,Città siriana citata per stoffe e acciaio
 DAMASCO,Pregiato tessuto a fiori
 DAMASO,Papa committente di san Girolamo
+DAME,Signore di rango o di corte
+DAME,Donne eleganti in abito da sera
 DAMIGIANA,Grande bottiglia impagliata
 DAMIGIANA,Grosso recipiente di vetro impagliato
 DAMIGIANE,Grossi recipienti impagliati per vino
+DAMMI,Imperativo rivolto a chi deve consegnare qualcosa
+DAMMI,Richiesta diretta in prima persona
 DAMOCLE,Aveva una spada sospesa sul capo
 DAMOCLE,La spada di...: minaccia incombente
 DAMON,Il nome del corridore di Formula 1 Hill
@@ -59,6 +63,8 @@ DAN,Il nome dell'attore Aykroyd
 DANAE,La madre di Perseo
 DANARO,Moneta o ricchezza disponibile
 DANARO,"I soldi, in grafia letteraria"
+DANDO,Mentre si offre o si consegna
+DANDO,Gerundio di chi mette qualcosa nelle mani altrui
 DANIEL,Il nome dell'interprete di James Bond Craig
 DANIELE,"Il nome di De Rossi, campione del mondo nel 2006"
 DANIELLE,Il nome della scrittrice rosa Steel
@@ -75,6 +81,8 @@ DANNEGGIATO,Compromesso da un guasto
 DANNEGGIATO,Ha subito un pregiudizio
 DANNEGGIATO,Guasto o compromesso
 DANNEGGIO,Comprometto o rovino
+DANNI,Conseguenze negative di un incidente
+DANNI,Guasti che richiedono riparazioni
 DANNO,"Loro elargiscono, dal verbo dare"
 DANNO,Perdita che può chiedere risarcimento
 DANNO,Lesione fisica o patrimoniale
@@ -101,6 +109,12 @@ DAPPERTUTTO,In ogni luogo
 DAPPERTUTTO,Non lascia zone escluse
 DAPPRIMA,In un primo momento
 DAPPRIMA,All’inizio dei fatti
+DARA,Offrirà o consegnerà in futuro
+DARA,Terza persona di una futura concessione
+DARAI,Offrirai o consegnerai in futuro
+DARAI,Seconda persona di una futura concessione
+DARCI,Consegnare qualcosa a noi
+DARCI,Offrire a chi parla e ai suoi compagni
 DARDANELLI,Stretto tra Egeo e mar di Marmara
 DARDO,Freccia breve e aggressiva
 DARDO,La freccetta appuntita da scagliare
@@ -111,6 +125,10 @@ DARE,Consegnare o concedere
 DAREDEVIL,Il supereroe Marvel cieco di Hell's Kitchen
 DARIO,"...Argento, maestro dell'horror italiano"
 DARIO,Il re persiano sconfitto da Alessandro
+DARMI,Consegnare qualcosa a chi parla
+DARMI,Offrire direttamente al richiedente
+DARO,Offrirò o consegnerò in futuro
+DARO,Promessa di una futura concessione
 DARSENA,Bacino riparato del porto
 DARSENA,Bacino riparato per le barche
 DARSENA,Specchio d'acqua riparato per barche
@@ -123,9 +141,17 @@ DATA,Il giorno segnato sul calendario
 DATA,Numeri che collocano un giorno
 DATA,Una fase nel flusso dell’esperienza nel quale gli eventi passano dal futuro al passato attraverso il presente
 DATABASE,L'archivio organizzato di dati
+DATE,Giorni indicati sul calendario
+DATE,"Offrite o consegnate, all’imperativo"
+DATI,Informazioni raccolte e organizzate
+DATI,Elementi elaborati da un computer
+DATO,Informazione acquisita o disponibile
+DATO,Premessa ammessa in un ragionamento
 DATORE,Chi offre lavoro o beni
 DATORE,Il contraente che concede qualcosa
 DATTERO,Frutto della palma
+DAVA,Offriva o consegnava nel passato
+DAVA,Era solito mettere a disposizione
 DAVANTI,Nella parte che precede
 DAVANTI,Dalla parte opposta al retro
 DAVANZALE,Mensola sotto la finestra
@@ -133,6 +159,8 @@ DAVANZALE,Ripiano sotto la finestra
 DAVID,Il nome del cantautore Bowie
 DAVID,Il...di Michelangelo a Firenze
 DAVIDS,"Edgar, il pitbull olandese della Juventus"
+DAVO,Offrivo o consegnavo nel passato
+DAVO,Prima persona di una concessione abituale
 DAVVERO,Proprio così
 DAVVERO,Senza finzione né dubbio
 DAWSON,Il nome del protagonista di una serie sul fiume
@@ -153,9 +181,13 @@ DEAMBULATORIO,Corridoio che gira attorno all'abside
 DEAN,Il nome dell’attore e cantante Martin
 DEAN,"James..., il ribelle di Gioventù bruciata"
 DEANDRE,Il Fabrizio di Bocca di rosa
+DEBITI,Somme ancora da restituire
+DEBITI,Obblighi economici verso altri
 DEBITO,Con il...rispetto
 DEBITO,Somma da restituire
 DEBITO,Obbligo morale oltre che economico
+DEBITORE,Chi deve restituire denaro
+DEBITORE,La parte obbligata verso un creditore
 DEBOLE,Il punto...: il lato più vulnerabile
 DEBOLE,"Il sesso...: le donne, per modo di dire"
 DEBOLE,Poco forte
@@ -176,10 +208,16 @@ DECADIMENTO,Peggioramento progressivo
 DECADIMENTO,Perdita graduale di efficienza
 DECAEDRO,Solido con dieci facce
 DECAGONO,Poligono a dieci lati
+DECANI,Membri più anziani di un gruppo
+DECANI,Docenti che guidano una facoltà
 DECANO,Il più anziano per nomina in un collegio
 DECANTER,Fa respirare il vino prima del brindisi
 DECATHLON,Prova di atletica in dieci specialità
+DECENNI,Periodi di dieci anni
+DECENNI,Intervalli più brevi di un secolo
 DECENNIO,Intervallo di dieci anni
+DECENTE,Accettabile senza essere eccellente
+DECENTE,Conforme alle regole del pudore
 DECENZA,Rispetto del buon costume
 DECENZA,Misura e correttezza nei modi
 DECESSO,La fine della vita
@@ -192,11 +230,23 @@ DECIDERE,Avere valore determinante
 DECIDO,Prendo una decisione
 DECIFRARE,Rendere leggibile un messaggio oscuro
 DECIFRARE,Comprendere ciò che è in codice
+DECIMA,Parte ottenuta dividendo per dieci
+DECIMA,Posizione che segue la nona
+DECIMI,Parti ottenute dividendo per dieci
+DECIMI,Posizioni che seguono le none
 DECIMO,Una parte su dieci
 DECINA,Il gruppetto di dieci
+DECINE,Gruppi formati da dieci unità
+DECINE,Quantità contate a gruppi di dieci
+DECISA,Risoluta e sicura della scelta
+DECISA,Stabilita senza ulteriori dubbi
 DECISE,Prese una risoluzione
+DECISI,Risoluti e pronti ad agire
+DECISI,Stabiliti dopo una scelta
 DECISIONE,Scelta presa dopo una valutazione
 DECISIONE,Fermezza nel passare all’azione
+DECISIVA,Capace di determinare l’esito
+DECISIVA,Che fa pendere definitivamente la bilancia
 DECISIVO,Capace di determinare l’esito
 DECISO,Fermo nelle intenzioni
 DECISO,Privo di esitazioni
@@ -204,6 +254,10 @@ DECLINARE,Rifiutare cortesemente un invito
 DECLINARE,Volgere verso il tramonto
 DECLINO,Fase di progressiva perdita
 DECLINO,Il tramonto di una potenza
+DECLIVIO,Pendio che scende gradualmente
+DECLIVIO,Tratto inclinato di un terreno
+DECOLLA,Lascia la pista e prende quota
+DECOLLA,Inizia rapidamente ad avere successo
 DECOLLO,Il distacco dell'aereo dal suolo
 DECOMPOSIZIONE,Disfacimento della materia organica
 DECOMPOSIZIONE,Separazione nei suoi elementi
@@ -215,6 +269,8 @@ DECORATO,Ornato con gusto
 DECORAZIONE,Abbellimento da festa o parete
 DECORAZIONE,Medaglia conferita per merito
 DECORAZIONE,Elemento che abbellisce
+DECORI,Ornamenti che abbelliscono un ambiente
+DECORI,Forme esteriori di dignità e rispetto
 DECORO,Dignità delle forme e dei comportamenti
 DECORO,Dignità e buon gusto
 DECORO,"Io abbellisco, adorno"
@@ -222,6 +278,8 @@ DECORO,Rispetto della propria dignità
 DECORRENZA,Il momento da cui un effetto ha inizio
 DECORRERE,Avere inizio da una certa data
 DECORRERE,Scorrere nel tempo
+DECORSO,Svolgimento nel tempo di una malattia
+DECORSO,Periodo trascorso dall’inizio di un evento
 DECREPITA,Molto vecchia e cadente
 DECREPITE,Molto vecchie e cadenti
 DECREPITI,Molto vecchi e cadenti
@@ -242,6 +300,8 @@ DEDICA,Parole rivolte a qualcuno in apertura
 DEDICARE,Offrire a qualcuno
 DEDICARE,Riservare tempo o lavoro a uno scopo
 DEDICATO,Offerto a qualcuno
+DEDICHE,Frasi scritte per rendere omaggio
+DEDICHE,Pensieri personali posti all’inizio di un libro
 DEDICHERA,Offrirà a qualcuno
 DEDICO,Offro a qualcuno
 DEDIZIONE,Impegno totale e costante
@@ -263,10 +323,14 @@ DEFILE,Sfilata di moda alla francese
 DEFILIPPI,La Maria conduttrice di C’è posta per te
 DEFINIRE,Stabilire con precisione i confini
 DEFINIRE,Spiegare il significato di un termine
+DEFINITA,Precisata con chiarezza
+DEFINITA,Conclusa e fissata nei particolari
 DEFINITIVAMENTE,Una volta per tutte
 DEFINITIVAMENTE,Senza possibilità di ritorno
 DEFINITIVO,Che non ammette ulteriori cambiamenti
 DEFINITIVO,Destinato a chiudere la questione
+DEFINITO,Precisato senza ambiguità
+DEFINITO,Concluso nei suoi elementi essenziali
 DEFINIZIONE,Spiegazione precisa di un termine
 DEFINIZIONE,Formula che delimita un concetto
 DEFOE,Creò il naufrago Robinson
@@ -276,6 +340,8 @@ DEFUNTO,Il compianto nelle formule formali
 DEGAS,Impressionista di ballerine
 DEGASPERI,L'Alcide statista trentino
 DEGAULLE,Il generale e presidente francese
+DEGENZA,Permanenza in ospedale per cure
+DEGENZA,Periodo trascorso durante un ricovero
 DEGNA,Meritevole
 DEGNE,Meritevoli
 DEGNI,Meritevoli
@@ -300,6 +366,8 @@ DEL,Il tasto che cancella sulla tastiera
 DELACROIX,Dipinse La Libertà che guida il popolo
 DELACROIX,Pittore romantico della libertà
 DELEDDA,La Grazia premio Nobel per la letteratura
+DELEGA,Affidamento di un compito ad altri
+DELEGA,Documento che autorizza qualcuno ad agire
 DELEGATO,Incaricato ad agire per altri
 DELEGATO,Rappresenta chi gli ha affidato un compito
 DELEGAZIONE,Gruppo inviato a rappresentare un ente
@@ -343,8 +411,12 @@ DELINEO,Traccio i contorni
 DELINQUENTE,Chi commette reati
 DELINQUENTE,Fuorilegge abituale
 DELINQUENZA,Insieme dei comportamenti criminali
+DELIRA,Parla in modo sconnesso per febbre o alterazione
+DELIRA,Perde il contatto con la realtà
 DELIRANTE,Privo di contatto con la realtà
 DELIRANTE,Assurdo e sconnesso
+DELIRI,Discorsi sconnessi dovuti a un’alterazione
+DELIRI,Idee prive di rapporto con la realtà
 DELIRIO,Alterazione febbrile della coscienza
 DELIRIO,Entusiasmo collettivo fuori controllo
 DELITTO,Reato particolarmente grave
@@ -361,9 +433,13 @@ DELPIERO,Il Pinturicchio bandiera della Juventus
 DELTA,La foce a ventaglio del fiume
 DELTA,La quarta lettera dell'alfabeto greco
 DELTA,Lettera greca e foce ramificata
+DELUSA,Rimasta senza ciò che sperava
+DELUSA,Amareggiata da un’attesa tradita
 DELUSE,Tradì le aspettative
 DELUSIONE,L'amarezza per un'attesa tradita
 DELUSIONE,Quando la realtà tradisce le attese
+DELUSO,Rimasto senza ciò che sperava
+DELUSO,Amareggiato da un risultato inferiore alle attese
 DEMARCAZIONE,Linea che separa due aree
 DEMARCAZIONE,Confine stabilito con precisione
 DEMENTE,Persona con grave deterioramento cognitivo
@@ -383,9 +459,13 @@ DEMOLIZIONE,Distruzione metodica di una struttura
 DEMONE,Il...del gioco: la passione sfrenata
 DEMONE,Spirito maligno infernale
 DEMONE,Spirito maligno nelle tradizioni religiose
+DEMONI,Spiriti maligni delle tradizioni religiose
+DEMONI,Ossessioni interiori difficili da vincere
 DEMONIO,Il tentatore delle credenze cristiane
 DEMONIO,Spirito infernale
 DENALI,La vetta più alta del Nordamerica
+DENARI,"Soldi, in forma letteraria o antica"
+DENARI,Uno dei semi delle carte napoletane
 DENARO,Il seme delle carte da gioco napoletane
 DENARO,Mezzo di scambio e vecchio seme di carte
 DENARO,Serve per comprare e pagare
@@ -406,6 +486,8 @@ DENTELLO,Elemento a dadini della cornice
 DENTELLO,Piccolo bordo seghettato o merlatura
 DENTI,Mordono e sorridono
 DENTICE,Pregiato pesce di mare predatore
+DENTIERA,Protesi che sostituisce i denti mancanti
+DENTIERA,Può essere rimossa prima di dormire
 DENTIFRICIO,Pasta usata con lo spazzolino
 DENTISTA,Professionista che fa aprire la bocca
 DENTRO,"All'interno, il contrario di fuori"
@@ -439,7 +521,15 @@ DEPUTATO,Membro di una camera parlamentare
 DERBY,La classica corsa dei purosangue
 DERBY,Sfida tra squadre della stessa città
 DEREK,Il nome del chitarrista blues Trucks
+DERIDE,Prende in giro con disprezzo
+DERIDE,Ride di qualcuno per umiliarlo
+DERISA,Presa in giro con disprezzo
+DERISA,Resa oggetto di scherno
 DERISE,Si fece beffe
+DERISI,Presi in giro con disprezzo
+DERISI,Resi oggetto di scherno
+DERISO,Preso in giro con disprezzo
+DERISO,Reso oggetto di scherno
 DERISORI,Che scherniscono
 DERISORIA,Che schernisce
 DERISORIE,Che scherniscono
@@ -456,8 +546,12 @@ DEROGA,Eccezione concessa a una regola
 DEROGA,Dispensa da un obbligo generale
 DEROSSI,"Daniele, centrocampista bandiera della Roma"
 DERRATA,Provvista alimentare per dispense e viaggi
+DERUBO,Porto via qualcosa con un furto
+DERUBO,Privo qualcuno dei suoi beni
 DERVISCIO,Asceta islamico noto per danze rotanti
 DESCRISSE,Tracciò a parole
+DESCRIVE,Rappresenta qualcosa con le parole
+DESCRIVE,Traccia verbalmente caratteristiche e particolari
 DESCRIVERE,Rappresentare a parole
 DESCRIVERE,Illustrare aspetto e caratteristiche
 DESERTI,Distese aride di sabbia o rocce
@@ -487,6 +581,8 @@ DESISTERE,Fermarsi prima di compiere l’azione
 DESSERT,Il dolce che chiude il pasto
 DESSERT,La portata dolce del pasto
 DESSERT,Arriva alla fine del pranzo
+DESTA,Sveglia o suscita
+DESTA,Vigile e non addormentata
 DESTARE,Far uscire dal sonno
 DESTARE,Suscitare interesse o sospetto
 DESTINATARIO,Chi riceve una lettera o un invio
@@ -507,6 +603,8 @@ DESUETA,Fuori dall'uso
 DESUETE,Fuori dall'uso
 DESUETI,Fuori dall'uso
 DESUETO,Fuori dall'uso
+DESUME,Ricava una conclusione da ciò che osserva
+DESUME,Deduce un fatto partendo dagli indizi
 DETECTIVE,Indaga su fatti misteriosi
 DETENUTO,Persona privata della libertà
 DETENUTO,Ospite forzato di un carcere
@@ -528,9 +626,15 @@ DETERSIVO,Serve a lavare panni o stoviglie
 DETRAZIONE,Somma sottratta da un’imposta
 DETRAZIONE,Riduzione concessa nel calcolo fiscale
 DETROIT,La città americana dell'automobile e della Motown
+DETTA,Pronuncia lentamente perché altri scrivano
+DETTA,Stabilisce o impone una regola
 DETTAGLIATAMENTE,Con grande precisione
 DETTAGLIO,Particolare minuto
 DETTAGLIO,Elemento minimo che può cambiare il quadro
+DETTE,Pronunciate o riferite a parole
+DETTE,Già espresse in precedenza
+DETTI,Pronunciati o riferiti a parole
+DETTI,Motti tramandati dalla tradizione popolare
 DETTO,Frase tramandata dall’uso
 DETTO,Espressione proverbiale
 DEUMIDIFICATORE,Toglie umidità dall'aria
@@ -538,11 +642,23 @@ DEUS,... ex machina: la soluzione improvvisa
 DEUS,Dio nella messa antica
 DEVASTAZIONE,Distruzione estesa e violenta
 DEVASTAZIONE,Ciò che resta dopo un cataclisma
+DEVE,È obbligato a fare qualcosa
+DEVE,Ha una somma da restituire
+DEVI,Sei obbligato a fare qualcosa
+DEVI,Ti scosti dal percorso stabilito
 DEVIARE,Allontanarsi dal percorso previsto
 DEVIARE,Far cambiare direzione
 DEVIATOIO,Apparecchio che smista i treni
 DEVIAZIONE,Scostamento dal percorso normale
 DEVIAZIONE,Variante stradale che aggira un tratto
+DEVO,Sono obbligato a fare qualcosa
+DEVO,Ho una somma da restituire
+DEVOTA,Profondamente fedele a una persona o a una causa
+DEVOTA,Assidua nelle pratiche religiose
+DEVOTE,Fedeli a una persona o a una causa
+DEVOTE,Assidue nelle pratiche religiose
+DEVOTI,Fedeli e sinceramente affezionati
+DEVOTI,Assidui nelle pratiche religiose
 DEVOTO,Profondamente legato alla propria fede
 DEVOTO,Fedele e pieno di rispetto
 DEVOZIONE,Profondo sentimento religioso
@@ -562,6 +678,8 @@ DIAFANE,Sottili e trasparenti
 DIAFANI,Sottili e trasparenti
 DIAFANO,Trasparente fino quasi a sparire
 DIAFRAMMA,Regola la luce dentro la macchina fotografica
+DIAGNOSI,Identificazione di una malattia
+DIAGNOSI,Giudizio formulato dopo esami e sintomi
 DIAGONALE,Segmento che unisce vertici non adiacenti
 DIAGRAMMA,Rappresentazione grafica di dati
 DIAGRAMMA,"Può avere assi, curve e barre"
@@ -569,16 +687,24 @@ DIALEFE,Separa vocali che potrebbero unirsi
 DIALETTICA,L'arte del discutere per tesi e antitesi
 DIALETTO,Lingua locale che resiste alla scuola
 DIALETTO,Varietà locale di una lingua
+DIALOGHI,Conversazioni tra due o più persone
+DIALOGHI,Scambi di battute in un testo teatrale
 DIALOGO,Scambio di battute tra due persone
 DIALOGO,Confronto aperto tra posizioni diverse
 DIAMANTE,Le nozze di...: i sessant'anni di matrimonio
 DIAMANTE,Pietra preziosa durissima
 DIAMANTI,Pietre preziose durissime
+DIAMETRO,Segmento che passa per il centro di un cerchio
+DIAMETRO,Misura doppia del raggio
+DIAMO,Offriamo o consegniamo
+DIAMO,Prima persona plurale di una concessione
 DIANA,Dea latina della caccia e della luna
 DIANA,Il nome della principessa del Galles
 DIANA,La dea romana della caccia
 DIANA,La sveglia militare del mattino
 DIANE,Il nome dell'attrice Keaton
+DIANO,Che offrano o consegnino
+DIANO,Congiuntivo di una concessione
 DIAPASON,Al massimo...: al culmine
 DIAPASON,Dà il la senza cantare
 DIAPASON,Dà la nota per accordare
@@ -601,18 +727,30 @@ DIAZ,"Cameron..., attrice di Hollywood"
 DIAZ,L'Armando del bollettino della Vittoria
 DIBATTITO,Confronto pubblico di opinioni
 DIBATTITO,Discussione regolata tra posizioni
+DICA,Che pronunci o riferisca qualcosa
+DICA,Forma usata per invitare qualcuno a parlare
 DICAPRIO,"L'attore di Titanic premio Oscar, Leonardo"
 DICASTERO,Ministero nella terminologia istituzionale
+DICE,Esprime qualcosa a parole
+DICE,Introduce spesso una citazione
+DICEMBRE,Mese che chiude l’anno
+DICEMBRE,Porta Natale e l’inizio dell’inverno
 DICHIARARE,Affermare in modo esplicito
 DICHIARARE,Rendere noto in forma ufficiale
 DICHIARATAMENTE,In modo esplicito e manifesto
 DICHIARAZIONE,Affermazione resa pubblicamente
 DICHIARAZIONE,Atto formale che comunica una volontà
+DICI,Esprimi qualcosa a parole
+DICI,Seconda persona di chi parla
 DICITURA,Breve testo stampato su un’etichetta
 DICK,Il nome del detective dei fumetti Tracy
 DICK,"Moby..., la balena bianca"
 DICKENS,Il Charles di Oliver Twist
 DICKENS,"Narrò orfani, nebbie e Londra vittoriana"
+DICO,Esprimo qualcosa a parole
+DICO,Prima persona di chi prende la parola
+DICONO,Esprimono qualcosa a parole
+DICONO,È la formula delle voci non verificate
 DICOTOMIA,Taglio in due del ragionamento
 DIDASCALIA,Spiega l'immagine senza farne parte
 DIDASCALIA,Accompagna fotografie e illustrazioni
@@ -623,12 +761,18 @@ DIDONE,La regina di Cartagine amata da Enea
 DIECI,Il voto perfetto in pagella
 DIECI,Le dita di due mani
 DIECIMILA,Il numero scritto 10.000
+DIEDE,Consegnò o offrì nel passato
+DIEDE,Terza persona di una concessione conclusa
+DIEDI,Consegnai o offrii nel passato
+DIEDI,Prima persona di una concessione conclusa
 DIESEL,Il marchio italiano di jeans e moda
 DIESEL,Il motore che va a gasolio
 DIESEL,Motore e carburante dal nome d'inventore
 DIESIS,Segno che alza la nota di un semitono
 DIETA,Regime alimentare seguito con uno scopo
 DIETA,Insieme abituale dei cibi consumati
+DIETE,Regimi alimentari controllati
+DIETE,Si seguono per salute o dimagrimento
 DIETRO,Nella parte posteriore
 DIFENDERE,Sostenere una tesi contro le obiezioni
 DIFENDERE,Proteggere da un attacco
@@ -636,6 +780,10 @@ DIFENSORE,Chi protegge o prende le parti di qualcuno
 DIFENSORE,Giocatore schierato davanti al portiere
 DIFESA,Argomentazione contro un’accusa
 DIFESE,Prese le parti
+DIFESI,Protetti da un pericolo
+DIFESI,Sostenni le mie ragioni
+DIFESO,Protetto da un pericolo
+DIFESO,Assistito da un avvocato
 DIFETTO,Mancanza che riduce il valore
 DIFETTO,Punto debole di una cosa o persona
 DIFFAMAZIONE,Offesa alla reputazione comunicata ad altri
@@ -676,6 +824,8 @@ DIGESTIONE,Lenta assimilazione di un’esperienza
 DIGESTIVO,Il liquore di fine pasto
 DIGHE,Fermano la forza dei fiumi
 DIGIMON,I mostri digitali rivali dei Pokémon
+DIGITA,Inserisce caratteri con una tastiera
+DIGITA,Compone un numero su un dispositivo
 DIGITALE,Basato su valori numerici discreti
 DIGIUNO,Astensione volontaria dal cibo
 DIGNITA,Tiene dritti anche nella sfortuna
@@ -683,6 +833,8 @@ DIGNITA,Rispetto dovuto a ogni persona
 DIGNITA,Consapevolezza del proprio valore
 DIGNITOSO,Composto anche nelle difficoltà
 DIGNITOSO,Meritevole di rispetto
+DILATA,Allarga o aumenta di volume
+DILATA,Fa durare più a lungo nel tempo
 DILATAI,"Resi più ampio, al passato"
 DILAZIONE,Rinvio che compra tempo
 DILEGGIO,Schernisco con disprezzo
@@ -699,6 +851,12 @@ DILIGENZA,Carrozza postale a cavalli
 DILIGENZA,Cura attenta o carrozza del Far West
 DILIGENZA,Cura scrupolosa nello svolgere un compito
 DILIGENZE,Viaggiavano su strade polverose
+DILLA,Pronunciala senza esitazione
+DILLA,Imperativo riferito a una cosa femminile
+DILLO,Pronuncialo senza esitazione
+DILLO,Imperativo rivolto a chi deve confessare
+DILUVI,Piogge torrenziali e prolungate
+DILUVI,Enormi quantità che sembrano cadere dal cielo
 DILUVIO,La pioggia violenta e torrenziale
 DILUVIO,"Pioggia esagerata, biblica o quotidiana"
 DILUVIO,Quello universale a cui scampò Noè
@@ -723,6 +881,8 @@ DIMINUIRE,Rendere minore
 DIMINUIRE,Scendere di quantità o intensità
 DIMINUZIONE,Riduzione di quantità o valore
 DIMINUZIONE,Calo rispetto al livello precedente
+DIMMI,Invito rivolto a chi deve parlare
+DIMMI,Formula con cui si chiede una risposta immediata
 DIMORA,Casa con tono meno quotidiano
 DIMORA,Casa o residenza
 DIMORA,"L'abitazione, la residenza"
@@ -732,12 +892,20 @@ DIMOSTRARE,Manifestare apertamente un sentimento
 DIMOSTRAZIONE,Prova che conferma una tesi
 DIMOSTRAZIONE,Manifestazione pubblica di protesta
 DIMSUM,Gli stuzzichini al vapore cinesi
+DINAMICA,Studio delle forze che producono movimento
+DINAMICA,Successione dei fatti in un evento
 DINAMISMO,Energia pronta all’azione
 DINAMISMO,Capacità di adattarsi e muoversi
 DINAMITE,Esplosivo del Nobel inventore
+DINAMO,Generatore che trasforma movimento in elettricità
+DINAMO,Un tempo alimentava le luci delle biciclette
+DINARI,Monete di diversi paesi arabi e balcanici
+DINARI,Valute il cui nome deriva dal denario romano
 DINASTIA,Famiglia che eredita il potere
 DINASTIA,Successione di sovrani della stessa famiglia
 DINASTIA,Famiglia che domina un settore per generazioni
+DINASTIE,Successioni di sovrani della stessa famiglia
+DINASTIE,Casate che mantengono a lungo il potere
 DINATALE,"Antonio, bomber bandiera dell'Udinese"
 DINIEGO,Rifiuto espresso formalmente
 DINIEGO,Risposta negativa a una richiesta
@@ -755,6 +923,8 @@ DIODO,Componente che lascia passare corrente in un verso
 DIOGENE,Il cinico che cercava l'uomo con la lanterna
 DIONISO,Dio del vino e dell'ebbrezza sacra
 DIOR,La maison francese del New Look
+DIPANA,Sbroglia un filo avvolto
+DIPANA,Chiarisce gradualmente una questione intricata
 DIPARTIMENTO,Settore autonomo di una grande organizzazione
 DIPARTIMENTO,Struttura universitaria o amministrativa
 DIPARTITA,"Partenza definitiva, in tono eufemistico"
@@ -776,11 +946,21 @@ DIPLOMA,Titolo rilasciato al termine di un corso
 DIPLOMAZIA,Tatto nel trattare questioni delicate
 DIPLOMAZIA,Arte di negoziare tra Stati
 DIPTERO,Insetto con due ali
+DIRA,Esprimerà qualcosa a parole
+DIRA,Parlerà in futuro
 DIRADAI,"Resi meno fitto, al passato"
 DIRADARE,Rendere meno fitto
+DIRAI,Esprimerai qualcosa a parole
+DIRAI,Parlerai in futuro
 DIRE,Aver un bel...: parlare invano
 DIRE,I... Straits di Knopfler
 DIRE,Esprimere a parole
+DIREI,Esprimerei un’opinione con cautela
+DIREI,Formula usata per avanzare una valutazione
+DIREMO,Esprimeremo qualcosa a parole
+DIREMO,Parleremo in futuro
+DIRETE,Esprimerete qualcosa a parole
+DIRETE,Parlerete in futuro
 DIRETTA,La trasmissione in tempo reale
 DIRETTA,Senza deviazioni
 DIRETTAMENTE,Senza intermediari
@@ -800,6 +980,8 @@ DIRETTORIO,Organo collegiale di governo
 DIREZIONE,Verso in cui ci si muove
 DIREZIONE,Organo che guida un ente
 DIRHAM,La valuta degli Emirati e del Marocco
+DIRIGE,Guida un’organizzazione o un’orchestra
+DIRIGE,Indica la rotta e coordina il lavoro
 DIRIGENTE,Chi ha responsabilità di gestione
 DIRIGENTE,Con funzioni di guida
 DIRIGENZA,Gruppo di chi occupa ruoli apicali
@@ -807,9 +989,23 @@ DIRIGENZA,Attività di gestione ai livelli superiori
 DIRIGERE,Guidare persone o attività
 DIRIGERE,Condurre un’orchestra
 DIRIGIBILE,Aeromobile più leggero dell'aria
+DIRIGO,Guido un’attività o un gruppo
+DIRIGO,Coordino personalmente persone e mezzi
 DIRITTO,Insieme di leggi
 DIRITTO,"Senza deviazioni, come un percorso"
 DIRK,Il nome del cestista tedesco Nowitzki
+DIRLA,Esprimere una cosa femminile
+DIRLA,Pronunciare una verità o una frase
+DIRLE,Esprimere qualcosa a una donna
+DIRLE,Rivolgere parole direttamente a lei
+DIRLO,Esprimere qualcosa a parole
+DIRLO,Pronunciare ciò che si pensa
+DIRMI,Esprimere qualcosa direttamente a chi parla
+DIRMI,Rivolgere una comunicazione al richiedente
+DIRNE,Parlare di una certa cosa
+DIRNE,Esprimere un giudizio al riguardo
+DIRO,Esprimerò qualcosa a parole
+DIRO,Parlerò in futuro
 DIRSI,Avere un certo nome o significato
 DIRUPO,Pendio da non scendere distratti
 DIRUPO,Pendio ripido che mette vertigine
@@ -822,6 +1018,8 @@ DISADORNA,Priva di ornamenti
 DISADORNE,Prive di ornamenti
 DISADORNI,Privi di ornamenti
 DISADORNO,Privo di ornamenti
+DISAGI,Situazioni scomode o difficili
+DISAGI,Problemi che rendono meno agevole la vita
 DISAGIO,Condizione di difficoltà o imbarazzo
 DISAGIO,Malessere in una situazione
 DISAPPROVAZIONE,Giudizio negativo espresso apertamente
@@ -949,7 +1147,11 @@ DISPOTICO,Governa imponendo la propria volontà
 DISPREZZO,Profonda mancanza di stima
 DISPUTA,Contesa a parole o per un diritto
 DISPUTA,Polemica tra parti avverse
+DISSE,Pronunciò qualcosa nel passato
+DISSE,Terza persona di un intervento già concluso
 DISSENSO,Dice no quando tutti vorrebbero un sì
+DISSI,Pronunciai qualcosa nel passato
+DISSI,Prima persona di un intervento già concluso
 DISSIDIO,Contrasto che non resta superficiale
 DISSOLUTA,Dedita ai vizi
 DISSOLUTE,Dedite ai vizi
@@ -959,6 +1161,8 @@ DISSOLUZIONE,Disgregazione di una sostanza o di un organismo
 DISSONANZA,Accordo che chiede risoluzione
 DISSONANZA,Accordo musicale sgradevole o instabile
 DISSONANZA,Contrasto evidente tra elementi
+DISTA,È lontano da un punto di riferimento
+DISTA,Si trova a una certa lontananza
 DISTACCAMENTO,Reparto separato dal corpo principale
 DISTACCO,Separazione da un gruppo o luogo
 DISTACCO,Freddezza emotiva
@@ -1021,6 +1225,8 @@ DITA,Si contano su una mano quando sono pochissimi
 DITA,Finiscono la mano e iniziano le impronte
 DITALE,Protegge il dito di chi cuce
 DITALI,Proteggono il dito di chi cuce
+DITE,Esprimete qualcosa a parole
+DITE,Invito rivolto a più persone perché parlino
 DITIRAMBO,Canto dionisiaco diventato elogio eccessivo
 DITO,Metterlo nella piaga è doloroso
 DITO,Mostrare a...: additare il colpevole
@@ -1032,6 +1238,8 @@ DITTATORE,Governante con poteri assoluti
 DITTATORE,Capo che non ammette opposizione
 DITTATURA,Regime privo di libertà politica
 DITTATURA,Potere autoritario concentrato in una persona
+DIVAGA,Si allontana dal tema principale
+DIVAGA,Lascia vagare il pensiero
 DIVANI,Invitano a sedersi in salotto
 DIVANO,Il comodo sedile a più posti del salotto
 DIVANO,Sedile imbottito da salotto
@@ -1069,16 +1277,28 @@ DIVIDERE,Ripartire in più parti
 DIVIDERE,Creare una frattura tra persone
 DIVIDERSI,Separarsi dopo un percorso comune
 DIVIDERSI,Ripartirsi in gruppi
+DIVIDI,Separa un insieme in più parti
+DIVIDI,Esegui l’operazione opposta alla moltiplicazione
 DIVIDO,Separo in parti
 DIVIETO,Ordine che impedisce un’azione
 DIVIETO,Cartello che impone di non fare
+DIVINA,Propria degli dèi
+DIVINA,Straordinariamente bella o piacevole
+DIVINE,Proprie degli dèi
+DIVINE,Straordinariamente belle o piacevoli
+DIVINI,Propri degli dèi
+DIVINI,Straordinariamente belli o piacevoli
 DIVINITA,Essere soprannaturale oggetto di culto
 DIVINO,"Celeste, degno degli dei"
 DIVISA,Abito che identifica un corpo o mestiere
 DIVISA,Valuta straniera nei mercati monetari
 DIVISE,Separò in parti
+DIVISI,Separati in gruppi o parti
+DIVISI,In disaccordo tra loro
 DIVISIONE,Reparto di una grande organizzazione
 DIVISIONE,Frattura interna a un gruppo
+DIVISO,Separato in più parti
+DIVISO,Ripartito secondo quote stabilite
 DIVO,Il film di Sorrentino su Andreotti
 DIVO,Vive di schermi e ammiratori
 DIVO,Celebrità venerata dal pubblico
@@ -1130,6 +1350,8 @@ DODO,Uccello estinto che non volava lontano
 DODOMA,Capitale amministrativa della Tanzania
 DOGANA,Il controllo delle merci alla frontiera
 DOGANA,Ufficio che controlla merci e frontiere
+DOGANE,Uffici che controllano merci alle frontiere
+DOGANE,Impongono dazi sulle importazioni
 DOGANIERE,Controlla merci e passaporti al confine
 DOGE,Antico capo della Repubblica di Venezia
 DOGE,Capo storico della Serenissima
@@ -1138,6 +1360,8 @@ DOGE,Serenissimo titolo veneziano
 DOGMA,La verità di fede indiscutibile
 DOGMA,Verità che non gradisce discussioni
 DOGMA,Assunto che non si mette in discussione
+DOGMI,Principi considerati indiscutibili
+DOGMI,Verità ufficiali di una dottrina
 DOGON,Popolo del Mali noto per l'astronomia
 DOHA,Capitale del Qatar
 DOHA,Città qatarina affacciata sul Golfo Persico
@@ -1161,10 +1385,22 @@ DOLOMITI,Montagne pallide che arrossiscono al tramonto
 DOLORE,La sofferenza del corpo o dell'animo
 DOLORE,Sensazione fisica spiacevole
 DOLORE,Sofferenza morale
+DOLORI,Sensazioni fisiche spiacevoli
+DOLORI,Sofferenze anche morali
 DOLOROSO,Che provoca sofferenza
+DOLOSA,Compiuta con intenzione consapevole
+DOLOSA,Basata sulla volontà di causare un danno
+DOLOSE,Compiute con intenzione consapevole
+DOLOSE,Basate sulla volontà di causare un danno
+DOLOSI,Compiuti con intenzione consapevole
+DOLOSI,Basati sulla volontà di causare un danno
+DOLOSO,Compiuto con intenzione consapevole
+DOLOSO,Basato sulla volontà di causare un danno
 DOLSE,Provò dispiacere
 DOMA,L'addestramento dei cavalli
 DOMA,Rende mansueto
+DOMAI,Sottomisi e resi mansueto
+DOMAI,Prima persona di un’azione conclusa su un animale ribelle
 DOMANDA,Chiede per sapere
 DOMANDA,Quella che incontra l'offerta sul mercato
 DOMANDA,Quella di lavoro da presentare
@@ -1181,13 +1417,19 @@ DOMARE,Tenere a freno: ...la rabbia
 DOMARE,Rendere ubbidiente un animale
 DOMATO,Reso mansueto
 DOMATORE,Tiene a bada le fiere del circo
+DOMENICA,Giorno che chiude la settimana tradizionale
+DOMENICA,Per molti è dedicato al riposo
 DOMENICO,Il fondatore dei frati predicatori
 DOMESTICA,Collaboratrice addetta alla casa
 DOMESTICA,"Non selvatica, al femminile"
 DOMESTICO,Che riguarda la casa
 DOMESTICO,Non selvatico
+DOMI,Sottometti e rendi mansueti
+DOMI,Che tu riesca a piegare una resistenza
 DOMICILIO,Luogo scelto come sede legale
 DOMICILIO,Recapito stabile di una persona
+DOMINA,Esercita potere o controllo
+DOMINA,Si impone nettamente sugli avversari
 DOMINANTE,Che prevale per forza o frequenza
 DOMINANTE,Che ha maggiore peso o influenza
 DOMINARE,Esercitare un forte controllo
@@ -1195,6 +1437,8 @@ DOMINARE,Sovrastare dall’alto
 DOMINAZIONE,Controllo imposto su un territorio
 DOMINAZIONE,Potere esercitato da chi prevale
 DOMINGO,"Il tenore spagnolo dei tre tenori, Placido"
+DOMINI,Eserciti il controllo su altri
+DOMINI,Territori soggetti a un’autorità
 DOMINIC,Il nome del Toretto di Fast and Furious
 DOMINIO,Ambito su cui si esercita un potere
 DOMINIO,Indirizzo principale di un sito web
@@ -1208,6 +1452,8 @@ DON,Il grande fiume della Russia meridionale
 DON,"Il...Giovanni, il celebre seduttore"
 DON,Titolo ecclesiastico o boss da cinema
 DON,Titolo dato a sacerdoti e notabili
+DONA,Offre senza chiedere nulla in cambio
+DONA,Conferisce una qualità o un vantaggio
 DONABBONDIO,Curato pavido dei Promessi sposi
 DONADONI,"Roberto, ala della Nazionale italiana negli anni Novanta"
 DONAI,Diedi senza prezzo
@@ -1222,12 +1468,16 @@ DONAZIONE,Trasferimento gratuito di un bene
 DONAZIONE,Contributo offerto senza contropartita
 DONCHISCIOTTE,Combatte mulini scambiandoli per giganti
 DONCIC,Il cestista sloveno Luka
+DONI,Regali offerti gratuitamente
+DONI,Qualità naturali particolarmente spiccate
 DONIZETTI,Il Gaetano della Lucia di Lammermoor
 DONKEYKONG,Il gorilla dei videogiochi Nintendo
 DONNA,Figura femminile: nei romanzi spesso protagonista
 DONNA,La regina nel mazzo di carte
 DONNA,Persona adulta di sesso femminile
 DONNARUMMA,"Gigio, portiere eroe di Euro 2020"
+DONNE,Persone adulte di sesso femminile
+DONNE,Protagoniste della giornata dell’8 marzo
 DONNIE,Il nome del Darko del film
 DONNOLA,Piccolo agile carnivoro dei campi
 DONO,Do senza prezzo
@@ -1254,6 +1504,8 @@ DORATO,Rivestito o colorato d’oro
 DORATORE,Riveste oggetti con foglia d'oro
 DORIAN,Il nome del Gray di Wilde
 DORME,Prende sonno
+DORMI,Riposi con gli occhi chiusi
+DORMI,Imperativo rivolto a chi deve prendere sonno
 DORMIRE,Prendere sonno
 DORMIRE,Restare nel sonno
 DORMIRE,Passare la notte in un luogo
@@ -1265,6 +1517,8 @@ DORMO,Prendo sonno
 DOROTHY,Il nome della protagonista del Mago di Oz
 DORSALE,Catena montuosa o linea della schiena
 DORSALE,Catena montuosa o oceanica allungata
+DORSI,Parti posteriori del tronco
+DORSI,Lati esterni di libri o mani
 DORSO,La schiena o il retro di un libro
 DORSO,Lo stile di nuoto a pancia in su
 DORSO,Schiena o parte del libro
@@ -1281,6 +1535,8 @@ DOSATORE,Misura le quantità da versare
 DOSE,La misura che può curare o nuocere
 DOSE,Rincarare la...: esagerare ancora
 DOSE,Quantità prescritta o somministrata
+DOSI,Quantità stabilite di una sostanza
+DOSI,Porzioni prescritte di un medicinale
 DOSO,Misuro le quantità
 DOSSIER,Fascicolo che promette rivelazioni
 DOSSIER,Raccolta ordinata di documenti
@@ -1309,12 +1565,28 @@ DOURO,Fiume iberico del porto
 DOVERE,Il... e l'avere nei conti
 DOVERE,Obbligo morale o giuridico
 DOVERE,Ciò che si è tenuti a fare
+DOVERI,Obblighi morali o giuridici
+DOVERI,Compiti che non si possono ignorare
 DOVIZIOSO,"Andrea, più volte vicecampione della MotoGP"
+DOVRA,Sarà obbligato a fare qualcosa
+DOVRA,Avrà il compito di agire
+DOVRAI,Sarai obbligato a fare qualcosa
+DOVRAI,Avrai il compito di agire
+DOVREI,Sarei tenuto a fare qualcosa
+DOVREI,Formula che introduce un obbligo non assoluto
 DOVUNQUE,In qualunque luogo
 DOVUNQUE,Senza limiti di posto
+DOVUTE,Causate da un motivo preciso
+DOVUTE,Spettanti per diritto o obbligo
+DOVUTI,Causati da un motivo preciso
+DOVUTI,Spettanti per diritto o obbligo
+DOVUTO,Causato da un motivo preciso
+DOVUTO,Spettante per diritto o obbligo
 DOZZINA,Gruppo di dodici elementi
 DRACMA,Moneta greca prima dell'euro
 DRACULA,Il conte vampiro della Transilvania
+DRAGHE,Creature fantastiche femminili alate
+DRAGHE,Macchine che scavano i fondali
 DRAGHI,I mostri sputafuoco
 DRAGHI,"Mario, già presidente della BCE e del Consiglio"
 DRAGHI,Sputano fuoco nelle fiabe
@@ -1333,6 +1605,8 @@ DRAMMA,"La disgrazia, oltre all'opera teatrale seria"
 DRAMMA,Opera teatrale di tono serio
 DRAMMA,Evento umano doloroso
 DRAMMATICO,Ricco di tensione e conflitto
+DRAPPI,Tessuti pesanti usati come ornamento
+DRAPPI,Stendardi di carattere cerimoniale
 DRAPPO,Il telo di stoffa pregiata e drappeggiata
 DRAPPO,Panno ampio da bandiere e cerimonie
 DRAPPO,Panno ricco e scenografico
@@ -1357,6 +1631,8 @@ DROGA,Sostanza che altera il sistema nervoso
 DROGATO,Sotto l’effetto di stupefacenti
 DROGATO,Persona con dipendenza da sostanze
 DROGBA,"Didier, celebre attaccante ivoriano"
+DROGHE,Sostanze stupefacenti
+DROGHE,"Spezie e sostanze aromatiche, in senso antico"
 DROGHIERE,Vende generi alimentari e coloniali
 DROLERIA,Bizzarria che fa sorridere
 DROMEDARI,Portano una sola gobba
@@ -1365,6 +1641,8 @@ DROMEDARIO,Ha una gobba e molta pazienza desertica
 DROMEDARIO,Ha una sola gobba per il deserto
 DROMONE,Nave da guerra bizantina
 DRONE,Velivolo senza pilota a bordo
+DRONI,Velivoli senza pilota a bordo
+DRONI,Apparecchi telecomandati usati per riprese dall’alto
 DRUMANDBASS,Genere elettronico dai ritmi spezzati
 DRUSI,Comunità religiosa del Levante
 DS,"Il direttore sportivo, in sigla"
@@ -1373,6 +1651,8 @@ DUALIPA,La popstar britannica di Levitating
 DUB,Genere giamaicano strumentale ed echeggiante
 DUB,"Il doppiaggio, in gergo"
 DUBAI,Emirato dei grattacieli
+DUBBI,Incertezze che impediscono una scelta
+DUBBI,Domande rimaste senza risposta
 DUBBIO,Stato di insicurezza nei confronti di qualcosa
 DUBBIO,Incertezza che impedisce di affermare
 DUBBIOSA,Incerta nel giudizio
@@ -1385,6 +1665,8 @@ DUBITA,Non è sicuro
 DUBITAI,"Non fui certo, al passato"
 DUBITARE,Non essere sicuro
 DUBITATO,Messo in discussione
+DUBITI,Esiti per mancanza di certezza
+DUBITI,Metti in discussione ciò che ti viene detto
 DUBITO,Non sono sicuro
 DUBLINO,Capitale irlandese sul Liffey
 DUBLINO,Città di Joyce e dei pub irlandesi
@@ -1398,10 +1680,16 @@ DUCATO,L'antica moneta d'oro veneziana
 DUCCIO,Artista senese della Maestà
 DUCCIO,Pittore senese della Maestà
 DUCHAMP,L'artista dell'orinatoio come opera d'arte
+DUCHI,Nobili di rango elevato
+DUCHI,Governarono diversi antichi stati italiani
 DUE,"Basta per fare coppia, non folla"
 DUE,Il numero che segue l'uno
+DUELLI,Scontri tra due avversari
+DUELLI,Sfide dirette regolate da precise convenzioni
 DUELLO,Scontro a due per onore o rivalità
 DUERO,Fiume iberico
+DUETTI,Brani scritti per due voci
+DUETTI,Esibizioni eseguite in coppia
 DUETTO,Il brano cantato a due voci
 DUKE,"Il duca, in inglese"
 DUKE,Il nome del jazzista Ellington
@@ -1412,6 +1700,8 @@ DUMBO,L'elefantino Disney dalle grandi orecchie
 DUNA,Collina mobile fatta di sabbia
 DUNA,La collina di sabbia del deserto
 DUNCAN,Il nome del re ucciso da Macbeth
+DUNE,Rilievi di sabbia modellati dal vento
+DUNE,Si spostano lentamente nei deserti
 DUO,Coppia che suona
 DUO,Due artisti che si esibiscono insieme
 DUO,Formazione ridotta a due elementi
@@ -1423,9 +1713,15 @@ DUOMO,Può dominare la piazza principale
 DURA,"Lei persiste, si protrae nel tempo"
 DURA,Resiste nel tempo
 DURAI,Resistei nel tempo
+DURANO,Continuano per un certo tempo
+DURANO,Resistono senza finire subito
 DURARE,Resistere nel tempo
 DURARE,Continuare nel tempo
 DURATA,Estensione di un evento nel tempo
+DURATE,Misure del tempo occupato da eventi
+DURATE,"Proseguite a lungo, riferito a cose femminili"
+DURATI,Proseguiti per un certo tempo
+DURATI,Rimasti in uso o in vita a lungo
 DURATO,Resistito nel tempo
 DURATURO,Destinato a resistere a lungo
 DURATURO,Che non svanisce presto
@@ -1433,6 +1729,8 @@ DURBAN,Porto del Sudafrica
 DURE,Resistenti alla pressione
 DURENDAL,Nome francese della spada di Orlando
 DURER,Maestro tedesco dell'incisione
+DURERA,Continuerà nel tempo
+DURERA,Non finirà subito
 DUREVOLE,Capace di mantenersi nel tempo
 DUREVOLE,Fatto per non consumarsi presto
 DUREZZA,Severità priva di indulgenza
@@ -1440,6 +1738,8 @@ DUREZZA,Resistenza alla penetrazione o al graffio
 DURI,I... a morire: i tenaci che non si arrendono
 DURI,Resistenti alla pressione
 DURIAN,Il frutto tropicale dall'odore fortissimo
+DURINO,Che continuino nel tempo
+DURINO,Congiuntivo riferito a cose che devono resistere
 DURLINDANA,La celebre spada del paladino Orlando
 DURO,"Resiste, o manca di tenerezza"
 DURO,Tener...: resistere senza cedere

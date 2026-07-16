@@ -31,16 +31,16 @@ The main worker starts immediately. On 13×13 grids and rectangular grids from 1
 
 ## 🗂️ The database
 
-The source database lives in [`voci/`](voci/): **26 CSV files**, one per initial letter, with **30,242 definition rows**. `node builddb.js` turns them into `cruciverba_db.json`, a compact JSON array of `["SOLUTION", clue]` entries, where `clue` is either a **string** (one definition) or an **array of strings** (several definitions for the same solution). When a word has multiple clues, the generator picks one at random per puzzle, so the same answer can be asked differently from one grid to the next.
+The source database lives in [`voci/`](voci/): **26 CSV files**, one per initial letter, with **36,738 definition rows**. `node builddb.js` turns them into `cruciverba_db.json`, a compact JSON array of `["SOLUTION", clue]` entries, where `clue` is either a **string** (one definition) or an **array of strings** (several definitions for the same solution). When a word has multiple clues, the generator picks one at random per puzzle, so the same answer can be asked differently from one grid to the next.
 
 The clue database and definitions are licensed separately from the software: see [LICENSE-CONTENT.md](LICENSE-CONTENT.md).
 
-- **18,909 solutions / 30,242 clues / 7,854 multi-clue solutions.** Solutions are uppercase, letters **A–Z only** (accents and spaces stripped at build time).
+- **22,157 solutions / 36,738 clues / 11,102 multi-clue solutions.** Solutions are uppercase, letters **A–Z only** (accents and spaces stripped at build time).
 - Length distribution is deliberately skewed toward short words, which feed the dense crossings:
 
 | Letters | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14+ |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Solutions | 183 | 296 | 1029 | 2231 | 2899 | 3500 | 2890 | 2349 | 1602 | 956 | 511 | 260 | 203 |
+| Solutions | 190 | 324 | 1337 | 3023 | 3993 | 4156 | 3246 | 2355 | 1603 | 956 | 511 | 260 | 203 |
 
 The `14+` bucket is made of 111 words of length 14, 61 words of length 15, 22 words of length 16, 4 words of length 17, 3 words of length 18 and 2 words of length 19. Short slots (2–3 letters) lean on the classic Italian-puzzle style: initialism, car plates, musical notes and chemical symbols — and, being the most frequent, often carry several alternative clues.
 

@@ -17,9 +17,9 @@ RABELAIS,Autore di Gargantua e Pantagruel
 RABELAIS,Scrittore di Gargantua e Pantagruel
 RACCAPEZZO,Il venire a capo a fatica
 RACCAPRICCIO,Il brivido d'orrore
+RACCHETTA,Attrezzo da campo con corde tese
 RACCHETTA,Colpisce palline su campi divisi da una rete
 RACCHETTA,Serve nel tennis
-RACCHETTA,Attrezzo da campo con corde tese
 RACCHETTE,Colpiscono la palla oltre la rete
 RACCOGLIERE,Mettere insieme ciò che è sparso
 RACCOGLIERE,"Portare a sé frutti, dati o consensi"
@@ -34,21 +34,21 @@ RACCOMANDAZIONE,Consiglio espresso con particolare insistenza
 RACCOMANDAZIONE,Può favorire qualcuno senza merito
 RACCONTA,Mette fatti in parole
 RACCONTAI,Misi fatti in parole
-RACCONTARE,Mettere fatti in parole
 RACCONTARE,Dare forma verbale agli avvenimenti
+RACCONTARE,Mettere fatti in parole
 RACCONTARE,Tenere qualcuno col fiato sospeso
 RACCONTATO,Messo in parole
 RACCONTO,Metto in parole i fatti
-RACCONTO,Una storia breve in prosa
 RACCONTO,Può avere un finale a sorpresa
-RACCORDO,Unisce tubi o tratti stradali
+RACCONTO,Una storia breve in prosa
 RACCORDO,Collegamento tra elementi separati
+RACCORDO,Unisce tubi o tratti stradali
 RACEMO,Infiorescenza a grappolo
 RACIMOLO,Il piccolo grappolo
 RACINE,Tragediografo francese del Seicento
 RACLETTE,Formaggio svizzero da fondere e raschiare
-RADA,Poco fitta: una barba...
 RADA,Poco fitta
+RADA,Poco fitta: una barba...
 RADAMANTO,Giudice dei morti del mondo antico
 RADAR,Scopre oggetti con onde radio
 RADE,Lui si fa la barba
@@ -56,17 +56,23 @@ RADE,Poco fitte
 RADI,Poco fitti
 RADI,Tu ti fai la barba
 RADIANTE,Unità angolare naturale della circonferenza
+RADIATA,Espulsa ufficialmente da un albo o da un elenco
+RADIATA,Sottoposta all'azione di raggi o radiazioni
+RADIATE,Espulse ufficialmente da albi o elenchi
+RADIATE,Sottoposte all'azione di raggi o radiazioni
+RADIATI,Espulsi ufficialmente da albi o elenchi
+RADIATI,Sottoposti all'azione di raggi o radiazioni
 RADIATORE,Scalda il motore o la stanza
-RADIAZIONE,L'esclusione formale da un albo
 RADIAZIONE,Emissione di energia nello spazio
+RADIAZIONE,L'esclusione formale da un albo
 RADICALE,Gruppo chimico o segno di radice
 RADICALMENTE,Dalle fondamenta
 RADICALMENTE,Senza lasciare nulla a metà
 RADICCHIO,Verdura amara spesso rossa
 RADICE,"...quadrata, in matematica"
 RADICE,Ancora la pianta al terreno
-RADICE,Parte sotterranea della pianta
 RADICE,L'origine profonda di un fenomeno
+RADICE,Parte sotterranea della pianta
 RADICI,Tengono salde le piante
 RADIO,L'apparecchio che trasmette musica e notizie
 RADIO,L'osso dell'avambraccio
@@ -79,16 +85,20 @@ RADIOLOGIA,La diagnostica per immagini
 RADO,Poco fitto
 RADUNARE,Chiamare più persone nello stesso luogo
 RADUNARE,Riunire persone o cose disperse
+RADUNI,Concentrazioni di persone unite da un interesse comune
+RADUNI,Incontri organizzati con molti partecipanti
 RADURA,Apertura luminosa nel bosco
 RADURA,Spazio aperto fra gli alberi
+RADURE,Spazi aperti all'interno dei boschi
+RADURE,Zone senza alberi circondate dalla vegetazione
 RAFAEL,Il nome del tennista spagnolo Nadal
 RAFANO,Radice piccante
 RAFFAELE,L'arcangelo guaritore
 RAFFAELLO,Il Sanzio delle Stanze vaticane
 RAFFAELLO,Pittore urbinate delle Madonne armoniose
 RAFFAZZONO,Metto insieme alla buona
-RAFFICA,Serie improvvisa di colpi o folate
 RAFFICA,"Arriva breve, intensa e ripetuta"
+RAFFICA,Serie improvvisa di colpi o folate
 RAFFIGURAZIONE,Immagine che riproduce un soggetto
 RAFFINATEZZA,Eleganza curata senza ostentazione
 RAFFINATEZZA,Si nota nei modi e nei dettagli
@@ -107,26 +117,32 @@ RAGANELLA,Piccola rana verde
 RAGANELLA,Piccolo anfibio verde
 RAGAZZA,Giovane donna
 RAGAZZA,Può essere la fidanzata
+RAGAZZE,Giovani donne non ancora adulte
+RAGAZZE,Le componenti femminili di un gruppo giovanile
+RAGAZZI,Giovani non ancora adulti
+RAGAZZI,I componenti più giovani di una compagnia
 RAGAZZINA,Giovane ancora vicina all'infanzia
 RAGAZZINA,"Non è più bambina, ma quasi"
 RAGAZZINO,Bambino ormai grandicello
 RAGAZZINO,Maschio ancora vicino all'infanzia
 RAGAZZINO,Un giovane ancora in età scolare
-RAGAZZO,Giovane non ancora adulto
 RAGAZZO,Giovane di sesso maschile
+RAGAZZO,Giovane non ancora adulto
 RAGAZZO,Può essere il fidanzato
+RAGGI,Fasci sottili di luce
+RAGGI,Segmenti che uniscono il centro di un cerchio alla circonferenza
 RAGGIERA,Disposizione a raggi
 RAGGIO,Il...d'azione entro cui ci si muove
 RAGGIO,Linea di luce o segmento del cerchio
 RAGGIO,Quello che parte dal mozzo della ruota
 RAGGIO,Una colonna di luce
-RAGGIRO,Trappola costruita con parole o apparenze
 RAGGIRO,Fa cadere in trappola senza usare la forza
 RAGGIRO,Inganno costruito con astuzia
+RAGGIRO,Trappola costruita con parole o apparenze
 RAGGIUNGERE,Arrivare alla meta o allo scopo
 RAGGIUNGERE,Conseguire un obiettivo
-RAGGIUNGIMENTO,L'arrivo a un obiettivo
 RAGGIUNGIMENTO,Corona uno sforzo ben riuscito
+RAGGIUNGIMENTO,L'arrivo a un obiettivo
 RAGGIUNSE,Arrivò alla meta
 RAGGRINZITO,Pieno di grinze
 RAGGRUPPAMENTO,Insieme formato riunendo elementi simili
@@ -137,19 +153,23 @@ RAGIONA,Segue un filo logico
 RAGIONAI,Seguii un filo logico
 RAGIONAMENTO,Catena di idee che porta a una conclusione
 RAGIONARE,Seguire un filo logico
-RAGIONATO,Seguito un filo logico
 RAGIONATO,Frutto di una scelta ponderata
+RAGIONATO,Seguito un filo logico
 RAGIONATO,Studiato con intenzione
-RAGIONE,La facoltà di pensare logicamente
 RAGIONE,Il motivo per cui qualcosa accade
+RAGIONE,La facoltà di pensare logicamente
 RAGIONERIA,Tiene conti e registri amministrativi
 RAGIONEVOLE,Conforme al buon senso
-RAGIONEVOLMENTE,In misura accettabile
 RAGIONEVOLMENTE,Con buon senso e senza eccessi
-RAGIONIERE,Tiene la contabilità
-RAGIONIERE,Professionista dei conti
+RAGIONEVOLMENTE,In misura accettabile
+RAGIONI,Argomenti portati a sostegno di una tesi
+RAGIONI,Motivi che spiegano una scelta
 RAGIONIERE,Lavora fra registri e bilanci
+RAGIONIERE,Professionista dei conti
+RAGIONIERE,Tiene la contabilità
 RAGIONO,Seguo un filo logico
+RAGLI,Suoni forti e sgraziati emessi dagli equini dalle lunghe orecchie
+RAGLI,Versi tipici degli asini
 RAGLIO,Il verso dell'asino
 RAGNAR,Il nome del vichingo Lothbrok della serie
 RAGNAROK,Il crepuscolo degli dei nordici
@@ -184,6 +204,10 @@ RAMA,Sposo di Sita nell’epica indiana
 RAMAIOLO,Mestolo a coppa per il brodo
 RAMARRO,Lucertolone verde
 RAMARRO,Lucertolone verde dei muretti assolati
+RAMATE,Dal colore simile al metallo rossastro
+RAMATE,Trattate con prodotti a base di rame
+RAMATI,Dal colore simile al metallo rossastro
+RAMATI,Trattati con prodotti a base di rame
 RAMAZZOTTI,"Il cantante di Terra promessa, Eros"
 RAMBO,Il reduce del Vietnam interpretato da Stallone
 RAME,Il metallo rossastro dei fili elettrici
@@ -205,11 +229,15 @@ RAMPA,Piano inclinato per salire
 RAMPA,Quella di lancio del razzo
 RAMPANTE,Detto del leone eretto sullo stemma
 RAMPANTE,Il barone...di Calvino
+RAMPANTI,Che si arrampicano su sostegni o pareti
+RAMPANTI,Molto ambiziosi e desiderosi di successo
+RAMPE,Piani inclinati che collegano livelli diversi
+RAMPE,"Salite usate per accedere a garage, ponti o autostrade"
 RAMPINO,Gancio per aggrapparsi o recuperare
 RAMPINO,Il gancio a più punte
+RAMPOLLO,Erede di una stirpe importante
 RAMPOLLO,Giovane discendente di famiglia importante
 RAMPOLLO,Giovane discendente di una famiglia
-RAMPOLLO,Erede di una stirpe importante
 RANA,Anfibio che salta e gracida
 RANA,Anfibio saltatore
 RANA,Dalla bocca larga nelle barzellette
@@ -219,8 +247,8 @@ RANCH,La fattoria americana di bestiame
 RANCHERA,Genere tradizionale messicano
 RANCIDO,Grasso guastato dall'aria
 RANCIO,Il pasto in comune dei soldati
-RANCORE,Ostilità che dura nel tempo
 RANCORE,Non si spegne con il passare del tempo
+RANCORE,Ostilità che dura nel tempo
 RANCOROSO,Che cova rancore
 RAND,"Ayn..., autrice de La rivolta di Atlante"
 RAND,La valuta del Sudafrica
@@ -228,24 +256,32 @@ RANDA,Grande vela principale di molte barche
 RANDA,La vela maggiore di poppa
 RANE,Saltano e gracidano negli stagni
 RANGERS,Club calcistico di Glasgow
+RANGHI,File ordinate di persone o soldati
+RANGHI,Posizioni occupate in una gerarchia
 RANGO,Grado sociale o militare
 RANGO,"Il grado, la posizione sociale"
 RANGO,Posizione in una gerarchia
 RANMA,Il ragazzo che diventa ragazza dei manga
 RANNUVOLO,Mi faccio scuro in volto
+RANOCCHI,Abitanti verdi degli stagni nelle fiabe
+RANOCCHI,Piccoli anfibi saltatori
 RANOCCHIO,Principe possibile sotto pelle verde
 RANTOLARE,Il respirare con suono roco
 RANTOLO,Il respiro affannoso e roco
 RANUNCOLO,Fiore giallo dei prati umidi
 RAP,"Bussare con colpi secchi, in inglese"
 RAP,Rime su base battente
-RAPA,Si trova sottoterra e finisce in minestra
+RAPA,Ortaggio dalla radice carnosa
 RAPA,Radice da minestra povera
 RAPA,Radice dell'orto
-RAPA,Ortaggio dalla radice carnosa
+RAPA,Si trova sottoterra e finisce in minestra
 RAPACE,Avido e ingordo di guadagni
 RAPACE,Predatore con ali e artigli
+RAPACI,Avidi e pronti ad approfittare degli altri
+RAPACI,Uccelli predatori dal becco adunco
 RAPANELLO,Piccolo ortaggio rosso e piccante
+RAPE,Ortaggi tondeggianti coltivati sottoterra
+RAPE,Radici commestibili dalla polpa chiara
 RAPERONZOLO,La fanciulla della fiaba dai lunghi capelli
 RAPHAEL,Il nome inglese del pittore urbinate Raffaello
 RAPIDA,Veloce
@@ -253,27 +289,31 @@ RAPIDAMENTE,In poco tempo
 RAPIDAMENTE,Senza perdere tempo
 RAPIDE,Veloci
 RAPIDI,Veloci
+RAPIDO,Che impiega poco tempo
 RAPIDO,Il treno...che salta le stazioni minori
 RAPIDO,Veloce
-RAPIDO,Che impiega poco tempo
 RAPIMENTO,Può indicare anche uno stato di estasi
 RAPIMENTO,Sequestro di una persona contro la sua volontà
 RAPINATORE,Minaccia per impossessarsi dell'altrui
-RAPIRE,Portare via con la forza
+RAPINE,Assalti compiuti per impossessarsi di denaro o beni
+RAPINE,Furti commessi con minaccia o violenza
 RAPIRE,Affascinare completamente
+RAPIRE,Portare via con la forza
+RAPITI,Completamente affascinati e assorti
+RAPITI,Portati via contro la propria volontà
 RAPPORTO,Documento che espone fatti o risultati
 RAPPORTO,Legame o confronto tra due elementi
 RAPPRENDERE,Far diventare denso
 RAPPRESAGLIA,Azione punitiva compiuta per vendetta
 RAPPRESAGLIA,Risposta violenta a un'offesa subita
 RAPPRESENTA,Raffigura o sostituisce
-RAPPRESENTANTE,Gira a vendere prodotti per ditte
 RAPPRESENTANTE,Agisce per conto di altri
+RAPPRESENTANTE,Gira a vendere prodotti per ditte
 RAPPRESENTANTE,Può vendere prodotti visitando i clienti
-RAPPRESENTANZA,Gruppo incaricato di parlare per altri
 RAPPRESENTANZA,Facoltà di agire in nome di qualcuno
-RAPPRESENTARE,Raffigurare o sostituire
+RAPPRESENTANZA,Gruppo incaricato di parlare per altri
 RAPPRESENTARE,Portare in scena o simboleggiare
+RAPPRESENTARE,Raffigurare o sostituire
 RAPPRESENTARE,Rendere presente con parole o immagini
 RAPPRESENTATIVO,Capace di esprimere bene un insieme
 RAPPRESENTATIVO,Scelto come esempio caratteristico
@@ -285,15 +325,17 @@ RAPSODIA,...Bohemian dei Queen
 RAPSODIA,Composizione libera e appassionata
 RAPSODO,Cantore epico prima dei libri
 RAPUNZEL,La fanciulla dai lunghissimi capelli
+RARE,Poco fitte e distanziate
+RARE,Poco frequenti o difficili da trovare
 RAREFATTA,Poco densa
 RAREFATTE,Poco dense
 RAREFATTI,Poco densi
 RAREFATTO,Poco denso
-RARITA,Oggetto insolito e difficile da trovare
 RARITA,Ciò che si incontra di rado
+RARITA,Oggetto insolito e difficile da trovare
 RARO,"Scarso, quindi ricercato"
-RAS,Titolo nobiliare dell'Etiopia
 RAS,Titolo etiopico divenuto sinonimo di potente locale
+RAS,Titolo nobiliare dell'Etiopia
 RASA,Taglia a filo
 RASAI,Tagliai a filo
 RASATO,Tagliato a filo
@@ -303,14 +345,22 @@ RASCHIATO,Grattato una superficie
 RASCHIETTO,L'attrezzo per raschiare
 RASCHIETTO,Toglie incrostazioni e vernice
 RASCHIO,Gratto una superficie
+RASE,Spianate fino al livello del terreno
+RASE,Tagliate molto corte
+RASI,Privati completamente dei peli
+RASI,Spianati fino al livello del terreno
 RASO,Il tessuto liscio e lucente
 RASO,Pieno fino all'orlo
 RASO,Tessuto liscio o barba appena fatta
+RASOI,Lame maneggiate con molta attenzione davanti allo specchio
+RASOI,Strumenti affilati per eliminare barba e peli
 RASOIO,Lama quotidiana da barba
 RASOIO,Scivola sul viso per togliere la barba
 RASOIO,Sul filo del...: in bilico tra due esiti
 RASPA,La lima grossa per il legno
 RASPA,Lima grossolana da falegname
+RASPE,Attrezzi abrasivi usati per sgrossare una superficie
+RASPE,Utensili dentati per consumare legno o metallo
 RASSEGNA,Esame ordinato di più elementi
 RASSEGNA,Serie di spettacoli o opere
 RASSEGNAZIONE,L'accettare senza più reagire
@@ -321,16 +371,20 @@ RASTRELLO,Raccoglie foglie e fieno
 RATA,A...: pagando a poco a poco
 RATA,Quota che torna ogni mese
 RATIFICA,Approvazione formale di un accordo
+RATTI,Grossi roditori dalla lunga coda
+RATTI,"Molto rapidi, in un uso letterario"
 RATTO,Il rapimento: il... delle Sabine
-RATTO,"Rapimento o roditore, secondo contesto"
 RATTO,Rapido come un gesto fulmineo
+RATTO,"Rapimento o roditore, secondo contesto"
 RATTOPPO,Metto una toppa
 RATTOPPO,Pezza su uno strappo
 RATTRISTATO,Ha perso il sorriso
 RATZINGER,Il cognome di papa Benedetto XVI
 RAUCEDINE,Voce resa ruvida
-RAUL,L'attaccante spagnolo soprannominato el Siete
+RAUCHE,"Aspre e poco limpide, dette di voci"
+RAUCHE,Rese profonde da raffreddore o sforzo
 RAUL,Il nome dell'attore Bova
+RAUL,L'attaccante spagnolo soprannominato el Siete
 RAVANELLO,Radice rossa dal morso piccante
 RAVANELLO,Radice rossa e piccante da insalata
 RAVEL,Compose un Bolero ostinato
@@ -341,8 +395,8 @@ RAVENNA,Città dei mosaici e di Dante
 RAVIOLI,Pasta ripiena a forma di cuscinetto
 RAVIOLI,Scrigni di pasta con ripieno
 RAVIOLO,Pasta ripiena
-RAVVEDIMENTO,Il tornare sulla retta via
 RAVVEDIMENTO,Il ritorno a una condotta corretta
+RAVVEDIMENTO,Il tornare sulla retta via
 RAVVEDIMENTO,Può evitare conseguenze peggiori a chi si pente
 RAY,"...-Ban, la celebre marca di occhiali da sole"
 RAY,Il nome del musicista cieco Charles
@@ -351,8 +405,12 @@ RAYBAN,La marca di occhiali da sole degli aviatori
 RAYMOND,Il nome dello scrittore giallo Chandler
 RAZIONALISMO,La dottrina che fonda il sapere sulla ragione
 RAZZA,"La stirpe, il ceppo familiare"
-RAZZA,"Specie, stirpe o pesce piatto"
 RAZZA,Linea di discendenza animale selezionata
+RAZZA,"Specie, stirpe o pesce piatto"
+RAZZE,Categorie o stirpi considerate secondo l'origine
+RAZZE,Gruppi animali con caratteri ereditari comuni
+RAZZI,Fuochi artificiali che salgono rapidamente nel cielo
+RAZZI,Veicoli spinti dalla reazione di gas
 RAZZO,Sale con fuoco sotto
 RAZZO,Velocissimo: partire come un...
 RB,Iniziali dello scrittore Bradbury
@@ -370,8 +428,10 @@ REAL,Il club calcistico di Madrid
 REAL,La valuta del Brasile
 REALE,Da re o autentico
 REALE,"Del re, regio"
-REALE,Vero ed effettivo
 REALE,Non immaginario
+REALE,Vero ed effettivo
+REALI,Appartenenti a sovrani e dinastie
+REALI,Effettivi e non immaginari
 REALISMO,Aderenza concreta ai fatti
 REALISMO,Nell'arte evita idealizzazioni
 REALISTA,Guarda i fatti senza illusioni
@@ -379,82 +439,104 @@ REALIZZABILE,Che può essere portato a compimento
 REALIZZABILE,Non resta soltanto sulla carta
 REALIZZARE,Rendersi conto all'improvviso
 REALIZZARE,Trasformare un progetto in realtà
-REALIZZAZIONE,Passaggio dall'idea al fatto
 REALIZZAZIONE,Opera portata a compimento
-REALMENTE,"Nei fatti, non solo in apparenza"
+REALIZZAZIONE,Passaggio dall'idea al fatto
 REALMENTE,Davvero
+REALMENTE,"Nei fatti, non solo in apparenza"
 REALTA,Ciò che esiste davvero
 REALTA,Concretezza opposta all'illusione
 REAME,Territorio governato da un sovrano
+REATI,Comportamenti puniti dalla legge penale
+REATI,Illeciti che possono portare a un processo
 REATO,L'azione che la legge punisce
-REATO,Violazione punita dalla legge
 REATO,Può portare a processo
+REATO,Violazione punita dalla legge
 REATTIVO,In chimica tende a combinarsi facilmente
 REATTORE,Motore a getto degli aerei
-REATTORE,Quello nucleare della centrale
 REATTORE,Produce spinta espellendo gas ad alta velocità
-REAZIONE,Risposta a uno stimolo o a un'azione
+REATTORE,Quello nucleare della centrale
 REAZIONE,"Può essere chimica, emotiva o politica"
+REAZIONE,Risposta a uno stimolo o a un'azione
 REBECCA,Il nome della protagonista del romanzo di du Maurier
 REBECCA,La moglie di Isacco nella Bibbia
 REBUS,Disegno che nasconde parole
 REBUS,Enigma figurato
 REBUS,Gioco da risolvere con immagini e lettere
 RECA,Porta con sé in lingua formale
+RECANO,"Causano un effetto, spesso un danno o un vantaggio"
+RECANO,Portano qualcosa in un luogo
+RECAPITI,Indirizzi e contatti per raggiungere qualcuno
+RECAPITI,Informazioni utili per consegnare posta o messaggi
 RECAPITO,Indirizzo al quale far giungere qualcosa
 RECARE,Portare con sé
 RECARE,Può causare danno o beneficio
+RECATA,Portata in un determinato luogo
+RECATA,"Prodotta o causata, al femminile"
+RECATE,Portate in un determinato luogo
+RECATE,"Prodotte o causate, al femminile plurale"
 RECENSIONE,Giudizio scritto su libro o film
 RECENSIONE,"Valuta un libro, un film o uno spettacolo"
 RECENTEMENTE,Da poco tempo
 RECENTEMENTE,Negli ultimi tempi
 RECESSIONE,La fase di calo dell'economia
 RECIFE,Città costiera del Brasile
+RECINTI,"Aree delimitate per animali, persone o lavori"
+RECINTI,"Spazi chiusi da reti, muri o steccati"
 RECINTO,Spazio chiuso da staccionata
-RECINTO,Tiene dentro animali o fuori curiosi
 RECINTO,Spazio delimitato da una barriera
-RECINZIONE,Separa e protegge un'area
+RECINTO,Tiene dentro animali o fuori curiosi
 RECINZIONE,Manufatto che delimita un terreno
+RECINZIONE,Separa e protegge un'area
 RECIPIENTE,Contiene liquidi o materiali
-RECIPROCO,Scambiato in entrambe le direzioni
 RECIPROCO,Che vale dall'uno verso l'altro
+RECIPROCO,Scambiato in entrambe le direzioni
 RECISE,Tagliò di netto
+RECISI,Espressi in modo fermo e senza esitazioni
+RECISI,Tagliati con un gesto netto
 RECITA,Dice una parte sulla scena
 RECITA,Esibizione di attori o scolari
 RECITAI,Dissi una parte sulla scena
-RECITARE,Dire una parte sulla scena
 RECITARE,Dire ad alta voce versi o preghiere
+RECITARE,Dire una parte sulla scena
 RECITARE,Interpretare un personaggio
 RECITATIVO,Parte d'opera vicina al parlato
 RECITATO,Interpretato sulla scena
 RECITAZIONE,Arte di dare voce e gesto a un personaggio
+RECITE,"Ripeti a memoria versi, preghiere o parti"
+RECITE,Spettacoli teatrali messi in scena
 RECITO,Dico una parte sulla scena
 RECLAMARE,Chiedere con insistenza ciò che si ritiene dovuto
 RECLAME,Pubblicità con profumo francese
-RECLAMO,Protesta formale rivolta a chi fornisce un servizio
+RECLAMI,Proteste formali presentate a un venditore
+RECLAMI,Richieste di correzione per un servizio insoddisfacente
 RECLAMO,Contestazione presentata per iscritto
+RECLAMO,Protesta formale rivolta a chi fornisce un servizio
 RECLUSIONE,Pena che priva della libertà
 RECLUSIONE,Vita forzata fra quattro mura
-RECLUTAMENTO,Selezione e ingresso di nuove persone
 RECLUTAMENTO,Porta nuove forze in un'organizzazione
-RECLUTARE,Inserire nuove persone in un gruppo
+RECLUTAMENTO,Selezione e ingresso di nuove persone
 RECLUTARE,Arruolare per un incarico o un servizio
+RECLUTARE,Inserire nuove persone in un gruppo
 RECONDITA,Nascosta e remota
 RECONDITE,Nascoste e remote
 RECONDITI,Nascosti e remoti
 RECONDITO,Nascosto e remoto
 RECORD,Il primato in una prestazione
-RECUPERARE,Tornare in possesso o in condizioni migliori
 RECUPERARE,Riprendere ciò che era stato perso
+RECUPERARE,Tornare in possesso o in condizioni migliori
 REDARGUISCO,Riprendo con severità
-REDATTORE,Scrive e prepara testi per la pubblicazione
+REDATTE,"Preparate in forma ufficiale, al femminile"
+REDATTE,Scritte e formulate in modo ordinato
+REDATTI,"Preparati in forma ufficiale, al maschile"
+REDATTI,Scritti e formulati in modo ordinato
 REDATTORE,Lavora nella preparazione editoriale
+REDATTORE,Scrive e prepara testi per la pubblicazione
 REDAZIONE,Gruppo che prepara giornali o testi
 REDBULL,L'energy drink che mette le ali
-REDDITIZIO,Produce un utile
 REDDITIZIO,Capace di produrre guadagno
-REDDITO,Somma percepita in un periodo
+REDDITIZIO,Produce un utile
 REDDITO,"Può provenire da lavoro, capitale o immobili"
+REDDITO,Somma percepita in un periodo
 REDFORD,Il Robert de La stangata
 REDIGERE,Compilare in forma ordinata
 REDIGERE,Scrivere un documento ufficiale
@@ -468,7 +550,15 @@ REFOLO,Il soffio improvviso di vento
 REFUSO,Errore tipografico sopravvissuto alla rilettura
 REGALA,Dà in dono
 REGALAI,Diedi in dono
+REGALANO,Concedono con generosità
+REGALANO,Offrono qualcosa senza chiedere pagamento
 REGALARE,Dare in dono
+REGALATA,Concessa con eccessiva facilità
+REGALATA,Data senza chiedere pagamento
+REGALATE,Concesse con eccessiva facilità
+REGALATE,Date senza chiedere pagamento
+REGALATI,Concessi con eccessiva facilità
+REGALATI,Dati senza chiedere pagamento
 REGALATO,Dato in dono
 REGALI,Si scartano con sorpresa
 REGALO,Do in dono
@@ -477,19 +567,23 @@ REGALO,In...: dato in omaggio
 REGALO,Si offre senza chiedere pagamento
 REGATA,Gara tra imbarcazioni
 REGATA,La gara tra barche a vela
+REGATE,Competizioni veliche disputate su un percorso segnato
+REGATE,Gare tra imbarcazioni
 REGESTO,Riassunto archivistico di un documento
 REGGAE,Genere musicale giamaicano
 REGGAE,Uno stile musicale giamaicano
 REGGERE,Sostenere un peso o continuare a funzionare
 REGGERE,Tenere senza lasciar cadere
+REGGI,Governi o dirigi un'organizzazione
+REGGI,Sostieni un peso senza farlo cadere
 REGGIA,Casa enorme di re e regine
 REGGIA,Palazzo di sovrani
 REGGIMENTO,Reparto dell'esercito con più battaglioni
 REGGIMENTO,Schiera soldati sotto una stessa insegna
 REGIA,Direzione dietro le quinte
 REGIA,La direzione artistica del film
-REGIME,Sistema alimentare seguito con regolarità
 REGIME,Può imporre limiti a tavola
+REGIME,Sistema alimentare seguito con regolarità
 REGINA,L'ape...che regna sull'alveare
 REGINA,La pappa...delle api
 REGINA,Pezzo potente degli scacchi
@@ -499,8 +593,8 @@ REGIONE,Area territoriale con confini propri
 REGIONE,In Italia ha organi amministrativi eletti
 REGISTA,Dirige attori e riprese
 REGISTRA,Incide o annota
-REGISTRARE,Incidere o annotare
 REGISTRARE,"Fissare su un supporto suoni, immagini o dati"
+REGISTRARE,Incidere o annotare
 REGISTRARE,Incidere una traccia sonora
 REGISTRATO,Inciso o annotato
 REGISTRATORE,Il...di cassa del negozio
@@ -511,73 +605,85 @@ REGISTRO,Incido o annoto
 REGISTRO,Libro o archivio di annotazioni ufficiali
 REGNA,Porta una corona o domina
 REGNAI,Portai una corona o dominai
-REGNANTE,Sovrano che esercita il potere
 REGNANTE,Chi siede sul trono
-REGNARE,Portare una corona o dominare
-REGNARE,Essere dominante in un ambiente
+REGNANTE,Sovrano che esercita il potere
 REGNARE,Esercitare il potere su un territorio
+REGNARE,Essere dominante in un ambiente
+REGNARE,Portare una corona o dominare
 REGNATO,Esercitato il potere
+REGNI,Grandi categorie in cui si classificano gli esseri viventi
+REGNI,Stati governati da monarchi
 REGNO,L'ambito: il... animale
-REGNO,Territorio di corona o natura
 REGNO,Stato retto da una monarchia
+REGNO,Territorio di corona o natura
+REGOLA,Indicazione che stabilisce ciò che si può fare
 REGOLA,L'eccezione che conferma la...
 REGOLA,"Norma, strumento e ciclo"
-REGOLA,Indicazione che stabilisce ciò che si può fare
-REGOLAMENTO,Insieme di norme operative
 REGOLAMENTO,"Disciplina una gara, un ente o un'attività"
-REGOLARE,Saldare una pendenza o sistemare una questione
+REGOLAMENTO,Insieme di norme operative
 REGOLARE,Mettere a punto o disciplinare
-REGOLARITA,Costanza senza eccezioni
+REGOLARE,Saldare una pendenza o sistemare una questione
+REGOLARI,Conformi alle norme previste
+REGOLARI,Uniformi e senza anomalie
 REGOLARITA,Conformità a norme o ritmi previsti
-REGOLAZIONE,Messa a punto di un meccanismo
+REGOLARITA,Costanza senza eccezioni
 REGOLAZIONE,Intervento che stabilisce limiti e modalità
+REGOLAZIONE,Messa a punto di un meccanismo
+REGOLE,Criteri che stabiliscono come svolgere un gioco o un'attività
+REGOLE,Norme da osservare
 REIKI,Pratica giapponese basata sull'imposizione delle mani
 RELATIVISMO,La dottrina che nega le verità assolute
-RELATIVO,Non assoluto
 RELATIVO,Che si riferisce a qualcosa
+RELATIVO,Non assoluto
 RELATORE,Espone un tema o segue una tesi
 RELAX,Il riposo e la distensione
 RELAZIONE,Esposizione scritta o orale su un argomento
 RELAZIONE,"Legame tra persone, fatti o grandezze"
-RELIGIONE,Sistema di credenze e pratiche sacre
 RELIGIONE,Organizza il rapporto con il divino
+RELIGIONE,Sistema di credenze e pratiche sacre
 RELIGIOSITA,Sentimento e pratica della fede
 RELIGIOSO,Devoto e legato alla fede
 RELIGIOSO,Può vivere in una comunità consacrata
 RELIQUIA,Resti venerati di santi o del passato
 RELIQUIA,Resto sacro custodito
 RELIQUIARIO,Custodia per resti sacri
-RELITTO,I resti di una nave affondata
+RELITTI,Ciò che rimane di strutture distrutte o abbandonate
+RELITTI,Resti di navi affondate
 RELITTO,Ciò che resta di una nave naufragata
+RELITTO,I resti di una nave affondata
 REM,Fase del sonno che muove gli occhi
 REM,La band americana di Losing My Religion
 REMA,Muove i remi
 REMAI,Mossi l'imbarcazione coi remi
+REMAKE,Film rifatto a partire da un precedente
 REMAKE,Il rifacimento di un film
 REMAKE,Nuova versione di un'opera già esistente
-REMAKE,Film rifatto a partire da un precedente
+REMATE,Azioni che fanno avanzare un'imbarcazione senza motore
+REMATE,Colpi dati all'acqua con le pale di una barca
 REMATO,Mosso coi remi
 REMBRANDT,Il maestro olandese della Ronda di notte
 REMBRANDT,Pittore olandese dei chiaroscuri
+REMI,Aste con pala usate per spingere una barca
+REMI,Si appoggiano agli scalmi durante la vogata
 REMIGANTE,Muove la barca con fatica ritmica
 REMO,Fratello sconfitto nella leggenda di Roma
 REMO,Il fratello gemello di Romolo
 REMO,Spinge la barca a braccia
-REMORA,Pesce che si attacca e freno morale
-REMORA,Ostacolo che trattiene o rallenta
 REMORA,Freno che impedisce di procedere
+REMORA,Ostacolo che trattiene o rallenta
+REMORA,Pesce che si attacca e freno morale
 REMOTA,Lontana nel tempo
 REMOTE,Lontane nel tempo
 REMOTI,Lontani nel tempo
 REMOTO,Lontano nel tempo
 RENA,"Sabbia, con parola da lido antico"
 RENA,È composto anche da silicio
-RENDERE,Produrre un risultato o restituire
 RENDERE,Far diventare in un certo modo
+RENDERE,Produrre un risultato o restituire
 RENDEZVOUS,Appuntamento galante alla francese
 RENDICONTO,"Documento che riepiloga entrate, uscite e risultati"
-RENDIMENTO,Rapporto tra risultato e mezzi impiegati
 RENDIMENTO,Quanto produce un investimento o un terreno
+RENDIMENTO,Rapporto tra risultato e mezzi impiegati
 RENDITA,Entrata periodica senza corrispettivo immediato
 RENDITA,Può derivare da immobili o titoli
 RENE,Filtro naturale doppio
@@ -593,14 +699,18 @@ RENZOPIANO,L'architetto genovese del Beaubourg
 REO,"Malvagio, perfido in poesia"
 REO,Uno che il giudice non assolve
 REOSTATO,Resistenza regolabile in un circuito
-REPARTO,Sezione interna di un'organizzazione
+REPARTI,"Sezioni di ospedali, aziende o negozi"
+REPARTI,Unità organizzate di un esercito o di un'istituzione
 REPARTO,In ospedale riunisce cure della stessa specialità
+REPARTO,Sezione interna di un'organizzazione
 REPERIBILE,Che si può trovare o contattare
-REPERIRE,Trovare ciò che si cercava
 REPERIRE,Individuare e procurare
-REPLICA,Risposta pronta a un'affermazione
+REPERIRE,Trovare ciò che si cercava
 REPLICA,Nuova esecuzione o copia di un originale
+REPLICA,Risposta pronta a un'affermazione
 REPLICARE,Rispondere opponendo un argomento
+REPLICHE,Nuove rappresentazioni dello stesso spettacolo
+REPLICHE,Risposte pronte a un'obiezione
 REPORTAGE,Servizio giornalistico realizzato sul posto
 REPORTER,Giornalista inviato sul luogo dei fatti
 REPRESSE,Tenne a freno
@@ -618,37 +728,41 @@ REQUIEM,Messa o composizione per i defunti
 REQUISITO,Condizione necessaria per essere ammessi
 RES,"Cosa, per i Latini"
 RES,La cosa dei giuristi latini
-RESA,Quantità ottenuta rispetto a quanto impiegato
 RESA,Atto con cui si depongono le armi
-RESIDENZA,Indirizzo abituale di una persona
+RESA,Quantità ottenuta rispetto a quanto impiegato
 RESIDENZA,Domicilio stabile indicato nei documenti
+RESIDENZA,Indirizzo abituale di una persona
+RESIDUI,Parti rimaste dopo un consumo o una lavorazione
+RESIDUI,Quantità avanzate dopo una divisione o un calcolo
 RESIDUO,Ciò che resta dopo un processo
 RESIDUO,Parte non consumata
 RESINA,La sostanza appiccicosa che cola dal pino
+RESINE,Materiali sintetici usati per colle e rivestimenti
+RESINE,Sostanze viscose prodotte da molte piante
 RESISTENZA,Capacità di durare sotto sforzo
-RESISTERE,Non cedere alla pressione
 RESISTERE,Continuare nonostante la fatica
-RESOCONTO,Registrazione ordinata di quanto avvenuto
+RESISTERE,Non cedere alla pressione
 RESOCONTO,Esposizione ordinata di fatti e risultati
+RESOCONTO,Registrazione ordinata di quanto avvenuto
 RESORT,Complesso turistico attrezzato
 RESPIGHI,L'Ottorino dei Pini di Roma
 RESPINGERE,Mandare indietro o non accettare
 RESPINGERE,Rifiutare una richiesta o un attacco
 RESPIRA,Prende e manda aria
-RESPIRARE,Prendere e mandare aria
 RESPIRARE,Immettere ed espellere aria
+RESPIRARE,Prendere e mandare aria
 RESPIRATO,Inspirato ed espirato
 RESPIRO,Entra ed esce senza far rumore quando tutto va bene
-RESPIRO,Prendo e mando aria
 RESPIRO,Pausa che dà sollievo
+RESPIRO,Prendo e mando aria
 RESPONSABILE,Chi risponde di decisioni o risultati
 RESPONSABILE,Può guidare un ufficio o un progetto
 RESPONSABILITA,Obbligo di rispondere delle proprie azioni
 RESPONSABILITA,Peso che accompagna una scelta importante
-RESPONSO,Verdetto o risposta autorevole
 RESPONSO,Risposta solenne di un'autorità o di un oracolo
-RESSA,La calca che preme e spinge
+RESPONSO,Verdetto o risposta autorevole
 RESSA,Folla che si accalca
+RESSA,La calca che preme e spinge
 RESSE,Tenne in piedi
 RESTA,Il filo che lega l'aglio: una... d'aglio
 RESTA,Non va via
@@ -662,27 +776,33 @@ RESTATO,Rimasto
 RESTAURARE,Intervenire senza cancellare l'originale
 RESTAURARE,Riportare un'opera o un edificio a condizioni migliori
 RESTAURATORE,Ripristina opere d'arte e antichità
+RESTAURI,Interventi che riportano opere e edifici a buone condizioni
+RESTAURI,Lavori conservativi eseguiti su oggetti antichi
+RESTI,Continui a trovarti nello stesso luogo
+RESTI,Parti rimaste dopo una distruzione
 RESTIA,Poco disposta
 RESTIE,Poco disposte
 RESTII,Poco disposti
 RESTIO,Poco disposto
 RESTITUZIONE,Riconsegna di ciò che era stato ricevuto
 RESTO,Avanzo e spiccioli
-RESTO,I soldi che il negoziante ridà
 RESTO,Ciò che rimane
-RESTRINGERE,"Ridurre larghezza, spazio o possibilità"
+RESTO,I soldi che il negoziante ridà
 RESTRINGERE,Far diventare più stretto
+RESTRINGERE,"Ridurre larghezza, spazio o possibilità"
 RESTRIZIONE,Limite imposto a un comportamento
 RESTRIZIONE,"Riduce libertà, accesso o quantità"
 RESURREZIONE,Ritorno alla vita dopo la morte
 RETABLO,Grande pala d'altare spagnola
-RETAGGIO,L'eredità del passato
 RETAGGIO,Eredità culturale del passato
+RETAGGIO,L'eredità del passato
 RETAGGIO,Traccia lasciata da epoche precedenti
 RETE,"Cattura pesci, gol e dati"
 RETE,Il gol segnato in porta
 RETE,La lancia il pescatore o la squadra segna
 RETE,Quella che intrappola i pesci
+RETI,Intrecci di fili usati per catturare o proteggere
+RETI,"Sistemi di collegamenti tra computer, persone o trasporti"
 RETICENTE,Tace proprio dove dovrebbe dire
 RETICENTI,Che tacciono qualcosa
 RETICOLO,Intreccio di linee
@@ -697,14 +817,16 @@ RETRIBUZIONE,Paga corrisposta per il lavoro
 RETRO,La parte opposta al davanti
 RETRO,Può essere il lato nascosto di un oggetto
 RETROBOTTEGA,Stanza dietro il negozio
-RETROCESSIONE,Passaggio a una categoria inferiore
 RETROCESSIONE,Arretramento di posizione o grado
+RETROCESSIONE,Passaggio a una categoria inferiore
 RETROSCENA,Ciò che avviene lontano dal pubblico
 RETTA,Dare...: ascoltare
 RETTA,Il pagamento del collegio o della pensione
 RETTA,Linea senza esitazioni
 RETTIFICA,Correzione di un dato o di una notizia
 RETTILE,Animale a sangue freddo e pelle squamosa
+RETTILI,"Animali come serpenti, lucertole e tartarughe"
+RETTILI,Vertebrati a sangue freddo con pelle squamosa
 RETTILINEO,Tratto di strada senza curve
 RETTO,"L'angolo di novanta gradi, o chi è onesto"
 RETTO,L'ultimo tratto dell'intestino
@@ -718,8 +840,8 @@ REVENANT,Defunto che torna tra i vivi
 REVERENTE,Pieno di rispetto
 REVERENTI,Pieni di rispetto
 REVISIONE,Controllo con eventuali correzioni
-REVIVAL,Ritorno di moda di uno stile del passato
 REVIVAL,Ripresa di un'opera o tendenza dimenticata
+REVIVAL,Ritorno di moda di uno stile del passato
 REVOCARE,Annullare un provvedimento
 REVOCARE,Togliere validità a una decisione
 REX,Il cane poliziotto della serie tv
@@ -742,14 +864,16 @@ RIABILITAZIONE,Restituisce dignità o funzionalità
 RIAD,Capitale dell'Arabia Saudita
 RIAL,La valuta dell'Iran
 RIALTO,Il ponte di pietra sul Canal Grande di Venezia
+RIALZI,"Aumenti di prezzi, quote o livelli"
+RIALZI,Parti costruite a un'altezza maggiore
 RIALZO,Aumento di prezzo o livello
 RIALZO,Può rendere più costoso un acquisto
 RIANIMO,Riporto in sé chi è svenuto
 RIAPRIRE,Rendere di nuovo accessibile
 RIASSUMERE,Condensare un discorso nei punti essenziali
 RIASSUMERE,Esporre in forma più breve
-RIASSUNTO,Testo che conserva solo i punti essenziali
 RIASSUNTO,Riduce un contenuto senza cambiarne il senso
+RIASSUNTO,Testo che conserva solo i punti essenziali
 RIAVERE,Ottenere di nuovo ciò che si possedeva
 RIBALTA,Parte anteriore del palcoscenico
 RIBALTARE,Capovolgere o cambiare completamente una situazione
@@ -758,6 +882,10 @@ RIBASSO,Diminuzione di prezzo o quota
 RIBATTERE,Rispondere contestando un argomento
 RIBELLARSI,Opporsi apertamente all'autorità
 RIBELLARSI,Rifiutare di obbedire
+RIBELLE,Chi si oppone apertamente a un potere
+RIBELLE,Contrario all'autorità e poco disposto a obbedire
+RIBELLI,Contrari all'autorità e poco disposti a obbedire
+RIBELLI,Persone che si oppongono apertamente a un potere
 RIBELLIONE,Insurrezione contro un potere
 RIBELLIONE,Scontro aperto contro l'autorità
 RIBERY,"Franck, fuoriclasse francese del Bayern"
@@ -766,8 +894,8 @@ RIBOLLA,Vino friulano dal nome che fermenta
 RIBOLLITA,La zuppa toscana di pane e verdure
 RIBOSOMA,Organulo che assembla le proteine
 RIBREZZO,Il senso di forte disgusto
-RIBREZZO,Senso di disgusto che fa rabbrividire
 RIBREZZO,Repulsione fisica o morale
+RIBREZZO,Senso di disgusto che fa rabbrividire
 RICADUTA,Ritorno di un problema dopo un miglioramento
 RICAMA,Orna col filo
 RICAMAI,Ornai col filo
@@ -778,15 +906,23 @@ RICAMBIARE,Restituire un gesto o un favore
 RICAMBIARE,Rispondere a un gesto con uno equivalente
 RICAMBIO,Pezzo destinato a sostituirne uno usurato
 RICAMBIO,Scambio reciproco di favori o saluti
+RICAMI,Abbellimenti elaborati aggiunti a un racconto
+RICAMI,Decorazioni ottenute con ago e filo
 RICAMO,Disegno cucito su stoffa
 RICAMO,Disegno fatto con ago e filo
 RICARDO,Il nome del calciatore brasiliano Kakà
 RICAVARE,Ottenere da una fonte o dedurre da dati
-RICAVATO,Somma ottenuta da una vendita
 RICAVATO,Ciò che resta dopo aver incassato
+RICAVATO,Somma ottenuta da una vendita
+RICCHE,Abbondanti e piene di elementi
+RICCHE,Dotate di molto denaro o beni
 RICCHEZZA,Abbondanza che non è solo denaro
-RICCHEZZA,"Può essere economica, culturale o naturale"
 RICCHEZZA,Abbondanza di beni o risorse
+RICCHEZZA,"Può essere economica, culturale o naturale"
+RICCHI,Abbondanti e pieni di elementi
+RICCHI,Dotati di molto denaro o beni
+RICCI,Animali marini coperti di aculei
+RICCI,Ciocche di capelli avvolte a spirale
 RICCIARELLO,Il dolce senese alle mandorle
 RICCIO,Animale spinoso o boccolo di capelli
 RICCIO,Ha aculei o capelli arruffati
@@ -794,26 +930,28 @@ RICCIOLA,Grosso pesce azzurro predatore
 RICCIOLO,Ciocca di capelli arricciata
 RICCIUTO,Dai capelli a riccioli
 RICCO,Abbondante e sostanzioso: un pasto...
-RICCO,"Ha molto, non solo denaro"
 RICCO,Abbondante o dotato di molti mezzi
-RICERCA,Indagine svolta per trovare dati o risposte
+RICCO,"Ha molto, non solo denaro"
 RICERCA,Indagine sistematica per trovare o conoscere
+RICERCA,Indagine svolta per trovare dati o risposte
 RICERCARE,Cercare con particolare attenzione
-RICERCATO,Scelto con particolare cura
 RICERCATO,Elegante e non comune
+RICERCATO,Scelto con particolare cura
 RICERCATORE,Studia per produrre nuove conoscenze
 RICETTA,Elenco di ingredienti e istruzioni
 RICETTA,Formula di cucina o farmacia
 RICETTA,Prescrizione medica o istruzione di cucina
 RICETTACOLO,Parte del fiore che sostiene gli organi
+RICETTE,Istruzioni per preparare piatti
+RICETTE,Prescrizioni compilate da medici
 RICEVENTE,Chi ottiene un messaggio o un bene
 RICEVERE,Accogliere ciò che viene inviato o offerto
 RICEVERE,Entrare in possesso o accogliere
-RICEVIMENTO,Occasione formale con ospiti
 RICEVIMENTO,Evento organizzato per gli ospiti
+RICEVIMENTO,Occasione formale con ospiti
 RICEVITORE,Capta e amplifica segnali
-RICEVUTA,Prova scritta di un pagamento
 RICEVUTA,Documento che prova un pagamento
+RICEVUTA,Prova scritta di un pagamento
 RICEZIONE,Atto di accogliere o captare
 RICEZIONE,Spazio d'ingresso di un albergo
 RICHARD,Il nome dell'attore Gere
@@ -821,39 +959,39 @@ RICHIAMARE,Ammonire qualcuno per un errore
 RICHIAMARE,Convocare di nuovo o attirare attenzione
 RICHIAMO,Ammonimento che invita a correggersi
 RICHIAMO,Forza capace di attirare
-RICHIEDENTE,Chi presenta una domanda
 RICHIEDENTE,Aspetta una risposta dall'ufficio competente
-RICHIEDERE,Esigere come condizione necessaria
+RICHIEDENTE,Chi presenta una domanda
 RICHIEDERE,Domandare come necessario o dovuto
-RICHIESTA,Domanda rivolta a qualcuno
+RICHIEDERE,Esigere come condizione necessaria
 RICHIESTA,Domanda espressa formalmente
+RICHIESTA,Domanda rivolta a qualcuno
 RICHIESTO,Domandato esplicitamente
 RICHIESTO,Gradito o desiderato
 RICICLARE,Dare nuovo uso a materiali già impiegati
 RICK,Il nome del protagonista di Casablanca Blaine
 RICOGNIZIONE,Esame sul posto prima di agire
+RICOMPENSA,Arriva dopo un'impresa riuscita
 RICOMPENSA,Il premio per un buon lavoro
 RICOMPENSA,Premio per un merito o un servizio
-RICOMPENSA,Arriva dopo un'impresa riuscita
-RICONCILIAZIONE,Ristabilisce rapporti pacifici
 RICONCILIAZIONE,Accordo che chiude un contrasto
+RICONCILIAZIONE,Ristabilisce rapporti pacifici
 RICONOBBE,Identificò senza errore
 RICONOSCENTE,Grato per quanto ricevuto
-RICONOSCENZA,La gratitudine verso chi ci aiuta
 RICONOSCENZA,Gratitudine per un beneficio ricevuto
+RICONOSCENZA,La gratitudine verso chi ci aiuta
 RICONOSCERE,Avere coscienza di qualcosa
 RICONOSCERE,Identificare qualcosa già noto
 RICONQUISTARE,Riprendere ciò che era stato perduto
-RICOPERTA,Rivestita da uno strato esterno
 RICOPERTA,Nascosta sotto uno strato
+RICOPERTA,Rivestita da uno strato esterno
 RICOPERTO,Interamente coperto da qualcosa
 RICOPRIRE,Coprire interamente o svolgere un incarico
 RICOPRIRE,Rivestire o occupare una carica
-RICORDARE,Conservare o richiamare alla mente
 RICORDARE,Celebrare una persona o un evento del passato
+RICORDARE,Conservare o richiamare alla mente
 RICORDARSI,Far tornare alla mente
-RICORDO,Rievocazione mentale di un fatto
 RICORDO,Immagine del passato conservata nella mente
+RICORDO,Rievocazione mentale di un fatto
 RICORRENZA,Data che ritorna ogni anno
 RICORRENZA,Occasione celebrata periodicamente
 RICORRERE,Accadere con regolarità
@@ -871,8 +1009,8 @@ RIDARE,Consegnare nuovamente o restituire
 RIDATO,Dato nuovamente
 RIDE,"Un passaggio in auto, in inglese"
 RIDERE,"...sotto i baffi, di nascosto"
-RIDICOLO,Può far ridere involontariamente
 RIDICOLO,Che provoca il riso per goffaggine
+RIDICOLO,Può far ridere involontariamente
 RIDIRE,Dire ancora una volta
 RIDO,Do di nuovo
 RIDOTTA,Opera fortificata di dimensioni contenute
@@ -883,21 +1021,21 @@ RIDUTTIVO,Che semplifica troppo e limita il significato
 RIDUZIONE,"Diminuzione di quantità, prezzo o dimensione"
 RIDUZIONE,Diminuzione rispetto al valore iniziale
 RIEDUCAZIONE,Percorso per apprendere di nuovo capacità o comportamenti
-RIENTRARE,Tornare nel luogo da cui si era usciti
 RIENTRARE,Tornare dentro o nei limiti
+RIENTRARE,Tornare nel luogo da cui si era usciti
 RIEPILOGO,Sintesi finale dei punti principali
 RIESLING,Il vitigno bianco tedesco e alsaziano
 RIETI,Città laziale nella conca velina
-RIEVOCAZIONE,Ricostruzione di un fatto del passato
 RIEVOCAZIONE,Messa in scena di un evento passato
+RIEVOCAZIONE,Ricostruzione di un fatto del passato
 RIFACIMENTO,Nuova esecuzione di qualcosa già fatto
 RIFACIMENTO,Può trasformare un locale o un'opera
 RIFAI,Tu fai di nuovo
 RIFATTO,Participio passato di rifare
-RIFERIMENTO,Richiamo a una fonte o a un elemento
 RIFERIMENTO,Punto usato per orientarsi o confrontare
-RIFERIRE,Dare comunicazione a scopo informativo
+RIFERIMENTO,Richiamo a una fonte o a un elemento
 RIFERIRE,Comunicare un fatto a qualcuno
+RIFERIRE,Dare comunicazione a scopo informativo
 RIFERIRSI,Alludere o fare riferimento
 RIFERIRSI,Avere come oggetto o destinatario
 RIFINIRE,Dare l'ultimo tocco
@@ -911,12 +1049,16 @@ RIFIUTARE,Dire di no
 RIFIUTARE,Non accettare ciò che viene offerto
 RIFIUTARE,Respingere una proposta o un oggetto
 RIFIUTATO,Detto di no
+RIFIUTI,Dinieghi opposti a richieste o proposte
+RIFIUTI,Materiali scartati e destinati allo smaltimento
 RIFIUTO,Dico di no
-RIFIUTO,Materiale destinato allo smaltimento
 RIFIUTO,Diniego o materiale da scartare
+RIFIUTO,Materiale destinato allo smaltimento
+RIFLESSI,Immagini restituite da superfici lucide
+RIFLESSI,Reazioni automatiche e involontarie del corpo
+RIFLESSIONE,Considerazione formulata dopo aver pensato
 RIFLESSIONE,Il rimbalzo della luce su una superficie
 RIFLESSIONE,Pensiero ponderato su un argomento
-RIFLESSIONE,Considerazione formulata dopo aver pensato
 RIFLESSO,Immagine di ritorno o reazione rapida
 RIFLESSO,Risposta involontaria o immagine restituita
 RIFLETTERE,Restituire luce o immagini
@@ -926,18 +1068,20 @@ RIFONDAZIONE,Nuova costituzione su basi diverse
 RIFONDAZIONE,Ricostruzione di un ente su nuove basi
 RIFORMATO,Appartenente a una confessione protestante
 RIFORMISTA,Sostiene cambiamenti graduali senza rivoluzione
-RIFORNIMENTI,Scorte necessarie a proseguire un'attività
 RIFORNIMENTI,"Arrivano a truppe, negozi o veicoli"
+RIFORNIMENTI,Scorte necessarie a proseguire un'attività
 RIFORNIMENTO,Operazione che rinnova una scorta
 RIFORNIMENTO,Può riempire un serbatoio
 RIFRAZIONE,La deviazione della luce che cambia mezzo
-RIFUGIARSI,Mettersi al sicuro
+RIFUGI,Luoghi sicuri in cui ripararsi
+RIFUGI,Strutture montane che ospitano escursionisti
 RIFUGIARSI,Cercare protezione in un luogo sicuro
+RIFUGIARSI,Mettersi al sicuro
 RIFUGIATO,Persona costretta a lasciare il proprio Paese
 RIFUGIO,Dà riparo a chi sale in montagna
+RIFUGIO,Luogo che offre protezione
 RIFUGIO,Riparo in montagna o altrove
 RIFUGIO,Riparo sicuro
-RIFUGIO,Luogo che offre protezione
 RIFULSE,Brillò di luce
 RIGA,Capitale lettone sul Baltico
 RIGA,La capitale della Lettonia
@@ -950,17 +1094,21 @@ RIGATONE,Pasta che trattiene il sugo
 RIGATONE,Pasta corta e scanalata
 RIGATONI,Pasta corta rigata
 RIGEL,Stella azzurra di Orione
+RIGHE,"File orizzontali di parole, numeri o persone"
+RIGHE,Linee tracciate su carta o tessuti
 RIGHELLO,Misura e traccia linee dritte
+RIGIDI,Duri e difficili da piegare
+RIGIDI,Severi e poco disponibili a eccezioni
 RIGIDO,"Inflessibile e severo, o il clima d'inverno"
 RIGO,Andare a...: andare a capo
-RIGO,Traccio linee
 RIGO,Linea del pentagramma o di un testo
+RIGO,Traccio linee
 RIGOGOLO,Uccello dal piumaggio giallo vivo
 RIGOLETTO,L'opera di Verdi del buffone di corte
 RIGORE,Calcio dagli undici metri
 RIGORE,"La severità, l'austerità della disciplina"
-RIGORE,Tiro dagli undici metri
 RIGORE,Severità e precisione senza concessioni
+RIGORE,Tiro dagli undici metri
 RIGOROSAMENTE,Con severità e precisione
 RIGOROSO,Non ammette approssimazioni
 RIGOROSO,Preciso e severo nell'applicare criteri
@@ -970,8 +1118,8 @@ RIGUARDO,Aspetto preso in considerazione
 RIGUARDO,Attenzione rispettosa verso qualcuno
 RIHANNA,La cantante delle Barbados di Umbrella
 RIJKAARD,"Frank, centrocampista olandese campione d'Europa 1988"
-RILASCIARE,Pubblicare ufficialmente un documento o un software
 RILASCIARE,Lasciare libero o consegnare
+RILASCIARE,Pubblicare ufficialmente un documento o un software
 RILASSA,Scioglie la tensione
 RILASSAI,Sciolsi la tensione
 RILASSARE,Sciogliere la tensione
@@ -982,27 +1130,27 @@ RILASSO,Sciolgo la tensione
 RILEGATORE,Cuce e copre i libri
 RILEVAMENTO,Misurazione o individuazione sul campo
 RILEVAMENTO,Serve a raccogliere dati su territorio o fenomeni
-RILEVANTE,Importante ai fini della questione
 RILEVANTE,Che emerge per peso o valore
-RILEVANZA,Peso attribuito a un elemento
+RILEVANTE,Importante ai fini della questione
 RILEVANZA,Importanza ai fini di una valutazione
+RILEVANZA,Peso attribuito a un elemento
 RILEVARE,Mettere in evidenza o accertare
 RILEVARE,Registrare dati o mettere in evidenza
-RILEVAZIONE,Raccolta sistematica di dati
 RILEVAZIONE,Individua una presenza o misura un valore
-RILIEVO,"Sporgenza, importanza o mappa del terreno"
+RILEVAZIONE,Raccolta sistematica di dati
 RILIEVO,Importanza attribuita a un fatto
 RILIEVO,Misurazione accurata di forme e distanze
+RILIEVO,"Sporgenza, importanza o mappa del terreno"
 RILKE,Autore di versi delle Elegie duinesi
 RILKE,Poeta delle Elegie duinesi
 RILUTTANTE,Poco disposto
 RILUTTANTI,Poco disposti
+RIMA,Accordo di suoni alla fine dei versi
 RIMA,La consonanza finale tra due versi
 RIMA,Uguaglianza di suono a fine verso
-RIMA,Accordo di suoni alla fine dei versi
 RIMAI,Feci versi con suoni uguali
-RIMANDARE,Spostare a un momento successivo
 RIMANDARE,Non svolgere ora ciò che era previsto
+RIMANDARE,Spostare a un momento successivo
 RIMANDO,Allusione o rinvio a un'altra fonte
 RIMANDO,Richiamo a un'altra fonte o rinvio nel tempo
 RIMANENTE,Ciò che non è stato consumato o usato
@@ -1017,23 +1165,27 @@ RIMBALZO,Ritorno elastico di palla o notizia
 RIMBAUD,Autore di versi francese delle Illuminazioni
 RIMBAUD,Poeta francese delle Illuminazioni
 RIMBORSARE,Restituire una somma spesa
-RIMBORSO,Restituzione di denaro anticipato
 RIMBORSO,Compensa una spesa documentata
+RIMBORSO,Restituzione di denaro anticipato
+RIME,Componimenti poetici caratterizzati da richiami fonici
+RIME,Uguaglianze di suono alla fine dei versi
+RIMEDI,Mezzi usati per curare un disturbo
+RIMEDI,Soluzioni adottate per correggere un problema
 RIMEDIA,Pone riparo
 RIMEDIAI,Posi riparo
 RIMEDIARE,Porre riparo
 RIMEDIARE,Porre riparo a un errore
 RIMEDIARE,Trovare una soluzione in extremis
 RIMEDIATO,Posto riparo
-RIMEDIO,Soluzione pratica al malanno
 RIMEDIO,Mezzo usato per curare o correggere
 RIMEDIO,Soluzione a un inconveniente
+RIMEDIO,Soluzione pratica al malanno
 RIMEMBRANZA,Il dolce ricordo del passato
+RIMESSA,Consegna di denaro o locale per veicoli
 RIMESSA,Garage o deposito
 RIMESSA,"Locale per auto, attrezzi o barche"
-RIMESSA,Consegna di denaro o locale per veicoli
-RIMETTERE,Porre di nuovo o affidare
 RIMETTERE,Collocare di nuovo al proprio posto
+RIMETTERE,Porre di nuovo o affidare
 RIMETTERSI,Recuperare salute o forze
 RIMINI,Città romagnola di Fellini
 RIMO,Faccio versi con suoni uguali
@@ -1045,18 +1197,18 @@ RIMOSTRANZA,La protesta formale
 RIMOZIONE,Allontanamento da un incarico
 RIMOZIONE,Eliminazione di un ostacolo o di un ricordo
 RIMPIANTO,Il dispiacere per ciò che non è stato
-RIMPIANTO,Pesa per ciò che non si è fatto
 RIMPIANTO,Nostalgia dolorosa per una scelta mancata
+RIMPIANTO,Pesa per ciò che non si è fatto
 RIMPIAZZARE,Sostituire con un altro elemento
 RIMPOLPO,Rendo più sostanzioso
-RIMPROVERARE,Sgridare chi ha sbagliato
 RIMPROVERARE,Biasimare apertamente per un errore
 RIMPROVERARE,Rivolgere un richiamo severo
+RIMPROVERARE,Sgridare chi ha sbagliato
 RIMPROVERO,Muovo un biasimo
-RIMPROVERO,Richiamo espresso per una colpa
 RIMPROVERO,Può essere aspro ma non è una condanna
-RIMUOVERE,Togliere dalla posizione occupata
+RIMPROVERO,Richiamo espresso per una colpa
 RIMUOVERE,Eliminare un ostacolo o un incaricato
+RIMUOVERE,Togliere dalla posizione occupata
 RINALDO,Paladino di Carlo Magno
 RINASCERE,Tornare a vivere o prosperare
 RINASCITA,Nuovo periodo di vita o sviluppo
@@ -1067,13 +1219,13 @@ RINCORRERE,Correre dietro per raggiungere
 RINCORRERE,Inseguire chi fugge
 RINCUORO,Restituisco il coraggio
 RINFORZA,Rende più forte
+RINFORZARE,Aggiungere sostegno o consistenza
 RINFORZARE,Rendere più forte
 RINFORZARE,Rendere più solido o resistente
-RINFORZARE,Aggiungere sostegno o consistenza
 RINFORZATO,Reso più forte
-RINFORZO,Rendo più forte
 RINFORZO,Aiuto aggiuntivo che aumenta le forze
 RINFORZO,Elemento che consolida una struttura
+RINFORZO,Rendo più forte
 RINFRANCO,Ridò coraggio
 RINGHIERA,Il parapetto delle scale
 RINGHIERA,Protegge scale e balconi
@@ -1087,6 +1239,8 @@ RINGRAZIO,Dico grazie
 RINNEGARE,Disconoscere idee o legami precedenti
 RINNEGARE,Ritrattare ciò che si era affermato
 RINNOVAMENTO,Cambiamento che porta nuova vitalità
+RINNOVI,Prolungamenti di contratti o abbonamenti
+RINNOVI,Sostituzioni che rendono qualcosa più moderno
 RINNOVO,Proroga o sostituzione alla scadenza
 RINO,"Gattuso, il Ringhio del calcio"
 RINO,Il Gaetano di Ma il cielo è sempre più blu
@@ -1098,12 +1252,12 @@ RINOMATO,Conosciuto e stimato da molti
 RINSAVIRE,Tornare assennati
 RINSECCHITO,Secco e indurito
 RINTOCCO,Il singolo colpo di campana
-RINTRACCIARE,Trovare seguendo indizi o dati
 RINTRACCIARE,Localizzare ciò che sembrava perduto
+RINTRACCIARE,Trovare seguendo indizi o dati
 RINUNCIARE,Abbandonare volontariamente un diritto o un progetto
 RINUNCIARE,Cedere volontariamente a qualcosa
-RINVIARE,Spostare un impegno nel tempo
 RINVIARE,Mandare nuovamente o rimandare indietro
+RINVIARE,Spostare un impegno nel tempo
 RINVIGORISCO,Restituisco vigore
 RINVIO,Sospensione con nuova data
 RINVIO,Spostamento a una data successiva
@@ -1115,30 +1269,32 @@ RIODEJANEIRO,La città brasiliana del Carnevale
 RIONE,Il quartiere storico della città
 RIONE,Quartiere con identità propria
 RIONE,Zona interna di una città
-RIORDINARE,Rimettere ogni cosa al suo posto
 RIORDINARE,Disporre secondo un nuovo criterio
-RIORDINO,Ripristino dell'ordine
+RIORDINARE,Rimettere ogni cosa al suo posto
 RIORDINO,Nuova sistemazione di elementi o uffici
-RIORGANIZZARE,Dare un nuovo assetto
+RIORDINO,Ripristino dell'ordine
 RIORGANIZZARE,Cambiare disposizione e funzioni
-RIORGANIZZAZIONE,Nuovo assetto di strutture e compiti
+RIORGANIZZARE,Dare un nuovo assetto
 RIORGANIZZAZIONE,Cambia ordine senza ripartire da zero
+RIORGANIZZAZIONE,Nuovo assetto di strutture e compiti
 RIOTTOSA,Restia a obbedire
 RIOTTOSE,Restie a obbedire
 RIOTTOSI,Restii a obbedire
 RIOTTOSO,Restio a obbedire
-RIPA,Sponda ripida di un corso d'acqua
 RIPA,Pendio scosceso ai margini di una valle
-RIPAGARE,Restituire un favore o compensare un danno
+RIPA,Sponda ripida di un corso d'acqua
 RIPAGARE,Dare soddisfazione a chi ha faticato
+RIPAGARE,Restituire un favore o compensare un danno
 RIPARA,Aggiusta o protegge
 RIPARAI,Aggiustai o protessi
-RIPARARE,Aggiustare o proteggere
 RIPARARE,Aggiustare ciò che si è guastato
+RIPARARE,Aggiustare o proteggere
 RIPARARE,"Proteggere da vento, pioggia o pericolo"
 RIPARATO,Aggiustato o protetto
-RIPARAZIONE,Intervento che elimina un guasto
 RIPARAZIONE,Compenso dovuto per un danno
+RIPARAZIONE,Intervento che elimina un guasto
+RIPARI,Aggiusti qualcosa che si è guastato
+RIPARI,Luoghi o strutture che proteggono
 RIPARO,Aggiusto o proteggo
 RIPARO,Correre ai...: rimediare in fretta
 RIPARO,Luogo o mezzo che protegge
@@ -1147,77 +1303,93 @@ RIPARTIZIONE,Divisione secondo quote o criteri
 RIPETERE,Fare o dire di nuovo
 RIPETERE,Tornare a verificarsi
 RIPETERSI,Accadere di nuovo
+RIPETI,Dici o fai nuovamente la stessa cosa
+RIPETI,Esegui ancora un esercizio o una prova
 RIPETIZIONE,Nuova esecuzione dello stesso atto
-RIPIANO,Superficie orizzontale di appoggio
+RIPETONO,Dicono o fanno nuovamente la stessa cosa
+RIPETONO,Eseguono ancora un esercizio o una prova
 RIPIANO,Può sostenere libri in un mobile
+RIPIANO,Superficie orizzontale di appoggio
 RIPIEGARE,Arretrare o piegare su se stesso
 RIPIENO,Contenuto inserito dentro un alimento o un oggetto
-RIPORTARE,Trasferire indietro o riferire fedelmente
 RIPORTARE,Riconsegnare o riferire
+RIPORTARE,Trasferire indietro o riferire fedelmente
 RIPOSA,Si concede quiete
 RIPOSARE,Prendere riposo
 RIPOSARE,Prendersi una pausa per recuperare energie
 RIPOSATO,Ristorato
+RIPOSO,Interruzione dell'attività
 RIPOSO,Intervallo che restituisce forza
 RIPOSO,L'attenti e il... del soldato
-RIPOSO,Interruzione dell'attività
 RIPOSTIGLIO,Il piccolo vano per riporre le cose
-RIPOSTIGLIO,Stanzino per scope e scatole
 RIPOSTIGLIO,Piccolo vano per oggetti poco usati
-RIPOSTO,Nascosto in un luogo appartato
+RIPOSTIGLIO,Stanzino per scope e scatole
 RIPOSTO,Conservato lontano dalla vista
-RIPRENDERE,Filmare con una telecamera
+RIPOSTO,Nascosto in un luogo appartato
 RIPRENDERE,Ammonire oppure tornare a fare
+RIPRENDERE,Filmare con una telecamera
 RIPRENDERSI,Recuperare forze o controllo
 RIPRISTINARE,Far tornare operativo
 RIPRISTINARE,Riportare allo stato o al funzionamento precedente
-RIPRISTINO,Ritorno alle condizioni iniziali
 RIPRISTINO,Riattiva un servizio interrotto
+RIPRISTINO,Ritorno alle condizioni iniziali
 RIPRODUZIONE,Copia di un'opera o di un'immagine
 RIPRODUZIONE,Processo con cui gli esseri viventi generano discendenti
 RIPROVA,Conferma ulteriore di un fatto
 RIPROVA,Nuova verifica che rafforza una tesi
 RIPULIRE,Liberare da sporco o elementi inutili
 RIPULIRE,Rendere più ordinato eliminando il superfluo
-RIQUADRO,Spazio delimitato dentro una pagina
+RIPULITA,Liberata da elementi indesiderati
+RIPULITA,Pulita accuratamente da sporco e residui
+RIPULITE,Liberate da elementi indesiderati
+RIPULITE,Pulite accuratamente da sporco e residui
+RIPULITI,Liberati da elementi indesiderati
+RIPULITI,Puliti accuratamente da sporco e residui
+RIPULITO,Liberato da elementi indesiderati
+RIPULITO,Pulito accuratamente da sporco e residui
 RIQUADRO,Cornice geometrica che separa un contenuto
-RISACCA,Ritorno dell'onda verso il largo
+RIQUADRO,Spazio delimitato dentro una pagina
 RISACCA,Ritorno dell'onda dopo l'urto sulla riva
+RISACCA,Ritorno dell'onda verso il largo
 RISAIA,Campo allagato dove cresce il riso
-RISALTARE,Emergere chiaramente rispetto al resto
 RISALTARE,Attirare subito l'attenzione
+RISALTARE,Emergere chiaramente rispetto al resto
 RISANAMENTO,Intervento che elimina degrado o debiti
-RISARCIMENTO,Somma o prestazione che compensa un danno
 RISARCIMENTO,Segue l'accertamento di una responsabilità
+RISARCIMENTO,Somma o prestazione che compensa un danno
 RISARCIRE,Compensare chi ha subito un danno
 RISARCIRE,Pagare per ristabilire un equilibrio
 RISATA,Esplode quando qualcosa diverte
-RISATA,Scoppio sonoro di buonumore
 RISATA,Manifestazione sonora di buonumore
+RISATA,Scoppio sonoro di buonumore
+RISATE,Manifestazioni sonore di allegria
+RISATE,Scoppiano quando qualcosa diverte molto
 RISCALDARE,Rendere più caldo
 RISCATTARE,Liberare pagando o recuperare dignità
+RISCHI,Pericoli accettati nel tentare un'impresa
+RISCHI,Possibilità che si verifichi un danno
 RISCHIO,Espone a una possibile perdita
 RISCHIO,Possibilità che si verifichi un danno
 RISCIO,Carretto orientale tirato a mano
-RISCONTRARE,Verificare l'esistenza o la corrispondenza
 RISCONTRARE,Accertare mediante confronto
+RISCONTRARE,Verificare l'esistenza o la corrispondenza
 RISCONTRO,Conferma ottenuta da fatti o documenti
 RISCONTRO,Elemento che permette un confronto
 RISCOSSE,Incassò la somma
 RISCOSSIONE,Incasso di somme dovute
 RISCRIVERE,Adattare un testo in forma nuova
-RISCUOTERE,Ottenere denaro o suscitare una reazione
 RISCUOTERE,Incassare somme dovute
-RISENTIMENTO,Ostilità nata da un'offesa
+RISCUOTERE,Ottenere denaro o suscitare una reazione
 RISENTIMENTO,Astio che segue un'offesa
+RISENTIMENTO,Ostilità nata da un'offesa
 RISENTITO,Offeso e poco disposto a perdonare
 RISENTITO,Pronunciato con tono duro e polemico
-RISERVA,Quantità tenuta da parte
 RISERVA,Persona pronta a sostituire un titolare
-RISERVARE,Tenere da parte per qualcuno
+RISERVA,Quantità tenuta da parte
 RISERVARE,Prenotare in anticipo
-RISERVATO,Poco incline a confidarsi
+RISERVARE,Tenere da parte per qualcuno
 RISERVATO,Destinato a pochi
+RISERVATO,Poco incline a confidarsi
 RISI,"... e bisi, piatto veneto"
 RISI,Il Dino del Sorpasso
 RISIEDERE,Abitare stabilmente
@@ -1225,10 +1397,12 @@ RISIEDERE,Avere dimora stabile in un luogo
 RISIKO,Il gioco da tavolo della conquista del mondo
 RISMA,Gente della stessa...: dello stesso tipo
 RISMA,"Pacco da ufficio, non carattere"
+RISME,Confezioni standard di fogli di carta
+RISME,Pacchi usati per rifornire stampanti e fotocopiatrici
 RISO,Bianco chicco alla base di molti piatti
 RISO,Cereale che ride nel doppio senso
-RISO,Espressione di allegria
 RISO,Cereale oppure manifestazione d'allegria
+RISO,Espressione di allegria
 RISOLUZIONE,Decisione conclusiva adottata formalmente
 RISOLUZIONE,Decisione formale o soluzione di un problema
 RISOLVERE,Prendere una decisione definitiva
@@ -1238,38 +1412,42 @@ RISORGERE,Tornare alla vita o alla prosperità
 RISORSA,Mezzo disponibile per affrontare un bisogno
 RISORSA,"Può essere naturale, economica o umana"
 RISORSE,Tornò in vita
+RISOTTI,Piatti di riso cotti aggiungendo brodo poco alla volta
+RISOTTI,Preparazioni cremose tipiche della cucina italiana
 RISOTTO,Piatto di riso mantecato
 RISOTTO,Riso che chiede brodo e pazienza
 RISPARMIA,Mette da parte denaro
 RISPARMIARE,Mettere da parte denaro
 RISPARMIARE,Non spendere o evitare a qualcuno una pena
 RISPARMIATO,Messo da parte denaro
-RISPARMIO,Metto da parte denaro
 RISPARMIO,Denaro non speso
+RISPARMIO,Metto da parte denaro
 RISPETTA,Tiene in considerazione una regola
 RISPETTABILE,Degno di considerazione
 RISPETTABILE,Di livello apprezzabile
 RISPETTAI,Tenni in considerazione una regola
+RISPETTARE,Attenersi a una regola o a un impegno
 RISPETTARE,Tenere in considerazione una regola
 RISPETTARE,Tenere in debita considerazione
-RISPETTARE,Attenersi a una regola o a un impegno
 RISPETTATO,Onorato o osservato
-RISPETTO,Tengo in considerazione una regola
 RISPETTO,Considerazione dovuta agli altri
 RISPETTO,Stima e riguardo verso qualcuno
-RISPONDERE,Replicare a una domanda
+RISPETTO,Tengo in considerazione una regola
 RISPONDERE,Dare seguito a una domanda
+RISPONDERE,Replicare a una domanda
 RISPOSE,Diede la replica
-RISPOSTA,Reazione a una domanda o a uno stimolo
 RISPOSTA,Frase o atto che segue una domanda
-RISSA,Può iniziare con uno spintone
+RISPOSTA,Reazione a una domanda o a uno stimolo
+RISPOSTE,Parole date a domande
+RISPOSTE,"Reazioni a richieste, stimoli o problemi"
 RISSA,Lite violenta tra più persone
-RISTABILIRE,Riportare a una condizione precedente
+RISSA,Può iniziare con uno spintone
 RISTABILIRE,"Far tornare ordine, salute o equilibrio"
+RISTABILIRE,Riportare a una condizione precedente
 RISTAMPA,Nuova tiratura di un'opera già pubblicata
 RISTORANTE,Dove si va a cena fuori
-RISTORANTE,Locale in cui si servono pasti
 RISTORANTE,"Ha menu, tavoli e cucina"
+RISTORANTE,Locale in cui si servono pasti
 RISTRETTO,Limitato nello spazio o nel numero
 RISTRETTO,Testo condensato o caffè molto corto
 RISTRUTTURARE,Modificare profondamente un edificio o un'organizzazione
@@ -1277,18 +1455,18 @@ RISTRUTTURARE,"Ridisegnare spazi, compiti o debiti"
 RISTRUTTURAZIONE,Intervento che cambia struttura o assetto
 RISTRUTTURAZIONE,"Può riguardare una casa, un'azienda o un debito"
 RISULTA,Viene fuori come esito
-RISULTARE,Venire fuori come esito
-RISULTARE,Emergere da un calcolo o da una verifica
 RISULTARE,Apparire in base ai fatti
-RISULTATO,Venuto fuori come esito
-RISULTATO,Prodotto finale di un calcolo o di un'azione
+RISULTARE,Emergere da un calcolo o da una verifica
+RISULTARE,Venire fuori come esito
 RISULTATO,Esito finale di un'attività
+RISULTATO,Prodotto finale di un calcolo o di un'azione
+RISULTATO,Venuto fuori come esito
 RISULTO,Vengo fuori come esito
 RISURREZIONE,"Ritorno alla vita, soprattutto in senso religioso"
 RISVEGLIO,Passaggio dal sonno alla veglia
+RISVOLTO,Aspetto secondario o piega di un tessuto
 RISVOLTO,La piega rivoltata dei pantaloni
 RISVOLTO,Una conseguenza inattesa di una vicenda
-RISVOLTO,Aspetto secondario o piega di un tessuto
 RITARDA,Arriva dopo il tempo
 RITARDAI,Arrivai dopo il tempo
 RITARDARE,Arrivare dopo il tempo
@@ -1302,71 +1480,93 @@ RITENERE,Considerare vero o trattenere
 RITENERE,Giudicare o trattenere
 RITENUTA,Somma sottratta prima di un pagamento
 RITENUTO,Considerato vero o tenuto fermo
+RITI,Abitudini ripetute con modalità quasi solenni
+RITI,Cerimonie compiute secondo regole tradizionali
 RITIRA,Trae indietro o prende indietro
 RITIRAI,Trassi indietro o presi indietro
-RITIRARE,Trarre indietro o prendere indietro
-RITIRARE,Togliere dalla circolazione
 RITIRARE,Prendere indietro ciò che era stato consegnato
-RITIRARSI,Ripiegare o abbandonare la scena
+RITIRARE,Togliere dalla circolazione
+RITIRARE,Trarre indietro o prendere indietro
 RITIRARSI,"Lasciare una gara, un luogo o la vita pubblica"
+RITIRARSI,Ripiegare o abbandonare la scena
 RITIRATA,Arretramento militare o piccolo vano appartato
 RITIRATA,Arretramento ordinato di truppe
 RITIRATO,Tratto indietro o ripreso
-RITIRO,Traggo indietro o prendo indietro
 RITIRO,"Allontanamento, sequestro o luogo appartato"
 RITIRO,Provvedimento che toglie un bene dalla circolazione
+RITIRO,Traggo indietro o prendo indietro
+RITMI,Andamenti più o meno veloci di attività e musica
+RITMI,Successioni regolari di tempi e accenti
 RITMICA,Disciplina che studia o esercita il ritmo
 RITMO,La cadenza regolare e costante
 RITMO,Lo battono il tamburo e il cuore
 RITMO,Successione regolare di battute o movimenti
 RITO,Cerimonia fissata dalla tradizione
-RITO,La cerimonia solenne e ripetuta
 RITO,Cerimonia regolata da gesti tradizionali
+RITO,La cerimonia solenne e ripetuta
 RITOCCO,Piccola correzione che cambia l'effetto
 RITORNA,Fa ritorno
-RITORNARE,Ripresentarsi dopo un’assenza
 RITORNARE,Andare nuovamente al punto di partenza
 RITORNARE,Presentarsi o accadere ancora
+RITORNARE,Ripresentarsi dopo un’assenza
 RITORNATO,Rientrato al punto di partenza
 RITORNO,Viaggio verso il punto di partenza
 RITORSE,Rivolse contro
 RITRASSE,Dipinse il volto
-RITRATTO,Immagine di un volto
+RITRATTI,Immagini che raffigurano persone
+RITRATTI,Tirati indietro o rimossi
 RITRATTO,Immagine che raffigura una persona
-RITROVAMENTO,Scoperta di qualcosa che era perduto
+RITRATTO,Immagine di un volto
 RITROVAMENTO,Scoperta casuale o cercata
+RITROVAMENTO,Scoperta di qualcosa che era perduto
 RITROVARE,Trovare di nuovo
-RITROVATO,Soluzione ingegnosa o espediente
 RITROVATO,Espediente inventato per ottenere un effetto
+RITROVATO,Soluzione ingegnosa o espediente
 RITUALE,Insieme codificato di gesti
 RITUALE,Serie abituale di azioni ripetute
+RITUALI,Abitudini ripetute sempre nello stesso modo
+RITUALI,Cerimonie regolate da gesti prestabiliti
 RIUNIFICAZIONE,Ricongiungimento di parti separate
 RIUNIONE,Incontro di più persone per uno scopo
 RIUNIONE,Può avere ordine del giorno e verbale
-RIUNIRE,Mettere insieme elementi separati
+RIUNIONI,Incontri tra più persone per discutere
+RIUNIONI,Raduni organizzati attorno a un tema o a una decisione
 RIUNIRE,Collegare sotto un unico insieme
+RIUNIRE,Mettere insieme elementi separati
 RIUNIRSI,Avere incontri e trascorrere tempo insieme
 RIUNIRSI,Incontrarsi nello stesso luogo
-RIUSCIRE,Portare a buon fine un tentativo
 RIUSCIRE,Ottenere l'esito desiderato
+RIUSCIRE,Portare a buon fine un tentativo
 RIVA,Bordo del mare o del fiume
 RIVA,La sponda del fiume o del mare
 RIVA,Margine dell'acqua
 RIVA,"Margine di un mare, lago o fiume"
 RIVALE,Avversario con lo stesso obiettivo
-RIVALE,"L'antagonista, il concorrente"
 RIVALE,Chi contende a un altro un primato
+RIVALE,"L'antagonista, il concorrente"
+RIVALI,Avversari che competono per lo stesso obiettivo
+RIVALI,Concorrenti diretti in una gara o in un mercato
 RIVALITA,Competizione accesa e duratura
 RIVALITA,Rapporto segnato da confronto e antagonismo
 RIVALSA,Recupero di un danno o di una posizione
 RIVALSA,Soddisfazione ottenuta dopo una sconfitta
 RIVALUTAZIONE,Nuovo giudizio che accresce il valore
+RIVE,"Margini di fiumi, laghi o mari"
+RIVE,Sponde su cui termina l'acqua
 RIVEDERE,Esaminare di nuovo
 RIVEDERE,Guardare ancora o modificare un giudizio
 RIVELARE,Comunicare un segreto o un dato nascosto
 RIVELARE,Far conoscere ciò che era nascosto
-RIVELARSI,Mostrarsi per ciò che si è
 RIVELARSI,"Dimostrarsi, alla prova dei fatti"
+RIVELARSI,Mostrarsi per ciò che si è
+RIVELATA,Fatta conoscere dopo essere rimasta nascosta
+RIVELATA,Mostratasi per ciò che è davvero
+RIVELATE,Fatte conoscere dopo essere rimaste nascoste
+RIVELATE,Mostratesi per ciò che sono davvero
+RIVELATI,Fatti conoscere dopo essere rimasti nascosti
+RIVELATI,Mostratisi per ciò che sono davvero
+RIVELATO,Fatto conoscere dopo essere rimasto nascosto
+RIVELATO,Mostratosi per ciò che è davvero
 RIVELAZIONE,Lo svelare un segreto
 RIVELLINO,Opera difensiva avanzata
 RIVENDICARE,Chiedere con fermezza ciò che si ritiene proprio
@@ -1378,12 +1578,16 @@ RIVIERA,Costa dal nome elegante
 RIVIERA,"Costa di vacanze, palme e passeggiate"
 RIVISTA,Periodico da leggere o sfogliare
 RIVISTA,Pubblicazione periodica di articoli e immagini
+RIVISTE,Esaminate nuovamente per apportare modifiche
+RIVISTE,Pubblicazioni periodiche illustrate o specializzate
 RIVOLGERE,Orientare verso una direzione o un destinatario
 RIVOLSE,Indirizzò la parola
-RIVOLTA,Sollevazione contro l'autorità
 RIVOLTA,Ribellione collettiva e spesso violenta
-RIVOLUZIONE,Sconvolgimento profondo politico o sociale
+RIVOLTA,Sollevazione contro l'autorità
+RIVOLTE,Insurrezioni contro un'autorità
+RIVOLTE,Orientate verso una persona o una direzione
 RIVOLUZIONE,Cambiamento profondo dell'ordine esistente
+RIVOLUZIONE,Sconvolgimento profondo politico o sociale
 RIZOMA,Fusto sotterraneo o modello filosofico
 RKOMI,Il rapper milanese di Taxi Driver
 RM,Iniziali del cantante Martin
@@ -1393,8 +1597,10 @@ RN,Iniziali del presidente Nixon
 RN,Sigla automobilistica di Rimini
 RO,Sigla automobilistica di Rovigo
 ROBA,Cose senza catalogo
-ROBA,"Le cose, gli effetti personali"
 ROBA,Insieme generico di cose
+ROBA,"Le cose, gli effetti personali"
+ROBE,Abiti o indumenti in un uso antico
+ROBE,"Cose di vario genere, nel linguaggio informale"
 ROBERT,Il nome dell'attore De Niro
 ROBERTA,Il nome della cantante Flack
 ROBERTO,Il nome dell'attore e regista Benigni
@@ -1416,16 +1622,18 @@ ROC,Uccello favoloso da Mille e una notte
 ROCA,Bassa e rauca
 ROCCA,Fortezza e utensile della filatrice
 ROCCA,Fortezza su un'altura
-ROCCA,L'attrezzo per filare la lana
 ROCCA,Fortificazione posta in posizione dominante
+ROCCA,L'attrezzo per filare la lana
 ROCCAFORTE,Baluardo che domina e protegge un territorio
-ROCCAFORTE,Luogo fortificato difficile da conquistare
 ROCCAFORTE,Centro di particolare forza o consenso
+ROCCAFORTE,Luogo fortificato difficile da conquistare
+ROCCE,Masse naturali compatte della crosta terrestre
+ROCCE,Pareti dure affrontate dagli arrampicatori
 ROCCHETTO,Il cilindretto su cui si avvolge il filo
 ROCCIA,La parete da scalare con corde e moschettoni
 ROCCIA,Massa compatta di minerali
-ROCCIA,Pietra compatta della montagna
 ROCCIA,Massa minerale naturale e compatta
+ROCCIA,Pietra compatta della montagna
 ROCCO,Il santo invocato contro la peste
 ROCCOLO,Appostamento tradizionale per uccelli
 ROCCOLO,Impianto arboreo per catturare uccelli
@@ -1453,15 +1661,19 @@ RODIO,Metallo usato nelle marmitte catalitiche
 RODITORE,Animale dai denti sempre al lavoro
 RODODENDRO,Arbusto alpino dai fiori vistosi
 RODOMONTE,Millantatore dal poema cavalleresco
+RODONO,Consumano a piccoli morsi con denti affilati
+RODONO,"Consumano lentamente, anche in senso figurato"
 ROGER,"...that: ricevuto, alla radio"
 ROGER,Il nome del tennista svizzero Federer
 ROGERS,Architetto del Centre Pompidou
 ROGGIA,Il canale d'irrigazione della pianura
+ROGHI,Cumuli incendiati durante cerimonie o esecuzioni antiche
+ROGHI,Grandi fuochi alimentati all'aperto
 ROGITO,Atto notarile di vendita
 ROGO,Fuoco alto di condanna o distruzione
 ROGO,Fuoco che consuma in pubblico
-ROGO,La pira su cui si bruciavano i condannati
 ROGO,"Grande incendio, spesso distruttivo"
+ROGO,La pira su cui si bruciavano i condannati
 ROLAND,Il nome dell'aviatore Garros del tennis
 ROLANDO,Il paladino di Roncisvalle
 ROLEX,La marca svizzera di orologi di lusso
@@ -1469,22 +1681,34 @@ ROMA,La città del Colosseo
 ROMA,La squadra giallorossa della capitale
 ROMA,Tutte le strade portano a...
 ROMAN,Il nome del regista Polanski
+ROMANE,Appartenenti all'antica civiltà del Lazio
+ROMANE,Originarie della capitale italiana
+ROMANI,Abitanti della capitale italiana
+ROMANI,Cittadini dell'antico impero mediterraneo
 ROMANIA,Paese danubiano con Carpazi
 ROMANTICISMO,Il movimento del sentimento e del sublime
 ROMANTICO,Incline ai sentimenti e alle atmosfere idealizzate
 ROMANTICO,Incline al sentimento e all'idealizzazione
+ROMANZI,Lunghe opere narrative in prosa
+ROMANZI,Storie inventate pubblicate in volume
 ROMANZIERE,Scrittore di romanzi
 ROMANZO,Opera narrativa lunga in prosa
+ROMBI,Figure con quattro lati uguali
+ROMBI,Suoni profondi prodotti da motori o tuoni
 ROMBO,Il pesce piatto pregiato
 ROMBO,Il quadrilatero dai lati uguali
 ROMBO,Il...del motore: il rumore cupo e potente
 ROMBO,Suono cupo e prolungato
+ROMENE,Appartenenti a un popolo dell'Europa orientale
+ROMENE,Originarie dello Stato con capitale Bucarest
+ROMENI,Appartenenti a un popolo dell'Europa orientale
+ROMENI,Originari dello Stato con capitale Bucarest
 ROMENO,Originario della Romania
 ROMEO,Il giovane innamorato di Giulietta
 ROMITAGGIO,Il rifugio dell'eremita
 ROMOLO,Fondò Roma secondo la leggenda
-ROMPERE,Spezzare o porre fine
 ROMPERE,Mandare in pezzi
+ROMPERE,Spezzare o porre fine
 ROMPERSI,Cedere sotto una pressione o un urto
 ROMPERSI,Smettere di funzionare o spezzarsi
 RON,Il nome dell'amico di Harry Potter Weasley
@@ -1494,6 +1718,8 @@ RONALDINHO,Fuoriclasse brasiliano dal sorriso inconfondibile
 RONALDO,Il Cristiano campione portoghese
 RONALDO,Il Fenomeno brasiliano dell'Inter
 RONCOLA,Lama curva per rami e sterpi
+RONDE,Giri di sorveglianza compiuti a intervalli
+RONDE,Pattuglie che percorrono una zona
 RONDELLA,Dischetto che sta sotto il dado
 RONDINE,Torna a primavera sotto i tetti
 RONDINE,Uccello che annuncia la primavera
@@ -1501,8 +1727,8 @@ RONDINE,Uccello proverbiale di primavera
 RONDINE,Una...non fa primavera
 RONDINELLA,La piccola rondine
 RONDINI,Annunciano la primavera
-RONDO,Forma musicale che ritorna
 RONDO,Composizione musicale con tema ricorrente
+RONDO,Forma musicale che ritorna
 RONDONE,Veloce uccello simile alla rondine
 RONZIO,Il verso degli insetti che volano
 ROOKIE,L'esordiente in uno sport
@@ -1517,11 +1743,11 @@ ROSA,Non c'è senza spine
 ROSAIO,Cespuglio di spine e fiori profumati
 ROSALIA,La cantante spagnola del flamenco pop
 ROSALIA,"Santa..., patrona di Palermo"
+ROSARIO,Corona usata nella preghiera
 ROSARIO,Preghiera contata a grani
 ROSARIO,Serie di preghiere e grani
-ROSARIO,Corona usata nella preghiera
-ROSE,Hanno profumo e spine
 ROSE,"Fiori spesso regalati agli innamorati, in inglese"
+ROSE,Hanno profumo e spine
 ROSE,La Villain della musica italiana
 ROSEA,Di tonalità chiara tendente al rosso
 ROSEE,Di tonalità chiara tendente al rosso
@@ -1529,6 +1755,8 @@ ROSEI,Di tonalità chiara tendente al rosso
 ROSELLINI,Il Roberto di Roma città aperta
 ROSEO,Ottimistico in tinta chiara
 ROSEO,Vedere tutto...: in modo ottimista
+ROSETI,Giardini dedicati a molte varietà ornamentali
+ROSETI,Terreni coltivati con fiori spinosi e profumati
 ROSETO,Il giardino tutto rose
 ROSETTA,Pane soffiato o piccola decorazione rotonda
 ROSMARINO,Aroma mediterraneo da arrosti
@@ -1537,50 +1765,68 @@ ROSMARINO,"Profuma arrosti, patate e focacce"
 ROSOLINO,Il nuotatore azzurro oro a Sydney 2000
 ROSOLIO,Liquore dolce di altri tempi
 ROSONE,Finestra circolare delle cattedrali
+ROSPI,Anfibi dalla pelle verrucosa
+ROSPI,Personaggi sgradevoli trasformati nelle fiabe
+ROSPO,Anfibio dalla pelle verrucosa
 ROSPO,Anfibio rugoso
 ROSPO,Ingoiare il...: mandar giù un'umiliazione
-ROSPO,Anfibio dalla pelle verrucosa
+ROSSA,Accesa dalla vergogna o dall'emozione
+ROSSA,Del colore del sangue o del fuoco
+ROSSE,Accese dalla vergogna o dall'emozione
+ROSSE,Del colore del sangue o del fuoco
 ROSSELLINI,Regista di Roma città aperta
 ROSSI,Il Paolo eroe del Mundial 1982
 ROSSI,"Valentino, il Dottore nove volte iridato delle moto"
 ROSSINI,Il Gioachino del Barbiere di Siviglia
 ROSSINI,Musicista del Barbiere di Siviglia
+ROSSO,Colore del sangue e del fuoco
 ROSSO,"Colore di sangue, stop e vergogna"
 ROSSO,Dai capelli color rame
 ROSSO,Il tuorlo dell'uovo
-ROSSO,Colore del sangue e del fuoco
-ROSTRO,Sperone della nave antica
 ROSTRO,Becco robusto o sperone navale
+ROSTRO,Sperone della nave antica
 ROTA,"Il compositore delle musiche di Fellini, Nino"
 ROTA,Il tribunale ecclesiastico della Chiesa
+ROTAIA,Guida metallica su cui scorrono i treni
 ROTAIA,La barra metallica su cui corre il treno
 ROTAIA,Ognuno dei ferri su cui corre il treno
-ROTAIA,Guida metallica su cui scorrono i treni
+ROTAIE,Coppie di binari fissate alle traversine
+ROTAIE,Guide metalliche su cui scorrono i treni
 ROTATORIA,Incrocio circolare
-ROTATORIA,Si gira in tondo per cambiare strada
 ROTATORIA,Incrocio stradale ad anello
-ROTAZIONE,"Movimento circolare di un corpo o di un elemento intorno al proprio asse, lungo una circonferenza o un’ellissi"
+ROTATORIA,Si gira in tondo per cambiare strada
 ROTAZIONE,Movimento attorno a un asse
+ROTAZIONE,"Movimento circolare di un corpo o di un elemento intorno al proprio asse, lungo una circonferenza o un’ellissi"
 ROTELLA,Piccola ruota
+ROTELLE,Formati di pasta corti dalla forma circolare
+ROTELLE,Piccole ruote applicate a mobili e pattini
 ROTHKO,Artista americano dei campi di colore
 ROTHKO,Pittore americano dei campi di colore
 ROTOLA,Si muove girando su sé stesso
 ROTOLAI,Mi mossi girando su me stesso
 ROTOLARE,Muoversi girando su sé stessi
 ROTOLATO,Mosso girando su sé stesso
+ROTOLI,"Cilindri di carta, stoffa o pellicola"
+ROTOLI,Materiali avvolti attorno a sé stessi
 ROTOLO,Mi muovo girando su me stesso
 ROTONDA,Fa girare il traffico senza semaforo
 ROTONDA,Piazza circolare o edificio a pianta centrale
+ROTONDE,Di forma circolare o quasi sferica
+ROTONDE,Morbide e piene nelle linee
 ROTONDETTO,Piacevolmente paffuto
+ROTONDI,Di forma circolare o quasi sferica
+ROTONDI,Morbidi e pieni nelle linee
 ROTONDO,"Pieno e armonioso, come un suono"
 ROTONDO,Privo di spigoli e vicino al cerchio
 ROTTA,La fuga disordinata dell'esercito: in...
 ROTTA,La via tracciata dalla nave
 ROTTA,Percorso nautico o cosa spezzata
 ROTTA,Percorso seguito da una nave o un aereo
+ROTTE,Percorsi seguiti da navi e aerei
+ROTTE,Spezzate o non più funzionanti
 ROTTERDAM,Città portuale olandese sulla Mosa
-ROTTURA,Interruzione di un rapporto o di un oggetto
 ROTTURA,Guasto che costringe a fermarsi
+ROTTURA,Interruzione di un rapporto o di un oggetto
 ROTTWEILER,Il robusto cane da guardia nero focato
 ROTULA,Osso della rotella del ginocchio
 ROULETTE,...russa: il gioco mortale col revolver
@@ -1592,24 +1838,26 @@ ROUSSEAU,Filosofo del contratto sociale
 ROUSSEAU,Il Jean-Jacques del contratto sociale
 ROUSSEAU,Pittore naif delle giungle
 ROUTER,L'apparecchio che instrada i dati in rete
-ROVERE,Quercia da botti e mobili
 ROVERE,Albero dal legno duro e resistente
+ROVERE,Quercia da botti e mobili
 ROVESCIA,Capovolge o versa fuori
-ROVESCIARE,Capovolgere facendo cadere
 ROVESCIARE,Cambiare completamente l'esito
+ROVESCIARE,Capovolgere facendo cadere
 ROVESCIATA,Acrobatico tiro a calcio
-ROVESCIO,Lato opposto a quello principale
 ROVESCIO,Colpo del tennis eseguito sul lato contrario
+ROVESCIO,Lato opposto a quello principale
+ROVI,Arbusti spinosi che producono more
+ROVI,Intrichi vegetali difficili da attraversare
 ROVIGO,Città veneta del Polesine
 ROVINA,Andare in...: precipitare nel dissesto
-ROVINA,"Crollo, resto antico o disastro"
 ROVINA,Crollo materiale o perdita totale
-ROVINARE,Ridurre in cattivo stato
+ROVINA,"Crollo, resto antico o disastro"
 ROVINARE,Danneggiare gravemente o guastare
 ROVINARE,Mandare completamente in cattivo stato
-ROVINATO,Ridotto in cattivo stato
+ROVINARE,Ridurre in cattivo stato
 ROVINATO,Danneggiato e in cattive condizioni
 ROVINATO,Guasto o compromesso
+ROVINATO,Ridotto in cattivo stato
 ROVINE,Resti di edifici distrutti
 ROVINO,Riduco in cattivo stato
 ROVO,Pianta spinosa delle more
@@ -1631,13 +1879,19 @@ RUBINETTI,Fanno uscire l'acqua a comando
 RUBINETTO,Comanda il flusso con una manopola
 RUBINETTO,Da lì esce l'acqua
 RUBINETTO,Valvola domestica per acqua o gas
+RUBINI,Pietre preziose di colore rosso intenso
+RUBINI,Varietà di corindone montate in molti gioielli
 RUBINO,Gemma rossa preziosa
 RUBINO,Pietra preziosa color sangue
+RUBLI,Unità monetarie usate in Russia
+RUBLI,Valute divise in cento copechi
 RUBLO,La valuta della Russia
+RUBRICA,Elenco ordinato di contatti o voci
 RUBRICA,Sezione fissa o elenco telefonico
 RUBRICA,Sezione periodica di un giornale
-RUBRICA,Elenco ordinato di contatti o voci
 RUBRICATO,Inserito sotto una voce o un capo
+RUBRICHE,Elenchi ordinati di nomi e contatti
+RUBRICHE,Sezioni periodiche di giornali e programmi
 RUCOLA,Insalata dal gusto piccante
 RUDE,Ruvido nei modi
 RUDOLF,Il nome del ballerino Nureyev
@@ -1650,50 +1904,96 @@ RUGGERI,"Il cantante di Mistero, Enrico"
 RUGGINE,Bruno rossastro dell'ossido di ferro
 RUGGINE,Vecchia...: un rancore di lunga data
 RUGGITO,Fa tremare la savana
-RUGGITO,Verso profondo di un grande felino
 RUGGITO,Richiamo profondo dei grandi felini
+RUGGITO,Verso profondo di un grande felino
+RUGHE,Linee sottili lasciate dall'età o dalle espressioni
+RUGHE,Pieghe che compaiono sulla pelle con il tempo
 RUGIADA,Gocce del mattino sull'erba
+RUGIADE,Goccioline che si depositano al mattino
+RUGIADE,Umidità notturne visibili su foglie e prati
+RULLANO,Producono un suono lungo e vibrante
+RULLANO,Scorrono o comprimono usando cilindri
+RULLATA,Compressa o spianata con un cilindro
+RULLATA,Seguita da un rapido susseguirsi di colpi di tamburo
+RULLATE,Compresse o spianate con cilindri
+RULLATE,Seguite da rapidi susseguirsi di colpi di tamburo
+RULLATI,Avvolti o lavorati facendoli scorrere
+RULLATI,Compressi o spianati con cilindri
+RULLI,Cilindri che fanno scorrere o comprimono materiali
+RULLI,"Supporti avvolgibili per carta, pellicola o tessuti"
 RULLO,Cilindro che comprime o fa rumore
 RULLO,Cilindro che schiaccia o dipinge
 RULLO,Quello di tamburi prima dell'annuncio
 RUM,Caraibico nel bicchiere
 RUM,Il distillato del mojito e del daiquiri
 RUMBA,Ballo latino-americano cubano
+RUMENA,Appartenente a un popolo dell'Europa orientale
+RUMENA,Originaria dello Stato con capitale Bucarest
+RUMENE,Appartenenti a un popolo dell'Europa orientale
+RUMENE,Originarie dello Stato con capitale Bucarest
+RUMENI,Appartenenti a un popolo dell'Europa orientale
+RUMENI,Originari dello Stato con capitale Bucarest
 RUMENO,Relativo alla Romania
 RUMORE,"Molto...per nulla, commedia di Shakespeare"
-RUMORE,Suono senza discrezione
 RUMORE,Suono non desiderato
+RUMORE,Suono senza discrezione
+RUMORI,Suoni sgradevoli o confusi
+RUMORI,Voci non confermate che circolano tra la gente
 RUMOROSO,Che produce suoni forti e molesti
 RUNA,Lettera nordica da magia antica
+RUNE,Segni degli antichi alfabeti germanici
+RUNE,Simboli incisi su pietre e oggetti nordici
 RUNNER,Blade...: il film con i replicanti
 RUNNER,Striscia decorativa per la tavola
+RUOLI,Funzioni assegnate in un gruppo o in uno spettacolo
+RUOLI,Registri ufficiali contenenti nomi e posizioni
+RUOLO,Funzione svolta in un gruppo o in una vicenda
 RUOLO,La parte recitata dall'attore
 RUOLO,Parte assegnata a teatro e nella vita
-RUOLO,Funzione svolta in un gruppo o in una vicenda
 RUOTA,Gira sotto il veicolo
 RUOTA,La...di scorta dell'auto
 RUOTA,Quella della fortuna che gira
 RUOTAI,Girai su un asse
 RUOTATO,Girato su un asse
+RUOTE,Organi circolari che permettono il movimento dei veicoli
+RUOTE,Turni di servizio svolti a rotazione
 RUOTO,Giro su un asse
-RUPE,Roccia alta e scoscesa
 RUPE,Parete rocciosa ripida
+RUPE,Roccia alta e scoscesa
 RUPE,Salto roccioso molto ripido
 RUPERT,Il nome del magnate dei media Murdoch
+RUPI,Pareti rocciose alte e scoscese
+RUPI,Scarpate verticali che dominano valli e coste
 RUPIA,La valuta dell'India
 RUPPE,Mandò in frantumi
 RURALE,Che riguarda la campagna
 RURALE,Legato alla vita dei campi
+RURALI,Lontani dai grandi centri urbani
+RURALI,Relativi alla campagna
 RUSCELLO,Acqua piccola ma in cammino
+RUSCELLO,Piccolo corso d'acqua
 RUSCELLO,Piccolo corso d'acqua che canta tra i sassi
 RUSCELLO,Piccolo torrente
-RUSCELLO,Piccolo corso d'acqua
 RUSHDIE,Lo scrittore dei Versi satanici
 RUSPA,Macchina che spiana e sposta
 RUSPA,Macchina che spiana il terreno
+RUSPE,Macchine cingolate che spostano terra e macerie
+RUSPE,Mezzi da cantiere con grande lama anteriore
+RUSSA,Appartenente al più vasto paese del mondo
+RUSSA,Originaria dello Stato con capitale Mosca
+RUSSE,Appartenenti al più vasto paese del mondo
+RUSSE,Originarie dello Stato con capitale Mosca
 RUSSELL,Il nome dell'attore Crowe
-RUSSO,Originario del Paese di Mosca
+RUSSI,Appartenenti al più vasto paese del mondo
+RUSSI,Originari dello Stato con capitale Mosca
 RUSSO,Emetto rumore nel sonno
+RUSSO,Originario del Paese di Mosca
+RUSTICA,Semplice e poco raffinata
+RUSTICA,Tipica della campagna
+RUSTICHE,Semplici e poco raffinate
+RUSTICHE,Tipiche della campagna
+RUSTICI,Edifici accessori usati per attività agricole
+RUSTICI,Semplici e poco raffinati
 RUSTICO,Semplice e non rifinito
 RUT,La moabita fedele alla suocera
 RUT,Un libro dell'Antico Testamento
@@ -1705,5 +2005,5 @@ RUTTO,L'eruttazione rumorosa
 RUVIDA,Aspra al tatto
 RUVIDE,Aspre al tatto
 RUVIDI,Aspri al tatto
-RUVIDO,Brusco e sgarbato nei modi
 RUVIDO,Aspro al tatto
+RUVIDO,Brusco e sgarbato nei modi

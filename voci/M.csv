@@ -1,14 +1,18 @@
 soluzione,definizione
+MACACHI,Primati asiatici dal muso glabro
+MACACHI,Scimmie spesso presenti nei templi dell’Estremo Oriente
 MACAO,Città del gioco alla foce del Fiume delle Perle
 MACAO,Il pappagallo variopinto
 MACAONE,Grande farfalla gialla e nera
 MACARON,Il dolcetto francese colorato a due dischi
 MACBETH,Ambizioso re di Scozia in tragedia
+MACCHIA,Difetto che può offuscare una reputazione
 MACCHIA,Segno sul tessuto o nella coscienza
 MACCHIA,Sporca con una chiazza
-MACCHIA,Difetto che può offuscare una reputazione
 MACCHIARE,Sporcare con una chiazza
 MACCHIATO,Sporcato con una chiazza
+MACCHIE,Chiazze che possono rovinare un tessuto
+MACCHIE,Segni irregolari su una superficie
 MACCHINA,Auto o congegno
 MACCHINA,"Dispositivo, automobile o complotto"
 MACCHINA,"Può essere da cucire, fotografica o da corsa"
@@ -20,11 +24,13 @@ MACEDONIA,Regione storica dei Balcani legata ad Alessandro Magno
 MACELLAIO,Chirurgo brutale e maldestro
 MACELLAIO,Vende carne al banco
 MACELLERIA,Il negozio dove si vende la carne
+MACELLO,Dove il bestiame viene abbattuto
 MACELLO,Luogo di carne e sinonimo di disordine
 MACELLO,Situazione di caos con danni e vittime
-MACELLO,Dove il bestiame viene abbattuto
 MACERAI,"Tenni a lungo immerso per ammorbidire, al passato"
 MACERIA,Resto di muro crollato
+MACERO,Lascio lino o canapa a bagno per separarne le fibre
+MACERO,Vasca in cui si ammorbidiscono materie vegetali
 MACHIAVELLI,Il Niccolò del Principe
 MACHINA,Trucco teatrale quando scende il dio
 MACHUPICCHU,La cittadella inca sulle Ande
@@ -35,9 +41,9 @@ MACILENTA,Magra e sciupata
 MACILENTE,Magre e sciupate
 MACILENTI,Magri e sciupati
 MACILENTO,Magro fino a far pensare alla fame
+MACINA,Gira nel mulino
 MACINA,La pesante pietra del mulino
 MACINA,Pietra che riduce in farina
-MACINA,Gira nel mulino
 MACINACAFFE,Apparecchio che macina i chicchi
 MACINACAFFE,Riduce i chicchi in polvere
 MACINARE,Ridurre in polvere
@@ -52,18 +58,18 @@ MADAME,"...Tussauds, il museo delle cere"
 MADAME,La cantante e rapper vicentina
 MADDALENA,La donna ai piedi della croce
 MADEIRA,Isola portoghese del vino omonimo
-MADERA,Vino liquoroso prodotto nell'arcipelago portoghese
 MADERA,Ha un caratteristico gusto ossidato e accompagna dolci e salse
+MADERA,Vino liquoroso prodotto nell'arcipelago portoghese
 MADIA,Il mobile da cucina per il pane e la farina
 MADIA,Mobile rustico per pane e farina
+MADONNA,"La regina del pop, Material Girl"
 MADONNA,La Vergine Maria nei dipinti
 MADONNA,Titolo tradizionale dato alla madre di Gesù
-MADONNA,"La regina del pop, Material Girl"
 MADRAS,Storica città del sud dell'India
+MADRE,"Ha figli, ma non è sempre biologica"
 MADRE,La scheda...del computer
 MADRE,La... patria che accoglie i figli
 MADRE,Origine familiare e linguistica
-MADRE,"Ha figli, ma non è sempre biologica"
 MADREPATRIA,Paese d'origine considerato come terra madre
 MADREPERLA,Rivestimento iridescente delle conchiglie
 MADREPORA,Corallo costruttore di scogliere
@@ -73,8 +79,8 @@ MADRIGALE,Componimento poetico o musicale
 MAELSTROM,Gorgo marino leggendario e pauroso
 MAELSTROM,Gorgo nordico diventato metafora
 MAESTOSO,Indicazione musicale solenne
-MAESTRA,Insegna ai bambini
 MAESTRA,Eccelle in un'arte o in un mestiere
+MAESTRA,Insegna ai bambini
 MAESTRA,Titolo rivolto a un'insegnante
 MAESTRALE,Vento di nord-ovest del Mediterraneo
 MAESTRANZE,L'insieme degli operai di un'impresa
@@ -82,14 +88,18 @@ MAESTRIA,Abilità che fa sembrare facile un lavoro difficile
 MAESTRIA,Perizia maturata con lunga pratica
 MAESTRO,Dirige l'orchestra o insegna in classe
 MAESTRO,Una persona abile nel fare qualcosa
+MAFIA,Organizzazione criminale fondata su omertà e controllo del territorio
+MAFIA,Potere illecito che impone protezione e silenzio
+MAFIE,Organizzazioni criminali radicate in territori diversi
+MAFIE,Reti illegali che usano intimidazione e complicità
 MAGA,Donna cui si attribuiscono poteri soprannaturali
 MAGALLI,"Lo storico conduttore Rai, Giancarlo"
 MAGARI,"Fosse vero!, lo desiderassi tanto"
 MAGARI,Introduce un'ipotesi desiderata
 MAGARI,Può significare forse oppure volentieri
-MAGAZZINO,Locale per scorte e merci
-MAGAZZINO,Deposito retrostante a un negozio
 MAGAZZINO,Custodisce merci in attesa di vendita
+MAGAZZINO,Deposito retrostante a un negozio
+MAGAZZINO,Locale per scorte e merci
 MAGELLANO,Il navigatore della prima circumnavigazione del globo
 MAGELLANO,Stretto all'estremo sud dell'America
 MAGENTA,La battaglia del 1859 del Risorgimento
@@ -105,34 +115,42 @@ MAGGIORANZA,La parte che supera la metà
 MAGGIORDOMO,Il capo della servitù di una casa nobile
 MAGGIORDOMO,"Nei gialli, spesso è lui l'assassino"
 MAGGIORDOMO,Servitore capo di una casa signorile
-MAGGIORE,"Superiore per età, grado o quantità"
 MAGGIORE,In musica indica una tonalità dal carattere luminoso
+MAGGIORE,"Superiore per età, grado o quantità"
+MAGHE,Donne a cui la tradizione attribuisce poteri occulti
+MAGHE,Incantatrici di fiabe e leggende
+MAGHI,Illusionisti da palcoscenico o sapienti delle fiabe
+MAGHI,Personaggi capaci di prodigi nelle storie fantastiche
+MAGIA,Arte attribuita a formule e incantesimi
 MAGIA,Effetto senza spiegazione apparente
 MAGIA,"L'incanto, il fascino irresistibile"
-MAGIA,Arte attribuita a formule e incantesimi
 MAGIARI,Popolo che fondò l'Ungheria
 MAGIARO,Sinonimo di ungherese
 MAGICAEMI,La piccola maga dei cartoni
-MAGICO,Sembra sottratto alle leggi della realtà
 MAGICO,Capace di incantare
-MAGISTERO,Autorità dottrinale esercitata dalla Chiesa
+MAGICO,Sembra sottratto alle leggi della realtà
+MAGIE,Effetti sorprendenti che sembrano sfidare la realtà
+MAGIE,Prodigi ottenuti con incantesimi
 MAGISTERO,Attività di guida e insegnamento autorevole
+MAGISTERO,Autorità dottrinale esercitata dalla Chiesa
 MAGISTRALE,Eseguito con eccezionale bravura
 MAGISTRALE,Può essere una lezione memorabile
 MAGISTRATO,Applica la legge nei tribunali
 MAGISTRATO,Può essere giudicante o requirente
+MAGLIA,Elemento intrecciato di una rete o di una cotta
 MAGLIA,"Indumento, rete o punto lavorato"
 MAGLIA,Ognuno dei buchi della rete
 MAGLIA,Quella rosa del Giro d'Italia
-MAGLIA,Elemento intrecciato di una rete o di una cotta
+MAGLIE,Aperture regolari di una rete
+MAGLIE,Capi di abbigliamento lavorati a filo
 MAGLIO,Grande martello da fucina
 MAGLIONE,Abbraccia il busto nelle giornate fredde
 MAGLIONE,"Indumento lavorato a maglia, spesso di lana"
 MAGLIONE,Si indossa sopra la camicia quando fa freddo
 MAGMA,Roccia prima di diventare pietra
 MAGNANI,L'Anna di Roma città aperta
-MAGNATE,Potentissimo industriale o finanziere
 MAGNATE,Dispone di immense ricchezze e influenza
+MAGNATE,Potentissimo industriale o finanziere
 MAGNESIO,Metallo leggero che brucia con luce bianca
 MAGNETE,Attira il ferro
 MAGNETE,Attira senza mani
@@ -166,6 +184,8 @@ MAIA,La Pleiade madre di Hermes
 MAIALE,Animale da cui si ricava il prosciutto
 MAIALE,Grugnisce e fornisce salumi
 MAIALE,È composto anche da lardo
+MAIALI,Animali domestici allevati per la carne
+MAIALI,Suini dal caratteristico grugno
 MAIALINO,Piccolo suino da fiaba o fattoria
 MAIEUTICA,Fa nascere idee con domande
 MAINE,"...Coon, la grande razza di gatto"
@@ -191,16 +211,22 @@ MALANDATA,Ridotta male
 MALANDATE,Ridotte male
 MALANDATI,Ridotti male
 MALANDATO,Ridotto male
-MALANDRINO,Furfante da romanzo d'avventura
 MALANDRINO,Brigante o canaglia dal sapore letterario
+MALANDRINO,Furfante da romanzo d'avventura
 MALAPENA,"A stento, con grande difficoltà"
 MALAPENA,Quasi per nulla
 MALARIA,Febbre di palude e zanzare
+MALATA,Affetta da un disturbo fisico o mentale
+MALATA,"Non in buona salute, al femminile"
+MALATE,"Affette da una patologia, al femminile plurale"
+MALATE,Prive di buona salute
+MALATI,Affetti da una patologia
+MALATI,Persone che necessitano di cure
 MALATO,Chi sta male e ha bisogno di cure
-MALATO,È affidato alle cure del medico
 MALATO,Può esserlo anche un meccanismo che funziona male
-MALATTIA,Condizione che richiede diagnosi o cura
+MALATO,È affidato alle cure del medico
 MALATTIA,Alterazione dello stato di salute
+MALATTIA,Condizione che richiede diagnosi o cura
 MALAVITA,Ambiente della criminalità organizzata
 MALCOLM,"...in the Middle, la sitcom"
 MALCOLM,Il nome dell'attivista americano X
@@ -209,8 +235,8 @@ MALCONTENTO,Scontento diffuso tra la popolazione
 MALDESTRA,Poco abile
 MALDESTRE,Poco abili
 MALDESTRI,Poco abili
-MALDESTRO,Poco abile
 MALDESTRO,Fa cadere ciò che tenta di afferrare
+MALDESTRO,Poco abile
 MALDESTRO,Privo di abilità nei gesti
 MALDIMARE,Nausea di chi non regge le onde
 MALDINI,"Paolo, storico difensore e capitano azzurro"
@@ -218,13 +244,13 @@ MALDIPANCIA,Il dolore alla pancia
 MALDISCHIENA,Il dolore lombare di chi si è chinato
 MALDITESTA,Il dolore che fa pulsare le tempie
 MALDIVE,Arcipelago turistico dell'Oceano Indiano
+MALE,Ciò che la morale contrappone al bene
 MALE,Dolore o contrario morale
 MALE,Il dolore fisico che si sente
-MALE,Ciò che la morale contrappone al bene
-MALEDETTAMENTE,In modo estremamente intenso
 MALEDETTAMENTE,"Con esasperazione, spesso in una protesta"
-MALEDIZIONE,Formula con cui si invoca una sciagura
+MALEDETTAMENTE,In modo estremamente intenso
 MALEDIZIONE,Esclamazione di rabbia o disappunto
+MALEDIZIONE,Formula con cui si invoca una sciagura
 MALEDUCATO,Ignora le regole della cortesia
 MALEDUCATO,Risponde senza rispetto
 MALEFICO,Capace di produrre danno o rovina
@@ -236,22 +262,22 @@ MALFERME,Poco stabili
 MALFERMI,Poco stabili
 MALFERMO,Poco stabile
 MALGA,Alpeggio con latte e formaggi
-MALGA,Rifugio alpino con pascoli e formaggi
 MALGA,Edificio d'alpeggio dove si lavora il latte
-MALGRADO,Contro la volontà o nonostante qualcosa
+MALGA,Rifugio alpino con pascoli e formaggi
 MALGRADO,A dispetto di
+MALGRADO,Contro la volontà o nonostante qualcosa
 MALI,Stato africano di Timbuctù
-MALIGNO,Incline a interpretare tutto con cattiveria
 MALIGNO,Detto di tumore capace di invadere altri tessuti
+MALIGNO,Incline a interpretare tutto con cattiveria
 MALINCONIA,Tristezza dolce e pensosa
 MALINCONIA,"Tristezza dolce, più lenta del pianto"
 MALINCONIA,Velata tristezza che invita al ricordo
 MALINCONICO,Pensoso e velatamente triste
-MALISSIMO,Nel peggiore dei modi
 MALISSIMO,In condizioni davvero pessime
+MALISSIMO,Nel peggiore dei modi
 MALIZIA,Intelligenza con doppio fondo
-MALIZIA,Sottigliezza che coglie doppi sensi
 MALIZIA,Intenzione non del tutto innocente
+MALIZIA,Sottigliezza che coglie doppi sensi
 MALIZIOSA,Scaltra con un sorriso sottinteso
 MALIZIOSE,Scaltre con sorrisi sottintesi
 MALIZIOSI,Scaltri con sorrisi sottintesi
@@ -264,14 +290,16 @@ MALPIGHI,Il Marcello pioniere dell'anatomia microscopica
 MALTA,Isola dei cavalieri di San Giovanni
 MALTA,L'impasto di calce e sabbia del muratore
 MALTA,L'isola-Stato del Mediterraneo
-MALTEMPO,"Pioggia, vento e cielo ostile"
 MALTEMPO,Fa rinviare gite e partite all'aperto
+MALTEMPO,"Pioggia, vento e cielo ostile"
 MALTO,Cereale germinato da birrai
+MALUMORE,Cattiva disposizione d’animo difficile da nascondere
+MALUMORE,Irritazione che rende scontrosi
 MALVA,Erba officinale dai fiori rosa
 MALVA,Il delicato color tra il rosa e il viola
 MALVA,Pianta dai fiori violacei
-MALVAGIO,Privo di scrupoli e incline a nuocere
 MALVAGIO,Il cattivo delle fiabe
+MALVAGIO,Privo di scrupoli e incline a nuocere
 MALVAGITA,Crudeltà messa in atto consapevolmente
 MALVAGITA,Indole di chi gode nel nuocere
 MALVEZZO,Abitudine cattiva e radicata
@@ -281,29 +309,33 @@ MAMBA,Il velocissimo serpente velenoso africano
 MAMBO,Ritmo caraibico da ballare
 MAMELUCCO,Soldato delle dinastie militari dell'Egitto medievale
 MAMMA,"...mia!, il musical sulle canzoni degli ABBA"
-MAMMA,Nome che spesso si impara per primo
 MAMMA,Genitore femminile nel linguaggio familiare
+MAMMA,Nome che spesso si impara per primo
+MAMME,Genitrici o figure che crescono dei figli
+MAMME,Sono celebrate la seconda domenica di maggio
 MAMMONE,Adulto ancora eccessivamente dipendente dalla famiglia
 MAMMONE,Figlio che non riesce a staccarsi dalla madre
 MAMMUT,Elefante preistorico lanoso
 MAMMUT,Gigante peloso dell'era glaciale
-MANAGEMENT,La gestione di un'azienda
 MANAGEMENT,Direzione organizzativa di un'impresa
 MANAGEMENT,Insieme di tecniche per guidare un'azienda
+MANAGEMENT,La gestione di un'azienda
 MANAGER,Chi dirige un'attività o un atleta
 MANAGER,"Coordina persone, risorse e obiettivi"
 MANAGER,Può seguire la carriera di un atleta o artista
-MANAGERIALE,Proprio della direzione aziendale
 MANAGERIALE,"Orientato a obiettivi, risorse e risultati"
+MANAGERIALE,Proprio della direzione aziendale
 MANAGUA,La capitale nicaraguense
 MANAMA,La capitale del Bahrain
 MANATA,La pacca data con la mano aperta
 MANAUS,Città amazzonica del Brasile
 MANCA,"Non c'è, oppure è la sinistra in araldica"
+MANCANO,Non sono presenti dove servirebbero
+MANCANO,Restano ancora da ottenere o completare
 MANCANZA,Assenza che si avverte
 MANCANZA,Violazione lieve o omissione
-MANCARE,Non essere presente all'appello
 MANCARE,Fallire un bersaglio o un appuntamento
+MANCARE,Non essere presente all'appello
 MANCHESTER,Città inglese del calcio e dell'industria
 MANCIA,Il piccolo extra lasciato al cameriere
 MANCIATA,Quanto può stare in una mano chiusa
@@ -313,33 +345,41 @@ MANDA,Fa andare altrove
 MANDAI,Feci andare altrove
 MANDALAY,Storica città della Birmania
 MANDALORIAN,La serie di Star Wars col cacciatore di taglie
+MANDANO,"Fanno partire persone, oggetti o comunicazioni"
+MANDANO,Spediscono verso una destinazione
 MANDARANCIO,Incrocio tra mandarino e arancia
 MANDARE,Far andare altrove
-MANDARE,Spedire un messaggio o una persona
 MANDARE,Scagliare lontano o far partire
-MANDARINO,"Agrume, lingua e funzionario imperiale"
+MANDARE,Spedire un messaggio o una persona
 MANDARINO,Agrume più piccolo e aromatico dell'arancia
+MANDARINO,"Agrume, lingua e funzionario imperiale"
 MANDATO,Fatto andare altrove
 MANDATO,Incarico affidato con poteri precisi
 MANDATO,Periodo di esercizio di una carica elettiva
 MANDELA,Il leader sudafricano contro l'apartheid
+MANDI,Faccia arrivare qualcosa a qualcuno
+MANDI,Spedisca o ordini di andare
 MANDIBOLA,Osso mobile della bocca
 MANDO,Faccio andare altrove
-MANDOLINO,Strumento a corde napoletano
 MANDOLINO,Ha corde doppie pizzicate con il plettro
+MANDOLINO,Strumento a corde napoletano
 MANDORLA,Occhi a...: dal taglio allungato
 MANDORLA,Seme del confetto
 MANDORLA,Seme dolce nascosto in un guscio duro
 MANDORLA,Seme dolce racchiuso nel guscio
+MANDORLE,"Ingredienti di confetti, torroni e marzapane"
+MANDORLE,Semi commestibili racchiusi in gusci duri
+MANDORLI,Alberi che fioriscono prima di molti altri fruttiferi
+MANDORLI,Producono semi usati in pasticceria
 MANDORLO,Albero che fiorisce presto
 MANDRAGOLA,Pianta leggendaria dalla radice inquietante
 MANDRAGORA,Pianta magica delle leggende
 MANDRIA,Gruppo di bovini condotto insieme
 MANDRIANO,Chi conduce le mandrie
-MANEGGIARE,Usare un attrezzo con abilità
 MANEGGIARE,"Trattare denaro o affari, talvolta con disinvoltura"
-MANEGGIO,Luogo dove si montano e addestrano cavalli
+MANEGGIARE,Usare un attrezzo con abilità
 MANEGGIO,Intrigo condotto dietro le quinte
+MANEGGIO,Luogo dove si montano e addestrano cavalli
 MANEGGIO,Traffico poco limpido di affari
 MANESKIN,La band romana vincitrice dell'Eurovision 2021
 MANET,Dipinse colazioni poco accademiche
@@ -350,18 +390,26 @@ MANFREDI,Il Nino attore ciociaro
 MANGANESE,Metallo usato nelle leghe d'acciaio
 MANGANO,La Silvana di Riso amaro
 MANGERA,Si nutrirà
+MANGI,Porti il cibo alla bocca e lo ingerisca
+MANGI,Si nutra durante un pasto
 MANGIA,Si nutre
 MANGIANASTRI,Vecchio lettore di musicassette
-MANGIARE,Nutrirsi
+MANGIANO,Consumano cibi per nutrirsi
+MANGIANO,Siedono a tavola e si alimentano
 MANGIARE,Consumare un pasto
+MANGIARE,Nutrirsi
 MANGIARE,Può divorare anche tempo e denaro
+MANGIATA,Grande scorpacciata
+MANGIATA,Pasto abbondante fatto in compagnia
+MANGIATE,Consumate come alimento
+MANGIATE,Ingerite durante un pasto
 MANGIATO,Nutrito
 MANGIATOIA,Dove gli animali trovano fieno e granaglie
 MANGIATOIA,Il recipiente del foraggio nella stalla
 MANGIATOIA,Recipiente per il cibo degli animali
 MANGIME,Cibo per animali
-MANGIME,Nutrimento preparato per il bestiame
 MANGIME,Miscela di cereali destinata agli animali
+MANGIME,Nutrimento preparato per il bestiame
 MANGIO,Mi nutro
 MANGO,Frutto tropicale dalla polpa arancione
 MANGO,Il cantautore lucano di Lei verrà
@@ -370,28 +418,32 @@ MANGROVIA,L'albero delle paludi salmastre tropicali
 MANHATTAN,Il cocktail con whisky e vermut rosso
 MANI,"...pulite, l'inchiesta sulla corruzione"
 MANI,Strumenti del tatto e del furto
+MANIA,Abitudine portata all'eccesso
 MANIA,Fissazione che occupa la mente
 MANIA,"La fissazione, l'ossessione"
-MANIA,Abitudine portata all'eccesso
-MANIACO,È dominato da una fissazione
 MANIACO,Persegue un interesse in modo ossessivo
+MANIACO,È dominato da una fissazione
 MANICA,Essere di...larga: indulgenti e generosi
 MANICA,Il braccio di mare tra Francia e Inghilterra
 MANICA,Parte del vestito e cerchia di complici
 MANICA,Parte della camicia o braccio di mare
 MANICHE,Formato di pasta tubolare di grande diametro
+MANICI,Elementi che permettono di afferrare un oggetto
+MANICI,Parti con cui si impugnano pentole e utensili
 MANICO,Parte da impugnare
 MANICO,Permette di impugnare pentole e utensili
 MANICO,Quello del coltello può essere di legno o osso
+MANIE,Abitudini insistenti e difficili da controllare
+MANIE,Fissazioni che occupano continuamente il pensiero
 MANIERA,Modo personale di agire o esprimersi
 MANIERA,Stile riconoscibile di un artista
 MANIERISMO,Stile che sa troppo di stile
 MANIERO,Castello feudale in cima al colle
 MANIERO,Residenza fortificata di un signore feudale
-MANIFATTURA,Produzione ottenuta trasformando materie prime
 MANIFATTURA,Fabbrica o lavorazione di tipo artigianale
-MANIFESTARE,Rendere evidente un pensiero o un sintomo
+MANIFATTURA,Produzione ottenuta trasformando materie prime
 MANIFESTARE,Esprimere pubblicamente dissenso o sostegno
+MANIFESTARE,Rendere evidente un pensiero o un sintomo
 MANIFESTARSI,Diventare visibile o percepibile
 MANIFESTARSI,"Presentarsi all'improvviso, detto di un fenomeno"
 MANIFESTAZIONE,Corteo pubblico di protesta o sostegno
@@ -399,8 +451,8 @@ MANIFESTAZIONE,Segno visibile di un sentimento o di un fenomeno
 MANIFESTO,Chiaro e impossibile da nascondere
 MANIFESTO,Foglio affisso per pubblicizzare o proclamare
 MANIGLIA,Impugnatura collegata a una porta o a un cassetto
-MANIGLIA,Si abbassa o si gira per aprire
 MANIGLIA,Parte mobile collegata alla serratura
+MANIGLIA,Si abbassa o si gira per aprire
 MANILA,Capitale delle Filippine
 MANILA,Metropoli affacciata sulla baia omonima
 MANIPOLARE,Alterare informazioni per orientare un giudizio
@@ -424,6 +476,8 @@ MANOVRARE,Azionare con abilità
 MANOVRARE,Guidare un veicolo in uno spazio ristretto
 MANOVRARE,Influenzare qualcuno dietro le quinte
 MANOVRATO,Azionato con abilità
+MANOVRE,Azioni studiate per ottenere un risultato
+MANOVRE,Operazioni compiute per spostare o dirigere un mezzo
 MANOVRO,Aziono con abilità
 MANSARDA,Stanza sotto il tetto
 MANSELL,"Il pilota britannico iridato di F1, Nigel"
@@ -436,14 +490,18 @@ MANSUETO,Docile e mite
 MANTA,La gigantesca razza degli oceani
 MANTEGNA,L'Andrea della Camera degli Sposi
 MANTELLA,Ampio indumento senza maniche
+MANTELLI,Coperture esterne del corpo di certi animali
+MANTELLI,Indumenti lunghi privi di maniche
 MANTELLO,Copre le spalle o il dorso dell'animale
 MANTELLO,Il...dell'invisibilità di Harry Potter
 MANTELLO,Il...di neve che copre i campi
 MANTELLO,Indumento ampio o copertura
 MANTENERE,Conservare invariato nel tempo
 MANTENERE,Provvedere alle spese di qualcuno
-MANTENIMENTO,Spese necessarie per vivere o conservare un bene
 MANTENIMENTO,Assegno versato dopo una separazione
+MANTENIMENTO,Spese necessarie per vivere o conservare un bene
+MANTI,Indumenti ampi portati sopra gli abiti
+MANTI,Rivestimenti che coprono superfici o animali
 MANTICA,Arte di divinare il futuro
 MANTICE,Fa respirare la fisarmonica
 MANTICE,Respira aria in fisarmoniche e fucine
@@ -451,8 +509,8 @@ MANTICORA,Mostro con corpo di leone e coda di scorpione
 MANTIDE,Insetto che sembra pregare
 MANTO,Copertura regale o animale
 MANTO,Indumento solenne che cade dalle spalle
-MANTO,Riveste la carreggiata
 MANTO,"Può essere nevoso, erboso o stradale"
+MANTO,Riveste la carreggiata
 MANTOVA,Città dei Gonzaga
 MANTOVA,Città dei Gonzaga circondata dai laghi
 MANTOVANA,Donna della città lombarda di Virgilio
@@ -461,15 +519,19 @@ MANTRA,Formula ripetuta fino a diventare ritmo
 MANUALE,Libro pratico di istruzioni
 MANUBRIO,Si impugna su bici e moto
 MANUEL,Il nome del portiere tedesco Neuer
-MANZO,Il bovino da cui la bistecca
 MANZO,Bovino adulto allevato per la carne
+MANZO,Il bovino da cui la bistecca
 MANZONI,L'Alessandro dei Promessi sposi
 MAORI,Popolo polinesiano di Aotearoa
 MAPPA,Disegno di un territorio
 MAPPA,"Riduce su carta strade, confini e rilievi"
 MAPPA,Schema che orienta tra luoghi o concetti
-MAPPAMONDO,Globo con terre e mari
 MAPPAMONDO,Globo che riproduce la Terra
+MAPPAMONDO,Globo con terre e mari
+MAPPARE,Individuare e registrare la posizione di elementi
+MAPPARE,Rappresentare su una carta o in uno schema
+MAPPE,Rappresentazioni grafiche di territori o percorsi
+MAPPE,Schemi che aiutano a orientarsi tra luoghi o concetti
 MAPUTO,Capitale del Mozambico
 MAQUILLAGE,Il trucco del viso alla francese
 MARA,Il nome della conduttrice Venier
@@ -491,10 +553,12 @@ MARCA,"Confine, griffe o regione storica"
 MARCA,La regione di confine medievale
 MARCA,Segno distintivo di un prodotto
 MARCARE,Lasciare un segno oppure controllare un avversario
-MARCARE,Seguire stretto un avversario
 MARCARE,Segnare una rete o un punto
+MARCARE,Seguire stretto un avversario
 MARCASITE,Minerale simile alla pirite
 MARCATO,Segnato strettamente
+MARCE,"Guaste dalla decomposizione, al femminile plurale"
+MARCE,Rapporti inseriti nel cambio di un veicolo
 MARCEL,Il nome dello scrittore Proust
 MARCESCENTE,Sta andando a putrefazione
 MARCHE,"Regione di colline, grotte e Adriatico"
@@ -505,12 +569,14 @@ MARCIA,La...nuziale che accompagna gli sposi
 MARCIA,La...su Roma del 1922
 MARCIAPIEDE,Si cammina a lato della strada
 MARCIAPIEDE,Tiene i pedoni lontani dalle ruote
-MARCIO,Guastato dalla decomposizione
+MARCIARE,Avanzare in formazione lungo un percorso
+MARCIARE,Procedere a passo regolare e cadenzato
 MARCIO,Corrotto moralmente o deteriorato
+MARCIO,Guastato dalla decomposizione
+MARCO,Fu la valuta tedesca prima dell'euro
 MARCO,L'evangelista del leone alato
 MARCO,L'ex moneta della Germania
 MARCO,Segno strettamente
-MARCO,Fu la valuta tedesca prima dell'euro
 MARCONI,Il Guglielmo premio Nobel per la radio
 MARCOPOLO,Il veneziano che raccontò la Cina
 MARDUK,Il dio supremo di Babilonia
@@ -518,13 +584,15 @@ MARE,Distesa che separa e unisce
 MARE,Grande distesa d'acqua salata
 MARE,Grande distesa salata in movimento
 MARE,Una grande quantità: un... di gente
-MAREA,Sale e scende per la Luna
 MAREA,Grande quantità che avanza come un'onda
 MAREA,Oscillazione periodica del livello delle acque oceaniche
+MAREA,Sale e scende per la Luna
+MAREE,Movimenti delle acque legati soprattutto alla Luna
+MAREE,Periodiche variazioni del livello degli oceani
 MAREGGIATA,Mare agitato che frusta la costa
 MAREMMA,...maiala!: l'imprecazione toscana
-MAREMMA,Terra toscana di butteri e paludi bonificate
 MAREMMA,Regione costiera toscana un tempo paludosa
+MAREMMA,Terra toscana di butteri e paludi bonificate
 MAREMOTO,Onda gigante da sisma sottomarino
 MAREZZA,Increspatura irregolare sulla superficie dell'acqua
 MAREZZATO,Variegato come marmo o seta
@@ -538,6 +606,8 @@ MARGINALIA,Note ai bordi dei libri
 MARGINE,Bordo della pagina o del campo
 MARGINE,Parte estrema di una superficie
 MARGINE,Spazio bianco ai lati della pagina
+MARGINI,Bordi esterni di una pagina o di una superficie
+MARGINI,Spazi di libertà entro cui si può agire
 MARGOT,Il nome dell'attrice Robbie
 MARGUERITE,Il nome della scrittrice Duras
 MARI,I sette...: tutti gli oceani del mondo
@@ -549,17 +619,23 @@ MARIJUANA,Infiorescenze essiccate della cannabis
 MARIJUANA,Sostanza psicoattiva ricavata dalla cannabis
 MARILYN,Il nome dell'attrice Monroe
 MARIMBA,Strumento a percussione di origine africana
-MARINA,Zona costiera attrezzata per imbarcazioni
 MARINA,Forza armata che opera sul mare
+MARINA,Zona costiera attrezzata per imbarcazioni
 MARINAI,"Vivono fra ponti, vele e porti"
 MARINAIO,Lavora a bordo delle navi
 MARINAIO,Uomo di mare
+MARINARE,Lasciare un cibo in un liquido aromatico
+MARINARE,Non presentarsi a scuola di nascosto
+MARINI,Che vivono o si trovano in acqua salata
+MARINI,Provenienti dall’ambiente oceanico o costiero
 MARIO,Il Monicelli della grande commedia italiana
 MARIO,L'idraulico baffuto dei videogiochi
 MARION,Il nome dell'attrice francese Cotillard
+MARIONETTA,Figura senza volontà nelle mani di altri
 MARIONETTA,Personaggio mosso da fili e mani nascoste
 MARIONETTA,Pupazzo azionato dall'alto mediante fili
-MARIONETTA,Figura senza volontà nelle mani di altri
+MARITI,Coniugi di donne sposate
+MARITI,Uomini uniti in matrimonio
 MARITO,"Lo sposo, il consorte"
 MARITO,Uomo unito in matrimonio
 MARK,Il nome del fondatore di Facebook Zuckerberg
@@ -572,14 +648,16 @@ MARLIN,Il grande pesce dalla lunga spada del mare
 MARLIN,Il papà di Nemo nel cartone
 MARMELLATA,Confettura da spalmare sul pane
 MARMELLATA,Conserva dolce di frutta
+MARMI,Materiali venati che si lucidano a specchio
+MARMI,Pietre pregiate usate per statue e rivestimenti
 MARMISTA,Artigiano che lavora il marmo
+MARMITTA,Nel veicolo attenua il rumore dei gas di scarico
 MARMITTA,Pentola grande o silenziatore d'auto
 MARMITTA,Recipiente da cucina oppure silenziatore dell'auto
-MARMITTA,Nel veicolo attenua il rumore dei gas di scarico
 MARMO,Pietra che gli scultori liberano
 MARMOLADA,Regina dolomitica
-MARMOTTA,Roditore alpino che fischia
 MARMOTTA,Lancia fischi d'allarme tra le rocce
+MARMOTTA,Roditore alpino che fischia
 MARMOTTA,Roditore alpino noto per il lungo letargo
 MARMOTTE,Dormono a lungo nelle tane alpine
 MARNERO,Il Ponto Eusino in forma moderna
@@ -588,13 +666,15 @@ MAROSTICA,Città veneta della partita a scacchi vivente
 MARQUEZ,"Gabriel García, premio Nobel colombiano"
 MARQUEZ,"Marc, fuoriclasse spagnolo della MotoGP"
 MARQUEZ,Scrisse Cent'anni di solitudine
-MARRA,Zappa robusta da campi
-MARRA,Zappa pesante usata per smuovere la terra
 MARRA,Attrezzo agricolo con lama larga
+MARRA,Zappa pesante usata per smuovere la terra
+MARRA,Zappa robusta da campi
 MARRACASH,"Il rapper milanese, il King del rap"
 MARRAKECH,Città marocchina della piazza Jemaa el-Fna
-MARRONE,"Errore grossolano, nel linguaggio colloquiale"
 MARRONE,Colore di castagne e cioccolato
+MARRONE,"Errore grossolano, nel linguaggio colloquiale"
+MARRONI,Castagne di qualità grossa e dolce
+MARRONI,Tonalità scure tra il rosso e il nero
 MARROSSO,Mare tra Africa e Arabia
 MARS,La barretta di cioccolato e caramello
 MARS,"Marte, in inglese"
@@ -609,14 +689,16 @@ MARSUPIO,Borsa in vita o tasca del canguro
 MARSUPIO,Tasca naturale dei canguri o borsa da cintura
 MARTA,Sorella di Maria e Lazzaro nei Vangeli
 MARTE,"Il pianeta rosso, o il dio della guerra"
+MARTELLI,Attrezzi con testa pesante e impugnatura
+MARTELLI,Si usano per piantare chiodi o battere metalli
 MARTELLO,Batte sul chiodo
 MARTELLO,Colpisce chiodi e incudini
 MARTHA,Il nome della coreografa Graham
 MARTIN,Il nome del regista Scorsese
 MARTINGALA,Sistema di gioco o fibbia d'abito
-MARTINI,"Simone, maestro senese del Trecento"
-MARTINI,Il cocktail con gin e vermut
 MARTINI,Dipinse l'Annunciazione conservata agli Uffizi
+MARTINI,Il cocktail con gin e vermut
+MARTINI,"Simone, maestro senese del Trecento"
 MARTINMYSTERE,Il detective dell'impossibile dei fumetti italiani
 MARTINO,Il santo festeggiato l'11 novembre
 MARTINO,Nome del santo che divise il mantello con un povero
@@ -640,36 +722,44 @@ MASCELLA,Osso superiore della bocca
 MASCHERA,Copre il volto a Carnevale
 MASCHERA,Nasconde il volto
 MASCHERA,Prodotto cosmetico lasciato agire sul viso
-MASCHERARE,Nascondere la vera natura di qualcosa
 MASCHERARE,Alterare un segnale perché non sia riconoscibile
+MASCHERARE,Nascondere la vera natura di qualcosa
 MASCHERATA,Festa in costume o finzione poco credibile
 MASCHERATO,Con il volto coperto da un travestimento
 MASCHERATO,Nascosto sotto un'apparenza diversa
 MASCHERE,Nascondono il volto a Carnevale
 MASCHERINA,Copre naso e bocca
+MASCHI,Esemplari che possono fecondare le femmine
+MASCHI,Uomini o animali dell’altro sesso rispetto alle femmine
 MASCHILE,Proprio dell'uomo o del genere grammaticale opposto al femminile
 MASCHILISTA,Attribuisce superiorità agli uomini
 MASCHIO,Individuo adulto di sesso opposto alla femmina
 MASCHIO,Individuo di sesso opposto alla femmina
-MASCOTTE,Portafortuna di squadra o evento
 MASCOTTE,Animale o personaggio scelto come portafortuna
+MASCOTTE,Portafortuna di squadra o evento
 MASERATI,La casa automobilistica del tridente
 MASERU,La capitale del Lesotho
 MASO,Casa rurale alpina con prati e stalla
 MASSA,"Di...: in gran numero, per tutti"
+MASSA,Grande quantità indistinta di persone o materia
 MASSA,La...muscolare del corpo
 MASSA,"Quantità, folla o proprietà fisica"
-MASSA,Grande quantità indistinta di persone o materia
-MASSACRO,Uccisione violenta di molte persone
 MASSACRO,Sconfitta con conseguenze devastanti
+MASSACRO,Uccisione violenta di molte persone
 MASSAGGIO,Pressione e sfregamento dei muscoli
 MASSAGGIO,Trattamento manuale che scioglie tensioni
-MASSERIA,Grande casa rurale del Sud
+MASSE,Grandi quantità di materia o persone
+MASSE,In fisica misurano l’inerzia dei corpi
 MASSERIA,Complesso agricolo fortificato tipico del Sud
+MASSERIA,Grande casa rurale del Sud
 MASSERIA,"Ospita abitazione, stalle e depositi rurali"
-MASSIMA,Sentenza breve da ricordare
-MASSIMA,Principio espresso in forma breve
+MASSERIE,"Complessi rurali con abitazioni, stalle e depositi"
+MASSERIE,Grandi aziende agricole tipiche del Meridione
+MASSI,Grossi blocchi di roccia
+MASSI,Pietre troppo grandi per essere sollevate facilmente
 MASSIMA,Grado più alto raggiungibile
+MASSIMA,Principio espresso in forma breve
+MASSIMA,Sentenza breve da ricordare
 MASSIMO,Il valore più alto ammesso
 MASSIMO,Più grande di ogni altro
 MASSO,Blocco di pietra isolato e pesante
@@ -702,17 +792,19 @@ MATERNO,Proprio del genitore femminile
 MATERNO,Tenero e protettivo verso i figli
 MATISSE,L'Henri dei Fauves
 MATISSE,Pittore francese dei colori accesi
-MATITA,Lascia un segno che la gomma cancella
 MATITA,Ha un'anima di grafite racchiusa nel legno
+MATITA,Lascia un segno che la gomma cancella
 MATITE,Lasciano segni cancellabili
 MATRACCIO,Vaso da chimico panciuto
-MATRICE,Stampo o origine
 MATRICE,Origine comune da cui derivano più elementi
 MATRICE,Stampo che imprime una forma ripetuta
+MATRICE,Stampo o origine
+MATRICI,Stampi da cui si ricavano copie identiche
+MATRICI,Tabelle di numeri disposte in righe e colonne
 MATRICOLA,Studente al primo anno di università
 MATRIMONIALE,"Destinato a due coniugi, come un letto"
-MATRIMONIO,Unione riconosciuta civilmente o religiosamente
 MATRIMONIO,"Cerimonia con promesse, anelli e invitati"
+MATRIMONIO,Unione riconosciuta civilmente o religiosamente
 MATRIX,Il film dei fratelli Wachowski con Neo
 MATRONEO,Galleria sopra le navate laterali
 MATT,Il nome dell'attore Damon
@@ -721,23 +813,31 @@ MATTA,La carta che può sostituirne un'altra
 MATTARELLA,"Sergio, eletto presidente della Repubblica nel 2015"
 MATTARELLO,Bastone per stendere la pasta
 MATTARELLO,Stende la pasta sulla spianatoia
+MATTE,Opache e senza riflessi lucidi
+MATTE,"Prive di senno, al femminile plurale"
 MATTEO,L'evangelista già esattore
 MATTHAUS,"Lothar, capitano della Germania campione del mondo 1990"
+MATTI,Lo sono certi scacchi che chiudono la partita
+MATTI,"Privi di senno, al maschile plurale"
 MATTIA,"...Pascal, il fu personaggio di Pirandello"
 MATTIA,L'apostolo eletto al posto di Giuda
+MATTINI,Periodi compresi tra l’alba e il mezzogiorno
+MATTINI,Prime parti della giornata
 MATTO,"Da...: tantissimo, da impazzire"
 MATTO,Fuori di senno o finale degli scacchi
 MATTO,Lo scacco...: la fine della partita
 MATTO,Negli scacchi non lascia scampo al re
 MATTONE,Elemento di un muro
-MATTONE,Un libro o un film pesante e noioso
 MATTONE,Persona fastidiosa e importuna
+MATTONE,Un libro o un film pesante e noioso
+MATTONI,Blocchi da costruzione cotti in fornace
+MATTONI,Elementi rettangolari con cui si alzano pareti
 MATTUTINO,Proprio delle prime ore del giorno
 MATURA,L'esame di...alla fine del liceo
 MATURA,Pronta o adulta
 MATURARE,Raggiungere gradualmente pieno sviluppo
-MATURAZIONE,Processo che rende pronto un frutto o un'idea
 MATURAZIONE,Periodo necessario perché qualcosa raggiunga compimento
+MATURAZIONE,Processo che rende pronto un frutto o un'idea
 MATURE,Pronte o adulte
 MATURI,Pronti o adulti
 MATURITA,Età o condizione di pieno sviluppo
@@ -746,6 +846,8 @@ MAUPASSANT,Maestro francese del racconto
 MAUREEN,Il nome dell'attrice O'Hara
 MAURICE,Il nome del compositore Ravel
 MAURITIUS,Isola dell'Oceano Indiano legata al dodo
+MAUSOLEI,Monumenti funebri di grandi dimensioni
+MAUSOLEI,Tombe solenni destinate a personaggi illustri
 MAUSOLEO,Il grande sepolcro monumentale
 MAUSOLEO,Tomba monumentale per personaggi illustri
 MAX,"Il massimo, in breve"
@@ -760,14 +862,18 @@ MAZURCA,Danza di origine polacca
 MAZURKA,La danza polacca in tre quarti
 MAZZA,Bastone pesante per colpire
 MAZZANCOLLA,Grosso gambero di mare
+MAZZE,Attrezzi da gioco con una testa più larga
+MAZZE,Bastoni pesanti usati per colpire
+MAZZI,Gruppi di carte da gioco
+MAZZI,Insiemi di fiori raccolti e legati
 MAZZINI,Il Giuseppe della Giovine Italia
-MAZZO,"Quello delle carte, o dei fiori"
 MAZZO,Fascio di fiori legati insieme
 MAZZO,Insieme completo delle carte da gioco
+MAZZO,"Quello delle carte, o dei fiori"
 MAZZOLA,Il Sandro campione dell'Inter
 MB,"Il megabyte, in sigla"
-MB,Iniziali dell'attrice Bellucci
 MB,Iniziali dell'attore Brando
+MB,Iniziali dell'attrice Bellucci
 MBABANE,La capitale dell'eSwatini
 MBAPPE,"Kylian, attaccante francese campione del mondo 2018"
 MC,Iniziali della cantante Carey
@@ -793,8 +899,8 @@ MECCANISMO,Insieme di parti che trasmettono un movimento
 MECCANISMO,Procedimento interno che produce un effetto
 MECENATE,Protegge artisti più che opere proprie
 MEDAGLIA,L'altra faccia della...: il rovescio
-MEDAGLIA,Ricompensa metallica appesa a un nastro
 MEDAGLIA,"Può essere d'oro, d'argento o di bronzo"
+MEDAGLIA,Ricompensa metallica appesa a un nastro
 MEDAGLIA,Riconoscimento conferito per valore o merito
 MEDAGLIE,Premiano vittorie e meriti
 MEDAGLIERE,Conta i premi di una squadra o nazione
@@ -815,9 +921,13 @@ MEDIATO,Non diretto
 MEDIATORE,Facilita un accordo tra parti in conflitto
 MEDIAZIONE,Intervento volto a conciliare due parti
 MEDICA,Erba da foraggio detta anche erba Spagna
+MEDICHE,Donne laureate e abilitate alla professione sanitaria
+MEDICHE,Professioniste che curano le malattie
+MEDICI,La dinastia fiorentina di Lorenzo il Magnifico
+MEDICI,Professionisti che diagnosticano e curano
 MEDICINA,"Scienza che previene, diagnostica e cura le malattie"
-MEDICINALE,Preparato usato per curare o alleviare sintomi
 MEDICINALE,Dotato di proprietà terapeutiche
+MEDICINALE,Preparato usato per curare o alleviare sintomi
 MEDICO,"Col camice, visita i malati"
 MEDICO,"Il...della mutua, film con Sordi"
 MEDICO,Professionista abilitato a diagnosticare e curare
@@ -826,13 +936,13 @@ MEDINA,Città del Profeta
 MEDIO,Il dito tra l'indice e l'anulare
 MEDIO,Il...Oriente del mondo arabo
 MEDIO,Sta tra due estremi
-MEDIOCRITA,Condizione di chi non supera la sufficienza
 MEDIOCRITA,Assenza di qualità o risultati notevoli
+MEDIOCRITA,Condizione di chi non supera la sufficienza
 MEDIOEVALE,Proprio del Medioevo
-MEDITARE,Riflettere a lungo e con attenzione
 MEDITARE,Praticare concentrazione e raccoglimento interiore
-MEDITAZIONE,Riflessione profonda e prolungata
+MEDITARE,Riflettere a lungo e con attenzione
 MEDITAZIONE,Pratica di attenzione silenziosa
+MEDITAZIONE,Riflessione profonda e prolungata
 MEDITERRANEO,"La dieta...sana di olio, pasta e verdure"
 MEDITERRANEO,Mare in mezzo alle terre
 MEDUSA,Animale urticante o mostro mitologico
@@ -840,8 +950,8 @@ MEDUSA,L'animale marino gelatinoso e urticante
 MEDUSA,Mostro dai capelli di serpente
 MEDUSA,Punge in mare e pietrificava nel mito
 MEDUSE,Galleggiano con tentacoli urticanti
-MEETING,Raduno con un programma di interventi o gare
 MEETING,Incontro programmato di lavoro
+MEETING,Raduno con un programma di interventi o gare
 MEETING,"Riunione pubblica, politica o sportiva"
 MEGALOMANIA,La mania di grandezza
 MEGATRON,Il capo dei robot malvagi Decepticon
@@ -872,37 +982,39 @@ MELLIFLUA,Dolciastra e falsamente gentile
 MELLIFLUE,Dolciastre e falsamente gentili
 MELLIFLUI,Dolciastri e falsamente gentili
 MELLIFLUO,Dolciastro e falsamente gentile
-MELMA,Il fango molle e viscido del fondale
 MELMA,Fango denso sul fondo di acque ferme
+MELMA,Il fango molle e viscido del fondale
 MELO,"Il film strappalacrime, in breve"
 MELO,L'albero che fa le mele
 MELODIA,Fila di note che si fa ricordare
-MELODIA,Successione piacevole di note
 MELODIA,Successione di note riconoscibile all'ascolto
-MELODRAMMA,Opera teatrale cantata con orchestra
+MELODIA,Successione piacevole di note
 MELODRAMMA,Genere in cui recitazione e canto si intrecciano
+MELODRAMMA,Opera teatrale cantata con orchestra
 MELOGRANO,Albero del frutto dai chicchi rossi
 MELOGRANO,Un frutto autunnale dai chicchi rossi
 MELOMANIA,La passione sfrenata per la musica
 MELONE,Frutto estivo che si sceglie a colpi
 MELONE,"La testa, in tono scherzoso"
+MELONI,Crescono su piante striscianti della famiglia delle cucurbitacee
+MELONI,Frutti estivi dalla polpa dolce e profumata
 MELPOMENE,La musa della tragedia
 MELQART,Il dio protettore di Tiro
 MELUSINA,Fata-serpente delle leggende francesi
 MELVILLE,Autore di Moby Dick
 MELVILLE,Scrittore della balena bianca
-MEMBRO,Persona che fa parte di un gruppo
 MEMBRO,Parte del corpo o di un'organizzazione
+MEMBRO,Persona che fa parte di un gruppo
 MEME,L'immagine virale e ironica della rete
 MEMORABILE,Degno di essere ricordato a lungo
 MEMORANDUM,Documento sintetico che richiama fatti o accordi
 MEMORANDUM,Promemoria formale destinato a uffici o governi
+MEMORIA,Facoltà di conservare e richiamare esperienze
 MEMORIA,Il componente che conserva i dati
 MEMORIA,Imparare a...: a mente
 MEMORIA,La facoltà di ricordare il passato
-MEMORIA,Facoltà di conservare e richiamare esperienze
-MEMORIALE,Testo che ricostruisce eventi vissuti
 MEMORIALE,Documento presentato per esporre fatti e ragioni
+MEMORIALE,Testo che ricostruisce eventi vissuti
 MEMORIZZARE,Fissare nella mente per ricordare
 MEMPHIS,La città americana di Elvis e del blues
 MENADI,Le invasate seguaci di Dioniso
@@ -923,42 +1035,50 @@ MENHIR,Pietra preistorica infissa nel terreno
 MENINGITE,Infiammazione delle membrane che avvolgono encefalo e midollo spinale
 MENNEA,Il Pietro Freccia del Sud
 MENO,Il segno della sottrazione
+MENO,Indica sottrazione o quantità inferiore
 MENO,Segno che sottrae e avverbio comparativo
 MENO,"Venir...: svenire, sentirsi mancare"
-MENO,Indica sottrazione o quantità inferiore
-MENSA,Tavola comune e servizio aziendale
 MENSA,Sala dove si consumano pasti collettivi
+MENSA,Tavola comune e servizio aziendale
+MENSE,Sale in cui pranzano studenti o lavoratori
+MENSE,Servizi che distribuiscono pasti collettivi
 MENSOLA,Piccola terrazza per libri e vasi
 MENSOLA,Ripiano fissato alla parete
 MENSOLA,Sporgenza che sostiene oggetti o elementi architettonici
+MENSOLE,Ripiani fissati a una parete
+MENSOLE,Sostegni sporgenti su cui si appoggiano libri e oggetti
 MENTA,Erba dal fresco profumo
 MENTA,La caramella o lo sciroppo verde rinfrescante
 MENTA,"Profuma gomme, liquori e giardini"
 MENTANA,"Enrico..., il giornalista del Tg"
 MENTANA,Luogo della battaglia garibaldina del 1867
+MENTE,Facoltà da cui nascono pensieri e sentimenti
 MENTE,La sede dei pensieri
 MENTE,"Sede di pensieri, ricordi e intenzioni"
-MENTE,Facoltà da cui nascono pensieri e sentimenti
-MENTO,Prima persona di un verbo che significa dire il falso
+MENTI,"Dici il falso, rivolgendosi a una persona"
+MENTI,"Facoltà che pensano, ricordano e immaginano"
 MENTO,Parte del volto che si alza con orgoglio
+MENTO,Prima persona di un verbo che significa dire il falso
 MENTORE,Consigliere esperto che guida un giovane
 MENTORE,Figura di riferimento nella crescita professionale
+MENTORI,Guide esperte che consigliano chi è meno esperto
+MENTORI,Maestri capaci di orientare una crescita professionale
 MENTRE,Nel frattempo in cui
+MENU,Elenco delle portate disponibili
 MENU,Promette piatti prima che arrivino
 MENU,"Si apre cliccando, sullo schermo"
-MENU,Elenco delle portate disponibili
 MENZIONARE,Fare il nome di qualcuno o qualcosa
 MENZIONARE,Richiamare brevemente in un discorso
 MENZIONE,"Citazione breve, spesso onorifica"
 MENZIONE,Riconoscimento assegnato senza premio principale
 MENZOGNA,Affermazione consapevolmente falsa
-MERAMENTE,"Soltanto, senza altro significato"
 MERAMENTE,In modo esclusivamente formale
+MERAMENTE,"Soltanto, senza altro significato"
+MERAVIGLIA,Cosa capace di lasciare a bocca aperta
 MERAVIGLIA,Lo stupore di fronte al bello
 MERAVIGLIA,Stupore davanti a qualcosa di eccezionale
-MERAVIGLIA,Cosa capace di lasciare a bocca aperta
-MERAVIGLIOSO,Suscita stupore e ammirazione
 MERAVIGLIOSO,Straordinario come in una fiaba
+MERAVIGLIOSO,Suscita stupore e ammirazione
 MERCALLI,Il Giuseppe della scala dei terremoti
 MERCANTE,Compra e vende merci per guadagno
 MERCANTE,Figura centrale nella commedia veneziana di Shakespeare
@@ -966,9 +1086,9 @@ MERCANTILE,Relativo al commercio e alla navigazione commerciale
 MERCATO,Luogo di banchi e compravendite
 MERCATO,Luogo o sistema in cui si incontrano domanda e offerta
 MERCATO,"Piazza animata di banchi, voci e contrattazioni"
-MERCE,"Viaggia, si compra, si vende"
 MERCE,Bene destinato alla vendita
 MERCE,"Viaggia in casse, container o vagoni"
+MERCE,"Viaggia, si compra, si vende"
 MERCEDES,Casa automobilistica della stella a tre punte
 MERCERIA,"Negozio di bottoni, fili e nastri"
 MERCI,Beni trasportati o messi in vendita
@@ -980,76 +1100,88 @@ MERCURIO,Il metallo liquido del termometro
 MERCURIO,Il pianeta più vicino al Sole
 MERENGUE,Ballo caraibico dominicano
 MERIDA,La principessa scozzese arciera del film Ribelle
+MERIDIANA,Ha uno gnomone che proietta l'ombra
 MERIDIANA,Orologio che ha bisogno del sole
 MERIDIANA,Orologio solare
-MERIDIANA,Ha uno gnomone che proietta l'ombra
 MERIDIANE,Segnano l'ora con l'ombra
 MERIDIONE,Punto cardinale opposto al settentrione
 MERINGA,Dolce fatto quasi d'aria e zucchero
+MERINGHE,Dolci leggeri di albume e zucchero
+MERINGHE,Gusci friabili cotti lentamente in forno
 MERISI,Il vero cognome del Caravaggio
 MERITA,È degno di premio o colpa
 MERITAI,Fui degno di premio o colpa
 MERITARE,Essere degno di premio o colpa
 MERITATO,Ottenuto o inflitto giustamente
 MERITO,"In...a: riguardo a, a proposito di"
-MERITO,Sono degno di ottenere qualcosa
 MERITO,Qualità o azione che giustifica un riconoscimento
+MERITO,Sono degno di ottenere qualcosa
 MERKEL,La cancelliera tedesca per sedici anni
 MERLATURA,Il coronamento dentellato delle mura
 MERLETTAIA,Realizza pizzi e merletti
+MERLETTI,Decorazioni leggere per abiti e biancheria
+MERLETTI,Tessuti traforati ottenuti intrecciando fili
 MERLETTO,Disegno di fili traforati
 MERLETTO,Pizzo lavorato a traforo
 MERLETTO,Trina lavorata a fili intrecciati
+MERLI,Elementi rialzati che coronano mura e torri
+MERLI,Uccelli neri dal becco giallo nei maschi
 MERLINO,Il mago della corte di re Artù
 MERLO,La sporgenza in cima alle mura del castello
 MERLO,Lo sciocco che si fa gabbare
-MERLO,Uccello nero dal becco giallo
 MERLO,"Uccello dal canto melodioso, nero nel maschio"
+MERLO,Uccello nero dal becco giallo
 MERLOT,Il vitigno a bacca rossa morbido
 MERLUZZO,Pesce bianco da baccalà e bastoncini
 MERLUZZO,Pesce che dà anche baccalà
 MEROE,Antica capitale del regno di Kush
 MERTENS,"Dries, attaccante belga già idolo dei tifosi napoletani"
 MERYL,La Streep pluripremiata attrice americana
-MESCHINO,Gretto e privo di generosità
 MESCHINO,Di scarsissimo valore o ampiezza
+MESCHINO,Gretto e privo di generosità
 MESCOLA,Unisce girando
-MESCOLANZA,Unione di elementi diversi senza ordine preciso
 MESCOLANZA,Combinazione di sostanze o persone eterogenee
+MESCOLANZA,Unione di elementi diversi senza ordine preciso
+MESCOLARE,Confondere elementi prima separati
 MESCOLARE,Unire girando o agitando insieme
 MESCOLARE,Unire ingredienti girandoli insieme
-MESCOLARE,Confondere elementi prima separati
-MESCOLATO,Unito girando o agitando
-MESCOLATO,Non più separato dagli altri ingredienti
 MESCOLATO,Eterogeneo nella composizione
+MESCOLATO,Non più separato dagli altri ingredienti
+MESCOLATO,Unito girando o agitando
 MESCOLO,Amalgamo
 MESE,Periodo a cui può riferirsi uno stipendio
+MESI,Dodici divisioni principali dell’anno
+MESI,Periodi del calendario compresi tra due date omonime
 MESONE,Particella formata da quark e antiquark
 MESOPOTAMIA,Antica terra tra i due fiumi
-MESSAGGERO,Porta notizie da un luogo all'altro
 MESSAGGERO,"Nella mitologia greca, ruolo attribuito a Ermes"
+MESSAGGERO,Porta notizie da un luogo all'altro
+MESSAGGI,Comunicazioni inviate a qualcuno
+MESSAGGI,Testi brevi scambiati tramite telefono o rete
 MESSAGGINO,Breve testo sul telefono
 MESSAGGIO,Contenuto inviato a un destinatario
 MESSAGGIO,"Può arrivare per posta, telefono o segnale"
-MESSE,Raccolto o funzioni religiose
-MESSE,Raccolto maturo pronto per la falce
 MESSE,Funzioni celebrate dal sacerdote
+MESSE,Raccolto maturo pronto per la falce
+MESSE,Raccolto o funzioni religiose
 MESSENIA,Regione del Peloponneso occidentale
-MESSI,Il Lionel fuoriclasse argentino
 MESSI,Capitanò l'Argentina campione del mondo 2022
+MESSI,Il Lionel fuoriclasse argentino
 MESSICO,"Paese tra USA, Guatemala e Belize"
 MESSINA,Stretto tra Sicilia e Calabria
 MESSINSCENA,Allestimento teatrale di un testo
 MESSINSCENA,Finzione organizzata per ingannare
 MESSNER,L'alpinista altoatesino dei quattordici Ottomila
-MESSO,Inviato ufficiale incaricato di consegnare atti
 MESSO,"Collocato in un luogo, al participio"
-MESTIERE,"Si impara lavorando, non solo studiando"
-MESTIERE,Attività pratica esercitata professionalmente
+MESSO,Inviato ufficiale incaricato di consegnare atti
 MESTIERE,Abilità acquisita lavorando a lungo
-MESTO,Triste senza clamore
-MESTO,Con un velo di tristezza
+MESTIERE,Attività pratica esercitata professionalmente
+MESTIERE,"Si impara lavorando, non solo studiando"
+MESTIERI,Attività svolte per guadagnarsi da vivere
+MESTIERI,Professioni apprese con pratica ed esperienza
 MESTO,Afflitto senza manifestazioni rumorose
+MESTO,Con un velo di tristezza
+MESTO,Triste senza clamore
 MESTOLO,Cucchiaio grande da minestra
 MESTOLO,Ha un lungo manico e serve a versare zuppe
 META,Arrivo del viaggio o del rugby
@@ -1062,42 +1194,50 @@ METAL,Genere rock duro e potente
 METAL,Il...detector dei controlli di sicurezza
 METALLICA,La storica band heavy metal americana
 METANO,Gas naturale composto da carbonio e idrogeno
+METE,Destinazioni verso cui si viaggia
+METE,Obiettivi che si desidera raggiungere
 METEORA,Brilla cadendo nel cielo
 METEORA,Sasso celeste che brucia in scia luminosa
 METEORA,Stella cadente o fama improvvisa
 METEORITE,Sasso arrivato dallo spazio
+METODI,Procedimenti ordinati per ottenere un risultato
+METODI,Sistemi di lavoro applicati con regolarità
 METODO,Ordine applicato al fare
-METODO,Quello scientifico di Galileo
 METODO,Procedimento ordinato per ottenere un risultato
+METODO,Quello scientifico di Galileo
 METONIMIA,"Sostituisce causa, effetto, autore o materia"
 METOPA,Riquadro scolpito del fregio dorico
+METRI,Schemi ritmici usati nella poesia classica
+METRI,Unità fondamentali per misurare lunghezze
 METRICA,Studio della misura e del ritmo dei versi
+METRO,Corre sotto terra nelle grandi città
 METRO,Il nastro avvolgibile per misurare
 METRO,"Misura, verso o ferrovia sotterranea"
-METRO,Corre sotto terra nelle grandi città
 METRONOMO,Segna il tempo ai musicisti
 METROPOLI,Grande città che domina un'area vasta
 METROPOLITANA,"Ferrovia urbana, spesso sotterranea"
-METTERE,Indossare un capo o collocare qualcosa
 METTERE,"Impegnare tempo, denaro o energia"
+METTERE,Indossare un capo o collocare qualcosa
 METTERNICH,Cancelliere austriaco del Congresso di Vienna
 MEUCCI,Rivendicò l'invenzione del telefono
 MEUS,Mio nella grammatica di Roma
 MEZCAL,Il distillato messicano col verme
 MEZZADRO,Il contadino che divide il raccolto col padrone
 MEZZALUNA,Coltello ricurvo a due manici
+MEZZALUNA,Emblema associato storicamente all'Islam
 MEZZALUNA,Il simbolo dell'Islam
 MEZZALUNA,Taglia erbe con lama curva
-MEZZALUNA,Emblema associato storicamente all'Islam
 MEZZANINO,Piano intermedio più basso degli altri
-MEZZANOTTE,L'ora che chiude il giorno
 MEZZANOTTE,Il nord nella rosa dei venti tradizionale
+MEZZANOTTE,L'ora che chiude il giorno
+MEZZI,Risorse disponibili per raggiungere uno scopo
+MEZZI,Veicoli usati per spostarsi
 MEZZO,"La metà, o il veicolo per spostarsi"
 MEZZO,Strumento usato per raggiungere uno scopo
 MEZZO,"Veicolo di trasporto, pubblico o privato"
 MEZZOGIORNO,Il Sud d'Italia
-MEZZOGIORNO,"Le dodici, ora di pranzo"
 MEZZOGIORNO,L'ora dell'Angelus e del pranzo
+MEZZOGIORNO,"Le dodici, ora di pranzo"
 MEZZOSOPRANO,La voce femminile media
 MG,Iniziali dell'attore Gibson
 MG,Simbolo chimico del magnesio
@@ -1113,6 +1253,8 @@ MIAO,Verso domestico in quattro lettere
 MICA,Il minerale che si sfoglia in sottili lamine
 MICA,Nega senza sembrare un no
 MICA,"Per nulla, affatto: non è... male"
+MICCE,Cordoncini che trasmettono la fiamma a un esplosivo
+MICCE,Inneschi che bruciano prima della detonazione
 MICCIA,Filo che porta il fuoco all'esplosivo
 MICENE,La città di Agamennone
 MICHAEL,Il nome del re del pop Jackson
@@ -1121,11 +1263,15 @@ MICHELANGELO,Il Buonarroti della Sistina
 MICHELE,L'arcangelo che combatte il drago
 MICHELOZZO,Architetto del palazzo Medici
 MICHIGAN,Uno dei Grandi Laghi americani
+MICI,Felini di casa che fanno le fusa
+MICI,Gatti domestici chiamati con tono affettuoso
 MICIDIALE,Capace di causare morte o gravi danni
 MICIDIALE,"Eccezionalmente efficace, nel linguaggio informale"
 MICK,Il nome del frontman dei Rolling Stones Jagger
 MICKEY,Il nome dell'attore Rourke
 MICONOS,Isola greca delle Cicladi
+MICROBI,"Minuscoli esseri viventi, alcuni dei quali causano malattie"
+MICROBI,Organismi microscopici invisibili a occhio nudo
 MICROCHIP,Circuito integrato grande pochi millimetri
 MICROFONO,Cattura e amplifica la voce
 MICRON,Il millesimo di millimetro
@@ -1134,30 +1280,40 @@ MICROSCOPIO,Lo strumento che ingrandisce ciò che è invisibile a occhio nudo
 MICROSCOPIO,Piccola costellazione australe introdotta nel Settecento
 MIDA,Avere il tocco di...: trasformare tutto in oro
 MIDA,Trasformava in oro ciò che toccava
+MIDOLLI,Parti interne del sistema nervoso o di certi vegetali
+MIDOLLI,Tessuti molli contenuti nelle ossa
 MIDOLLO,Parte interna dell'osso o del tronco
 MIDOLLO,Sta dentro ossa e certe piante
-MIELE,Attira più mosche dell'aceto
-MIELE,Nettare trasformato dalle api
+MIEI,Che appartengono a chi parla
+MIEI,Pronome possessivo maschile plurale di prima persona
 MIELE,Addolcisce tisane e si conserva a lungo
+MIELE,Attira più mosche dell'aceto
 MIELE,Dolcissimo: parole di...
 MIELE,La luna di...degli sposi novelli
+MIELE,Nettare trasformato dalle api
 MIETITORE,Chi raccoglie il grano
 MIETITRICE,La macchina che taglia il grano
 MIETITURA,La raccolta del grano
+MIGLIA,Percorsi di circa 1.609 metri ciascuno
+MIGLIA,Unità di distanza usate nei paesi anglosassoni
 MIGLIAIO,Quantità pari a dieci centinaia
 MIGLIO,Il cereale dei semi per gli uccellini
 MIGLIO,"Il...verde, il film con Tom Hanks"
 MIGLIO,Unità di distanza in mare
 MIGLIORAMENTO,Cambiamento verso condizioni più favorevoli
 MIGLIORAMENTO,Progresso rispetto alla situazione precedente
-MIGLIORARE,"Rendere più efficace, sano o piacevole"
 MIGLIORARE,Mostrare progressi nel tempo
-MIGLIORE,Superiore agli altri per qualità o rendimento
+MIGLIORARE,"Rendere più efficace, sano o piacevole"
 MIGLIORE,Quello che si sceglierebbe tra più alternative
+MIGLIORE,Superiore agli altri per qualità o rendimento
+MIGLIORI,Più validi rispetto agli altri
+MIGLIORI,Preferibili per qualità o risultato
+MIGNOLO,Il dito che suggella promesse nei giochi infantili
 MIGNOLO,Il dito più piccolo della mano
 MIGNOLO,Sta all'estremità della mano
-MIGNOLO,Il dito che suggella promesse nei giochi infantili
 MIGRAI,"Mi spostai stabilmente in un altro luogo, al passato"
+MIGRARE,Spostarsi periodicamente verso un’altra regione
+MIGRARE,Trasferirsi da un sistema informatico a un altro
 MIGRATO,"Trasferito altrove, spesso oltre confine"
 MIGRAZIONE,Spostamento periodico o definitivo di popolazioni
 MILA,La Kunis di Hollywood
@@ -1173,9 +1329,9 @@ MILITO,"Diego, il Principe del Triplete nerazzurro"
 MILIZIA,Corpo armato non sempre appartenente all'esercito regolare
 MILIZIA,Formazione di cittadini organizzata per combattere
 MILLAU,Viadotto francese che attraversa la valle del Tarn
+MILLE,Dieci centinaia
 MILLE,I...di Garibaldi sbarcati a Marsala
 MILLE,Le Miglia che partono da Brescia
-MILLE,Dieci centinaia
 MILLEFOGLIE,Dolce a strati di sfoglia e crema
 MILLENNIO,Periodo formato da dieci secoli
 MILLEPIEDI,Ha molte zampe e nessuna fretta
@@ -1188,13 +1344,15 @@ MILO,L'atleta fortissimo dell'antica Crotone
 MILZA,Organo che pochi nominano volentieri
 MIMA,Rappresenta a gesti
 MIMAI,"Rappresentai senza parole, al passato"
+MIMARE,Imitare senza usare parole
+MIMARE,Rappresentare un’azione soltanto con gesti
 MIMATO,Rappresentato soltanto con gesti
 MIMESI,Imitazione che diventa arte
 MIMETICO,Fatto per confondersi con lo sfondo
 MIMMO,Diminutivo tradizionale di Domenico
 MIMMO,Nome proprio familiare diffuso nel Mezzogiorno
-MIMO,Recita tacendo
 MIMO,Attore che racconta senza parlare
+MIMO,Recita tacendo
 MIMOSA,Fiore giallo dell'otto marzo
 MIMOSA,Il cocktail di spumante e succo d'arancia
 MIMOSE,Fioriscono gialle per l'otto marzo
@@ -1202,23 +1360,27 @@ MINA,L'ordigno esplosivo sepolto
 MINA,La Tigre di Cremona
 MINA,"La...della matita, l'anima di grafite"
 MINACCIARE,Annunciare un danno per intimidire
-MINACCIOSO,Fa temere un pericolo imminente
 MINACCIOSO,Cupamente ostile nell'aspetto o nel tono
+MINACCIOSO,Fa temere un pericolo imminente
 MINAI,"Indebolii dalle fondamenta, al passato"
-MINARE,Scavare gallerie esplosive sotto un obiettivo
+MINANO,Collocano ordigni esplosivi in un’area
+MINANO,Indeboliscono lentamente una stabilità
 MINARE,"Indebolire lentamente fiducia, salute o autorità"
+MINARE,Scavare gallerie esplosive sotto un obiettivo
 MINATO,Indebolito in profondità o pieno di ordigni
 MINATORE,Lavora nelle gallerie delle miniere
 MINDANAO,Grande isola del sud delle Filippine
+MINE,Ordigni nascosti che esplodono al passaggio
+MINE,Pericoli celati sotto terra o in acqua
 MINECRAFT,Il videogioco dei blocchi da costruzione
 MINERVA,La dea romana della sapienza
 MINESTRA,O mangiar questa...o saltar dalla finestra
 MINESTRA,Piatto caldo da cucchiaio
-MINESTRA,Scalda il cucchiaio nelle sere fredde
 MINESTRA,Preparazione liquida o semiliquida da mangiare col cucchiaio
+MINESTRA,Scalda il cucchiaio nelle sere fredde
 MINESTRONE,La densa zuppa di verdure miste
-MINESTRONE,Un... di cose confuse e mescolate insieme
 MINESTRONE,Miscuglio confuso di elementi eterogenei
+MINESTRONE,Un... di cose confuse e mescolate insieme
 MINGHERLINO,Magro e di gracile corporatura
 MINGUS,Il contrabbassista jazz Charles
 MINI,La gonna cortissima
@@ -1226,29 +1388,43 @@ MINI,La piccola auto britannica iconica
 MINIATURA,Piccola pittura da manoscritto
 MINIERA,Da lì si estraggono minerali
 MINIERA,Scava la terra in cerca di ricchezze
+MINIERE,Luoghi da cui si estraggono minerali
+MINIERE,Scavi sotterranei ricchi di materie utili
+MINIME,"Le più piccole possibili, al femminile"
+MINIME,Ridotte al livello più basso
+MINIMI,I più piccoli o meno importanti
+MINIMI,Valori inferiori registrati in una serie
 MINIMIZZARE,Far apparire meno grave o importante
-MINIMO,Il valore più basso ammesso
 MINIMO,Di entità trascurabile
+MINIMO,Il valore più basso ammesso
 MINIONS,I buffi aiutanti gialli di Cattivissimo me
-MINISTERO,Dicastero guidato da un membro del governo
 MINISTERO,Amministrazione centrale competente per un settore pubblico
+MINISTERO,Dicastero guidato da un membro del governo
+MINISTRI,Collaboratori del capo dell’esecutivo
+MINISTRI,Membri del governo responsabili di un settore
 MINISTRO,Membro del governo responsabile di un dicastero
 MINISTRO,"Nella religione, chi esercita un servizio di culto"
 MINNESOTA,Lo Stato americano dei diecimila laghi
 MINO,Scavo sotto o indebolisco
 MINOR,"La costellazione dell'Orsa piccola, in latino"
 MINORCA,Isola balearica più tranquilla
-MINORE,"Più piccolo per età, numero o importanza"
 MINORE,Non ancora maggiorenne
+MINORE,"Più piccolo per età, numero o importanza"
+MINORI,Persone che non hanno ancora raggiunto la maggiore età
+MINORI,"Più piccoli per età, numero o importanza"
 MINOSSE,Giudice infernale e re di Creta
 MINOSSE,Il re cretese del labirinto
 MINOTAURO,Il mostro del labirinto cretese
 MINSK,Capitale della Bielorussia
 MINUETTO,Elegante danza settecentesca
+MINUTI,"Appunti sintetici di una riunione, nell’uso internazionale"
+MINUTI,Sessanta secondi ciascuno
+MINUTO,Piccolissimo e accurato nei dettagli
 MINUTO,"Piccolo e delicato, o i sessanta secondi"
 MINUTO,Sessanta secondi
-MINUTO,Piccolissimo e accurato nei dettagli
 MINUZIA,Particolare piccolo ma non sempre inutile
+MINUZIE,Dettagli molto piccoli e poco appariscenti
+MINUZIE,Particolari che richiedono grande attenzione
 MINUZIOSA,Attenta ai dettagli
 MINUZIOSE,Attente ai dettagli
 MINUZIOSI,Attenti ai dettagli
@@ -1258,28 +1434,42 @@ MIO,Possessivo geloso e breve
 MIOPE,Una scelta...: poco lungimirante
 MIOPE,"Vede corto, anche in senso figurato"
 MIOPIA,Difetto visivo da lontano
-MIRA,La prende chi vuole centrare
 MIRA,Bersaglio verso cui si dirige un'arma
+MIRA,La prende chi vuole centrare
 MIRA,Scopo perseguito con intenzione
 MIRABELLA,Piccola prugna gialla e dolce
+MIRACOLI,Eventi straordinari attribuiti a un intervento divino
+MIRACOLI,Risultati quasi impossibili ottenuti contro ogni previsione
 MIRACOLO,Evento ritenuto contrario alle leggi naturali e attribuito a un intervento soprannaturale
 MIRAGGIO,Illusione ottica del deserto
 MIRAGGIO,Inganno ottico nel deserto
 MIRAGGIO,Promessa d'acqua che inganna il deserto
 MIRAGGIO,Speranza seducente ma irrealizzabile
 MIRAI,Puntai a un bersaglio
+MIRANO,Puntano un bersaglio prima di colpire
+MIRANO,Tendono a raggiungere un determinato obiettivo
 MIRARE,Puntare a un bersaglio
+MIRATE,"Guardate con attenzione, in forma di comando"
+MIRATE,Scelte per colpire un obiettivo preciso
+MIRATI,Diretti verso uno scopo preciso
+MIRATI,Selezionati per destinatari ben definiti
 MIRATO,Puntato a un bersaglio
 MIRIADE,Moltitudine o diecimila antichi
 MIRIADE,Quantità enorme e difficile da contare
 MIRIAGRAMMO,Unità di dieci chilogrammi
 MIRIAM,Il nome della cantante sudafricana Makeba
-MIRINO,Si guarda attraverso prima di sparare
+MIRINI,Dispositivi che aiutano ad allineare un’arma al bersaglio
+MIRINI,Piccoli sistemi ottici per prendere la mira
 MIRINO,Dispositivo ottico usato per allineare il bersaglio
+MIRINO,Si guarda attraverso prima di sparare
 MIRO,"Guardo con attenzione, prendo la mira"
 MIRO,Il Joan dei segni colorati
 MIRONE,Lo scultore greco del Discobolo
 MIRRA,Resina da re magi e profumi antichi
+MIRTI,Arbusti mediterranei dalle foglie aromatiche
+MIRTI,Piante da cui si ricava un liquore sardo
+MIRTILLI,Bacche usate per marmellate e dolci
+MIRTILLI,Piccoli frutti di bosco blu o rossi
 MIRTILLO,Piccola bacca blu di bosco
 MIRTILLO,Piccolo frutto blu del sottobosco
 MIRTO,Arbusto mediterraneo e liquore sardo
@@ -1287,17 +1477,19 @@ MISANO,Il circuito romagnolo della MotoGP
 MISANTROPO,Evita la compagnia e diffida dell'umanità
 MISCELA,Combinazione di sostanze diverse
 MISCELA,Può alimentare un motore o profumare una bevanda
+MISCELE,Combinazioni di sostanze diverse
+MISCELE,Insiemi omogenei o eterogenei ottenuti mescolando
 MISCELLANEA,Raccolta varia senza unico filo
 MISCHIA,Fase di gioco del rugby
-MISCHIA,Scontro confuso tra molte persone
 MISCHIA,Nel rugby riunisce gli avanti delle due squadre
-MISCHIARE,Riunire elementi diversi senza separarli
+MISCHIA,Scontro confuso tra molte persone
 MISCHIARE,"Confondere carte, ingredienti o persone"
-MISCUGLIO,Unione senza vera fusione
-MISCUGLIO,Insieme eterogeneo e poco ordinato
+MISCHIARE,Riunire elementi diversi senza separarli
 MISCUGLIO,Combinazione in cui le parti restano riconoscibili
-MISERABILE,Ridotto in estrema povertà
+MISCUGLIO,Insieme eterogeneo e poco ordinato
+MISCUGLIO,Unione senza vera fusione
 MISERABILE,Gretto e moralmente spregevole
+MISERABILE,Ridotto in estrema povertà
 MISERIA,Povertà estrema e mancanza del necessario
 MISERIA,"Somma o quantità insignificante, in senso figurato"
 MISERICORDIA,Compassione che spinge a perdonare
@@ -1307,20 +1499,28 @@ MISHIMA,Scrittore giapponese del Padiglione d'oro
 MISO,Pasta di soia fermentata giapponese
 MISOGINO,Avverso alle donne
 MISONEISMO,Avversione per il nuovo
-MISSIONE,Incarico da compiere lontano o per uno scopo preciso
 MISSIONE,"Attività religiosa, diplomatica o spaziale"
+MISSIONE,Incarico da compiere lontano o per uno scopo preciso
+MISSIONI,Incarichi affidati con uno scopo preciso
+MISSIONI,"Viaggi organizzati per attività scientifiche, religiose o militari"
 MISSISSIPPI,Fiume statunitense dalla doppia esse insistita
 MISSOURI,Affluente enorme del Mississippi
+MISTE,"Composte da elementi differenti, al femminile"
+MISTE,Non uniformi per qualità o provenienza
 MISTER,"Nel calcio, appellativo dell'allenatore"
 MISTER,Titolo inglese che precede un cognome maschile
-MISTERIOSO,Difficile da spiegare o decifrare
+MISTERI,Fatti difficili da spiegare
+MISTERI,Segreti che alimentano curiosità e indagini
 MISTERIOSO,Avvolto nel segreto
-MISTERO,Quel che resiste alla spiegazione
+MISTERIOSO,Difficile da spiegare o decifrare
 MISTERO,Enigma che resta senza spiegazione
 MISTERO,"Nella religione, verità accolta per fede"
+MISTERO,Quel che resiste alla spiegazione
+MISTI,Composti da elementi differenti
+MISTI,Non omogenei per qualità o provenienza
+MISTO,Composto da elementi di natura diversa
 MISTO,"Mescolato, eterogeneo"
 MISTO,"Non puro, non unico"
-MISTO,Composto da elementi di natura diversa
 MISTRAL,"Gabriela..., poetessa cilena Nobel"
 MISTRAL,Vento freddo che soffia dalla Francia
 MISTRAL,Vento freddo della Francia meridionale
@@ -1330,20 +1530,20 @@ MISURA,La...di sicurezza precauzionale
 MISURA,"Limite, taglia o operazione col metro"
 MISURA,Valore numerico attribuito a una grandezza
 MISURAI,"Determinai una grandezza, al passato"
-MISURARE,Dare numero a una grandezza
 MISURARE,Confrontare una grandezza con un'unità
+MISURARE,Dare numero a una grandezza
 MISURARE,Valutare con prudenza parole e azioni
-MISURATO,Dato numero a una grandezza
 MISURATO,Contenuto entro limiti precisi
+MISURATO,Dato numero a una grandezza
 MISURATO,Sobrio e privo di eccessi
 MISURO,Determino una grandezza
 MITE,"Dolce di carattere, non di temperatura estrema"
-MITE,Il clima... e gradevole
 MITE,Dolce e poco aggressivo nel carattere
+MITE,Il clima... e gradevole
 MITI,Dolci di carattere
 MITI,I racconti leggendari
-MITIGARE,Rendere meno intenso un dolore o un effetto
 MITIGARE,Attenuare una pena o una condizione severa
+MITIGARE,Rendere meno intenso un dolore o un effetto
 MITILO,Mollusco nero da impepata
 MITO,Racconto antico o idolo moderno
 MITO,Racconto sacro o personaggio leggendario
@@ -1371,15 +1571,19 @@ MOBILI,Che si può muovere
 MOBILITA,Capacità di spostarsi o cambiare posizione
 MOBILITA,"Possibilità di cambiare ruolo, sede o classe sociale"
 MOCASSINO,Scarpa bassa senza lacci
+MODA,Modo di vestire condiviso in una certa epoca
 MODA,Passa proprio quando sembra imporsi
 MODA,Tendenza seguita per un periodo
-MODA,Modo di vestire condiviso in una certa epoca
 MODALITA,Modo concreto con cui si svolge qualcosa
 MODALITA,Opzione di funzionamento di un dispositivo
+MODE,Gusti collettivi che cambiano nel tempo
+MODE,Tendenze diffuse nell’abbigliamento e nei comportamenti
 MODELLARE,Dare forma a una materia malleabile
 MODELLARE,Plasmare un comportamento o un progetto
-MODELLO,"Persona o cosa ritenuta esemplare e, in quanto tale, degna di essere imitata"
+MODELLI,Esempi da imitare o riprodurre
+MODELLI,Rappresentazioni semplificate di oggetti e fenomeni
 MODELLO,Esemplare da imitare o schema di riferimento
+MODELLO,"Persona o cosa ritenuta esemplare e, in quanto tale, degna di essere imitata"
 MODEM,L'apparecchio che collega alla rete telefonica
 MODENA,Città emiliana dell'aceto balsamico
 MODERATO,"Contenuto, senza eccessi"
@@ -1388,10 +1592,12 @@ MODERAZIONE,Capacità di evitare gli eccessi
 MODERAZIONE,Intervento che regola un dibattito o una piattaforma
 MODERNIZZAZIONE,Adeguamento a tecnologie e criteri contemporanei
 MODERNIZZAZIONE,Processo che rinnova strutture ormai superate
-MODESTIA,Qualità di chi non ostenta i propri meriti
 MODESTIA,Atteggiamento privo di superbia
-MODESTO,Privo di ostentazione
+MODESTIA,Qualità di chi non ostenta i propri meriti
 MODESTO,Di valore o dimensioni non elevate
+MODESTO,Privo di ostentazione
+MODI,Categorie verbali come indicativo e congiuntivo
+MODI,Maniere di agire o esprimersi
 MODICA,Di poco valore
 MODICHE,Di poco valore
 MODICI,Di poco valore
@@ -1409,15 +1615,19 @@ MODUGNO,Il Domenico di Volare
 MODULAZIONE,Passaggio da una tonalità a un'altra
 MODULAZIONE,"Variazione controllata di tono, intensità o frequenza"
 MODULAZIONE,Variazione espressiva della voce o di un segnale
+MODULI,Fogli predisposti da compilare
+MODULI,Unità autonome che si combinano in una struttura
 MODULO,Formulario con campi da compilare
 MODULO,Unità ripetibile di una struttura o di un corso
 MOE,Il nome del barista dei Simpson
 MOGADISCIO,Capitale somala
 MOGADISCIO,Porto dell'Africa orientale sull'Oceano Indiano
 MOGIO,Triste e senza slancio
+MOGLI,Coniugi femminili
+MOGLI,Donne unite in matrimonio
+MOGLIE,La compagna unita in matrimonio
 MOGLIE,Tra... e marito non mettere il dito
 MOGLIE,Una donna unita in matrimonio con un uomo
-MOGLIE,La compagna unita in matrimonio
 MOHAIR,Lana lucida di capra d'Angora
 MOHAMMAD,Il nome del pugile Ali
 MOIRA,Destino personificato nel mito greco
@@ -1426,17 +1636,21 @@ MOJAVE,Il deserto della California
 MOJITO,"Il cocktail cubano con rum, lime e menta"
 MOKA,La caffettiera da fornello di Bialetti
 MOLA,La ruota di pietra che affila le lame
-MOLA,Ruota abrasiva o dente posteriore
 MOLA,Ruota abrasiva che affila o leviga
+MOLA,Ruota abrasiva o dente posteriore
+MOLARI,Denti posteriori usati per triturare il cibo
+MOLARI,Elementi della dentatura con ampia superficie masticatoria
 MOLDAVA,Fiume di Praga celebrato in musica
 MOLE,"L'edificio imponente, come quella di Torino"
 MOLE,L'unità della quantità di sostanza
 MOLE,"Quantità contenente circa 6,022 × 10²³ entità"
-MOLECOLA,Piccola unità chimica con identità propria
-MOLECOLA,La più piccola unità di una sostanza che ne conserva le proprietà
 MOLECOLA,Insieme stabile di atomi legati
-MOLESTIA,Fastidio insistente arrecato a qualcuno
+MOLECOLA,La più piccola unità di una sostanza che ne conserva le proprietà
+MOLECOLA,Piccola unità chimica con identità propria
 MOLESTIA,Comportamento indesiderato che invade la libertà altrui
+MOLESTIA,Fastidio insistente arrecato a qualcuno
+MOLI,Banchine che si protendono nell’acqua
+MOLI,Unità usate dai chimici per contare quantità di particelle
 MOLIBDENO,Metallo da leghe resistenti
 MOLIERE,Il commediografo del Malato immaginario
 MOLINO,Impianto che macina cereali
@@ -1447,15 +1661,17 @@ MOLLAI,"Lasciai la presa o rinunciai, al passato"
 MOLLARE,"Cedere tensione, detto di una corda o di un freno"
 MOLLARE,Lasciare la presa o abbandonare un impegno
 MOLLATO,Lasciato andare o abbandonato
+MOLLE,Cedevole alla pressione
 MOLLE,"Cedevole e floscio, o bagnato fradicio"
 MOLLE,Le...del materasso a rete
-MOLLE,Cedevole alla pressione
 MOLLEGGIATA,Elastica nel movimento
 MOLLEGGIATE,Elastiche nel movimento
 MOLLEGGIATI,Elastici nel movimento
 MOLLEGGIATO,Elastico nel movimento
 MOLLETTA,La pinzetta per stendere il bucato
 MOLLETTA,Tiene fermo il bucato sul filo
+MOLLI,Privi di energia o fermezza
+MOLLI,Soffici e facili da deformare
 MOLLICCIO,Cede al tatto e al carattere
 MOLLO,Lascio la presa
 MOLLUSCO,"Animale molle, spesso con conchiglia"
@@ -1463,55 +1679,71 @@ MOLO,Braccio di pietra nel porto
 MOLO,Struttura portuale che si protende nell'acqua
 MOLO,Vi attraccano navi e traghetti
 MOLOCH,Antico idolo divoratore di bambini
+MOLTE,"In numero elevato, al femminile"
+MOLTE,Numerose ma non tutte
 MOLTEPLICITA,Presenza di numerosi elementi differenti
 MOLTEPLICITA,Varietà che esclude una sola forma
 MOLTISSIMO,In quantità davvero grande
-MOLTITUDINE,"Insieme di persone considerato dal punto di vista del ruolo sociale, politico o economico"
 MOLTITUDINE,Folla numerosa e indistinta
-MOLTO,Quantità abbondante in una parola
+MOLTITUDINE,"Insieme di persone considerato dal punto di vista del ruolo sociale, politico o economico"
 MOLTO,In grande quantità o intensità
 MOLTO,Può rafforzare un aggettivo o un verbo
+MOLTO,Quantità abbondante in una parola
 MOLVENO,Località trentina sul lago omonimo
 MOMA,Il museo d'arte moderna di New York
 MOMBASA,Porto del Kenya
 MOMENTANEAMENTE,Per un breve periodo
 MOMENTANEO,Destinato a durare poco
 MOMENTANEO,Valido solo per l'istante presente
+MOMENTI,Brevi intervalli di tempo
+MOMENTI,Occasioni particolari nella vita o in una situazione
 MOMENTO,Breve intervallo di tempo
 MOMENTO,Occasione precisa o fase particolare
+MONACHE,Rare foche presenti anche nel Mediterraneo
+MONACHE,Religiose che vivono in convento
+MONACI,Abitanti di conventi e abbazie
+MONACI,Religiosi che vivono secondo una regola comunitaria
 MONACO,Città bavarese dell'Oktoberfest
 MONACO,Il Principato di...con Montecarlo
 MONACO,Il religioso che vive in convento
 MONACO,Religioso che vive secondo una regola comunitaria
 MONADE,Unità indivisibile di filosofia
-MONARCA,Sovrano che regna per diritto dinastico
 MONARCA,"Può essere re, regina o imperatore"
+MONARCA,Sovrano che regna per diritto dinastico
 MONASTERO,Complesso in cui vive una comunità religiosa
 MONASTERO,"Ha celle, chiostro e luoghi di preghiera"
+MONDI,Ambienti sociali e culturali molto diversi tra loro
+MONDI,Universi reali o immaginari
 MONDIALI,Il torneo iridato di calcio
+MONDO,"L'insieme degli esseri umani, in senso figurato"
 MONDO,"Pulito, ripulito dalla buccia"
 MONDO,Tutto ciò che sta sotto il cielo
 MONDO,È bello perché è vario
-MONDO,"L'insieme degli esseri umani, in senso figurato"
-MONDRIAN,"Piet, maestro dell'astrazione geometrica"
 MONDRIAN,"Dipinse Composizione con rosso, blu e giallo"
+MONDRIAN,"Piet, maestro dell'astrazione geometrica"
+MONELLI,Bambini vivaci inclini agli scherzi
+MONELLI,Ragazzi che combinano piccole marachelle
 MONET,Il Claude delle ninfee
 MONETA,Dischetto di denaro
-MONETA,Si lancia per testa o croce
 MONETA,Mezzo di pagamento coniato o emesso da uno Stato
+MONETA,Si lancia per testa o croce
+MONETE,Dischi metallici usati come denaro
+MONETE,Pezzi con valore legale coniati da uno Stato
 MONGOLFIERA,Aeromobile senza motore che segue il vento
+MONGOLFIERA,Aerostato sostenuto da aria riscaldata
 MONGOLFIERA,Ha una cesta appesa sotto un grande involucro
 MONGOLFIERA,Sale grazie al riscaldamento del gas interno
-MONGOLFIERA,Aerostato sostenuto da aria riscaldata
 MONGOLFIERE,Salgono spinte dall'aria calda
 MONGOLI,Il popolo di Gengis Khan
 MONICA,Il nome dell'attrice Bellucci
 MONICELLI,Il Mario della Grande guerra
 MONILE,Gioiello da collo o da polso
-MONILE,Ornamento prezioso portato sul corpo
 MONILE,"Nel linguaggio poetico, un gioiello"
-MONITO,Richiamo autorevole che invita a non ripetere un errore
+MONILE,Ornamento prezioso portato sul corpo
+MONITI,Avvertimenti severi rivolti a qualcuno
+MONITI,Richiami che invitano alla prudenza
 MONITO,Avvertimento severo da non ignorare
+MONITO,Richiamo autorevole che invita a non ripetere un errore
 MONITO,Richiamo che mette in guardia da un pericolo
 MONITORARE,Controllare nel tempo con osservazioni o strumenti
 MONITORARE,"Seguire costantemente dati, condizioni o attività"
@@ -1528,16 +1760,18 @@ MONOROTAIA,Il treno sospeso su un'unica rotaia
 MONROE,La Marilyn icona di Hollywood
 MONROVIA,Capitale liberiana
 MONSONE,Vento stagionale che porta le piogge
+MONSONI,Correnti atmosferiche che portano piogge intense
+MONSONI,Venti stagionali dell’Asia meridionale
 MONTA,La...degli animali: l'accoppiamento
 MONTA,"Lei sale, si arrampica in cima"
 MONTA,Sale o assembla
 MONTACARICHI,Ascensore per merci
 MONTAGGIO,Assemblaggio di parti in un insieme
 MONTAGGIO,"Nel cinema, scelta e successione delle inquadrature"
-MONTAGNA,Rilievo naturale che domina le terre circostanti
 MONTAGNA,Barriera naturale che separa valli
 MONTAGNA,Dalla vetta offre ampi panorami
 MONTAGNA,Quantità enorme accumulata
+MONTAGNA,Rilievo naturale che domina le terre circostanti
 MONTAGNE,Alzano cime verso il cielo
 MONTAGNE,Le... russe del luna park
 MONTAI,Salii o assemblai
@@ -1547,17 +1781,17 @@ MONTALE,L'Eugenio di Ossi di seppia
 MONTANA,Lo Stato americano dei grandi cieli
 MONTANA,"Tony..., lo Scarface di Al Pacino"
 MONTANO,Lo schermidore azzurro della sciabola
-MONTANTE,Pugno dal basso verso l'alto
 MONTANTE,Elemento verticale di un telaio o di una porta
-MONTARE,Salire o assemblare
-MONTARE,Salire in sella o su un mezzo
+MONTANTE,Pugno dal basso verso l'alto
 MONTARE,Assemblare pezzi secondo un progetto
+MONTARE,Salire in sella o su un mezzo
+MONTARE,Salire o assemblare
 MONTATO,Salito o assemblato
-MONTATURA,"Struttura che sostiene lenti, gemme o fotografie"
 MONTATURA,Intelaiatura o supporto di un oggetto
+MONTATURA,"Struttura che sostiene lenti, gemme o fotografie"
+MONTE,"Grande quantità accumulata, come premi o debiti"
 MONTE,Il... dei pegni dove si impegna
 MONTE,"Rilievo, somma o mazzo di carte"
-MONTE,"Grande quantità accumulata, come premi o debiti"
 MONTECARLO,Il circuito cittadino del Principato di F1
 MONTERREY,La città industriale del Messico settentrionale
 MONTESSORI,La Maria del celebre metodo educativo
@@ -1568,24 +1802,27 @@ MONTGOMERY,Cappotto con alamari e cappuccio
 MONTI,Il Vincenzo traduttore dell'Iliade
 MONTI,"Mario..., ex presidente del Consiglio"
 MONTO,Salgo o assemblo
+MONTONE,Ha corna ricurve e lana folta
 MONTONE,Maschio della pecora
 MONTONE,Maschio lanoso e colpo di testa
-MONTONE,Ha corna ricurve e lana folta
+MONTONI,Animali ovini spesso dotati di grandi corna ricurve
+MONTONI,Maschi adulti delle pecore
 MONTREAL,La grande città francofona del Canada
 MONVISO,Montagna piemontese che guarda il Po
 MONZA,Il circuito automobilistico del Gran Premio d'Italia
 MONZA,La città lombarda della Corona Ferrea
 MOORE,Lo scultore inglese delle figure reclinate
 MOORE,"Roger..., uno degli interpreti di 007"
+MORA,Donna dai capelli o dalla carnagione scura
 MORA,Frutto del rovo o ritardo nei pagamenti
 MORA,Il frutto nero del rovo
 MORA,La dilazione nel pagamento
-MORA,Donna dai capelli o dalla carnagione scura
-MORENA,Accumulo di detriti trasportati o depositati da un ghiacciaio
 MORALE,Insegnamento finale o disciplina dei costumi
 MORALE,L'insegnamento finale della favola
 MORALE,Lo stato d'animo: avere il...alto
 MORALE,Ramo della filosofia che studia bene e male
+MORALI,"Che riguardano coscienza, dovere e responsabilità"
+MORALI,Principi che guidano il comportamento
 MORALITA,Conformità del comportamento a principi etici
 MORANDI,Il Giorgio delle nature morte
 MORANTE,Autrice di romanzi familiari e storici
@@ -1594,12 +1831,12 @@ MORAVIA,L'Alberto degli Indifferenti
 MORBIDA,Soffice al tatto
 MORBIDE,Soffici al tatto
 MORBIDI,Soffici al tatto
-MORBIDO,Soffice al tatto
 MORBIDO,Cede facilmente al tatto
 MORBIDO,Delicato nei modi o nei toni
+MORBIDO,Soffice al tatto
+MORBO,"Affezione grave, talvolta epidemica"
 MORBO,La malattia grave e contagiosa
 MORBO,Malattia con nome solenne
-MORBO,"Affezione grave, talvolta epidemica"
 MORBOSA,Esageratamente attratta
 MORBOSE,Esageratamente attratte
 MORBOSI,Esageratamente attratti
@@ -1608,6 +1845,9 @@ MORCHIA,Il deposito feccioso dell'olio
 MORDOR,La terra oscura di Sauron
 MORE,"Di più, in inglese"
 MORE,Frutti del rovo e brune
+MORENA,Accumulo di detriti trasportati o depositati da un ghiacciaio
+MORENE,Accumuli di detriti lasciati dai ghiacciai
+MORENE,Cordoni di rocce trasportate dal ghiaccio
 MORENTE,In fin di vita
 MORETTI,La birra italiana col baffuto in etichetta
 MORETTI,"Nanni..., il regista di Caro diario"
@@ -1619,6 +1859,8 @@ MORGAN,"Capitan..., una marca di rum"
 MORGAN,Il nome dell'attore Freeman
 MORGANA,Fata...: il miraggio sullo stretto
 MORGANA,La fata sorellastra di re Artù
+MORI,Alberi che producono frutti bianchi o neri
+MORI,Popolazioni musulmane storicamente presenti nella penisola iberica
 MORIGERATA,Sobria nei costumi
 MORIGERATE,Sobrie nei costumi
 MORIGERATI,Sobri nei costumi
@@ -1632,35 +1874,39 @@ MORO,L'Aldo statista rapito nel 1978
 MORO,Lo statista democristiano Aldo
 MORO,Può indicare una persona dalla carnagione scura
 MORONI,La capitale delle Comore
-MOROSO,In ritardo coi pagamenti o innamorato
 MOROSO,Compagno legato da una relazione sentimentale
 MOROSO,Debitore che non ha pagato alla scadenza
+MOROSO,In ritardo coi pagamenti o innamorato
 MORPHEUS,Il mentore di Neo in Matrix
 MORRICONE,L'Ennio delle colonne sonore
 MORRISON,"Il cantante dei Doors, Jim"
+MORSA,Attrezzo da banco con due ganasce
 MORSA,La stretta soffocante e inesorabile
 MORSA,Stringe il pezzo sul banco da lavoro
-MORSA,Attrezzo da banco con due ganasce
 MORSETTO,La piccola morsa che stringe
+MORSI,Bocconi staccati con una stretta della mascella
+MORSI,Ferite lasciate dai denti
 MORSO,Il ferro che si mette in bocca al cavallo
 MORSO,Impronta lasciata dai denti
-MORSO,Un boccone: un... di mela
 MORSO,Piccola porzione staccata con i denti
+MORSO,Un boccone: un... di mela
 MORTADELLA,Salume bolognese rosato
 MORTAIO,Arma che spara con tiro curvo
 MORTAIO,Coppa pesante per pestare semi e salse
 MORTAIO,Quello col pestello per il pesto
-MORTALE,"Destinato a morire, come ogni essere umano"
 MORTALE,Capace di provocare la morte
+MORTALE,"Destinato a morire, come ogni essere umano"
+MORTE,Fine della vita
 MORTE,La carta numero 13 dei tarocchi
 MORTE,Ultima soglia dei viventi
-MORTE,Fine della vita
+MORTI,Deceduti o privi di vita
+MORTI,Persone che hanno cessato di vivere
 MORTO,Persona che non è più in vita
 MORTO,"Privo di attività o vitalità, in senso figurato"
 MOS,"Costume, uso, secondo i latini"
 MOSAICI,Nascono da tante tessere colorate
-MOSAICO,Disegno formato da piccole tessere
 MOSAICO,Decora pavimenti e pareti con frammenti colorati
+MOSAICO,Disegno formato da piccole tessere
 MOSAICO,Immagine costruita pezzo dopo pezzo
 MOSAICO,Insieme eterogeneo che compone un tutto
 MOSCA,Il peso più leggero del pugilato
@@ -1671,60 +1917,74 @@ MOSCARDINO,Piccolo polpo
 MOSCATO,Il vitigno bianco aromatico e dolce
 MOSCERINO,Insetto minuscolo e fastidioso
 MOSCERINO,Minuscolo insetto della frutta
+MOSCHE,Esche artificiali usate nella pesca a filo
+MOSCHE,Insetti alati attratti da cibi e rifiuti
 MOSCHETTO,Antica arma da fuoco portatile
 MOSCHETTO,Arma lunga dei soldati d'un tempo
 MOSCHETTONE,Anello a scatto da alpinisti
 MOSE,Guidò gli Ebrei fuori dall'Egitto
 MOSE,Le barriere mobili di Venezia
 MOSER,Il Francesco campione su strada e pista
+MOSSA,Azione strategica e risolutiva
 MOSSA,"Darsi una...: sbrigarsi, affrettarsi"
 MOSSA,Passaggio di gioco o astuzia
-MOSSA,Azione strategica e risolutiva
+MOSSI,"Agitati e ondulati, come certi capelli o il mare"
+MOSSI,Spostati dalla posizione iniziale
 MOSSO,Agitato dal vento o dalle onde
 MOSSO,Non perfettamente nitido in una fotografia
 MOSTARDA,La conserva di frutta candita e senape
 MOSTO,Vino prima di diventarlo
+MOSTRA,Esposizione aperta al pubblico
 MOSTRA,"Lei esibisce, mette in vista"
 MOSTRA,Rende visibile
-MOSTRA,Esposizione aperta al pubblico
 MOSTRAI,"Feci vedere, al passato"
-MOSTRARE,Rendere visibile
 MOSTRARE,Far vedere ciò che era nascosto
 MOSTRARE,Provare con fatti o evidenze
+MOSTRARE,Rendere visibile
 MOSTRATO,Reso visibile
-MOSTRO,Rendo visibile
-MOSTRO,"Persona eccezionalmente abile, nel parlare informale"
+MOSTRI,Creature spaventose di miti e racconti
+MOSTRI,Esibisci o fai vedere qualcosa a qualcuno
 MOSTRO,Creatura spaventosa o deforme
+MOSTRO,"Persona eccezionalmente abile, nel parlare informale"
+MOSTRO,Rendo visibile
 MOSTRUOSO,Enorme e fuori da ogni misura
 MOSTRUOSO,Terribile per crudeltà o aspetto
-MOTIVARE,Spiegare le ragioni di una decisione
+MOTI,Insurrezioni popolari contro un potere
+MOTI,Movimenti di corpi o masse
 MOTIVARE,Dare entusiasmo e spinta ad agire
+MOTIVARE,Spiegare le ragioni di una decisione
 MOTIVAZIONE,Ragione che sostiene una scelta
 MOTIVAZIONE,Spinta interiore verso un obiettivo
+MOTIVI,Disegni decorativi o brevi temi musicali
+MOTIVI,Ragioni che spiegano una scelta
 MOTIVO,Causa o ragione di un fatto
 MOTIVO,Tema musicale che ritorna
 MOTO,Due ruote e movimento
-MOTO,Veicolo a due ruote azionato da un propulsore
 MOTO,Movimento di un corpo nello spazio
+MOTO,Veicolo a due ruote azionato da un propulsore
 MOTOCICLETTA,La due ruote che si guida in sella
-MOTOCICLETTA,Veicolo motorizzato più agile di un'auto
 MOTOCICLETTA,Si guida in sella e richiede il casco
+MOTOCICLETTA,Veicolo motorizzato più agile di un'auto
 MOTOCICLISTA,Sfreccia sulle due ruote a motore
 MOTORE,Fa muovere l'auto
 MOTORE,Il...di ricerca per navigare in rete
 MOTORE,Trasforma energia in movimento
-MOTRICE,Veicolo che traina rimorchi o convogli
+MOTORI,Forze che danno avvio a un cambiamento
+MOTORI,Macchine che trasformano energia in movimento
 MOTRICE,Parte di una macchina che fornisce movimento
+MOTRICE,Veicolo che traina rimorchi o convogli
+MOTRICI,"Che producono o trasmettono movimento, al femminile"
+MOTRICI,Unità ferroviarie capaci di trainare convogli
 MOTTEGGIO,Battuta pungente più che risata
 MOTTETTO,Breve composizione sacra polifonica
+MOTTO,Frase breve che esprime un principio
 MOTTO,Frase breve che pretende memoria
 MOTTO,"Il detto arguto, la massima"
-MOTTO,Frase breve che esprime un principio
 MOURINHO,Il tecnico portoghese lo Special One
-MOVENTE,Ragione che spinge a commettere un'azione
 MOVENTE,"Nelle indagini, spiega perché è stato commesso un delitto"
-MOVIMENTO,Parte contraddistinta da un unico ritmo in una composizione musicale
+MOVENTE,Ragione che spinge a commettere un'azione
 MOVIMENTO,Atto di cambiare posizione
+MOVIMENTO,Parte contraddistinta da un unico ritmo in una composizione musicale
 MOZART,Genio salisburghese del Flauto magico
 MOZART,Il genio musicale di Salisburgo
 MOZIONE,Proposta formale sottoposta a un'assemblea
@@ -1732,23 +1992,29 @@ MOZZAFIATO,Così bello o intenso da lasciare senza respiro
 MOZZAFIATO,"Vertiginoso, detto di panorama o impresa"
 MOZZARELLA,Il formaggio fresco della pizza
 MOZZARELLA,Latticino bianco che fila sulla pizza
+MOZZI,Giovani addetti ai lavori di bordo sulle navi
+MOZZI,Parti centrali delle ruote
 MOZZO,Giovane apprendista di bordo
 MOZZO,Il centro della ruota in cui passa l'asse
 MS,Iniziali del regista Scorsese
 MS,Sigla automobilistica di Massa-Carrara
-MT,Iniziali della religiosa di Calcutta
 MT,Iniziali dell'attore Troisi
+MT,Iniziali della religiosa di Calcutta
 MT,Sigla automobilistica di Matera
 MUAYTHAI,La boxe thailandese degli otto arti
 MUCCA,"...pazza, il morbo dei bovini"
 MUCCA,Dà latte nella stalla
-MUCCA,Ruminante da latte quotidiano
 MUCCA,Femmina adulta del bovino
-MUCCHIO,Quantità di oggetti ammassati
+MUCCA,Ruminante da latte quotidiano
+MUCCHE,Animali da stalla dal tipico muggito
+MUCCHE,Bovine adulte allevate soprattutto per il latte
 MUCCHIO,"Può essere di sabbia, foglie o monete"
+MUCCHIO,Quantità di oggetti ammassati
 MUCCINO,"Gabriele, regista de L'ultimo bacio"
 MUFASA,Il padre di Simba nel Re Leone
 MUFFA,Vita verde dove il cibo invecchia male
+MUFFE,Funghi microscopici che crescono su cibi e pareti umide
+MUFFE,Patine verdastre o nere favorite dall’umidità
 MUFFIN,Il dolcetto soffice da colazione
 MUFLONE,Selvatico antenato della pecora
 MUGELLO,Il circuito toscano della Ferrari
@@ -1761,6 +2027,8 @@ MUGNAIO,Lavora al mulino
 MULA,"La femmina del mulo, proverbiale testarda"
 MULAN,La guerriera Disney della Cina
 MULATTIERA,Sentiero di montagna per animali da soma
+MULI,Animali da soma resistenti sui sentieri di montagna
+MULI,Ibridi robusti nati da asino e cavalla
 MULINELLO,Piccolo vortice d'acqua o vento
 MULINI,Giravano con vento o acqua
 MULINO,Combattere contro i...a vento: lottare con nemici immaginari
@@ -1771,24 +2039,32 @@ MULO,Ibrido di asino e cavalla
 MULO,Ibrido tenace da soma
 MULTA,Prezzo d'una infrazione
 MULTA,Sanzione pecuniaria per un'infrazione
+MULTE,Sanzioni pecuniarie per infrazioni
+MULTE,Somme da pagare dopo una violazione
 MULTIPLA,La Fiat dalla forma inconfondibile
 MUMBAI,Metropoli indiana di Bollywood
 MUNCH,Dipinse un urlo modernissimo
-MUNICIPALE,Relativo all'amministrazione di una città
 MUNICIPALE,Può esserlo la polizia locale
+MUNICIPALE,Relativo all'amministrazione di una città
 MUNICIPALITA,Ente o comunità amministrata da un comune
+MUNICIPI,Edifici in cui lavorano sindaco e uffici civici
+MUNICIPI,Sedi delle amministrazioni comunali
 MUNICIPIO,Sede dell'amministrazione comunale
 MUNIFICA,Generosa nel donare
 MUNIFICHE,Generose nel donare
 MUNIFICI,Generosi nel donare
 MUNIFICO,Generoso in grande stile
-MUNITO,Provvisto di ciò che serve
 MUNITO,Difeso da fortificazioni o armi
+MUNITO,Provvisto di ciò che serve
 MUNSE,Trasse il latte
 MUOVERE,Spostare da una posizione
 MUOVERE,Suscitare compassione o emozione
 MUOVERSI,Cambiare posto con il proprio corpo
 MUOVERSI,Darsi da fare per ottenere un risultato
+MUOVI,Procedi invece di restare fermo
+MUOVI,Sposta qualcosa dalla sua posizione
+MUOVONO,Provocano emozione oppure mettono in azione
+MUOVONO,Spostano oggetti o persone
 MURA,Chiude un'apertura con mattoni
 MURA,Cingono e difendono la città antica
 MURA,Cinta difensiva attorno a una città
@@ -1797,57 +2073,79 @@ MURAGLIA,Ostacolo massiccio che impedisce il passaggio
 MURAI,Chiusi con mattoni
 MURAKAMI,Lo scrittore giapponese di Norwegian Wood
 MURALE,Il grande dipinto steso sul muro
+MURALI,Che riguardano una parete o una cinta
+MURALI,Dipinti realizzati direttamente sulle pareti
+MURANO,Chiudono un’apertura costruendo una parete
+MURANO,Isola veneziana celebre per il vetro artistico
 MURARE,...vivo: rinchiudere senza scampo
 MURARE,Chiudere con mattoni
-MURATA,La fiancata di una nave
 MURATA,Fiancata esterna dello scafo
+MURATA,La fiancata di una nave
 MURATO,Chiuso con mattoni
 MURATORE,Costruisce con mattoni e malta
 MURATORE,Il Libero...della loggia massonica
+MURATORI,"Lavoratori che usano mattoni, malta e cazzuola"
+MURATORI,Operai specializzati nella costruzione di pareti
 MURENA,Pesce serpentiforme dal morso temibile
+MURETTI,Pareti basse di pietra o mattoni
+MURETTI,Piccole strutture che delimitano giardini e terreni
 MURETTO,Piccolo muro di confine
+MURI,Ostacoli materiali o figurati difficili da superare
+MURI,Pareti che dividono o sostengono edifici
 MURO,"Divide, protegge o si salta"
 MURO,Il...del Pianto a Gerusalemme
 MURO,Parlargli è del tutto inutile
 MURO,Quello che divideva Berlino
 MURRAY,"Andy, campione scozzese del tennis"
 MURRAY,"Bill..., l'attore di Ghostbusters"
+MUSA,Figura che ispira un artista o poeta
 MUSA,Ispiratrice che non scrive
 MUSA,L'ispiratrice del poeta
-MUSA,Figura che ispira un artista o poeta
 MUSAGETE,Apollo guida delle Muse
 MUSCAT,Capitale dell'Oman
 MUSCAT,Capitale dell'Oman tra mare e montagne
+MUSCHI,Piante semplici che formano tappeti verdi e umidi
+MUSCHI,Rivestimenti vegetali soffici su rocce e tronchi
 MUSCHIO,Pianta minuta che forma cuscini nei luoghi umidi
 MUSCHIO,Ricopre pietre e tronchi all'ombra
 MUSCHIO,Verde rivestimento dei boschi umidi
+MUSCOLI,Si contraggono per produrre forza
+MUSCOLI,Tessuti che permettono il movimento del corpo
 MUSCOLO,Si contrae senza discutere
 MUSE,La band britannica di Matt Bellamy
 MUSE,Le nove ispiratrici delle arti
+MUSEI,"Istituzioni aperte al pubblico per arte, storia o scienza"
+MUSEI,Luoghi in cui si conservano ed espongono collezioni
 MUSEO,"Da...: vecchio, sorpassato"
 MUSEO,Dove il passato non dovrebbe prendere polvere
 MUSERUOLA,Impedisce morsi senza chiudere gli occhi
+MUSI,Parti anteriori della testa degli animali
+MUSI,"Volti tenuti imbronciati, in senso figurato"
 MUSICA,Arte che organizza suoni e silenzi
-MUSICALE,"Relativo a suoni, strumenti e composizione"
 MUSICALE,Dotato di orecchio e senso del ritmo
+MUSICALE,"Relativo a suoni, strumenti e composizione"
+MUSICHE,"Colonne sonore, melodie e brani eseguiti"
+MUSICHE,Composizioni organizzate di suoni
 MUSICISTA,Compone o esegue brani con uno strumento
-MUSK,"Il muschio, nota profumata in inglese"
 MUSK,"Elon, fondatore di SpaceX"
+MUSK,"Il muschio, nota profumata in inglese"
 MUSO,La parte anteriore del cane o dell'automobile
-MUSO,Tenerlo è fare il broncio
 MUSO,Parte anteriore della testa di molti animali
+MUSO,Tenerlo è fare il broncio
 MUSSOLA,Tessuto di cotone leggero e rado
 MUSTANG,La sportiva americana Ford dal cavallo
-MUSULMANO,Seguace della religione islamica
 MUSULMANO,Può pregare rivolto verso la Mecca
+MUSULMANO,Seguace della religione islamica
 MUTA,Il cambio della pelle o del pelo negli animali
+MUTA,Insieme di animali necessari per trainare un veicolo
 MUTA,La tuta aderente del subacqueo
 MUTA,Priva di parola
-MUTA,Insieme di animali necessari per trainare un veicolo
 MUTAMENTO,Passaggio da uno stato a un altro
 MUTAMENTO,Variazione profonda nel tempo
 MUTANDE,Indumento intimo portato sotto i vestiti
 MUTANDINE,Indumento intimo femminile o infantile
+MUTANO,"Cambiano aspetto, forma o comportamento"
+MUTANO,"Sostituiscono periodicamente pelle, piume o pelo"
 MUTARE,"Cambiare forma, stato o opinione"
 MUTARE,Diventare diverso nel tempo
 MUTAZIONE,Cambiamento stabile del materiale genetico
@@ -1859,8 +2157,10 @@ MUTEVOLE,Variabile nel tempo o nell'umore
 MUTI,Il Riccardo direttore d'orchestra
 MUTI,Privi di parola
 MUTO,Il cinema...: quello prima del sonoro
-MUTO,Privo di voce o di parole
 MUTO,Incapace o impossibilitato a parlare
+MUTO,Privo di voce o di parole
+MUTUI,Finanziamenti rimborsati con rate periodiche
+MUTUI,Prestiti di lunga durata garantiti spesso da un immobile
 MUTUO,Il prestito per comprare casa
 MUTUO,"Reciproco, dato e ricevuto da entrambe le parti"
 MYANMAR,Paese birmano

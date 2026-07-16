@@ -8,17 +8,21 @@ PACATA,Calma e misurata
 PACATE,Calme e misurate
 PACATI,Calmi e misurati
 PACATO,Calmo e misurato
-PACCA,Colpo dato con il palmo aperto
 PACCA,Botta amichevole sulla spalla
-PACCHETTO,Piccolo involucro con sorpresa o acquisto
+PACCA,Colpo dato con il palmo aperto
+PACCHE,Colpi dati con il palmo della mano
+PACCHE,Tocchi energici sulle spalle per incoraggiare
 PACCHETTO,Involucro pronto per la consegna
+PACCHETTO,Piccolo involucro con sorpresa o acquisto
+PACCHI,Involucri chiusi pronti per la spedizione
+PACCHI,"Sgradite sorprese o inganni, nel linguaggio colloquiale"
 PACCO,Involucro voluminoso da spedire
 PACE,Assenza preziosa di conflitto
 PACE,Fare...: riconciliarsi dopo un litigio
 PACE,"La tranquillità, la quiete interiore"
 PACE,Stato di tranquillità esterna non turbata da rumori molesti
-PACIFICO,Oceano enorme dal nome tranquillo
 PACIFICO,Incline a evitare ogni scontro
+PACIFICO,Oceano enorme dal nome tranquillo
 PACIFICO,Tranquillo e non aggressivo
 PACINO,"L'attore di Scarface e del Padrino, Al"
 PACINOTTI,Inventore della dinamo
@@ -28,56 +32,60 @@ PADELLA,Contenitore basso per friggere
 PADELLA,Dalla...alla brace: di male in peggio
 PADIGLIONE,Struttura separata di un complesso
 PADOVA,Città veneta del Santo
+PADRE,Genitore maschio
 PADRE,"Genitore, frate o origine"
 PADRE,Il sacerdote a cui ci si confessa
-PADRE,Genitore maschio
 PADRINO,Tiene il neonato durante il battesimo
 PADRONA,Donna che possiede o dirige qualcosa
 PADRONA,La proprietaria di casa
-PADRONANZA,Sicurezza acquisita con esperienza
 PADRONANZA,Controllo pieno di una materia
-PADRONE,"Possiede, comanda o ospita"
-PADRONE,Comanda una piccola imbarcazione mercantile
+PADRONANZA,Sicurezza acquisita con esperienza
 PADRONE,Chi dispone liberamente di un bene
+PADRONE,Comanda una piccola imbarcazione mercantile
+PADRONE,"Possiede, comanda o ospita"
 PAELLA,Il piatto spagnolo di riso e frutti di mare
 PAESE,Centro abitato più piccolo di una città
 PAESE,Territorio retto da uno Stato
 PAESTUM,Sito campano dai templi dorici
 PAFFUTO,Dalle guance piene
 PAGA,"Arriva a fine mese, non sempre abbastanza"
-PAGA,Quella base non comprende straordinari e premi
 PAGA,Arriva dopo il lavoro svolto
+PAGA,Quella base non comprende straordinari e premi
 PAGAI,Saldai un conto
 PAGAIATA,Colpo di remo corto da canoa
-PAGAMENTO,Versamento effettuato per saldare un debito
 PAGAMENTO,Atto che chiude un conto
+PAGAMENTO,Versamento effettuato per saldare un debito
 PAGANINI,Il Niccolò violinista leggendario
 PAGANINI,Violinista genovese diabolico per fama
-PAGANO,Seguace degli antichi culti politeisti
 PAGANO,Estraneo alle religioni monoteiste
+PAGANO,Seguace degli antichi culti politeisti
 PAGARE,Saldare un conto
-PAGARE,Versare quanto dovuto
 PAGARE,Scontare le conseguenze di un errore
+PAGARE,Versare quanto dovuto
+PAGATE,Ricompensate per un lavoro svolto
+PAGATE,Saldate con denaro
+PAGATI,Retribuiti per un'attività
+PAGATI,Saldati dopo la presentazione del conto
 PAGATO,Saldato un conto
 PAGELLA,Il documento dei voti scolastici
 PAGELLO,Pesce di mare rosato
 PAGHE,Soddisfatte
 PAGHERA,Darà denaro dovuto
 PAGHERO,Salderò un conto
-PAGHERO,Verserò il dovuto
 PAGHERO,Sosterrò io la spesa
+PAGHERO,Verserò il dovuto
 PAGHI,Soddisfatti
 PAGHIAMO,Saldiamo un conto
 PAGINA,Faccia di un foglio
-PAGINA,Voltarla è ricominciare da capo
 PAGINA,Una facciata numerata di un libro
+PAGINA,Voltarla è ricominciare da capo
 PAGINE,Si voltano leggendo
 PAGLIA,Avere la coda di...: sentirsi in colpa
 PAGLIA,L'uomo di...: il prestanome
 PAGLIA,Stelo secco dei cereali
 PAGLIACCIATA,Comportamento ridicolo e poco serio
-PAGLIACCIO,Fa ridere con naso rosso e scarpe enormi
 PAGLIACCIO,Artista da circo dal trucco vistoso
+PAGLIACCIO,Fa ridere con naso rosso e scarpe enormi
 PAGLIAIO,Montagna rustica dove cercare aghi proverbiali
 PAGLIAIO,Mucchio dorato dove cercare un ago
 PAGLIUCA,"Gianluca, portiere di Sampdoria e Inter"
@@ -85,39 +93,49 @@ PAGO,Saldo un conto
 PAGO,"Soddisfatto, appagato"
 PAGURO,Crostaceo che abita conchiglie vuote
 PAIO,Due che fanno un'unità
-PAIO,"Sembro, do l'impressione"
 PAIO,Due elementi che vanno insieme
+PAIO,"Sembro, do l'impressione"
 PAKISTAN,Paese nato dalla partizione indiana
 PALA,Ha un manico o gira nel vento
 PALA,Il dipinto sopra l'altare
 PALA,Quella del mulino che gira al vento
 PALA,Serve per spostare terra o neve
-PALADINO,Difensore appassionato di una causa
 PALADINO,Cavaliere al servizio di Carlo Magno
+PALADINO,Difensore appassionato di una causa
 PALAFITTA,Casa costruita su pali
 PALAFITTA,Casa sollevata sull'acqua
 PALAFITTE,Case sospese sull'acqua
 PALAMITA,Pesce azzurro simile al tonno
+PALATE,Colpi inferti con una larga lama munita di manico
+PALATE,Quantità raccolte con un attrezzo da scavo
+PALATI,"Gusti raffinati, in senso figurato"
+PALATI,Parti superiori della cavità orale
 PALATO,Fine...: il buongustaio raffinato
 PALATO,La volta che separa la bocca dal naso
 PALATO,Parte superiore della cavità orale
 PALAZZI,Edifici grandi e solenni
-PALAZZINA,Edificio residenziale di pochi piani
 PALAZZINA,Casa urbana suddivisa in appartamenti
+PALAZZINA,Edificio residenziale di pochi piani
 PALAZZO,"...Chigi, sede del governo italiano"
 PALAZZO,Edificio importante e ambiente di potere
-PALAZZO,Grande edificio cittadino
 PALAZZO,Edificio monumentale destinato a residenza o uffici
+PALAZZO,Grande edificio cittadino
 PALCO,Le corna ramificate del cervo
-PALCO,Quello riservato in teatro
 PALCO,Può ospitare attori oppure crescere sulla testa di un cervo
+PALCO,Quello riservato in teatro
 PALCO,Sta tra le quinte e la platea
 PALCOSCENICO,Spazio teatrale davanti al pubblico
+PALE,Attrezzi con lama larga e manico
+PALE,Grandi elementi che girano mossi dal vento
 PALERMO,Città siciliana della Cappella Palatina
 PALESTRA,"Luogo di sudore, attrezzi e allenamento"
 PALETTA,Piccola pala o segnale del vigile
 PALETTA,Quella del capostazione che dà il via
 PALETTA,Serve al vigile o raccoglie briciole
+PALETTE,Campionari di colori usati da pittori e truccatori
+PALETTE,Piccoli attrezzi per raccogliere terra o cenere
+PALETTI,"Limiti imposti a un'attività, in senso figurato"
+PALETTI,Piccoli sostegni piantati nel terreno
 PALETTO,Il ferretto che blocca un'anta
 PALI,La lingua sacra dei testi buddhisti
 PALINDROMO,Si legge nei due sensi
@@ -127,40 +145,46 @@ PALIO,Drappo conteso da contrade
 PALIO,Gara storica di contrade
 PALISSANDRO,Legno pregiato scuro
 PALIZZATA,Il recinto di pali appuntiti
+PALLA,Bugia raccontata con disinvoltura
 PALLA,"La noia mortale, la cosa noiosa"
 PALLA,Sfera da gioco o bugia
-PALLA,Bugia raccontata con disinvoltura
+PALLACANESTRO,Si gioca mirando a un anello sopraelevato
 PALLACANESTRO,Sport dei tiri da due o tre punti
 PALLACANESTRO,Sport in cui il tiro vale due o tre punti
-PALLACANESTRO,Si gioca mirando a un anello sopraelevato
 PALLADIO,Architetto veneto e metallo
 PALLAMANO,Sport di squadra che si gioca con le mani
 PALLANUOTO,Sport di squadra giocato interamente in piscina
 PALLAVOLO,Sport di squadra con la rete alta
 PALLAVOLO,Sport in cui la sfera non deve toccare terra
+PALLE,Oggetti sferici usati in molti giochi
+PALLE,Storie inventate raccontate come vere
 PALLIDA,Scolorita in volto
 PALLIDE,Scolorite in volto
 PALLIDI,Scoloriti in volto
 PALLIDO,Scolorito in volto
 PALLINA,Piccola sfera usata in giochi e sport
-PALLINO,Piccolo proiettile di piombo
+PALLINE,Elementi rotondi usati nei giochi da tavolo
+PALLINE,"Piccole sfere di vetro, metallo o plastica"
+PALLINI,Idee fisse coltivate con particolare insistenza
+PALLINI,Minuscoli punti stampati o disegnati
 PALLINO,Il bersaglio più piccolo delle bocce
-PALLONE,Sfera da calcio o da gioco
+PALLINO,Piccolo proiettile di piombo
 PALLONE,Grande sfera gonfiabile da gioco
 PALLONE,Quello aerostatico sale con aria calda
+PALLONE,Sfera da calcio o da gioco
 PALLONI,Rimbalzano nei giochi
 PALMA,Albero da datteri o mano aperta
 PALMA,Albero tropicale o parte della mano
-PALMA,La superficie interna della mano
 PALMA,Il premio del festival di Cannes
+PALMA,La superficie interna della mano
 PALME,Danno ombra nei paesi caldi
 PALMIRA,Antica città carovaniera della Siria
 PALMO,Misura a mano aperta
 PALMO,Restare con un... di naso: deluso
 PALO,Asta infissa nel terreno
 PALO,Chi fa da sentinella durante un furto
-PALO,Quello che salva il portiere respingendo il pallone
 PALO,Può sostenere una recinzione o una linea elettrica
+PALO,Quello che salva il portiere respingendo il pallone
 PALOMBARO,Lavora in immersione sott'acqua
 PALOMBARO,Scende sott'acqua con pesante scafandro
 PALOMBELLA,Tiro morbido che scavalca il portiere
@@ -173,6 +197,8 @@ PALTRINIERI,Il Gregorio campione del nuoto di fondo
 PALUDE,Acqua che ristagna e trattiene
 PALUDE,Acqua ferma tra canne e zanzare
 PALUDE,Terreno coperto da acqua bassa e stagnante
+PALUDI,Terreni acquitrinosi con acqua stagnante
+PALUDI,Zone umide popolate da canne e anfibi
 PALUDOSA,Piena di acquitrini
 PALUDOSE,Piene di acquitrini
 PALUDOSI,Pieni di acquitrini
@@ -189,16 +215,20 @@ PANAMA,Il cappello di paglia chiaro
 PANAMA,"Istmo, canale e Stato"
 PANAMERA,La berlina sportiva della Porsche
 PANARIELLO,"Il comico toscano, Giorgio"
-PANCA,Sedile lungo senza schienale alto
 PANCA,Sedile lungo per più persone
+PANCA,Sedile lungo senza schienale alto
 PANCAKE,La frittella americana della colazione
 PANCARRE,Pane morbido a fette quadrate
 PANCETTA,"Maiale in strati, amato dalla carbonara"
+PANCETTE,Piccoli ventri un po' sporgenti
+PANCETTE,Tagli suini ricchi di grasso
 PANCHINA,Sedile pubblico e destino delle riserve
 PANCHINA,Sedile pubblico per soste e chiacchiere
+PANCHINE,Accolgono allenatori e riserve durante una gara
+PANCHINE,Sedili lunghi nei parchi e nelle stazioni
+PANCIA,Parte anteriore del ventre
 PANCIA,Parte del corpo che brontola
 PANCIA,"Starsene a...all'aria, in ozio"
-PANCIA,Parte anteriore del ventre
 PANCIOTTO,Gilet da portare sotto la giacca
 PANCOTTO,Piatto semplice di pane raffermo e brodo
 PANCREAS,Ghiandola che produce insulina
@@ -207,8 +237,8 @@ PANDA,Bianco e nero senza essere scacchiera
 PANDA,L'utilitaria della Fiat
 PANDA,Orso bianco e nero della Cina
 PANDORA,Aprì il vaso da cui si diffusero i mali
-PANDORA,Il pianeta del film Avatar
 PANDORA,Aprì il vaso da cui uscirono tutti i mali
+PANDORA,Il pianeta del film Avatar
 PANDORO,Dolce veronese a forma di stella
 PANDORO,Dolce veronese di Natale
 PANE,Cibo quotidiano da forno
@@ -220,37 +250,45 @@ PANEGIRICO,Elogio così alto da insospettire
 PANETTERIA,Dove si compra il pane
 PANETTERIA,Profuma di lievito fin dal mattino
 PANETTERIA,"Rivendita di filoni, rosette e focacce"
-PANETTIERE,Sforna pagnotte prima dell'alba
 PANETTIERE,Lavora di notte tra farina e forno
+PANETTIERE,Sforna pagnotte prima dell'alba
 PANETTONE,Dolce natalizio milanese
 PANFORTE,Dolce senese speziato
 PANGU,Il gigante creatore della mitologia cinese
+PANI,"Blocchi compatti di burro, ghiaccio o altri materiali"
+PANI,Forme cotte ottenute da farina e lievito
 PANICO,Il terrore che fa perdere la testa
 PANICO,Paura improvvisa che toglie lucidità
-PANIERE,Cesto di vimini
 PANIERE,"Cesto con manico, spesso di vimini"
+PANIERE,Cesto di vimini
 PANIERE,Ha un manico e spesso è intrecciato in vimini
+PANIERI,Insiemi di beni usati per misurare l'andamento dei prezzi
+PANIERI,Recipienti intrecciati con manico
 PANIFICIO,"Lavora farina, acqua e lievito prima dell’alba"
 PANIFICIO,Stabilimento che produce prodotti da forno
+PANINI,Piccole forme da forno farcite o vuote
+PANINI,Spuntini preparati tra due fette
 PANINO,Due fette con qualcosa in mezzo
-PANINO,Piccolo pane farcito
 PANINO,Pane tagliato e farcito
+PANINO,Piccolo pane farcito
 PANNA,Andare in...: restare in avaria
 PANNA,Crema dolce da montare
 PANNACOTTA,Dolce al cucchiaio bianco e tremolante
+PANNE,Creme grasse ricavate dal latte
+PANNE,Guasti che immobilizzano un veicolo
 PANNI,I... sporchi si lavano in famiglia
+PANNO,Stoffa compatta di lana
 PANNO,Stoffa per pulire
 PANNO,Tessuto usato per pulire
-PANNO,Stoffa compatta di lana
 PANNOCCHIA,La spiga del granturco
 PANNOCCHIA,Spiga carnosa del granoturco
 PANORAMA,Si apre davanti agli occhi dall'alto
 PANSE,Viola del pensiero dai petali variopinti
 PANTALONE,Indumento con due gambe
 PANTANI,Il Marco Pirata del ciclismo
+PANTANO,Distesa di fango in cui si sprofonda
 PANTANO,Fango che trattiene ruote e passi
 PANTANO,Il terreno fangoso e melmoso
-PANTANO,Distesa di fango in cui si sprofonda
 PANTEISMO,La dottrina che identifica Dio e natura
 PANTELLERIA,Isola dei dammusi e dei capperi
 PANTERA,Felino nero nell'immaginario
@@ -271,9 +309,9 @@ PAOLINO,Persona ingenua e facile da raggirare
 PAOLINO,"Un credulone, in voce popolare"
 PAOLO,Apostolo delle genti di Tarso
 PAOLO,Il nome di sei papi
+PAPA,Capo della Chiesa cattolica
 PAPA,Ogni morte di...: molto di rado
 PAPA,Sovrano senza corona terrena
-PAPA,Capo della Chiesa cattolica
 PAPALE,Relativo al capo della Chiesa cattolica
 PAPAVERI,Macchiano di rosso i campi
 PAPAVERO,Alto...: un personaggio di alto rango
@@ -283,14 +321,18 @@ PAPAYA,Il frutto tropicale dalla polpa arancione e i semi neri
 PAPERA,Anatra domestica o errore buffo
 PAPERA,Errore buffo commesso parlando o recitando
 PAPERE,Starnazzano sull'aia o nello stagno
+PAPERI,"Fogli e documenti burocratici, in tono scherzoso"
+PAPERI,Maschi delle anatre domestiche
 PAPERINIK,L'alter ego mascherato e giustiziere di Paperino
 PAPERINO,Il papero collerico Disney
 PAPERONE,Il papero più ricco del mondo Disney
 PAPI,I capi della Chiesa cattolica
 PAPI,I pontefici romani
 PAPILLON,Cravatta a farfalla da sera
-PAPILLON,Cravattino a farfalla
 PAPILLON,Cravatta corta annodata a farfalla
+PAPILLON,Cravattino a farfalla
+PAPIRI,Antichi supporti scritti ricavati da una pianta
+PAPIRI,Messaggi o documenti eccessivamente lunghi
 PAPIRO,Pianta e antico supporto di scrittura
 PAPPAGALLO,Uccello che imita la voce
 PAPPARDELLE,Larghe strisce di pasta per sughi robusti
@@ -302,24 +344,30 @@ PARABOLA,Antenna concava o racconto esemplare
 PARABOLA,L'antenna...per la tv satellitare
 PARABOLA,Racconto evangelico o antenna tonda
 PARABOLA,Racconto morale o curva matematica
+PARABOLE,Brevi racconti che insegnano attraverso un esempio
+PARABOLE,Curve descritte da particolari equazioni
 PARABREZZA,Vetro davanti al guidatore
 PARACADUTE,Apre un fiore di tela nel vuoto
 PARACADUTE,Frena la caduta dal cielo
 PARACADUTE,Una garanzia di sicurezza in caso di guai
 PARACOLPI,La protezione contro gli urti
 PARADIGMA,Il modello di riferimento condiviso
+PARADISI,Dimore ultraterrene promesse ai giusti
+PARADISI,Luoghi ideali di felicità e pace
 PARADISO,Luogo di felicità e di pace
 PARADOSSO,Verità travestita da assurdo
 PARAFANGO,Protegge la ruota dagli schizzi
 PARAFANGO,Ripara dagli schizzi delle ruote
 PARAFRASI,Ridire un testo con altre parole
-PARAGGI,Zone circostanti a un luogo
 PARAGGI,"Dintorni, in una voce spesso plurale"
+PARAGGI,Zone circostanti a un luogo
 PARAGONABILE,Che può essere messo a confronto
 PARAGONARE,Mettere a confronto per trovare somiglianze
 PARAGONARE,Valutare due cose l'una rispetto all'altra
 PARAGONE,Confronto tra persone o cose
 PARAGONE,Termine usato come riferimento di qualità
+PARAGONI,Accostamenti usati per evidenziare somiglianze e differenze
+PARAGONI,Confronti tra persone o cose
 PARAGUAY,Stato sudamericano senza mare
 PARAI,Bloccai un colpo diretto verso di me
 PARALLASSE,Spostamento apparente dovuto al punto di vista
@@ -329,6 +377,8 @@ PARALLELOGRAMMA,Quadrilatero coi lati opposti paralleli
 PARALUME,Attenua la luce della lampada
 PARALUME,Schermo che copre la lampadina
 PARALUME,Smorza la luce della lampada
+PARALUMI,Coperture decorative poste attorno alle sorgenti luminose
+PARALUMI,Schermi che attenuano la luce delle lampade
 PARAMARIBO,La capitale del Suriname
 PARAMENTO,Il rivestimento esterno di un muro
 PARANA,Fiume sudamericano e Stato brasiliano
@@ -344,6 +394,8 @@ PARARE,Difendersi da un colpo
 PARASPIFFERI,Il rotolo contro gli spifferi
 PARASPIGOLI,La protezione degli angoli vivi
 PARASTA,Pilastro a poco rilievo sul muro
+PARATI,Pronti a reagire o a difendersi
+PARATI,Rivestimenti decorativi applicati ai muri
 PARATO,Fermato prima che raggiungesse il bersaglio
 PARAVENTO,Chi o cosa fa da copertura alle malefatte altrui
 PARAVENTO,Schermo pieghevole divisorio
@@ -364,16 +416,22 @@ PARE,A quanto...: a quanto sembra
 PARE,Sembra o uguaglia
 PARECCHIO,In quantità considerevole
 PARECCHIO,Molto più di quanto sembri
-PARENTE,Persona legata da vincoli familiari
 PARENTE,Non è estraneo alla famiglia
+PARENTE,Persona legata da vincoli familiari
 PARENTESI,Interruzione breve in un'attività
+PARENTI,Persone unite da legami di famiglia
+PARENTI,Termini o concetti che condividono la stessa origine
 PAREO,Telo da spiaggia che si annoda
 PARERE,Giudizio espresso su una questione
 PARERE,Opinione richiesta prima di decidere
+PARERI,Opinioni espresse su una questione
+PARERI,Valutazioni richieste a esperti o consulenti
 PARETE,Muro interno che regge quadri e mensole
 PARETE,Muro interno di una stanza
 PARETE,Muro interno o fianco di montagna
 PARETE,Superficie verticale che divide o chiude un ambiente
+PARETI,Strutture verticali che delimitano gli ambienti
+PARETI,"Superfici laterali di organi, recipienti o cavità"
 PARI,"Il lord, il nobile inglese"
 PARI,Numero divisibile per due
 PARI,Uguale o divisibile per due
@@ -391,11 +449,17 @@ PARLAI,Usai parole a voce
 PARLAMENTARE,Discutere a lungo per raggiungere un accordo
 PARLAMENTARE,Membro eletto di un'assemblea legislativa
 PARLANTE,Capace di esprimersi a voce
-PARLARE,Usare parole a voce
+PARLANTI,Capaci di esprimersi a voce
+PARLANTI,Così somiglianti da sembrare vivi
 PARLARE,Esprimersi usando la voce
 PARLARE,Trattare un argomento a parole
+PARLARE,Usare parole a voce
 PARLATA,Modo di pronunciare tipico di una zona
 PARLATA,Varietà locale di una lingua
+PARLATE,Espresse oralmente anziché per iscritto
+PARLATE,Varietà locali o sociali di una lingua
+PARLATI,Detti invece di essere messi per iscritto
+PARLATI,Espressi con la voce
 PARLATO,Usato parole a voce
 PARLO,Uso parole a voce
 PARMA,Città del prosciutto e del teatro Regio
@@ -403,56 +467,64 @@ PARMIGIANA,Il piatto di melanzane al forno con pomodoro
 PARMIGIANINO,Artista manierista emiliano
 PARMIGIANINO,Pittore manierista emiliano
 PARMIGIANO,Formaggio duro da grattugiare
-PARMIGIANO,Il formaggio da grattugiare sulla pasta
 PARMIGIANO,Formaggio stagionato da grattugia
+PARMIGIANO,Il formaggio da grattugiare sulla pasta
 PAROLA,"La...d'onore, la promessa solenne"
 PAROLA,Prendere la...: intervenire a parlare
-PAROLA,Unità minima del discorso con senso
 PAROLA,Unità del discorso dotata di significato
-PAROLE,Danno forma ai pensieri
+PAROLA,Unità minima del discorso con senso
 PAROLE,Ciò che si pronuncia o si scrive
+PAROLE,Danno forma ai pensieri
 PAROLE,Possono ferire più di un gesto
 PAROLIERE,Scrive testi per canzoni
 PAROSSISMO,Culmine violento di un fenomeno
 PARQUET,Pavimento di legno a listelli
 PARRICIDA,Uccide il padre o tradisce la patria
 PARRUCCA,Capigliatura finta per scena o vanità
-PARRUCCHIERE,Taglia e acconcia i capelli
-PARRUCCHIERE,Professionista di tagli e acconciature
+PARRUCCE,Capigliature artificiali indossate sulla testa
+PARRUCCE,Coperture usate per cambiare aspetto o nascondere la calvizie
 PARRUCCHIERE,"Lavora con forbici, pettine e phon"
+PARRUCCHIERE,Professionista di tagli e acconciature
+PARRUCCHIERE,Taglia e acconcia i capelli
 PARSEC,L'unità astronomica delle grandi distanze
+PARSIMONIA,Economia spinta fino alla cautela
 PARSIMONIA,Risparmio quasi morale
 PARSIMONIA,Uso molto misurato di denaro o risorse
-PARSIMONIA,Economia spinta fino alla cautela
 PARSIMONIOSA,Attenta a non spendere
 PARSIMONIOSE,Attente a non spendere
 PARSIMONIOSI,Attenti a non spendere
 PARSIMONIOSO,Attento a non spendere
 PARTE,Il ruolo recitato da un attore
 PARTE,Si mette in viaggio
-PARTECIPARE,Essere tra coloro che intervengono a un evento
 PARTECIPARE,Comunicare ufficialmente una notizia
-PARTECIPAZIONE,Presenza attiva a un'iniziativa
+PARTECIPARE,Essere tra coloro che intervengono a un evento
 PARTECIPAZIONE,Comunicazione formale di nozze o lutto
+PARTECIPAZIONE,Presenza attiva a un'iniziativa
 PARTENONE,Tempio ateniese di Atena
 PARTENZA,Momento in cui comincia un viaggio
+PARTENZE,"Avvii di gare, viaggi o competizioni"
+PARTENZE,Momenti in cui si lascia un luogo
 PARTI,Antico popolo dell'altopiano iranico
 PARTI,Prendere le... di: schierarsi a favore
-PARTICELLA,Porzione piccolissima di materia
 PARTICELLA,Elemento subatomico come elettrone o protone
-PARTICOLARE,"Non comune, diverso dal solito"
+PARTICELLA,Porzione piccolissima di materia
 PARTICOLARE,Dettaglio specifico di un insieme
+PARTICOLARE,"Non comune, diverso dal solito"
 PARTICOLARITA,Caratteristica che distingue
 PARTICOLARITA,Dettaglio insolito degno di nota
-PARTICOLARMENTE,In modo più marcato del normale
 PARTICOLARMENTE,Con speciale attenzione
+PARTICOLARMENTE,In modo più marcato del normale
 PARTIGIANA,Arma in asta dalla larga lama
 PARTIGIANO,Combattente della Resistenza
 PARTIGIANO,Sostenitore schierato di una parte
-PARTIRE,Mettersi in viaggio
 PARTIRE,Lasciare un luogo per mettersi in viaggio
+PARTIRE,Mettersi in viaggio
 PARTITA,Incontro con punteggio e risultato
 PARTITA,Registrazione contabile su un conto
+PARTITE,"Andate via o cominciate, al femminile"
+PARTITE,Incontri sportivi tra due avversari
+PARTITI,Andati via da un luogo
+PARTITI,Organizzazioni politiche con un programma comune
 PARTITO,Messosi in viaggio
 PARTITURA,Sul leggio del direttore riunisce le voci dell’orchestra
 PARTIZIONE,La divisione del campo di uno stemma
@@ -480,37 +552,49 @@ PASSAI,Andai oltre o trascorrei
 PASSAMANERIA,Nastri e bordi decorativi per abiti e tende
 PASSAMONTAGNA,Copricapo che copre tutto il viso
 PASSANTE,Detto dell'animale che cammina nello stemma
+PASSANTI,Elementi che attraversano qualcosa da parte a parte
+PASSANTI,Persone che transitano lungo una strada
 PASSAPORTO,Il documento per andare all'estero
 PASSARE,Andare oltre o trascorrere
 PASSARE,Attraversare un luogo
 PASSARE,Trascorrere del tempo
-PASSATA,Salsa di pomodoro setacciata
 PASSATA,Movimento rapido di una mano su una superficie
+PASSATA,Salsa di pomodoro setacciata
+PASSATE,Ridotte in purea attraverso un setaccio
+PASSATE,Trascorse e ormai concluse
 PASSATELLI,Pasta romagnola in brodo
-PASSATEMPO,Occupa le ore senza obbligo
 PASSATEMPO,Attività scelta per occupare il tempo libero
+PASSATEMPO,Occupa le ore senza obbligo
 PASSATEMPO,Svago che allontana la noia
+PASSATI,Andati oltre un limite o un luogo
+PASSATI,Appartenenti a un tempo ormai trascorso
 PASSATO,Tempo trascorso e verdura setacciata
-PASSEGGERO,Viaggia ma non guida
 PASSEGGERO,Chi viaggia senza condurre il mezzo
 PASSEGGERO,Destinato a durare poco
+PASSEGGERO,Viaggia ma non guida
 PASSEGGIARE,Camminare per svago
-PASSEGGIATA,Una camminata per svago
 PASSEGGIATA,Giro senza fretta e senza meta obbligata
+PASSEGGIATA,Una camminata per svago
 PASSEGGINO,Carrozzina leggera per bambini
 PASSEGGINO,Si spinge sul marciapiede con un bimbo a bordo
 PASSERELLA,Ponticello per salire a bordo
+PASSERI,Piccoli uccelli comuni nei centri abitati
+PASSERI,Volatili bruni che saltellano sui davanzali
 PASSERO,Uccellino comune dei tetti
 PASSEROTTO,Uccellino comune dei tetti e delle briciole
 PASSI,Autorizzazioni per entrare o transitare
 PASSI,Permessi rilasciati da un'autorità
 PASSINO,Colino fitto da cucina
-PASSINO,Trattiene i residui più minuti
 PASSINO,Si usa per filtrare brodi e salse
+PASSINO,Trattiene i residui più minuti
 PASSIONALE,Guidato da emozioni molto intense
 PASSIONALE,Impulsivo nelle relazioni affettive
-PASSIONE,Sentimento intenso che domina
 PASSIONE,Interesse coltivato con entusiasmo
+PASSIONE,Sentimento intenso che domina
+PASSIONI,Interessi coltivati con grande entusiasmo
+PASSIONI,Sentimenti intensi e coinvolgenti
+PASSIVI,Debiti e obblighi indicati in bilancio
+PASSIVI,Privi di iniziativa o reazione
 PASSIVO,Voce contabile sul lato dei debiti
 PASSO,A due...: a brevissima distanza
 PASSO,"Andatura, valico o brano"
@@ -520,30 +604,36 @@ PASSWORD,La parola d'ordine d'accesso
 PASTA,Dolce monoporzione esposto al banco
 PASTA,"L'indole, il temperamento: di buona..."
 PASTA,Primo piatto italiano
+PASTE,Impasti di farina destinati alla cucina
+PASTE,Piccoli dolci serviti in pasticceria
 PASTELLI,Colorano i disegni dei bambini
 PASTELLO,Matita colorata morbida
 PASTERNAK,Autore del Dottor Zivago
 PASTERNAK,Scrittore del Dottor Zivago
 PASTEUR,Il Louis dei vaccini e della pastorizzazione
+PASTI,Insiemi di vivande consumati a tavola
+PASTI,Occasioni quotidiane in cui si mangia
 PASTICCERE,Prepara torte e dolci
-PASTICCERIA,Negozio di dolci e paste
 PASTICCERIA,"Ha vetrine piene di creme, bignè e crostate"
+PASTICCERIA,Negozio di dolci e paste
 PASTICCIERE,Prepara dolci e torte
 PASTICCINO,Piccolo dolce da vassoio
 PASTICCIO,Errore confuso o torta salata
 PASTICCIO,Guazzabuglio o piatto al forno
 PASTICCIO,Situazione confusa difficile da risolvere
-PASTIGLIA,Piccola compressa da prendere
 PASTIGLIA,Compressa medicinale da ingerire
+PASTIGLIA,Piccola compressa da prendere
 PASTIGLIA,Piccola dose solida di un farmaco
 PASTINACA,Radice bianca simile alla carota
 PASTO,Cibo consumato a un'ora stabilita
 PASTO,Pranzo o cena nel loro insieme
 PASTORALE,Bastone ricurvo del vescovo
 PASTORE,...tedesco: la razza di cane
-PASTORE,Tiene unito il gregge durante il pascolo
 PASTORE,Può avere pecore oppure fedeli affidati alle sue cure
 PASTORE,Religioso che guida una comunità cristiana
+PASTORE,Tiene unito il gregge durante il pascolo
+PASTORI,Custodi di greggi e mandrie
+PASTORI,Guide religiose di una comunità
 PATAGONIA,Regione del sud argentino
 PATATA,...bollente: una questione scomoda
 PATATA,"Tubero che finisce fritto, lesso o al forno"
@@ -552,18 +642,26 @@ PATATE,Tuberi da forno o da purè
 PATEK,"La marca svizzera di orologi di altissima gamma, ...Philippe"
 PATELLA,"La...del ginocchio, la rotula"
 PATELLA,Mollusco a conchiglia conica degli scogli
+PATELLE,Molluschi aderenti agli scogli con conchiglia conica
+PATELLE,Ossa anteriori delle ginocchia
 PATENTE,Documento che autorizza a guidare
 PATENTE,Evidente al punto da non poter essere negato
+PATENTI,Documenti che autorizzano alla guida
+PATENTI,Evidenti e riconoscibili senza dubbi
 PATER,Padre latino
-PATERNO,Proprio del padre
 PATERNO,Affettuoso e protettivo come un padre
+PATERNO,Proprio del padre
 PATIBOLO,Luogo dell'esecuzione capitale
 PATIBOLO,Luogo dove la pena diventa spettacolo
 PATIBOLO,Vi saliva il condannato nelle esecuzioni pubbliche
 PATINA,Velo del tempo su metalli e quadri
+PATINE,Sottili strati che ricoprono una superficie
+PATINE,Velature lasciate dal tempo su metalli e dipinti
 PATIO,Cortile spagnolo entrato nelle case
-PATIO,Spazio scoperto raccolto nel cuore della casa
 PATIO,Spazio aperto pavimentato accanto alla casa
+PATIO,Spazio scoperto raccolto nel cuore della casa
+PATITI,Appassionati molto competenti di un argomento
+PATITI,Sofferti o sopportati nel passato
 PATITO,Appassionato quasi ossessivo di qualcosa
 PATITO,Frequentatore assiduo e competente
 PATMOS,Isola dell'Apocalisse
@@ -571,18 +669,22 @@ PATOLOGIA,Lo studio delle malattie
 PATRIA,Terra d’origine di un popolo
 PATRICIA,Il nome della scrittrice gialla Highsmith
 PATRICK,Il nome dell'attore Swayze
+PATRIE,Paesi considerati come casa comune di un popolo
+PATRIE,Terre d'origine a cui ci si sente legati
 PATRIMONIO,Insieme dei beni posseduti
 PATRIMONIO,Ricchezza trasmessa o accumulata
 PATRIOTTISMO,Attaccamento profondo alla propria nazione
 PATRISTICA,Pensiero dei Padri della Chiesa
-PATRIZIO,Il patrono dell'Irlanda
 PATRIZIO,Appartenente all'antica aristocrazia romana
+PATRIZIO,Il patrono dell'Irlanda
 PATRIZIO,Nobile di nascita in una città storica
-PATROCINIO,Sostegno ufficiale concesso a un'iniziativa
 PATROCINIO,Protezione accordata da un ente autorevole
+PATROCINIO,Sostegno ufficiale concesso a un'iniziativa
 PATROCLO,L'amico di Achille a Troia
-PATRONATO,Ente che assiste cittadini in pratiche previdenziali
 PATRONATO,Diritto storico di protezione e nomina
+PATRONATO,Ente che assiste cittadini in pratiche previdenziali
+PATTI,Accordi stretti tra due o più parti
+PATTI,Impegni reciproci da rispettare
 PATTINA,Scivola sul ghiaccio con lame ai piedi
 PATTINAGGIO,Sport che si pratica sui pattini
 PATTINARE,Scivolare su pattini
@@ -591,8 +693,8 @@ PATTINI,Scorrono sul ghiaccio o sull'asfalto
 PATTINO,"Scivola su ghiaccio, ruote o acqua"
 PATTINO,Scivola sul ghiaccio o sull'acqua
 PATTO,A...che: a condizione che
-PATTO,"L'accordo solenne, l'intesa giurata"
 PATTO,Accordo che impegna le parti
+PATTO,"L'accordo solenne, l'intesa giurata"
 PATTUGLIA,Piccolo gruppo in servizio di controllo
 PATTUMIERA,Contenitore per i rifiuti
 PAUL,Il nome del Beatle McCartney
@@ -600,11 +702,15 @@ PAUL,Il polpo che predisse i Mondiali 2010
 PAURA,Emozione che stringe prima del pericolo
 PAURA,Emozione davanti a un pericolo reale o immaginato
 PAURA,Fa accelerare il cuore e cercare una via di fuga
-PAUROSO,Che prova facilmente timore
+PAURE,Sensazioni provocate da un pericolo reale o immaginato
+PAURE,Timori che possono frenare una decisione
 PAUROSO,Capace di incutere terrore
+PAUROSO,Che prova facilmente timore
+PAUSA,Breve interruzione tra due attività
 PAUSA,Il segno di silenzio nello spartito
 PAUSA,Intervallo in cui il tempo respira
-PAUSA,Breve interruzione tra due attività
+PAUSE,Brevi silenzi nel discorso o nella musica
+PAUSE,Interruzioni temporanee di un'attività
 PAUSINI,La Laura cantante romagnola
 PAVAROTTI,Il tenore modenese del do di petto
 PAVESE,Il Cesare della Luna e i falò
@@ -623,16 +729,22 @@ PAYPAL,Il servizio di pagamenti online
 PAZ,Autore di versi messicano premio Nobel
 PAZ,"Pace, in spagnolo"
 PAZ,Poeta messicano premio Nobel
-PAZIENTE,Persona affidata alle cure di un medico
 PAZIENTE,Capace di attendere senza irritarsi
+PAZIENTE,Persona affidata alle cure di un medico
+PAZIENTI,Capaci di aspettare senza irritarsi
+PAZIENTI,Persone sottoposte a cure mediche
+PAZIENZA,Capacità di sopportare contrattempi
 PAZIENZA,La virtù di chi sa aspettare
 PAZIENZA,Virtù necessaria nelle lunghe attese
-PAZIENZA,Capacità di sopportare contrattempi
 PAZZESCO,Incredibile per intensità o stranezza
 PAZZESCO,Talmente eccessivo da sembrare folle
+PAZZI,Privi di equilibrio mentale
+PAZZI,Sconsiderati al punto da rischiare troppo
+PAZZIA,Gesto tanto azzardato da sembrare insensato
 PAZZIA,L'atto insensato da matti
 PAZZIA,Perdita grave del contatto con la realtà
-PAZZIA,Gesto tanto azzardato da sembrare insensato
+PAZZIE,Azioni prive di prudenza o razionalità
+PAZZIE,Eccessi compiuti per entusiasmo o impulso
 PAZZO,Fuori di senno
 PAZZO,Talmente imprudente da sfidare ogni logica
 PB,Iniziali della scrittrice Buck
@@ -645,9 +757,11 @@ PD,Simbolo chimico del palladio
 PE,Sigla automobilistica di Pescara
 PECCA,"Il difetto, la magagna"
 PECCAI,Commisi una colpa morale
-PECCATO,Trasgressione di una norma religiosa
+PECCATI,Mancanze contro una norma morale o religiosa
+PECCATI,Piaceri proibiti a cui è difficile rinunciare
 PECCATO,Colpa morale di cui ci si pente
 PECCATO,Esclamazione davanti a un'occasione perduta
+PECCATO,Trasgressione di una norma religiosa
 PECE,Nera e appiccicosa da calafati
 PECE,Nero come la...: scurissimo
 PECENEGHI,Popolo nomade delle steppe medievali
@@ -658,47 +772,61 @@ PECORA,Quella nera è la vergogna della famiglia
 PECORE,Belano nei pascoli
 PECORELLA,Animale docile da presepe e pascolo
 PECORELLA,Quella smarrita viene cercata nella parabola evangelica
+PECORINI,Formaggi prodotti con latte ovino
+PECORINI,Si grattugiano spesso su paste e zuppe
 PECORINO,Da tavola o da grattugia secondo la stagionatura
 PECORINO,Formaggio di latte ovino
 PECTINA,Addensante naturale delle marmellate
 PECULATO,Reato di chi si appropria di denaro pubblico affidato al proprio ufficio
-PECULIARE,Tipico e distintivo di qualcuno o qualcosa
 PECULIARE,Inconfondibile perché caratteristico
+PECULIARE,Tipico e distintivo di qualcuno o qualcosa
 PECULIARITA,Caratteristica insolita e distintiva
 PECULIARITA,Tratto che rende riconoscibile
 PEDALE,Lo spinge il ciclista e il pianista
 PEDALE,Trasmette alla ruota la forza della gamba
+PEDALI,"Comandi presenti su biciclette, pianoforti e automobili"
+PEDALI,Leve azionate con i piedi
 PEDALO,Lo spinge il piede sulla bici o al piano
-PEDANA,La piattaforma rialzata
-PEDANA,Solleva dal pavimento chi vi sale
-PEDANA,Può servire a un atleta o a un conferenziere
 PEDANA,Fa guadagnare altezza senza costruire un piano
-PEDANTE,Meticoloso e noioso nei dettagli
-PEDANTE,Eccessivamente preciso nel correggere gli altri
+PEDANA,La piattaforma rialzata
+PEDANA,Può servire a un atleta o a un conferenziere
+PEDANA,Solleva dal pavimento chi vi sale
+PEDANE,Basi usate negli esercizi di ginnastica
+PEDANE,Piattaforme rialzate per persone o merci
 PEDANTE,Che ostenta erudizione con noiosa minuzia
+PEDANTE,Eccessivamente preciso nel correggere gli altri
+PEDANTE,Meticoloso e noioso nei dettagli
+PEDANTI,Eccessivamente attenti a regole e dettagli
+PEDANTI,Noiosi per precisione e formalismo
 PEDIATRIA,La medicina dei bambini
 PEDILUVIO,Bagno ristretto ai piedi stanchi
 PEDINA,Essere una...: un semplice strumento in mani altrui
 PEDINA,Piccolo pezzo che può decidere la partita
+PEDINE,Persone manovrate da altri
+PEDINE,Piccoli pezzi mossi su una scacchiera
 PEDISSEQUO,Segue troppo fedelmente
 PEDRO,Il nome del regista spagnolo Almodóvar
 PEDUCCIO,Mensola da cui parte un arco
 PEDUNCOLO,Piccolo gambo di fiore o frutto
 PEGASO,Cavallo alato nato dal sangue di Medusa
 PEGASO,Il cavallo alato fra le costellazioni
-PEGGIORAMENTO,Evoluzione verso condizioni meno favorevoli
 PEGGIORAMENTO,Declino rispetto alla situazione precedente
+PEGGIORAMENTO,Evoluzione verso condizioni meno favorevoli
 PEGGIORARE,Rendere o diventare meno favorevole
 PEGGY,Il nome della collezionista d'arte Guggenheim
+PEGNI,Beni lasciati a garanzia di un debito
+PEGNI,Doni che testimoniano una promessa o un affetto
 PEGNO,Garanzia lasciata in cambio
 PEGNO,Oggetto lasciato come garanzia
 PEGNO,Segno concreto di una promessa
 PELAGIE,Arcipelago siciliano più a sud
 PELAGO,Mare vasto in parola poetica
-PELAPATATE,Toglie la buccia ai tuberi
 PELAPATATE,Ha una lama corta che asporta bucce sottili
+PELAPATATE,Toglie la buccia ai tuberi
 PELARE,"Spennare, o spillare quattrini"
 PELE,Il re brasiliano del calcio
+PELI,Fibre minute che ricoprono certe superfici
+PELI,Sottili filamenti che crescono sulla pelle
 PELLE,Avere la...d'oca: rabbrividire
 PELLE,Confine sensibile del corpo
 PELLE,Il cuoio conciato delle borse
@@ -710,14 +838,14 @@ PELLICANI,Pescano con una grande sacca
 PELLICANO,Uccello dal grande becco a sacca
 PELLICANO,Usa una sacca golare per raccogliere il cibo
 PELLICCIA,Abito caldo e questione etica
-PELLICCIA,Manto folto di un animale
 PELLICCIA,Indumento confezionato con pelo animale
+PELLICCIA,Manto folto di un animale
 PELLICCIAIO,Artigiano che lavora pelli con il pelo
 PELLICOLA,Sottile strato flessibile
 PELO,Cercarlo nell'uovo è cavillare
+PELO,Filamento che cresce sulla pelle
 PELO,Può stare sull'animale o sullo stomaco
 PELO,Un soffio: salvarsi per un...
-PELO,Filamento che cresce sulla pelle
 PELOPONNESO,La penisola del sud della Grecia
 PELTRO,Lega di stagno per stoviglie antiche
 PELUCHE,Animale morbido da abbracciare
@@ -727,19 +855,29 @@ PENA,La condanna inflitta dal giudice
 PENA,Sofferenza che suscita compassione
 PENAI,Soffrii a lungo per una difficoltà
 PENALE,Relativo ai reati e alle relative sanzioni
+PENALI,Clausole che impongono un pagamento per l'inadempienza
+PENALI,Relativi ai reati e alle loro sanzioni
 PENATO,Ottenuto o compiuto con grande fatica
 PENDAGLIO,Gioiello che scende da collana o orecchio
 PENDAGLIO,Ornamento sospeso
-PENDENTE,Ornamento sospeso a una collana
-PENDENTE,La torre...di Pisa
 PENDENTE,Gioiello sospeso a una collana
+PENDENTE,La torre...di Pisa
+PENDENTE,Ornamento sospeso a una collana
+PENDENTI,Questioni ancora aperte e non risolte
+PENDENTI,Sospesi verso il basso
 PENDENZA,Inclinazione di una superficie
 PENDENZA,Questione ancora in attesa di soluzione
+PENDENZE,Debiti o controversie ancora da chiudere
+PENDENZE,Inclinazioni di terreni o superfici
+PENDII,Discese naturali di colline e montagne
+PENDII,Terreni inclinati lungo un fianco
 PENDIO,Fianco inclinato di un monte
+PENDIO,"Può essere erboso, roccioso o innevato"
 PENDIO,Richiede più fatica in salita che in discesa
 PENDIO,Superficie naturale non orizzontale
-PENDIO,"Può essere erboso, roccioso o innevato"
 PENDOLA,Orologio da muro con oscillatore
+PENDOLE,Corpi sospesi che si muovono avanti e indietro
+PENDOLE,Orologi alti regolati da una massa oscillante
 PENDULA,Che penzola
 PENDULE,Che penzolano
 PENDULI,Che penzolano
@@ -750,6 +888,8 @@ PENELOPE,"...Cruz, l'attrice spagnola"
 PENELOPE,Tesseva di giorno e disfaceva di notte
 PENETRARE,Entrare in profondità attraversando una barriera
 PENISOLA,Terra quasi circondata dal mare
+PENISOLE,Promontori molto estesi uniti al continente
+PENISOLE,Terre circondate dall'acqua su quasi tutti i lati
 PENITENZA,Espiazione imposta dopo una colpa
 PENITENZIARIO,Istituto destinato alla detenzione
 PENITENZIARIO,Riguarda strutture e norme della detenzione
@@ -763,24 +903,34 @@ PENNARELLO,Colora con punta di feltro
 PENNARELLO,Scrive con punta di feltro
 PENNE,Le piume degli uccelli
 PENNE,Pasta corta a punta obliqua
+PENNELLI,Applicatori morbidi per vernici e cosmetici
+PENNELLI,Utensili con setole usati per dipingere
 PENNELLO,Porta il colore dalla mano alla tela
 PENNELLO,Stare a...: calzare a perfezione
 PENNELLO,Stende colore sulle superfici
 PENNELLO,Strumento del pittore
 PENNETTA,"Flavia, azzurra vincitrice degli US Open 2015"
+PENNINI,Parti terminali delle penne stilografiche
+PENNINI,Punte metalliche con cui si scrive a inchiostro
 PENNINO,Punta metallica da scrittura
 PENO,Soffro a lungo
 PENOMBRA,Luce che non osa essere luce
+PENOSI,Dolorosi e difficili da sopportare
+PENOSI,Miseri al punto da suscitare compassione
 PENOSO,Che provoca sofferenza o imbarazzo
 PENSA,Lavora con la mente
 PENSAI,Lavorai con la mente
+PENSARE,Formarsi un'opinione
 PENSARE,Lavorare con la mente
 PENSARE,Usare la mente per riflettere
-PENSARE,Formarsi un'opinione
+PENSATI,Considerati con attenzione prima di agire
+PENSATI,Ideati dopo una riflessione
 PENSATO,Lavorato con la mente
+PENSIERI,Idee presenti nella mente
+PENSIERI,Preoccupazioni che non lasciano tranquilli
+PENSIERO,Attività della mente
 PENSIERO,Cosa invisibile che pesa
 PENSIERO,Idea che passa per la mente
-PENSIERO,Attività della mente
 PENSILINA,Riparo alla fermata del bus
 PENSIONAMENTO,Uscita dal lavoro al termine della carriera
 PENSO,Lavoro con la mente
@@ -792,13 +942,17 @@ PENTACOLO,Stella a cinque punte da simboli magici
 PENTAGRAMMA,Cinque linee per scrivere musica
 PENTAGRAMMA,Le cinque righe della scrittura musicale
 PENTATHLON,Disciplina olimpica in cinque prove
-PENTIMENTO,Il rimorso per ciò che si è fatto
 PENTIMENTO,Arriva quando si vorrebbe tornare indietro
+PENTIMENTO,Il rimorso per ciò che si è fatto
 PENTIMENTO,Può spingere a chiedere scusa
 PENTOLA,Accoglie zuppe e bollori sul fuoco
 PENTOLA,Recipiente per cucinare
+PENTOLE,Recipienti da cucina con bordi alti
+PENTOLE,Si mettono sul fuoco per cuocere minestre e sughi
 PENURIA,Grave scarsità di beni necessari
 PENURIA,Mancanza che costringe a rinunce
+PENURIE,Gravi scarsità di beni necessari
+PENURIE,Periodi in cui manca ciò che serve
 PENZOLO,Sta appeso muovendosi appena
 PEONIA,Fiore primaverile grande e profumato
 PEPE,Avere il...addosso: essere arzilli e vivaci
@@ -810,6 +964,8 @@ PEPERONCINO,Spezia piccante della cucina calabrese
 PEPERONE,Ortaggio dolce o piccante
 PEPERONE,"Ortaggio rosso, giallo o verde"
 PEPERONE,Rosso come un...: per la vergogna
+PEPERONI,"Frutti usati arrostiti, ripieni o in insalata"
+PEPERONI,"Ortaggi carnosi verdi, gialli o rossi"
 PEPITA,Oro ancora rozzo
 PEPITE,"Le... di pollo, bocconcini fritti"
 PEPPINO,"...De Filippo, l'attore comico"
@@ -822,8 +978,8 @@ PERA,Frutto con forma da lampadina
 PERA,Il frutto dolce e succoso da tavola
 PERALTRO,Introduce un'aggiunta o una precisazione
 PERCALLE,Tessuto di cotone fitto e liscio
-PERCENTUALE,Rapporto espresso su cento
 PERCENTUALE,Parte di una proprietà
+PERCENTUALE,Rapporto espresso su cento
 PERCEPIRE,Cogliere attraverso i sensi
 PERCEPIRE,Ricevere una somma o un compenso
 PERCEVAL,Cavaliere della cerca del Graal
@@ -833,69 +989,89 @@ PERCORRERE,Andare da un'estremità all'altra
 PERCORRERE,Coprire una distanza in movimento
 PERCORRIBILE,Che può essere attraversato senza ostacoli
 PERCORSE,Attraversò la via
-PERCORSO,Itinerario tra un punto di partenza e uno d'arrivo
 PERCORSO,Cammino seguito in senso reale o figurato
+PERCORSO,Itinerario tra un punto di partenza e uno d'arrivo
 PERCOSSE,Colpì con violenza
 PERDENTE,Destinato alla sconfitta
-PERDERSI,Non trovare più la strada
+PERDENTI,Destinati a ottenere un risultato sfavorevole
+PERDENTI,Sconfitti in una gara o in uno scontro
 PERDERSI,Lasciarsi assorbire completamente
+PERDERSI,Non trovare più la strada
 PERDITA,Fuoriuscita da un tubo o recipiente
 PERDITA,Mancanza dolorosa di ciò che si aveva
+PERDITE,"Diminuzioni di denaro, beni o valore"
+PERDITE,"Fuoriuscite da tubi, serbatoi o impianti"
 PERDIZIONE,Rovina morale o amore fatale
-PERDONARE,Rinunciare al risentimento
 PERDONARE,Non esigere la punizione di una colpa
+PERDONARE,Rinunciare al risentimento
+PERE,Danno nome a oggetti più larghi in basso
+PERE,Frutti dolci dalla forma allungata
 PERENNE,Che dura oltre la stagione
+PERENNI,Destinati a durare per molti anni
+PERENNI,Piante che sopravvivono a più stagioni
 PERENTORI,Che non ammettono replica
 PERENTORIA,Che non ammette replica
 PERENTORIE,Che non ammettono replica
 PERENTORIO,Non ammette repliche né rinvii
 PERFETTAMENTE,Senza errori o difetti
-PERFEZIONARE,Migliorare fino a rendere più completo
 PERFEZIONARE,Concludere formalmente un accordo
+PERFEZIONARE,Migliorare fino a rendere più completo
 PERFEZIONE,Condizione priva di difetti
+PERFIDI,Crudeli con inganno e doppiezza
+PERFIDI,Sleali e pronti al tradimento
 PERFIDO,Malvagio e sleale
-PERFINO,Introduce un elemento inatteso
 PERFINO,"Addirittura, in forma enfatica"
+PERFINO,Introduce un elemento inatteso
 PERFORAZIONE,Apertura ottenuta praticando un foro
 PERFORAZIONE,Scavo profondo per raggiungere una risorsa
-PERFORMANCE,Risultato ottenuto in una prova
 PERFORMANCE,Esibizione artistica davanti al pubblico
+PERFORMANCE,Risultato ottenuto in una prova
 PERGAMENA,Antico supporto per scritti solenni
-PERGAMENA,Sostituì il papiro in molti manoscritti medievali
 PERGAMENA,Conserva testi antichi su materiale animale conciato
+PERGAMENA,Sostituì il papiro in molti manoscritti medievali
 PERGAMO,Antica città dell'Asia Minore dal grande altare
 PERGOLA,Sostegno ombroso per piante rampicanti
 PERGOLA,Struttura coperta da piante rampicanti
+PERGOLE,Sostegni ombreggiati per viti e glicini
+PERGOLE,Strutture da giardino coperte da rampicanti
 PERGOLESI,Il Giovan Battista dello Stabat Mater
 PERICLE,Lo statista dell'Atene classica
+PERICOLI,Minacce da riconoscere ed evitare
+PERICOLI,Situazioni che possono causare danni
 PERICOLO,Situazione che può provocare un danno
 PERIDOTO,Pietra preziosa verde oliva
 PERIELIO,Punto dell'orbita più vicino al Sole
-PERIFERIA,Zona esterna di una città
 PERIFERIA,Margine lontano dal centro
+PERIFERIA,Zona esterna di una città
 PERIFRASI,Il giro di parole per dire una cosa
 PERIMETRO,La misura del contorno di una figura
-PERIODO,Un momento nella storia di una cultura definibile nello spazio e nel tempo
+PERIODI,Insiemi di proposizioni conclusi da un segno forte
+PERIODI,Intervalli di tempo più o meno lunghi
 PERIODO,Intervallo di tempo con caratteristiche proprie
+PERIODO,Un momento nella storia di una cultura definibile nello spazio e nel tempo
 PERIPLO,Navigazione intorno a coste
 PERISCOPIO,Fa vedere fuori dal sommergibile
 PERISCOPIO,Occhio del sommergibile sopra la superficie
 PERISTASI,Il colonnato esterno del tempio
 PERISTILIO,Cortile colonnato delle case antiche
+PERITI,Esperti incaricati di una valutazione tecnica
+PERITI,Morti in un incidente o in una calamità
 PERITO,Esperto che stima danni e valori
 PERITO,"Morto, deceduto"
 PERITO,Una persona abile nel fare qualcosa
 PERITONITE,Grave infiammazione della membrana che riveste l’addome
 PERIZIA,Abilità acquisita con pratica ed esperienza
 PERIZIA,Valutazione tecnica redatta da un esperto
+PERIZIE,Abilità notevoli nell'eseguire qualcosa
+PERIZIE,Valutazioni tecniche redatte da esperti
 PERLA,Gioiello nato nell'ostrica
 PERLA,"L'errore clamoroso, lo strafalcione"
 PERLA,La cosa rara e preziosa
 PERLA,Nasce nascosta in una conchiglia
 PERLAGE,Bollicine fini di uno spumante
 PERLE,Brillano in collane eleganti
-PERLOPIU,Nella maggior parte dei casi
 PERLOPIU,"Generalmente, con poche eccezioni"
+PERLOPIU,Nella maggior parte dei casi
 PERMAFROST,Suolo perennemente gelato
 PERMALOSA,Facile a offendersi
 PERMALOSE,Facili a offendersi
@@ -905,25 +1081,31 @@ PERMANENTE,Destinato a durare stabilmente
 PERMANENTE,Non temporaneo
 PERMANENTEMENTE,In modo stabile e senza scadenza
 PERMANENTEMENTE,Per sempre o per lungo tempo
+PERMESSI,Assenze dal lavoro approvate in anticipo
+PERMESSI,Autorizzazioni concesse da chi ne ha facoltà
 PERMESSO,Autorizzazione concessa da chi può decidere
 PERMESSO,Documento che consente un'attività
 PERMETTERE,Autorizzare qualcuno ad agire
 PERMETTERE,Concedere la possibilità di fare qualcosa
+PERNI,Elementi attorno a cui ruota un meccanismo
+PERNI,Persone centrali per il funzionamento di un gruppo
 PERNICE,Uccello di montagna dalla carne pregiata
+PERNICI,Selvaggina piumata dal volo breve e rapido
+PERNICI,Uccelli di campagna simili alle quaglie
 PERNO,Il fulcro attorno a cui tutto ruota
-PERNO,Piccolo asse che consente il movimento
 PERNO,Persona da cui dipende l’equilibrio di un gruppo
+PERNO,Piccolo asse che consente il movimento
 PERO,Albero che porta un frutto a campana
 PERO,"Ma, tuttavia, con l'accento"
 PERONE,Osso esterno della gamba
 PERONI,La storica birra italiana
 PERORAZIONE,Discorso finale per convincere
-PERPETUO,Destinato a non avere fine
 PERPETUO,Continuo e senza interruzioni
+PERPETUO,Destinato a non avere fine
 PERRY,Il nome dell'avvocato Mason dei telefilm
 PERSE,Smarrì la strada
-PERSEFONE,Regina degli Inferi per parte dell'anno
 PERSEFONE,Regina degli inferi e figlia delle messi
+PERSEFONE,Regina degli Inferi per parte dell'anno
 PERSEIDI,Le stelle cadenti d'agosto
 PERSEO,Eroe celeste vicino ad Andromeda
 PERSEO,"Il...di Cellini, statua a Firenze"
@@ -933,22 +1115,28 @@ PERSEVERANCE,Il rover NASA atterrato su Marte nel 2021
 PERSEVERANZA,Costanza nel perseguire un obiettivo
 PERSEVERARE,Continuare nonostante difficoltà e ostacoli
 PERSEVERARE,Insistere senza lasciarsi scoraggiare
+PERSI,Non più ritrovabili
+PERSI,Sconfitti o sprecati senza risultato
 PERSIANA,Chiude la finestra lasciando passare un filo d'aria
 PERSIANA,L'imposta a stecche orientabili
 PERSIANA,Regola luce e aria senza spalancare l’infisso
+PERSIANE,Donne originarie dell'antico Iran
+PERSIANE,Imposte a stecche poste davanti alle finestre
+PERSIANI,Popolo dell'antico e moderno Iran
+PERSIANI,Tappeti orientali rinomati per disegni e colori
 PERSIANO,Il gatto dal muso schiacciato e pelo lungo
 PERSIANO,Originario dell'antico Iran
 PERSICO,Il Golfo...tra Iran e Arabia
 PERSICO,Pesce d'acqua dolce molto apprezzato
-PERSINO,Introduce ciò che sorprende maggiormente
 PERSINO,Addirittura
+PERSINO,Introduce ciò che sorprende maggiormente
 PERSISTENTE,Che continua a lungo senza attenuarsi
 PERSISTENTE,Tenace e difficile da eliminare
 PERSISTENZA,Durata ostinata di un fenomeno
 PERSONAGGIO,Agisce dentro una storia inventata
 PERSONAGGIO,Individuo noto per fama o singolarità
-PERSONALE,Non condiviso né collettivo
 PERSONALE,Insieme dei dipendenti di un'organizzazione
+PERSONALE,Non condiviso né collettivo
 PERSONALITA,Figura autorevole che spicca nel proprio ambito
 PERSONALITA,Insieme dei tratti che distinguono un individuo
 PERSUADERE,Convincere con ragionamenti o parole
@@ -957,15 +1145,19 @@ PERSUASIONE,Convinzione profonda maturata interiormente
 PERTH,Città dell'Australia occidentale
 PERTICA,Asta lunga da ginnasti e contadini
 PERTICA,Asta lunga da salti e misure
+PERTICHE,Antiche unità usate per misurare terreni
+PERTICHE,Lunghe aste di legno
 PERTINACE,Tenace fino all'ostinazione
 PERTINACI,Tenaci fino all'ostinazione
-PERTINENTE,Attinente all'argomento trattato
 PERTINENTE,Appropriato alla questione
+PERTINENTE,Attinente all'argomento trattato
 PERTINENZA,Legame diretto con il tema in esame
 PERTINI,Il Sandro presidente partigiano
 PERTUGIO,Piccola apertura da cui passare a fatica
 PERU,Paese di Machu Picchu
 PERUGIA,Città umbra dell'Umbria Jazz
+PERUGINI,Abitanti del capoluogo umbro
+PERUGINI,Relativi alla città affacciata sulla valle del Tevere
 PERUGINO,Il pittore umbro maestro di Raffaello
 PERUZZI,"Angelo, portiere di Juventus e Lazio"
 PERVERSO,Moralmente deviato o maligno
@@ -976,13 +1168,17 @@ PERVICACI,Ostinati nel volere
 PERVIE,Accessibili o aperte
 PERVIO,Accessibile o aperto
 PESA,Impianto che misura il carico dei camion
-PESA,Misura il peso o grava
 PESA,Misura il peso di merci o persone
+PESA,Misura il peso o grava
 PESAI,Misurai il peso o gravai
 PESANTE,Di grande peso
 PESANTE,Difficile da sopportare
+PESANTI,Dotati di grande peso
+PESANTI,"Faticosi, oppressivi o difficili da sopportare"
 PESARE,Gravare: la sua assenza si fa...
 PESARE,Misurare il peso o gravare
+PESATI,Misurati con una bilancia
+PESATI,Valutati tenendo conto della loro importanza
 PESATO,Misurato il peso o gravato
 PESCA,Frutto o attività con lenza
 PESCA,L'attività di chi va con la lenza
@@ -1003,16 +1199,20 @@ PESCHE,Frutti vellutati dell'estate
 PESCHERIA,"Banco di mare, ghiaccio e squame"
 PESCHETO,Frutteto che produce frutti vellutati
 PESCHETO,Frutteto di alberi dalla polpa vellutata
+PESCHI,Alberi che producono frutti vellutati
+PESCHI,Catturi animali acquatici con lenza o rete
 PESCI,Segno zodiacale e costellazione
 PESCIOLINO,Piccolo abitante dell'acquario
 PESCIVENDOLO,Vende pesce al mercato
-PESCO,"Uso amo, filo e galleggiante"
 PESCO,Sono impegnato con lenza o rete
+PESCO,"Uso amo, filo e galleggiante"
 PESHAWAR,Città del Pakistan vicino al Khyber
+PESI,Carichi o responsabilità che gravano su qualcuno
+PESI,Masse misurate con una bilancia
+PESO,Forza con cui un corpo è attratto verso il basso
 PESO,"Il fardello, l'onere che grava"
 PESO,La moneta di tanti Paesi latinoamericani
 PESO,Lo sente chi porta o chi misura
-PESO,Forza con cui un corpo è attratto verso il basso
 PESSIMISMO,Il vedere sempre tutto nero
 PESSIMISTA,Tende a prevedere l'esito peggiore
 PESSOA,Autore di versi portoghese degli eteronimi
@@ -1021,9 +1221,9 @@ PESTAGGIO,Aggressione compiuta con ripetuti colpi
 PESTAGGIO,Percosse inferte da più persone
 PESTARE,Schiacciare battendo con forza
 PESTARE,Schiacciare con i piedi
+PESTE,Epidemia storica trasmessa anche dalle pulci
 PESTE,"Il bambino terribile, la piccola canaglia"
 PESTE,Morbo storico oppure persona piccola e insopportabile
-PESTE,Epidemia storica trasmessa anche dalle pulci
 PESTO,La salsa genovese di basilico e pinoli
 PESTO,Ridotto in poltiglia a colpi
 PETALI,Colorano la corolla
@@ -1032,8 +1232,8 @@ PETALO,Ognuno dei delicati lembi colorati del fiore
 PETE,Il nome del tennista Sampras
 PETER,"...Parker, l'identità di Spider-Man"
 PETER,Il nome del bimbo che non vuole crescere
-PETIZIONE,Richiesta sottoscritta da molte persone
 PETIZIONE,Documento collettivo rivolto a un'autorità
+PETIZIONE,Richiesta sottoscritta da molte persone
 PETRA,La città nabatea scavata nella roccia
 PETRARCA,Il Francesco del Canzoniere
 PETRARCA,Poeta di Laura e del Canzoniere
@@ -1041,33 +1241,45 @@ PETRICORE,Odore della pioggia sulla terra asciutta
 PETROGLIFO,Segno inciso sulla roccia
 PETROLIO,Miscela fossile da cui si ricavano carburanti
 PETRONAS,Le torri gemelle di Kuala Lumpur
+PETTI,Parti anteriori del torace
+PETTI,Tagli carnosi di pollame serviti in cucina
 PETTINA,Mette in ordine i capelli
 PETTINAI,Misi in ordine i capelli
 PETTINARE,Mettere in ordine i capelli
 PETTINATO,Con i capelli messi in ordine
 PETTINE,I nodi vengono al...: i problemi emergono
 PETTINE,Strumento per mettere in ordine i capelli
+PETTINI,Serie di denti presenti in macchine e telai
+PETTINI,Utensili dentati per ordinare i capelli
 PETTINO,Metto in ordine i capelli
 PETTIROSSO,Uccellino con una macchia color fuoco
 PETTIROSSO,Uccellino dal petto aranciato
 PETTO,La parte bianca e magra del pollo
 PETTO,Parte anteriore che si gonfia d'orgoglio
-PETTO,Prendere di...: affrontare con decisione
 PETTO,Parte anteriore del torace
+PETTO,Prendere di...: affrontare con decisione
 PETTORINA,Imbracatura leggera per cani
 PETTY,Il Tom del rock americano
 PETULANTE,Insistente e molesto
 PETULANTI,Insistenti e molesti
 PETUNIA,Fiore da balcone a imbuto
-PEZZA,Toppa applicata per coprire uno strappo
+PETUNIE,Colorano balconi e aiuole per tutta l'estate
+PETUNIE,Piante ornamentali dai fiori a imbuto
 PEZZA,Soluzione improvvisata a un problema
+PEZZA,Toppa applicata per coprire uno strappo
+PEZZE,Rimedi improvvisati a un problema
+PEZZE,Ritagli di stoffa usati per riparare
+PEZZETTI,Frammenti di piccole dimensioni
+PEZZETTI,Porzioni minute ottenute tagliando qualcosa
 PEZZETTINO,Frammento di dimensioni minime
 PEZZETTO,Piccola parte staccata da un tutto
 PEZZETTO,Porzione ridotta
+PEZZI,Brani musicali o teatrali
+PEZZI,Parti separate di un insieme
 PEZZO,Da un...: da parecchio tempo
 PEZZO,L'articolo scritto dal giornalista
-PEZZO,"Parte, brano o articolo"
 PEZZO,Parte staccata da un insieme
+PEZZO,"Parte, brano o articolo"
 PG,Iniziali del musicista Gabriel
 PG,Sigla automobilistica di Perugia
 PHELPS,Il nuotatore americano dai 23 ori olimpici
@@ -1084,15 +1296,21 @@ PI,La sedicesima lettera dell'alfabeto greco
 PIA,La...de' Tolomei ricordata da Dante
 PIA,Lo è una donna tutta devozione
 PIACENZA,Città emiliana sul Po
-PIACERE,Sensazione gradevole e soddisfacente
 PIACERE,Formula cortese usata nelle presentazioni
+PIACERE,Sensazione gradevole e soddisfacente
+PIACERI,Favori richiesti a una persona
+PIACERI,Sensazioni gradevoli e soddisfacenti
 PIACEVOLE,Che procura benessere o soddisfazione
 PIACEVOLE,Gradevole ai sensi o all'animo
 PIACQUE,Riscosse gradimento
 PIADINA,La sfoglia romagnola da farcire
-PIAGA,Ferita aperta o flagello sociale
+PIADINE,Focacce romagnole sottili e rotonde
+PIADINE,"Si farciscono con salumi, formaggi o verdure"
 PIAGA,Ferita aperta difficile da rimarginare
+PIAGA,Ferita aperta o flagello sociale
 PIAGA,Problema sociale grave e diffuso
+PIAGHE,Ferite aperte difficili da guarire
+PIAGHE,Gravi problemi che affliggono una società
 PIAGNISTEO,Il lamento insistente e fastidioso
 PIAGNUCOLOSA,Incline al lamento
 PIAGNUCOLOSE,Inclini al lamento
@@ -1101,12 +1319,16 @@ PIAGNUCOLOSO,Incline al lamento
 PIALLA,Utensile che liscia il legno
 PIANEROTTOLO,Pausa piatta tra due rampe
 PIANETA,Corpo errante intorno a una stella
-PIANGERE,Versare lacrime per dolore o emozione
+PIANETE,Corpi celesti che orbitano attorno a una stella
+PIANETE,Mondi che non emettono luce propria
 PIANGERE,Lamentarsi amaramente
+PIANGERE,Versare lacrime per dolore o emozione
+PIANI,Progetti predisposti per raggiungere un obiettivo
+PIANI,Superfici orizzontali o livelli di un edificio
 PIANIFICARE,Organizzare in anticipo azioni e tempi
 PIANIFICARE,Stabilire un percorso prima di agire
-PIANIFICAZIONE,Organizzazione preventiva di attività e risorse
 PIANIFICAZIONE,Definizione ordinata di obiettivi e scadenze
+PIANIFICAZIONE,Organizzazione preventiva di attività e risorse
 PIANISTA,Interprete che usa dieci dita e molti tasti
 PIANO,"Adagio, senza far rumore"
 PIANO,"Il progetto, il programma d'azione"
@@ -1117,31 +1339,43 @@ PIANOFORTE,Strumento a corde percosse
 PIANOFORTE,Strumento a tasti e corde
 PIANOFORTI,Riempiono le sale di tasti e corde
 PIANOLA,Piccola tastiera musicale
+PIANORO,Spiazzo pianeggiante tra i rilievi
 PIANORO,Spiazzo quasi orizzontale in quota
 PIANORO,Superficie quasi piana in quota
-PIANORO,Spiazzo pianeggiante tra i rilievi
 PIANTA,"In...stabile: fisso, definitivo"
 PIANTA,La...del piede che tocca terra
 PIANTA,Vegetale o disegno di una casa
 PIANTA,"Vegetale, mappa o lamento"
 PIANTAI,Misi radici o abbandonai
 PIANTANA,Lampada alta da salotto
+PIANTANE,Lampade alte che poggiano direttamente sul pavimento
+PIANTANE,Supporti verticali indipendenti
+PIANTARE,Abbandonare qualcuno all'improvviso
 PIANTARE,Mettere radici o abbandonare
 PIANTARE,Mettere un vegetale nel terreno
-PIANTARE,Abbandonare qualcuno all'improvviso
+PIANTATI,Collocati nel terreno perché mettano radici
+PIANTATI,Lasciati improvvisamente senza compagnia
 PIANTATO,Messe radici o abbandonato
 PIANTE,Mettono radici e cercano luce
 PIANTO,Metto radici o abbandono
 PIANURA,Vasta superficie senza rilievi notevoli
+PIANURE,Estese regioni quasi prive di rilievi
+PIANURE,Terreni bassi e poco inclinati
 PIASTRA,Lastra metallica o elettrica
 PIASTRA,Lastra rigida e relativamente sottile
 PIASTRA,Superficie calda usata per cuocere
+PIASTRE,"Elementi piatti usati per cuocere, riscaldare o rinforzare"
+PIASTRE,Lastre rigide di metallo o altro materiale
 PIASTRELLA,Quadrato di ceramica per muri e pavimenti
 PIASTRELLA,Riveste pavimenti e pareti
 PIASTRELLISTA,Riveste pareti e pavimenti con elementi ceramici
 PIASTRINA,"Piccola targhetta, anche di riconoscimento"
 PIATTA,Priva di rilievi o curvature
 PIATTAFORMA,Insieme dei principi e degli obiettivi su cui si fonda l’azione di un partito o di un governo
+PIATTE,Monotone e poco interessanti
+PIATTE,Prive di rilievi o curvature
+PIATTI,Privi di rilievo o profondità
+PIATTI,Recipienti usati per servire il cibo
 PIATTO,Regge il cibo e suona nella batteria
 PIATTO,Sta in tavola sotto la minestra
 PIATTO,"Stoviglia, portata o poco mosso"
@@ -1153,18 +1387,24 @@ PICCA,Il seme nero delle carte francesi
 PICCA,Lunga lancia della fanteria antica
 PICCARD,L'esploratore svizzero degli abissi e della stratosfera
 PICCHETTO,Paletto che tende corde e tende
+PICCHI,Cime appuntite di montagne
+PICCHI,Uccelli che battono il becco contro i tronchi
 PICCHIARE,Colpire ripetutamente con forza
 PICCHIATA,Discesa molto ripida e veloce
 PICCHIATA,Manovra aerea con il muso rivolto verso il basso
 PICCHIETTIO,Il rumore di leggeri colpi ripetuti
 PICCHIO,Uccello che bussa ai tronchi
 PICCHIO,Uccello che martella i tronchi
-PICCINO,Molto piccolo
+PICCINI,"Bambini ancora giovani, in tono affettuoso"
+PICCINI,Molto piccoli di dimensione o età
 PICCINO,Bambino di tenera età
+PICCINO,Molto piccolo
 PICCIONE,Colombo di città
 PICCIONE,Uccello cittadino che affolla piazze e cornicioni
-PICCO,Punto più alto di una montagna o collina
 PICCO,Cima aguzza di una montagna
+PICCO,Punto più alto di una montagna o collina
+PICCOLE,Di dimensioni ridotte
+PICCOLE,Giovani o poco importanti
 PICCOLISSIMO,Di dimensioni quasi minime
 PICCOLISSIMO,Minuscolo oltre ogni confronto
 PICCOLO,Di dimensioni inferiori alla norma
@@ -1185,19 +1425,21 @@ PIEGA,L'andamento: la brutta... degli eventi
 PIEGA,Svolta del tessuto o dei capelli
 PIEGARE,Rendere curvo
 PIEGATO,Reso curvo
+PIEGHE,Increspature della pelle o del terreno
+PIEGHE,Linee prodotte ripiegando un tessuto
 PIEGHERA,Renderà curvo
 PIEGO,Rendo curvo
 PIEMONTE,Regione ai piedi delle Alpi
+PIENA,Aumento eccezionale del livello di un fiume
 PIENA,La crescita impetuosa del fiume
 PIENA,Non vuota
-PIENA,Aumento eccezionale del livello di un fiume
-PIENAMENTE,In modo completo e senza riserve
 PIENAMENTE,Del tutto
+PIENAMENTE,In modo completo e senza riserve
 PIENE,Non vuote
 PIENI,Non vuoti
+PIENO,Colmo fino al limite
 PIENO,"Il colmo: in...giorno, in...inverno"
 PIENO,"Senza vuoti, anche troppo"
-PIENO,Colmo fino al limite
 PIERACCIONI,"L'attore e regista comico toscano, Leonardo"
 PIERRE,Il nome del barone de Coubertin delle Olimpiadi
 PIET,Il nome del pittore astratto Mondrian
@@ -1213,6 +1455,8 @@ PIETRA,La prima la scagli chi è senza peccato
 PIETRA,La...filosofale degli alchimisti
 PIETRAFOCAIA,Accendeva scintille prima degli accendini
 PIETRAIA,Distesa di sassi sotto il sole
+PIETRE,Frammenti duri di roccia
+PIETRE,Gemme preziose montate nei gioielli
 PIEVE,L'antica chiesa rurale con battistero
 PIFFERO,Flauto rustico dal suono acuto
 PIGIAI,Premetti con forza verso il basso
@@ -1227,30 +1471,36 @@ PIGNA,Frutto legnoso del pino
 PIGNA,La marca di quaderni e block notes
 PIGNATTA,Pentola panciuta
 PIGNATTA,Pentola panciuta da cucina contadina
-PIGNOLO,Eccessivamente meticoloso
+PIGNE,Decorazioni naturali raccolte nei boschi
+PIGNE,Frutti legnosi delle conifere
 PIGNOLO,Eccessivamente attento ai minimi dettagli
+PIGNOLO,Eccessivamente meticoloso
 PIGNOLO,Non lascia passare neppure la minima imprecisione
 PIGRO,Non ha mai voglia di far nulla
 PIGRO,Poco incline allo sforzo
 PIKACHU,Il Pokémon giallo elettrico più famoso
 PIKMIN,Le creaturine vegetali del videogioco Nintendo
+PILA,Dispositivo che fornisce corrente elettrica
 PILA,Piccolo generatore di corrente elettrica
 PILA,Sostegno verticale di un ponte
-PILA,Dispositivo che fornisce corrente elettrica
 PILAF,Riso cotto all'orientale
+PILASTRI,Persone o principi fondamentali di un'organizzazione
+PILASTRI,Sostegni verticali di edifici e ponti
 PILASTRINO,"Sostegno minore, non sempre architettonico"
 PILASTRO,Sostegno portante
+PILASTRO,Sostegno verticale di una costruzione
 PILASTRO,"Sostiene archi, tetti o teorie"
 PILASTRO,Sostiene un edificio
-PILASTRO,Sostegno verticale di una costruzione
 PILATES,Il metodo di ginnastica posturale
 PILATO,Il governatore del processo a Gesù
 PILLOLA,Piccola dose di medicinale solido
 PILOTA,Guida mezzi che non sempre toccano terra
 PILOTA,Il progetto...: quello sperimentale
-PILOTARE,Guidare un aereo o una nave
 PILOTARE,Condurre un aereo o un'imbarcazione
+PILOTARE,Guidare un aereo o una nave
 PILOTATO,Guidato un aereo o una nave
+PILOTI,Episodi di prova realizzati prima di una serie
+PILOTI,Professionisti alla guida di aerei o veicoli da corsa
 PILOTO,Guido un aereo o una nave
 PIMPA,La cagnolina a pois rossi di Altan
 PIN,Codice che apre senza chiave
@@ -1264,13 +1514,19 @@ PINDARICI,Arditi nei passaggi
 PINDARICO,Ardito nei passaggi
 PINETA,Bosco di pini
 PINETA,Bosco odoroso di resina e aghi
+PINETE,Boschi composti soprattutto da conifere resinose
+PINETE,Zone ombreggiate e profumate vicino a molte coste
 PINGUINO,Il gelato ricoperto di cioccolato
 PINGUINO,Il nemico col cilindro di Batman
 PINGUINO,Uccello in frac che non vola
+PINI,Alberi sempreverdi con aghi e coni
+PINI,Conifere da cui si raccolgono semi commestibili
 PININFARINA,La firma torinese del design automobilistico
 PINNA,Arto del nuoto senza dita
 PINNA,Quella di gomma del sub
 PINNACOLO,Punta architettonica e vetta figurata
+PINNE,Appendici con cui i pesci nuotano
+PINNE,Calzature larghe usate dai subacquei
 PINO,Albero resinoso dai lunghi aghi
 PINO,Albero sempreverde dagli aghi
 PINO,L'albero della pineta marittima
@@ -1288,28 +1544,30 @@ PINZOCHERE,Finte devote
 PINZOCHERI,Finti devoti
 PINZOCHERO,Finto devoto
 PIO,Devoto e rispettoso del sacro
+PIO,Devoto e rispettoso della religione
 PIO,Il nome di dodici papi
 PIO,L'animale di Carducci: il...bove
-PIO,Devoto e rispettoso della religione
+PIOGGIA,Acqua che cade dalle nuvole in gocce
 PIOGGIA,Acqua che cade senza rubinetti
 PIOGGIA,Cade dalle nuvole
 PIOGGIA,Scende dal cielo e apre gli ombrelli
-PIOGGIA,Acqua che cade dalle nuvole in gocce
-PIOLA,Storico bomber azzurro degli anni Trenta
-PIOLA,Osteria tradizionale piemontese
 PIOLA,Locale semplice dove si beve vino e si mangia cucina locale
+PIOLA,Osteria tradizionale piemontese
+PIOLA,Storico bomber azzurro degli anni Trenta
 PIOLO,Gradino minuto da scala
 PIOMBO,Gli anni di...: la stagione del terrorismo
 PIOMBO,Grigio scuro metallico
 PIOMBO,Il pesante metallo dei pallini da caccia
 PIOMBO,Metallo pesante usato anche per schermare radiazioni
 PIONIERE,Chi apre per primo una strada o un'attività
+PIOPPI,Alberi alti frequenti lungo fiumi e strade
+PIOPPI,Piante dal fogliame che vibra facilmente al vento
 PIOPPO,Albero alto da rive fluviali
 PIOVASCO,Improvviso scroscio di pioggia
 PIOVERE,Cadere dal cielo in gocce d'acqua
 PIPISTRELLO,L'animale simbolo di Batman
-PIPISTRELLO,Unico mammifero capace di volare
 PIPISTRELLO,Mammifero capace di volare e orientarsi con echi
+PIPISTRELLO,Unico mammifero capace di volare
 PIPPO,"...Baudo, il re della tv"
 PIPPO,Il cane goffo amico di Topolino
 PIQUE,"Gerard, difensore spagnolo campione del mondo"
@@ -1345,9 +1603,9 @@ PIRRONISMO,Scetticismo di scuola antica
 PISA,Città della torre pendente
 PISANELLO,Artista e medaglista del gotico cortese
 PISANELLO,Pittore e medaglista del gotico cortese
+PISCINA,Vasca artificiale destinata al nuoto
 PISCINA,Vasca grande per nuotare senza mare
 PISCINA,Vasca per nuotare
-PISCINA,Vasca artificiale destinata al nuoto
 PISCINE,Invitano a nuotare senza mare
 PISELLO,Legume in baccello e fiaba sul materasso
 PISSARRO,Artista impressionista francese
@@ -1367,14 +1625,14 @@ PITONE,Serpente che stringe più che mordere
 PITOSFORO,Arbusto sempreverde da siepe
 PITT,"L'attore di Fight Club e Troy, Brad"
 PITTOGRAMMA,Segno che disegna ciò che dice
+PITTORE,Artista che crea immagini con colori
 PITTORE,Dipinge quadri
 PITTORE,Fa parlare colori e pennelli
-PITTORE,Artista che crea immagini con colori
 PITTORIO,Relativo all’arte figurativa eseguita con colori
 PITTURA,Arte dei colori stesi col pennello
+PITTURA,Arte di rappresentare con colori
 PITTURA,Colore steso o arte dei pennelli
 PITTURA,Copre di colore
-PITTURA,Arte di rappresentare con colori
 PITTURAI,Coprii di colore
 PITTURARE,Coprire di colore
 PITTURATO,Coperto di colore
@@ -1385,9 +1643,11 @@ PIUMA,Il peso leggero della boxe
 PIUMA,Rende leggera l'ala e morbido il cuscino
 PIUMA,Riveste uccelli e cuscini
 PIUMA,Veste l'uccello
+PIUME,Imbottiture morbide di cuscini e giacche
+PIUME,Rivestimenti leggeri degli uccelli
 PIUMINO,La coperta o giacca riempita di piume
-PIUTTOSTO,Indica una preferenza
 PIUTTOSTO,"Abbastanza, in certi contesti"
+PIUTTOSTO,Indica una preferenza
 PIVIERE,Uccello di ripa dalle lunghe zampe
 PIXAR,Lo studio di animazione di Toy Story
 PIXEL,Il puntino elementare di un'immagine digitale
@@ -1398,10 +1658,12 @@ PIZZA,Disco di pasta caro a Napoli
 PIZZA,La pellicola cinematografica nella sua scatola
 PIZZAIOLO,"Lavora tra forno, pala e mozzarella"
 PIZZE,Arrivano tonde e fumanti
+PIZZI,Bordi ornamentali di abiti e biancheria
+PIZZI,Merletti traforati usati per decorare tessuti
 PIZZICA,Danza popolare salentina
 PIZZICATO,Suonato facendo vibrare le corde con le dita
-PIZZICO,Quantità minima presa tra due dita
 PIZZICO,Breve sensazione pungente
+PIZZICO,Quantità minima presa tra due dita
 PIZZO,La barbetta a punta sul mento
 PIZZO,La tangente estorta dalla mafia
 PIZZO,Merletto elegante o somma estorta
@@ -1410,13 +1672,15 @@ PIZZOCCHERI,Pasta valtellinese di grano saraceno
 PLACARE,Calmare un'ira o un'agitazione
 PLACARE,Ridurre l'intensità di un dolore
 PLACCAGGIO,Intervento difensivo del rugby
+PLACCHE,Depositi che possono formarsi sui denti
+PLACCHE,Lastre o targhe applicate a una superficie
 PLACEBO,La finta cura senza principio attivo
 PLACENTA,Organo che nutre il feto
 PLACIDA,Calma e tranquilla
 PLACIDE,Calme e tranquille
 PLACIDI,Calmi e tranquilli
-PLACIDO,Calmo e tranquillo
 PLACIDO,Calmo e privo di turbamento
+PLACIDO,Calmo e tranquillo
 PLACIDO,Lento e tranquillo come un corso d'acqua
 PLANCIA,Il ponte di comando della nave
 PLANCK,Il Max dei quanti
@@ -1425,24 +1689,26 @@ PLANISFERO,Mappa piatta del mondo
 PLASMA,Gas ionizzato o parte liquida del sangue
 PLASMAI,Diedi forma modellando una materia
 PLASMO,Do forma con le mani
+PLATANI,Grandi alberi da viale con corteccia a chiazze
+PLATANI,Piante che offrono ampia ombra nelle città
 PLATANO,Albero da viali cittadini
 PLATANO,Albero da viali con corteccia a chiazze
 PLATEA,Il pubblico seduto sotto il palco
-PLATEA,Zona del teatro davanti al palco
 PLATEA,Insieme degli spettatori seduti in basso
+PLATEA,Zona del teatro davanti al palco
 PLATINI,"Michel, fuoriclasse francese della Juve anni 80"
 PLATINO,Disco di...: per il milione di copie
 PLATINO,Prezioso metallo bianco
 PLATONE,Il filosofo dell'Accademia
 PLATONISMO,La filosofia delle idee eterne
-PLAUSIBILE,Credibile e ragionevole
 PLAUSIBILE,Che può essere accettato senza forzature
+PLAUSIBILE,Credibile e ragionevole
 PLAUSO,Manifestazione pubblica di approvazione
 PLAYMOBIL,Gli omini di plastica tedeschi da gioco
 PLAYSTATION,La console videoludica della Sony
-PLEBE,Popolo romano senza patriziato
 PLEBE,Ceto popolare dell'antica Roma
 PLEBE,Massa considerata priva di privilegi
+PLEBE,Popolo romano senza patriziato
 PLEIADI,Le sette sorelle trasformate in stelle
 PLEONASMO,Aggiunge parole che non servono
 PLETTRO,Piccola lamina per pizzicare corde
@@ -1471,32 +1737,38 @@ PO,Il fiume più lungo d'Italia
 PO,Il panda protagonista di Kung Fu Panda
 PO,Lo attraversa Torino
 POCAHONTAS,La principessa nativa americana Disney
+POCHE,"In numero ridotto, al femminile"
+POCHE,Non molte rispetto al totale
+POCHI,"In numero ridotto, al maschile"
+POCHI,Non molti rispetto al totale
 POCHISSIMO,In quantità quasi nulla
 POCO,"Fra...: tra breve, presto"
-POCO,Quantità avara
 POCO,In quantità limitata
+POCO,Quantità avara
 PODAGRA,Gotta dei vecchi trattati
 PODCAST,Programma audio distribuito in episodi via Internet
-PODERE,Terreno agricolo con casa colonica
 PODERE,Fondo coltivato appartenente a un proprietario
+PODERE,Terreno agricolo con casa colonica
 PODESTA,Magistrato che governava i comuni medievali
 PODGORICA,La capitale montenegrina
 PODIO,Alza i vincitori sopra tutti gli altri
+PODIO,Ha tre livelli per premiare una gara
 PODIO,Riserva al centro il gradino più alto
 PODIO,Vi salgono i migliori al termine della gara
-PODIO,Ha tre livelli per premiare una gara
 PODISMO,Sport della corsa a piedi
 POE,L'autore americano del Corvo
 POE,Maestro del racconto del terrore
 POEMA,Una storia infinita: è stato un...
 POEMA,Versi lunghi e ambiziosi
+POESIA,"Arte che usa ritmo, immagini e versi"
 POESIA,Si scrive in versi e in rime
 POESIA,Versi con ritmo e immagini
-POESIA,"Arte che usa ritmo, immagini e versi"
 POESIE,Mettono musica nelle parole
+POETA,Autore che lavora con versi e metafore
 POETA,Mestiere di chi fa parlare i versi
 POETA,Scrive versi e trasforma immagini in parole
-POETA,Autore che lavora con versi e metafore
+POETI,Autori che compongono versi
+POETI,Scrittori capaci di trasformare immagini e sentimenti in ritmo
 POGACAR,"Tadej, ciclista sloveno protagonista delle grandi corse a tappe"
 POGBA,"Paul, centrocampista francese campione del mondo"
 POGGIAPIEDI,Sostegno per appoggiare i piedi
@@ -1513,15 +1785,15 @@ POLARE,La stella che indica il Nord
 POLARIZZAZIONE,L'orientamento delle onde luminose
 POLAROID,La macchina dalle foto istantanee
 POLDER,Terra strappata al mare dagli olandesi
-POLEMICA,Discussione aspra tra posizioni contrapposte
 POLEMICA,Controversia alimentata da critiche pubbliche
-POLEMICO,Incline alla controversia
+POLEMICA,Discussione aspra tra posizioni contrapposte
 POLEMICO,Animato da spirito di contestazione
+POLEMICO,Incline alla controversia
 POLENA,Figura sulla prua delle navi
-POLENTA,Gialla compagna di funghi e spezzatini
-POLENTA,Si gira a lungo nel paiolo
 POLENTA,"Accompagna spesso funghi, formaggi e spezzatini"
+POLENTA,Gialla compagna di funghi e spezzatini
 POLENTA,Può essere morbida oppure lasciata raffreddare e tagliata
+POLENTA,Si gira a lungo nel paiolo
 POLICLETO,Lo scultore greco del Doriforo
 POLIEDRO,Solido a facce piane
 POLIFEMO,Il ciclope accecato da Ulisse
@@ -1534,14 +1806,16 @@ POLIPO,Mollusco con tentacoli e ventose
 POLIPO,Mollusco dai molti tentacoli
 POLIZIA,Corpo incaricato di sicurezza e ordine pubblico
 POLIZIA,"Indaga, controlla e tutela l’ordine pubblico"
-POLIZIOTTO,Tutela l'ordine pubblico
-POLIZIOTTO,Può pattugliare una strada o svolgere indagini
 POLIZIOTTO,Professionista incaricato di far rispettare la legge
-POLIZZA,Documento che descrive un contratto assicurativo
+POLIZIOTTO,Può pattugliare una strada o svolgere indagini
+POLIZIOTTO,Tutela l'ordine pubblico
 POLIZZA,Certificato emesso da una compagnia
+POLIZZA,Documento che descrive un contratto assicurativo
 POLKA,Vivace danza di coppia boema
 POLLAIO,Casa rumorosa di galline
 POLLAIO,Di notte ospita volatili da cortile
+POLLI,Animali domestici allevati per carne e uova
+POLLI,Persone ingenue facili da imbrogliare
 POLLICE,"L'unità di lunghezza pari a 2,54 cm"
 POLLINE,Polvere fecondatrice dei fiori
 POLLO,Animale da arrosto e ingenuo
@@ -1551,44 +1825,48 @@ POLLOCK,Artista americano dello sgocciolamento
 POLLOCK,Pittore americano dello sgocciolamento
 POLLONE,Giovane germoglio dalla base della pianta
 POLLUCE,Una delle stelle dei Gemelli
+POLO,Estremità dell'asse terrestre
 POLO,"Estremo terrestre, sport o maglia"
 POLO,La maglietta col colletto
 POLO,Lo sport a cavallo con la mazza
-POLO,Estremità dell'asse terrestre
 POLONIA,Stato europeo con capitale Varsavia
 POLPA,La parte carnosa e magra
-POLPA,Parte morbida e utile
 POLPA,Parte carnosa di un frutto
+POLPA,Parte morbida e utile
 POLPACCIO,Il muscolo dietro la gamba
 POLPASTRELLO,Parte morbida in cima al dito
 POLPETTA,Pallina di carne tritata
+POLPI,Molluschi marini con otto braccia
+POLPI,Predatori dei fondali capaci di cambiare colore
 POLPO,Ha tentacoli e memoria inattesa
+POLSO,Articolazione tra mano e avambraccio
 POLSO,Dove il battito si lascia interrogare
 POLSO,"La fermezza, l'autorità: avere..."
-POLSO,Articolazione tra mano e avambraccio
-POLTRONA,Sedia comoda e incarico ambito
 POLTRONA,Può accogliere un lettore oppure simboleggiare una carica
+POLTRONA,Sedia comoda e incarico ambito
 POLTRONA,Sedile comodo con braccioli
-POLTRONE,Sedili imbottiti ampi e comodi
 POLTRONE,Cariche ambite per prestigio o potere
+POLTRONE,Sedili imbottiti ampi e comodi
 POLVERE,...da sparo: quella delle munizioni
 POLVERE,Materia minuta che torna sempre
 POLVERE,Mordere la...: essere sconfitti
-POMATA,Unguento da spalmare
 POMATA,Preparato cremoso da spalmare sulla pelle
+POMATA,Unguento da spalmare
 POMERIGGIO,Le ore dopo pranzo
-POMICE,Pietra leggera e porosa
 POMICE,Galleggia grazie alla sua struttura molto porosa
+POMICE,Pietra leggera e porosa
+POMO,Frutto di forma tondeggiante
 POMO,Il...della discordia: il motivo del contendere
 POMO,L'impugnatura tonda della spada
 POMO,Mela in lingua poetica
-POMO,Frutto di forma tondeggiante
 POMODORO,Rosso protagonista del sugo
 POMODORO,Rosso protagonista di sughi e insalate
 POMOLO,La manopola tonda della porta
 POMPA,Lo sfarzo solenne: in... magna
-POMPA,Spinge liquidi e gonfia solennità
 POMPA,Macchina che sposta liquidi o gas
+POMPA,Spinge liquidi e gonfia solennità
+POMPE,Cerimonie solenni e appariscenti
+POMPE,Macchine che spostano liquidi o gas
 POMPEI,Città sepolta dal Vesuvio
 POMPELMO,Grande agrume amarognolo
 POMPEO,Rivale di Cesare nella guerra civile
@@ -1603,8 +1881,8 @@ PONDERATE,Valutate con cura
 PONDERATI,Valutati con cura
 PONDERATO,Valutato con cura
 PONDEROSO,Pesante di corpo o di tomo
-PONENTE,Vento da ovest
 PONENTE,Porta il nome del punto in cui cala il sole
+PONENTE,Vento da ovest
 PONENTE,È opposto al levante
 PONGO,"Io metto, colloco"
 PONGO,La plastilina colorata per bambini
@@ -1637,25 +1915,27 @@ POPULISTA,Fa leva sul consenso diretto delle masse
 PORCARO,Chi accudisce i maiali
 PORCELLANA,Ceramica bianca e fine
 PORCHETTA,Il maiale arrosto disossato e speziato
-PORCILE,Il ricovero dei maiali
 PORCILE,Ha mangiatoie e lettiere per suini
+PORCILE,Il ricovero dei maiali
 PORCILE,Luogo estremamente sporco e disordinato
-PORCO,Suino domestico allevato per la carne
 PORCO,Animale domestico dalla caratteristica grufolata
 PORCO,Da esso si ricavano anche prosciutto e lardo
+PORCO,Suino domestico allevato per la carne
 PORCOSPINO,Animale spinoso che si difende arrotolandosi
 PORCOSPINO,Il roditore coperto di aculei
 PORDENONE,Città friulana sul Noncello
 PORFIDO,Roccia rossa da pavimentazioni
 PORGERE,Offrire tendendo la mano
 PORGERE,Presentare qualcosa con cortesia
+PORI,Minuscole aperture della pelle
+PORI,Piccoli vuoti presenti in materiali e rocce
 PORPORA,Rosso regale o malattia a macchie
 PORRE,"Collocare, o...fine a qualcosa"
 PORRO,L'ortaggio della famiglia della cipolla
 PORRO,Ortaggio a strati e escrescenza cutanea
 PORSCHE,La casa sportiva tedesca della 911
-PORTA,Si apre con una chiave e separa due ambienti
 PORTA,Nel calcio è delimitata da due pali e una traversa
+PORTA,Si apre con una chiave e separa due ambienti
 PORTA,Si apre per entrare
 PORTA,"Varco, ruolo calcistico o mano di carte"
 PORTABAGAGLI,Il facchino della stazione
@@ -1673,40 +1953,42 @@ PORTAFORTUNA,Amuleto ritenuto capace di attirare eventi favorevoli
 PORTAFORTUNA,Oggetto a cui si attribuisce un influsso favorevole
 PORTAGIOIE,Cofanetto per i gioielli
 PORTAI,Ressi e trasferii
+PORTALI,Ingressi monumentali di edifici
+PORTALI,Siti che raccolgono e organizzano molti servizi
 PORTAMONETE,Custodisce gli spiccioli
 PORTAMONETE,Piccola borsa per spiccioli
 PORTAOMBRELLI,Sostegno per riporre gli ombrelli
 PORTAOMBRELLI,Sta all'ingresso nei giorni di pioggia
 PORTAPENNE,Contenitore per le penne sulla scrivania
+PORTARE,Indossare abitualmente
 PORTARE,Reggere e trasferire
 PORTARE,Trasferire qualcosa da un luogo a un altro
-PORTARE,Indossare abitualmente
 PORTARIVISTE,Contiene giornali e periodici
 PORTASAPONE,Tiene la saponetta nel bagno
 PORTASCIUGAMANI,Vi si appende l'asciugamano
 PORTASIGARETTE,Custodisce le sigarette
 PORTATA,Piatto servito durante un pasto
 PORTATA,Quantità di fluido che passa in un condotto
-PORTATO,Retto e trasferito
-PORTATO,Dotato di naturale inclinazione
 PORTATO,Condotto da un luogo all’altro
+PORTATO,Dotato di naturale inclinazione
+PORTATO,Retto e trasferito
 PORTATORE,Chi reca qualcosa con sé
 PORTAUOVA,Supporto per servire l'uovo alla coque
 PORTAUPRINCE,Capitale haitiana
 PORTAVASI,Sostegno per piante in vaso
 PORTAVOCE,Parla a nome di altri
-PORTAVOCE,Persona incaricata di esprimere una posizione ufficiale
 PORTAVOCE,Parla pubblicamente per conto di un gruppo
+PORTAVOCE,Persona incaricata di esprimere una posizione ufficiale
 PORTE,Si aprono con maniglie e chiavi
 PORTICATO,La galleria coperta sostenuta da colonne
 PORTICATO,Successione di arcate coperte lungo un edificio
 PORTICCIOLO,Riparo per piccole barche
+PORTICO,Collega spazi esterni senza esporli alla pioggia
 PORTICO,Galleria coperta lungo una via
 PORTICO,Offre un percorso riparato lungo una facciata
 PORTICO,Si percorre al riparo tra sostegni verticali
-PORTICO,Collega spazi esterni senza esporli alla pioggia
-PORTIERA,Sportello dell'auto
 PORTIERA,Apertura laterale di un'automobile
+PORTIERA,Sportello dell'auto
 PORTIERE,Custode di un palazzo
 PORTIERE,Para i tiri tra i pali
 PORTLAND,La città americana dell'Oregon
@@ -1724,76 +2006,78 @@ PORTUALE,"Relativo a moli, banchine e traffici marittimi"
 PORTVILA,La capitale di Vanuatu
 PORZIONE,Parte delimitata di un tutto
 PORZIONE,Quantità di cibo destinata a una persona
+POSA,Atteggiamento assunto davanti a un obiettivo
 POSA,Atteggiamento da ritratto o da pavimento
 POSA,L'atteggiamento studiato per la foto
-POSA,Atteggiamento assunto davanti a un obiettivo
 POSACENERE,Raccoglie resti di sigarette
 POSAI,Misi giù o stetti per una foto
+POSARE,Appoggiare con delicatezza
 POSARE,Mettere giù o stare per una foto
 POSARE,Restare immobili davanti all’obiettivo
-POSARE,Appoggiare con delicatezza
 POSATA,"Cucchiaio, forchetta o coltello"
 POSATO,Messo giù o stato per una foto
 POSEIDONE,Dio del mare col tridente
 POSITANO,Borgo verticale della Costiera amalfitana
 POSITIVA,Favorevole o superiore allo zero
 POSITIVISMO,La filosofia che esalta la scienza
-POSIZIONE,Punto occupato nello spazio
 POSIZIONE,Atteggiamento assunto su una questione
+POSIZIONE,Punto occupato nello spazio
 POSO,Metto giù o sto per una foto
 POSSEDERE,Avere qualcosa come proprio
 POSSEDERE,Padroneggiare una conoscenza
-POSSENTE,Molto forte e imponente
 POSSENTE,Capace di esercitare grande potenza
+POSSENTE,Molto forte e imponente
 POSSESSORE,Chi detiene materialmente un bene
 POSSESSORE,Persona che ha qualcosa nella propria disponibilità
 POSSIBILE,Che può accadere o realizzarsi
 POSSIBILE,Non escluso dalle circostanze
 POSSIBILITA,Circostanza che può verificarsi
 POSSIBILITA,Opportunità ancora aperta
-POSSIBILMENTE,Se le condizioni lo consentono
 POSSIBILMENTE,Con ogni mezzo realistico
+POSSIBILMENTE,Se le condizioni lo consentono
 POST,Messaggio pubblicato sul web
-POSTA,"Lettere, puntata o posizione"
 POSTA,Corrispondenza spedita o ricevuta
+POSTA,"Lettere, puntata o posizione"
 POSTA,Somma messa in gioco in una scommessa
 POSTARE,Pubblicare un contenuto in rete
+POSTER,Arreda una parete con una fotografia o una grafica
 POSTER,Grande immagine da parete
 POSTER,Grande immagine stampata da appendere
-POSTER,Arreda una parete con una fotografia o una grafica
 POSTERIORE,Collocato nella parte di dietro
 POSTERIORE,Successivo nel tempo
 POSTERIORMENTE,In un momento successivo
 POSTERIORMENTE,Nella parte di dietro
+POSTI,Collocati in una certa posizione
+POSTI,Spazi destinati a persone o oggetti
 POSTILLA,"Aggiunta a margine, spesso decisiva"
 POSTINO,Consegna lettere e pacchi
 POSTIT,Il bigliettino adesivo giallo
 POSTO,L'impiego fisso e sicuro
-POSTO,Luogo occupabile o lavoro
 POSTO,Luogo destinato a qualcuno o qualcosa
+POSTO,Luogo occupabile o lavoro
 POSTULATO,Principio assunto come punto di partenza
 POTARE,Tagliare i rami in eccesso della pianta
 POTASSIO,Elemento chimico essenziale indicato dal simbolo K
-POTENTE,Dotato di grande forza o autorità
 POTENTE,Capace di produrre effetti notevoli
+POTENTE,Dotato di grande forza o autorità
 POTENZA,Capoluogo della Basilicata
 POTENZA,Capoluogo lucano d'altura
 POTENZA,La forza erogata da un motore
 POTENZA,Qualità di influenzare le decisioni altrui
 POTENZIALE,Capacità non ancora pienamente espressa
-POTENZIALITA,Risorsa o capacità che può svilupparsi
 POTENZIALITA,Possibilità latente di crescita
+POTENZIALITA,Risorsa o capacità che può svilupparsi
 POTENZIALMENTE,In base a capacità ancora inespresse
 POTENZIARE,"Aumentare forza, capacità o rendimento"
 POTENZIARE,Rendere più efficace
 POTERE,"Facoltà, autorità o verbo irregolare"
-POTERE,"Quello esecutivo, legislativo o giudiziario"
 POTERE,Qualità di influenzare le decisioni altrui
+POTERE,"Quello esecutivo, legislativo o giudiziario"
 POTERNA,Porta secondaria nelle fortificazioni
 POTESTA,Autorità riconosciuta dalla legge
 POTESTA,Potere di prendere decisioni vincolanti
-POVERACCIO,Persona sfortunata che suscita compassione
 POVERACCIO,Chi se la passa davvero male
+POVERACCIO,Persona sfortunata che suscita compassione
 POVERO,"Chi non ha denaro, o...di spirito"
 POVERTA,Condizione di grave scarsità economica
 POVERTA,Mancanza di mezzi essenziali
@@ -1802,6 +2086,8 @@ POWER,"Romina, cantante di “Felicità” con Al Bano"
 POZIONE,Bevanda medicinale o magica
 POZZANGHERA,Piccolo specchio d'acqua dopo la pioggia
 POZZETTO,Piccolo vano sotto strada
+POZZI,Cavità verticali scavate nel terreno
+POZZI,Scavi profondi per raggiungere acqua o risorse
 POZZO,Buco profondo per l'acqua
 POZZO,Il...di San Patrizio: la spesa senza fine
 POZZO,Il...nero che raccoglie i liquami
@@ -1813,9 +2099,9 @@ PRADA,La Miuccia della moda italiana
 PRADO,Il grande museo di Madrid
 PRAGA,Capitale ceca sulla Moldava
 PRAGA,Città del ponte Carlo e dell'orologio
+PRAGMATISMO,Atteggiamento poco incline alle teorie astratte
 PRAGMATISMO,Filosofia o atteggiamento che guarda ai risultati
 PRAGMATISMO,Tendenza a privilegiare risultati concreti
-PRAGMATISMO,Atteggiamento poco incline alle teorie astratte
 PRALINA,Cioccolatino ripieno
 PRANZO,Il pasto di mezzogiorno
 PRANZO,Pasto che spezza la giornata
@@ -1831,8 +2117,8 @@ PRATICAMENTE,In concreto
 PRATICAMENTE,Quasi del tutto
 PRATICANTE,Chi esercita per imparare una professione
 PRATICANTE,Persona che osserva regolarmente un culto
-PRATICARE,Esercitare con continuità un'attività
 PRATICARE,Applicare un prezzo o una terapia
+PRATICARE,Esercitare con continuità un'attività
 PRATO,Distesa d'erba
 PRATO,La città toscana del tessile
 PRATO,Tappeto d'erba
@@ -1840,24 +2126,24 @@ PREAMBOLO,Prima parte che prepara il discorso
 PREAVVISO,Comunicazione data prima di una scadenza
 PREAVVISO,Tempo concesso prima che una decisione abbia effetto
 PREBENDA,Rendita ecclesiastica d'altri tempi
-PRECARIO,Instabile e privo di garanzie
 PRECARIO,Destinato a durare poco
-PRECAUZIONE,Misura adottata per evitare un rischio
+PRECARIO,Instabile e privo di garanzie
 PRECAUZIONE,Cautela preventiva
+PRECAUZIONE,Misura adottata per evitare un rischio
 PRECEDENTE,Avvenuto o posto prima
 PRECEDENTE,Caso anteriore usato come riferimento
 PRECEDENTEMENTE,In un momento anteriore
 PRECEDENTEMENTE,Prima di allora
 PRECEDENTI,Fatti anteriori usati come riferimento
 PRECEDENZA,Diritto di passare prima
-PRECETTO,Regola che ordina il comportamento
 PRECETTO,Norma autorevole da osservare
+PRECETTO,Regola che ordina il comportamento
 PRECIPITARE,Cadere rapidamente verso il basso
 PRECIPITARE,Peggiorare all'improvviso
 PRECIPITATO,Il solido che si deposita da una soluzione
-PRECIPIZIO,Strapiombo da cui si rischia di cadere
 PRECIPIZIO,Basta un passo falso sul suo bordo
 PRECIPIZIO,In senso figurato è un rischio di crollo imminente
+PRECIPIZIO,Strapiombo da cui si rischia di cadere
 PRECIPUA,Principale
 PRECIPUE,Principali
 PRECIPUI,Principali
@@ -1865,8 +2151,8 @@ PRECIPUO,Principale
 PRECISAMENTE,Con esattezza
 PRECISAMENTE,Proprio in quel punto o momento
 PRECISAZIONE,Chiarimento che elimina un'ambiguità
-PRECISIONE,Esattezza priva di approssimazioni
 PRECISIONE,Capacità di colpire o misurare con accuratezza
+PRECISIONE,Esattezza priva di approssimazioni
 PRECISO,Esatto nei dettagli e nei tempi
 PRECLARA,Illustre
 PRECLARE,Illustri
@@ -1875,39 +2161,41 @@ PRECLARO,Illustre
 PRECOCE,Che avviene prima del normale
 PRECOCE,Sviluppato con anticipo rispetto all'età
 PRECURSORE,Chi anticipa un'idea o un movimento
+PREDA,Animale inseguito da chi caccia
 PREDA,Chi è braccato dal cacciatore
 PREDA,"In...a: in balìa di, sopraffatto da"
-PREDA,Animale inseguito da chi caccia
+PREDE,Animali cacciati da altri animali
+PREDE,Vittime facili di inganni o aggressioni
 PREDECESSORE,Chi ha ricoperto un ruolo prima dell'attuale titolare
 PREDICA,Discorso religioso rivolto ai fedeli
 PREDICA,Rimprovero lungo e moraleggiante
 PREDICATO,Dice qualcosa del soggetto
 PREDICATORE,Religioso che parla ai fedeli
 PREDICAZIONE,Attività di diffusione di un messaggio religioso
-PREDILETTO,Preferito rispetto agli altri
 PREDILETTO,Particolarmente caro
+PREDILETTO,Preferito rispetto agli altri
 PREDISPOSIZIONE,Inclinazione naturale verso qualcosa
 PREDISPOSIZIONE,Preparazione preventiva di mezzi e condizioni
 PREDOMINANTE,Che prevale sugli altri
 PREDOMINANTE,Più diffuso o influente
-PREDOMINIO,Superiorità esercitata sugli altri
 PREDOMINIO,Influenza che prevale in un ambiente
-PREESISTENTE,Già presente prima di un evento
+PREDOMINIO,Superiorità esercitata sugli altri
 PREESISTENTE,Anteriore alla situazione attuale
-PREFAZIONE,Testo introduttivo posto all'inizio di un libro
+PREESISTENTE,Già presente prima di un evento
 PREFAZIONE,Le pagine che spiegano origine e intenti di un volume
+PREFAZIONE,Testo introduttivo posto all'inizio di un libro
 PREFERENZA,Scelta accordata a una possibilità rispetto alle altre
 PREFERIRE,Scegliere una cosa invece di un'altra
-PREFERITO,Scelto prima degli altri
 PREFERITO,Più amato o apprezzato
+PREFERITO,Scelto prima degli altri
 PREFISSE,Stabilì in anticipo
 PREGA,Rivolge una supplica
 PREGAI,Rivolsi una supplica alla divinità
-PREGARE,Rivolgersi alla divinità
 PREGARE,Chiedere con umiltà e insistenza
+PREGARE,Rivolgersi alla divinità
 PREGATO,Invitato o supplicato con insistenza
-PREGEVOLE,Degno di apprezzamento per qualità o valore
 PREGEVOLE,Ben fatto e non comune
+PREGEVOLE,Degno di apprezzamento per qualità o valore
 PREGHIERA,Parole rivolte alla divinità
 PREGHIERA,Richiesta umile e insistente
 PREGIATO,Di valore elevato e qualità riconosciuta
@@ -1921,25 +2209,25 @@ PREGIUDIZIO,Opinione rigida non fondata su esperienza diretta
 PREGO,Cortesia dopo un grazie
 PREGO,La cortese risposta al grazie
 PRELATO,Alto dignitario della gerarchia ecclesiastica
-PRELEVARE,Ritirare denaro da un conto
 PRELEVARE,Asportare una quantità per analizzarla
+PRELEVARE,Ritirare denaro da un conto
 PRELIEVO,Ritiro di denaro o materiale
 PRELUDIO,Prima musica o primo segnale
 PREMATURO,Avvenuto prima del tempo previsto
 PREMATURO,Non ancora sufficientemente maturo
 PREME,Schiaccia
-PREMERE,Schiacciare
 PREMERE,Esercitare una forza su una superficie
-PREMESSA,L'enunciato da cui parte un ragionamento
+PREMERE,Schiacciare
 PREMESSA,Base logica da cui si ricava una conclusione
+PREMESSA,L'enunciato da cui parte un ragionamento
 PREMESSA,Viene prima del punto centrale del discorso
 PREMI,Spingi con forza
+PREMIERE,Debutto mondano di un film o spettacolo
 PREMIERE,La prima rappresentazione di uno spettacolo
 PREMIERE,Serata d’esordio davanti al pubblico
-PREMIERE,Debutto mondano di un film o spettacolo
 PREMIO,"Nobel, Oscar e Pulitzer vengono assegnati ai migliori"
-PREMIO,Riconoscimento assegnato al migliore
 PREMIO,"Può essere una coppa, una somma o un riconoscimento"
+PREMIO,Riconoscimento assegnato al migliore
 PREMO,Schiaccio
 PREMURA,Attenzione affettuosa verso qualcuno
 PREMURA,Sollecitudine nel fare qualcosa
@@ -1948,75 +2236,75 @@ PRENDERE,Assumere o ricevere qualcosa
 PRENDERSI,Assumersi un compito o una responsabilità
 PRENDISOLE,Vestito estivo senza maniche
 PRENOTA,Riserva in anticipo
+PRENOTARE,Assicurarsi disponibilità per un giorno stabilito
 PRENOTARE,Bloccare un posto prima dell’arrivo
 PRENOTARE,Riservare in anticipo un posto o un servizio
-PRENOTARE,Assicurarsi disponibilità per un giorno stabilito
 PRENOTATO,Riservato in anticipo
 PRENOTO,Riservo in anticipo
 PREOCCUPANTE,Capace di suscitare timore per le conseguenze
 PREOCCUPANTE,Tale da non lasciare tranquilli
 PREOCCUPARE,Mettere in ansia
-PREOCCUPATO,In ansia per ciò che potrebbe succedere
 PREOCCUPATO,Assorbito da un pensiero inquietante
+PREOCCUPATO,In ansia per ciò che potrebbe succedere
 PREOCCUPAZIONE,L'apprensione per qualcosa
-PREOCCUPAZIONE,Tiene la mente occupata da possibili problemi
 PREOCCUPAZIONE,Nasce dall’incertezza su ciò che potrebbe accadere
+PREOCCUPAZIONE,Tiene la mente occupata da possibili problemi
 PREPARA,Rende pronto
 PREPARAI,Resi pronto
-PREPARARE,Organizzare ciò che servirà in seguito
 PREPARARE,Disporre in anticipo ciò che serve
+PREPARARE,Organizzare ciò che servirà in seguito
 PREPARARE,Portare qualcosa nelle condizioni necessarie
 PREPARARSI,Mettersi nelle condizioni di affrontare qualcosa
-PREPARATO,Reso pronto
 PREPARATO,Pronto ad affrontare una prova
+PREPARATO,Reso pronto
 PREPARAZIONE,Attività svolta prima di una prova
 PREPARAZIONE,Livello di conoscenze acquisito con lo studio
 PREPARO,Rendo pronto
 PREPOSTO,Incaricato di sorvegliare un'attività
-PREPOTENZA,L'abuso di chi è più forte
 PREPOTENZA,Abuso di forza o autorità
 PREPOTENZA,Comportamento di chi impone la propria volontà
-PREROGATIVA,Facoltà esclusiva legata a un ruolo
+PREPOTENZA,L'abuso di chi è più forte
 PREROGATIVA,Caratteristica propria e distintiva
+PREROGATIVA,Facoltà esclusiva legata a un ruolo
 PRESA,"Attacco, corrente o conquista"
+PRESA,Atto di afferrare o conquistare
 PRESA,Quella elettrica a muro
 PRESA,Un pizzico: una... di sale
-PRESA,Atto di afferrare o conquistare
-PRESAGIO,Segno che anticipa il futuro
-PRESAGIO,Può essere letto negli eventi prima che accada qualcosa
 PRESAGIO,Fa temere o sperare ciò che deve ancora venire
+PRESAGIO,Può essere letto negli eventi prima che accada qualcosa
+PRESAGIO,Segno che anticipa il futuro
 PRESBIOPIA,Difetto visivo della vista stanca
 PRESBITERIO,La zona dell'altare maggiore
 PRESENTA,Fa conoscere
 PRESENTARE,Far conoscere
-PRESENTARE,Mostrare qualcuno o qualcosa al pubblico
 PRESENTARE,Far conoscere due persone
+PRESENTARE,Mostrare qualcuno o qualcosa al pubblico
 PRESENTARSI,Comparire davanti a qualcuno
 PRESENTARSI,Dichiarare la propria identità
 PRESENTATO,Fatto conoscere
-PRESENTAZIONE,Esposizione introduttiva di un progetto
 PRESENTAZIONE,Atto con cui si fanno conoscere persone o prodotti
+PRESENTAZIONE,Esposizione introduttiva di un progetto
 PRESENTE,Che si trova qui e ora
 PRESENTE,Regalo offerto in un'occasione
-PRESENTIMENTO,Sensazione vaga di ciò che sta per accadere
 PRESENTIMENTO,Intuizione senza prove
+PRESENTIMENTO,Sensazione vaga di ciò che sta per accadere
 PRESENTO,Faccio conoscere
 PRESENZA,Fatto di trovarsi in un luogo
 PRESENZA,Figura che si impone all'attenzione
-PRESEPE,Scena della Natività
-PRESEPE,Ricostruisce la nascita di Gesù con statuine
 PRESEPE,A Natale compare sotto molti alberi
+PRESEPE,Ricostruisce la nascita di Gesù con statuine
+PRESEPE,Scena della Natività
 PRESEPIO,Natività in scala domestica
-PRESERVARE,Proteggere da danni o alterazioni
 PRESERVARE,Conservare intatto nel tempo
+PRESERVARE,Proteggere da danni o alterazioni
 PRESIDIO,Postazione destinata a controllo e difesa
 PRESINA,Protegge la mano dalle pentole calde
 PRESLEY,"Elvis, il re del rock and roll"
 PRESSIONE,Forza esercitata su una superficie
-PRESSO,Nelle vicinanze di
 PRESSO,Accanto a un luogo indicato
-PRESSOCHE,Quasi completamente
+PRESSO,Nelle vicinanze di
 PRESSOCHE,Poco meno che
+PRESSOCHE,Quasi completamente
 PRESTA,Dà per un tempo limitato
 PRESTAI,Diedi per un tempo limitato
 PRESTARE,Dare per un tempo limitato
@@ -2025,31 +2313,33 @@ PRESTAZIONE,Risultato fornito in una prova
 PRESTAZIONE,Servizio dovuto in base a un accordo
 PRESTIGIATORE,Stupisce con giochi di magia
 PRESTIGIO,Fascino autorevole che impone rispetto
-PRESTIGIO,Si conquista con risultati riconosciuti
 PRESTIGIO,Influenza che nasce da una reputazione elevata
-PRESTIGIOSO,Dotato di grande reputazione
+PRESTIGIO,Si conquista con risultati riconosciuti
 PRESTIGIOSO,Capace di conferire lustro
+PRESTIGIOSO,Dotato di grande reputazione
 PRESTISSIMO,Tempo musicale velocissimo
 PRESTO,Al più...: il prima possibile
 PRESTO,Do per un tempo limitato
 PRESTO,In anticipo rispetto all'ora
 PRESUNSE,Si diede arie
-PRESUNZIONE,Eccessiva opinione delle proprie capacità
 PRESUNZIONE,Conclusione ammessa fino a prova contraria
+PRESUNZIONE,Eccessiva opinione delle proprie capacità
 PRESUPPOSTO,Condizione data per necessaria
 PRESUPPOSTO,Idea di partenza non ancora dimostrata
 PRETAPORTER,Abbigliamento di moda confezionato
 PRETE,Lo scaldaletto di una volta
-PRETE,Uomo d'altare
 PRETE,Ministro ordinato della Chiesa cattolica
+PRETE,Uomo d'altare
 PRETENDERE,Esigere con fermezza
 PRETENDERE,Rivendicare qualcosa come dovuto
 PRETESA,Richiesta avanzata come un diritto
 PRETESE,Volle a ogni costo
 PRETESTO,Motivo dichiarato che nasconde la vera ragione
 PRETESTO,Scusa usata per giustificare un'azione
-PRETORE,Magistrato dell'antica Roma
+PRETI,Ministri del culto cattolico
+PRETI,Religiosi autorizzati a celebrare la messa
 PRETORE,Giudice con funzioni previste da ordinamenti passati
+PRETORE,Magistrato dell'antica Roma
 PRETORIA,Una delle capitali del Sudafrica
 PRETORIO,Del magistrato romano o del palazzo comunale
 PRETZEL,Il salatino tedesco a nodo
@@ -2062,8 +2352,8 @@ PREVEDERE,Stabilire in anticipo in una norma o in un piano
 PREVENIRE,Agire prima che si verifichi un danno
 PREVENIRE,Anticipare qualcuno
 PREVENTIVAMENTE,Prima che accada qualcosa
-PREVENZIONE,Insieme di misure adottate prima del danno
 PREVENZIONE,Azione che riduce un rischio
+PREVENZIONE,Insieme di misure adottate prima del danno
 PREVIDE,Lo immaginò in anticipo
 PREVIDENZA,Capacità di pensare ai bisogni futuri
 PREVIDENZA,Sistema di tutela per pensioni e assistenza
@@ -2075,23 +2365,25 @@ PREZZO,A caro...: a costo di grandi sacrifici
 PREZZO,Somma richiesta per acquistare un bene
 PRIAMO,Il vecchio re di Troia
 PRIAPO,Il dio della fertilità dei giardini
-PRIGIONE,Luogo in cui si sconta una pena
 PRIGIONE,Condizione che impedisce la libertà
-PRIGIONIA,Stato di chi è privato della libertà
+PRIGIONE,Luogo in cui si sconta una pena
 PRIGIONIA,Periodo trascorso in cattività
+PRIGIONIA,Stato di chi è privato della libertà
 PRIGIONIERO,Ha le sbarre al posto dell'orizzonte
-PRIGIONIERO,Può essere rinchiuso o trattenuto dal nemico
 PRIGIONIERO,Ha movimenti limitati da una cattura o da una condanna
+PRIGIONIERO,Può essere rinchiuso o trattenuto dal nemico
 PRIMA,Il contrario di dopo
-PRIMA,"La...della Scala, la serata di gala"
 PRIMA,In un momento anteriore
+PRIMA,"La...della Scala, la serata di gala"
 PRIMARIO,Di importanza fondamentale
+PRIMATO,Indica il vantaggio di chi è davanti a tutti
 PRIMATO,Record o superiorità
 PRIMATO,Si batte superando una misura precedente
-PRIMATO,Indica il vantaggio di chi è davanti a tutti
 PRIMAVERA,Fa rifiorire prati e allergie
 PRIMAVERA,La stagione dei fiori
 PRIMAVERA,La...di Botticelli agli Uffizi
+PRIMI,Che precedono tutti gli altri
+PRIMI,Portate servite dopo gli antipasti
 PRIMITIVO,Appartenente alle fasi più antiche
 PRIMITIVO,Semplice e poco evoluto
 PRIMO,Davanti a tutti o piatto iniziale
@@ -2104,12 +2396,12 @@ PRIMULA,Fiore che anticipa la primavera
 PRINCE,Il genio di Purple Rain
 PRINCIPALE,Più importante degli altri
 PRINCIPALE,Posto al centro dell'attenzione
-PRINCIPALMENTE,Soprattutto
 PRINCIPALMENTE,Per la parte maggiore
+PRINCIPALMENTE,Soprattutto
 PRINCIPIANTE,Chi è alle prime esperienze
 PRINCIPIANTE,Persona ancora inesperta
-PRINCIPIO,Regola fondamentale che guida il comportamento
 PRINCIPIO,Inizio di un fenomeno o di una storia
+PRINCIPIO,Regola fondamentale che guida il comportamento
 PRINGLES,Le patatine nel tubo dal baffuto logo
 PRIORI,Religioso che dirige un convento dipendente
 PRIORI,Superiori di comunità religiose
@@ -2120,8 +2412,8 @@ PRIUS,L'auto ibrida pioniera della Toyota
 PRIVACY,Diritto alla riservatezza personale
 PRIVACY,Tutela della sfera personale e dei dati
 PRIVATIZZAZIONE,Trasferimento di un’attività statale a soggetti non pubblici
-PRIVILEGIO,Vantaggio riservato a pochi
 PRIVILEGIO,Diritto speciale non riconosciuto a tutti
+PRIVILEGIO,Vantaggio riservato a pochi
 PRO,"A favore, in tre lettere"
 PRO,I... e i contro da soppesare
 PROA,Imbarcazione a bilanciere dei mari del Pacifico
@@ -2131,45 +2423,45 @@ PROBABILE,Più verosimile che certo
 PROBABILMENTE,Con buona possibilità che accada
 PROBE,Integre e oneste
 PROBI,Integri e onesti
-PROBLEMA,Questione che richiede una soluzione
 PROBLEMA,Difficoltà da affrontare
-PROBLEMATICO,Difficile da risolvere o interpretare
+PROBLEMA,Questione che richiede una soluzione
 PROBLEMATICO,Che presenta numerose criticità
+PROBLEMATICO,Difficile da risolvere o interpretare
 PROBO,Onesto con parola breve e antica
 PROCEDERE,Andare avanti secondo un ordine
 PROCEDERE,Continuare verso una meta
-PROCEDIMENTO,Serie ordinata di atti per raggiungere un risultato
 PROCEDIMENTO,Insieme coordinato di atti diretto a un risultato
-PROCEDURA,Sequenza di operazioni stabilite
+PROCEDIMENTO,Serie ordinata di atti per raggiungere un risultato
 PROCEDURA,Istruzioni ordinate da seguire passo dopo passo
+PROCEDURA,Sequenza di operazioni stabilite
 PROCELLARIA,Uccello marino delle tempeste
-PROCESSO,Serie di trasformazioni collegate
 PROCESSO,Giudizio celebrato davanti a un tribunale
+PROCESSO,Serie di trasformazioni collegate
 PROCESSORE,Il cervello di calcolo del computer
 PROCIDA,Isola colorata del golfo di Napoli
 PROCIONE,L'orsetto lavatore
 PROCIONE,Stella brillante del Cane Minore
 PROCLAMA,Annuncio solenne rivolto al pubblico
-PROCLAMARE,Dichiarare ufficialmente e con solennità
 PROCLAMARE,Annunciare pubblicamente un vincitore
+PROCLAMARE,Dichiarare ufficialmente e con solennità
 PROCLAMAZIONE,Annuncio solenne e ufficiale
 PROCREAZIONE,Generazione di nuovi individui
-PROCURARE,Fare in modo che qualcuno ottenga qualcosa
 PROCURARE,"Causare, spesso senza volerlo"
+PROCURARE,Fare in modo che qualcuno ottenga qualcosa
 PRODA,"La riva, la sponda del fiume"
 PRODE,Coraggioso con sapore epico
 PRODE,"Il valoroso, il coraggioso guerriero"
 PRODE,Valoroso e coraggioso in battaglia
 PRODI,Il Romano già presidente del Consiglio
 PRODI,Valorosi
+PRODIGIO,Evento attribuito a un intervento soprannaturale
 PRODIGIO,Evento che sembra oltre natura
 PRODIGIO,Evento straordinario che desta meraviglia
-PRODIGIO,Evento attribuito a un intervento soprannaturale
-PRODOTTO,Risultato di un'attività o di una moltiplicazione
 PRODOTTO,Bene realizzato per essere venduto
+PRODOTTO,Risultato di un'attività o di una moltiplicazione
 PRODUSSE,Diede come frutto
-PRODUTTIVITA,Rapporto tra risultati ottenuti e risorse impiegate
 PRODUTTIVITA,Capacità di generare output con efficienza
+PRODUTTIVITA,Rapporto tra risultati ottenuti e risorse impiegate
 PRODUTTORE,Chi realizza o finanzia beni e opere
 PRODUTTORE,Soggetto che mette qualcosa sul mercato
 PRODUZIONE,Attività con cui si creano beni o contenuti
@@ -2178,8 +2470,8 @@ PROFANO,Estraneo al culto religioso
 PROFESSIONALE,Relativo a un mestiere esercitato con competenza
 PROFESSIONE,Attività svolta stabilmente per lavoro
 PROFESSIONE,Dichiarazione pubblica di una fede
-PROFESSORE,Insegna in aula
 PROFESSORE,Docente di scuola superiore o università
+PROFESSORE,Insegna in aula
 PROFETA,Figura che annuncia un messaggio divino
 PROFEZIA,Annuncio di un evento futuro attribuito a ispirazione divina
 PROFICUO,Capace di produrre risultati utili
@@ -2191,34 +2483,34 @@ PROFITEROLE,Dolce di bignè ricoperti
 PROFITTO,Guadagno ottenuto da un'attività economica
 PROFITTO,Vantaggio ricavato da una situazione
 PROFONDAMENTE,In modo intenso e non superficiale
-PROFONDO,Molto distante dalla superficie
 PROFONDO,Intenso e non superficiale
+PROFONDO,Molto distante dalla superficie
 PROFUGO,Persona costretta a lasciare il proprio paese
 PROFUMATORE,Diffonde odori piacevoli
 PROFUMERIA,"Negozio di cosmetici, essenze e fragranze"
-PROFUMO,Lascia una scia invisibile
 PROFUMO,Essenza da indossare in poche gocce
-PROFUMO,Scia olfattiva che rimane dopo un passaggio
+PROFUMO,Lascia una scia invisibile
 PROFUMO,Odore gradevole e persistente
+PROFUMO,Scia olfattiva che rimane dopo un passaggio
 PROGENIE,Discendenza nata da un capostipite
 PROGENIE,Insieme dei figli e dei discendenti
 PROGETTARE,Ideare in anticipo struttura e dettagli
-PROGETTAZIONE,Fase in cui un'idea diventa un piano tecnico
 PROGETTAZIONE,Attività che precede la realizzazione
-PROGETTO,Piano dettagliato per un'opera futura
+PROGETTAZIONE,Fase in cui un'idea diventa un piano tecnico
 PROGETTO,Intenzione organizzata da realizzare
-PROGRAMMA,Può guidare una serata oppure essere eseguito da un computer
+PROGETTO,Piano dettagliato per un'opera futura
 PROGRAMMA,Elenco ordinato di attività previste
+PROGRAMMA,Può guidare una serata oppure essere eseguito da un computer
 PROGRAMMA,Software scritto per svolgere una funzione
-PROGRAMMARE,Stabilire in anticipo attività e tempi
 PROGRAMMARE,Scrivere istruzioni per un computer
+PROGRAMMARE,Stabilire in anticipo attività e tempi
 PROGRAMMAZIONE,Pianificazione ordinata di attività
 PROGREDIRE,Avanzare verso condizioni migliori
 PROGRESSIONE,Successione che avanza secondo una regola
-PROGRESSO,Miglioramento rispetto a una condizione precedente
 PROGRESSO,Avanzamento delle conoscenze o della società
-PROIBITO,Vietato da una norma
+PROGRESSO,Miglioramento rispetto a una condizione precedente
 PROIBITO,Non consentito
+PROIBITO,Vietato da una norma
 PROIBIZIONE,Divieto imposto da un'autorità
 PROIBIZIONE,Norma che impedisce un comportamento
 PROIETTI,Il Gigi attore e doppiatore romano
@@ -2232,17 +2524,17 @@ PROLISSI,Troppo lunghi nel dire
 PROLISSO,Troppo lungo nel dire
 PROLUNGAMENTO,Estensione oltre il limite originario
 PROLUNGAMENTO,Tempo aggiunto alla durata prevista
-PROMEMORIA,Nota scritta per non dimenticare
 PROMEMORIA,Messaggio che richiama una scadenza
+PROMEMORIA,Nota scritta per non dimenticare
 PROMESSA,Impegno assunto verso qualcuno
 PROMETEO,Rubò il fuoco agli dei
 PROMETEO,Rubò il fuoco agli dei per gli uomini
 PROMETTENTE,Che lascia prevedere buoni risultati
 PROMETTENTE,Ricco di possibilità future
-PROMETTERE,Dare la propria parola
 PROMETTERE,Assumere un impegno per il futuro
-PROMONTORIO,Sporgenza di terra che entra nel mare
+PROMETTERE,Dare la propria parola
 PROMONTORIO,Da lassù la costa si osserva su più lati
+PROMONTORIO,Sporgenza di terra che entra nel mare
 PROMONTORIO,Sporgenza elevata che interrompe la linea costiera
 PROMOSSE,Fece passare alla classe superiore
 PROMOTORE,Chi avvia e sostiene un'iniziativa
@@ -2254,15 +2546,15 @@ PRONAO,Il vestibolo del tempio antico
 PRONOME,Sostituisce il nome senza farsene accorgere
 PRONOSTICO,Previsione sull'esito di una gara o di un evento
 PRONTA,Preparata e sollecita
-PRONTAMENTE,Senza indugio
 PRONTAMENTE,Con rapidità e disponibilità
+PRONTAMENTE,Senza indugio
 PRONTE,Preparate e sollecite
 PRONTEZZA,Rapidità nel capire e reagire
 PRONTI,Preparati e solleciti
 PRONTO,...?: la parola con cui si risponde al telefono
 PRONTO,Il...soccorso dell'ospedale
-PRONTO,Preparato e sollecito
 PRONTO,Preparato ad agire
+PRONTO,Preparato e sollecito
 PRONUNCIARE,Articolare parole con la voce
 PRONUNCIARE,Dichiarare formalmente una decisione
 PRONUNCIATO,Espresso ad alta voce
@@ -2276,13 +2568,13 @@ PROPOSITO,Obiettivo che ci si impegna a seguire
 PROPOSIZIONE,Enunciato dotato di senso compiuto
 PROPOSTA,Idea presentata perché sia valutata
 PROPOSTA,Offerta sottoposta a una decisione
-PROPRIAMENTE,Nel significato più esatto
 PROPRIAMENTE,A rigor di termini
-PROPRIETA,Diritto di possedere e disporre di un bene
+PROPRIAMENTE,Nel significato più esatto
 PROPRIETA,Caratteristica tipica di una sostanza o di un oggetto
+PROPRIETA,Diritto di possedere e disporre di un bene
 PROPRIETARIA,La titolare legale di una casa o di un oggetto
-PROPRIETARIO,Il titolare legale di un bene
 PROPRIETARIO,Chi dispone legalmente di una casa o di un terreno
+PROPRIETARIO,Il titolare legale di un bene
 PROPRIO,Appartenente a sé
 PROPRIO,Esattamente quello
 PRORA,La prua in voce letteraria
@@ -2298,13 +2590,13 @@ PROSCRISSE,Mise al bando
 PROSECCO,Lo spumante veneto da aperitivo
 PROSECUZIONE,Continuazione di un'attività già iniziata
 PROSECUZIONE,Parte che segue senza interruzione
-PROSEGUIMENTO,Sviluppo ulteriore di un percorso o lavoro
 PROSEGUIMENTO,Continuazione oltre un punto raggiunto
+PROSEGUIMENTO,Sviluppo ulteriore di un percorso o lavoro
 PROSEGUIRE,Continuare lungo un percorso o un'attività
 PROSEGUIRE,Continuare senza fermarsi
 PROSERPINA,La regina romana degli inferi
-PROSIEGUO,Parte successiva di un'attività
 PROSIEGUO,Ciò che viene dopo
+PROSIEGUO,Parte successiva di un'attività
 PROSODIA,Musica interna della lingua
 PROSOPOPEA,"Fa parlare assenti, morti o cose"
 PROSPERARE,Crescere in ricchezza o benessere
@@ -2314,8 +2606,8 @@ PROSPETTIVA,Modo di vedere una questione
 PROSPETTIVA,Tecnica per rappresentare la profondità
 PROSPETTO,Tabella sintetica di dati
 PROSPETTO,Vista frontale di un edificio
-PROSSIMITA,Vicinanza nello spazio o nel tempo
 PROSSIMITA,Distanza molto ridotta
+PROSSIMITA,Vicinanza nello spazio o nel tempo
 PROSSIMO,Che si trova o accadrà vicino
 PROSSIMO,La persona altrui da rispettare
 PROST,"Il Professore, pilota francese di F1"
@@ -2331,27 +2623,29 @@ PROTERVO,Arrogante e ostinato
 PROTESE,Allungò la mano
 PROTESTA,Manifestazione pubblica di dissenso
 PROTESTANTE,Appartenente a una confessione nata dalla Riforma
-PROTESTARE,Manifestare apertamente dissenso
 PROTESTARE,Dichiarare con forza la propria contrarietà
+PROTESTARE,Manifestare apertamente dissenso
 PROTETTORE,Chi difende o sostiene qualcuno
 PROTETTORE,Dispositivo che evita danni
 PROTEZIONE,Difesa contro rischi o aggressioni
 PROTOCOLLO,Insieme di regole per comunicare o operare
 PROTONE,Particella positiva del nucleo
-PROTOTIPO,Primo modello usato per prove e sviluppo
 PROTOTIPO,Esemplare originario da cui derivano altri
+PROTOTIPO,Primo modello usato per prove e sviluppo
 PROUST,Il Marcel della Recherche
 PROUST,Scrittore della memoria involontaria
 PROVA,La testimonianza che dimostra in giudizio
 PROVA,"Può essere un esperimento, un esame o un’audizione"
 PROVA,Serve a controllare se qualcosa funziona
 PROVAI,Tentai o sentii
-PROVARE,Tentare o sentire
-PROVARE,Tentare di fare qualcosa
 PROVARE,Sperimentare una sensazione
-PROVATO,Sperimentato direttamente
-PROVATO,Sostenuto da fatti verificabili
+PROVARE,Tentare di fare qualcosa
+PROVARE,Tentare o sentire
 PROVATO,Affaticato da una dura esperienza
+PROVATO,Sostenuto da fatti verificabili
+PROVATO,Sperimentato direttamente
+PROVE,Elementi usati per dimostrare un fatto
+PROVE,Tentativi fatti per verificare un risultato
 PROVENTI,Entrate ricavate da un'attività
 PROVENTI,Somme incassate
 PROVENZA,Terra francese di lavanda e luce
@@ -2363,20 +2657,20 @@ PROVO,Tento o sento
 PROVOCARE,Causare una reazione
 PROVOCARE,Stuzzicare per ottenere una risposta
 PROVOLONE,Formaggio a pasta filata
-PROVVEDERE,Occuparsi concretamente di una necessità
 PROVVEDERE,Fornire ciò che serve
+PROVVEDERE,Occuparsi concretamente di una necessità
 PROVVEDIMENTO,Decisione ufficiale di un'autorità
 PROVVEDIMENTO,Misura adottata per risolvere una situazione
 PROVVEDUTO,Dotato di ciò che occorre
 PROVVEDUTO,Istruito e capace di cavarsela
 PROVVIDE,Diede il necessario
-PROVVIDENZA,Intervento favorevole e quasi miracoloso
 PROVVIDENZA,Aiuto inatteso che risolve una difficoltà
+PROVVIDENZA,Intervento favorevole e quasi miracoloso
 PROVVISORIAMENTE,Per un periodo limitato
 PROVVISORIO,Destinato a durare solo per un periodo
 PROVVISORIO,In attesa di una soluzione definitiva
-PROVVISTA,Scorta di beni necessari
 PROVVISTA,Quantità accumulata per il futuro
+PROVVISTA,Scorta di beni necessari
 PROVVISTO,Fornito di ciò che serve
 PROVVISTO,Munito dell'occorrente
 PRUA,"Davanti della nave, dove l'acqua si apre"
@@ -2390,9 +2684,9 @@ PSEUDONIMO,Nome falso scelto per apparire
 PSI,L'unità di pressione delle gomme
 PSI,Ventitreesima dell'alfabeto greco
 PSICHE,Amata da Eros dopo prove difficili
+PSICHE,Insieme dei processi mentali e affettivi
 PSICHE,L'amata di Eros
 PSICHE,Lo specchio basculante da camera
-PSICHE,Insieme dei processi mentali e affettivi
 PSICHIATRIA,La medicina dei disturbi mentali
 PSICHICO,Relativo alla mente e ai processi interiori
 PSICOLOGICO,Relativo al comportamento e alla vita mentale
@@ -2429,29 +2723,33 @@ PUGILE,Professionista dei guanti chiusi
 PUGIN,Architetto del neogotico inglese
 PUGLIA,Tacco d'Italia tra ulivi e trulli
 PUGNALE,Arma corta a lama
-PUGNALE,Si impugna a distanza ravvicinata
 PUGNALE,Ha una lama breve adatta a colpire di punta
+PUGNALE,Si impugna a distanza ravvicinata
+PUGNI,Colpi sferrati nel combattimento
+PUGNI,Mani chiuse con le dita ripiegate
 PUGNO,Il colpo dato con la mano chiusa
-PUGNO,Una manciata: un... di persone
 PUGNO,Si forma serrando tutte le dita
+PUGNO,Una manciata: un... di persone
 PULA,L'involucro leggero del chicco di grano
 PULA,"La polizia, in gergo"
 PULCE,Il dubbio insinuato: la... nell'orecchio
 PULCE,Insetto saltatore e dubbio mentale
+PULCI,Difetti cercati con attenzione minuziosa
+PULCI,Piccoli insetti parassiti che saltano
 PULCINELLA,Maschera napoletana dal naso adunco
 PULCINO,Bagnato come un...: fradicio
 PULCINO,Piccolo della gallina
 PULEDRO,Giovane cavallo ancora inesperto
+PULIRE,"Eliminare macchie, polvere e residui"
 PULIRE,Togliere lo sporco da una superficie
 PULIRE,Togliere sporco e impurità
-PULIRE,"Eliminare macchie, polvere e residui"
 PULISCE,Rende pulito
 PULISCO,Rendo pulito
 PULISCONO,Rendono pulito
-PULITO,Reso lindo
 PULITO,Privo di sporco
-PULL,"Maglione leggero, spesso senza apertura"
+PULITO,Reso lindo
 PULL,Capo di lana da infilare dalla testa
+PULL,"Maglione leggero, spesso senza apertura"
 PULLMAN,Autobus destinato a viaggi di gruppo
 PULLMAN,Mezzo usato per gite e lunghe tratte
 PULLOVER,Maglia da infilare dalla testa
@@ -2477,20 +2775,22 @@ PUNGITOPO,Pianta natalizia dalle bacche rosse
 PUNGITOPO,Una pianta spinosa dalle bacche rosse
 PUNIRE,Castigare chi ha sbagliato
 PUNISHER,Il vendicatore Marvel dal teschio sul petto
-PUNIZIONE,Tiro concesso per un fallo
-PUNIZIONE,Sanzione inflitta per una colpa
 PUNIZIONE,Nel calcio riprende il gioco dopo un’infrazione
+PUNIZIONE,Sanzione inflitta per una colpa
+PUNIZIONE,Tiro concesso per un fallo
 PUNK,Genere rock ribelle e grezzo
 PUNSE,Diede una puntura
+PUNTA,Cima estrema di un rilievo
 PUNTA,"Estremità, ballerina o attaccante"
 PUNTA,L'attaccante centrale
 PUNTA,L'ora di... del traffico
-PUNTA,Cima estrema di un rilievo
 PUNTATA,Episodio di una serie
 PUNTATA,Somma rischiata in un gioco
 PUNTEGGIO,Totale dei punti ottenuti
 PUNTERUOLA,Larva che buca il legno
 PUNTERUOLO,Insetto che rovina palme e granai
+PUNTI,Segni minuti tracciati su una superficie
+PUNTI,Valori ottenuti in una gara o in un gioco
 PUNTINA,Il chiodino per appendere i fogli
 PUNTINO,Segno piccolissimo e rotondo
 PUNTO,Il momento preciso: a buon...
@@ -2503,19 +2803,19 @@ PUNTUALITA,Abitudine a rispettare l'orario
 PUNTUALITA,Precisione nell'arrivare al momento stabilito
 PUNTURA,Piccola ferita causata da un ago o insetto
 PUPA,Bambola o ragazza in voce familiare
-PUPA,Lo stadio dell'insetto chiuso nel bozzolo
 PUPA,"Giovane donna, in voce confidenziale"
+PUPA,Lo stadio dell'insetto chiuso nel bozzolo
 PUPAZZO,"Figura di stoffa, legno o neve"
-PUPAZZO,"Può essere di stoffa, legno oppure neve"
 PUPAZZO,Persona manovrata da altri
+PUPAZZO,"Può essere di stoffa, legno oppure neve"
 PUPILLA,Apertura nera dell'occhio
 PUPILLA,"La beniamina, la prediletta"
 PURA,Senza mescolanze
-PURAMENTE,Soltanto e senza altri fini
 PURAMENTE,Senza mescolare motivazioni o elementi estranei
+PURAMENTE,Soltanto e senza altri fini
 PURE,"Anche, perfino"
-PURE,Senza mescolanze
 PURE,Introduce un elemento che si aggiunge agli altri
+PURE,Senza mescolanze
 PUREA,Il passato cremoso di patate
 PUREE,Passato cremoso di patate o verdure
 PUREZZA,Assenza di contaminazioni
@@ -2524,23 +2824,23 @@ PURI,Senza mescolanze
 PURIFICAZIONE,Eliminazione di impurità
 PURIFICAZIONE,Rito destinato a liberare da una contaminazione simbolica
 PURO,Per...caso: per pura combinazione
-PURO,Senza miscele né macchie
 PURO,Privo di impurità
+PURO,Senza miscele né macchie
 PURTROPPO,Introduce un fatto spiacevole e inevitabile
 PUSKIN,Autore di versi russo dell'Onegin
 PUSKIN,Poeta russo dell'Onegin
-PUTIFERIO,Il gran chiasso e disordine
 PUTIFERIO,Grande confusione accompagnata da proteste
+PUTIFERIO,Il gran chiasso e disordine
 PUTIFERIO,Scandalo rumoroso
 PUTTANESCA,"La pasta con olive, capperi e acciughe"
 PUYOL,"Carles, difensore spagnolo campione del mondo 2010"
-PUZZA,Si avverte prima ancora di individuarne la fonte
 PUZZA,Odore che denuncia
 PUZZA,Odore molto sgradevole
+PUZZA,Si avverte prima ancora di individuarne la fonte
 PUZZLE,Gioco di tessere da incastrare
-PUZZO,Tanfo che resta nell’aria
 PUZZO,Cattivo odore persistente
 PUZZO,Sentore che costringe ad aprire le finestre
+PUZZO,Tanfo che resta nell’aria
 PUZZOLA,Mustelide dall'odore sgradevole
 PV,Iniziali del poeta Verlaine
 PV,Sigla automobilistica di Pavia
